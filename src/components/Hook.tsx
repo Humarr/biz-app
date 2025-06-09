@@ -17,9 +17,9 @@ const HookSection = () => {
           You Don't Want to Start a Business... You Want to Escape a Life That Feels Like a Slow-Motion Car Crash.
         </h1> */}
         
-        <p className="text-xl mb-16 font-bold text-center">
+        {/* <p className="text-xl mb-16 font-bold text-center">
           (And every "expert" telling you to just "take action" is making things worse.)
-        </p>
+        </p> */}
 
         <h3 className="mb-6 mt-16">Let me guess.</h3>
 
