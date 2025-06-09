@@ -11,8 +11,11 @@ const HookSection = () => {
         </div>
 
         <h1 className="text-accent text-center">
-          You Don't Want to Start a Business... You Want to Escape a Life That Feels Like a Slow-Motion Car Crash.
+        Fake gurus made millions telling people like you to ‘just start.’ Here’s what they don’t say when the camera’s off.
         </h1>
+        {/* <h1 className="text-accent text-center">
+          You Don't Want to Start a Business... You Want to Escape a Life That Feels Like a Slow-Motion Car Crash.
+        </h1> */}
         
         <p className="text-xl mb-16 font-bold text-center">
           (And every "expert" telling you to just "take action" is making things worse.)
