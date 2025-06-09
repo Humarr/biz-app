@@ -1,6 +1,7 @@
 import Hook from "@/components/Hook";
 import Lead from "@/components/Lead";
 import ProblemStory from "@/components/ProblemStory";
+import Rant from "@/components/Rant";
 
 export default function Sales() {
     return (
@@ -8,6 +9,7 @@ export default function Sales() {
             <Hook />
             <Lead />
             <ProblemStory />
+            <Rant />
         </>
     );
 }
