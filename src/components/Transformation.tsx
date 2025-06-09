@@ -3,7 +3,7 @@ import React from 'react';
 
 const TransformationSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <div className="scribble-note mb-8">
           This is the "movie montage" moment — the gritty before... and the glorious after. Paint it with detail. Show the internal change, not just the external one.

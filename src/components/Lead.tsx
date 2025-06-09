@@ -3,7 +3,7 @@ import React from 'react';
 
 const LeadSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         {/* <h2 className="mb-8 text-center">
           Brace yourself. This is the part where I break into your house, sit on your couch, and start narrating your life story better than your therapist ever could…
@@ -166,19 +166,19 @@ const LeadSection = () => {
 
         <ul className="mb-8 space-y-3">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🪤</span>
+            <span className="text-accent mr-2">🪤</span>
             Buy this overpriced course
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🪤</span>
+            <span className="text-accent mr-2">🪤</span>
             Join this mastermind
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🪤</span>
+            <span className="text-accent mr-2">🪤</span>
             Sign up for this monthly software you don't need
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🪤</span>
+            <span className="text-accent mr-2">🪤</span>
             Spend money you don't have
           </li>
           <li className="flex items-start">

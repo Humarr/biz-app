@@ -3,7 +3,7 @@ import React from 'react';
 
 const BonusesSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <h1 className="mb-8 text-gradient">Bonuses So Good They Feel Illegal</h1>
         <p className="mb-8">
@@ -41,8 +41,8 @@ const BonusesSection = () => {
           {/* Bonus 1 */}
           <div className="card">
             <div className="flex items-start mb-4">
-              <span className="text-[rgb(var(--accent))] text-2xl mr-3">🎁</span>
-              <h3 className="text-[rgb(var(--accent))]">BONUS #1: Impulse Offer Alchemy</h3>
+              <span className="text-accent text-2xl mr-3">🎁</span>
+              <h3 className="text-accent">BONUS #1: Impulse Offer Alchemy</h3>
             </div>
             <h4 className="mb-4 italic">"How to Sell ANYTHING to ANYONE (Even If You've Never Sold Before)"</h4>
             <p className="mb-4">
@@ -70,8 +70,8 @@ const BonusesSection = () => {
           {/* Bonus 2 */}
           <div className="card">
             <div className="flex items-start mb-4">
-              <span className="text-[rgb(var(--accent))] text-2xl mr-3">🎁</span>
-              <h3 className="text-[rgb(var(--accent))]">BONUS #2: Landing Pages That Sell (Not Sedate)</h3>
+              <span className="text-accent text-2xl mr-3">🎁</span>
+              <h3 className="text-accent">BONUS #2: Landing Pages That Sell (Not Sedate)</h3>
             </div>
             <h4 className="mb-4 italic">"Write Like a Psycho. Sell Like a Priest."</h4>
             <p className="mb-4">
@@ -97,8 +97,8 @@ const BonusesSection = () => {
           {/* Bonus 3 */}
           <div className="card">
             <div className="flex items-start mb-4">
-              <span className="text-[rgb(var(--accent))] text-2xl mr-3">🎁</span>
-              <h3 className="text-[rgb(var(--accent))]">BONUS #3: The Broke, Hungry, Angry Blueprint</h3>
+              <span className="text-accent text-2xl mr-3">🎁</span>
+              <h3 className="text-accent">BONUS #3: The Broke, Hungry, Angry Blueprint</h3>
             </div>
             <h4 className="mb-4 italic">"How to Start With ₦0 and Make Your First Real Money Online"</h4>
             <p className="mb-4">
@@ -129,8 +129,8 @@ const BonusesSection = () => {
           {/* Bonus 4 */}
           <div className="card">
             <div className="flex items-start mb-4">
-              <span className="text-[rgb(var(--accent))] text-2xl mr-3">🎁</span>
-              <h3 className="text-[rgb(var(--accent))]">BONUS #4: The Money-Back Guarantee That Hurts My Wallet</h3>
+              <span className="text-accent text-2xl mr-3">🎁</span>
+              <h3 className="text-accent">BONUS #4: The Money-Back Guarantee That Hurts My Wallet</h3>
             </div>
             <h4 className="mb-4 italic">"If You Don't Feel Punched, You Don't Pay."</h4>
             <p className="mb-4">
@@ -164,8 +164,8 @@ const BonusesSection = () => {
           {/* Bonus 5 */}
           <div className="card">
             <div className="flex items-start mb-4">
-              <span className="text-[rgb(var(--accent))] text-2xl mr-3">🎁</span>
-              <h3 className="text-[rgb(var(--accent))]">BONUS #5: Underground Telegram Access (Coming Soon)</h3>
+              <span className="text-accent text-2xl mr-3">🎁</span>
+              <h3 className="text-accent">BONUS #5: Underground Telegram Access (Coming Soon)</h3>
             </div>
             <h4 className="mb-4 italic">"Where The Smart (But Broke) Entrepreneurs Hang Out"</h4>
             <p className="mb-4">
@@ -197,27 +197,27 @@ const BonusesSection = () => {
           </p>
           <ul className="mb-8 space-y-3 text-xl">
             <li className="flex items-start">
-              <span className="text-[rgb(var(--accent))] mr-2">✅</span>
+              <span className="text-accent mr-2">✅</span>
               <span>The 37-Page Rant that slaps you into business clarity</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[rgb(var(--accent))] mr-2">✅</span>
+              <span className="text-accent mr-2">✅</span>
               <span>Impulse Offer Alchemy</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[rgb(var(--accent))] mr-2">✅</span>
+              <span className="text-accent mr-2">✅</span>
               <span>Landing Pages That Sell</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[rgb(var(--accent))] mr-2">✅</span>
+              <span className="text-accent mr-2">✅</span>
               <span>The Broke, Hungry, Angry Blueprint</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[rgb(var(--accent))] mr-2">✅</span>
+              <span className="text-accent mr-2">✅</span>
               <span>A No-Risk Guarantee</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[rgb(var(--accent))] mr-2">✅</span>
+              <span className="text-accent mr-2">✅</span>
               <span>Access to the Telegram Circle (when ready)</span>
             </li>
           </ul>

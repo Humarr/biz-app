@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProblemStorySection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <div className="scribble-note mb-8">
           This is where we crawl inside their skull, light a fire, and roast every false hope they've ever believed about "starting a business"... while laughing at the absurdity of it all.
@@ -69,15 +69,15 @@ const ProblemStorySection = () => {
 
         <ul className="mb-8 space-y-3">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             That "mindset" doesn't pay for data.
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             That "matcha" costs more than your lunch budget for a week.
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             That "dropshipping" requires money, marketing, and mental gymnastics.
           </li>
         </ul>
@@ -121,19 +121,19 @@ const ProblemStorySection = () => {
 
         <ul className="mb-8 space-y-3">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Trying to build a brand on Instagram with 48 followers
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Writing cold DMs that get left on read
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Watching other people "blow" while you're stuck in a feedback loop of pain
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Feeling like an idiot every time you hear the phrase "just start" from someone who clearly started 5 years ago with ₦2M in seed funding and an uncle in the oil industry
           </li>
         </ul>
@@ -252,19 +252,19 @@ const ProblemStorySection = () => {
 
         <ul className="mb-8 space-y-3">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Working some mindless 9-5 you hate
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Living paycheck to paycheck till you die
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Constantly explaining to family why "you're still trying to figure things out"
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Watching your peers get married, buy cars, and travel — while you're stuck googling "how to make 50k fast without selling kidney"
           </li>
         </ul>

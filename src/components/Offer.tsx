@@ -3,7 +3,7 @@ import React from 'react';
 
 const OfferTeaseSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <h2 className="mb-8">So you've made it this far.</h2>
 
@@ -137,23 +137,23 @@ const OfferTeaseSection = () => {
 
         <ul className="mb-8 space-y-3">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Why most beginners fail before they even begin
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Why "just start" is TERRIBLE advice when you have no idea where to start
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Why passion is optional — but positioning is not
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             Why shiny tools, 2-week "funnels," and Canva logos don't matter if you're solving the wrong problem
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">•</span>
+            <span className="text-accent mr-2">•</span>
             And why the most profitable skill you can have as a beginner has nothing to do with design, marketing, or coding
           </li>
         </ul>
@@ -171,23 +171,23 @@ const OfferTeaseSection = () => {
 
         <ul className="mb-8 space-y-4">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">📌</span>
+            <span className="text-accent mr-2">📌</span>
             <span>You'll walk away knowing what kind of business you should start — based on your actual reality, not fantasy.</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">📌</span>
+            <span className="text-accent mr-2">📌</span>
             <span>You'll get crystal-clear on what mistakes to avoid like a plague — especially the ones that masquerade as "smart moves."</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">📌</span>
+            <span className="text-accent mr-2">📌</span>
             <span>You'll get a practical, simple system for creating offers people will actually pay for (without spending months "building" something nobody wants).</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">📌</span>
+            <span className="text-accent mr-2">📌</span>
             <span>You'll learn how to test ideas quickly without building a website, making a logo, or learning HTML (trust me, I've done it all wrong before).</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">📌</span>
+            <span className="text-accent mr-2">📌</span>
             <span>You'll understand how to beat your self-doubt and decision paralysis — not with "mindset" fluff, but with a real strategy that leaves zero wiggle room for procrastination.</span>
           </li>
         </ul>

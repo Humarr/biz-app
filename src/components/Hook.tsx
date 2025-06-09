@@ -51,7 +51,7 @@ const HookSection = () => {
           <li>AND found time to meditate before sunrise in Bali</li>
         </ul>
 
-        <p className="mb-6 font-bold text-[rgb(var(--accent))]">
+        <p className="mb-6 font-bold text-accent">
           Meanwhile, you?
         </p>
 
@@ -78,15 +78,15 @@ const HookSection = () => {
 
         <ul className="mb-8 space-y-3">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🔴</span>
+            <span className="text-accent mr-2">🔴</span>
             "How I Made $12,498 In My Sleep While Eating Cornflakes"
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🔴</span>
+            <span className="text-accent mr-2">🔴</span>
             "Top 10 Side Hustles That Will Make You A Millionaire (No Experience Required)"
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🔴</span>
+            <span className="text-accent mr-2">🔴</span>
             "Dropship This One Weird Product That's Making Teens Rich"
           </li>
         </ul>
