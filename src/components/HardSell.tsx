@@ -3,7 +3,7 @@ import React from 'react';
 
 const HardSellSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <h2 className="mb-8">Alright.</h2>
 
@@ -100,23 +100,23 @@ const HardSellSection = () => {
 
         <ul className="mb-8 space-y-4">
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🧠</span>
+            <span className="text-accent mr-2">🧠</span>
             <span>37 pages of concentrated business wisdom that'll make you say "Wait — WHY did nobody tell me this before?"</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🧠</span>
+            <span className="text-accent mr-2">🧠</span>
             <span>Zero fluff, zero filler, zero page-wasting nonsense. Every paragraph punches. Every sentence matters. You won't need coffee. The words will slap your neurons awake.</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🧠</span>
+            <span className="text-accent mr-2">🧠</span>
             <span>A brutally honest breakdown of what to do FIRST — so you stop overthinking, over-planning, and over-optimizing nothing.</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🧠</span>
+            <span className="text-accent mr-2">🧠</span>
             <span>A battle-tested decision-making tool that helps you choose the RIGHT idea, FAST — even if you have 17 ideas flying around in your head like a mosquito rave.</span>
           </li>
           <li className="flex items-start">
-            <span className="text-[rgb(var(--accent))] mr-2">🧠</span>
+            <span className="text-accent mr-2">🧠</span>
             <span>A blueprint for getting your FIRST sale — the kind that buys you a quiet grin at 1am when everyone else is asleep and you're staring at your screen thinking, "It's working..."</span>
           </li>
         </ul>
@@ -138,7 +138,7 @@ const HardSellSection = () => {
         </p>
 
         <div className="card mb-8">
-          <h3 className="text-[rgb(var(--accent))] mb-4">💣 Bonus 1: "Impulse Offer Alchemy"</h3>
+          <h3 className="text-accent mb-4">💣 Bonus 1: "Impulse Offer Alchemy"</h3>
           <p>
             A mini-guide that shows you how to craft product or service offers so juicy, they make people buy on impulse.
             (No, you don't need design. No, you don't need testimonials. No, you don't need experience.)
@@ -150,7 +150,7 @@ const HardSellSection = () => {
         </div>
 
         <div className="card mb-8">
-          <h3 className="text-[rgb(var(--accent))] mb-4">💣 Bonus 2: "Landing Pages That Sell (Not Sedate)"</h3>
+          <h3 className="text-accent mb-4">💣 Bonus 2: "Landing Pages That Sell (Not Sedate)"</h3>
           <p>
             Most landing pages are sleeping pills.
             This guide shows you how to write one that grabs attention, melts objections, and makes them smash that buy button — all without sounding like a desperate salesperson.
@@ -159,7 +159,7 @@ const HardSellSection = () => {
         </div>
 
         <div className="card mb-8">
-          <h3 className="text-[rgb(var(--accent))] mb-4">💣 Bonus 3: "The Broke, Hungry, Angry Blueprint"</h3>
+          <h3 className="text-accent mb-4">💣 Bonus 3: "The Broke, Hungry, Angry Blueprint"</h3>
           <p>
             You've got ₦0, no skills, no connections, no mentor... and you're boiling with frustration.
             This guide was built for you.
@@ -172,8 +172,8 @@ const HardSellSection = () => {
           I'm backing all of this with the most straightforward guarantee you've ever seen.
         </p>
 
-        <div className="bg-[rgb(var(--note))] dark:bg-gray-800 rounded-xl p-6 mb-8 border-l-4 border-[rgb(var(--accent))]">
-          <h1 className="text-[rgb(var(--accent))] mb-4">💥 THE "NO EXCUSES, NO MERCY" MONEY-BACK GUARANTEE 💥</h1>
+        <div className="bg-note rounded-xl p-6 mb-8 border-l-4 border-accent">
+          <h1 className="text-accent mb-4">💥 THE "NO EXCUSES, NO MERCY" MONEY-BACK GUARANTEE 💥</h1>
           <p className="mb-4">
             If you buy this book...<br />
             Read it...<br />
