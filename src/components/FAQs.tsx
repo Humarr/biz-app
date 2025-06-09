@@ -297,6 +297,27 @@ const FAQSection = () => {
               Told like a friend. Delivered like a weapon.
             </p>
           </div>
+          <div className="card">
+            <h3 className="text-accent mb-4">❓ "Will this teach me how to become a millionaire overnight?"</h3>
+            <p>
+              <span className="font-bold">Answer:</span><br />
+              Only if you rob a bank after reading it.
+            </p>
+          </div>
+          <div className="card">
+            <h3 className="text-accent mb-4">❓ "Is it like all those free YouTube videos?"</h3>
+            <p>
+              <span className="font-bold">Answer:</span><br />
+              No. Those are where the lies live.
+            </p>
+          </div>
+          <div className="card">
+            <h3 className="text-accent mb-4">❓ "Do I need a business idea before reading it?"</h3>
+            <p>
+              <span className="font-bold">Answer:</span><br />
+              No. In fact, it’s better if you don’t — so we can stop you from picking a dumb one.
+            </p>
+          </div>
         </div>
 
         <div className="text-center mt-12 mb-8">
