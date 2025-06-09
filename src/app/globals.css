@@ -106,6 +106,14 @@ p {
   color: white;
   padding: 0.75rem 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .btn-secondary {
@@ -115,7 +123,14 @@ p {
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   transition: all 0.3s ease;
+  cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover {
+  background-color: var(--highlight);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* ====== Components ====== */
@@ -153,7 +168,7 @@ p {
 
 /* ====== Text Gradients & Emphasis ====== */
 .text-gradient {
-  background-image: linear-gradient(to right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to right, var(--accent), #8a1414);
   background-clip: text;
   color: transparent;
 }
