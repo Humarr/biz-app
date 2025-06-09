@@ -5,6 +5,8 @@ import Rant from "@/components/Rant";
 import Hope from "@/components/Hope";
 import Transformation from "@/components/Transformation";
 import OfferTeaseSection from "@/components/Offer";
+import HardSellSection from "@/components/HardSell";
+
 
 export default function Sales() {
     return (
@@ -16,6 +18,7 @@ export default function Sales() {
             <Hope />
             <Transformation />
             <OfferTeaseSection />
+            <HardSellSection />
         </>
     );
 }
