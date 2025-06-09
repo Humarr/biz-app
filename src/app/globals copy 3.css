@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/* ====== Core Variables ====== */
+:root {
+  /* Brand Colors - replaced */
+  --primary: 45 45 45;           /* from --color-primary */
+  --secondary: 120 113 108;      /* from --color-secondary */
+  --accent: 217 119 6;           /* from --color-accent */
+  --background: 255 251 235;     /* from --color-background */
+  --surface: 254 243 199;        /* from --color-surface */
+
+
+
+}
+
+/* ====== Theme Definition ====== */
+@theme {
+  /* Core Colors */
+  --color-primary: rgb(var(--primary));
+  --color-secondary: rgb(var(--secondary));
+  --color-accent: rgb(var(--accent));
+  --color-background: rgb(var(--background));
+  --color-surface: rgb(var(--surface));
+
+
+
+
+  --font-poppins: var(--font-poppins);
+  --font-inter: var(--font-inter);
+}
+
+/* ====== Dark Mode ====== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --light: 17 24 39;        /* gray-900 */
+    --dark: 249 250 251;      /* gray-50 */
+   }
+}
+
+/* ====== Base Styles ====== */
+body {
+  @apply bg-background text-primary font-sans antialiased;
+  font-family: var(--font-inter);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+  @apply font-bold tracking-tight leading-tight;
+}
+
+h1 { @apply text-4xl md:text-6xl; }
+h2 { @apply text-3xl md:text-5xl; }
+h3 { @apply text-2xl md:text-4xl; }
+h4 { @apply text-xl md:text-3xl; }
+
+/* ====== Components ====== */
+/* Buttons */
+.btn {
+  @apply inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white py-3 px-6 shadow-lg hover:shadow-xl;
+  background-image: linear-gradient(to right, rgb(var(--primary)), rgb(var(--primary-dark)));
+  @apply hover:scale-[1.02] active:scale-95;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white py-3 px-6 shadow-lg hover:shadow-xl;
+  background-image: linear-gradient(to right, rgb(var(--secondary)), rgb(219, 39, 119));
+  @apply hover:scale-[1.02] active:scale-95;
+}
+
+/* Cards */
+.card {
+  @apply bg-surface dark:bg-gray-800 rounded-xl overflow-hidden;
+  @apply border border-gray-200 dark:border-gray-700;
+  @apply transition-all duration-300 hover:shadow-md;
+}
+
+/* Text Gradients */
+.text-gradient {
+  background-image: linear-gradient(to right, rgb(var(--primary)), rgb(var(--secondary)));
+  @apply bg-clip-text text-transparent;
+}
+
+/* ====== Animations ====== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* ====== Utilities ====== */
+.container-narrow {
+  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section-py {
+  @apply py-16 md:py-24;
+}
+
+/* ====== Scrollbars ====== */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+/* ====== Selection ====== */
+::selection {
+  @apply bg-primary/20 text-primary dark:text-secondary;
+}
