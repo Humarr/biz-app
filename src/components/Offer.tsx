@@ -196,8 +196,8 @@ const OfferTeaseSection = () => {
           And best of all?
         </p>
 
-        <div className="bg-[rgb(var(--note))] dark:bg-gray-800 rounded-xl p-6 mb-8 border-l-4 border-[rgb(var(--accent))]">
-          <h3 className="text-[rgb(var(--accent))] mb-4">📌</h3>
+        <div className="bg-note rounded-xl p-6 mb-8 border-l-4 border-accent">
+          <h3 className="text-accent mb-4">📌</h3>
           <p className="text-xl">
             You'll feel in control again.
           </p>
