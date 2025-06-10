@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 // components/sections/ProblemStory.tsx
 
 import React from 'react';
