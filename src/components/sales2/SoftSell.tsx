@@ -3,7 +3,7 @@ import React from 'react';
 
 const SoftSellCTASection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <div className="scribble-note mb-8">
           💣 SOFT SELL + CTA
