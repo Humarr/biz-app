@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import router from 'next/router';
 import React from 'react';
 
 const OfferTeaseSection = () => {
@@ -150,7 +151,7 @@ const OfferTeaseSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="btn-primary text-xl px-8 py-4">
+          <button onClick={() => router.push('/payment')} className="btn-primary text-xl px-8 py-4">
             SHOW ME THE DAMN MANUAL
           </button>
         </div>

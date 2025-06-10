@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import router from 'next/router';
 import React from 'react';
 
 const SoftSellCTASection = () => {
@@ -189,7 +190,7 @@ const SoftSellCTASection = () => {
         </div>
 
         <div className="text-center">
-          <button className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
+          <button onClick={() => router.push('/payment')} className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
             👉🏾 Yes, I'm in. Gimme the Rant Book Now
           </button>
           <p className="text-secondary">
