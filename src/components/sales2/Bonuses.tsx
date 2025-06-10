@@ -4,7 +4,7 @@ import React from 'react';
 
 const BonusSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-headline2 uppercase">
