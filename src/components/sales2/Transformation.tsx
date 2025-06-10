@@ -188,7 +188,7 @@ const TransformationSection = () => {
           </p>
         </div>
 
-        <div className="card mb-12">
+        <div className="card mb-12 flex-wrap">
           <h3 className="text-[rgb(var(--accent))] mb-4">💰 Act 5: The Transformation</h3>
           <p className="mb-4">
             Now, when people ask what you do...
