@@ -236,9 +236,9 @@ const TransformationSection = () => {
           And this?
         </h2>
 
-        <h1 className="mb-8 text-gradient">
+        <h2 className="mb-8 text-gradient">
           This whole transformation?
-        </h1>
+        </h2>
 
         <p className="mb-8">
           Can be yours too.
