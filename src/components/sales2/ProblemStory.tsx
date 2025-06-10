@@ -6,61 +6,61 @@ const ProblemStorySection = () => {
     <section className="section-py bg-background">
       <div className="container-narrow">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-headline2 uppercase text-accent mb-2">
+          <h2 className="text-accent mb-2">
             💀 PROBLEM STORY:
           </h2>
-          <h3 className="text-3xl font-headline2 uppercase text-primary">
+          <h3 className="text-primary">
             "You're Not Lazy. You're Just Drowning."
           </h3>
         </div>
 
         <div className="space-y-8">
-          <p className="text-xl text-secondary">
+          <p className="">
             Let me tell you a sad little story.
           </p>
           
-          <p className="text-xl text-secondary">
+          <p className="">
             It starts like most of yours did.
           </p>
 
           <div className="bg-note p-6 rounded-lg">
-            <p className="text-primary">
+            <p className="">
               You were scrolling one night, minding your own business, when a slick-talking dude in a Tesla popped up and said:
             </p>
-            <p className="text-accent font-bold text-xl mt-2">
+            <p className="font-bold mt-2">
               "You can start a 6-figure business with just your phone!"
             </p>
           </div>
 
-          <p className="text-secondary">
+          <p className="">
             He had white teeth.<br />
             A MacBook.<br />
             Maybe even some biceps.
           </p>
 
-          <p className="text-secondary">
+          <p className="">
             He seemed like he knew what he was doing.<br />
             And he said you could do it too — "Just start!"
           </p>
 
           <div className="highlight px-4 py-2 inline-block">
-            <p className="text-primary font-bold">
+            <p className=" font-bold">
               So you did.<br />
               You thought, "Okay, I'll just start."
             </p>
           </div>
 
-          <ul className="list-disc pl-6 text-secondary space-y-2">
+          <ul className="list-disc pl-6 space-y-2">
             <li>Maybe you picked a niche.</li>
             <li>Maybe you created a page.</li>
             <li>Maybe you bought a course, got a Canva subscription, registered an Instagram handle, joined a Telegram group, and typed "I'm ready boss 💪🔥" in the comments like a good soldier.</li>
           </ul>
 
-          <h4 className="text-2xl font-headline2 uppercase text-primary mt-8 mb-4">
+          <h4 className="mt-8 mb-4">
             And then?
           </h4>
 
-          <p className="text-secondary">
+          <p className="">
             You waited.<br />
             You posted.<br />
             You "added value."
@@ -77,34 +77,34 @@ const ProblemStorySection = () => {
             </p>
           </div>
 
-          <h4 className="text-2xl font-headline2 uppercase text-primary mt-12 mb-4">
+          <h4 className=" text-primary mt-12 mb-4">
             Here's the thing nobody tells you:
           </h4>
 
-          <p className="text-xl text-primary font-bold">
+          <p className="font-bold">
             "Just start" only works when you already have leverage.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 my-8">
             <div className="bg-note p-4 rounded-lg">
-              <h5 className="font-headline2 uppercase text-primary mb-2">
+              <h5 className="text-primary mb-2">
                 If you have:
               </h5>
-              <ul className="list-disc pl-5 space-y-1 text-secondary">
+              <ul className="list-disc pl-5 space-y-1">
                 <li>A rich uncle,</li>
                 <li>A personal brand with 10k followers,</li>
                 <li>Or a job that lets you fail comfortably...</li>
               </ul>
-              <p className="mt-2 text-primary font-bold">
+              <p className="mt-2 font-bold">
                 "Just start" is cute advice.
               </p>
             </div>
 
             <div className="bg-accent/10 p-4 rounded-lg border border-accent">
-              <h5 className="font-headline2 uppercase text-primary mb-2">
+              <h5 className="text-primary mb-2">
                 But if you're:
               </h5>
-              <ul className="list-disc pl-5 space-y-1 text-secondary">
+              <ul className="list-disc pl-5 space-y-1">
                 <li>Broke,</li>
                 <li>Overwhelmed,</li>
                 <li>And one bad decision away from giving up forever?</li>
@@ -115,26 +115,26 @@ const ProblemStorySection = () => {
             </div>
           </div>
 
-          <p className="text-xl text-primary font-bold">
+          <p className="font-bold">
             Because you're not actually lazy.<br />
             You're just disoriented.
           </p>
 
-          <p className="text-secondary">
+          <p className="">
             You've been force-fed a diet of half-baked tactics, aesthetic hustle reels, and productivity porn...
           </p>
 
           <div className="scribble-note my-6">
-            <p className="font-scribble text-primary text-xl">
+            <p className="font-scribble">
               But no one told you what comes first.
             </p>
           </div>
 
           <div className="bg-note p-6 rounded-lg my-8">
-            <h5 className="font-headline2 uppercase text-primary mb-4">
+            <h5 className="text-primary mb-4">
               No one told you:
             </h5>
-            <ul className="list-disc pl-6 space-y-2 text-secondary">
+            <ul className="list-disc pl-6 space-y-2">
               <li>How to test your business idea without sinking money into it.</li>
               <li>How to know what's worth selling.</li>
               <li>How to price like you mean it.</li>
@@ -142,30 +142,30 @@ const ProblemStorySection = () => {
             </ul>
           </div>
 
-          <p className="text-secondary">
+          <p className="">
             No one showed you the actual order of operations for going from "I'm broke" to "I'm profitable."
           </p>
 
           <div className="highlight px-4 py-2 inline-block my-4">
-            <p className="text-primary font-bold">
+            <p className="font-bold">
               Instead, they tossed you into the jungle with a machete and a YouTube playlist...<br />
               ...and told you to "trust the process."
             </p>
           </div>
 
-          <h4 className="text-2xl font-headline2 uppercase text-primary mt-12 mb-4">
+          <h4 className="text-primary mt-12 mb-4">
             And now?
           </h4>
 
-          <p className="text-secondary">
+          <p className="">
             You've watched 27 hours of videos, subscribed to 11 newsletters, posted 17 times, made ₦3,250 in total...
           </p>
 
           <div className="bg-accent/10 p-4 rounded-lg border border-accent my-6">
-            <p className="text-primary font-bold">
+            <p className="font-bold">
               And somehow you're still:
             </p>
-            <ul className="list-disc pl-6 mt-2 text-secondary">
+            <ul className="list-disc pl-6 mt-2">
               <li>Confused</li>
               <li>Tired</li>
               <li>Overthinking every move</li>
@@ -177,7 +177,7 @@ const ProblemStorySection = () => {
           </div>
 
           <div className="my-8">
-            <p className="text-xl text-primary font-bold">
+            <p className="font-bold">
               Let me hit you with a truth bomb:
             </p>
             <p className="text-accent font-bold text-2xl mt-2">
@@ -186,18 +186,18 @@ const ProblemStorySection = () => {
             </p>
           </div>
 
-          <p className="text-secondary">
+          <p className="">
             Because the longer you stay in this spin-cycle of consumption, perfectionism, and chasing "the right idea"...<br />
             ...the closer you get to burnout.
           </p>
 
-          <ul className="list-disc pl-6 space-y-1 text-secondary my-4">
+          <ul className="list-disc pl-6 space-y-1 my-4">
             <li>The closer you get to quitting.</li>
             <li>The closer you get to crawling back to the same system you're trying to escape.</li>
           </ul>
 
           <div className="bg-note p-6 rounded-lg my-8">
-            <p className="text-primary">
+            <p className="">
               You know the one.<br />
               The one where your worth is measured in degrees.<br />
               Where "business" is a pipe dream.<br />
@@ -208,7 +208,7 @@ const ProblemStorySection = () => {
           </div>
 
           <div className="text-center my-12">
-            <p className="text-xl text-primary font-bold">
+            <p className="text-xl font-bold">
               You ever feel like this whole thing — the dream of "starting your own thing" — was just a scam?
             </p>
             <p className="text-accent font-bold text-2xl mt-2">
@@ -217,14 +217,14 @@ const ProblemStorySection = () => {
           </div>
 
           <div className="my-8">
-            <h4 className="text-2xl font-headline2 uppercase text-primary mb-4">
+            <h4 className=" text-primary mb-4">
               Here's the twist no one tells you:
             </h4>
-            <p className="text-xl text-primary font-bold">
+            <p className="text-xl font-bold">
               You were never the problem.<br />
               Your process was.
             </p>
-            <p className="text-secondary mt-2">
+            <p className=" mt-2">
               You're not weak.<br />
               You're not lazy.<br />
               You're not "not cut out for this."
@@ -240,27 +240,27 @@ const ProblemStorySection = () => {
             </p>
           </div>
 
-          <p className="text-secondary">
+          <p className="">
             Because once you understand how to build a business that actually makes money before it looks pretty,<br />
             once you understand the hidden triggers that make people buy,<br />
             once you know how to test, validate, position, and price like a damn professional...
           </p>
 
           <div className="highlight px-4 py-2 inline-block my-6">
-            <p className="text-primary font-bold text-xl">
+            <p className="font-bold text-xl">
               It's game over.
             </p>
           </div>
 
-          <p className="text-secondary">
+          <p className="">
             But you can't get there if you're still trapped in myth-land.
           </p>
 
           <div className="text-center mt-12">
-            <h4 className="text-3xl font-headline2 uppercase text-accent">
+            <h4 className="text-accent">
               That's what the next section is going to break.
             </h4>
-            <p className="text-xl text-primary font-bold mt-2">
+            <p className="text-xl font-bold mt-2">
               Every lie. Every delusion. Every myth that's keeping you broke.
             </p>
           </div>

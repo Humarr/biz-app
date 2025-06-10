@@ -5,27 +5,27 @@ const InterventionSection = () => {
   return (
     <section className="section-py bg-background">
       <div className="container-narrow">
-        <h2 className="text-2xl text-primary mb-8">
+        <h2 className=" text-primary mb-8">
           Let's get something out of the way:
         </h2>
 
-        <p className="text-xl mb-6">
+        <p className=" mb-6">
           If you're here hoping for another feel-good, follow-your-dreams, you-can-do-it motivational speech...
         </p>
 
         <div className="scribble-note mb-8">
-          <p className="font-scribble text-primary text-xl">
+          <p className="font-scribble text-primary">
             Close this tab. Go listen to a podcast. Maybe do some breathwork.
           </p>
         </div>
 
-        <h3 className="text-3xl text-accent mb-4">
+        <h3 className="text-accent mb-4">
           Because this ain't a pep talk.<br />
           It's an intervention.
         </h3>
 
         <div className="my-8">
-          <h4 className="text-xl text-primary mb-4">
+          <h4 className="text-primary mb-4">
             You've been lied to.
           </h4>
           <ul className="space-y-2">
@@ -45,7 +45,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <h4 className="text-xl mb-4">
+          <h4 className="mb-4">
             Let me guess...
           </h4>
           <p className=" mb-4">
@@ -72,7 +72,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-xl font-bold mb-4">
+          <p className="font-bold mb-4">
             No.<br />
             There's something wrong with the map you were given.
           </p>
@@ -83,7 +83,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <h4 className="text-xl mb-4">
+          <h4 className="mb-4">
             But you?
           </h4>
           <ul className="space-y-2">
@@ -97,7 +97,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-xl font-bold mb-4">
+          <p className="font-bold mb-4">
             You need results.<br />
             Now.<br />
             From whatever resources, skills, and scraps you already have.
@@ -118,7 +118,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className=" text-xl mb-4">
+          <p className="mb-4">
             You don't need another YouTube video.<br />
             You need someone to pull you out of the swamp, wipe the motivational BS off your face, and say:
           </p>
@@ -132,10 +132,10 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-xl">
+          <p className="">
             So that's what this is.
           </p>
-          <p className="text-xl text-accent my-4">
+          <p className="text-accent my-4">
             An intervention.
           </p>
           <p>
@@ -144,11 +144,11 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-xl mb-4">
+          <p className="mb-4">
             I don't know if you'll be able to handle what's coming.<br />
             But I do know this:
           </p>
-          <p className="text-accent font-bold">
+          <p className="font-bold">
             If you've read this far...<br />
             You're exactly who it's for.
           </p>
