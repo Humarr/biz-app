@@ -1,335 +1,284 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import React from "react";
 
-const FAQSection = () => {
+export default function FAQsSection() {
   return (
-    <section className="section-py bg-background">
-      <div className="container-narrow">
-        <h1 className="mb-8 text-gradient">Weird FAQs</h1>
-        <p className="mb-8">
-          (Fun, sarcastic, but surprisingly useful answers to the questions you're too scared to ask)
-        </p>
+    <section aria-labelledby="faqs-heading" className="section-py container-narrow">
+      <header className="mb-10 text-center">
+        <h2 id="faqs-heading" className="uppercase text-accent text-3xl font-bold">
+          🤨 FAQs (Foolish, Annoying Questions)
+        </h2>
+      </header>
 
-        <div className="space-y-12">
-          {/* FAQ 1 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "But I'm not ready to start a business yet..."</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Good. Then you're exactly who this book is for.
-            </p>
-            <p className="mt-4">
-              It's not for people already halfway in, juggling 3 funnels and 7 email automations.
-            </p>
-            <p>
-              It's for the "still-browsing-BizTok-waiting-for-the-right-idea" squad.
-            </p>
-            <p>
-              The ones who've been in 'research mode' for 18 months and still think affiliate marketing is passive income (😬).
-            </p>
-            <p className="mt-4 font-bold">
-              This book gets you ready — faster than any overpriced course ever will.
-            </p>
-          </div>
-
-          {/* FAQ 2 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "I don't have money to start a business..."</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Perfect.
-            </p>
-            <p className="mt-4">
-              You'll love Chapter 3: The Broke, Hungry, Angry Blueprint.
-            </p>
-            <p>
-              This book isn't about starting a dropshipping empire with $0 and "manifesting abundance." It's about:
-            </p>
-            <ul className="mt-2 space-y-1 pl-6 list-disc">
-              <li>The kind of business to start when you're cash-strapped</li>
-              <li>How to make ₦10k before dreaming about ₦1M</li>
-              <li>And why most broke people stay broke... by trying to skip this exact stage</li>
-            </ul>
-            <p className="mt-4 font-bold">
-              Spoiler: You don't need capital. You need clarity.
-            </p>
-          </div>
-
-          {/* FAQ 3 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Isn't ₦4,500 too much for a 37-page PDF?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Sure. If you're still thinking like a consumer.
-            </p>
-            <p className="mt-4">
-              But you're not buying pages.<br />
-              You're buying a shortcut.<br />
-              A fast-forward button. A mental steroid. A slap out of paralysis.
-            </p>
-            <p className="mt-4">
-              <span className="font-bold">What's that worth to you?</span>
-            </p>
-            <p className="mt-4">
-              Also: If ₦4,500 makes you flinch, you're not ready for a real business.<br />
-              Start here, build your mindset... and then go buy the ₦200k courses — when you can afford to waste money again.
-            </p>
-          </div>
-
-          {/* FAQ 4 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "What if I read it and it doesn't work?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Then you email me. And I refund you.<br />
-              No drama. No guilt trip. No K-drama plot twists.
-            </p>
-            <p className="mt-4">
-              This isn't a money grab.
-            </p>
-            <p className="font-bold">
-              It's a clarity grenade.
-            </p>
-            <p className="mt-4">
-              If it doesn't blow your confusion to smithereens... I don't want your cash.
-            </p>
-          </div>
-
-          {/* FAQ 5 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Can I use this even if I don't live in Nigeria?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              You can use this if you live in a tent in the Sahara and have internet.
-            </p>
-            <p className="mt-4">
-              The lessons are universal. The writing is African. The tone is fire.<br />
-              But the truth bombs hit anyone who's ever opened YouTube, typed "how to make money online," and ended up watching a dude talk about crypto with 14 cuts per second.
-            </p>
-            <p className="mt-4 font-bold">
-              If you're tired of the noise, you'll love this.
-            </p>
-          </div>
-
-          {/* FAQ 6 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Is this religious?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Only if you consider "telling people to stop chasing random BS and build something real" a religion.
-            </p>
-            <p className="mt-4 italic">
-              (This would make a dope church tho. Church of the Broke Entrepreneurs. Clapbacks on Sunday. Tithes paid in testimonials.)
-            </p>
-            <p className="mt-4">
-              But no, there's no preaching here.
-            </p>
-            <p className="font-bold">
-              Unless you count me preaching that you stop downloading eBooks you never read.
-            </p>
-          </div>
-
-          {/* FAQ 7 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "What if I want to start a YouTube channel, not a business?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Okay. Lemme guess...
-            </p>
-            <p className="mt-4">
-              You've got 4 videos uploaded. 23 views each. You're editing with InShot.<br />
-              You're "just waiting for one to go viral."
-            </p>
-            <p className="mt-4">
-              I won't stop you.
-            </p>
-            <p className="mt-4">
-              But this book will whisper in your ear:
-            </p>
-            <div className="quote mt-4">
-              "Hey, what if you focused on money first... so you can afford to do YouTube right later?"
-            </div>
-            <p className="mt-4">
-              YouTube is awesome. But it's not a business. It's a distribution channel for a business.
-            </p>
-            <p className="mt-4 font-bold">
-              Get the book. Use it to build the backend that makes your front-end worth something.
-            </p>
-          </div>
-
-          {/* FAQ 8 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Can't I find this stuff free online?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Absolutely.
-            </p>
-            <p className="mt-4">
-              Just Google "how to start a business."<br />
-              Then spend 42 hours scrolling, clicking, skimming, quitting, second-guessing, restarting, doubting, bookmarking, and eventually...
-            </p>
-            <p className="mt-4 italic">
-              ...doing nothing.
-            </p>
-            <p className="mt-4">
-              That's free advice for you.
-            </p>
-            <p className="mt-4">
-              This book?<br />
-              Is a clear, fast, no-BS path you'll actually follow.
-            </p>
-            <p className="mt-4">
-              Because let's be honest:<br />
-              You're not suffering from a lack of info.
-            </p>
-            <p className="font-bold">
-              You're suffering from info diarrhea.
-            </p>
-            <p className="mt-4">
-              And this book is the Imodium.
-            </p>
-          </div>
-
-          {/* FAQ 9 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Will this make me rich?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Not immediately.
-            </p>
-            <p className="mt-4 italic">
-              (If it could, I'd sell it for $997 and call it "The Cash Godfather System.")
-            </p>
-            <p className="mt-4">
-              But it will get you moving — in the right direction.<br />
-              It'll help you start smarter. Avoid the dumb traps. Focus on what matters.
-            </p>
-            <p className="mt-4 font-bold">
-              That's how you get rich.
-            </p>
-            <p>
-              One real step at a time.
-            </p>
-          </div>
-
-          {/* FAQ 10 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "I'm scared I'll fail."</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Good.
-            </p>
-            <p className="mt-4">
-              Means you're not a sociopath.
-            </p>
-            <p className="mt-4">
-              Everyone's scared. I was scared.<br />
-              Every successful entrepreneur you admire was scared. They just didn't let it stop them.
-            </p>
-            <p className="mt-4">
-              This book doesn't eliminate fear.<br />
-              It gives you a plan so you can act despite it.
-            </p>
-            <p className="mt-4 font-bold">
-              And trust me... once you make your first ₦1 online?
-            </p>
-            <p>
-              The fear turns into fuel.
-            </p>
-          </div>
-
-          {/* FAQ 11 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Is this for introverts?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Absolutely. It's written by one.
-            </p>
-            <p className="mt-4">
-              You don't need to make 20 cold calls.<br />
-              You don't need to go live on IG.<br />
-              You don't need to turn your face into a content factory.
-            </p>
-            <p className="mt-4">
-              You just need a business that makes money quietly — while you sip tea, in a hoodie, building in silence.
-            </p>
-            <p className="mt-4 font-bold">
-              This book shows you how to start that.
-            </p>
-          </div>
-
-          {/* FAQ 12 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "What happens after I buy?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              You get the book delivered instantly to your email.<br />
-              You download it. You read it. You feel seen. You feel slapped. You feel energized. You start doing.
-            </p>
-            <p className="mt-4">
-              And if you don't?<br />
-              You get your money back.
-            </p>
-            <p className="mt-4">
-              No weird hoops. No sad violin music.
-            </p>
-          </div>
-
-          {/* FAQ 13 */}
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Is this like all those WhatsApp business ebooks?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              HA.
-            </p>
-            <p className="mt-4">
-              If those are cold puff-puff...<br />
-              This is suya dipped in jet fuel.
-            </p>
-            <p className="mt-4">
-              It's the anti-WhatsApp hustle eBook.
-            </p>
-            <p className="mt-4">
-              No Canva templates. No vague nonsense. No "just be consistent."
-            </p>
-            <p className="mt-4 font-bold">
-              Just raw, honest, brutal clarity.<br />
-              Told like a friend. Delivered like a weapon.
-            </p>
-          </div>
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Will this teach me how to become a millionaire overnight?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              Only if you rob a bank after reading it.
-            </p>
-          </div>
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Is it like all those free YouTube videos?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              No. Those are where the lies live.
-            </p>
-          </div>
-          <div className="card">
-            <h3 className="text-accent mb-4">❓ "Do I need a business idea before reading it?"</h3>
-            <p>
-              <span className="font-bold">Answer:</span><br />
-              No. In fact, it’s better if you don’t — so we can stop you from picking a dumb one.
-            </p>
-          </div>
+      <article className="space-y-10">
+        {/* Question 1 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            ❓“₦4,500 for just 37 pages? Are you mad?”
+          </h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>Yes.</p>
+          <p>
+            Mad enough to condense decades of painful, bloody, trial-by-fire business lessons into a book you can
+            finish in one sitting…
+          </p>
+          <p>…instead of a 500-page coma-inducing snoozefest padded with motivational diarrhea.</p>
+          <p>Some people charge ₦50k for webinars that make you dumber.</p>
+          <p>You’re complaining about ₦4,500 for actual clarity?</p>
+          <p>If anything, it’s underpriced. But I want you to read it. Not admire it on your wishlist.</p>
         </div>
 
-        <div className="text-center mt-12 mb-8">
-          <p className="mb-4">👇👇👇</p>
-          <button className="btn-primary text-xl px-8 py-4">
-            GET THE DAMN BOOK NOW
-          </button>
-          <p className="mt-4">👇👇👇</p>
+        {/* Question 2 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            ❓“Is this book for me if I haven’t started my business yet?”
+          </h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>That’s exactly who it’s for.</p>
+          <p>
+            This book is for the you who’s still unsure… still Googling “how to start a business in Nigeria” at 2AM…
+          </p>
+          <p>…still bouncing from idea to idea like a sugar-high rabbit.</p>
+          <p>It’s for the you who’s sick of the fluff, but still doesn’t know what’s real.</p>
+          <p>It’s for the you who doesn’t want to waste the next 2 years doing trial-and-error while pretending to be a “CEO” on Instagram.</p>
         </div>
-      </div>
+
+        {/* Question 3 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            ❓“What if I already have a business?”
+          </h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>Great.</p>
+          <p>Now go ask yourself:</p>
+          <ul className="list-disc list-inside space-y-1 mb-4">
+            <li>Is your business making consistent money… or just collecting likes?</li>
+            <li>Are you confident in your offer… or just copying what others are doing?</li>
+            <li>Do you even have a real strategy… or just vibes and Canva graphics?</li>
+          </ul>
+          <p>This rant will punch the weak points of your business model right in the teeth.</p>
+          <p>And if everything in your business is already perfect? Congratulations. You probably don’t need this.</p>
+          <p className="italic">(But I know you’re lying.)</p>
+        </div>
+
+        {/* Question 4 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            ❓“Is this one of those ebooks filled with vague advice like ‘add value’ and ‘just believe’?”
+          </h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>If I say “add value” in this book, it’s only because I’m mocking it.</p>
+          <p>There are no vague theories in this book.</p>
+          <p>Everything is:</p>
+          <ul className="list-disc list-inside space-y-1 mb-4">
+            <li>Tactical</li>
+            <li>Brutally honest</li>
+            <li>Built for broke people who don’t have time to “discover their niche slowly through journaling and self-awareness”</li>
+          </ul>
+          <p>You get advice like:</p>
+          <ul className="list-disc list-inside space-y-1 mb-4">
+            <li>How to test if people will pay you BEFORE you build anything</li>
+            <li>How to spy on competitors without feeling like a weirdo</li>
+            <li>How to find your first offer TODAY without having a logo, followers, or even data</li>
+          </ul>
+          <p>No fluff. No waffle. No incense-burning manifestation exercises.</p>
+        </div>
+
+        {/* Question 5 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">❓“What if I don’t like the book?”</h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>Simple.</p>
+          <p>Email me and say: “This didn’t help me.”</p>
+          <p>I’ll refund you.</p>
+          <p>No form. No interrogation.</p>
+          <p>I won’t even ask you to write an essay explaining your trauma.</p>
+          <p>But you won’t ask for a refund.</p>
+          <p>Because you’ll probably be too busy flipping through the pages and whispering “Damn…this guy’s spitting.”</p>
+        </div>
+
+        {/* Question 6 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">❓“Can I pay in dollars?”</h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>Yes, boss.</p>
+          <p>When you click the payment link, you’ll see an option to pay in dollars with your card.</p>
+          <p>But why? You no like naira again?</p>
+        </div>
+
+        {/* Question 7 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">❓“Can I get a physical copy?”</h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>At ₦4,500?</p>
+          <p>You want me to print it, bind it, laminate it, wrap it in bubble wrap and send it through Lagos traffic to your doorstep?</p>
+          <p>You don’t like peace, abi?</p>
+          <p>No — this is a digital PDF. You get instant access. No waiting. No wahala. No dispatch rider saying “I'm five minutes away” for six hours.</p>
+        </div>
+
+        {/* Question 8 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">❓“What if I’m too broke to buy this?”</h3>
+          <p className="font-bold uppercase mb-2">ANSWER:</p>
+          <p>Then you need it the most.</p>
+          <p>In fact, I wrote it for you.</p>
+          <p>This isn’t one of those “you need capital to make capital” playbooks.</p>
+          <p>This is:</p>
+          <p>“You have ₦3k and zero hope? Cool. Let’s flip that ₦3k into ₦30k, then ₦300k.”</p>
+          <p>There’s literally a bonus blueprint inside for that.</p>
+          <p>If ₦4,500 is hard for you right now…</p>
+          <p>Then trust me: the price of not reading this book will be way higher.</p>
+          <p>That’s it.</p>
+          <p>No more questions.</p>
+          <p>Click below.</p>
+          <p>Buy the book.</p>
+          <p>Start the business that actually works — not the fantasy you’ve been sold.</p>
+
+          <a
+            href="#buy-now"
+            className="btn-primary mt-6 inline-block text-center uppercase tracking-wide"
+            role="button"
+          >
+            👉🏾 I’m ready. Let’s GO.
+          </a>
+        </div>
+
+        {/* Question 9 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            Q1: Be honest. Is this just another “YouTube thread turned PDF” like the garbage I’ve wasted money on before?
+          </h3>
+          <p>
+            A: No, fam. This isn’t some AI-generated, ChatGPT-spit-out nonsense dressed up with Canva covers and vibes. This is a blood-soaked battle rant from someone who’s been broke, confused, tired, and done with the fake guru circle-jerk. Every page drips with real talk, tested truths, and business strategy that hits like a slap from your future successful self.
+          </p>
+        </div>
+
+        {/* Question 10 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            Q2: It’s just 37 pages? Shouldn’t it be longer?
+          </h3>
+          <p>
+            A: Ah, so you want a 350-page novel of fluff, huh? Pages padded with motivational quotes, stories about Jeff Bezos in his garage, and “mindset” babble that never helped anybody build sh*t?
+            This book is 37 pages of straight punches.
+            No fat. No fillers. Just what works.
+            If that sounds “too short,” maybe you’ve been trained to love pain instead of results.
+          </p>
+        </div>
+
+        {/* Question 11 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">Q3: What if I don’t have a business yet? Is this still for me?</h3>
+          <p>
+            A: Especially if you don’t.
+            This isn’t some advanced funnel-optimization, “10X your ad ROI” crap for already-rich bros.
+            This is ground zero strategy — what to do when you’re starting with only ₦3k, a cracked phone, and way too many screenshots of failed ideas in your Notes app.
+          </p>
+        </div>
+
+        {/* Question 12 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            Q4: I’ve read books before. Nothing changed. Why will this be different?
+          </h3>
+          <p>
+            A: Because this one doesn’t try to “motivate” you.
+            It grabs you by the shirt, slaps you with truth, and throws you into the arena.
+            If you still do nothing after reading it, you’ll feel so exposed, so roasted, so spiritually violated…
+            …you’ll either cry, or finally get off your ass and sell something.
+            Either way, you’ll move.
+          </p>
+        </div>
+
+        {/* Question 13 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            Q5: What if I’m broke broke? Like, my bank app is a horror movie.
+          </h3>
+          <p>
+            A: Then read it twice.
+            This is for people exactly like you.
+            It shows you how to make something out of absolutely nothing — not by wishing or waiting, but by learning how to sell, serve, and survive.
+            In fact, if you're broke broke?
+            This ₦4,500 might be the last "expense" you make…
+            …before you finally start making income.
+          </p>
+        </div>
+
+        {/* Question 14 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            Q6: I’m scared. Like, what if I try again and still fail?
+          </h3>
+          <p>
+            A: Look. Fear’s valid. But do you know what’s scarier?
+            Another 12 months of “thinking about it.”
+            Another year of “almost starting.”
+            Another lap around the same cycle of frustration, fake confidence, and new shiny distractions.
+            This book isn’t magic.
+            But it gives you the realest damn shot at breaking out.
+            And that? That’s worth braving a little fear.
+          </p>
+        </div>
+
+        {/* Question 15 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">
+            Q7: Can I get a refund if it sucks? Like, for real?
+          </h3>
+          <p>
+            A: Yes. For real.
+            If you read it and feel like it was a waste, just ask. No awkward silence. No 17-step refund form.
+            Just shoot a message. Get your cash.
+            No drama.
+          </p>
+        </div>
+
+        {/* Question 16 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">Q8: I don’t like reading. Is there an audiobook?</h3>
+          <p>
+            A: Not yet. But the writing style is so vivid, blunt, and in-your-face that most people say it feels like getting yelled at by your brutally honest business friend.
+            So yeah. You’ll survive.
+          </p>
+        </div>
+
+        {/* Question 17 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">Q9: I have commitment issues. Can I just buy the bonuses instead?</h3>
+          <p>
+            A: LOL. No.
+            The bonuses are like the elite squad — they only roll with the general.
+            You get all 5 only with the book.
+            No side deals. No black market.
+            You want them? You commit. 😌
+          </p>
+        </div>
+
+        {/* Question 18 */}
+        <div>
+          <h3 className="flex items-center gap-2 text-2xl font-bold">Q10: Who the hell are you again? Why should I trust you?</h3>
+          <p>
+            A: I’m not a guru. Not trying to be.
+            I’m just someone who got sick of watching smart, broke, talented people fall for the same stupid traps.
+            So I wrote a guide that I wish someone had given me before I wasted money, time, and hope.
+            If you want pedigree, go stalk LinkedIn.
+            If you want results, grab the damn book.
+          </p>
+        </div>
+
+        {/* Final Warning */}
+        <div className="mt-12 p-6 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-900 font-semibold rounded-md">
+          <p>If you’re still on the fence after all this…</p>
+          <p>Ask yourself one question:</p>
+          <p><em>“When’s the last time hesitation made me money?”</em></p>
+          <p>The clock’s ticking. The price could go up. The regret will definitely catch up.</p>
+          <p>So unless you want to look back in 3 months and whisper “damn… I should’ve bought that rant,”</p>
+          <p className="mt-4 font-bold text-lg">
+            👉🏾 Grab the book now. Let’s go build something that finally pays.
+          </p>
+        </div>
+      </article>
     </section>
   );
-};
-
-export default FAQSection;
+}
