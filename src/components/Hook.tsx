@@ -11,15 +11,14 @@ const HookSection = () => {
         </div>
 
         <h1 className="text-accent text-center">
-        Fake gurus made millions telling people like you to ‘just start.’ Here’s what they don’t say when the camera’s off.
+       Everyone Says 'Just Start' — But None of Them Tell You What to Do When You’re Broke, Confused, and One Failure Away From Quitting Forever.
         </h1>
-        {/* <h1 className="text-accent text-center">
-          You Don't Want to Start a Business... You Want to Escape a Life That Feels Like a Slow-Motion Car Crash.
-        </h1> */}
         
-        {/* <p className="text-xl mb-16 font-bold text-center">
-          (And every "expert" telling you to just "take action" is making things worse.)
-        </p> */}
+        
+         <p className="text-xl mb-16 font-italic text-center">
+         You don’t need hype.
+You need a map.
+        </p> 
 
         <h3 className="mb-6 mt-16">Let me guess.</h3>
 
