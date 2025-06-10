@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const BonusSection = () => {
@@ -196,9 +197,13 @@ const BonusSection = () => {
               Take the bonuses.<br />
               And start your business the right way — before it becomes another sad Instagram case study.
             </p>
-            <button className="btn-primary text-xl px-8 py-4 animate-float">
+           
+            <Link href="/payment" passHref>
+      <button className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
               👉🏾 Let's Go. I'm In.
-            </button>
+        
+      </button>
+    </Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const FAQSection = () => {
@@ -282,9 +283,13 @@ const FAQSection = () => {
             <p className="text-secondary mb-8">
               The clock's ticking. The price could go up. The regret will definitely catch up.
             </p>
-            <button className="btn-primary text-xl px-8 py-4 animate-float">
-              👉🏾 I'm ready. Let's GO.
-            </button>
+        
+
+            <Link href="/payment" passHref>
+              <button className="btn-primary text-xl px-8 py-4 animate-float">
+                👉🏾 I'm ready. Let's GO.
+              </button>
+            </Link>
           </div>
         </div>
       </div>

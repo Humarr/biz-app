@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const FinalHardSellSection = () => {
@@ -191,9 +192,12 @@ const FinalHardSellSection = () => {
               Click here. Get the book. Start the damn thing.<br />
               Let's go.
             </p>
-            <button className="btn-primary text-xl px-8 py-4 animate-float">
-              I'M READY — SHOW ME THE DAMN BOOK
-            </button>
+            
+            <Link href="/payment" passHref>
+              <button className="btn-primary text-xl px-8 py-4 animate-float">
+                I'M READY — SHOW ME THE DAMN BOOK
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const ProblemStorySection = () => {
@@ -265,6 +266,13 @@ const ProblemStorySection = () => {
         <p className="mb-8">
           But you can't get there if you're still trapped in myth-land.
         </p>
+
+        <Link href="/payment" passHref>
+      <button className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
+              👉🏾 Let's Go. I'm In.
+        
+      </button>
+    </Link>
       </div>
     </section>
   );
