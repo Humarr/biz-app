@@ -158,7 +158,7 @@ p {
 }
 
 .faq-item {
-  background-color: var(--note);
+  background-color: var(--background);
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -167,7 +167,7 @@ p {
 
 .faq-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .quote {
