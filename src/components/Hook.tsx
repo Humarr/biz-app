@@ -9,11 +9,16 @@ const HookSection = () => {
         <div className="scribble-note mb-8 animate-float">
           (🔥 Strap in. This one’s got caffeine, claws, and a not-so-subtle vendetta against BS.)
         </div>
-
+ <p
+ className="text-xl mb-8 bg-note font-italic text-center">
+         Everyone Says 'Just Start' —
+        </p> 
         <h1 className="text-accent text-center">
-       Everyone Says 'Just Start' — But None of Them Tell You What to Do When You’re Broke, Confused, and One Failure Away From Quitting Forever.
+        But None of Them Tell You What to Do When You’re Broke, Confused, and One Failure Away From Quitting Forever.
         </h1>
         
+
+   
         
          <p className="text-xl mb-16 font-italic text-center">
          You don’t need hype.
