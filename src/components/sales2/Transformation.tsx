@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client';
-import router from 'next/router';
+import Link from 'next/link';
 import React from 'react';
 
 const TransformationSection = () => {
@@ -255,9 +255,13 @@ const TransformationSection = () => {
         </h2>
 
         <div className="text-center mt-12">
-          <button onClick={() => router.push('/payment')} className="btn-primary text-xl px-8 py-4">
-            SHOW ME THE DAMN BLUEPRINT
-          </button>
+
+          <Link href="/payment" passHref>
+            <button className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
+              SHOW ME THE DAMN BLUEPRINT
+            </button>
+          </Link>
+
         </div>
       </div>
     </section>

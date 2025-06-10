@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 // import Image from 'next/image';
 
@@ -34,9 +35,12 @@ const PaymentPage = () => {
               <p className="text-secondary mb-4">
                 Pay with card or bank transfer and get the book + bonuses immediately.
               </p>
-              <button className="btn-primary w-full py-4 text-lg">
-                PAY ₦4,500 WITH SELAR (INSTANT DELIVERY)
-              </button>
+             
+              <Link href="/payment" passHref>
+                <button className="btn-primary w-full py-4 text-lg">
+                  PAY ₦4,500 WITH SELAR (INSTANT DELIVERY)
+                </button>
+              </Link>
               {/* <div className="flex items-center justify-center mt-4">
                 <Image 
                   src="/payment-logos.png" 

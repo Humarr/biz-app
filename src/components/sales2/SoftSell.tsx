@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client';
-import router from 'next/router';
+import Link from 'next/link';
 import React from 'react';
 
 const SoftSellCTASection = () => {
@@ -191,9 +191,14 @@ const SoftSellCTASection = () => {
         </div>
 
         <div className="text-center">
-          <button onClick={() => router.push('/payment')} className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
+          {/* <button onClick={() => router.push('/payment')} className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
             👉🏾 Yes, I'm in. Gimme the Rant Book Now
-          </button>
+          </button> */}
+          <Link href="/payment" passHref>
+      <button className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
+        👉🏾 Yes, I'm in. Gimme the Rant Book Now
+      </button>
+    </Link>
           <p className="text-secondary">
             (Or go eat another thread about "value." Your call.)
           </p>
