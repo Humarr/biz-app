@@ -6,7 +6,7 @@ const HopeSection: React.FC = () => {
   return (
     <section className="section-py">
       <div className="container-narrow space-y-6">
-        <h2>💡 HOPE SECTION<br />“Maybe… Just Maybe… You’re Not Broken. You’ve Just Been Building in the Dark.”</h2>
+        <h2>“Maybe… Just Maybe… You’re Not Broken. You’ve Just Been Building in the Dark.”</h2>
 
         <p>Let me ask you something dangerous:</p>
 

@@ -6,7 +6,7 @@ const Lead: React.FC = () => {
   return (
     <section className="section-py">
       <div className="container-narrow space-y-6">
-        <h2>💣 LEAD</h2>
+        {/* <h2>💣 LEAD</h2> */}
         <p>Let’s get something out of the way:</p>
         <p>
           If you&apos;re here hoping for another feel-good, follow-your-dreams, you-can-do-it motivational speech…

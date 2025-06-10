@@ -6,7 +6,9 @@ const RantSection: React.FC = () => {
   return (
     <section className="section-py">
       <div className="container-narrow space-y-6">
-        <h2>💢 RANT SECTION<br />“Motivation Is a Scam, and ‘Just Start’ Is the Devil’s Favorite Pickup Line”</h2>
+        {/* <h2>💢 RANT SECTION<br />“Motivation Is a Scam, and ‘Just Start’ Is the Devil’s Favorite Pickup Line”</h2> */}
+
+        <h2>Motivation Is a Scam, and ‘Just Start’ Is the Devil’s Favorite Pickup Line</h2>
 
         <p>Let’s go.</p>
         <p>No more baby gloves.<br />No more polite motivational quotes pasted on pastel backgrounds.<br />No more “Believe in yourself and everything will align.”</p>

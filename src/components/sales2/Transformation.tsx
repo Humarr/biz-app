@@ -6,7 +6,9 @@ const TransformationSection: React.FC = () => {
   return (
     <section className="section-py">
       <div className="container-narrow space-y-6">
-        <h2>🔥 TRANSFORMATION BUILD-UP SECTION<br />From Broke, Confused & One Webinar Away From a Mental Breakdown…<br />To Selling Like a Street-Smart Genius With a Spine (and Money in the Bank)</h2>
+        {/* <h2>🔥 TRANSFORMATION BUILD-UP SECTION<br />From Broke, Confused & One Webinar Away From a Mental Breakdown…<br />To Selling Like a Street-Smart Genius With a Spine (and Money in the Bank)</h2> */}
+
+        <h2>From Broke, Confused & One Webinar Away From a Mental Breakdown…<br />To Selling Like a Street-Smart Genius With a Spine (and Money in the Bank)</h2>
 
         <p>Let me show you a tale.</p>
 

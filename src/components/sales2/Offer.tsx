@@ -6,7 +6,7 @@ const OfferTease: React.FC = () => {
   return (
     <section className="section-py bg-zinc-900 text-white">
       <div className="container-narrow space-y-6">
-        <h2 className="text-xl font-bold text-red-400">⚠️ THE OFFER TEASE</h2>
+        {/* <h2 className="text-xl font-bold text-red-400">⚠️ THE OFFER TEASE</h2> */}
 
         <p>So now you know:</p>
 

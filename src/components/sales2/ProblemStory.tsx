@@ -7,7 +7,9 @@ const ProblemStory: React.FC = () => {
   return (
     <section className="section-py">
       <div className="container-narrow space-y-6">
-        <h2>💀 PROBLEM STORY:<br />"You’re Not Lazy. You’re Just Drowning."</h2>
+        {/* <h2>💀 PROBLEM STORY:<br />"You’re Not Lazy. You’re Just Drowning."</h2> */}
+
+        <h2>You’re Not Lazy. You’re Just Drowning.</h2>
 
         <p>Let me tell you a sad little story.</p>
 
