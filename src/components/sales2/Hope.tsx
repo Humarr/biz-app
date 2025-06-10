@@ -1,444 +1,152 @@
-/* eslint-disable react/no-unescaped-entities */
+// components/sections/HopeSection.tsx
+
 import React from 'react';
 
-const HopeSection = () => {
+const HopeSection: React.FC = () => {
   return (
-    <section className="section-py bg-background">
-      <div className="container-narrow">
-        <div className="scribble-note mb-8">
-          This is where we flicker the light. Not too bright. Just enough to make the reader say: "...wait... maybe it's not too late for me."
+    <section className="section-py">
+      <div className="container-narrow space-y-6">
+        <h2>💡 HOPE SECTION<br />“Maybe… Just Maybe… You’re Not Broken. You’ve Just Been Building in the Dark.”</h2>
+
+        <p>Let me ask you something dangerous:</p>
+
+        <p><strong>What if you’re not lazy?<br />Not unmotivated.<br />Not “undisciplined.”</strong></p>
+
+        <p>What if you’ve just been given a map that leads nowhere?</p>
+
+        <div className="scribble-note">
+          A map that says:<br /><br />
+          “Start a brand. Build an audience. Post content. Be valuable. Wait.”
         </div>
 
-        <h2 className="mb-8">So.</h2>
+        <p>And you’ve done that.<br />God knows you’ve done that.</p>
 
-        <p className="mb-8">
-          You're still here.
+        <p>
+          You’ve posted at midnight.<br />
+          You’ve learned copywriting from carousels.<br />
+          You’ve binged YouTube videos on “niche clarity” till your brain fried like suya.
         </p>
 
-        <p className="mb-6">
-          You read all that raw, flame-throwing honesty about fake gurus, passive income fantasies, and all the Instagram business cosplay...
-        </p>
+        <p>But it’s still not working.</p>
 
-        <p className="mb-8">
-          ...and something inside you didn't flinch.
-        </p>
+        <p>You’re tired.<br />You’re broke.<br />And worst of all…</p>
 
-        <h3 className="mb-8">
-          Instead?
-        </h3>
+        <p><strong>You’re starting to believe it’s your fault.</strong></p>
 
-        <h2 className="mb-8">
-          It leaned forward.
-        </h2>
+        <p>But here’s the truth no one tells you:</p>
 
-        <p className="mb-6">
-          Not because you like pain (although, hey — who am I to judge?).
-        </p>
-
-        <p className="mb-8">
-          But because you recognize truth when you hear it.
-        </p>
-
-        <p className="mb-6">
-          Somewhere deep in your gut — past the doubt, the fear, the overwhelm — something whispered:
-        </p>
-
-        <div className="quote mb-8">
-          "They're talking about me."
+        <div className="scribble-note">
+          You’re not the problem.<br />
+          The game is rigged against beginners.
         </div>
 
-        <p className="mb-8">
-          And listen closely now, because I'm about to tell you something most people will never say to your face:
+        <p>
+          It’s built to confuse you.<br />
+          To overload you with information.<br />
+          To make you feel like just one more YouTube video will finally unlock the money gates.
         </p>
 
-        <h2 className="mb-6">
-          You're not stupid.
-        </h2>
+        <p>But it won’t.</p>
 
-        <p className="mb-6">
-          You're not lazy.<br />
-          You're not unmotivated.<br />
-          You're not "just not cut out for business."
+        <p>
+          Because it’s all noise.<br />
+          All talk, no tactics.<br />
+          All “build your brand” but no “how do I make my first ₦10k this week without ads, a product, or a sugar daddy?”
         </p>
 
-        <h3 className="mb-8">
-          You were just never taught how to start it properly.
-        </h3>
+        <p><strong>So listen closely, because I’m about to break your brain in the best way:</strong></p>
 
-        <p className="mb-6">
-          Nobody gave you the real roadmap.<br />
-          Nobody warned you of the traps.<br />
-          Nobody gave you a system that respects the fact that:
-        </p>
+        <div className="quote">
+          It is possible to start from zero…<br />
+          With no followers…<br />
+          No fancy tools…<br />
+          No laptop…<br />
+          Just you, a smartphone, and a bone-deep hunger not to die broke.
+        </div>
 
-        <ul className="mb-8 space-y-2 pl-6 list-disc">
-          <li>You don't have unlimited time.</li>
-          <li>Or money.</li>
-          <li>Or a sugar daddy.</li>
-          <li>Or rich friends who casually lend you ₦1.5M "to test this idea."</li>
+        <p><strong>It is possible to go from:</strong></p>
+
+        <ul className="list-none space-y-2">
+          <li><span className="highlight">❌</span> Endless trial and error</li>
+          <li><span className="highlight">❌</span> 3 likes and your own mom ignoring your posts</li>
+          <li><span className="highlight">❌</span> A “business” that’s just a logo and a dream</li>
         </ul>
 
-        <p className="mb-8">
-          You're building from ground zero.
-        </p>
+        <p><strong>To:</strong></p>
 
-        <h2 className="mb-8">
-          So your path is going to look DIFFERENT.
-        </h2>
-
-        <p className="mb-6">
-          Slower.<br />
-          Smarter.<br />
-          Cleaner.
-        </p>
-
-        <p className="mb-8">
-          And guess what?
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          That's actually a massive advantage.
-        </h1>
-
-        <p className="mb-6">
-          Because when you have no fluff to hide behind — no fake brand, no startup capital, no shiny "six-figure funnel" — you're forced to face the real stuff that moves the needle.
-        </p>
-
-        <p className="mb-8">
-          Like:
-        </p>
-
-        <ul className="mb-8 space-y-3 text-xl">
-          <li>Understanding human psychology and why people buy</li>
-          <li>Crafting offers people actually want (not just what you want to sell)</li>
-          <li>Selling without being scammy</li>
-          <li>Marketing without needing a "reels schedule" or Canva templates</li>
-          <li>Making your first ₦10k, then your first ₦50k, and scaling from there</li>
+        <ul className="list-none space-y-2">
+          <li><span className="highlight">✅</span> Knowing exactly what to offer</li>
+          <li><span className="highlight">✅</span> Making sales this week, not next year</li>
+          <li><span className="highlight">✅</span> Actually having a game plan that makes sense, makes money, and makes you feel like you’re not crazy</li>
         </ul>
 
-        <p className="mb-6">
-          One step at a time.<br />
-          No illusions.<br />
-          No delusions.<br />
-          Just a clear, proven, real-world path.
-        </p>
+        <p><strong>It is possible.</strong></p>
 
-        <p className="mb-8">
-          And here's the part most people don't tell you:
-        </p>
+        <p>And if you’re reading this?</p>
 
-        <h2 className="mb-8">
-          You don't need a "business idea" to start.
-        </h2>
+        <p><strong>You’re already halfway there.</strong></p>
 
-        <p className="mb-8">
-          You don't need to have it all figured out.
-        </p>
+        <p>Because the only thing worse than being broke and confused…</p>
 
-        <h3 className="mb-8">
-          You just need to know what to do FIRST.
-        </h3>
-
-        <p className="mb-8">
-          Because momentum is the most powerful force in business.
-        </p>
-
-        <p className="mb-6">
-          Once you get that first ₦10k from something you created...
-        </p>
-
-        <h2 className="mb-8">
-          You change.
-        </h2>
-
-        <p className="mb-8">
-          Forever.
-        </p>
-
-        <p className="mb-6">
-          You go from:
-        </p>
-
-        <div className="quote mb-8">
-          "Maybe this can work"
+        <div className="scribble-note">
+          …is being broke, confused, and convinced it’s your fault.
         </div>
 
-        <p className="mb-6">
-          to
+        <p><strong>So let me shine a little light for you, friend.</strong></p>
+
+        <p><strong>Picture this:</strong></p>
+
+        <p>It’s 30 days from now.</p>
+
+        <p>
+          You’re not just surviving.<br />
+          You’re not just “posting and praying.”<br />
+          You’re making money. Real money.
         </p>
 
-        <div className="quote mb-8">
-          "Holy crap. I just made money with my brain."
+        <p>
+          You know how to find buyers.<br />
+          You know how to speak their language.<br />
+          You know how to sell without sounding desperate or fake.
+        </p>
+
+        <p>
+          You’re flipping ₦3k into ₦30k.<br />
+          Then ₦30k into ₦300k.<br />
+          And you’re doing it with scrappy, no-fluff tactics that work in the real world — not in some guru’s overpriced course.
+        </p>
+
+        <p>And when people say:</p>
+
+        <div className="quote">“So what do you do?”</div>
+
+        <p>
+          You don’t stumble.<br />
+          You don’t squint like a confused duck and say, “Uhmm… I help people unlock their potential?”
+        </p>
+
+        <p><strong>You smile and say:</strong></p>
+
+        <div className="scribble-note">
+          “I help [real audience] get [real result] — and I’m booked this week.”
         </div>
 
-        <p className="mb-6">
-          You stop consuming content like a junkie.
+        <p>And it’s true.</p>
+
+        <p><strong>Because now you’re no longer in the dark.</strong></p>
+
+        <p>
+          That future?<br />
+          It’s not fantasy.<br />
+          It’s not delusion.<br />
+          It’s not “overnight success.”
         </p>
 
-        <p className="mb-6">
-          You stop panicking every time someone drops a "new method."
+        <p className="text-gradient font-bold text-lg">
+          It’s the result of finally doing things the way they actually work.
         </p>
 
-        <p className="mb-8">
-          You develop business immunity.
-        </p>
-
-        <p className="mb-8">
-          And eventually?
-        </p>
-
-        <p className="mb-6">
-          You find your feet.<br />
-          You find your voice.<br />
-          You find your own way.
-        </p>
-
-        <p className="mb-8">
-          But you've gotta start differently.
-        </p>
-
-        <h2 className="mb-8">
-          You've gotta start from reality.
-        </h2>
-
-        <p className="mb-8">
-          And the truth is?
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          You're better off than you think.
-        </h1>
-
-        <p className="mb-6">
-          You already have what it takes to make this work:
-        </p>
-
-        <ul className="mb-8 space-y-3 text-xl">
-          <li>You've got hunger.</li>
-          <li>You've got taste — you know when something is off.</li>
-          <li>You've got pain — and pain is the best teacher.</li>
-        </ul>
-
-        <p className="mb-8">
-          And now?
-        </p>
-
-        <h2 className="mb-8">
-          You've got something else:
-        </h2>
-
-        <h1 className="mb-8 text-gradient">
-          A weapon.
-        </h1>
-
-        <p className="mb-6">
-          A weapon most people never get their hands on.
-        </p>
-
-        <p className="mb-6">
-          It's not just a book.
-        </p>
-
-        <p className="mb-6">
-          It's a business exorcism.
-        </p>
-
-        <p className="mb-6">
-          It's a bullsh*t filter.
-        </p>
-
-        <p className="mb-8">
-          It's the last thing you'll need to read before you stop listening to everyone and finally, FINALLY do this thing right.
-        </p>
-
-        <p className="mb-8">
-          Because here's the hope you've been waiting for:
-        </p>
-
-        <h2 className="mb-8">
-          You can start a business that works...
-        </h2>
-
-        <p className="mb-6">
-          Even if you have zero ideas.<br />
-          Even if you've failed before.<br />
-          Even if you're scared, confused, and burnt out.
-        </p>
-
-        <p className="mb-8">
-          You just need a roadmap designed for real people — not rich kids, not fake entrepreneurs, not trust-fund dropouts trying to teach you "high-ticket closing."
-        </p>
-
-        <p className="mb-8">
-          You need something that says:
-        </p>
-
-        <div className="quote mb-8">
-          "Here. Start HERE. And this time... don't skip the hard parts."
-        </div>
-
-        <p className="mb-8">
-          This is that.
-        </p>
-
-        <h2 className="mb-8">
-          You've found it.
-        </h2>
-
-        <p className="mb-8">
-          And yeah, maybe this is all sounding a little too good to be true.
-        </p>
-
-        <p className="mb-8">
-          So I'll leave you with one last story.
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          THE MOMENT EVERYTHING SHIFTED
-        </h1>
-
-        <p className="mb-6">
-          I remember this guy I met once.
-        </p>
-
-        <p className="mb-6">
-          He wasn't anything special.
-        </p>
-
-        <p className="mb-6">
-          No followers.<br />
-          No money.<br />
-          No clue.
-        </p>
-
-        <p className="mb-6">
-          He was thinking of "starting a YouTube channel" and "maybe importing something from China" and "possibly doing a training for parents on how to get their kids into coding."
-        </p>
-
-        <p className="mb-8">
-          In short?
-        </p>
-
-        <p className="mb-6">
-          He was everywhere.<br />
-          Floating.<br />
-          Stuck.<br />
-          Smart — but spinning in circles.
-        </p>
-
-        <p className="mb-8">
-          And one day I told him:
-        </p>
-
-        <div className="quote mb-8">
-          "You don't have a business problem. You have a decision problem."
-        </div>
-
-        <p className="mb-6">
-          We sat down.<br />
-          Tore up every fake idea.<br />
-          Got brutally honest.<br />
-          And built ONE tiny offer.
-        </p>
-
-        <p className="mb-8">
-          One.
-        </p>
-
-        <p className="mb-8">
-          And two weeks later?
-        </p>
-
-        <p className="mb-6">
-          He made his first ₦14,000.
-        </p>
-
-        <p className="mb-6">
-          I know. It's not a Lamborghini.<br />
-          But for him?
-        </p>
-
-        <p className="mb-8">
-          It was everything.
-        </p>
-
-        <p className="mb-6">
-          Because suddenly, he KNEW it was possible.
-        </p>
-
-        <p className="mb-8">
-          He wasn't watching success anymore.
-        </p>
-
-        <h2 className="mb-8">
-          He was in it.
-        </h2>
-
-        <p className="mb-8">
-          And now?
-        </p>
-
-        <p className="mb-8">
-          He's never gone back.
-        </p>
-
-        <h2 className="mb-8">
-          This can be your story.
-        </h2>
-
-        <p className="mb-8">
-          Not by wishing.
-        </p>
-
-        <h3 className="mb-8">
-          But by deciding.
-        </h3>
-
-        <p className="mb-8">
-          And your first decision is this:
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          Read the book.
-        </h1>
-
-        <p className="mb-6">
-          Because once you do...
-        </p>
-
-        <p className="mb-6">
-          You'll finally understand what they never taught you in school, in webinars, in motivational YouTube videos.
-        </p>
-
-        <p className="mb-6">
-          You'll get the truth.<br />
-          The path.<br />
-          The plan.
-        </p>
-
-        <p className="mb-8">
-          And most importantly:
-        </p>
-
-        <h2 className="mb-8">
-          You'll get your life back.
-        </h2>
-
-        <p className="mb-6">
-          Because this whole time, you thought you were failing at business.
-        </p>
-
-        <h3 className="mb-8">
-          But really?
-        </h3>
-
-        <h1 className="text-gradient">
-          Business was failing YOU.
-        </h1>
-
-        <h2 className="mt-8">
-          Until now.
-        </h2>
+        <p><strong>And I’m about to show you how.</strong></p>
       </div>
     </section>
   );
