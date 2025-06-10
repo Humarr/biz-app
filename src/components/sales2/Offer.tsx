@@ -55,7 +55,7 @@ const OfferTease: React.FC = () => {
 
         <p>The kind of guide that makes you say:</p>
 
-        <div className="quote text-lg font-semibold italic text-yellow-300">“Damn. This is what I’ve been looking for.”</div>
+        <div className="quote text-lg font-semibold italic">“Damn. This is what I’ve been looking for.”</div>
 
         <p>But here’s the twist:</p>
 
