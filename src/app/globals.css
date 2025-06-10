@@ -142,6 +142,21 @@ p {
   transition: all 0.3s ease;
 }
 
+
+.bonus-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--accent);
+  transition: all 0.3s ease;
+}
+.bonus-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: var(--accent);
+}
+
 .quote {
   font-style: italic;
   background-color: var(--note);
