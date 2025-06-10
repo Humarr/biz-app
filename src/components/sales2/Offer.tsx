@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+'use client';
 import router from 'next/router';
 import React from 'react';
 
