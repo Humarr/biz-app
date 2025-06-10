@@ -9,7 +9,7 @@ const HookSection = () => {
         <div className="scribble-note mb-8 animate-float">
           (🔥 Strap in. This one’s got caffeine, claws, and a not-so-subtle vendetta against BS.)
         </div>
- <p
+ {/* <p
  className="text-xl mb-8 bg-note font-italic text-center">
          Everyone Says 'Just Start' —
         </p> 
@@ -23,7 +23,21 @@ const HookSection = () => {
          <p className="text-xl mb-16 font-italic text-center">
          You don’t need hype.
 You need a map.
-        </p> 
+        </p>  */}
+
+<p className="text-xl mb-8 bg-note font-italic text-center">
+  Everyone says <em>“Just start.”</em>
+</p>
+
+<h1 className="text-accent text-center">
+  But no one tells you what to do when you’re broke, overwhelmed, and one failure away from giving up for good.
+</h1>
+
+<p className="text-xl mb-16 font-italic text-center">
+  You don’t need hype. <br />
+  You need a map.
+</p>
+
 
         <h3 className="mb-6 mt-16">Let me guess.</h3>
 
