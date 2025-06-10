@@ -5,11 +5,11 @@ const InterventionSection = () => {
   return (
     <section className="section-py bg-background">
       <div className="container-narrow">
-        <h2 className="text-2xl font-headline2 uppercase text-primary mb-8">
+        <h2 className="text-2xl text-primary mb-8">
           Let's get something out of the way:
         </h2>
 
-        <p className="text-xl text-secondary mb-6">
+        <p className="text-xl mb-6">
           If you're here hoping for another feel-good, follow-your-dreams, you-can-do-it motivational speech...
         </p>
 
@@ -19,16 +19,16 @@ const InterventionSection = () => {
           </p>
         </div>
 
-        <h3 className="text-3xl font-headline2 uppercase text-accent mb-4">
+        <h3 className="text-3xl text-accent mb-4">
           Because this ain't a pep talk.<br />
           It's an intervention.
         </h3>
 
         <div className="my-8">
-          <h4 className="text-xl font-headline2 uppercase text-primary mb-4">
+          <h4 className="text-xl text-primary mb-4">
             You've been lied to.
           </h4>
-          <ul className="space-y-2 text-secondary">
+          <ul className="space-y-2">
             <li>By smiling fake gurus with ring lights.</li>
             <li>By Twitter bros with rebranded Stoicism.</li>
             <li>By your well-meaning friend who thinks "just start something" is actionable advice.</li>
@@ -36,7 +36,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="quote mb-8">
-          <p className="text-primary italic">
+          <p className="italic">
             Oh, yeah?<br />
             Tell that to your account balance.<br />
             Tell that to the 12 unread "kind reminders" from your landlord.<br />
@@ -45,10 +45,10 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <h4 className="text-xl font-headline2 uppercase text-primary mb-4">
+          <h4 className="text-xl mb-4">
             Let me guess...
           </h4>
-          <p className="text-secondary mb-4">
+          <p className=" mb-4">
             You've tried.<br />
             Maybe started something.<br />
             Maybe offered a service.<br />
@@ -62,7 +62,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8 bg-note p-6 rounded-lg">
-          <p className="text-primary font-bold mb-2">
+          <p className="font-bold mb-2">
             And now, you're sitting there wondering:
           </p>
           <p className="text-primary italic">
@@ -72,21 +72,21 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-primary text-xl font-bold mb-4">
+          <p className="text-xl font-bold mb-4">
             No.<br />
             There's something wrong with the map you were given.
           </p>
-          <p className="text-secondary">
+          <p>
             You followed the "do what you love" crowd into a burning house.<br />
             You listened to influencers who never had to start from the bottom.
           </p>
         </div>
 
         <div className="my-8">
-          <h4 className="text-xl font-headline2 uppercase text-primary mb-4">
+          <h4 className="text-xl mb-4">
             But you?
           </h4>
-          <ul className="space-y-2 text-secondary">
+          <ul className="space-y-2">
             <li>You don't have capital.</li>
             <li>You don't have an audience.</li>
             <li>You don't have time to "find your passion."</li>
@@ -97,12 +97,12 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-primary text-xl font-bold mb-4">
+          <p className="text-xl font-bold mb-4">
             You need results.<br />
             Now.<br />
             From whatever resources, skills, and scraps you already have.
           </p>
-          <p className="text-secondary">
+          <p>
             But no one's showing you how to do that.<br />
             They just keep saying:
           </p>
@@ -118,7 +118,7 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-primary text-xl mb-4">
+          <p className=" text-xl mb-4">
             You don't need another YouTube video.<br />
             You need someone to pull you out of the swamp, wipe the motivational BS off your face, and say:
           </p>
@@ -132,19 +132,19 @@ const InterventionSection = () => {
         </div>
 
         <div className="my-8">
-          <p className="text-primary text-xl">
+          <p className="text-xl">
             So that's what this is.
           </p>
-          <p className="text-xl font-headline2 uppercase text-accent my-4">
+          <p className="text-xl text-accent my-4">
             An intervention.
           </p>
-          <p className="text-secondary">
+          <p>
             From one frustrated, previously-broke, nearly gave-up-too human to another.
           </p>
         </div>
 
         <div className="my-8">
-          <p className="text-primary mb-4">
+          <p className="text-xl mb-4">
             I don't know if you'll be able to handle what's coming.<br />
             But I do know this:
           </p>
