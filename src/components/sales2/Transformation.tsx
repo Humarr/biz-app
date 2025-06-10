@@ -3,7 +3,7 @@ import React from 'react';
 
 const TransformationSection = () => {
   return (
-    <section className="section-py bg-[rgb(var(--background))]">
+    <section className="section-py bg-background">
       <div className="container-narrow">
         <div className="scribble-note mb-8">
           🔥 TRANSFORMATION BUILD-UP: From Broke & Confused to Selling Like a Street-Smart Genius
@@ -31,7 +31,7 @@ const TransformationSection = () => {
         </h2>
 
         <div className="card mb-12">
-          <h3 className="text-[rgb(var(--accent))] mb-4">👟 Act 1: The Wandering</h3>
+          <h3 className="text-accent mb-4">👟 Act 1: The Wandering</h3>
           <p className="mb-4">
             It starts the way it starts for most of us:
           </p>
@@ -71,7 +71,7 @@ const TransformationSection = () => {
         </div>
 
         <div className="card mb-12">
-          <h3 className="text-[rgb(var(--accent))] mb-4">💀 Act 2: The Myth Shatters</h3>
+          <h3 className="text-accent mb-4">💀 Act 2: The Myth Shatters</h3>
           <p className="mb-4">
             Then came the realization:
           </p>
@@ -124,7 +124,7 @@ const TransformationSection = () => {
         </div>
 
         <div className="card mb-12">
-          <h3 className="text-[rgb(var(--accent))] mb-4">💡 Act 3: The Awakening</h3>
+          <h3 className="text-accent mb-4">💡 Act 3: The Awakening</h3>
           <p className="mb-4">
             You hear something different.
           </p>
@@ -163,7 +163,7 @@ const TransformationSection = () => {
         </div>
 
         <div className="card mb-12">
-          <h3 className="text-[rgb(var(--accent))] mb-4">🚀 Act 4: The Rise</h3>
+          <h3 className="text-accent mb-4">🚀 Act 4: The Rise</h3>
           <p className="mb-4">
             You ditch the "branding tips" and start learning real business moves:
           </p>
@@ -185,11 +185,11 @@ const TransformationSection = () => {
           <p className="font-bold">
             You don't feel overwhelmed anymore.<br />
             You feel dangerous.
-          </p>
+          </p>  
         </div>
 
         <div className="card mb-12 flex-wrap">
-          <h3 className="text-[rgb(var(--accent))] mb-4">💰 Act 5: The Transformation</h3>
+          <h3 className="text-accent mb-4">💰 Act 5: The Transformation</h3>
           <p className="mb-4">
             Now, when people ask what you do...
           </p>
