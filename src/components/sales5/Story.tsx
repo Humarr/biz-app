@@ -64,9 +64,12 @@ const Story = () => {
               
               <div className="text-center py-6">
                 <p className="text-lg mb-6">I remember asking God:</p>
-                <p className="highlight text-xl bg-red-900/30 px-6 py-4 rounded-lg mb-8">
+                <p className="text-xl bg-red-900/30 px-6 py-4 rounded-lg mb-8">
                   “Am I cursed? Or am I just not hustling right?”
                 </p>
+                {/* <p className="highlight text-xl bg-red-900/30 px-6 py-4 rounded-lg mb-8">
+                  “Am I cursed? Or am I just not hustling right?”
+                </p> */}
                 <p className="text-xl font-bold text-amber-300 max-w-2xl mx-auto">
                   Because how can I be this busy —<br/>
                   And still this broke?
@@ -93,10 +96,14 @@ const Story = () => {
               
               <div className="text-center border-t border-gray-700 pt-8">
                 <p className="text-2xl font-bold mb-6">That's when I realized:</p>
-                <p className="highlight text-3xl bg-amber-900/30 px-6 py-4 rounded-lg mb-10 animate-pulse">
+                <p className="text-3xl bg-amber-900/30 px-6 py-4 rounded-lg mb-10 animate-pulse">
                   I wasn't in business.<br/>
                   I was in confusion with branding.
                 </p>
+                {/* <p className="highlight text-3xl bg-amber-900/30 px-6 py-4 rounded-lg mb-10 animate-pulse">
+                  I wasn't in business.<br/>
+                  I was in confusion with branding.
+                </p> */}
                 <p className="text-xl mb-10">Let me explain...</p>
               </div>
               
@@ -172,9 +179,12 @@ const Story = () => {
                     <p className="text-xl font-bold text-red-400 mt-4 mb-6">
                       But because you don't even trust your next move anymore.
                     </p>
-                    <p className="highlight bg-red-900/30 px-6 py-4 rounded-lg">
+                    <p className="text-xl bg-red-900/30 px-6 py-4 rounded-lg">
                       “What if this next thing is another waste of time?”
                     </p>
+                    {/* <p className="highlight bg-red-900/30 px-6 py-4 rounded-lg">
+                      “What if this next thing is another waste of time?”
+                    </p> */}
                   </div>
                   
                   <div className="my-8">
