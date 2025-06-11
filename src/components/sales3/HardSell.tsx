@@ -293,6 +293,8 @@ const HardSellSection = () => {
           </button>
           <p className="mt-4">👇👇👇</p>
         </div>
+     
+     
       </div>
     </section>
   );

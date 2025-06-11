@@ -3,243 +3,136 @@ import React from 'react';
 
 const BonusesSection = () => {
   return (
-    <section className="section-py bg-background">
+    <section className="section-py bg-background w-full">
       <div className="container-narrow">
-        <h1 className="mb-8 text-gradient">Bonuses So Good They Feel Illegal</h1>
-        <p className="mb-8">
-          (But make perfect sense when you realize we actually want you to succeed)
-        </p>
+        <article className="space-y-8">
+          <div className="text-center mb-8">
+            <h2 className="text-accent text-3xl font-bold uppercase tracking-tight">
+              🔥 BONUSES (That Might Just Be Better Than the Book Itself... But Shhh)
+            </h2>
+          </div>
 
-        <div className="mb-12">
-          <p className="mb-6">
-            So you think a 37-page business rant wasn't enough?
-          </p>
-          <p className="mb-6">
-            You think ₦4,500 should get you more than just a blueprint so good it makes Harvard MBAs question their life choices?
-          </p>
-          <h2 className="mb-8">
-            Fine.
-          </h2>
-          <h1 className="mb-8 text-gradient">
-            You greedy goat.
-          </h1>
-          <p className="mb-8">
-            You're getting BONUSES.
-          </p>
-          <p className="mb-6">
-            Not fluff. Not filler.
-          </p>
-          <h3 className="mb-8">
-            These are battle-tested, clarity-drenched, cash-generating, brain-rewiring, punch-you-in-the-throat-until-you-take-action kind of extras.
-          </h3>
-          <h2 className="mb-8">
-            Let's go:
-          </h2>
-        </div>
-
-        <div className="space-y-12 mb-12">
-          {/* Bonus 1 */}
-          <div className="card">
-            <div className="flex items-start mb-4">
-              <span className="text-accent text-2xl mr-3">🎁</span>
-              <h3 className="text-accent">BONUS #1: Impulse Offer Alchemy</h3>
+          <div className="space-y-6">
+            <p className="text-primary text-lg">
+              You didn't think I'd just drop the book and walk away, did you?
+            </p>
+            
+            <p className="text-primary text-xl font-bold">
+              Nope.
+            </p>
+            
+            <div className="bg-highlight p-4 rounded-lg">
+              <p className="text-primary text-xl font-bold">
+                Because I want you to win so badly...
+                <br />
+                I added 3 savage bonuses.
+              </p>
             </div>
-            <h4 className="mb-4 italic">"How to Sell ANYTHING to ANYONE (Even If You've Never Sold Before)"</h4>
-            <p className="mb-4">
-              You ever seen someone sell meat pie at a funeral?
+            
+            <p className="text-primary text-lg font-bold">
+              And yes — you get them free when you grab the book now.
             </p>
-            <p className="mb-4">
-              This bonus shows you how.
+          </div>
+
+          {/* Bonus 1 */}
+          <div className="space-y-6 bg-note p-6 rounded-lg">
+            <h3 className="text-accent text-2xl font-bold uppercase">
+              🎁 BONUS #1: Impulse Offer Alchemy
+            </h3>
+            <p className="text-primary text-lg italic">
+              "How to Sell Anything to Anyone Who Wasn't Even Planning to Buy"
             </p>
-            <p className="mb-4">
+            
+            <p className="text-primary text-lg">
+              Ever seen someone say:
+            </p>
+            
+            <div className="scribble-note text-lg">
+              "I didn't plan to buy, but I just had to..."
+            </div>
+            
+            <p className="text-primary text-lg">
+              This bonus shows you how to create that reaction — using simple, savage principles.
+              <br />
               You'll learn:
             </p>
-            <ul className="mb-4 space-y-2 pl-6 list-disc">
-              <li>How to build products people can't stop themselves from buying (no manipulation needed)</li>
-              <li>Why value stacking is dead (and what works better)</li>
-              <li>How to structure offers so irresistible, they make Black Friday deals look like scam</li>
+            
+            <ul className="list-disc list-inside space-y-2 text-primary text-lg">
+              <li>The secret psychological "buy-switch" you can trigger in broke people</li>
+              <li>Why most offers are ignored (and how to build one that slaps instantly)</li>
+              <li>The 4 'magic moves' that turn any product into an impulse-purchase magnet</li>
             </ul>
-            <p className="mb-4">
-              It's the secret to making people feel stupid for not buying — and loving you for it.
-            </p>
-            <p className="font-bold">
-              (Value: ₦25,000 — yours: free)
+            
+            <p className="text-primary text-lg font-bold">
+              Use this to make your product, skill, or hustle instantly more sellable — even if it's dry garri in a sachet.
             </p>
           </div>
 
           {/* Bonus 2 */}
-          <div className="card">
-            <div className="flex items-start mb-4">
-              <span className="text-accent text-2xl mr-3">🎁</span>
-              <h3 className="text-accent">BONUS #2: Landing Pages That Sell (Not Sedate)</h3>
-            </div>
-            <h4 className="mb-4 italic">"Write Like a Psycho. Sell Like a Priest."</h4>
-            <p className="mb-4">
-              Most landing pages are like paracetamol in water:<br />
-              Dull. Diluted. Useless.
+          <div className="space-y-6 bg-accent/10 p-6 rounded-lg">
+            <h3 className="text-accent text-2xl font-bold uppercase">
+              🎁 BONUS #2: Landing Pages That Sell (Not Sedate)
+            </h3>
+            <p className="text-primary text-lg italic">
+              "A No-Fluff, Idiot-Proof Layout That Makes Strangers Say: 'You know what, lemme just buy this thing jare.'"
             </p>
-            <p className="mb-4">
-              This bonus gives you the secret to pages that:
+            
+            <p className="text-primary text-lg">
+              If you're trying to sell anything — and your landing page is boring, stiff, or confusing?
             </p>
-            <ul className="mb-4 space-y-2 pl-6 list-disc">
-              <li>Slap attention into your reader</li>
-              <li>Lead them step-by-step to the buy button</li>
-              <li>Sound like YOU — not some generic AI script</li>
+            
+            <p className="text-primary text-lg font-bold">
+              You're already losing money.
+            </p>
+            
+            <p className="text-primary text-lg">
+              This bonus gives you a step-by-step breakdown of a high-converting sales page built for people with:
+            </p>
+            
+            <ul className="list-disc list-inside space-y-2 text-primary text-lg">
+              <li>₦0 for ads</li>
+              <li>₦0 for fancy design</li>
+              <li>₦0 patience for fluff</li>
             </ul>
-            <p className="mb-4">
-              Includes real breakdowns. Formulas (that don't feel like formulas). And copywriting tricks that even your "copy coach" doesn't know.
-            </p>
-            <p className="font-bold">
-              (Value: ₦15,000 — yours: free)
+            
+            <p className="text-primary text-lg font-bold">
+              Swipe it. Copy it. Tattoo it on your wall.
+              <br />
+              Whatever you do — use it before you lose more sales.
             </p>
           </div>
 
           {/* Bonus 3 */}
-          <div className="card">
-            <div className="flex items-start mb-4">
-              <span className="text-accent text-2xl mr-3">🎁</span>
-              <h3 className="text-accent">BONUS #3: The Broke, Hungry, Angry Blueprint</h3>
-            </div>
-            <h4 className="mb-4 italic">"How to Start With ₦0 and Make Your First Real Money Online"</h4>
-            <p className="mb-4">
-              Most people fail because they start big.
+          <div className="space-y-6 bg-highlight p-6 rounded-lg">
+            <h3 className="text-accent text-2xl font-bold uppercase">
+              🎁 BONUS #3: The Broke, Hungry, Angry Blueprint
+            </h3>
+            <p className="text-primary text-lg italic">
+              "Your Full, Unfiltered Plan for Starting From Absolute Scratch (Even If You've Got ₦0, No Laptop, and No Clue)"
             </p>
-            <p className="mb-4">
-              They chase shiny business models with ₦0 in their bank, ₦0 in experience, and ₦0 in grit.
+            
+            <p className="text-primary text-lg">
+              This is the battle-plan for the truly fed-up beginner.
+              <br />
+              Inside, you'll learn:
             </p>
-            <p className="mb-4">
-              This bonus is your no-fluff, no-filter, NO-MONEY-NO-PROBLEM playbook.
-            </p>
-            <p className="mb-4">
-              Inside:
-            </p>
-            <ul className="mb-4 space-y-2 pl-6 list-disc">
-              <li>The only 3 skills you need to go from broke to booked</li>
-              <li>How to make ₦10k-₦50k without selling your soul or selling crypto</li>
-              <li>Why small is the new rich — and how to play the long game</li>
+            
+            <ul className="list-disc list-inside space-y-2 text-primary text-lg">
+              <li>How to start with ₦3k (or less) and flip it into ₦30k, then ₦300k</li>
+              <li>The 3 fastest ways to get your first customer — no followers, no ads</li>
+              <li>What to sell TODAY (based on what you already know but don't realise)</li>
+              <li>How to use other people's products to make your first profit</li>
             </ul>
-            <p className="mb-4">
-              You'll use this before you ever need a website, logo, or course.
-            </p>
-            <p className="font-bold">
-              (Value: priceless if you're broke — but we'll say ₦10,000)
+            
+            <p className="text-primary text-xl font-bold">
+              It's not for dreamers.
+              <br />
+              It's for fighters.
             </p>
           </div>
 
-          {/* Bonus 4 */}
-          <div className="card">
-            <div className="flex items-start mb-4">
-              <span className="text-accent text-2xl mr-3">🎁</span>
-              <h3 className="text-accent">BONUS #4: The Money-Back Guarantee That Hurts My Wallet</h3>
-            </div>
-            <h4 className="mb-4 italic">"If You Don't Feel Punched, You Don't Pay."</h4>
-            <p className="mb-4">
-              Yeah. Read that again.
-            </p>
-            <p className="mb-4">
-              If this book doesn't make you:
-            </p>
-            <ul className="mb-4 space-y-2 pl-6 list-disc">
-              <li>Think clearer</li>
-              <li>Take action faster</li>
-              <li>Avoid at least one dumb, expensive mistake...</li>
-            </ul>
-            <p className="mb-4">
-              You get your ₦4,500 back.
-            </p>
-            <p className="mb-4">
-              No awkward emails. No begging. No "fill this refund form in triplicate."
-            </p>
-            <p className="mb-4">
-              Just say the word.
-            </p>
-            <p className="font-bold">
-              Because I'm not here to make a quick buck.
-            </p>
-            <p>
-              I'm here to make you dangerous.
-            </p>
-          </div>
-
-          {/* Bonus 5 */}
-          <div className="card">
-            <div className="flex items-start mb-4">
-              <span className="text-accent text-2xl mr-3">🎁</span>
-              <h3 className="text-accent">BONUS #5: Underground Telegram Access (Coming Soon)</h3>
-            </div>
-            <h4 className="mb-4 italic">"Where The Smart (But Broke) Entrepreneurs Hang Out"</h4>
-            <p className="mb-4">
-              When it launches, you'll get early access.
-            </p>
-            <p className="mb-4">
-              It'll be a space for:
-            </p>
-            <ul className="mb-4 space-y-2 pl-6 list-disc">
-              <li>Strategy drops</li>
-              <li>Idea critiques</li>
-              <li>No-BS convos</li>
-              <li>And maybe... collabs that turn to cash</li>
-            </ul>
-            <p className="mb-4">
-              No motivational quotes. No "rise and grind" nonsense.<br />
-              Just real builders, building real stuff.
-            </p>
-            <p className="font-bold">
-              (Value: ₦20,000/mo — yours: free when it launches)
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-12">
-          <h2 className="mb-6">Let's recap:</h2>
-          <p className="mb-6">
-            You're getting:
-          </p>
-          <ul className="mb-8 space-y-3 text-xl">
-            <li className="flex items-start">
-              <span className="text-accent mr-2">✅</span>
-              <span>The 37-Page Rant that slaps you into business clarity</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-2">✅</span>
-              <span>Impulse Offer Alchemy</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-2">✅</span>
-              <span>Landing Pages That Sell</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-2">✅</span>
-              <span>The Broke, Hungry, Angry Blueprint</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-2">✅</span>
-              <span>A No-Risk Guarantee</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-2">✅</span>
-              <span>Access to the Telegram Circle (when ready)</span>
-            </li>
-          </ul>
-          <h2 className="mb-6">
-            All for ₦4,500.
-          </h2>
-          <p className="mb-6">
-            Which, by the way, is probably less than you spent on shawarma and data today.
-          </p>
-          <h3 className="mb-8">
-            And those didn't make you any smarter.<br />
-            This? Might just make you rich.
-          </h3>
-        </div>
-
-        <div className="text-center">
-          <p className="mb-4">👇👇👇</p>
-          <button className="btn-primary text-xl px-8 py-4">
-            YES, I WANT THESE BONUSES + THE BOOK
-          </button>
-          <p className="mt-4">👇👇👇</p>
-        </div>
+         
+        </article>
       </div>
     </section>
   );
