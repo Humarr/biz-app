@@ -262,7 +262,7 @@ p {
 
 .scribble-note {
   font-family: var(--font-scribble);
-  font-size: 1rem;
+  font-size: 1.3rem;
   background-color: var(--note);
   border-left: 4px solid var(--accent);
   padding: 1rem;
