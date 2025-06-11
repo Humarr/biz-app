@@ -170,6 +170,48 @@ p {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+.hook-intro {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, var(--note), var(--highlight));
+  border-left: 6px solid var(--accent);
+  padding: 1.25rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+
+.hook-warning {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.truth-bomb {
+  background: var(--highlight);
+  border-left: 6px solid var(--accent);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  font-family: var(--font-headline2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.truth-bomb h3 {
+  color: var(--primary);
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.truth-bomb p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+
 .quote {
   font-style: italic;
   background-color: var(--note);
