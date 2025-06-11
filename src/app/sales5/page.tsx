@@ -1,6 +1,6 @@
 import Hook from "@/components/sales5/Hook";
 import Story from "@/components/sales5/Story";
-
+import Shift from "@/components/sales5/Shift";
 
 
 export default function Sales() {
@@ -8,7 +8,7 @@ export default function Sales() {
         <>
             <Hook />
             <Story />
-       
+            <Shift />
         </>
     );
 }
