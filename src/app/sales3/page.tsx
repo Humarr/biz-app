@@ -2,7 +2,7 @@ import Hook from "@/components/sales3/Hook";
 import Lead from "@/components/sales3/Lead";
 import ProblemStory from "@/components/sales3/ProblemStory";
 import Rant from "@/components/sales3/Rant";
-// import Hope from "@/components/sales3/Hope";
+import Hope from "@/components/sales3/Hope";
 // import Transformation from "@/components/sales3/Transformation";
 // import OfferTeaseSection from "@/components/sales3/Offer";
 // import HardSellSection from "@/components/sales3/HardSell";
@@ -18,8 +18,8 @@ export default function Sales() {
             <Lead />
             <ProblemStory />
             <Rant />
-            {/* <Hope />
-            <Transformation />
+            <Hope />
+            {/* <Transformation />
             <OfferTeaseSection />
             <SoftSellSection />
             <FAQSection />
