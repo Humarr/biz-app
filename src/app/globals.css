@@ -196,6 +196,7 @@ p {
   border-radius: 0.75rem;
   font-family: var(--font-headline2);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
 }
 
 .truth-bomb h3 {
@@ -209,6 +210,38 @@ p {
   font-size: 1.25rem;
   font-weight: 700;
   margin-top: 0.5rem;
+}
+
+
+
+.text-box-accent {
+  background-color: var(--accent);
+  color: white;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.accent-block {
+  background-color: rgba(255, 60, 60, 0.05); /* Accent tone but subtle */
+  border-left: 4px solid var(--accent);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.highlight-box {
+  background-color: var(--highlight);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subtle-note {
+  background-color: var(--note);
+  border-left: 4px dashed var(--accent);
+  padding: 1rem;
+  font-style: italic;
+  border-radius: 0.5rem;
 }
 
 

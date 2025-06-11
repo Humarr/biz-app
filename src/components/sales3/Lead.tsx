@@ -33,7 +33,8 @@ const BrutalLeadSection = () => {
               You're done pretending you believe those Instagram captions that say things like:
             </p>
             
-            <div className="scribble-note text-lg italic">
+            <div className="subtle-note text-lg italic">
+            {/* <div className="scribble-note text-lg italic"> */}
               "I started my business with zero naira, no experience, and now I make ₦3 million per month from my phone 😌📱💰 #blessed #bosslife"
             </div>
             
@@ -87,7 +88,8 @@ const BrutalLeadSection = () => {
             </p>
           </div>
 
-          <div className="space-y-6 bg-note p-6 rounded-lg">
+          <div className="truth-bomb">
+          {/* <div className="space-y-6 bg-note p-6 rounded-lg"> */}
             <p className="text-primary text-lg font-bold">
               Now you're scared to try again.
             </p>
@@ -191,7 +193,7 @@ const BrutalLeadSection = () => {
             </p>
           </div>
 
-          <div className="space-y-6 bg-highlight p-6 rounded-lg">
+          <div className="space-y-6 highlight-box">
             <h3 className="text-primary text-2xl font-bold uppercase">
               Because here's the truth:
             </h3>
