@@ -308,9 +308,19 @@ p {
   }
 }
 
-.animate-float {
-  animation: float 5s ease-in-out infinite;
+@keyframes chillPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.95; /* Lower fade difference = calmer */
+  }
 }
+
+.animate-chill-pulse {
+  animation: chillPulse 3s ease-in-out infinite;
+}
+
 
 /* ====== Scrollbars ====== */
 ::-webkit-scrollbar {

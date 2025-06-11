@@ -5,7 +5,7 @@ const CTA = () => {
     return (
         <section className="section-py bg-gradient-to-b from-gray-900 to-black text-white">
         <div className="container max-w-3xl mx-auto px-4">
-          <div className="bg-gradient-to-br from-red-900/30 to-red-800/50 backdrop-blur-sm rounded-2xl p-6 md:p-10 border border-red-700/50 animate-pulse">
+          <div className="bg-gradient-to-br from-red-900/30 to-red-800/50 backdrop-blur-sm rounded-2xl p-6 md:p-10 border border-red-700/50 animate-chill-pulse">
             <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Listen.
@@ -20,9 +20,9 @@ const CTA = () => {
       
             <div className="bg-red-900/40 p-6 rounded-xl mb-12 border border-red-700">
               <div className="flex flex-wrap justify-center gap-3 mb-6">
-                <span className="scribble-note bg-red-800 px-4 py-2">Tired of gurus selling "passive income"</span>
-                <span className="scribble-note bg-red-800 px-4 py-2">Tired of passive hunger</span>
-                <span className="scribble-note bg-red-800 px-4 py-2">Tired of "just start" from the privileged</span>
+                <span className="font-scribble bg-red-800 px-4 py-2">Tired of gurus selling "passive income"</span>
+                <span className="font-scribble bg-red-800 px-4 py-2">Tired of passive hunger</span>
+                <span className="font-scribble bg-red-800 px-4 py-2">Tired of "just start" from the privileged</span>
               </div>
               <p className="text-center text-xl font-bold">
                 So now, it's decision time:
@@ -38,8 +38,8 @@ const CTA = () => {
                   <p>Wait for your "season" or "God's time"...</p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-2">
-                  <span className="scribble-note bg-red-900 px-3 py-1">Price of indomie ↗</span>
-                  <span className="scribble-note bg-red-900 px-3 py-1">Bank app stays dry</span>
+                  <span className="font-scribble bg-red-900 px-3 py-1">Price of indomie ↗</span>
+                  <span className="font-scribble bg-red-900 px-3 py-1">Bank app stays dry</span>
                 </div>
               </div>
               
@@ -51,15 +51,15 @@ const CTA = () => {
                   <p className="text-center mb-6">You grab this <span className="font-bold">₦4,500 ebook</span> today —</p>
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-start">
-                      <span className="inline-block w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 animate-pulse"></span>
+                      <span className="inline-block w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 animate-chill-pulse"></span>
                       Within 48 hours, know exactly what business to start
                     </li>
                     <li className="flex items-start">
-                      <span className="inline-block w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 animate-pulse"></span>
+                      <span className="inline-block w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 animate-chill-pulse"></span>
                       How to get your first customer
                     </li>
                     <li className="flex items-start">
-                      <span className="inline-block w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 animate-pulse"></span>
+                      <span className="inline-block w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 animate-chill-pulse"></span>
                       Daily steps to see alerts next week
                     </li>
                   </ul>
@@ -152,9 +152,9 @@ const CTA = () => {
                 🔥 Final word:
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-6">
-                <span className="scribble-note bg-black/30 px-4 py-2">No pity.</span>
-                <span className="scribble-note bg-black/30 px-4 py-2">No promises.</span>
-                <span className="scribble-note bg-black/30 px-4 py-2">No pressure.</span>
+                <span className="font-scribble bg-black/30 px-4 py-2">No pity.</span>
+                <span className="font-scribble bg-black/30 px-4 py-2">No promises.</span>
+                <span className="font-scribble bg-black/30 px-4 py-2">No pressure.</span>
               </div>
               <p className="text-xl mb-4">
                 Just a real shot — at a real business — for real Nigerians.

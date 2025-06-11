@@ -143,8 +143,11 @@ const Shift = () => {
                   I tested, tracked, tweaked — then documented everything.
                 </p>
                 <p className="text-2xl font-bold mb-4">
-                  That's what became this <span className="scribble-note bg-amber-200 px-4 py-1">₦4,500</span> ebook.
+                  That's what became this <span className=" font-scribble bg-amber-200 px-4 py-1">₦4,500</span> ebook.
                 </p>
+                {/* <p className="text-2xl font-bold mb-4">
+                  That's what became this <span className="scribble-note bg-amber-200 px-4 py-1">₦4,500</span> ebook.
+                </p> */}
                 <div className="bg-red-50 p-6 rounded-xl border border-red-200 mt-8">
                   <p className="font-bold mb-2">No fluff. No recycled "start an Instagram page" nonsense.</p>
                   <p className="text-lg">
