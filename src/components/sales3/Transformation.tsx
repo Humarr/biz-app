@@ -3,361 +3,369 @@ import React from 'react';
 
 const TransformationSection = () => {
   return (
-    <section className="section-py bg-background">
+    <section className="section-py bg-background w-full">
       <div className="container-narrow">
-        <div className="scribble-note mb-8">
-          This is the "movie montage" moment — the gritty before... and the glorious after. Paint it with detail. Show the internal change, not just the external one.
-        </div>
-
-        <h1 className="mb-8">Picture this.</h1>
-
-        <p className="mb-6">
-          It's 11:47 p.m.
-        </p>
-
-        <p className="mb-6">
-          You're in a crummy room with a blinking bulb that's been threatening to die for two weeks.<br />
-          You're hunched over your phone.<br />
-          Tabs open:
-        </p>
-
-        <ul className="mb-8 space-y-2 pl-6 list-disc">
-          <li>"How to make money online in Nigeria 2025"</li>
-          <li>"Side hustle ideas that don't suck"</li>
-          <li>"Top businesses that pay daily"</li>
-          <li>A TikTok video of some loudmouth yelling "Affiliate marketing is the FUTURE bro!" before cutting to their Benz steering wheel.</li>
-        </ul>
-
-        <p className="mb-8">
-          You're not even mad anymore.
-        </p>
-
-        <h2 className="mb-8">
-          You're... numb.
-        </h2>
-
-        <p className="mb-6">
-          Tired.<br />
-          Frustrated.<br />
-          Half-hopeful, half-hating yourself for being hopeful.
-        </p>
-
-        <p className="mb-6">
-          You've tried things before. Small things. Maybe big things.<br />
-          They didn't work.
-        </p>
-
-        <p className="mb-6">
-          You asked people for help — they ghosted.<br />
-          You tried learning from courses — they overwhelmed.<br />
-          You Googled — and drowned.
-        </p>
-
-        <p className="mb-8">
-          And now, here you are again...<br />
-          Scrolling.<br />
-          Looking.<br />
-          Waiting for a spark to tell you:
-        </p>
-
-        <div className="quote mb-8">
-          "Hey. It's not too late. You can still figure this out."
-        </div>
-
-        <p className="mb-8">
-          Well...
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          This is that spark.
-        </h1>
-
-        <p className="mb-8">
-          Now hold that scene.
-        </p>
-
-        <h2 className="mb-8">
-          Because we're about to flip it inside out.
-        </h2>
-
-        <h1 className="mb-8 text-gradient">
-          FAST FORWARD THREE MONTHS.
-        </h1>
-
-        <p className="mb-6">
-          Same room.<br />
-          Same bulb (you still haven't changed it. Typical.)
-        </p>
-
-        <h2 className="mb-8">
-          But something's different.
-        </h2>
-
-        <p className="mb-8">
-          You're not scrolling aimlessly anymore.
-        </p>
-
-        <h3 className="mb-8">
-          You're executing.
-        </h3>
-
-        <p className="mb-6">
-          You're checking your Notion dashboard where your small but mighty offer just crossed ₦85,000 in total sales.
-        </p>
-
-        <p className="mb-6">
-          You're sipping that Milo like it's Dom Pérignon.<br />
-          You're sending someone a link to your sales page.<br />
-          You're answering DMs from people asking if they can "collab" with you.
-        </p>
-
-        <p className="mb-8">
-          (Weird flex, right? They used to ignore you.)
-        </p>
-
-        <p className="mb-6">
-          You look at your phone — no more "get-rich-quick" gurus in your feed. You unfollowed all of them.<br />
-          Now it's:
-        </p>
-
-        <ul className="mb-8 space-y-2 pl-6 list-disc">
-          <li>UI design breakdowns</li>
-          <li>Sales psychology threads</li>
-          <li>Storytelling content</li>
-          <li>Nerdy copywriters making dark jokes about pricing strategies</li>
-        </ul>
-
-        <h2 className="mb-8">
-          You've been reborn.
-        </h2>
-
-        <p className="mb-6">
-          You laugh now — not out of pain or bitterness — but because you see through the nonsense.
-        </p>
-
-        <p className="mb-6">
-          You know how to spot BS in five words or less.
-        </p>
-
-        <p className="mb-8">
-          You know when someone's faking the life they're teaching.
-        </p>
-
-        <p className="mb-8">
-          You finally have:
-        </p>
-
-        <ul className="mb-8 space-y-3 text-xl">
-          <li>A clear offer</li>
-          <li>A reason to wake up</li>
-          <li>A growing skillset</li>
-          <li>A plan that doesn't feel like anxiety dressed as "hustle"</li>
-          <li>And a taste of financial independence that actually feels sustainable</li>
-        </ul>
-
-        <p className="mb-6">
-          It's not perfect.<br />
-          But it's real.
-        </p>
-
-        <p className="mb-8">
-          You went from "scattered" to "sharpened."<br />
-          From "I'm just researching" to "I'm executing."
-        </p>
-
-        <p className="mb-8">
-          From "I need to make money" to "I know how I make money."
-        </p>
-
-        <p className="mb-6">
-          From running around like a chicken with 37 Chrome tabs open...
-        </p>
-
-        <p className="mb-8">
-          To having a clear, confidence-infused system that builds real momentum.
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          This is the power of transformation.
-        </h1>
-
-        <p className="mb-6">
-          Not the kind that's sold in 3-minute ads by some guy standing in front of a whiteboard drawing circles around the word "Leverage."
-        </p>
-
-        <p className="mb-8">
-          But the kind that comes from:
-        </p>
-
-        <ul className="mb-8 space-y-3 text-xl">
-          <li>Facing the brutal truth</li>
-          <li>Choosing a new path</li>
-          <li>Doing the first right thing</li>
-          <li>And watching the dominos fall from there</li>
-        </ul>
-
-        <p className="mb-8">
-          Because here's the thing:
-        </p>
-
-        <h2 className="mb-8">
-          You don't go from broke to Benz overnight.
-        </h2>
-
-        <p className="mb-6">
-          You go from lost → to clarity<br />
-          Clarity → to first sale<br />
-          First sale → to confidence<br />
-          Confidence → to consistency<br />
-          Consistency → to scaling<br />
-          And scaling → to options
-        </p>
-
-        <p className="mb-8">
-          You want freedom?
-        </p>
-
-        <h1 className="mb-8 text-gradient">
-          Options are freedom.
-        </h1>
-
-        <p className="mb-8">
-          And options come when you stop spinning the "How do I start?" wheel of death...
-        </p>
-
-        <p className="mb-8">
-          ...and finally say:
-        </p>
-
-        <div className="quote mb-8">
-          "I'm done pretending. I'm doing this RIGHT."
-        </div>
-
-        <p className="mb-8">
-          That's what this transformation gives you.
-        </p>
-
-        <p className="mb-6">
-          It's not just money.<br />
-          Yeah, we'll talk money.
-        </p>
-
-        <p className="mb-8">
-          Because you deserve to earn from your skills.
-        </p>
-
-        <p className="mb-8">
-          But what's more powerful?
-        </p>
-
-        <h2 className="mb-8">
-          The shift inside you.
-        </h2>
-
-        <p className="mb-6">
-          When you start waking up with ideas instead of dread.
-        </p>
-
-        <p className="mb-6">
-          When you stop second-guessing yourself every damn step.
-        </p>
-
-        <p className="mb-8">
-          When you can look someone in the eye and say:
-        </p>
-
-        <div className="quote mb-8">
-          "I run my own thing. I built it. I know what I'm doing."
-        </div>
-
-        <p className="mb-6">
-          Even if it's not a million-naira business (yet)...<br />
-          It's yours.
-        </p>
-
-        <p className="mb-8">
-          And nothing beats that.
-        </p>
-
-        <p className="mb-8">
-          So let's rewind the reel again. Final time.
-        </p>
-
-        <p className="mb-6">
-          You started out confused.<br />
-          Tired.<br />
-          Stuck.
-        </p>
-
-        <p className="mb-8">
-          Now you've:
-        </p>
-
-        <ul className="mb-8 space-y-3 text-xl">
-          <li>Found your footing</li>
-          <li>Built a tiny, mighty offer</li>
-          <li>Launched without needing a fancy website</li>
-          <li>Sold your first product or service</li>
-          <li>Created a system you can repeat, tweak, and scale</li>
-          <li>Gotten your own money flowing (without begging friends to buy)</li>
-        </ul>
-
-        <p className="mb-8">
-          But best of all?
-        </p>
-
-        <h2 className="mb-8">
-          You're no longer drowning in the shallow pool of "content inspiration."
-        </h2>
-
-        <h3 className="mb-8">
-          You're now deep in the ocean of execution.
-        </h3>
-
-        <p className="mb-6">
-          Where the real sharks swim.<br />
-          Where the real money flows.<br />
-          Where the real entrepreneurs are born.
-        </p>
-
-        <p className="mb-8">
-          And it all started with one uncomfortable, punchy, painfully honest decision:
-        </p>
-
-        <h2 className="mb-8">
-          You read a book that told you the truth.
-        </h2>
-
-        <p className="mb-8">
-          Now...
-        </p>
-
-        <p className="mb-8">
-          We've danced around the fire long enough.
-        </p>
-
-        <p className="mb-6">
-          You've seen the problem.<br />
-          You've felt the rage.<br />
-          You've tasted the possibility.
-        </p>
-
-        <h2 className="mb-8">
-          Let's talk specifics.
-        </h2>
-
-        <p className="mb-8">
-          Because next?
-        </p>
-
-        <h1 className="text-gradient">
-          You're about to see exactly what's inside this "37-page rant" that could very well become the moment your life split in two:
-        </h1>
-
-        <h2 className="mt-8">
-          Before this book.<br />
-          And after.
-        </h2>
+        <article className="space-y-8">
+          <div className="text-center mb-8">
+            <h2 className="text-accent text-3xl font-bold uppercase tracking-tight">
+              🔥 TRANSFORMATION BUILD-UP: What Happens After the Spark 🔥
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            <p className="text-primary text-xl font-medium">
+              Let's imagine something wild.
+              <br />
+              Not a fantasy.
+              <br />
+              Not some "one day I'll be rich" dream.
+            </p>
+            
+            <div className="bg-highlight p-4 rounded-lg">
+              <p className="text-primary text-xl font-bold">
+                But a believable, specific, painfully real shift...
+                <br />
+                ...in your life.
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-10">
+            {/* Week One */}
+            <div className="space-y-4">
+              <h3 className="text-accent text-2xl font-bold uppercase">📍 Week One</h3>
+              
+              <p className="text-primary text-lg">
+                You don't even have a full plan yet.
+                <br />
+                But you've made a decision.
+              </p>
+              
+              <div className="bg-note p-4 rounded-lg">
+                <p className="text-primary text-lg font-bold">
+                  And suddenly, your energy's different.
+                </p>
+              </div>
+              
+              <p className="text-primary text-lg">
+                You're no longer aimlessly scrolling Telegram channels, bouncing between YouTube videos titled "Top 5 Ways to Make Money in 2024."
+                <br />
+                You're doing something.
+              </p>
+              
+              <p className="text-primary text-lg">
+                You send one bold message to someone with a real need.
+                <br />
+                And they say: "How much?"
+              </p>
+              
+              <div className="space-y-2">
+                <p className="text-primary text-lg">Your heart stops.</p>
+                <p className="text-primary text-lg">You stammer. You fumble.</p>
+                <p className="text-primary text-lg">You give a price.</p>
+                <p className="text-primary text-lg font-bold">They pay.</p>
+              </div>
+              
+              <div className="text-center">
+                <p className="text-accent text-4xl font-bold">₦5,000.</p>
+                <p className="text-primary text-lg">
+                  Not life-changing. But mind-changing.
+                </p>
+              </div>
+              
+              <div className="scribble-note text-xl italic">
+                "Wait... that worked?"
+              </div>
+            </div>
+
+            {/* Week Two */}
+            <div className="space-y-4">
+              <h3 className="text-accent text-2xl font-bold uppercase">📍 Week Two</h3>
+              
+              <p className="text-primary text-lg">
+                You refine it.
+                <br />
+                You keep it ugly but effective.
+              </p>
+              
+              <div className="bg-accent/10 p-4 rounded-lg">
+                <p className="text-primary text-lg font-bold">
+                  You don't waste time building a logo, printing business cards, or buying a ring light.
+                  <br />
+                  You just sell.
+                  <br />
+                  You just help.
+                </p>
+              </div>
+              
+              <p className="text-primary text-lg">
+                You keep it street-smart. Hustle-sharp.
+              </p>
+              
+              <div className="flex justify-center space-x-4">
+                <span className="text-accent text-2xl font-bold">₦5k</span>
+                <span className="text-primary text-2xl">→</span>
+                <span className="text-accent text-2xl font-bold">₦12k</span>
+                <span className="text-primary text-2xl">→</span>
+                <span className="text-accent text-2xl font-bold">₦18k</span>
+              </div>
+              
+              <p className="text-primary text-lg">
+                Not smooth.
+                <br />
+                Not sexy.
+                <br />
+                But real.
+              </p>
+              
+              <p className="text-primary text-lg">
+                People start replying faster.
+                <br />
+                You're no longer begging.
+                <br />
+                Now they're asking:
+              </p>
+              
+              <div className="scribble-note space-y-2">
+                <p>"Can I get it today?"</p>
+                <p>"Do you also do this other thing?"</p>
+              </div>
+            </div>
+
+            {/* Week Four */}
+            <div className="space-y-4">
+              <h3 className="text-accent text-2xl font-bold uppercase">📍 Week Four</h3>
+              
+              <p className="text-primary text-lg">
+                You're not rich.
+                <br />
+                But you're no longer in survival mode.
+              </p>
+              
+              <div className="bg-highlight p-4 rounded-lg">
+                <p className="text-primary text-xl font-bold">
+                  The panic is gone.
+                  <br />
+                  You know what to do every day to make money.
+                </p>
+              </div>
+              
+              <p className="text-primary text-lg">
+                Not theory.
+                <br />
+                Reality.
+                <br />
+                You're not guessing.
+                <br />
+                You're just repeating the play that worked.
+              </p>
+              
+              <p className="text-primary text-lg">
+                No more feeling "late."
+                <br />
+                No more jealousy watching 19-year-olds show off their 'business success' with ₦20k sneakers and ₦0 in actual profit.
+              </p>
+              
+              <div className="bg-note p-4 rounded-lg">
+                <p className="text-primary text-lg font-bold">
+                  You're building something that feeds you.
+                  <br />
+                  No hype.
+                  <br />
+                  No hashtags.
+                  <br />
+                  Just a quiet kind of confidence that hits different when the bills come... and you can handle them.
+                </p>
+              </div>
+            </div>
+
+            {/* Week Seven */}
+            <div className="space-y-4">
+              <h3 className="text-accent text-2xl font-bold uppercase">📍 Week Seven</h3>
+              
+              <p className="text-primary text-lg">
+                Now you're thinking differently.
+                <br />
+                You no longer chase every random side hustle idea.
+                <br />
+                You've found your lane.
+              </p>
+              
+              <p className="text-primary text-lg">
+                You're learning how to sharpen it.
+                <br />
+                How to sell better. Package smarter. Raise your rates.
+                <br />
+                How to take ₦3k, reinvest it, and flip it into something sustainable.
+              </p>
+              
+              <div className="bg-accent/10 p-4 rounded-lg">
+                <p className="text-primary text-xl font-bold">
+                  You're not just doing business.
+                  <br />
+                  You're becoming someone new.
+                  <br />
+                  The kind of person who makes things happen — even from scratch.
+                </p>
+              </div>
+            </div>
+
+            {/* Month Three */}
+            <div className="space-y-4">
+              <h3 className="text-accent text-2xl font-bold uppercase">📍 By Month Three</h3>
+              
+              <p className="text-primary text-lg">
+                People you helped in the early days are now sending referrals.
+                <br />
+                You're making sales without begging.
+              </p>
+              
+              <p className="text-primary text-lg">
+                Your family doesn't "get" what you're doing yet...
+                <br />
+                ...but they've noticed the shift.
+              </p>
+              
+              <div className="bg-highlight p-4 rounded-lg">
+                <p className="text-primary text-xl font-bold">
+                  You're more focused. Less angry. Sharper.
+                  <br />
+                  You've stopped ranting. You've started executing.
+                </p>
+              </div>
+              
+              <p className="text-primary text-lg">
+                And maybe the money isn't crazy yet.
+                <br />
+                But you are no longer the same person who landed on this page months ago.
+              </p>
+              
+              <p className="text-primary text-lg">
+                You're no longer searching for magic.
+                <br />
+                You're using mechanics.
+              </p>
+              
+              <div className="bg-note p-4 rounded-lg">
+                <p className="text-primary text-lg font-bold">
+                  The step-by-step kind.
+                  <br />
+                  The "do this today, sell something by evening" kind.
+                  <br />
+                  The kind that actually works for people starting from ₦0, no laptop, no brand, and no hype.
+                  <br />
+                  The kind you wish you had years ago.
+                </p>
+              </div>
+            </div>
+
+            {/* Final Transformation */}
+            <div className="space-y-6">
+              <h3 className="text-accent text-2xl font-bold uppercase">📍 And by then?</h3>
+              
+              <p className="text-primary text-lg">
+                The next level starts showing up.
+                <br />
+                You look at your phone and instead of seeing noise, you see tools.
+                <br />
+                You look at ₦3k and think "Hmm... how do I flip this?"
+                <br />
+                You look at yourself...
+              </p>
+              
+              <div className="bg-accent/10 p-6 rounded-lg">
+                <p className="text-primary text-xl font-bold">
+                  ...and you actually feel proud.
+                  <br />
+                  Because you're not waiting anymore.
+                  <br />
+                  You're winning.
+                </p>
+              </div>
+              
+              <p className="text-primary text-lg">
+                Even if it's slow.
+                <br />
+                Even if it's scrappy.
+                <br />
+                Even if nobody's clapping for you yet.
+                <br />
+                You're in the game.
+              </p>
+              
+              <div className="bg-highlight p-6 rounded-lg">
+                <h3 className="text-primary text-2xl font-bold">
+                  And you're dangerous now.
+                </h3>
+                
+                <p className="text-primary text-lg">
+                  Because when someone like you learns how to create cash on command?
+                  <br />
+                  On your own terms?
+                  <br />
+                  From a place of desperation turned into direction?
+                </p>
+                
+                <p className="text-primary text-xl font-bold">
+                  You don't just build a hustle.
+                  <br />
+                  You build a weapon.
+                </p>
+              </div>
+              
+              <p className="text-primary text-lg">
+                A weapon that feeds you, funds your dreams, and frees your mind.
+                <br />
+                All from nothing.
+                <br />
+                All from this.
+              </p>
+              
+              <div className="space-y-2 text-center">
+                <p className="text-primary text-lg">This spark.</p>
+                <p className="text-primary text-lg">This guide.</p>
+                <p className="text-primary text-lg font-bold">This blueprint.</p>
+              </div>
+            </div>
+
+            {/* Call to Action */}
+            <div className="text-center mt-12">
+              <h3 className="text-accent text-3xl font-bold uppercase tracking-tight">
+                And now?
+                <br />
+                Now you're ready for what's next.
+              </h3>
+              
+              <p className="text-primary text-xl mt-4">
+                You feel that?
+                <br />
+                That tightness in your chest?
+                <br />
+                That "maybe this could be me" whisper echoing through your gut?
+              </p>
+              
+              <div className="bg-note p-6 rounded-lg mt-6">
+                <p className="text-primary text-xl font-bold">
+                  That's not hype.
+                  <br />
+                  That's alignment.
+                </p>
+                
+                <h3 className="text-accent text-3xl font-bold uppercase mt-4">
+                  And that means...
+                  <br />
+                  You're ready.
+                </h3>
+                
+                <div className="space-y-2 mt-4">
+                  <p className="text-primary text-lg font-bold">You're ready for the next part.</p>
+                  <p className="text-primary text-lg font-bold">Ready for the blueprint.</p>
+                  <p className="text-primary text-lg font-bold">Ready for the reveal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );
