@@ -149,9 +149,9 @@ const CTA = () => {
               </a> */}
 
 <Link href="/payment" passHref>
-  <a className="btn-primary mx-auto text-xl py-4 px-8 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700 transition-all transform hover:scale-105 animate-chill-pulse">
+  <button className="btn-primary mx-auto text-xl py-4 px-8 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700 transition-all transform hover:scale-105 animate-chill-pulse">
     YES — I'm Ready to Actually Make Money → ₦4,500
-  </a>
+  </button>
 </Link>
 
             </div>
