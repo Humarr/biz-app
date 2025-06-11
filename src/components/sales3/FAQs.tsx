@@ -225,6 +225,212 @@ const FAQSection = () => {
               </div>
             </div>
 
+{/* FAQ Item 9 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"Be honest. Is this just another 'YouTube thread turned PDF' like the garbage I’ve wasted money on before?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      No, fam. This isn’t some AI-generated, ChatGPT-spit-out nonsense dressed up with Canva covers and vibes.
+    </p>
+    <p className="text-primary text-lg">
+      This is a blood-soaked battle rant from someone who’s been broke, confused, tired, and done with the fake guru circle-jerk.
+    </p>
+    <p className="text-primary text-lg font-bold">
+      Every page drips with real talk, tested truths, and business strategy that hits like a slap from your future successful self.
+    </p>
+  </div>
+</div>
+
+{/* FAQ Item 10 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"It’s just 37 pages? Shouldn’t it be longer?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      Ah, so you want a 350-page novel of fluff, huh? Pages padded with motivational quotes, stories about Jeff Bezos in his garage, and “mindset” babble that never helped anybody build sh*t?
+    </p>
+    <p className="text-primary text-lg font-bold">
+      This book is 37 pages of straight punches. No fat. No fillers. Just what works.
+    </p>
+    <p className="text-primary text-lg">
+      If that sounds “too short,” maybe you’ve been trained to love pain instead of results.
+    </p>
+  </div>
+</div>
+
+{/* FAQ Item 11 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"What if I don’t have a business yet? Is this still for me?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      Especially if you don’t.
+      This isn’t some advanced funnel-optimization, “10X your ad ROI” crap for already-rich bros.
+    </p>
+    <p className="text-primary text-lg font-bold">
+      This is ground zero strategy — what to do when you’re starting with only ₦3k, a cracked phone, and way too many screenshots of failed ideas in your Notes app.
+    </p>
+  </div>
+</div>
+
+{/* FAQ Item 12 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"I’ve read books before. Nothing changed. Why will this be different?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      Because this one doesn’t try to “motivate” you.
+    </p>
+    <p className="text-primary text-lg font-bold">
+      It grabs you by the shirt, slaps you with truth, and throws you into the arena.
+    </p>
+    <p className="text-primary text-lg">
+      If you still do nothing after reading it, you’ll feel so exposed, so roasted, so spiritually violated…
+      <br />
+      …you’ll either cry, or finally get off your ass and sell something.
+    </p>
+    <p className="text-primary text-lg font-bold">Either way, you’ll move.</p>
+  </div>
+</div>
+
+{/* FAQ Item 13 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"What if I’m broke broke? Like, my bank app is a horror movie."
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">Then read it twice.</p>
+    <p className="text-primary text-lg">
+      This is for people exactly like you. It shows you how to make something out of absolutely nothing — not by wishing or waiting, but by learning how to sell, serve, and survive.
+    </p>
+    <p className="text-primary text-lg font-bold">
+      This ₦4,500 might be the last "expense" you make… before you finally start making income.
+    </p>
+  </div>
+</div>
+
+{/* FAQ Item 14 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"I’m scared. Like, what if I try again and still fail?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      Look. Fear’s valid. But do you know what’s scarier?
+    </p>
+    <p className="text-primary text-lg">
+      Another 12 months of “thinking about it.” Another year of “almost starting.”
+    </p>
+    <p className="text-primary text-lg">
+      This book isn’t magic. But it gives you the realest damn shot at breaking out.
+    </p>
+    <p className="text-primary text-lg font-bold">
+      And that? That’s worth braving a little fear.
+    </p>
+  </div>
+</div>
+
+{/* FAQ Item 15 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"Can I get a refund if it sucks? Like, for real?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      Yes. For real.
+      <br />
+      If you read it and feel like it was a waste, just ask.
+      <br />
+      No awkward silence. No 17-step refund form.
+    </p>
+    <p className="text-primary text-lg font-bold">Just shoot a message. Get your cash. No drama.</p>
+  </div>
+</div>
+
+{/* FAQ Item 16 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"I don’t like reading. Is there an audiobook?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      Not yet. But the writing style is so vivid, blunt, and in-your-face that most people say it feels like getting yelled at by your brutally honest business friend.
+    </p>
+    <p className="text-primary text-lg font-bold">So yeah. You’ll survive.</p>
+  </div>
+</div>
+
+{/* FAQ Item 17 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"I have commitment issues. Can I just buy the bonuses instead?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      LOL. No.
+      <br />
+      The bonuses are like the elite squad — they only roll with the general.
+    </p>
+    <p className="text-primary text-lg font-bold">You want them? You commit. 😌</p>
+  </div>
+</div>
+
+{/* FAQ Item 18 */}
+<div className="space-y-4">
+  <div className="scribble-note text-lg">
+    ❓"Who the hell are you again? Why should I trust you?"
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg font-bold">ANSWER:</p>
+    <p className="text-primary text-lg">
+      I’m not a guru. Not trying to be. I’m just someone who got sick of watching smart, broke, talented people fall for the same stupid traps.
+    </p>
+    <p className="text-primary text-lg">
+      So I wrote the guide I wish someone had handed me.
+    </p>
+    <p className="text-primary text-lg font-bold">
+      If you want pedigree, go stalk LinkedIn. If you want results, grab the damn book.
+    </p>
+  </div>
+</div>
+
+{/* Final Warning */}
+{/* <div className="space-y-4">
+  <div className="scribble-note text-lg font-bold">
+    ⚠️ Final Warning (Because Some People Still Need One)
+  </div>
+  <div className="bg-note p-4 rounded-lg">
+    <p className="text-primary text-lg">
+      If you’re still on the fence after all this… ask yourself one question:
+    </p>
+    <p className="text-primary text-lg font-bold italic">
+      “When’s the last time hesitation made me money?”
+    </p>
+    <p className="text-primary text-lg">
+      The clock’s ticking. The price could go up. The regret will definitely catch up.
+    </p>
+    <p className="text-primary text-xl font-bold mt-4">
+      👉🏾 [I’m ready. Let’s GO.]
+    </p>
+  </div>
+</div> */}
+
+            
+
             {/* Final CTA */}
             <div className="text-center mt-12">
               <h3 className="text-primary text-2xl font-bold">
