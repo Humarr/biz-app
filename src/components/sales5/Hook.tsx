@@ -11,7 +11,7 @@ const Hook = () => {
               I Listened to the Fake Gurus, Watched All the Reels…<br />
               <span className="text-red-600">Still Ended Up Eating Garri for Dinner.</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8">Then something shifted — and I started seeing alerts instead.</p>
+            <p className="text-2xl text-gray-600 mb-8">Then something shifted — and I started seeing alerts instead.</p>
           </div>
       
           <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg border border-gray-100 animate-float">
@@ -39,8 +39,8 @@ const Hook = () => {
             <div className="mb-8">
               <p className="text-center text-lg mb-3">But here you are…</p>
               <div className="flex flex-wrap justify-center gap-3">
-                <span className="scribble-note px-4 py-2">Still broke.</span>
-                <span className="scribble-note px-4 py-2">Still guessing.</span>
+                <span className="font-scribble px-4 py-2">Still broke.</span>
+                <span className="font-scribble px-4 py-2">Still guessing.</span>
               </div>
             </div>
       
