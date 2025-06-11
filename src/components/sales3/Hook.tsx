@@ -6,16 +6,16 @@ const SavageHookSection = () => {
     <section className="section-py bg-background w-full">
       <div className="container-narrow">
         <article className="space-y-6">
-          <div className="scribble-note text-primary text-lg">
+          {/* <div className="scribble-note text-primary text-lg">
             🧨 HOOK (Simplified + Savage):
-          </div>
+          </div> */}
           
-          <p className="text-secondary text-lg italic">
+          <p className="quote text-lg italic">
             If you came here hoping I'll show you how to make ₦100k online in 3 days... just sitting at home, in your pyjamas, doing almost nothing...
           </p>
           
           <div className="space-y-4">
-            <h2 className="text-accent text-3xl font-bold uppercase tracking-tight">
+            <h2 className="text-accent">
               You're on the wrong page.
             </h2>
             
@@ -25,7 +25,7 @@ const SavageHookSection = () => {
           </div>
 
           <div className="bg-highlight p-4 rounded-lg">
-            <h3 className="text-primary text-2xl uppercase font-bold">
+            <h3 className="text-primary text-2xl font-bold">
               This is the truth they don't tell you.
             </h3>
             
