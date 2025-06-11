@@ -14,9 +14,12 @@ const Story = () => {
               <div className="text-center">
                 <p className="text-xl mb-4">It was past midnight.</p>
                 <div className="flex flex-wrap justify-center gap-4 mb-6">
-                  <span className="scribble-note bg-red-900/50 px-4 py-2">No light.</span>
+                  <span className=" bg-red-900/50 px-4 py-2">No light.</span>
+                  <span className=" bg-red-900/50 px-4 py-2">No fan.</span>
+                  <span className=" bg-red-900/50 px-4 py-2">No food in the pot.</span>
+                  {/* <span className="scribble-note bg-red-900/50 px-4 py-2">No light.</span>
                   <span className="scribble-note bg-red-900/50 px-4 py-2">No fan.</span>
-                  <span className="scribble-note bg-red-900/50 px-4 py-2">No food in the pot.</span>
+                  <span className="scribble-note bg-red-900/50 px-4 py-2">No food in the pot.</span> */}
                 </div>
               </div>
               
@@ -48,9 +51,12 @@ const Story = () => {
                 
                 <div className="text-center mt-8">
                   <p className="text-xl mb-4">And yet...</p>
-                  <div className="inline-block scribble-note bg-amber-900/50 px-6 py-3 mb-4 animate-pulse">
+                  <div className="inline-block bg-amber-900/50 px-6 py-3 mb-4 animate-pulse">
                     I still ate garri.<br/>Again.
                   </div>
+                  {/* <div className="inline-block scribble-note bg-amber-900/50 px-6 py-3 mb-4 animate-pulse">
+                    I still ate garri.<br/>Again.
+                  </div> */}
                   <p className="text-gray-300 italic">No sugar.<br/>Just the raw grains scratching my throat like judgment.</p>
                   <p className="mt-4 font-bold">That was the 5th time that week.</p>
                 </div>
@@ -76,9 +82,12 @@ const Story = () => {
                 </div>
                 <p className="text-center mb-4">Even tried that one money ritual where you write your goals on paper and burn it.</p>
                 <div className="flex flex-wrap justify-center gap-3 mt-6">
-                  <span className="scribble-note bg-red-900/50 px-4 py-2">Still broke.</span>
+                  <span className="bg-red-900/50 px-4 py-2">Still broke.</span>
+                  <span className="bg-red-900/50 px-4 py-2">Still stuck.</span>
+                  <span className="bg-red-900/50 px-4 py-2">Still struggling.</span>
+                  {/* <span className="scribble-note bg-red-900/50 px-4 py-2">Still broke.</span>
                   <span className="scribble-note bg-red-900/50 px-4 py-2">Still stuck.</span>
-                  <span className="scribble-note bg-red-900/50 px-4 py-2">Still struggling.</span>
+                  <span className="scribble-note bg-red-900/50 px-4 py-2">Still struggling.</span> */}
                 </div>
               </div>
               
@@ -121,10 +130,14 @@ const Story = () => {
                   </p>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-8">
-                    <span className="scribble-note bg-gray-700 px-4 py-2">“Monetize your skill.”</span>
+                    <span className="bg-gray-700 px-4 py-2">“Monetize your skill.”</span>
+                    <span className="bg-gray-700 px-4 py-2">“Build a brand.”</span>
+                    <span className="bg-gray-700 px-4 py-2">“Charge your worth.”</span>
+                    <span className="bg-gray-700 px-4 py-2">“Stay consistent.”</span>
+                    {/* <span className="scribble-note bg-gray-700 px-4 py-2">“Monetize your skill.”</span>
                     <span className="scribble-note bg-gray-700 px-4 py-2">“Build a brand.”</span>
                     <span className="scribble-note bg-gray-700 px-4 py-2">“Charge your worth.”</span>
-                    <span className="scribble-note bg-gray-700 px-4 py-2">“Stay consistent.”</span>
+                    <span className="scribble-note bg-gray-700 px-4 py-2">“Stay consistent.”</span> */}
                   </div>
                   
                   <div className="text-center bg-red-900/30 p-6 rounded-xl">
@@ -167,9 +180,12 @@ const Story = () => {
                   <div className="my-8">
                     <p>So you stay stuck.<br/><span className="font-bold">Not because you're lazy — but because you're exhausted.</span></p>
                     <div className="flex flex-wrap justify-center gap-4 mt-6">
-                      <span className="scribble-note bg-amber-900/50 px-4 py-2">You've tried it all.</span>
+                      <span className="bg-amber-900/50 px-4 py-2">You've tried it all.</span>
+                      <span className="bg-amber-900/50 px-4 py-2">Heard it all.</span>
+                      <span className="bg-amber-900/50 px-4 py-2">Downloaded it all.</span>
+                      {/* <span className="scribble-note bg-amber-900/50 px-4 py-2">You've tried it all.</span>
                       <span className="scribble-note bg-amber-900/50 px-4 py-2">Heard it all.</span>
-                      <span className="scribble-note bg-amber-900/50 px-4 py-2">Downloaded it all.</span>
+                      <span className="scribble-note bg-amber-900/50 px-4 py-2">Downloaded it all.</span> */}
                     </div>
                     <p className="text-2xl font-bold mt-6 text-red-400">And you're still broke.</p>
                   </div>
