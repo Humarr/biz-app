@@ -1,211 +1,176 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client';
-import Link from 'next/link';
 import React from 'react';
 
-const SoftSellCTASection = () => {
+const SoftSellSection = () => {
   return (
-    <section className="section-py bg-background">
+    <section className="section-py bg-background w-full">
       <div className="container-narrow">
-        <div className="scribble-note mb-8">
-          💣 SOFT SELL + CTA
-        </div>
+        <article className="space-y-8">
+          <div className="text-center mb-8">
+            <h2 className="text-accent text-3xl font-bold uppercase tracking-tight">
+              🔥 HARD SELL + CTA: This is Not a Book. It's a Loaded Weapon.
+            </h2>
+          </div>
 
-        <h1 className="mb-8 text-4xl font-headline2 uppercase">
-          This Isn't a Book.<br />
-          It's a Bat.
-        </h1>
-
-        <p className="mb-8 text-xl">
-          To smash every delusion, distraction, and fake-guru fantasy that's keeping you poor.
-        </p>
-
-        <h2 className="mb-8 text-3xl font-headline2 uppercase text-accent">
-          It's called:
-        </h2>
-
-        <div className="bg-note p-6 rounded-lg mb-12">
-          <h3 className="text-3xl font-headline2 uppercase text-primary">
-            "Don't Start a Business... Until You Read This 37-Page Rant."
-          </h3>
-          <p className="text-secondary mt-2">
-            (Yes. That's the actual title. And yes — it means exactly what you think.)
-          </p>
-        </div>
-
-        <div className="mb-12">
-          <ul className="space-y-3 text-xl">
-            <li>It's not "motivational."</li>
-            <li>It's not "inspirational."</li>
-            <li>It's not going to pet your head and whisper sweet six-figure dreams in your ear.</li>
-          </ul>
-        </div>
-
-        <p className="mb-8 text-xl">
-          It's a 37-page punch to the gut of everything you've been told about starting a business.
-        </p>
-
-        <h2 className="mb-8 text-3xl font-headline2 uppercase">
-          Inside, you'll learn:
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
-          <div className="space-y-4">
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🩸</span>
-              Why broke people build broke businesses — and how to stop building one (Chapter 1)
+          <div className="space-y-6">
+            <p className="text-primary text-xl font-bold">
+              Alright, let's not pretend anymore.
             </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">❌</span>
-              Why you should NOT build a product first — unless you enjoy soul-crushing failure (Chapter 2)
-            </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">💡</span>
-              How to get good, profitable business ideas without sacrificing your soul to some AI idea generator (Chapter 3)
-            </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🔥</span>
-              The 4 Business Triggers that make people throw money at you like you're selling air in hell (Chapter 4)
-            </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">💸</span>
-              How to test your idea BEFORE it bankrupts you — real tactics, not vibes (Chapter 5)
-            </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🧠</span>
-              Why most "good" ideas are deadly traps — and how to tell the difference between shiny trash and silent gold (Chapter 6)
+            
+            <ul className="list-disc list-inside space-y-2 text-primary text-lg">
+              <li>No whispery transitions.</li>
+              <li>No warm-up act.</li>
+            </ul>
+            
+            <div className="bg-highlight p-4 rounded-lg">
+              <p className="text-primary text-xl font-bold">
+                This is the part where I sell you the damn thing.
+                <br />
+                Except...
+              </p>
+            </div>
+            
+            <p className="text-primary text-lg font-bold">
+              I'm not going to beg you.
             </p>
           </div>
-          <div className="space-y-4">
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🧲</span>
-              How to make people crave your offer like it's limited edition suya during fuel scarcity (Chapter 7)
+
+          <div className="space-y-6 bg-note p-6 rounded-lg">
+            <p className="text-primary text-lg">
+              Because if you've read this far — after all the punches, panic attacks, and painful truths — then you already know this ain't some cute little "side hustle eBook."
             </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🧱</span>
-              The brutal mindset shift that separates the hustlers from the winners — and how to dominate ANY industry (Chapter 8)
+            
+            <h3 className="text-primary text-2xl font-bold">
+              This is survival gear.
+            </h3>
+          </div>
+
+          <div className="space-y-6">
+            <p className="text-primary text-lg">
+              It's called:
             </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">⚰️</span>
-              What happens when you keep jumping industries like a broke kangaroo (Chapter 9)
+            
+            <h3 className="text-accent text-3xl font-bold uppercase">
+              "Don't Start a Business... Until You Read This 37-Page Rant"
+            </h3>
+            
+            <p className="text-primary text-lg">
+              Subtitle?
             </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🦈</span>
-              How to escape bloody Red Oceans and find your own Blue Ocean (Yes, real Nigerian examples inside) (Chapter 10 + 11)
-            </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">🎯</span>
-              How to advertise like a street-smart savage (even if you're broke and unknown) (Chapters 12–17)
-            </p>
-            <p className="flex items-start">
-              <span className="text-accent font-bold mr-2">💰</span>
-              Why your pricing is sending customers running — and how to build a business people love to pay (Chapters 18–22)
+            
+            <div className="scribble-note text-xl italic">
+              "A Brutally Honest Guide to Starting a Business That Actually Makes Money (and Doesn't Ruin Your Life)."
+            </div>
+          </div>
+
+          <div className="space-y-6 bg-accent/10 p-6 rounded-lg">
+            <h3 className="text-primary text-2xl font-bold">
+              It's ₦4,500.
+            </h3>
+            
+            <p className="text-primary text-lg">
+              That's less than the price of the asun and shawarma combo you're probably scrolling this page with.
             </p>
           </div>
-        </div>
 
-        <div className="mb-12">
-          <p className="flex items-start">
-            <span className="text-accent font-bold mr-2">🚫</span>
-            Why you don't need another course. Or coach. Or 9-month business mentorship program. (Chapter 23)
-          </p>
-          <p className="flex items-start mt-4">
-            <span className="text-accent font-bold mr-2">👊🏾</span>
-            And why this rant may be the only business advice you ever need again. (Chapter 24)
-          </p>
-        </div>
+          <div className="space-y-6">
+            <h3 className="text-primary text-2xl font-bold">
+              And it will give you:
+            </h3>
+            
+            <ul className="list-disc list-inside space-y-3 text-primary text-lg">
+              <li className="font-bold">🔥 37 pages of battle-tested, fluff-free, sarcasm-laced, laugh-through-the-pain guidance from someone who's lived it</li>
+              <li className="font-bold">🔥 Real examples and hard truths about the businesses that actually work when you're broke (and the ones that pretend to)</li>
+              <li className="font-bold">🔥 A step-by-step game plan to flip your ₦3k into ₦30k... then ₦300k — using whatever you have right now</li>
+              <li className="font-bold">🔥 The exact survival-selling scripts that can get you paid today</li>
+              <li className="font-bold">🔥 Brutal filters for picking a hustle that doesn't burn you out or blow up in your face</li>
+              <li className="font-bold">🔥 The "Broke, Hungry, Angry Blueprint" for the ones who are done with dreaming and ready to start doing</li>
+            </ul>
+          </div>
 
-        <div className="text-center mb-12">
-          <h3 className="text-xl font-headline2 uppercase">
-            Each page?<br />
-            Designed to slap.<br />
-            Every line?<br />
-            Built to sell.<br />
-            Every idea?<br />
-            Something you can actually use. Today. This week. Now.
-          </h3>
-        </div>
+          <div className="space-y-6 bg-highlight p-6 rounded-lg">
+            <h3 className="text-primary text-2xl font-bold">
+              But more than that...
+              <br />
+              It will slap the daydreaming out of your skull.
+            </h3>
+            
+            <ul className="list-disc list-inside space-y-2 text-primary text-lg">
+              <li>You won't finish this and still lie to yourself.</li>
+              <li>You won't finish this and still sit on your hands.</li>
+              <li>You won't finish this and still scroll motivational quotes while you starve.</li>
+            </ul>
+          </div>
 
-        <div className="bg-accent text-white p-6 rounded-lg mb-12">
-          <h2 className="text-2xl font-bold mb-4">
-            And here's the kicker:
-          </h2>
-          <p className="text-xl">
-            It's just ₦4,500.<br />
-            That's less than the price of your favorite shawarma, two bottles of Pepsi, and one emotionally damaging business course from Twitter that made you question your entire existence.
-          </p>
-        </div>
+          <div className="space-y-6">
+            <p className="text-primary text-xl font-bold">
+              You'll either take action...
+              <br />
+              Or you'll walk away from this page knowing — deep in your gut — that you chose fear over fire.
+            </p>
+            
+            <div className="bg-note p-4 rounded-lg">
+              <h3 className="text-primary text-2xl font-bold">
+                And if that's the case?
+                <br />
+                Then please, go.
+                <br />
+                This isn't for you.
+              </h3>
+            </div>
+          </div>
 
-        <p className="mb-8 text-xl">
-          And you get bonuses.<br />
-          Real ones. Not "10 Canva templates" type nonsense.
-        </p>
-
-        <div className="scribble-note mb-12">
-          (We'll get to that in a second.)
-        </div>
-
-        <div className="mb-12">
-          <h2 className="text-2xl font-headline2 uppercase mb-4">
-            But here's the truth:
-          </h2>
-          <p className="text-xl">
-            If this rant doesn't help you?<br />
-            If it doesn't wake something up inside you?<br />
-            If you don't learn anything that makes you go:
-          </p>
-          <div className="highlight px-4 py-2 inline-block my-4">
-            <p className="text-primary font-bold text-xl">
-              "HOW THE HELL HAVE I NEVER HEARD THIS BEFORE?"
+          <div className="space-y-6 bg-accent/10 p-6 rounded-lg">
+            <h3 className="text-primary text-2xl font-bold">
+              But if you're still here...
+              <br />
+              Still angry...
+              <br />
+              Still nodding and whispering "God, I needed this..."
+            </h3>
+            
+            <p className="text-primary text-xl font-bold mt-4">
+              Then it's time.
             </p>
           </div>
-          <p className="text-xl">
-            Then email me.<br />
-            I'll give you your money back.<br />
-            No stress. No long story.<br />
-            Just a polite: "Thanks for trying it."
-          </p>
-        </div>
 
-        <div className="bg-note p-6 rounded-lg mb-12">
-          <p className="text-xl">
-            That's how much I believe this thing will change the way you see business — and yourself.
-          </p>
-        </div>
-
-        <h2 className="text-3xl font-headline2 uppercase text-center mb-12">
-          So the only real question left is:
-        </h2>
-
-        <div className="text-center mb-12">
-          <h3 className="text-2xl font-headline2 uppercase">
-            You in?<br />
-            Or are you gonna keep letting people who've never been broke tell you how to win?
-          </h3>
-        </div>
-
-        <div className="text-center mb-8">
-          <p className="text-xl">
-            Click below and grab your copy:
-          </p>
-        </div>
-
-        <div className="text-center">
-          {/* <button onClick={() => router.push('/payment')} className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
-            👉🏾 Yes, I'm in. Gimme the Rant Book Now
-          </button> */}
-          <Link href="/payment" passHref>
-      <button className="btn-primary text-xl px-8 py-4 mb-4 animate-float">
-        👉🏾 Yes, I'm in. Gimme the Rant Book Now
-      </button>
-    </Link>
-          <p className="text-secondary">
-            (Or go eat another thread about "value." Your call.)
-          </p>
-        </div>
+          <div className="text-center mt-12">
+            <h3 className="text-accent text-3xl font-bold uppercase tracking-tight">
+              🎯 Get the Book Now for ₦4,500
+            </h3>
+            
+            <p className="text-primary text-xl mt-4">
+              👇👇👇
+            </p>
+            
+            <button className="btn-primary mt-6 px-8 py-4 text-xl font-bold uppercase animate-float w-full max-w-md">
+              YES. I WANT TO STOP BEING BROKE, CONFUSED & ONE FAILURE AWAY FROM GIVING UP.
+            </button>
+            
+            <div className="mt-8 space-y-4">
+              <p className="text-primary text-lg">
+                Tap that button, agent.
+                <br />
+                I'll be waiting inside the book.
+              </p>
+              
+              <p className="text-primary text-lg font-bold">
+                With a flashlight.
+                <br />
+                And a baseball bat for your excuses.
+              </p>
+              
+              <h3 className="text-accent text-2xl font-bold uppercase mt-4">
+                Let's get you out of this hell.
+                <br />
+                For good. 💥
+              </h3>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );
 };
 
-export default SoftSellCTASection;
+export default SoftSellSection;

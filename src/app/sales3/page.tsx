@@ -8,7 +8,7 @@ import OfferTeaseSection from "@/components/sales3/Offer";
 // import HardSellSection from "@/components/sales3/HardSell";
 // import FAQSection from "@/components/sales3/FAQs";
 // import BonusesSection from "@/components/sales3/Bonuses";
-// import SoftSellSection from "@/components/sales3/SoftSell";
+import SoftSellSection from "@/components/sales3/SoftSell";
 
 
 export default function Sales() {
@@ -21,8 +21,8 @@ export default function Sales() {
             <Hope />
             <Transformation />
             <OfferTeaseSection />
-            {/* <SoftSellSection />
-            <FAQSection />
+            <SoftSellSection />
+            {/* <FAQSection />
             <BonusesSection />
             <HardSellSection /> */}
         </>
