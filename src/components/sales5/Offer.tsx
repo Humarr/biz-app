@@ -22,9 +22,9 @@ return (
   
         <div className="bg-red-50 rounded-xl p-8 mb-16 border border-red-200">
           <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-            <span className="scribble-note bg-white px-4 py-2 border border-red-300">Not a "dream big" motivation book</span>
-            <span className="scribble-note bg-white px-4 py-2 border border-red-300">Not "5 passive income ideas"</span>
-            <span className="scribble-note bg-red-200 px-4 py-2 font-bold">Definitely not vague AI-written nonsense</span>
+            <span className="scribble-note text-xl bg-white px-4 py-2 border border-red-300">Not a "dream big" motivation book</span>
+            <span className="scribble-note text-xl bg-white px-4 py-2 border border-red-300">Not "5 passive income ideas"</span>
+            <span className="scribble-note text-xl bg-red-200 px-4 py-2 font-bold">Definitely not vague AI-written nonsense</span>
           </div>
           <p className="text-center text-xl font-bold">
             This is field-tested, rage-written, proof-backed real talk.

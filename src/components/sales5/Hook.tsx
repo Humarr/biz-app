@@ -39,8 +39,8 @@ const Hook = () => {
             <div className="mb-8">
               <p className="text-center text-lg mb-3">But here you are…</p>
               <div className="flex flex-wrap justify-center gap-3">
-                <span className="font-scribble px-4 py-2">Still broke.</span>
-                <span className="font-scribble px-4 py-2">Still guessing.</span>
+                <span className="font-scribble text-xl px-4 py-2">Still broke.</span>
+                <span className="font-scribble text-xl px-4 py-2">Still guessing.</span>
               </div>
             </div>
       
