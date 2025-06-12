@@ -106,9 +106,11 @@ const PaymentPage = () => {
   
           <Link 
             href="#selar-checkout" 
-            className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 transition-all"
+            passHref
           >
+            <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 transition-all">
             Pay Securely via Selar — Click Here
+            </button>
           </Link>
         </div>
   
@@ -123,9 +125,11 @@ const PaymentPage = () => {
           </p>
           <Link 
             href="https://wa.me/[YourNumber]" 
-            className="inline-flex items-center btn-primary px-6 py-3 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700"
+            passHref
           >
+            <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700">
             📲 WhatsApp me here: [Your Number]
+            </button>
           </Link>
           <p className="mt-3 text-sm">
             I'll respond fast — no bots, no waiting 3 days.
@@ -172,6 +176,15 @@ const PaymentPage = () => {
           <p className="text-2xl font-bold mb-8">
             👇 Make the move now — we'll see you inside.
           </p>
+
+          <Link 
+            href="https://wa.me/[YourNumber]" 
+            passHref
+          >
+            <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700">
+            📲 WhatsApp me here: [Your Number]
+            </button>
+          </Link>
         </div>
       </div>
     </div>
