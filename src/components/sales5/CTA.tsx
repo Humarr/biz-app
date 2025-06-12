@@ -22,9 +22,9 @@ const CTA = () => {
       
             <div className="bg-red-900/40 p-6 rounded-xl mb-12 border border-red-700">
               <div className="flex flex-wrap justify-center gap-3 mb-6">
-                <span className="font-scribble bg-red-800 px-4 py-2">Tired of gurus selling "passive income"</span>
-                <span className="font-scribble bg-red-800 px-4 py-2">Tired of passive hunger</span>
-                <span className="font-scribble bg-red-800 px-4 py-2">Tired of "just start" from the privileged</span>
+                <span className="font-scribble text-xl bg-red-800 px-4 py-2">Tired of gurus selling "passive income"</span>
+                <span className="font-scribble text-xl bg-red-800 px-4 py-2">Tired of passive hunger</span>
+                <span className="font-scribble text-xl bg-red-800 px-4 py-2">Tired of "just start" from the privileged</span>
               </div>
               <p className="text-center text-xl font-bold">
                 So now, it's decision time:
@@ -40,8 +40,8 @@ const CTA = () => {
                   <p>Wait for your "season" or "God's time"...</p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-2">
-                  <span className="font-scribble bg-red-900 px-3 py-1">Price of indomie ↗</span>
-                  <span className="font-scribble bg-red-900 px-3 py-1">Bank app stays dry</span>
+                  <span className="font-scribble text-xl bg-red-900 px-3 py-1">Price of indomie ↗</span>
+                  <span className="font-scribble text-xl bg-red-900 px-3 py-1">Bank app stays dry</span>
                 </div>
               </div>
               
@@ -161,9 +161,9 @@ const CTA = () => {
                 🔥 Final word:
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-6">
-                <span className="font-scribble bg-black/30 px-4 py-2">No pity.</span>
-                <span className="font-scribble bg-black/30 px-4 py-2">No promises.</span>
-                <span className="font-scribble bg-black/30 px-4 py-2">No pressure.</span>
+                <span className="font-scribble text-xl bg-black/30 px-4 py-2">No pity.</span>
+                <span className="font-scribble text-xl bg-black/30 px-4 py-2">No promises.</span>
+                <span className="font-scribble text-xl bg-black/30 px-4 py-2">No pressure.</span>
               </div>
               <p className="text-xl mb-4">
                 Just a real shot — at a real business — for real Nigerians.

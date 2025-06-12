@@ -143,7 +143,7 @@ const Shift = () => {
                   I tested, tracked, tweaked — then documented everything.
                 </p>
                 <p className="text-2xl font-bold mb-4">
-                  That's what became this <span className=" font-scribble bg-amber-200 px-4 py-1">₦4,500</span> ebook.
+                  That's what became this <span className=" font-scribble text-xl bg-amber-200 px-4 py-1">₦4,500</span> ebook.
                 </p>
                 {/* <p className="text-2xl font-bold mb-4">
                   That's what became this <span className="scribble-note bg-amber-200 px-4 py-1">₦4,500</span> ebook.
