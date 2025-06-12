@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const FAQSection = () => {
@@ -236,9 +237,11 @@ const FAQSection = () => {
       <p className="font-bold text-2xl text-accent mb-6">
         Let's fix that.
       </p>
+      <Link href="/payment3" passHref>
       <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse">
         STOP READING FAQS AND START MAKING MONEY
       </button>
+      </Link>
       <p className="font-bold text-2xl">
         👇👇👇
       </p>

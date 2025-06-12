@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const FinalOfferSection = () => {
@@ -172,9 +173,11 @@ const FinalOfferSection = () => {
         <p className="font-bold text-2xl mb-8">
           You ready?
         </p>
+        <Link href="/payment3" passHref>
         <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse">
           [YES — I WANT THE EBOOK & BONUSES]
         </button>
+        </Link>
         <p className="font-bold text-xl mb-6">
           ₦4,500 today.<br />
           Refund anytime if it sucks.<br />
