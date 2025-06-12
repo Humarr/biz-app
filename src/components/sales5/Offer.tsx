@@ -154,7 +154,7 @@ return (
         </div>
   
         <div className="text-center">
-          <div className="inline-block font-scribble bg-gradient-to-r from-green-500 to-green-700 text-white px-8 py-4 mb-6 text-3xl font-bold animate-bounce">
+          <div className="inline-block font-scribble text-amber-600 px-8 py-4 mb-6 text-3xl font-bold animate-chill-pulse">
             All for ₦4,500.
           </div>
           
