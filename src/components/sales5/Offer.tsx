@@ -168,17 +168,17 @@ return (
           </div>
           
           <div className="bg-gray-100 p-6 rounded-xl mb-10">
-            <p className="italic mb-3">
-              I priced it this low on purpose — so the right people (you) could afford it before success kicks in.
-            </p>
-            <p className="text-xl font-bold">
-              If this sounds like exactly what you've been waiting for...<br/>
-              Good.
-            </p>
-            <p className="text-2xl font-bold mt-4 text-red-600">
-              That's because it is.
-            </p>
-          </div>
+  <p className="italic mb-3">
+    I didn’t price this to buy a Benz. I priced it so you’d stop scrolling, pay attention… and actually follow through.
+  </p>
+  <p className="text-xl font-bold">
+    Cos let’s be honest — if it were free, you’d “save it for later” and forget it existed.
+  </p>
+  <p className="text-2xl font-bold mt-4 text-red-600">
+    But this? This might just be the slap your wallet’s been waiting for.
+  </p>
+</div>
+
         </div>
       </div>
     </div>
