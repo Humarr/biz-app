@@ -6,7 +6,7 @@ const HookSection = () => {
     <section className="section-py bg-background">
     <div className="container-narrow">
       <h3 className=" text-center mb-8 mt-8">
-      What If You Could Make <span className='bg-accent text-white px-2 py-1 rounded mx-2'>Your First ₦10K  </span>This Week…
+      What If You Could Make <span className='bg-accent text-white px-2 py-1 rounded mx-2 mt-1'>Your First ₦10K  </span> <span className='text-accent px-2 py-1 mt-1'>This Week</span>
       </h3>
       <h1 className="text-gradient text-center mb-8">
         Without Posting <span className='text-accent font-medium italic lowercase'> ‘Please Support My Business’ </span>on WhatsApp?
