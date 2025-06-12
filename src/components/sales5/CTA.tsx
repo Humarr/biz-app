@@ -117,14 +117,27 @@ const CTA = () => {
               </div>
             </div>
 
-            <Link 
-              href="/payment2" 
-           passHref
-            >
-                <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 transition-all">
-              I'm Ready to Actually Make Money → ₦4,500
-                </button>
-            </Link>
+            <Link href="/payment2" passHref>
+  <button
+    className="
+      mx-auto block text-xl font-extrabold
+      py-4 px-10
+      bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600
+      text-gray-900
+      rounded-full
+      shadow-lg shadow-amber-500/50
+      hover:from-amber-500 hover:via-yellow-600 hover:to-amber-700
+      focus:outline-none focus:ring-4 focus:ring-amber-300
+      transition-transform transform
+      hover:scale-110
+      animate-chill-pulse
+      mb-12
+      "
+  >
+    YES — I'm Ready to Actually Make Money → ₦4,500
+  </button>
+</Link>
+
       
             <div className="text-center mb-12">
               <h3 className="text-2xl font-bold mb-6">
@@ -158,10 +171,25 @@ const CTA = () => {
               </a> */}
 
 <Link href="/payment2" passHref>
-  <button className="btn-primary mx-auto text-xl py-4 px-8 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 transition-all transform hover:scale-105 animate-chill-pulse">
+  <button
+    className="
+      mx-auto block text-xl font-extrabold
+      py-4 px-10
+      bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600
+      text-gray-900
+      rounded-full
+      shadow-lg shadow-amber-500/50
+      hover:from-amber-500 hover:via-yellow-600 hover:to-amber-700
+      focus:outline-none focus:ring-4 focus:ring-amber-300
+      transition-transform transform
+      hover:scale-110
+      animate-chill-pulse
+        "
+  >
     YES — I'm Ready to Actually Make Money → ₦4,500
   </button>
 </Link>
+
 
             </div>
       
