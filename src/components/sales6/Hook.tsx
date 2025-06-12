@@ -9,7 +9,7 @@ const HookSection = () => {
       What If You Could Make <span className='bg-accent text-white px-2 py-1 rounded mx-2'>Your First ₦10K  </span>This Week…
       </h3>
       <h1 className="text-gradient text-center mb-8">
-        Without Posting <span className='text-accent font-medium italic'> ‘Please Support My Business’ </span>on WhatsApp?
+        Without Posting <span className='text-accent font-medium italic lowercase'> ‘Please Support My Business’ </span>on WhatsApp?
       </h1>
       {/* <h1 className="text-gradient text-center mb-8">
         What If You Could Make Your First ₦10K This Week… Without Posting ‘Please Support My Business’ on WhatsApp?
