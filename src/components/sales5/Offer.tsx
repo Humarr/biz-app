@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
-
+import Image from "next/image";
 
 
 const Offer = () => {
@@ -20,6 +20,16 @@ return (
             A brutally honest, no-fluff digital guide that shows you how to start a real business in Nigeria —
             Even if all you've got is your phone, ₦3k, and a will to never eat plain garri again.
           </p>
+          <div className="mt-8 flex justify-center">
+  <Image 
+    src="/mockups/ebook-cover.png" 
+    alt="Don't Start a Business eBook Cover" 
+    width={400} 
+    height={500} 
+    className="rounded-xl shadow-lg border border-amber-200"
+  />
+</div>
+
         </div>
   
         <div className="bg-red-50 rounded-xl p-8 mb-16 border border-red-200">
@@ -195,6 +205,16 @@ return (
     {/* Bonus 1 */}
     <div className="bg-amber-800/50 p-6 rounded-xl">
       <h4 className="text-xl font-bold mb-3">🔥 Bonus #1: Impulse Offer Alchemy</h4>
+      <div className="mb-4">
+  <Image 
+    src="/mockups/bonus1.png" 
+    alt="Bonus 1: Impulse Offer Alchemy" 
+    width={300} 
+    height={200} 
+    className="rounded-lg shadow-md mx-auto"
+  />
+</div>
+
       <p>
         Turn your “meh” business idea into an offer that makes broke people say: 
         “Shut up and take my money now.” No fancy emails, no webinar—just instant want.
@@ -211,6 +231,16 @@ return (
     {/* Bonus 2 */}
     <div className="bg-amber-800/50 p-6 rounded-xl">
       <h4 className="text-xl font-bold mb-3">📄 Bonus #2: Landing Pages That Sell (Not Sedate)</h4>
+      <div className="mb-4">
+  <Image 
+    src="/mockups/bonus2.png" 
+    alt="Bonus 2: Landing Pages That Sell" 
+    width={300} 
+    height={200} 
+    className="rounded-lg shadow-md mx-auto"
+  />
+</div>
+
       <p>
         The exact, idiot-proof page layout that turns casual scrollers into cash-happy buyers — 
         real examples from Naija hustlers, no online bros’ fake flex.
@@ -227,6 +257,16 @@ return (
     {/* Bonus 3 */}
     <div className="bg-amber-800/50 p-6 rounded-xl">
       <h4 className="text-xl font-bold mb-3">🧱 Bonus #3: The Broke, Hungry, Angry Blueprint</h4>
+      <div className="mb-4">
+  <Image 
+    src="/mockups/bonus3.png" 
+    alt="Bonus 3: The Broke, Hungry, Angry Blueprint" 
+    width={300} 
+    height={200} 
+    className="rounded-lg shadow-md mx-auto"
+  />
+</div>
+
       <p>
         How to start making sales today with zero cash, zero followers, and nothing but raw hunger.
         Flip ₦3k into ₦30k, then scale fast — no laptop or luck needed.
