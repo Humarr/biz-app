@@ -5,9 +5,10 @@
   /* Brand Colors – Throsell Vibe */
   --primary: #1a1a1a; /* Almost black, loud body text */
   --secondary: #888888; /* Muted commentary text */
-  --accent: #df1010; /* 🔴 Red CTA / highlight */
+  --accent: #b90000; /* 🔴 Red CTA / highlight */
   /* --accent: #ff3c3c; 🔴 Red CTA / highlight */
-  --highlight: #ffdb58; /* ⚡ Electric sticky yellow */
+  --highlight: #ffe066; /* ⚡ Electric sticky yellow */
+  /* --highlight: #ffdb58; ⚡ Electric sticky yellow */
   --background: #fef9f3; /* Off-white paper background */
   --note: #fff6b0; /* Sticky note bg */
 
@@ -339,5 +340,5 @@ p {
 ::selection {
   background-color: var(--accent);
   color: var(--primary);
-  
+
 }
