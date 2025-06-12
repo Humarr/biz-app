@@ -116,6 +116,13 @@ const CTA = () => {
                 </p>
               </div>
             </div>
+
+            <Link 
+              href="/payment2" 
+              className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 transition-all"
+            >
+              I'm Ready to Actually Make Money → ₦4,500
+            </Link>
       
             <div className="text-center mb-12">
               <h3 className="text-2xl font-bold mb-6">
