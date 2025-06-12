@@ -57,7 +57,7 @@ function Footer() {
   return (
     <footer className="bg-primary text-white py-12 mt-auto">
       <div className="container mx-auto px-4 text-center text-sm">
-        © {new Date().getFullYear()} Your Brand. All rights reserved.
+        © {new Date().getFullYear()} The Don&apos;t Start a Business Company. All rights reserved.
       </div>
     </footer>
   )
