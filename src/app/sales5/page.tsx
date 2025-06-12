@@ -3,6 +3,7 @@ import Story from "@/components/sales5/Story";
 import Shift from "@/components/sales5/Shift";
 import Offer from "@/components/sales5/Offer";
 import CTA from "@/components/sales5/CTA";
+import FAQs from "@/components/sales5/FAQs";
 
 export default function Sales() {
     return (
@@ -12,6 +13,7 @@ export default function Sales() {
             <Shift />
             <Offer />
             <CTA />
+            <FAQs />
         </>
     );
 }
