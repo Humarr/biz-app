@@ -26,6 +26,25 @@ const introVariants = [
   "Legend has it… only 3% of readers ever make it to the treasure. Most give up just before they hit gold. So… are you the 97% or the 3%?"
 ];
 
+// Bonuses section specific variants
+const bonusesIntro = "You’ve Got the Treasure Map 🗺\nThe gold’s on the table.\nYour bag is halfway packed.\nWanna ask a few questions first — or just grab it and run?";
+
+const bonusesReadOnVariants = [
+  "🧐 Let Me Peek at the FAQs First",
+  "🔥 Take Me to the Final Call",
+  "🎯 Yeah Yeah, Hit Me With the Last Pitch",
+  "🤏 Alright, I’m Almost Sold. What Else?",
+  "😅 Okay, Convince Me All the Way"
+];
+
+const bonusesBoredVariants = [
+  "🙄 This Can’t Be That Good",
+  "🫠 Nah, I’ve Seen Enough",
+  "🤷‍♀ Eh, Maybe Later",
+  "😬 No Thanks, I Prefer Regret",
+  "😎 I'm Too Cool for Bonuses, Apparently"
+];
+
 interface ChoiceBreakProps {
   nextPage: string;
   currentPage: string;
@@ -39,10 +58,19 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
   const [introText, setIntroText] = useState('');
 
   useEffect(() => {
-    setReadText(readOnVariants[Math.floor(Math.random() * readOnVariants.length)]);
-    setBoredText(boredVariants[Math.floor(Math.random() * boredVariants.length)]);
-    setIntroText(introVariants[Math.floor(Math.random() * introVariants.length)]);
-  }, []);
+    if (currentSection === 'bonuses') {
+  // Use bonuses variants
+  setIntroText(bonusesIntro);
+  setReadText(bonusesReadOnVariants[Math.floor(Math.random() * bonusesReadOnVariants.length)]);
+  setBoredText(bonusesBoredVariants[Math.floor(Math.random() * bonusesBoredVariants.length)]);
+} else {
+  // Use default variants
+  setIntroText(introVariants[Math.floor(Math.random() * introVariants.length)]);
+  setReadText(readOnVariants[Math.floor(Math.random() * readOnVariants.length)]);
+  setBoredText(boredVariants[Math.floor(Math.random() * boredVariants.length)]);
+}
+
+  }, [currentSection]);
 
   const handleContinue = () => {
     router.push(nextPage);
@@ -50,11 +78,17 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
 
   const handleBored = () => {
     router.push(
-  `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}&boredIndex=${boredVariants.indexOf(boredText)}`
+  `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}&boredIndex=${getBoredIndex()}`
 );
-
-    
   };
+
+  // Helper to get the bored index depending on section + boredText
+  function getBoredIndex() {
+    if (currentSection === 'bonuses') {
+      return bonusesBoredVariants.indexOf(boredText);
+    }
+    return introVariants.indexOf(boredText);
+  }
 
   if (!readText || !boredText || !introText) return null;
 
