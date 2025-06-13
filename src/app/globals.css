@@ -107,15 +107,16 @@ p {
   background-color: var(--accent);
   color: white;
   padding: 0.75rem 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .btn-primary:hover {
   background-color: var(--accent);
   transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -127,13 +128,13 @@ p {
   border-radius: 0.5rem;
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .btn-secondary:hover {
   background-color: var(--highlight);
   transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* ====== Components ====== */
@@ -141,7 +142,7 @@ p {
   background-color: var(--note);
   border-radius: 1rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
@@ -150,7 +151,7 @@ p {
   background-color: white;
   border-radius: 1rem;
   padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   border: 1px solid var(--accent);
   transition: all 0.3s ease;
 }
@@ -164,7 +165,7 @@ p {
   background-color: var(--background);
   border-radius: 1rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 

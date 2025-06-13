@@ -230,7 +230,7 @@ const BonusesSection = () => {
         You in?
       </p>
       <Link href="/payment3" passHref>
-      <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse">
+      <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse font-sans">
         GRAB IT NOW BEFORE I COME TO MY SENSES
       </button>
       </Link>

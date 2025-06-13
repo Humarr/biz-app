@@ -53,13 +53,13 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <button
           onClick={handleContinue}
-          className="btn-primary px-8 py-4 text-xl hover:scale-105 transition-transform"
+          className="btn-primary px-8 py-4 text-xl hover:scale-105 transition-transform font-sans rounded-2xl"
         >
           {readText}
         </button>
         <button
           onClick={handleBored}
-          className="px-8 py-4 text-xl border-2 border-accent rounded-lg bg-white hover:bg-gray-100 transition-colors hover:animate-wiggle"
+          className="px-8 py-4 text-xl border-2 border-accent rounded-xl bg-white hover:bg-gray-100 transition-colors hover:animate-wiggle font-sans"
         >
           {boredText}
         </button>
