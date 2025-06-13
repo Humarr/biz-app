@@ -3,44 +3,28 @@ import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const readOnVariants = [
-  "👀 Okay... You’ve Got My Attention",
-  "😏 Alright, Impress Me",
-  "🧠 I’m Into This Brain Juice",
-  "🔥 That Better Not Be the Best Part",
-  "🚀 Take Me to the Plot Twist",
-  "🧐 I'm Suspiciously Invested Now",
-  "🎯 Let's See Where This Is Going",
-  "💡 Keep Feeding Me the Good Stuff",
-  "👏 You Win. Show Me More",
-  "📈 Still Scrolling. Still Curious"
+  "⚔️ Bring it on — Show Me the Truth",
+  "🎬 Hit Me With the Next Episode",
+  "🤘 I’m a Legend — Let’s Go",
+  "💅 Okay Sass-Master, I’m Staying",
+  "🏆 I’m the 3% — Show Me the Gold"
 ];
 
 const boredVariants = [
-  "🙄 Pfft. This Better Get Better",
-  "😴 Wake Me When It Gets Good",
-  "🫠 I'm Bored. Redeem Yourself",
-  "🤷‍♂️ Is This Going Somewhere?",
-  "🚪 I Might Bail, Just Sayin’",
-  "📉 Losing Me... Fast",
-  "😐 Page Needs More Spice, Tbh",
-  "😬 Starting to Regret Clicking",
-  "🥱 Impress Me or I’m Out",
-  "🪫 Battery's Low... So’s My Interest"
+  "😩 Nah, I'm Too Soft for This",
+  "💤 Nah, I’ll Go Watch Actual Netflix",
+  "🙃 I’m a Chump, I Guess",
+  "😤 Ugh Fine, I’ll Leave",
+  "🌲 Guess I’ll Stay Lost in the Forest"
 ];
 
 const introVariants = [
-  "Alright, champion — time to choose: dive deeper or take a breather? The next chapter’s calling.",
-  "This is it: keep riding this wave or tap out for now? Your call, boss.",
-  "You’re on the edge of something good. Ready to jump in or chill for a sec?",
-  "Not everyone gets this far. Ready to level up, or want to catch your breath?",
-  "The story’s heating up! Do you stay for the fireworks or step aside for now?",
-  "Okay, big decision: press forward and get smarter, or hit pause and save the juice?",
-  "Here’s your checkpoint. Keep exploring or take five — no shame in either.",
-  "You’re locked in. Keep scrolling to unlock more, or call it here (for now).",
-  "You’ve earned a choice: keep your curiosity fed, or rest the mind a bit?",
-  "The next bit’s a game-changer. Ready to play, or you wanna park it for now?"
+  "Okay... You've made it this far, which means you're either really interested… or just really bored. Either way, you’ve earned the right to see what comes next. But only if you’re brave enough to handle the truth.",
+  "This is the part where most people scroll away. But you? You’re not most people. Or are you? 👀 Ready for the next episode?",
+  "Pop quiz: What do legends do when they’re on the verge of discovering something game-changing? a) Tap out like a chump b) Lean in like a legend You can only pick one.",
+  "Oof. That last section was a lot, huh? I get it — intensity isn't for everyone. You can tap out now and return to scrolling TikToks… Or you can stay, and maybe… actually do something epic for yourself.",
+  "Legend has it… only 3% of readers ever make it to the treasure. Most give up just before they hit gold. So… are you the 97% or the 3%?"
 ];
-
 
 interface ChoiceBreakProps {
   nextPage: string;
@@ -75,7 +59,6 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
   return (
     <div className="my-12 p-8 max-w-3xl mx-auto border-2 border-accent rounded-xl bg-background shadow-md">
       <p className="card text-center mb-8">
-      {/* <p className="hook-intro text-center mb-8"> */}
         {introText}
       </p>
 
