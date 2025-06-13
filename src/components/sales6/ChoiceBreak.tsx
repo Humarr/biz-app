@@ -50,7 +50,9 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
 
   const handleBored = () => {
     router.push(
-      `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}`
+  `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}&boredIndex=${boredVariants.indexOf(boredText)}`
+);
+
     );
   };
 
