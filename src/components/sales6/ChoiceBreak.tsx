@@ -21,7 +21,7 @@ const boredVariants = [
 const introVariants = [
   "Okay... You've made it this far, which means you're either really interested… or just really bored. Either way, you’ve earned the right to see what comes next. But only if you’re brave enough to handle the truth.",
   "This is the part where most people scroll away. But you? You’re not most people. Or are you? 👀 Ready for the next episode?",
-  "Pop quiz: What do legends do when they’re on the verge of discovering something game-changing? a) Tap out like a chump b) Lean in like a legend You can only pick one.",
+  "Pop quiz: What do legends do when they’re on the verge of discovering something game-changing? \na) Tap out like a chump \nb) Lean in like a legend \nc) You can only pick one.",
   "Oof. That last section was a lot, huh? I get it — intensity isn't for everyone. You can tap out now and return to scrolling TikToks… Or you can stay, and maybe… actually do something epic for yourself.",
   "Legend has it… only 3% of readers ever make it to the treasure. Most give up just before they hit gold. So… are you the 97% or the 3%?"
 ];
