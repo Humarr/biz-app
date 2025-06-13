@@ -6,7 +6,7 @@ const readOnVariants = [
   "👉 Keep Going, I'm Hooked",
   "🚀 Yes, Tell Me More", 
   "🔥 I Need to See What's Next",
-  "📖 Continue the Story",
+  // "📖 Continue the Story",
   "🎯 I'm Still With You"
 ];
 
