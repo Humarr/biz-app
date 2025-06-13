@@ -29,15 +29,18 @@ const boredVariants = [
 ];
 
 const introVariants = [
-  "Here’s your choice: keep reading to find out what happens next, or take a break if you want. No rush.",
-  "You can keep going with the story or stop here — whatever feels right for you.",
-  "Decide if you want to continue and learn more, or if you’d rather pause for now.",
-  "Keep following along or step away for a bit. It’s totally up to you.",
-  "You’ve made it this far. Ready to see what comes next, or is this a good stopping point?",
-  "Take a moment to choose: stay with us or take a breather.",
-  "If you’re curious, click to continue. If not, that’s okay too.",
-  "Almost there! Want to read on, or do you want to stop here?"
+  "Alright, champion — time to choose: dive deeper or take a breather? The next chapter’s calling.",
+  "This is it: keep riding this wave or tap out for now? Your call, boss.",
+  "You’re on the edge of something good. Ready to jump in or chill for a sec?",
+  "Not everyone gets this far. Ready to level up, or want to catch your breath?",
+  "The story’s heating up! Do you stay for the fireworks or step aside for now?",
+  "Okay, big decision: press forward and get smarter, or hit pause and save the juice?",
+  "Here’s your checkpoint. Keep exploring or take five — no shame in either.",
+  "You’re locked in. Keep scrolling to unlock more, or call it here (for now).",
+  "You’ve earned a choice: keep your curiosity fed, or rest the mind a bit?",
+  "The next bit’s a game-changer. Ready to play, or you wanna park it for now?"
 ];
+
 
 interface ChoiceBreakProps {
   nextPage: string;
@@ -71,7 +74,8 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
 
   return (
     <div className="my-12 p-8 max-w-3xl mx-auto border-2 border-accent rounded-xl bg-background shadow-md">
-      <p className="hook-intro text-center mb-8">
+      <p className="card text-center mb-8">
+      {/* <p className="hook-intro text-center mb-8"> */}
         {introText}
       </p>
 
