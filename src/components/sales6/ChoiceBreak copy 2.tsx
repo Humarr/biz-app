@@ -15,6 +15,7 @@ const readOnVariants = [
   "📈 Still Scrolling. Still Curious"
 ];
 
+
 const boredVariants = [
   "🙄 Pfft. This Better Get Better",
   "😴 Wake Me When It Gets Good",
@@ -28,16 +29,6 @@ const boredVariants = [
   "🪫 Battery's Low... So’s My Interest"
 ];
 
-const introVariants = [
-  "Here’s your choice: keep reading to find out what happens next, or take a break if you want. No rush.",
-  "You can keep going with the story or stop here — whatever feels right for you.",
-  "Decide if you want to continue and learn more, or if you’d rather pause for now.",
-  "Keep following along or step away for a bit. It’s totally up to you.",
-  "You’ve made it this far. Ready to see what comes next, or is this a good stopping point?",
-  "Take a moment to choose: stay with us or take a breather.",
-  "If you’re curious, click to continue. If not, that’s okay too.",
-  "Almost there! Want to read on, or do you want to stop here?"
-];
 
 interface ChoiceBreakProps {
   nextPage: string;
@@ -47,14 +38,14 @@ interface ChoiceBreakProps {
 
 export default function ChoiceBreak({ nextPage, currentPage, currentSection }: ChoiceBreakProps) {
   const router = useRouter();
+
   const [readText, setReadText] = useState('');
   const [boredText, setBoredText] = useState('');
-  const [introText, setIntroText] = useState('');
 
   useEffect(() => {
+    // Randomize text *after* the component has mounted
     setReadText(readOnVariants[Math.floor(Math.random() * readOnVariants.length)]);
     setBoredText(boredVariants[Math.floor(Math.random() * boredVariants.length)]);
-    setIntroText(introVariants[Math.floor(Math.random() * introVariants.length)]);
   }, []);
 
   const handleContinue = () => {
@@ -67,27 +58,21 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
     );
   };
 
-  if (!readText || !boredText || !introText) return null;
+  // Prevent rendering until variant text is ready (hydration-safe)
+  if (!readText || !boredText) return null;
 
   return (
-    <div className="my-12 p-8 max-w-3xl mx-auto border-2 border-accent rounded-xl bg-background shadow-md">
-      <p className="hook-intro text-center mb-8">
-        {introText}
-      </p>
-
+    <div className="my-12 p-6 border-2 border-accent rounded-xl bg-background">
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <button
           onClick={handleContinue}
-          className="btn btn-primary text-xl px-8 py-4"
-          aria-label="Continue reading"
+          className="btn-primary px-8 py-4 text-xl hover:scale-105 transition-transform font-sans rounded-2xl"
         >
           {readText}
         </button>
-
         <button
           onClick={handleBored}
-          className="btn btn-secondary text-xl px-8 py-4"
-          aria-label="Stop reading"
+          className="px-8 py-4 text-xl border-2 border-accent rounded-xl bg-white hover:bg-gray-100 transition-colors hover:animate-wiggle font-sans"
         >
           {boredText}
         </button>
