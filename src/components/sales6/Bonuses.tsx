@@ -453,6 +453,7 @@ const BonusesSection = () => {
           </Link>
           <p className="font-bold text-2xl">👇👇👇</p>
         </div>
+        
       </div>
     </section>
   );
