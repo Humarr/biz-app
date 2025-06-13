@@ -264,7 +264,7 @@ const ProblemStorySection = () => {
           You need someone who gets what it's like to be Nigerian.<br />
           To have 200MB of data left and no light for two days.<br />
           To be under pressure from parents who think you're wasting your life.<br />
-          To feel stuck between school, side hustle, and survival.
+          To feel stuck between school/work, side hustle, and survival.
         </p>
         <div className="accent-block mb-6">
           <p className="font-bold">
