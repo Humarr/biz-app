@@ -53,8 +53,9 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
   };
 
   const handleBored = () => {
-    router.push(`/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}`);
-    // router.push(`/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}`);
+    router.push(
+      `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}`
+    );
   };
 
   // Prevent rendering until variant text is ready (hydration-safe)

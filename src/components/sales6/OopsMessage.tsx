@@ -102,7 +102,12 @@ export default function OopsMessage() {
 
   const handleContinue = () => {
     const path = fromSection ? `${fromPage}#${fromSection}` : fromPage;
-    router.push(path);
+    const next = searchParams.get('next');
+    if (next) {
+      router.push(next);
+    } else {
+      router.push(path);
+    }
   };
 
   if (!message) return null;
