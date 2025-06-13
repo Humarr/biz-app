@@ -10,79 +10,55 @@ interface MessageVariant {
 
 const messageVariants: MessageVariant[] = [
   {
-    headline: "Email from Future You 📩",
-    body: `Hey. It's Future You.
+    headline: "Soft? Nah, You're Just Warming Up 💪",
+    body: `You clicked “I'm too soft for this”? Come on.
 
-You were *this* close to seeing the thing that changes everything.
+You're not made of marshmallows. You're built for breakthroughs.
 
-But no. You clicked the “I’m bored” button. And now I'm stuck in a timeline where you're still wondering why things aren’t working.
+That moment of doubt? That was just the plot twist.
 
-But here's the deal: it’s not too late to fix this.
-
-You can go back. Read the part you skipped. And maybe, just maybe… give Future You something better to wake up to.
-
-Hit the button, champ.`,
-    buttonText: "🔁 Rewind Time (and Read On)"
+Click the button. Prove Soft-You wrong.`,
+    buttonText: "💥 Show Me What I Was Missing"
   },
   {
-    headline: "You Just Clicked the Quitter Button 🤦‍♂️",
-    body: `We literally called it that internally.
+    headline: "Netflix Can Wait 🍿",
+    body: `You were *this close* to discovering the juicy bit… and then bailed for Netflix?
 
-The Quitter Button.
+That algorithm doesn’t care about your growth. This page kinda does.
 
-And you clicked it. Wild.
-
-You were 3 inches of scrolling away from the *good stuff*, but your thumb got bored and bailed.
-
-But hey — everyone deserves a second chance.
-
-Press the button, get back in, and let’s pretend this never happened.`,
-    buttonText: "😬 Okay, I’m Back In"
+Hit the button. Let’s finish what we started — popcorn optional.`,
+    buttonText: "🔁 Back to the Story"
   },
   {
-    headline: "We’re Not Mad. Just… Disappointed 😢",
-    body: `You stopped reading?
+    headline: "A Chump? Really? 🙈",
+    body: `You're better than that.
 
-Right before the part where it got really juicy?
+You clicked the Chump Button. You *named yourself* a chump. That’s on you.
 
-That’s like walking out of “Inception” during the final scene and saying, “Meh. Kinda slow.”
+But hey — even chumps can change.
 
-Don’t do that.
-
-You’ve got one click to redeem yourself.
-
-No judgment… *if* you act now.`,
-    buttonText: "😓 Fine. Let Me See the Rest"
+Come back in. Rewrite your label.`,
+    buttonText: "🦸‍♂️ Upgrade Me to Legend"
   },
   {
-    headline: "Your Brain’s Been TikTok’d 🧠⚡",
-    body: `Oh no. Not you too.
+    headline: "Wow. Drama Queen Exit 💅",
+    body: `You hit “Fine, I’ll Leave” like this was some reality TV walkout.
 
-Your attention span’s been hijacked by cat reels and cooking hacks. So when this page dared to make you *read*... you bailed.
+But guess what? The story didn’t stop. The best part is still waiting backstage.
 
-But guess what?
-
-We were *just* about to hit the dopamine jackpot.
-
-You’ve got one more chance to snap out of the scroll-hole and rejoin reality. No filters. No dancing.
-
-Just the truth you needed to see.
-
-Let’s go.`,
-    buttonText: "📖 Bring Me Back"
+You can still make your entrance. Let’s go.`,
+    buttonText: "🎤 I’m Back, Don’t Clap Too Loud"
   },
   {
-    headline: "You Weren’t Supposed to Click That 🚨",
-    body: `That was the decoy button. The escape hatch. The trapdoor we put there to weed out the weak.
+    headline: "Lost in the Forest? I Brought a Map 🧭",
+    body: `So you're wandering in the woods now? Please.
 
-And... you clicked it.
+This page isn’t a forest — it's a treasure map. You just stepped off the trail.
 
-But hey — maybe you were testing us. Or maybe your cat walked on your keyboard. Who knows?
+Good news: I’ve got snacks and a shortcut.
 
-Point is: the story’s not over. The twist is still waiting.
-
-You in?`,
-    buttonText: "🚪 Okay Okay, Take Me Back"
+Click the button. Let’s get you un-lost.`,
+    buttonText: "🌟 Lead Me to the Gold"
   }
 ];
 
@@ -92,17 +68,20 @@ export default function OopsMessage() {
 
   const fromPage = searchParams.get('from') || '/sales6';
   const fromSection = searchParams.get('section') || '';
+  const boredIndexParam = searchParams.get('boredIndex');
+  const next = searchParams.get('next');
 
   const [message, setMessage] = useState<MessageVariant | null>(null);
 
   useEffect(() => {
-    const random = messageVariants[Math.floor(Math.random() * messageVariants.length)];
-    setMessage(random);
-  }, []);
+    const index = boredIndexParam ? parseInt(boredIndexParam) : -1;
+    const fallback = 0; // default to first message if index invalid
+    const validMessage = messageVariants[index] || messageVariants[fallback];
+    setMessage(validMessage);
+  }, [boredIndexParam]);
 
   const handleContinue = () => {
     const path = fromSection ? `${fromPage}#${fromSection}` : fromPage;
-    const next = searchParams.get('next');
     if (next) {
       router.push(next);
     } else {
@@ -124,7 +103,7 @@ export default function OopsMessage() {
           {message.buttonText}
         </button>
       </div>
-      <p className="text-secondary text-sm">(Don&apos; make us come back here again.)</p>
+      <p className="text-secondary text-sm">(Don&apos;t make us come back here again.)</p>
     </div>
   );
 }
