@@ -87,7 +87,7 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
     if (currentSection === 'bonuses') {
       return bonusesBoredVariants.indexOf(boredText);
     }
-    return introVariants.indexOf(boredText);
+    return boredVariants.indexOf(boredText);
   }
 
   if (!readText || !boredText || !introText) return null;
