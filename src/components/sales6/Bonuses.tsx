@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const BonusesSection = () => {
   return (
@@ -25,7 +26,16 @@ const BonusesSection = () => {
             A 37-page beatdown of every lie, myth, and fake guru fantasy that's
             been choking your chances of starting a real business.
           </p>
-         
+         <div className="mt-8 flex justify-center">
+                      <Image
+                        src="/mockups/ebook-cover.png"
+                        alt="Don't Start a Business eBook Cover"
+                        width={400}
+                        height={500}
+                        className="rounded-xl shadow-lg border border-amber-200"
+                      />
+                    </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <div className="mb-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -217,6 +227,15 @@ const BonusesSection = () => {
               <h4 className="text-xl font-bold mb-2 text-accent">
                 🎁 BONUS #1: Impulse Offer Alchemy
               </h4>
+              <div className="mb-4">
+                  <Image
+                    src="/mockups/bonus1.png"
+                    alt="Bonus 1: Impulse Offer Alchemy"
+                    width={300}
+                    height={200}
+                    className="rounded-lg shadow-md mx-auto"
+                  />
+                </div>
               <p className="font-bold mb-4">
                 How to Create Offers So Irresistible, They Convert Like Black
                 Friday at 3 a.m.
@@ -260,6 +279,15 @@ const BonusesSection = () => {
               <h4 className="text-xl font-bold mb-2 text-accent">
                 🎁 BONUS #2: Landing Pages That Sell (Not Sedate)
               </h4>
+              <div className="mb-4">
+                  <Image
+                    src="/mockups/bonus2.png"
+                    alt="Bonus 2: Landing Pages That Sell"
+                    width={300}
+                    height={200}
+                    className="rounded-lg shadow-md mx-auto"
+                  />
+                </div>
               <p className="font-bold mb-4">Forget pretty. Learn profitable.</p>
               <p className="mb-4">
                 You ever see those nice-looking websites?
@@ -303,6 +331,15 @@ const BonusesSection = () => {
               <h4 className="text-xl font-bold mb-2 text-accent">
                 🎁 BONUS #3: The Broke, Hungry, Angry Blueprint
               </h4>
+              <div className="mb-4">
+                  <Image
+                    src="/mockups/bonus3.png"
+                    alt="Bonus 3: The Broke, Hungry, Angry Blueprint"
+                    width={300}
+                    height={200}
+                    className="rounded-lg shadow-md mx-auto"
+                  />
+                </div>
               <p className="font-bold mb-4">
                 What to do when you've got zero funds, zero luck, and zero
                 patience
