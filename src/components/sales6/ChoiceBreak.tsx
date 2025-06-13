@@ -3,20 +3,32 @@ import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const readOnVariants = [
-  "👉 Keep Going, I'm Hooked",
-  "🚀 Yes, Tell Me More", 
-  "🔥 I Need to See What's Next",
-  // "📖 Continue the Story",
-  "🎯 I'm Still With You"
+  "👀 Okay... You’ve Got My Attention",
+  "😏 Alright, Impress Me",
+  "🧠 I’m Into This Brain Juice",
+  "🔥 That Better Not Be the Best Part",
+  "🚀 Take Me to the Plot Twist",
+  "🧐 I'm Suspiciously Invested Now",
+  "🎯 Let's See Where This Is Going",
+  "💡 Keep Feeding Me the Good Stuff",
+  "👏 You Win. Show Me More",
+  "📈 Still Scrolling. Still Curious"
 ];
 
+
 const boredVariants = [
-  "😴 Meh... This Isn't for Me",
-  "🙄 I've Seen Enough",
-  "💤 I'm Getting Sleepy", 
-  "😐 This Better Get Better...",
-  "🚪 I Might Be Out..."
+  "🙄 Pfft. This Better Get Better",
+  "😴 Wake Me When It Gets Good",
+  "🫠 I'm Bored. Redeem Yourself",
+  "🤷‍♂️ Is This Going Somewhere?",
+  "🚪 I Might Bail, Just Sayin’",
+  "📉 Losing Me... Fast",
+  "😐 Page Needs More Spice, Tbh",
+  "😬 Starting to Regret Clicking",
+  "🥱 Impress Me or I’m Out",
+  "🪫 Battery's Low... So’s My Interest"
 ];
+
 
 interface ChoiceBreakProps {
   nextPage: string;
