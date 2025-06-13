@@ -1,6 +1,6 @@
-'use client';
-import { useEffect, useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 interface MessageVariant {
   headline: string;
@@ -18,7 +18,7 @@ You're not made of marshmallows. You're built for breakthroughs.
 That moment of doubt? That was just the plot twist.
 
 Click the button. Prove Soft-You wrong.`,
-    buttonText: "💥 Show Me What I Was Missing"
+    buttonText: "💥 Show Me What I Was Missing",
   },
   {
     headline: "Netflix Can Wait 🍿",
@@ -27,7 +27,7 @@ Click the button. Prove Soft-You wrong.`,
 That algorithm doesn’t care about your growth. This page kinda does.
 
 Hit the button. Let’s finish what we started — popcorn optional.`,
-    buttonText: "🔁 Back to the Story"
+    buttonText: "🔁 Back to the Story",
   },
   {
     headline: "A Chump? Really? 🙈",
@@ -38,7 +38,7 @@ You clicked the Chump Button. You *named yourself* a chump. That’s on you.
 But hey — even chumps can change.
 
 Come back in. Rewrite your label.`,
-    buttonText: "🦸‍♂️ Upgrade Me to Legend"
+    buttonText: "🦸‍♂️ Upgrade Me to Legend",
   },
   {
     headline: "Wow. Drama Queen Exit 💅",
@@ -47,7 +47,7 @@ Come back in. Rewrite your label.`,
 But guess what? The story didn’t stop. The best part is still waiting backstage.
 
 You can still make your entrance. Let’s go.`,
-    buttonText: "🎤 I’m Back, Don’t Clap Too Loud"
+    buttonText: "🎤 I’m Back, Don’t Clap Too Loud",
   },
   {
     headline: "Lost in the Forest? I Brought a Map 🧭",
@@ -58,18 +58,18 @@ This page isn’t a forest — it's a treasure map. You just stepped off the tra
 Good news: I’ve got snacks and a shortcut.
 
 Click the button. Let’s get you un-lost.`,
-    buttonText: "🌟 Lead Me to the Gold"
-  }
+    buttonText: "🌟 Lead Me to the Gold",
+  },
 ];
 
 export default function OopsMessage() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const fromPage = searchParams.get('from') || '/sales6';
-  const fromSection = searchParams.get('section') || '';
-  const boredIndexParam = searchParams.get('boredIndex');
-  const next = searchParams.get('next');
+  const fromPage = searchParams.get("from") || "/sales6";
+  const fromSection = searchParams.get("section") || "";
+  const boredIndexParam = searchParams.get("boredIndex");
+  const next = searchParams.get("next");
 
   const [message, setMessage] = useState<MessageVariant | null>(null);
 
@@ -93,7 +93,9 @@ export default function OopsMessage() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-4xl font-bold mb-6 text-accent">{message.headline}</h1>
+      <h1 className="text-4xl font-bold mb-6 text-accent">
+        {message.headline}
+      </h1>
       <div className="card p-8 mb-8 text-left whitespace-pre-wrap text-lg">
         <p className="mb-6">{message.body}</p>
         <button
@@ -103,7 +105,9 @@ export default function OopsMessage() {
           {message.buttonText}
         </button>
       </div>
-      <p className="text-secondary text-sm">(Don&apos;t make us come back here again.)</p>
+      <p className="text-secondary text-sm">
+        (Don&apos;t make us come back here again.)
+      </p>
     </div>
   );
 }

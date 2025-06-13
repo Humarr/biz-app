@@ -53,7 +53,7 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
   `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}&boredIndex=${boredVariants.indexOf(boredText)}`
 );
 
-    );
+    
   };
 
   if (!readText || !boredText || !introText) return null;
@@ -84,3 +84,4 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
     </div>
   );
 }
+
