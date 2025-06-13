@@ -4,7 +4,7 @@ import React from 'react';
 
 const FAQSection = () => {
   return (
-    <section className="section-py bg-background">
+    <section id="faqs" className="section-py bg-background">
   <div className="container-narrow">
     <h2 className="text-3xl font-bold mb-12 uppercase text-center">
       😒 Frequently Annoying Questions

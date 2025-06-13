@@ -3,7 +3,7 @@ import React from 'react';
 
 const Transformation = () => {
   return (
-    <section className="section-py bg-background">
+    <section id="transformation" className="section-py bg-background">
     <div className="container-narrow">
       <h2 className="text-3xl font-bold mb-12 uppercase text-center">
         Let's rewind to the version of you that exists right now.

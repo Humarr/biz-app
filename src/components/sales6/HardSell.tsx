@@ -2,9 +2,9 @@
 import Link from 'next/link';
 import React from 'react';
 
-const FinalOfferSection = () => {
+const HardSell = () => {
   return (
-    <section className="section-py bg-background">
+    <section id="hard-sell" className="section-py bg-background">
     <div className="container-narrow">
       <h2 className="text-3xl font-bold mb-12 uppercase text-center">
         Alright.
@@ -192,4 +192,4 @@ const FinalOfferSection = () => {
   );
 };
 
-export default FinalOfferSection;
+export default HardSell;

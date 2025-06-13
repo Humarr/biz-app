@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
-const RealityCheckSection = () => {
+const LeadSection = () => {
   return (
-    <section className="section-py bg-background">
+    <section id="lead" className="section-py bg-background">
     <div className="container-narrow">
       <h2 className="text-center text-3xl font-bold mb-12 uppercase">
         Alright.
@@ -222,4 +222,4 @@ const RealityCheckSection = () => {
   );
 };
 
-export default RealityCheckSection;
+export default LeadSection;
