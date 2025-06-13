@@ -80,16 +80,16 @@ const PaymentPage = () => {
             Send to the account below:
           </p>
           <div className="bg-gray-100 p-4 rounded-lg mb-4">
-            <p className="font-bold">Bank Name: [Your Bank Name]</p>
-            <p className="font-bold">Account Number: [Your Account Number]</p>
-            <p className="font-bold">Account Name: [Your Account Name]</p>
+            <p className="font-bold">Bank Name: MoniePoint</p>
+            <p className="font-bold">Account Number: 8121466644</p>
+            <p className="font-bold">Account Name: UMAR MOBOLAJI SAADU</p>
           </div>
           <p className="mb-4">
             Once you've sent payment, screenshot it and send to:
           </p>
           <div className="text-center">
-            <a href="[Your WhatsApp or Email link here]" className="btn-secondary inline-block">
-              📥 [Your WhatsApp or Email link here]
+            <a href="https://wa.me/2348121466644" className="btn-secondary inline-block">
+              📥 WhatsApp
             </a>
           </div>
           <p className="font-bold mt-4">
@@ -118,7 +118,7 @@ const PaymentPage = () => {
             Click the button below to pay through Selar's secure system:
           </p>
           <div className="text-center">
-            <Link href="/payment3" passHref>
+            <Link href="https://selar.com/6100u6" passHref>
             <button className="btn-primary text-xl px-8 py-4 mb-4">
               Pay Securely via Selar
             </button>
@@ -161,7 +161,7 @@ const PaymentPage = () => {
           Your call.
         </p>
 
-        <Link href="/payment3" passHref>
+        <Link href="https://selar.com/6100u6" passHref>
         <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse">
           [YES — I WANT IN. LET ME PAY]
         </button>
