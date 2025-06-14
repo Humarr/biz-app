@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
@@ -446,11 +446,11 @@ const BonusesSection = () => {
 
         <div className="text-center">
           <p className="font-bold text-2xl mb-6">You in?</p>
-          <Link href="/payment3" passHref>
+          {/* <Link href="/payment3" passHref>
             <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse font-sans">
               GRAB IT NOW BEFORE I COME TO MY SENSES
             </button>
-          </Link>
+          </Link> */}
           <p className="font-bold text-2xl">👇👇👇</p>
         </div>
         

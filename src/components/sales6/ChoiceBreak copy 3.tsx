@@ -1,5 +1,4 @@
 'use client';
-
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
@@ -30,17 +29,20 @@ const introVariants = [
 // Bonuses section specific variants
 const bonusesIntro = "You’ve Got the Treasure Map 🗺\nThe gold’s on the table.\nYour bag is halfway packed.\nWanna ask a few questions first — or just grab it and run?";
 
-const bonusesPrimaryVariants = [
+const bonusesReadOnVariants = [
   "🧐 Let Me Peek at the FAQs First",
+  "🔥 Take Me to the Final Call",
   "🎯 Yeah Yeah, Hit Me With the Last Pitch",
+  "🤏 Alright, I’m Almost Sold. What Else?",
   "😅 Okay, Convince Me All the Way"
 ];
 
-const bonusesCheckoutVariants = [
-  "🔥 Take Me to the Final Call",
-  "🤏 Alright, I’m Almost Sold. What Else?",
-  "🏆 Claim My Bonus Now",
-  "🚀 Take Me to the Gold"
+const bonusesBoredVariants = [
+  "🙄 This Can’t Be That Good",
+  "🫠 Nah, I’ve Seen Enough",
+  "🤷‍♀ Eh, Maybe Later",
+  "😬 No Thanks, I Prefer Regret",
+  "😎 I'm Too Cool for Bonuses, Apparently"
 ];
 
 interface ChoiceBreakProps {
@@ -51,68 +53,69 @@ interface ChoiceBreakProps {
 
 export default function ChoiceBreak({ nextPage, currentPage, currentSection }: ChoiceBreakProps) {
   const router = useRouter();
-  const [primaryText, setPrimaryText] = useState('');
-  const [secondaryText, setSecondaryText] = useState('');
+  const [readText, setReadText] = useState('');
+  const [boredText, setBoredText] = useState('');
   const [introText, setIntroText] = useState('');
 
   useEffect(() => {
     if (currentSection === 'bonuses') {
-      setIntroText(bonusesIntro);
-      setPrimaryText(bonusesPrimaryVariants[Math.floor(Math.random() * bonusesPrimaryVariants.length)]);
-      setSecondaryText(bonusesCheckoutVariants[Math.floor(Math.random() * bonusesCheckoutVariants.length)]);
-    } else {
-      setIntroText(introVariants[Math.floor(Math.random() * introVariants.length)]);
-      setPrimaryText(readOnVariants[Math.floor(Math.random() * readOnVariants.length)]);
-      setSecondaryText(boredVariants[Math.floor(Math.random() * boredVariants.length)]);
-    }
+  // Use bonuses variants
+  setIntroText(bonusesIntro);
+  setReadText(bonusesReadOnVariants[Math.floor(Math.random() * bonusesReadOnVariants.length)]);
+  setBoredText(bonusesBoredVariants[Math.floor(Math.random() * bonusesBoredVariants.length)]);
+} else {
+  // Use default variants
+  setIntroText(introVariants[Math.floor(Math.random() * introVariants.length)]);
+  setReadText(readOnVariants[Math.floor(Math.random() * readOnVariants.length)]);
+  setBoredText(boredVariants[Math.floor(Math.random() * boredVariants.length)]);
+}
+
   }, [currentSection]);
 
-  const handlePrimary = () => {
-    if (currentSection === 'bonuses') {
-      router.push('/sales6/bonuses#faq'); // Or wherever you want to send the user for more info
-    } else {
-      router.push(nextPage);
-    }
+  const handleContinue = () => {
+    router.push(nextPage);
   };
 
-  const handleSecondary = () => {
-    if (currentSection === 'bonuses') {
-      router.push('/sales6/checkout'); // Or wherever your final CTA/checkout is
-    } else {
-      router.push(
-        `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}&boredIndex=${getBoredIndex()}`
-      );
-    }
+  const handleBored = () => {
+    router.push(
+  `/sales6/oops?from=${encodeURIComponent(currentPage)}&section=${encodeURIComponent(currentSection)}&next=${encodeURIComponent(nextPage)}&boredIndex=${getBoredIndex()}`
+);
   };
 
+  // Helper to get the bored index depending on section + boredText
   function getBoredIndex() {
-    if (currentSection === 'bonuses') return -1; // Not relevant anymore
-    return boredVariants.indexOf(secondaryText);
+    if (currentSection === 'bonuses') {
+      return bonusesBoredVariants.indexOf(boredText);
+    }
+    return boredVariants.indexOf(boredText);
   }
 
-  if (!primaryText || !secondaryText || !introText) return null;
+  if (!readText || !boredText || !introText) return null;
 
   return (
     <div className="my-12 p-8 max-w-3xl mx-auto border-2 border-accent rounded-xl bg-background shadow-md">
-      <p className="card text-center mb-8 whitespace-pre-wrap">{introText}</p>
+      <p className="card text-center mb-8">
+        {introText}
+      </p>
 
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <button
-          onClick={handlePrimary}
+          onClick={handleContinue}
           className="btn btn-primary text-xl px-8 py-4"
-          aria-label="Primary action"
+          aria-label="Continue reading"
         >
-          {primaryText}
+          {readText}
         </button>
 
         <button
-          onClick={handleSecondary}
+          onClick={handleBored}
           className="btn btn-secondary text-xl px-8 py-4"
-          aria-label="Secondary action"
+          aria-label="Stop reading"
         >
-          {secondaryText}
+          {boredText}
         </button>
       </div>
     </div>
   );
 }
+
