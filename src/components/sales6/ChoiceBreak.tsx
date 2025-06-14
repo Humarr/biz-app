@@ -69,7 +69,7 @@ export default function ChoiceBreak({ nextPage, currentPage, currentSection }: C
 
   const handlePrimary = () => {
     if (currentSection === 'bonuses') {
-      router.push('/sales6/bonuses#faq'); // Or wherever you want to send the user for more info
+      router.push('/sales6/part4'); // Or wherever you want to send the user for more info
     } else {
       router.push(nextPage);
     }
