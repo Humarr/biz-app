@@ -161,11 +161,7 @@ const PaymentPage = () => {
           Your call.
         </p>
 
-        <Link href="https://selar.com/6100u6" passHref>
-        <button className="btn-primary text-2xl px-8 py-4 mb-6 animate-chill-pulse mt-12">
-          [YES — I WANT IN. LET ME PAY]
-        </button>
-        </Link>
+        <BuyNowButton />
         <p className="font-bold text-2xl">
           👇👇👇
         </p>
@@ -176,3 +172,26 @@ const PaymentPage = () => {
 };
 
 export default PaymentPage;
+
+
+
+
+function BuyNowButton() {
+// export default function BuyNowButton() {
+  return (
+    <div className="flex justify-center">
+      <Link href="https://selar.com/6100u6" passHref>
+        <button
+          className="relative btn-primary text-2xl px-8 py-4 mb-6 mt-12 animate-chill-pulse transition-all duration-300 hover:scale-105 hover:shadow-goldGlow focus:outline-none focus:ring-4 focus:ring-yellow-400"
+          aria-label="Checkout Now"
+        >
+          ✨ [YES — I WANT IN. LET ME PAY] ✨
+
+          {/* Optional Sparkle */}
+          <span className="absolute top-0 left-0 -mt-2 -ml-2 text-yellow-300 animate-ping text-lg">🌟</span>
+          <span className="absolute top-0 right-0 -mt-2 -mr-2 text-yellow-300 animate-ping text-lg">🌟</span>
+        </button>
+      </Link>
+    </div>
+  );
+}
