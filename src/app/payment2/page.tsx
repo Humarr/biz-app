@@ -45,15 +45,15 @@ const PaymentPage = () => {
               </div>
               <div>
                 <p className="font-bold">🏦 Account Name:</p>
-                <p>[Your Name or Business Name]</p>
+                <p>UMAR MOBOLAJI SAADU</p>
               </div>
               <div>
                 <p className="font-bold">🏦 Bank Name:</p>
-                <p>[Your Bank Name]</p>
+                <p>MONIEPOINT</p>
               </div>
               <div>
                 <p className="font-bold">🔢 Account Number:</p>
-                <p>[Your Account Number]</p>
+                <p>8121466644</p>
               </div>
             </div>
           </div>
@@ -65,10 +65,10 @@ const PaymentPage = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <span className="flex items-center">
-                📲 WhatsApp: [Your Number]
+                📲 WhatsApp: +2348121466644
               </span>
               <span className="flex items-center">
-                📧 Email: [Your Email]
+                📧 Email:saaduumar42@gmail.com
               </span>
             </div>
             <p className="mt-3">
@@ -124,11 +124,11 @@ const PaymentPage = () => {
             If you're stuck, confused, or want to ask anything first...
           </p>
           <Link 
-            href="https://wa.me/[YourNumber]" 
+            href="https://wa.me/+2348121466644" 
             passHref
           >
             <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700">
-            📲 WhatsApp me here: [Your Number]
+            📲 WhatsApp me here: +2348121466644
             </button>
           </Link>
           <p className="mt-3 text-sm">
@@ -178,11 +178,11 @@ const PaymentPage = () => {
           </p>
 
           <Link 
-            href="https://wa.me/[YourNumber]" 
+            href="https://wa.me/+2348121466644" 
             passHref
           >
             <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700">
-            📲 WhatsApp me here: [Your Number]
+            📲 WhatsApp me here: +2348121466644
             </button>
           </Link>
         </div>
