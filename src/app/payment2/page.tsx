@@ -163,7 +163,7 @@ const PaymentPage = () => {
   
         {/* Final Nudge */}
         <div className="text-center border-t border-gray-200 pt-8">
-          <h3 className="text-2xl font-bold mb-4">🧠 Final Nudge:</h3>
+          {/* <h3 className="text-2xl font-bold mb-4">🧠 Final Nudge:</h3> */}
           <p className="text-xl mb-6">
             You already know this could change your life.
           </p>
