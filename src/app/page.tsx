@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -182,7 +183,12 @@ const HighConvertingLandingPage = () => {
                 A Brutally Honest Guide to to go from ₦0 to launching your first
                 real business — and making money (and Doesn’t Ruin Your Life)
               </p>
-
+              <Image
+                src="/mockups/ebook-cover.jpg"
+                alt="Cover"
+                width={500}
+                height={500}
+              />
               <p className="font-bold mb-2">You'll learn:</p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
@@ -219,6 +225,13 @@ const HighConvertingLandingPage = () => {
                     <p className="font-bold text-red-600 mb-2">
                       💣 BONUS #1 — Impulse Offer Alchemy
                     </p>
+                    <Image
+                      src="/mockups/bonus1.jpg"
+                      alt="Bonus 1"
+                      width={500}
+                      height={500}
+                    />
+                    <p className="font-bold mb-2">You'll learn:</p>
                     <p className="mb-2">
                       How to create offers that trigger buying sprees — even if
                       you're selling the same thing 50 others are.
@@ -243,6 +256,13 @@ const HighConvertingLandingPage = () => {
                     <p className="font-bold text-purple-600 mb-2">
                       🧠 BONUS #2 — Landing Pages That Sell (Not Sedate)
                     </p>
+                    <Image
+                      src="/mockups/bonus2.jpg"
+                      alt="Bonus 2"
+                      width={500}
+                      height={500}
+                    />
+                    <p className="font-bold mb-2">You'll learn:</p>
                     <p className="mb-2">
                       Build landing pages that convert — not just look “nice” to
                       your designer friend.
@@ -264,6 +284,13 @@ const HighConvertingLandingPage = () => {
                     <p className="font-bold text-green-700 mb-2">
                       🔥 BONUS #3 — The Broke, Hungry, Angry Blueprint
                     </p>
+                    <Image
+                      src="/mockups/bonus3.jpg"
+                      alt="Bonus 3"
+                      width={500}
+                      height={500}
+                    />
+                    <p className="font-bold mb-2">You'll learn:</p>
                     <p className="mb-2">
                       Motivation + survival strategy for when you're at zero and
                       feel like giving up.
