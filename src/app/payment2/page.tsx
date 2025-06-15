@@ -105,7 +105,7 @@ const PaymentPage = () => {
           </div>
   
           <Link 
-            href="#selar-checkout" 
+            href="https://selar.com/6100u6" 
             passHref
           >
             <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 transition-all">
