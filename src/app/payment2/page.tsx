@@ -67,9 +67,9 @@ const PaymentPage = () => {
               <span className="flex items-center">
                 📲 WhatsApp: +2348121466644
               </span>
-              <span className="flex items-center">
+              {/* <span className="flex items-center">
                 📧 Email:saaduumar42@gmail.com
-              </span>
+              </span> */}
             </div>
             <p className="mt-3">
               We'll confirm and send you the ebook + bonuses ASAP.<br/>
