@@ -413,7 +413,7 @@ const HighConvertingLandingPage = () => {
                 💬 One reader said:
                 <br />
                 "I've never finished anything before. But I read this in one
-                night and launched the next morning. It finally made sense."
+                night and launched the next morning. It finally made sense. I now know exactly WHAT to do to make money and HOW to do it"
               </p>
             </div>
 
