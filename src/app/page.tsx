@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 
 const HighConvertingLandingPage = () => {
@@ -393,9 +394,11 @@ const HighConvertingLandingPage = () => {
               </p>
               
               <div className="space-y-4 max-w-md mx-auto">
+                <Link href="/payment2" passHref>
                 <button className="w-full bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-5 px-6 rounded-lg text-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
                   I'm Done Being Broke — Let's Go
                 </button>
+                </Link>
                 {/* <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-5 px-6 rounded-lg text-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
                   Download The Guide & Start
                 </button>
