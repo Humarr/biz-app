@@ -28,7 +28,7 @@ const PaymentPage = () => {
         </div>
   
         {/* Payment Option 1 */}
-        <div className="bg-green-50 rounded-xl p-6 md:p-8 mb-12 border-2 border-green-300">
+        <div id="bank" className="bg-green-50 rounded-xl p-6 md:p-8 mb-12 border-2 border-green-300">
           <div className="flex items-center mb-4">
             <span className="text-3xl mr-3">💳</span>
             <h2 className="text-2xl font-bold">PAY VIA BANK TRANSFER (Fastest)</h2>
@@ -79,7 +79,7 @@ const PaymentPage = () => {
         </div>
   
         {/* Payment Option 2 */}
-        <div className="bg-blue-50 rounded-xl p-6 md:p-8 mb-12 border-2 border-blue-300">
+        <div id="selar" className="bg-blue-50 rounded-xl p-6 md:p-8 mb-12 border-2 border-blue-300">
           <div className="flex items-center mb-4">
             <span className="text-3xl mr-3">🔐</span>
             <h2 className="text-2xl font-bold">PAY VIA SELAR (Card / Transfer / USSD)</h2>
@@ -178,11 +178,19 @@ const PaymentPage = () => {
           </p>
 
           <Link 
-            href="https://wa.me/+2348121466644" 
+            href="#bank" 
             passHref
           >
-            <button className="btn-primary w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700">
-            📲 WhatsApp me here: +2348121466644
+            <button className="btn-primary mt-4 w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700">
+            PAY VIA BANK TRANSFER (Fastest)
+            </button>
+          </Link>
+          <Link 
+            href="#selar" 
+            passHref
+          >
+            <button className="btn-primary mt-4 w-full text-center py-4 px-6 font-bold bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700">
+            PAY VIA SELAR (Card / Transfer / USSD)
             </button>
           </Link>
         </div>
