@@ -390,7 +390,7 @@ const HighConvertingLandingPage = () => {
           </h2>
 
           <div className="space-y-8">
-            <p className="text-lg text-center">
+            <p className="text-lg text-center gap-y-2">
               It's not for the guy who's still blaming the economy.
               <br />
               Not for the guy addicted to watching business reels but never
@@ -401,7 +401,7 @@ const HighConvertingLandingPage = () => {
             </p>
 
             <p className="text-xl text-center font-bold">
-              It's for the Tolu who's tired of delay.
+              It's for the guy/lady who's tired of delay.
               <br />
               Tired of second-guessing.
               <br />
