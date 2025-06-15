@@ -324,7 +324,7 @@ const HighConvertingLandingPage = () => {
 
           <div className="space-y-8">
             <p className="text-lg text-gray-700">
-              They think ₦4,500 is a "lot" — and spend it on suya + Malt.
+              They think ₦4,500 is a "lot" — and spend it on shawarma or Pizza.
               <br />
               But they won't invest in a shortcut that could:
             </p>
