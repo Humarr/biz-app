@@ -115,7 +115,7 @@ const PaymentPage = () => {
         </div>
   
         {/* Help Section */}
-        <div className="bg-red-50 rounded-xl p-6 mb-12 border-2 border-red-200">
+        {/* <div className="bg-red-50 rounded-xl p-6 mb-12 border-2 border-red-200">
           <h2 className="text-2xl font-bold mb-4 flex items-center">
             <span className="text-3xl mr-3">🔥</span>
             NEED HELP?
@@ -134,7 +134,7 @@ const PaymentPage = () => {
           <p className="mt-3 text-sm">
             I'll respond fast — no bots, no waiting 3 days.
           </p>
-        </div>
+        </div> */}
   
         {/* What You Get */}
         <div className="mb-12">
