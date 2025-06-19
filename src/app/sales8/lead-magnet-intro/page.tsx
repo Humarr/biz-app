@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function LeadMagnetPage() {
   return (
@@ -19,9 +20,11 @@ export default function LeadMagnetPage() {
             Your FREE Guide to Picking a Business That Actually Pays You
           </p>
           <div className="mt-10">
+            <Link href="/sales8/lead-magnet" passHref>
             <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse">
               Get Instant Access →
             </button>
+            </Link>
           </div>
         </div>
       </header>
@@ -347,9 +350,11 @@ export default function LeadMagnetPage() {
             </p>
             
             <div className="mt-8">
+              <Link href="/sales8/lead-magnet" passHref>
               <button className="bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                 [CLICK HERE TO GET THE FREE GUIDE]
               </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -378,9 +383,11 @@ export default function LeadMagnetPage() {
               </p>
               
               <div className="mt-8 text-center">
+                <Link href="/sales8/lead-magnet" passHref>
                 <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                   [DOWNLOAD THE GUIDE NOW]
                 </button>
+                </Link>
               </div>
             </div>
           </div>
