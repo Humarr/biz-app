@@ -142,7 +142,7 @@ export default function PreSellPage() {
               </p>
               
               <p className="text-2xl font-bold text-center mt-12">
-                And that's exactly what this lead magnet will show you:
+                And that's exactly what this guide will show you:
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function PreSellPage() {
         {/* Benefits */}
         <section className="mb-20 bg-gray-900 text-white p-8 rounded-xl">
           <div className="prose prose-lg mx-auto prose-invert">
-            <h2 className="text-3xl font-bold text-center mb-8">📥 What you'll get inside this FREE lead magnet:</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">📥 What you'll get inside this FREE  guide:</h2>
             
             <div className="space-y-8">
               <div className="flex items-start">
