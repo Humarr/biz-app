@@ -80,6 +80,7 @@ function Footer() {
       <div className="container mx-auto px-4 text-center text-sm">
         © {new Date().getFullYear()} The Don&apos;t Start a Business Company. All rights reserved.
       </div>
+      <p className="mt-2">No spam. No bullshit. Just real talk that helps you make money.</p>
     </footer>
   )
 }

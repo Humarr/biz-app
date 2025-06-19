@@ -348,10 +348,10 @@ export default function PreSellPage() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-100 py-8 px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
+      {/* <footer className="bg-gray-100 py-8 px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
         <p>© {new Date().getFullYear()} Your Company. All rights reserved.</p>
         <p className="mt-2">No spam. No bullshit. Just real talk that helps you make money.</p>
-      </footer>
+      </footer> */}
     </div>
   )
 }
