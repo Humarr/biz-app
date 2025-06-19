@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function PreSellPage() {
   return (
@@ -309,9 +310,11 @@ export default function PreSellPage() {
             </p>
             
             <div className="mt-12">
+              <Link href="/sales8/lead-magnet-intro" passHref>
               <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                 👇 Get the free guide now.
               </button>
+              </Link>
               <p className="mt-4 font-bold">
                 Stop guessing. Start filtering. Build your own damn ATM.
               </p>
