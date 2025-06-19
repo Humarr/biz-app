@@ -1,260 +1,600 @@
-import Link from "next/link";
-
 /* eslint-disable react/no-unescaped-entities */
+import Head from 'next/head'
+
 export default function LeadMagnetPage() {
-    return (
-      <div className="bg-white text-gray-900 font-sans">
-        {/* Hero Section */}
-        <section className="relative py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-blue-50">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="flex justify-center mb-6">
-              <span className="bg-green-100 text-green-800 font-bold px-4 py-2 rounded-full flex items-center">
-                ✅ <span className="ml-2">You're In. Let's Break the Cycle.</span>
-              </span>
-            </div>
-            <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-6">
-              First off—respect.
-            </h1>
-            <p className="text-xl text-gray-800 mb-8">
-              You just made the smartest move most small business owners in Naija never do.
-            </p>
-            <div className="p-6 bg-white rounded-xl shadow-sm max-w-2xl mx-auto">
-              <p className="font-semibold">
-                You stopped waiting for friends and family to "support your hustle"...
-                <br />
-                And decided to learn how to make strangers actually want to buy from you.
-              </p>
-              <p className="mt-4 text-lg font-bold text-blue-600">
-                That shift? It changed everything for me.
-              </p>
-            </div>
+  return (
+    <div className="bg-white font-sans antialiased text-gray-900">
+      <Head>
+        <title>How to Pick a Business That Actually Pays You</title>
+        <meta name="description" content="Stop wasting time on dead-end ideas - learn how to filter business opportunities like a sniper" />
+      </Head>
+
+      {/* Hero Section */}
+      <header className="relative bg-gradient-to-br from-blue-900 to-purple-900 text-white py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+            ⚡ HOW TO PICK A BUSINESS THAT ACTUALLY PAYS YOU
+          </h1>
+          <p className="mt-6 text-xl sm:text-2xl font-medium opacity-90">
+            (Even If You're Broke, Burnt Out, or Ready to Fake Your Death and Relocate to Canada)
+          </p>
+          <div className="mt-10">
+            <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse">
+              Get Instant Access →
+            </button>
           </div>
-        </section>
-  
-        {/* Pain Point Section */}
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-3xl mx-auto">
-            <div className="flex items-center mb-8">
-              {/* <span className="bg-red-100 text-red-800 text-2xl font-bold px-4 py-2 rounded-full mr-4">📌</span> */}
-              <h2 className="text-2xl sm:text-3xl font-bold">
-                The Pain You're Feeling? I Lived It Too.
-              </h2>
-            </div>
-            
-            <div className="space-y-6 text-gray-800">
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Part 1 */}
+        <section className="mb-20">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 1: Let's Be Real. You're Not Lazy. You're Just Picking Crap.</h2>
+            <div className="space-y-6 text-lg">
               <p>
-                I remember posting flyers on WhatsApp like I was running for office.
-                <br />
-                Nobody replied. Just blue ticks and "I see you boss 💪🏽" comments.
+                You've tried "hustles." You've joined webinars. You've downloaded freebies with titles like:
               </p>
-              <p className="font-semibold">
-                Yet nobody was buying.
-                <br />
-                And I started asking myself:
+              
+              <div className="bg-gray-100 p-4 rounded-lg border-l-4 border-red-500">
+                <p>"How to Earn 7 Figures With Only Your Phone"</p>
+                <p>"Millionaire Blueprint From a 19-Year-Old Dropout"</p>
+                <p>"Passive Income Ideas for Broke People Who Love Netflix"</p>
+              </div>
+              
+              <p>
+                Now here you are. Still broke. Still searching.
               </p>
-              <p className="text-xl italic">
-                "Is it that my stuff is bad? Or do people just not rate me?"
+              
+              <p className="font-bold">
+                Let me save you years of struggle:
               </p>
-              <div className="p-6 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
-                <p className="font-bold">
-                  Turns out it was neither.
-                  <br />
-                  The real problem?
-                </p>
-                <p className="mt-2 text-lg font-bold text-red-600">
-                  I didn't know how to position my offer the right way.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-  
-        {/* Solution Section */}
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-          <div className="max-w-3xl mx-auto">
-            <div className="flex items-center mb-8">
-              {/* <span className="bg-blue-100 text-blue-800 text-2xl font-bold px-4 py-2 rounded-full mr-4">🧠</span> */}
-              <h2 className="text-2xl sm:text-3xl font-bold">
-                Here's What Helped Me Make My First ₦50k (From Total Strangers)
-              </h2>
-            </div>
-            
-            <div className="space-y-8">
-              <div className="p-6 bg-white rounded-xl shadow-sm">
-                <p>
-                  I created something I now call the <span className="font-bold text-blue-600">Problem-First Pitch</span>.
-                </p>
-                <p className="mt-4">
-                  It's not a fancy course. It's not "branding."
-                  <br />
-                  It's just knowing how to talk about what you sell in a way that makes strangers say:
-                </p>
-                <p className="mt-4 font-bold text-lg italic">
-                  "Omo... I need this."
-                </p>
-              </div>
-  
-              <div className="bg-white rounded-xl shadow-sm overflow-hidden">
-                <div className="p-6 border-b">
-                  <h3 className="text-xl font-bold mb-4">Here's a quick breakdown:</h3>
-                </div>
-                
-                <div className="p-6 bg-blue-50">
-  <div className="flex items-start mb-6">
-    <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full mr-4 mt-1">🔹</span>
-    <div>
-      <h4 className="font-bold text-lg mb-2">Step 1: Stop Leading With the Product</h4>
-      <p className="text-gray-700 italic">“I sell wigs / I bake / I do designs” — that’s not the hook. That’s the label.</p>
-      <p className="font-semibold mt-2">Instead, lead with the *problem* they already know they have. That’s what gets attention.</p>
-      <p className="mt-2 text-gray-800">Try: <span className="italic">"You ever order a wig online and regret it the second it arrives? Yeah, me too — that’s why I started..."</span></p>
-    </div>
-  </div>
-
-  <div className="flex items-start mb-6">
-    <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full mr-4 mt-1">🔹</span>
-    <div>
-      <h4 className="font-bold text-lg mb-2">Step 2: Use Language They Already Speak</h4>
-      <p className="text-gray-700">You're not trying to sound smart — you're trying to connect.</p>
-      <p className="font-semibold mt-2">Use the same phrases your customers would say to their friends when complaining.</p>
-      <p className="mt-2 text-gray-800">Instead of: <span className="italic">“Premium skincare formulated for melanin-rich skin...”</span></p>
-      <p className="text-gray-800">Say: <span className="italic">“You buy cream today, wake up tomorrow with 3 new pimples? I got tired of that life.”</span></p>
-    </div>
-  </div>
-
-  <div className="flex items-start mb-6">
-    <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full mr-4 mt-1">🔹</span>
-    <div>
-      <h4 className="font-bold text-lg mb-2">Step 3: Show the “Why” Behind What You Do</h4>
-      <p className="text-gray-700">People trust people who’ve been through it. Don’t just post products — tell them why you even started.</p>
-      <p className="font-semibold mt-2">“I started making my own skin oil because I was tired of spending money on products that made me break out more.”</p>
-      <p className="text-gray-800 mt-2">Your “why” builds connection. Connection builds trust. Trust builds sales.</p>
-    </div>
-  </div>
-
-  <div className="flex items-start">
-    <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full mr-4 mt-1">🔹</span>
-    <div>
-      <h4 className="font-bold text-lg mb-2">Step 4: Drop the Begging. Offer a Clear Win.</h4>
-      <p className="text-gray-700">You’re not “begging for support.” You’re helping them fix something.</p>
-      <p className="font-semibold mt-2">So offer the win. Simple. Direct.</p>
-      <p className="mt-2 text-gray-800">Try: <span className="italic">“If you’re tired of throwing money at skincare that doesn’t work, just DM me ‘OIL’ — I’ll send you what I use daily.”</span></p>
-    </div>
-  </div>
-</div>
-
-
-              </div>
-  
-              <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                <p className="text-xl font-bold">That's it.</p>
-                <p className="mt-2">
-                  No dancing. No begging. No "abeg support my business."
-                </p>
-                <p className="mt-4 font-semibold">
-                  Just strangers reading your post... and clicking to buy.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-  
-        {/* Application Section */}
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-3xl mx-auto">
-            <div className="flex items-center mb-8">
-              {/* <span className="bg-purple-100 text-purple-800 text-2xl font-bold px-4 py-2 rounded-full mr-4">💥</span> */}
-              <h2 className="text-2xl sm:text-3xl font-bold">
-                The Wild Part?
-              </h2>
-            </div>
-            
-            <div className="space-y-6">
-              <p className="text-lg">
-                You can apply this to anything:
+              
+              <p>
+                The reason you've failed isn't because you're lazy.<br/>
+                It's because you've been sold garbage ideas by people who got lucky or got loud.
               </p>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <li className="flex items-center bg-gray-50 p-4 rounded-lg">
-                  <span className="mr-2">•</span> Your food business
-                </li>
-                <li className="flex items-center bg-gray-50 p-4 rounded-lg">
-                  <span className="mr-2">•</span> Your hair brand
-                </li>
-                <li className="flex items-center bg-gray-50 p-4 rounded-lg">
-                  <span className="mr-2">•</span> Your digital product
-                </li>
-                <li className="flex items-center bg-gray-50 p-4 rounded-lg">
-                  <span className="mr-2">•</span> Even your freelance hustle
-                </li>
+              
+              <p className="text-xl font-bold">
+                You've never been taught how to evaluate a business idea like a sniper.
+              </p>
+              
+              <p className="text-2xl font-bold text-purple-700">
+                Until now.
+              </p>
+              
+              <p>
+                This guide will show you how to:
+              </p>
+              
+              <ul className="list-disc list-inside space-y-2">
+                <li>Stop falling for shiny scams with good branding</li>
+                <li>Filter out 90% of useless "opportunities"</li>
+                <li>Build a business that actually fits you</li>
+                <li>And make money in a way that doesn't make you hate your life</li>
               </ul>
-  
-              <div className="p-6 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 mt-8">
-                <p className="font-bold">
-                  But the truth?
-                  <br />
-                  This page barely scratches the surface.
+              
+              <p className="font-bold">
+                No fluff. No AI-written nonsense. Just the clarity you wish you had 3 years ago.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Part 2 */}
+        <section className="mb-20 bg-gray-100 p-8 rounded-xl">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 2: Why Most Business Ideas Are Trash (And How to Smell the Rot)</h2>
+            <p className="text-xl">
+              Let's expose the 3 most common idea traps smart-but-broke people fall into:
+            </p>
+            
+            <div className="mt-8 space-y-12">
+              <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
+                <h3 className="text-2xl font-bold">🚫 Trap 1: The Trend Hustle</h3>
+                <p>If everyone's doing it, run.</p>
+                <div className="mt-4 space-y-2">
+                  <p>TikTok marketing?</p>
+                  <p>ChatGPT courses?</p>
+                  <p>Dropshipping from China with ₦0 capital?</p>
+                </div>
+                <p className="mt-4">
+                  By the time you hear about it, it's already saturated or dying.
+                </p>
+                <div className="bg-amber-100 p-4 rounded-lg mt-4">
+                  <p className="italic">"But if I start fast I can still make something before the hype ends..."</p>
+                  <p className="mt-2">Yeah. Just like everyone else who ends up with 700 unsold wristwatches in their cupboard.</p>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
+                <h3 className="text-2xl font-bold">🚫 Trap 2: The "I'm Passionate" Lie</h3>
+                <p>
+                  You know what else people are passionate about? Sleeping.
+                </p>
+                <p className="mt-2">
+                  And you don't see anyone making millions from that (unless you count motivational speakers).
+                </p>
+                <p className="mt-4 font-bold">
+                  Passion doesn't pay you.<br/>
+                  Problems pay you.
+                </p>
+                <p className="mt-2">
+                  If nobody is desperately trying to fix the thing you're "passionate" about?<br/>
+                  It's a hobby. Not a business.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
+                <h3 className="text-2xl font-bold">🚫 Trap 3: The YouTube Copycat</h3>
+                <p>
+                  You watched some guy say he made ₦2M in 7 days doing affiliate marketing.<br/>
+                  He smiled. Showed fake alerts. Dropped his referral link.
                 </p>
                 <p className="mt-4">
-                  This is just the starter pack.
-                  <br />
-                  The real sauce — the one that helped me cross ₦50k, ₦100k, then consistent sales —
-                  <br />
-                  It's all inside a system I broke down step-by-step.
+                  You copied him.
                 </p>
-                <p className="mt-4 font-semibold">
-                  I made it for hustlers like you, who are tired of "trying everything" and still not making money.
+                <p className="mt-2">
+                  Now you're 6 months in, zero sales, and confused.
+                </p>
+                <p className="mt-4 font-bold">
+                  Want the truth?
+                </p>
+                <p className="mt-2">
+                  What works for them may never work for you.
+                </p>
+                <p className="mt-4 text-xl">
+                  Because business is not about copying moves.<br/>
+                  It's about knowing your own angle.
+                </p>
+                <p className="mt-4 font-bold text-purple-700">
+                  Let's find yours.
                 </p>
               </div>
             </div>
           </div>
         </section>
-  
+
+        {/* Part 3 */}
+        <section className="mb-20 bg-gradient-to-r from-blue-900 to-purple-900 text-white p-8 rounded-xl">
+          <div className="prose prose-lg mx-auto prose-invert">
+            <h2 className="text-3xl font-bold mb-6">Part 3: The ATM Filter – How to Spot a Real Business That Prints Money (for You)</h2>
+            <p>
+              The "Ultimate Cash Machine" isn't just a metaphor.<br/>
+              It's how your business should behave.
+            </p>
+            <p className="mt-4">
+              Drop effort in. Money comes out. Predictably. Repeatedly. Peacefully.
+            </p>
+            <p className="mt-4 font-bold">
+              But only if you pick the right machine.
+            </p>
+            <p className="mt-6 text-xl">
+              Enter: The ATM FILTER
+            </p>
+            <p className="mt-2">
+              Here's what you run your ideas through before you commit to anything.
+            </p>
+            
+            <div className="mt-12 space-y-12">
+              <div>
+                <h3 className="text-2xl font-bold text-amber-400">✅ 1. A – Audience With Urgent Pain</h3>
+                <p>
+                  Who's in pain right now... and willing to pay to stop it?
+                </p>
+                <p className="mt-4 font-bold">
+                  If you can't name your audience in one line — and name their pain in another — you don't have a business.
+                </p>
+                <p className="mt-4">
+                  Examples of bad ideas:
+                </p>
+                <div className="bg-gray-800 p-4 rounded-lg mt-2">
+                  <p>"Helping people live their best lives"</p>
+                  <p>"Empowering African youth"</p>
+                  <p>"Teaching people to be confident"</p>
+                </div>
+                <p className="mt-4">
+                  Nobody pays for that.
+                </p>
+                <p className="mt-4">
+                  Examples of real pain:
+                </p>
+                <div className="bg-gray-800 p-4 rounded-lg mt-2">
+                  <p>Final-year students who need a project but can't code</p>
+                  <p>Mothers who want to lose pregnancy weight without leaving the house</p>
+                  <p>NYSC members who want side income before their ₦33k vanishes</p>
+                </div>
+                <p className="mt-4 font-bold">
+                  Get specific. Solve pain.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-amber-400">✅ 2. T – Time to Results</h3>
+                <p>
+                  Can they get a win fast?
+                </p>
+                <p className="mt-4">
+                  People are broke, impatient, and desperate.
+                </p>
+                <p className="mt-2 font-bold">
+                  If your idea takes 8 months of "building" before money shows, drop it.
+                </p>
+                <p className="mt-4">
+                  Look for "low-hanging fruit":
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2">
+                  <li>Services that give value instantly</li>
+                  <li>Products with immediate satisfaction</li>
+                  <li>Offers that feel like relief, not a gamble</li>
+                </ul>
+                <p className="mt-4">
+                  You want them to say:
+                </p>
+                <div className="bg-gray-800 p-4 rounded-lg mt-2">
+                  <p>"Whew! I needed this yesterday."</p>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-amber-400">✅ 3. M – Money Path Is Obvious</h3>
+                <p>
+                  How exactly does money flow?
+                </p>
+                <p className="mt-4 font-bold">
+                  If you can't sketch out, step-by-step, how someone goes from discovering you to paying you, you're building a fantasy.
+                </p>
+                <p className="mt-4">
+                  Examples of a clear money path:
+                </p>
+                <div className="bg-gray-800 p-4 rounded-lg mt-2">
+                  <p>Step 1: Someone Googles "freelance graphic designer"</p>
+                  <p>Step 2: They land on your ₦20k logo service page</p>
+                  <p>Step 3: They book. You deliver. You get paid.</p>
+                </div>
+                <p className="mt-4">
+                  If it looks like:
+                </p>
+                <div className="bg-gray-800 p-4 rounded-lg mt-2">
+                  <p>Step 1: Create content</p>
+                  <p>Step 2: Grow followers</p>
+                  <p>Step 3: Get brand deals maybe hopefully someday</p>
+                </div>
+                <p className="mt-2 font-bold">
+                  = That's not a money path. That's a prayer.
+                </p>
+                <p className="mt-8 text-xl font-bold">
+                  Now try this:
+                </p>
+                <p className="mt-4">
+                  Take any idea you're considering.
+                </p>
+                <p className="mt-2">
+                  Run it through ATM:
+                </p>
+                <ul className="list-disc list-inside space-y-2 mt-2">
+                  <li>A – Does someone urgently want it?</li>
+                  <li>T – Can they get a result fast?</li>
+                  <li>M – Is the money flow obvious?</li>
+                </ul>
+                <p className="mt-4 font-bold">
+                  If it fails any part, kill it.<br/>
+                  It'll drain your energy and drown your dreams.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Part 4 */}
+        <section className="mb-20">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 4: Zero-Naira Idea Testing (Don't Spend Before This)</h2>
+            <div className="space-y-6 text-lg">
+              <p>
+                You don't need a logo, website, or ₦100,000 capital to test your idea.
+              </p>
+              
+              <p className="font-bold">
+                You just need this:
+              </p>
+              
+              <p className="text-xl">
+                Talk to 5 real people and ask if they'll pay.
+              </p>
+              
+              <p className="mt-4">
+                Not like:
+              </p>
+              <div className="bg-gray-100 p-4 rounded-lg">
+                <p>"Would you be interested?"</p>
+              </div>
+              
+              <p className="mt-4">
+                Ask:
+              </p>
+              <div className="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
+                <p>"If I offered X for ₦Y, would you pay today?"</p>
+              </div>
+              
+              <p className="mt-4 font-bold">
+                That one line will expose everything.
+              </p>
+              
+              <p className="mt-4">
+                If they say:
+              </p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>"Hmm... I'd think about it" = No</li>
+                <li>"How much exactly?" = Maybe</li>
+                <li>"Please when can you start?" = YES</li>
+              </ul>
+              
+              <p className="mt-6 text-xl font-bold">
+                You don't need motivation.<br/>
+                You need signal.
+              </p>
+              
+              <p className="mt-4">
+                Start small. Start ugly. Just start with proof.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Part 5 */}
+        <section className="mb-20 bg-amber-100 p-8 rounded-xl">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 5: Your Business Sweet Spot = Skills × Pain × Speed</h2>
+            <p className="text-xl">
+              Here's how to pick an idea you won't abandon in 2 weeks.
+            </p>
+            
+            <div className="mt-8 space-y-6">
+              <p>
+                Draw 3 overlapping circles:
+              </p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>What you're good at (or can learn fast)</li>
+                <li>What people urgently need</li>
+                <li>What gets quick results</li>
+              </ul>
+              
+              <p className="font-bold">
+                Where they overlap?<br/>
+                That's the gold.
+              </p>
+              
+              <p className="mt-4">
+                Real-life examples:
+              </p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>You're good at Canva? Design church flyers for ₦3k each</li>
+                <li>You can write well? Help people write CVs and LinkedIn bios</li>
+                <li>You understand skincare? Help black women pick the right routines</li>
+              </ul>
+              
+              <p className="mt-6 font-bold">
+                Don't chase complexity.
+              </p>
+              
+              <p className="text-xl">
+                The simpler your first idea, the faster you escape poverty.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Part 6 */}
+        <section className="mb-20">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 6: Real Businesses Don't Need Motivation</h2>
+            <div className="space-y-6 text-lg">
+              <p className="text-xl font-bold">
+                If you need daily quotes to keep going, it's not a business.<br/>
+                It's a struggle hobby.
+              </p>
+              
+              <p>
+                A real business gets you results fast enough that it feeds you motivation.
+              </p>
+              
+              <p className="mt-4">
+                You don't need discipline when clients are sending alerts.
+              </p>
+              
+              <p>
+                You don't need affirmations when your idea is clear.
+              </p>
+              
+              <p className="mt-6 text-xl font-bold">
+                So let me ask you...
+              </p>
+              
+              <p className="text-2xl font-bold text-purple-700">
+                Are you building something that feeds you back?<br/>
+                Or are you building a ghost town no one cares about?
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Part 7 */}
+        <section className="mb-20 bg-gray-100 p-8 rounded-xl">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 7: The 5-Minute Idea Audit (Use This Before You Waste Months)</h2>
+            <p>
+              Take any idea you're thinking about. Score it 1–5 on each:
+            </p>
+            
+            <div className="mt-6 overflow-x-auto">
+              <table className="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="py-2 px-4 border-b text-left">Question</th>
+                    <th className="py-2 px-4 border-b text-center">Score (1-5)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="py-2 px-4 border-b">Does it solve a painful, urgent problem?</td>
+                    <td className="py-2 px-4 border-b text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-4 border-b">Can I start it with less than ₦10k?</td>
+                    <td className="py-2 px-4 border-b text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-4 border-b">Can I deliver results within 7 days?</td>
+                    <td className="py-2 px-4 border-b text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-4 border-b">Will people pay without needing long convincing?</td>
+                    <td className="py-2 px-4 border-b text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-4 border-b">Do I already have (or can quickly learn) the skills for it?</td>
+                    <td className="py-2 px-4 border-b text-center"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+            <p className="mt-6">
+              Add it up.
+            </p>
+            
+            <ul className="list-disc list-inside space-y-2 mt-4">
+              <li><span className="font-bold">20+ points:</span> GO! Start now.</li>
+              <li><span className="font-bold">15–19 points:</span> Refine it. Might work.</li>
+              <li><span className="font-bold">&lt; 15 points:</span> Kill it. It'll waste your life.</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Part 8 */}
+        <section className="mb-20 bg-gradient-to-r from-blue-900 to-purple-900 text-white p-8 rounded-xl">
+          <div className="prose prose-lg mx-auto prose-invert">
+            <h2 className="text-3xl font-bold mb-6">Part 8: The Ultimate Cash Machine Isn't Magic. It's Method.</h2>
+            <p className="text-xl">
+              Most people fail not because they can't work hard — but because they worked hard on the wrong thing.
+            </p>
+            
+            <div className="mt-8 space-y-6">
+              <p>
+                This guide is your prevention.<br/>
+                The next step is your weapon.
+              </p>
+              
+              <p>
+                Once you've filtered out the crap, we'll show you:
+              </p>
+              
+              <ul className="list-disc list-inside space-y-2">
+                <li>How to price your offer</li>
+                <li>How to find buyers who beg to pay</li>
+                <li>How to deliver value that makes people refer others</li>
+                <li>And how to turn ₦5k jobs into ₦500k systems</li>
+              </ul>
+              
+              <p className="mt-6">
+                That's what The Ultimate Cash Machine program does.<br/>
+                But you're not ready for that if you haven't filtered first.
+              </p>
+              
+              <p className="text-xl font-bold mt-8">
+                This guide is your rite of passage.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Part 9 */}
+        <section className="mb-20">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Part 9: Let's Recap Before You Scroll Away</h2>
+            <p className="text-xl">
+              Here's what you now know (and what 90% of hustlers will never figure out):
+            </p>
+            
+            <ul className="list-disc list-inside space-y-4 mt-6 text-lg">
+              <li>Most businesses fail before they begin — because the idea was trash</li>
+              <li>You can avoid 5+ years of struggle by using the ATM Filter</li>
+              <li>You don't need passion or capital — you need clarity</li>
+              <li>If your idea fails the pain/speed/money test, don't touch it</li>
+              <li>Real businesses pay you early. Struggle hobbies cost you forever.</li>
+            </ul>
+          </div>
+        </section>
+
         {/* Final CTA */}
-        {/* Final CTA */}
-<section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
-  <div className="max-w-3xl mx-auto text-center">
-    <div className="flex justify-center mb-8">
-      <span className="bg-white text-purple-800 font-bold px-4 py-2 rounded-full text-xl">🎯</span>
-    </div>
-    <h2 className="text-2xl sm:text-3xl font-bold mb-6">
-      Want to See How This All Comes Together?
-    </h2>
+        <section className="mb-20 bg-black text-white p-8 rounded-xl text-center">
+          <div className="prose prose-lg mx-auto prose-invert">
+            <h2 className="text-3xl font-bold mb-6">Part 10: Your Move.</h2>
+            <p className="text-xl">
+              You've been given the key.
+            </p>
+            
+            <div className="mt-8 space-y-6">
+              <p>
+                This isn't motivation.<br/>
+                This isn't "think positive."<br/>
+                This is a system.
+              </p>
+              
+              <p className="text-xl font-bold">
+                So what now?
+              </p>
+              
+              <p>
+                You either:
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-8 mt-6">
+                <div className="bg-gray-800 p-6 rounded-lg">
+                  <p>Go back to scrolling motivational reels while your rent clock ticks, or</p>
+                </div>
+                <div className="bg-green-900 p-6 rounded-lg">
+                  <p>Use this guide to finally start building your own damn ATM</p>
+                </div>
+              </div>
+              
+              <p className="mt-8 font-bold">
+                You choose.
+              </p>
+              
+              <p className="mt-6">
+                When you're ready for the next step — the pricing, sales, system, scaling — The Ultimate Cash Machine is waiting.
+              </p>
+              
+              <p className="font-bold">
+                But only for those who passed this test.
+              </p>
+              
+              <div className="mt-12">
+                <p className="text-2xl font-bold text-amber-400">⚡ Want the full breakdown?</p>
+                <button className="mt-6 bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  📥 [I'VE FILTERED MY IDEA — SHOW ME THE MONEY SYSTEM]
+                </button>
+                <p className="mt-6">
+                  We'll show you how to turn your new clarity into cold cash.<br/>
+                  Without hype. Without luck. Without wasting more time.
+                </p>
+                <p className="mt-6 text-xl font-bold">
+                  Your ATM is waiting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
-    <div className="space-y-6 text-lg mb-10">
-      <p>
-        You’ve seen the mindset shift. You’ve seen how the Problem-First Pitch works.
-      </p>
-      <p>
-        Now let me show you how I used it to build a simple system that brought in real sales — consistently — even with zero ads and no followers.
-      </p>
-      <p className="font-bold">
-        The next page breaks it all down:
-        <br />
-        What I did, why it worked, and how you can do the same — step by step.
-      </p>
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-sm">
+        <p>© {new Date().getFullYear()} Ultimate Cash Machine. All rights reserved.</p>
+        <p className="mt-2">No hype. No scams. Just real business training.</p>
+      </footer>
     </div>
-
-    <div className="bg-white p-6 rounded-xl shadow-xl text-gray-900 max-w-2xl mx-auto">
-      <p className="font-bold text-lg mb-6">
-        👇🏽 Tap the button to go behind the scenes and see the full strategy in action.
-      </p>
-      <p className="mb-6 italic">
-        Not another freebie. Not a course pitch. Just a clear look at how I turned a quiet hustle into steady cashflow — using words, not ads.
-      </p>
-      <p className="mb-8 font-semibold">
-        The full breakdown is waiting for you on the next page.
-      </p>
-        <Link href="/sales7/salespage" passHref>
-      <button className="w-full max-w-md mx-auto bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transform transition hover:scale-105 duration-300 cursor-pointer">
-        👉🏽 Take Me to the Full Strategy
-      </button>
-      </Link>
-      <p className="mt-6 font-bold text-purple-800">
-        Let’s move different from here.
-      </p>
-    </div>
-  </div>
-</section>
-
-      </div>
-    )
-  }
+  )
+}
