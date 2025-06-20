@@ -366,7 +366,7 @@ export default function LeadMagnetPage() {
               </ul>
                        <div className="mt-8 flex justify-center">
                       <Image
-                        src="business sweet spot illustration.jpg"
+                        src="business sweet spot illustration (2).jpg"
                         alt="business sweet spot illustration"
                         width={400}
                         height={500}
