@@ -21,9 +21,11 @@ export default function PreSellPage() {
             Meanwhile, you — the one who actually reads, learns, sacrifices — still feel like a ghost in this thing called "success."
           </p>
           <div className="mt-10">
+              <Link href="/sales8/lead-magnet-intro" passHref>
             <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse">
               Grab Your Free Guide Now →
             </button>
+              </Link>
           </div>
         </div>
       </header>
