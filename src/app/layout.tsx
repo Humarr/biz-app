@@ -84,7 +84,7 @@ function Footer() {
     </footer>*/}
 
 
-{/* Footer */}
+
       <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-xs">
         <p>© {new Date().getFullYear()} The Ultimate Cash Machine. All rights reserved.</p>
         <p className="mt-2">No hype. No scams. Just real business training.</p>
