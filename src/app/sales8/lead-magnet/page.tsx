@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function LeadMagnetPage() {
   return (
@@ -363,7 +364,15 @@ export default function LeadMagnetPage() {
                 <li>What people urgently need</li>
                 <li>What gets quick results</li>
               </ul>
-              
+                       <div className="mt-8 flex justify-center">
+                      <Image
+                        src="business sweet spot illustration.jpg"
+                        alt="business sweet spot illustration"
+                        width={400}
+                        height={500}
+                        className="rounded-xl shadow-lg border border-amber-200"
+                      />
+                    </div>
               <p className="font-bold">
                 Where they overlap?<br/>
                 That's the gold.
