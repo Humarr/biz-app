@@ -219,7 +219,7 @@ export default function PreSellPage() {
             <p className="mt-4">
               Not with hype.<br/>
               Not with fake screenshots.<br/>
-              But with one PDF that flips your brain like a pancake and gives you the foundation no one ever taught you.
+              But with one guide that flips your brain like a pancake and gives you the foundation no one ever taught you.
             </p>
             
             <p className="text-xl font-bold mt-8">
