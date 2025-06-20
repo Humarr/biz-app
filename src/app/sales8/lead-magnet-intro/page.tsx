@@ -199,7 +199,7 @@ export default function LeadMagnetPage() {
               </p>
               
               <p className="text-xl font-bold text-center mt-8">
-                This free PDF is the flush.
+                This free guide is the flush.
               </p>
             </div>
           </div>
