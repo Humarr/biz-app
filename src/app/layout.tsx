@@ -76,11 +76,18 @@ export default function RootLayout({
 
 function Footer() {
   return (
-    <footer className="bg-primary text-white py-12 mt-auto">
+ {/*   <footer className="bg-primary text-white py-12 mt-auto">
       <div className="container mx-auto px-4 text-center text-sm">
         © {new Date().getFullYear()} The Don&apos;t Start a Business Company. All rights reserved.
       </div>
       <p className="mt-2">No spam. No bullshit. Just real talk that helps you make money.</p>
-    </footer>
+    </footer>*/}
+
+
+{/* Footer */}
+      <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-xs">
+        <p>© {new Date().getFullYear()} The Ultimate Cash Machine. All rights reserved.</p>
+        <p className="mt-2">No hype. No scams. Just real business training.</p>
+      </footer>
   )
 }
