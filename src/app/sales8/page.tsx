@@ -301,7 +301,7 @@ export default function PreSellPage() {
             </p>
             
             <p className="text-2xl font-bold mt-8">
-              Let this free PDF be your slap-in-the-face wake up call.
+              Let this free guide be your slap-in-the-face wake up call.
             </p>
             
             <p className="mt-4">
