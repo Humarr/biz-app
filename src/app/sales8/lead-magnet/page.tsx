@@ -19,9 +19,11 @@ export default function LeadMagnetPage() {
             (Even If You're Broke, Burnt Out, or Ready to Fake Your Death and Relocate to Canada)
           </p>
           <div className="mt-10">
+              <Link href="/sales8/salespage" passHref>
             <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse">
               Get Instant Access →
             </button>
+              </Link>
           </div>
         </div>
       </header>
@@ -573,10 +575,10 @@ export default function LeadMagnetPage() {
               </p>
               
               <div className="mt-12">
-                <p className="text-2xl font-bold text-amber-400">⚡ Want the full breakdown?</p>
+                <p className="text-2xl font-bold text-amber-400">⚡ Want the full breakdown?</p>              <Link href="/sales8/salespage" passHref>
                 <button className="mt-6 bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                   📥 [I'VE FILTERED MY IDEA — SHOW ME THE MONEY SYSTEM]
-                </button>
+                </button>              </Link>
                 <p className="mt-6">
                   We'll show you how to turn your new clarity into cold cash.<br/>
                   Without hype. Without luck. Without wasting more time.
@@ -591,10 +593,10 @@ export default function LeadMagnetPage() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-sm">
+      {/*<footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-sm">
         <p>© {new Date().getFullYear()} Ultimate Cash Machine. All rights reserved.</p>
         <p className="mt-2">No hype. No scams. Just real business training.</p>
-      </footer>
+      </footer>*/}
     </div>
   )
 }
