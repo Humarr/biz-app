@@ -16,9 +16,10 @@ export default function SalesPage() {
             Here's How to Build a Real, Working Business — Without Being a Scam or a Clown
           </h1>
           <div className="mt-10">
+<Link href="/payment2"passHref>
             <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse">
               Get The Ultimate Cash Machine →
-            </button>
+            </button>              </Link>
           </div>
         </div>
       </header>
@@ -444,20 +445,17 @@ export default function SalesPage() {
               </p>
               
               <div className="mt-12">
+<Link href="/payment2"passHref>
                 <button className="bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 px-8 rounded-full text-lg sm:text-xl transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                   [ Grab The Ultimate Cash Machine — ₦4,500 ]
-                </button>
+                </button>              </Link>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-sm">
-        <p>© {new Date().getFullYear()} The Ultimate Cash Machine. All rights reserved.</p>
-        <p className="mt-2">No hype. No scams. Just real business training.</p>
-      </footer>
+      
     </div>
   )
 }
