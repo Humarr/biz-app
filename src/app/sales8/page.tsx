@@ -15,7 +15,7 @@ export default function PreSellPage() {
         <div className="max-w-3xl mx-auto text-center">
           <span className="inline-block bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold mb-4">⚠️ WARNING: This isn't for everyone</span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-            You ever wonder why it's always the dumbest people that seem to be making money?
+            You ever wonder why it's always the dumbest people that seem to be <span className= "text-orange-500">making money?</span>
           </h1>
           <p className="mt-6 text-xl sm:text-2xl font-medium opacity-90">
             Meanwhile, you — the one who actually reads, learns, sacrifices — still feel like a ghost in this thing called "success."
