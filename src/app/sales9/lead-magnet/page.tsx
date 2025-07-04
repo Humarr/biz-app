@@ -53,7 +53,7 @@ export default function AutopsyReport() {
       <header className="text-center mb-12 md:mb-16 border-b border-gray-200 pb-10">
         {/* Personal Greeting */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Hi, <span className="text-yellow-600 underline italic">{user.name}</span>! I hereby present to you...
+          Hi, <span className="text-yellow-600 underline italic">{user.name}!</span> I hereby present to you...
         </h1>
 
         {/* Main Title */}
