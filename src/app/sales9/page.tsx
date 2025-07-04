@@ -142,7 +142,7 @@ export default function Page() {
         
         <div className="bg-gray-100 p-4 rounded-lg italic">
           <p className="font-bold text-lg">PS: The market doesn't care about your hustle — only what solves its pain.</p>
-          <p className="text-lg">👉 Learn the language of demand before your savings join the <button onClick={handleClick} className="font-bold text-red-600 cursor-pointer">90% graveyard</button>. →</p>
+          <p className="text-lg">👉 Learn the language of demand before your savings join the <button onClick={handleClick} className="font-bold text-red-600 cursor-pointer underline">90% graveyard</button>. →</p>
         </div>
       </section>
     </main>
