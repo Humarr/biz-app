@@ -103,7 +103,7 @@ export default function Page() {
             <p className="font-bold text-green-800 text-lg">Aisha lost <span className="text-xl">₦800k</span> on bad hair inventory before she found the missing piece and rebuilt her business <span className="underline">stronger than ever</span>.</p>
           </div>
           <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
-            <p className="font-bold text-blue-800 text-lg">Emeka turned his side hustle into a <span className="text-xl">₦2.3m/month</span> delivery service without even renting a shop once he learned what the market really wanted.</p>
+            <p className="font-bold text-blue-800 text-lg">Emeka turned his side hustle into a <span className="text-xl">₦2.3m/month</span> delivery service without even renting a shop once he learned what the market <span className="font-bold italic">really wanted.</span></p>
           </div>
         </div>
       </section>
