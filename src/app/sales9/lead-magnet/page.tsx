@@ -3,9 +3,15 @@
 'use client';
 import React from "react";
 import { useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 export default function AutopsyReport() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const name = searchParams.get('name');
+  // const email = searchParams.get('email');
+  // const phone = searchParams.get('phone');
 
   const handleSubmit = () => {
     // Analytics tracking placeholder
@@ -17,18 +23,46 @@ export default function AutopsyReport() {
   return (
     <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-white">
       {/* Header */}
-      <header className="text-center mb-10 md:mb-14 border-b-2 border-gray-200 pb-8">
+      {/* <header className="text-center mb-10 md:mb-14 border-b-2 border-gray-200 pb-8">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-gray-900">
+        Hi,{name} I hereby Present to you...
+      </h1>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-gray-900">
           THE 5 BUSINESS AUTOPSIES
         </h1>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800">
           Why 90% of Nigerian Businesses Fail — And How to Avoid It
         </h2>
-        <div className="mt-4 text-gray-500 font-medium">
+        <div className="mt-4 text-gray-500 font-medium"> */}
           {/* [Your Logo or Brand Name Here] */}
           {/* The Don't Start a Business Until You Read This Company's Autopsy Report */}
-        </div>
-      </header>
+        {/* </div>
+      </header> */}
+
+      {/* Header Section */}
+<header className="text-center mb-12 md:mb-16 border-b border-gray-200 pb-10">
+  {/* Personal Greeting */}
+  <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+    Hi, {name}! I hereby present to you...
+  </h1>
+
+  {/* Main Title */}
+  <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-red-600 mb-4 tracking-tight">
+    THE 5 BUSINESS AUTOPSIES
+  </h2>
+
+  {/* Subtitle */}
+  <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-700 max-w-3xl mx-auto">
+    Why 90% of Nigerian Businesses Fail — And How to Avoid It
+  </p>
+
+  {/* Optional Brand/Tagline */}
+  <div className="mt-6 text-sm sm:text-base text-gray-500 italic">
+    {/* e.g., Brought to you by The "Don’t Start a Business Until You Read This" Report */}
+    {/* Your brand or tagline can go here */}
+  </div>
+</header>
+
 
       {/* Introduction */}
       <section className="mb-12 bg-green-50 p-6 rounded-xl border-l-4 border-green-600">

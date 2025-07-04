@@ -43,8 +43,8 @@ export default function LeadPage() {
     // Analytics tracking placeholder
     console.log('User submitted lead form:', { name, email, phone });
 
-    // Navigate to the lead magnet opt-in page
-    router.push('/sales9/lead-magnet');
+    const query = new URLSearchParams({ name, email, phone }).toString();
+    router.push(`/sales9/lead-magnet?${query}`);
   };
 
   return (
