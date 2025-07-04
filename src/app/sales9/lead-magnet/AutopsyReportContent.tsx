@@ -53,7 +53,7 @@ export default function AutopsyReport() {
 
         {/* Subtitle */}
         <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-700 max-w-3xl mx-auto">
-          Why 90% of Nigerian Businesses Fail — And How to Avoid It
+          Why 90% of Nigerian Businesses Fail — And How to NOT Fall Into It
         </p>
 
         {/* Optional Brand/Tagline */}

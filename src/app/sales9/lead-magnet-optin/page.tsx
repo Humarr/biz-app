@@ -43,8 +43,10 @@ export default function LeadPage() {
     // Analytics tracking placeholder
     console.log('User submitted lead form:', { name, email, phone });
 
-    const query = new URLSearchParams({ name, email, phone }).toString();
-    router.push(`/sales9/lead-magnet?${query}`);
+    localStorage.setItem('userInfo', JSON.stringify({ name, email, phone }));
+
+    // Navigate (query params optional for first load)
+    router.push('/sales9/lead-magnet');
   };
 
   return (
