@@ -60,7 +60,7 @@ export default function LeadPage() {
 
         <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-600 max-w-2xl mx-auto mb-8">
           <p className="text-lg sm:text-xl font-semibold text-green-800">
-            Before you risk your next kobo — see why most hustles die before their first customer walks in.
+            Before you risk your next kobo — see why most businesses die before their first customer walks in.
           </p>
         </div>
       </section>
