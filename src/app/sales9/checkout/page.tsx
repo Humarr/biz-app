@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // app/checkout/page.tsx
-
+'use client';
 import React from 'react';
 
 export default function CheckoutPage() {
