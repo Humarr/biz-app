@@ -76,8 +76,8 @@ export default function LeadPage() {
             'The simple way to know before you spend a naira whether your idea will sell',
           ].map((item, idx) => (
             <li key={idx} className="flex items-start">
-              <span className="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">
-                ✅
+              <span className="bg-green-500 text-white rounded-full w-9 h-6 flex items-center justify-center mr-3 mt-1">
+                &#10003;
               </span>
               <span className="text-lg font-medium">{item}</span>
             </li>
