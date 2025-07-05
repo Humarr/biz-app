@@ -64,7 +64,7 @@ export default function OptIn() {
           </p>
           <p>
             ✅ <strong>The David Case Study</strong> - How one filter helped a
-            Lagos guy build a ₦340,000/month business with just ₦12,000
+            Lagos guy build a ₦340,000/month business with just ₦25,000
           </p>
           <p>
             ✅ <strong>The Pain Test Formula</strong> - Never waste money on
