@@ -275,7 +275,7 @@ export default function Home() {
             <li>Lost opportunities</li>
           </ul>
           <p>
-            <strong>The average Nigerian entrepreneur wastes ₦200,000 on failed businesses before they figure out what works.</strong>
+            <strong>The average Nigerian entrepreneur wastes OVER ₦200,000 on failed businesses before they figure out what works.</strong>
           </p>
           <p>
             <strong>The complete 12-filter system costs ₦11,950.</strong>
