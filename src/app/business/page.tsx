@@ -31,7 +31,7 @@ export default function Home() {
           <li>The friend who started a simple service and now drives a car you can only dream of.</li>
         </ul>
         <p className="font-bold text-lg text-red-600">And you're wondering: "What's wrong with me?"</p>
-        <p>You've tried. God knows you've tried.</p>
+        <p>You've tried. <span className="font-bold">God knows you've tried.</span> </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>You sold perfume oils for 6 months. Made ₦3,000 profit.</li>
           <li>You tried dropshipping. Lost ₦15,000 to Facebook ads that brought zero sales.</li>
