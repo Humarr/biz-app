@@ -185,7 +185,7 @@ export default function Home() {
             '"The Pain Test alone saved me from making a huge mistake."',
             '"These 4 filters are more valuable than the business courses I paid ₦60,000 for."',
           ].map((quote, i) => (
-            <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow font-scribble text-xl">
+            <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow font-scribble text-lg">
               <p className="italic">*{quote}*</p>
             </div>
           ))}
@@ -197,7 +197,7 @@ export default function Home() {
       {/* Call to Action */}
       <section className="bg-black text-white px-4 py-12 text-center space-y-6">
         <h3 className="text-2xl font-bold uppercase text-yellow-400">Get The Free Guide Now</h3>
-        <p>Enter your email below and I'll send you <strong>The ATM Decoder Protocol</strong> immediately.</p>
+        <p>Click the button below and I'll send you <strong>The ATM Decoder Protocol</strong> immediately.</p>
         <ul className="list-disc max-w-xl mx-auto text-left text-sm space-y-1 pl-5">
           <li>The 4 Core Economic Filters</li>
           <li>Real case studies of ideas that passed (and failed)</li>
