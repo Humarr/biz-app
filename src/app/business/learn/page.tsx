@@ -118,7 +118,7 @@ export default function Home() {
             <p>He noticed something. Every weekend, he saw the same scene:</p>
             <p className="italic font-semibold text-accent text-lg">Young professionals washing clothes in buckets outside their flats.</p>
             <p>Not because they wanted to. Because they HAD to.</p>
-            <p>The nearby dry cleaner was expensive (₦500 per shirt).</p>
+            <p>The nearby dry cleaner was expensive (₦2500 per shirt).</p>
             <p>The local laundromat was dirty and unreliable.</p>
             <p>Most people didn't have washing machines.</p>
             <p className="font-bold underline">The pain was real. The frustration was daily. The solution was obvious.</p>
