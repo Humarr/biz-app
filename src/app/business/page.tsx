@@ -38,7 +38,7 @@ export default function Home() {
           <li>You even sold recharge cards. Felt like a failure counting ₦1,500 profit after a whole week.</li>
         </ul>
         <p className="font-bold">Each failure chips away at something inside you.</p>
-        <p>Your confidence. Your hope. Your family's belief in you.</p>
+        <p>Your <span className="underline">confidence.</span> Your <span className="underline">hope.</span> Your <span className="underline">family's belief in you.</span></p>
       </section>
 
       <div className="border-t border-gray-300 my-8" />
