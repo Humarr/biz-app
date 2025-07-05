@@ -119,7 +119,7 @@ Most importantly, it proved I could spot what people really needed.</p>
         <p className="text-lg">Here's what's inside:</p>
         <div className="space-y-6">
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold">PART 1: The Mind Shift</p>
+            <p className="font-bold text-lg font-scribble">PART 1: The Mind Shift</p>
             <ul className="list-disc list-inside pl-4 text-lg space-y-1">
               <li>Why starting a business is actually LESS risky than staying employed (this will shock you)</li>
               <li>The real reason 87% of Nigerian businesses fail in the first year (it's not what you think)</li>
@@ -127,7 +127,7 @@ Most importantly, it proved I could spot what people really needed.</p>
             </ul>
           </div>
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold">PART 2: The Idea Factory</p>
+            <p className="font-bold text-lg font-scribble">PART 2: The Idea Factory</p>
             <ul className="list-disc list-inside pl-4 text-lg space-y-1">
               <li>The 12 Economic Filters that separate million‑naira ideas from garbage</li>
               <li>How to spot pain‑point‑driven opportunities in your own neighborhood</li>
@@ -135,7 +135,7 @@ Most importantly, it proved I could spot what people really needed.</p>
             </ul>
           </div>
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold">PART 3: The Offer Engine</p>
+            <p className="font-bold text-lg font-scribble">PART 3: The Offer Engine</p>
             <ul className="list-disc list-inside pl-4 text-lg space-y-1">
               <li>How to create offers so good, people feel stupid saying no</li>
               <li>The psychology of Nigerian buyers (why they buy and why they don't)</li>
@@ -143,7 +143,7 @@ Most importantly, it proved I could spot what people really needed.</p>
             </ul>
           </div>
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold">PART 4: The Growth Machine</p>
+            <p className="font-bold text-lg font-scribble">PART 4: The Growth Machine</p>
             <ul className="list-disc list-inside pl-4 text-lg space-y-1">
               <li>How to get customers to sell your business for you (free marketing)</li>
               <li>The "Neighbor Network" strategy that builds trust faster than any ad</li>
@@ -151,7 +151,7 @@ Most importantly, it proved I could spot what people really needed.</p>
             </ul>
           </div>
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold">PART 5: The Cash Machine</p>
+            <p className="font-bold text-lg font-scribble">PART 5: The Cash Machine</p>
             <ul className="list-disc list-inside pl-4 text-lg space-y-1">
               <li>How to price your products like a pro (without losing customers)</li>
               <li>The "Value Stack" method that justifies any price</li>
@@ -159,7 +159,7 @@ Most importantly, it proved I could spot what people really needed.</p>
             </ul>
           </div>
           <div className="border border-accent rounded-lg p-4 bg-highlight shadow-lg">
-            <p className="font-bold">BONUS: The 9 Copywriting Secrets</p>
+            <p className="font-bold font-scribble text-lg">BONUS: The 9 Copywriting Secrets</p>
             <ul className="list-disc list-inside pl-4 text-lg space-y-1">
               <li>How to Grab ANYONE's Attention EVEN IF they are watching their favourite movie</li>
               <li>How to make ANYONE take action immediately</li>
