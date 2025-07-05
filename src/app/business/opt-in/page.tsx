@@ -112,7 +112,7 @@ export default function OptIn() {
       <div className="border-t border-secondary my-8" />
 
       {/* Who This Is For */}
-      <section className="bg-accent bg-opacity-5 px-6 py-10 space-y-4 text-primary">
+      <section className="bg-background shadow-lg border-l-3 border-dashed border-accent bg-opacity-5 px-6 py-10 space-y-4 text-primary">
         <h3 className="text-xl font-bold uppercase text-center text-accent">
           Who This Is For
         </h3>
