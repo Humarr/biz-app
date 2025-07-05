@@ -59,9 +59,9 @@ export default function Home() {
         <p className="text-center max-w-3xl mx-auto mt-4">
           You don't need to work harder. You're already working hard enough.
           <br />
-          You don't need more capital. David started his ₦340,000/month business with just ₦12,000.
+          You don't need more capital. David started his ₦340,000/month business with just ₦25,000.
           <br />
-          You don't need better connections. You need better ideas.
+          You don't need better connections. You need <span className="font-bold">better ideas.</span>
         </p>
         <p className="text-center font-bold text-xl text-black mt-6">
           The truth is painful but liberating:
