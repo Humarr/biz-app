@@ -1,7 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
+import CustomButton from "@/components/business/CustomButton";
+
 import React from "react";
 
-export default function Home() {
+export default function OptIn() {
   return (
     <main className="bg-background text-primary font-body min-h-screen">
       {/* Hero Section */}
@@ -143,8 +145,8 @@ export default function Home() {
         </p>
 
         <form
-          action="/api/optin"
-          method="POST"
+          // action="/api/optin"
+          // method="POST"
           className="max-w-md mx-auto flex flex-col gap-4 mt-6"
         >
           <input
@@ -168,12 +170,13 @@ export default function Home() {
             className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
             required
           />
-          <button
+          <CustomButton
             type="submit"
-            className="bg-accent hover:bg-red-800 transition text-white px-6 py-3 text-lg rounded font-bold font-body"
+            href="/business/learn"
+            ariaLabel="Send Me The Free Guide"
           >
             SEND ME THE FREE GUIDE
-          </button>
+          </CustomButton>
         </form>
 
         <p className="text-sm italic mt-2 text-secondary">
@@ -205,16 +208,12 @@ export default function Home() {
         <p className="font-bold text-accent">
           It's free. It's instant. It's exactly what you need.
         </p>
-        <button
-          className="mt-4 bg-accent hover:bg-red-800 transition text-white px-8 py-3 rounded font-bold uppercase"
-          // onClick={() => {
-          //   const emailInput = document.querySelector('input[name="email"]');
-          //   if (emailInput) (emailInput as HTMLInputElement).focus();
-          // }}
-          aria-label="Get The ATM Decoder Protocol"
+        <CustomButton
+          href="/business/learn"
+          ariaLabel="Get The ATM Decoder Protocol"
         >
           SEND ME THE ATM DECODER PROTOCOL
-        </button>
+        </CustomButton>
       </section>
 
       <div className="border-t border-secondary my-8" />

@@ -1,316 +1,306 @@
 /* eslint-disable react/no-unescaped-entities */
-// app/page.tsx
-"use client";
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
-import Spinner from "@/components/sales9/Spinner";
-// import { useSearchParams } from "next/navigation";
+// pages/index.tsx
 
-export default function AutopsyReport() {
-  const router = useRouter();
-  const [user, setUser] = useState<{ name: string; email: string; phone: string } | null>(null);
+import React from "react";
+import Image from "next/image";
 
-  useEffect(() => {
-    const stored = localStorage.getItem('userInfo');
-    if (stored) {
-      try {
-        setUser(JSON.parse(stored));
-      } catch (e) {
-        console.error("Failed to parse user info:", e);
-      }
-    }
-  }, []);
-
-  if (!user) return <Spinner/>;
-
-  const handleSubmit = () => {
-    // Analytics tracking placeholder
-    console.log("User submitted autopsy report");
-
-    router.push("/sales9/salespage");
-  };
-
+export default function Home() {
   return (
-    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-white">
-      {/* Header */}
-      {/* <header className="text-center mb-10 md:mb-14 border-b-2 border-gray-200 pb-8">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-gray-900">
-        Hi,{name} I hereby Present to you...
-      </h1>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 text-gray-900">
-          THE 5 BUSINESS AUTOPSIES
+    <main className="bg-background text-primary font-body px-6 md:px-12 lg:px-20 py-12 max-w-6xl mx-auto space-y-20">
+
+      {/* HERO */}
+      <section className="text-center space-y-6">
+        <h1 className="text-5xl md:text-6xl font-headline2 font-bold uppercase leading-tight">
+          The ATM Decoder Protocol
         </h1>
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800">
-          Why 90% of Nigerian Businesses Fail — And How to Avoid It
+        <h2 className="text-3xl md:text-4xl font-semibold text-accent underline">
+          The 12 Economic Filters That Separate Million-Naira Ideas From Garbage
         </h2>
-        <div className="mt-4 text-gray-500 font-medium"> */}
-      {/* [Your Logo or Brand Name Here] */}
-      {/* The Don't Start a Business Until You Read This Company's Autopsy Report */}
-      {/* </div>
-      </header> */}
+        <p className="italic text-secondary text-lg tracking-wide">
+          *Free Extract From "The Ultimate Cash Machine"*
+        </p>
+        <hr className="border-2 border-accent max-w-xs mx-auto mt-4" />
+      </section>
 
-      {/* Header Section */}
-      <header className="text-center mb-12 md:mb-16 border-b border-gray-200 pb-10">
-        {/* Personal Greeting */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Hi, <span className="text-yellow-600 underline italic">{user.name}!</span> <br /> I hereby present to you...
-        </h1>
+      {/* STORY & 4 IDEAS */}
+      <section className="lg:flex lg:space-x-12">
+        {/* Left - story text */}
+        <article className="lg:w-2/3 space-y-6 leading-relaxed text-lg md:text-xl">
+          <p className="drop-cap">
+            Let me tell you about Kemi, Tunde, Blessing, and David.
+          </p>
+          <p>Four friends. Four business ideas. Same neighborhood in Lagos.</p>
+          <p className="font-bold text-xl">Only one of them is still in business today.</p>
 
-        {/* Main Title */}
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-red-600 mb-4 tracking-tight">
-          THE 5 BUSINESS AUTOPSIES
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
+            {/* Kemi */}
+            <div className="p-4 border border-gray-300 rounded shadow-sm bg-white">
+              <p><strong>Kemi's Idea:</strong> Perfume oil business</p>
+              <ul className="list-disc list-inside ml-5 mt-2 space-y-1">
+                <li><strong>Investment:</strong> ₦25,000</li>
+                <li><strong>Result:</strong> Made ₦3,000 profit in 6 months. Quit.</li>
+              </ul>
+            </div>
+            {/* Tunde */}
+            <div className="p-4 border border-gray-300 rounded shadow-sm bg-white">
+              <p><strong>Tunde's Idea:</strong> Online phone accessories</p>
+              <ul className="list-disc list-inside ml-5 mt-2 space-y-1">
+                <li><strong>Investment:</strong> ₦40,000</li>
+                <li><strong>Result:</strong> Sold 12 items in 4 months. Quit.</li>
+              </ul>
+            </div>
+            {/* Blessing */}
+            <div className="p-4 border border-gray-300 rounded shadow-sm bg-white">
+              <p><strong>Blessing's Idea:</strong> Home-made snacks delivery</p>
+              <ul className="list-disc list-inside ml-5 mt-2 space-y-1">
+                <li><strong>Investment:</strong> ₦15,000</li>
+                <li><strong>Result:</strong> Lost ₦8,000. Quit.</li>
+              </ul>
+            </div>
+            {/* David */}
+            <div className="p-4 border border-gray-300 rounded shadow-sm bg-white">
+              <p><strong>David's Idea:</strong> Laundry pickup service</p>
+              <ul className="list-disc list-inside ml-5 mt-2 space-y-1">
+                <li><strong>Investment:</strong> ₦12,000</li>
+                <li><strong>Result:</strong> Now makes ₦340,000 every month. Still growing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <p><strong>What made the difference?</strong></p>
+          <p>David was the only one who knew about the 12 Economic Filters.</p>
+          <p>Before he spent a single kobo, he put his laundry idea through all 12 tests.</p>
+          <p><strong>It passed.</strong></p>
+          <p>The others? They just jumped in and hoped for the best.</p>
+
+          <p className="bg-highlight p-4 rounded-md font-semibold text-lg max-w-prose">
+            Today, you're going to learn 4 of those 12 filters. The same ones that could have saved Kemi, Tunde, and Blessing from wasting their money.
+          </p>
+        </article>
+
+        {/* Right - Illustration placeholder */}
+        <div className="lg:w-1/3 mt-10 lg:mt-0 flex items-center justify-center ">
+          <div
+            aria-label="Illustration suggestion"
+            className="w-full h-96 rounded-lg bg-gray-200 flex items-center justify-center text-gray-400 italic select-none"
+          >
+            <Image
+            src="/presell.png"
+            alt="Illustration suggestion"
+            width={500}
+            height={500}
+            className="w-full h-96 rounded-lg bg-gray-200 flex items-center justify-center text-gray-400 italic select-none border-3 border-dashed border-accent"
+            
+            />
+          </div>
+        </div>
+            <p className="text-center font-scribble text-secondary tetxt-2xl italic">Caption: The four friends</p>
+      </section>
+
+      {/* FILTERS */}
+      <section className="space-y-20">
+        {/* Filter 1 */}
+        <article className="bg-white p-8 rounded-lg shadow-lg space-y-6 leading-relaxed text-lg md:text-xl">
+          <h3 className="text-3xl font-bold text-accent uppercase underline tracking-wide">
+            Filter #1: The Pain Test
+          </h3>
+          <p className="italic font-semibold">
+            <span className="font-normal">Question:</span> Does your business idea solve a real problem that people are already frustrated about?
+          </p>
+
+          <div className="columns-1 md:columns-2 gap-8 space-y-4">
+            <p>Most people start businesses based on what they think people need.</p>
+            <p>David asked a different question: "What problems do people in my area complain about every day?"</p>
+            <p>He noticed something. Every weekend, he saw the same scene:</p>
+            <p className="italic font-semibold text-accent text-lg">Young professionals washing clothes in buckets outside their flats.</p>
+            <p>Not because they wanted to. Because they HAD to.</p>
+            <p>The nearby dry cleaner was expensive (₦500 per shirt).</p>
+            <p>The local laundromat was dirty and unreliable.</p>
+            <p>Most people didn't have washing machines.</p>
+            <p className="font-bold underline">The pain was real. The frustration was daily. The solution was obvious.</p>
+
+            <p>Compare that to Kemi's perfume oil business.</p>
+            <p>Did people in her area complain about not having enough perfume options? No.</p>
+            <p>Did they wake up frustrated about perfume scarcity? No.</p>
+            <p>Did they actively look for new perfume suppliers? No.</p>
+            <p className="font-bold">Her idea failed the Pain Test.</p>
+          </div>
+
+          <div className="mt-4 pl-6 border-l-4 border-accent space-y-2">
+            <p className="font-semibold underline">How to apply this filter:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Spend one week listening to people complain</li>
+              <li>Write down every problem you hear mentioned more than once</li>
+              <li>Ask yourself: "Are people actively trying to solve this problem?"</li>
+              <li>If yes, you pass Filter #1</li>
+            </ol>
+          </div>
+        </article>
+
+        {/* Filter 2 */}
+        <article className="bg-white p-8 rounded-lg shadow-lg space-y-6 leading-relaxed text-lg md:text-xl">
+          <h3 className="text-3xl font-bold text-accent uppercase underline tracking-wide">
+            Filter #2: The Money Test
+          </h3>
+          <p className="italic font-semibold">
+            <span className="font-normal">Question:</span> Do people already spend money trying to solve this problem?
+          </p>
+
+          <div className="columns-1 md:columns-2 gap-8 space-y-4">
+            <p>This is where most Nigerian entrepreneurs get it wrong.</p>
+            <p>They find a real problem, but it's not a problem people PAY to solve.</p>
+            <p>David's laundry service passed this test beautifully.</p>
+            <p>People were already spending money on laundry:</p>
+            <ul className="list-disc list-inside ml-6 space-y-1">
+              <li>₦500 per shirt at the dry cleaner</li>
+              <li>₦200 for detergent every week</li>
+              <li>₦300 for transportation to the laundromat</li>
+              <li>Hours of their own time (which is also money)</li>
+            </ul>
+            <p className="font-semibold underline">They were already spending. David just offered a better option.</p>
+
+            <p>Now look at Tunde's phone accessories business.</p>
+            <p>Yes, people need phone accessories. But were they actively looking to buy them online?</p>
+            <p>Most people bought phone accessories when their old ones broke. And when they needed them, they wanted them immediately.</p>
+            <p>They went to the nearest phone shop, not an online store.</p>
+            <p className="font-bold">Tunde's idea failed the Money Test.</p>
+          </div>
+
+          <div className="mt-4 pl-6 border-l-4 border-accent space-y-2">
+            <p className="font-semibold underline">How to apply this filter:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Find 10 people who have the problem you want to solve</li>
+              <li>Ask them: "How much did you spend last month trying to fix this?"</li>
+              <li>If they can't give you a number, you fail</li>
+              <li>If they say "I just manage it," you fail</li>
+              <li>If they tell you specific amounts, you pass Filter #2</li>
+            </ol>
+          </div>
+        </article>
+
+        {/* Filter 3 */}
+        <article className="bg-white p-8 rounded-lg shadow-lg space-y-6 leading-relaxed text-lg md:text-xl">
+          <h3 className="text-3xl font-bold text-accent uppercase underline tracking-wide">
+            Filter #3: The Frequency Test
+          </h3>
+          <p className="italic font-semibold">
+            <span className="font-normal">Question:</span> How often do people encounter this problem?
+          </p>
+
+          <div className="columns-1 md:columns-2 gap-8 space-y-4">
+            <p>This is the difference between a one-time sale and a recurring business.</p>
+            <p>David's laundry service scored perfectly here.</p>
+            <p>People need clean clothes every week. Some people, twice a week.</p>
+            <p>This wasn't a "once in a while" problem. It was a "every single week" problem.</p>
+            <p className="font-bold underline">This means recurring revenue potential.</p>
+
+            <p>Blessing's home-made snacks delivery failed this test.</p>
+            <p>People do buy snacks occasionally, but not regularly enough to sustain a business.</p>
+            <p>Her customers often bought snacks elsewhere or made their own.</p>
+            <p>Her revenue was too unpredictable.</p>
+          </div>
+
+          <div className="mt-4 pl-6 border-l-4 border-accent space-y-2">
+            <p className="font-semibold underline">How to apply this filter:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Ask potential customers: "How often do you face this problem?"</li>
+              <li>Calculate potential repeat sales</li>
+              <li>If problem frequency is weekly or more, you pass Filter #3</li>
+              <li>If monthly or less, reconsider</li>
+            </ol>
+          </div>
+        </article>
+
+        {/* Filter 4 */}
+        <article className="bg-white p-8 rounded-lg shadow-lg space-y-6 leading-relaxed text-lg md:text-xl">
+          <h3 className="text-3xl font-bold text-accent uppercase underline tracking-wide">
+            Filter #4: The Complexity Test
+          </h3>
+          <p className="italic font-semibold">
+            <span className="font-normal">Question:</span> Is the problem simple enough to solve quickly and affordably?
+          </p>
+
+          <div className="columns-1 md:columns-2 gap-8 space-y-4">
+            <p>Some problems are complex, expensive, and require high skills.</p>
+            <p>Those ideas need more time, money, and resources to become profitable.</p>
+            <p>David's laundry pickup was simple: collect, wash, deliver.</p>
+            <p>He didn't try to build a dry cleaning plant. He rented space and hired trustworthy washers.</p>
+            <p className="font-bold underline">Simple, repeatable, scalable.</p>
+
+            <p>Kemi tried to make perfume oils herself, but production was inconsistent and expensive.</p>
+            <p>She lacked skills and had high upfront costs.</p>
+            <p>Her idea failed the Complexity Test.</p>
+          </div>
+
+          <div className="mt-4 pl-6 border-l-4 border-accent space-y-2">
+            <p className="font-semibold underline">How to apply this filter:</p>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>Analyze the skills and resources needed to start</li>
+              <li>Estimate time to first profit</li>
+              <li>If it takes more than 3 months or requires expensive tools, be cautious</li>
+              <li>If it's simple, fast, and low cost, you pass Filter #4</li>
+            </ol>
+          </div>
+        </article>
+      </section>
+
+      {/* CTA Section */}
+      <section className="text-center space-y-8 max-w-3xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-accent uppercase leading-tight">
+          Ready To Stop Guessing And Start Winning?
         </h2>
-
-        {/* Subtitle */}
-        <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-700 max-w-3xl mx-auto">
-          Why 90% of Nigerian Businesses Fail — And How to NOT Fall Into It
+        <p className="text-lg md:text-xl">
+          Click the link below to get <strong>The Ultimate Cash Machine</strong> right now.
         </p>
-
-        {/* Optional Brand/Tagline */}
-        <div className="mt-6 text-sm sm:text-base text-gray-500 italic">
-          {/* e.g., Brought to you by The "Don’t Start a Business Until You Read This" Report */}
-          {/* Your brand or tagline can go here */}
-        </div>
-      </header>
-
-      {/* Introduction */}
-      <section className="mb-12 bg-green-50 p-6 rounded-xl border-l-4 border-green-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-green-800">
-          🟢 Introduction: The Streets Are Littered With Dead Businesses
-        </h3>
-        <p className="mb-4 font-medium">It's not a joke.</p>
-        <p className="mb-4">
-          Every street has them: shops that open with fireworks, then quietly
-          close.
-          <br />
-          POS kiosks that stay empty.
-          <br />
-          Salons with stylists staring into space.
-          <br />
-          Boutiques with stock that never moves.
-        </p>
-        <p className="mb-4 font-semibold">The truth?</p>
-        <p className="mb-4">
-          Most Nigerians don't fail because they're lazy or don't hustle hard
-          enough.
-          <br />
-          They fail because they{" "}
-          <span className="font-bold text-red-600">GUESS</span> what business to
-          start — and the market punishes guessers without mercy.
-        </p>
-        <p>
-          This short guide shows 5 true-to-life autopsies of how businesses die
-          — so you can dodge the same graves.
-        </p>
-      </section>
-
-      {/* Autopsy 1 */}
-      <section className="mb-12 bg-red-50 p-6 rounded-xl border-l-4 border-red-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-red-800">
-          🔴 AUTOPSY 1: THE TREND TRAP
-        </h3>
-        <h4 className="font-bold mb-2 text-gray-800">Scene of the Crime:</h4>
-        <p className="mb-4">
-          When Musa saw everyone rushing into the phone accessory business, he
-          thought he'd hit gold. He emptied his savings to fill a glass counter
-          with chargers, power banks, and cases.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          How the Death Happened:
-        </h4>
-        <p className="mb-4">
-          By the time he launched, 14 other shops on his street were selling the
-          same accessories. Prices crashed. Customers haggled him down to
-          losses. Musa shut his shop within 3 months.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          What the Autopsy Revealed:
-        </h4>
-        <div className="bg-white p-4 rounded-lg border border-gray-200">
-          <p className="font-bold text-red-600">
-            🔥 Trends are like ripe bananas — by the time they reach you,
-            they're rotting.
-          </p>
-          <p>
-            Instead of chasing what's "hot," learn how to spot underserved needs
-            where competition is low but demand is real.
-          </p>
-        </div>
-      </section>
-
-      {/* Autopsy 2 */}
-      <section className="mb-12 bg-red-50 p-6 rounded-xl border-l-4 border-red-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-red-800">
-          🔴 AUTOPSY 2: THE LOCATION LIE
-        </h3>
-        <h4 className="font-bold mb-2 text-gray-800">Scene of the Crime:</h4>
-        <p className="mb-4">
-          Ngozi took a BIG loan and paid ₦350k/year for a shop at the end of a "busy" road. She
-          stocked beautiful clothes and hired assistants. She thought location
-          alone would make her rich.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          How the Death Happened:
-        </h4>
-        <p className="mb-4">
-          Weeks went by without customers. Turns out the road was busy with
-          buses zooming past — not pedestrians who'd actually shop.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          What the Autopsy Revealed:
-        </h4>
-        <div className="bg-white p-4 rounded-lg border border-gray-200">
-          <p className="font-bold text-red-600">
-            🔥 Traffic doesn't mean buyers — it means movement.
-          </p>
-          <p>
-            Always test foot traffic with simple surveys or stalls before
-            renting. Know who passes, how often, and if they'd buy what you
-            sell.
-          </p>
-        </div>
-      </section>
-
-      {/* Autopsy 3 */}
-      <section className="mb-12 bg-red-50 p-6 rounded-xl border-l-4 border-red-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-red-800">
-          🔴 AUTOPSY 3: THE COPYCAT CURSE
-        </h3>
-        <h4 className="font-bold mb-2 text-gray-800">Scene of the Crime:</h4>
-        <p className="mb-4">
-          Aisha watched her cousin blow up selling wigs on Instagram. She took a
-          loan, bought 200k worth of wigs, and launched an identical page.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          How the Death Happened:
-        </h4>
-        <p className="mb-4">
-          Customers kept buying from her cousin, who had reputation,
-          testimonials, and loyal fans. Aisha's page stayed empty.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          What the Autopsy Revealed:
-        </h4>
-        <div className="bg-white p-4 rounded-lg border border-gray-200">
-          <p className="font-bold text-red-600">
-            🔥 Copycats die. Originals win.
-          </p>
-          <p>
-            You need a unique angle or irresistible offer, not just a cloned
-            product. Otherwise, why should customers leave someone they already
-            trust?
-          </p>
-        </div>
-      </section>
-
-      {/* Autopsy 4 */}
-      <section className="mb-12 bg-red-50 p-6 rounded-xl border-l-4 border-red-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-red-800">
-          🔴 AUTOPSY 4: THE PRICING PIT
-        </h3>
-        <h4 className="font-bold mb-2 text-gray-800">Scene of the Crime:</h4>
-        <p className="mb-4">
-          Emeka started selling sneakers online. He guessed ₦25,000 was fair
-          since competitors charged ₦28,000.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          How the Death Happened:
-        </h4>
-        <p className="mb-4">
-          He got a few sales but realized he was losing money after delivery
-          costs. Worse, some buyers ghosted him because they saw cheaper prices
-          elsewhere.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          What the Autopsy Revealed:
-        </h4>
-        <div className="bg-white p-4 rounded-lg border border-gray-200">
-          <p className="font-bold text-red-600">
-            🔥 Guessing your price = digging your grave.
-          </p>
-          <p>
-            Test different price points with small batches or paid ads. Price
-            isn't about what feels "okay" — it's what the market will happily
-            pay and still leave you profit.
-          </p>
-        </div>
-      </section>
-
-      {/* Autopsy 5 */}
-      <section className="mb-12 bg-red-50 p-6 rounded-xl border-l-4 border-red-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-red-800">
-          🔴 AUTOPSY 5: THE DEMAND MIRAGE
-        </h3>
-        <h4 className="font-bold mb-2 text-gray-800">Scene of the Crime:</h4>
-        <p className="mb-4">
-          Femi always dreamed of opening a gaming café in his small town. He
-          borrowed from family, bought consoles, rented space, decorated it with
-          posters.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          How the Death Happened:
-        </h4>
-        <p className="mb-4">
-          Three months in, he realized his town had only 20 young people who
-          liked gaming — and most preferred playing at home.
-        </p>
-        <h4 className="font-bold mb-2 text-gray-800">
-          What the Autopsy Revealed:
-        </h4>
-        <div className="bg-white p-4 rounded-lg border border-gray-200">
-          <p className="font-bold text-red-600">
-            🔥 Selling what you love is different from selling what the market
-            will pay for today.
-          </p>
-          <p>
-            Identify problems people are desperate to solve, not just hobbies
-            you wish would sell.
-          </p>
-        </div>
-      </section>
-
-      {/* Conclusion */}
-      <section className="mb-12 bg-green-50 p-6 rounded-xl border-l-4 border-green-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-green-800">
-          🟢 Conclusion: Are You Next in Line for the Business Graveyard?
-        </h3>
-        <p className="mb-4">
-          Every failed business here had one thing in common:{" "}
-          <span className="font-bold">guessing instead of testing</span>.
-        </p>
-        <p className="mb-4 font-semibold italic">
-          They bet on hope instead of proof.
-          <br />
-          And hope doesn't pay rent.
-        </p>
-      </section>
-
-      {/* CTA */}
-      <section className="text-center bg-yellow-50 p-8 rounded-xl border-2 border-yellow-400">
-        <h3 className="text-2xl sm:text-3xl font-bold mb-4">
-          🚀 Your Next Move
-        </h3>
-        <p className="mb-6 text-lg">
-          There's a better way.
-          <br />A stupidly simple way to test any business idea in days — not
-          months — and see if it will sell like crazy before you spend a kobo
-          renting shops or stocking inventory.
-        </p>
-        <p className="mb-6 text-lg font-semibold">
-          This is exactly what the Ultimate Cash Machine system shows you
-          step-by-step.
-        </p>
-        <button
-          onClick={handleSubmit}
-          className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-200 cursor-pointer"
+        <a
+          href='/business/offer'
+          className="inline-block bg-accent text-white text-xl font-bold uppercase py-5 px-12 rounded shadow-lg hover:shadow-xl transition focus:outline-none"
+          aria-label="Get The Ultimate Cash Machine now"
         >
-          👉 See How to Pick Winning Business Ideas Before You Risk a Kobo →
-        </button>
-        <p className="mt-6 text-sm italic">
-          PS: Nigeria doesn't reward hustlers. It rewards smart people who know
-          what customers will buy before they even start. Don't guess — learn
-          how to print cash like a hacked ATM.
-        </p>
+          GET THE COMPLETE 12-FILTER SYSTEM NOW
+        </a>
+      </section>
+
+      {/* COST & PS */}
+      <section className="space-y-12 max-w-4xl mx-auto">
+        {/* COST */}
+        <div className="bg-white p-8 rounded-lg shadow-md space-y-6 text-lg md:text-xl">
+          <h3 className="text-2xl font-bold uppercase tracking-wide">
+            The Real Cost Of Not Knowing
+          </h3>
+          <p>Every failed business idea costs you more than just money.</p>
+          <ul className="list-disc list-inside ml-6 space-y-2">
+            <li>Lost time</li>
+            <li>Lost confidence</li>
+            <li>Lost opportunities</li>
+          </ul>
+          <p>
+            <strong>The average Nigerian entrepreneur wastes ₦200,000 on failed businesses before they figure out what works.</strong>
+          </p>
+          <p>
+            <strong>The complete 12-filter system costs ₦11,950.</strong>
+          </p>
+          <p>
+            <strong>You do the math.</strong>
+          </p>
+        </div>
+
+        {/* PS handwritten style */}
+        <div className="bg-note p-8 rounded-lg shadow-sm font-scribble italic text-lg md:text-xl space-y-6">
+          <h4 className="text-3xl font-bold underline">
+            P.S. - The Truth About Business Success
+          </h4>
+          <p>
+            <strong>The 12 Economic Filters are your unfair advantage.</strong> They help you cut through the noise, avoid costly mistakes, and fast-track your way to a thriving business.
+          </p>
+          <a
+            href='/business/offer'
+            className="inline-block bg-accent text-white text-xl font-bold py-5 px-14 rounded shadow hover:bg-red-700 transition focus:outline-none"
+            aria-label="Get the complete system now"
+          >
+            YES, I WANT THE COMPLETE SYSTEM
+          </a>
+        </div>
       </section>
     </main>
   );
