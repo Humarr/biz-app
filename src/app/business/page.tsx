@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <main className="bg-white text-black font-sans">
+    <main className="bg-white text-black font-body">
       {/* Hero Section */}
       <section className="text-center px-4 py-20 bg-black text-white">
         <h1 className="text-4xl sm:text-5xl font-bold uppercase tracking-wide text-red-500 mb-4">
@@ -185,7 +185,7 @@ export default function Home() {
             '"The Pain Test alone saved me from making a huge mistake."',
             '"These 4 filters are more valuable than the business courses I paid ₦60,000 for."',
           ].map((quote, i) => (
-            <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow font-scribble">
+            <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow font-scribble text-xl">
               <p className="italic">*{quote}*</p>
             </div>
           ))}
