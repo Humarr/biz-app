@@ -59,7 +59,7 @@ export default function Home() {
         <p className="text-center max-w-3xl mx-auto mt-4">
           You don't need to work harder. You're already working hard enough.
           <br />
-          You don't need more capital. David started his ₦340,000/month business with just ₦25,000.
+          You don't need more capital. David started his ₦340,000/month business with LESS THAN ₦50,000.
           <br />
           You don't need better connections. You need <span className="font-bold">better ideas.</span>
         </p>
@@ -130,12 +130,12 @@ export default function Home() {
         <p className="font-bold">Idea A: Perfume Oil Business</p>
         <ul className="list-disc pl-5">
           <li>Passes 2 out of 12 tests</li>
-          <li>Result: ₦50,750 profit in 6 months</li>
+          <li>Result: LESS THAN ₦100,000 profit in 6 months</li>
         </ul>
         <p className="font-bold">Idea B: Laundry Pickup Service</p>
         <ul className="list-disc pl-5">
           <li>Passes 12 out of 12 tests</li>
-          <li>Result: ₦340,000 profit per month</li>
+          <li>Result: MORE THAN ₦250,000 profit per month</li>
         </ul>
         <p className="font-bold text-center">
           Same neighborhood. Same economy. Same type of customers.
@@ -157,7 +157,7 @@ export default function Home() {
           <li>Opportunities you miss while chasing the wrong idea</li>
         </ul>
         <p className="text-center max-w-2xl mx-auto">
-          The average Nigerian entrepreneur wastes ₦230,000 on failed businesses before they figure out what works.
+          The average Nigerian entrepreneur wastes OVER ₦150,000 on failed businesses before they figure out what works.
         </p>
         <p className="text-center font-bold text-xl text-green-700">But what if you could skip all that?</p>
         <p className="text-center max-w-2xl mx-auto font-bold">What if you could test any business idea in 48 hours and know for certain if it's worth pursuing?</p>
