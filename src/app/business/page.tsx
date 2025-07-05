@@ -34,8 +34,8 @@ export default function Home() {
         <p>You've tried. <span className="font-bold">God knows you've tried.</span> </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>You sold perfume oils for 6 months. Made ₦3,000 profit.</li>
-          <li>You tried dropshipping. Lost ₦15,000 to Facebook ads that brought zero sales.</li>
-          <li>You even sold recharge cards. Felt like a failure counting ₦500 profit after a whole week.</li>
+          <li>You tried dropshipping. Lost ₦50,000 to Facebook ads that brought zero sales.</li>
+          <li>You even sold recharge cards. Felt like a failure counting ₦1,500 profit after a whole week.</li>
         </ul>
         <p className="font-bold">Each failure chips away at something inside you.</p>
         <p>Your confidence. Your hope. Your family's belief in you.</p>
