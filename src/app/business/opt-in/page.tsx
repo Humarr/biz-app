@@ -1,188 +1,254 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client';
-import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import React from "react";
 
-export default function LeadPage() {
-  const router = useRouter();
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [errors, setErrors] = useState<{ name?: string; email?: string; phone?: string }>({});
-
-  const validateEmail = (email: string) => {
-    // Basic email regex
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  };
-
-  const validatePhone = (phone: string) => {
-    // Simple Nigerian phone number validation: starts with 0 and 10-11 digits total
-    return /^0\d{9,10}$/.test(phone);
-  };
-
-  const validate = () => {
-    const newErrors: typeof errors = {};
-
-    if (!name.trim()) newErrors.name = 'Name is required.';
-    if (!email.trim()) newErrors.email = 'Email is required.';
-    else if (!validateEmail(email)) newErrors.email = 'Please enter a valid email address.';
-    if (!phone.trim()) newErrors.phone = 'Phone number is required.';
-    else if (!validatePhone(phone)) newErrors.phone = 'Please enter a valid Nigerian phone number.';
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
-    if (!validate()) {
-      return;
-    }
-
-    // Analytics tracking placeholder
-    console.log('User submitted lead form:', { name, email, phone });
-
-    localStorage.setItem('userInfo', JSON.stringify({ name, email, phone }));
-
-    // Navigate (query params optional for first load)
-    router.push('/sales9/lead-magnet');
-  };
-
+export default function Home() {
   return (
-    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-white min-h-screen">
+    <main className="bg-background text-primary font-body min-h-screen">
       {/* Hero Section */}
-      <section className="py-8 md:py-12 text-center">
-        <h1 className="text-red-600 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4">
-          Stop Guessing. Start Winning.
+      <section className="bg-primary text-white px-6 py-20 text-center">
+        <h1 className="text-4xl sm:text-5xl font-headline uppercase text-accent mb-3">
+          The ATM Decoder Protocol
         </h1>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
-          Get the 5 Business Autopsies That Show Why 90% of Nigerians Stay Broke — Even After "Starting a Business."
+        <h2 className="text-2xl sm:text-3xl font-headline2 text-highlight">
+          12 Brutal Tests For Business Ideas That Actually Pay You
         </h2>
-
-        <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-600 max-w-2xl mx-auto mb-8">
-          <p className="text-lg sm:text-xl font-semibold text-green-800">
-            Before you risk your next kobo — see why most businesses die before their first customer walks in.
-          </p>
-        </div>
+        <p className="italic mt-4 text-lg font-medium">
+          <strong>Warning:</strong> Not everyone should have access to this.
+        </p>
       </section>
 
-      {/* Benefits Section */}
-      <section className="mb-10 md:mb-14 bg-gray-50 p-6 rounded-xl">
-        <ul className="space-y-4 max-w-2xl mx-auto">
-          {[
-            'Discover how trends trick you into wasting money on ideas that die overnight',
-            "The #1 reason your \"perfect shop\" ends up emptier than a politician's promise",
-            "Why copying your neighbor's hustle is economic suicide — and what to do instead",
-            'The pricing mistake that makes you work harder but earn crumbs',
-            'The simple way to know before you spend a naira whether your idea will sell',
-          ].map((item, idx) => (
-            <li key={idx} className="flex items-start">
-              <span className="bg-green-500 text-white rounded-full w-9 h-6 flex items-center justify-center mr-3 mt-1">
-                &#10003;
-              </span>
-              <span className="text-lg font-medium">{item}</span>
-            </li>
-          ))}
+      <div className="border-t border-secondary my-8" />
+
+      {/* The Uncomfortable Truth */}
+      <section className="max-w-3xl mx-auto px-6 py-8 space-y-4">
+        <h3 className="text-xl font-bold uppercase text-center">
+          The Uncomfortable Truth
+        </h3>
+        <p>Most people who start businesses in Nigeria fail within 12 months.</p>
+        <p>Not because they're lazy.</p>
+        <p>Not because they don't have capital.</p>
+        <p>Not because "the economy is bad."</p>
+        <p className="font-bold text-accent">
+          They fail because they never learned how to pick ideas that actually
+          work.
+        </p>
+        <p>They pick ideas like they're playing dice with their future.</p>
+        <p>Then they wonder why they keep losing.</p>
+      </section>
+
+      <div className="border-t border-secondary my-8" />
+
+      {/* What You're About To Get */}
+      <section className="bg-highlight px-6 py-10 space-y-6 text-primary">
+        <h3 className="text-xl font-bold uppercase text-center">
+          What You're About To Get
+        </h3>
+        <p className="max-w-3xl mx-auto text-center font-bold">
+          <strong>The ATM Decoder Protocol</strong> contains the exact 12-step
+          system that separates winning business ideas from guaranteed failures.
+        </p>
+        <p className="text-center text-sm font-medium">
+          These aren't theories. These are proven filters that have:
+        </p>
+        <ul className="list-disc max-w-xl mx-auto pl-5 space-y-1">
+          <li>Saved entrepreneurs over ₦2.3 million in wasted investments</li>
+          <li>Helped 847 Nigerians build profitable businesses</li>
+          <li>Turned complete beginners into confident business owners</li>
+        </ul>
+        <div className="max-w-2xl mx-auto space-y-2">
+          <p>
+            ✅ <strong>The 4 Core Filters</strong> that eliminate 80% of bad
+            business ideas in minutes
+          </p>
+          <p>
+            ✅ <strong>The David Case Study</strong> - How one filter helped a
+            Lagos guy build a ₦340,000/month business with just ₦12,000
+          </p>
+          <p>
+            ✅ <strong>The Pain Test Formula</strong> - Never waste money on
+            ideas people don't actually want
+          </p>
+          <p>
+            ✅ <strong>The Money Test Secret</strong> - How to know if people
+            will actually pay for your solution
+          </p>
+          <p>
+            ✅ <strong>The Frequency Calculator</strong> - Why some businesses
+            make money once while others print cash every week
+          </p>
+          <p>
+            ✅ <strong>The Urgency Scale</strong> - The difference between
+            struggling margins and premium pricing
+          </p>
+        </div>
+        <p className="text-center text-sm mt-4">
+          <strong>Plus:</strong> Real examples of ideas that passed all 12 tests
+          (and the ones that failed spectacularly)
+        </p>
+      </section>
+
+      <div className="border-t border-secondary my-8" />
+
+      {/* Why This is Free */}
+      <section className="max-w-3xl mx-auto px-6 py-8 space-y-4">
+        <h3 className="text-xl font-bold uppercase text-center">
+          Why This Is Free
+        </h3>
+        <p>Simple.</p>
+        <p>I want you to see how powerful these filters are.</p>
+        <p>I want you to test them on your own business ideas.</p>
+        <p>
+          I want you to experience that "aha moment" when you finally understand
+          why your previous attempts didn't work.
+        </p>
+        <p className="font-bold text-center">
+          Because once you see the power of just 4 filters, you'll want the
+          complete system.
+        </p>
+      </section>
+
+      <div className="border-t border-secondary my-8" />
+
+      {/* Who This Is For */}
+      <section className="bg-accent bg-opacity-5 px-6 py-10 space-y-4 text-primary">
+        <h3 className="text-xl font-bold uppercase text-center text-accent">
+          Who This Is For
+        </h3>
+        <p className="font-bold">This guide is for you if:</p>
+        <ul className="list-disc pl-5 space-y-1">
+          <li>You're tired of starting businesses that don't make money</li>
+          <li>You've wasted money on ideas that seemed "sure to work"</li>
+          <li>You want to stop guessing and start knowing</li>
+          <li>You're ready to build a business that actually pays you</li>
+        </ul>
+        <p className="font-bold mt-6">This guide is NOT for you if:</p>
+        <ul className="list-disc pl-5 space-y-1">
+          <li>You're looking for get-rich-quick schemes</li>
+          <li>You want someone else to do the work for you</li>
+          <li>You're not serious about building a real business</li>
+          <li>You prefer to keep making the same mistakes</li>
         </ul>
       </section>
 
-      {/* Pain Hook Section */}
-      <section className="mb-10 md:mb-14 text-center">
-        <div className="bg-red-50 p-6 rounded-lg border-l-8 border-red-600 max-w-2xl mx-auto">
-          <p className="text-xl sm:text-2xl font-bold text-red-700 mb-2">
-            Tired of watching your hustle crash while others make money?
-          </p>
-          <p className="text-lg sm:text-xl">
-            Stop spinning the business roulette wheel blindfolded. Learn what smart entrepreneurs know — before you join the 90% graveyard.
-          </p>
-        </div>
-      </section>
+      <div className="border-t border-secondary my-8" />
 
-      {/* Opt-In Form */}
-      <section className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden p-6 border-2 border-gray-200">
-        <h3 className="text-2xl font-bold text-center mb-6 text-gray-800">Get Your Free Reports Now</h3>
+      {/* Opt‑In Form */}
+      <section className="bg-primary text-white px-6 py-12 text-center space-y-6">
+        <h3 className="text-2xl font-bold uppercase text-highlight">
+          Get Your Free Copy Now
+        </h3>
+        <p>
+          Enter your details below and I'll send you{" "}
+          <strong>The ATM Decoder Protocol</strong> immediately.
+        </p>
 
-        <form onSubmit={handleSubmit} className="space-y-4" noValidate>
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-              Name *
-            </label>
-            <input
-              type="text"
-              id="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className={`w-full px-4 py-3 rounded-lg border-2 focus:outline-none ${
-                errors.name ? 'border-red-500 focus:ring-red-500' : 'border-gray-300 focus:border-green-500 focus:ring-green-500'
-              }`}
-              placeholder="John Doe"
-              aria-describedby="name-error"
-              required
-            />
-            {errors.name && (
-              <p id="name-error" className="text-red-600 text-sm mt-1">
-                {errors.name}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-              Email Address *
-            </label>
-            <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className={`w-full px-4 py-3 rounded-lg border-2 focus:outline-none ${
-                errors.email ? 'border-red-500 focus:ring-red-500' : 'border-gray-300 focus:border-green-500 focus:ring-green-500'
-              }`}
-              placeholder="your@email.com"
-              aria-describedby="email-error"
-              required
-            />
-            {errors.email && (
-              <p id="email-error" className="text-red-600 text-sm mt-1">
-                {errors.email}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-              Phone Number *
-            </label>
-            <input
-              type="tel"
-              id="phone"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-              className={`w-full px-4 py-3 rounded-lg border-2 focus:outline-none ${
-                errors.phone ? 'border-red-500 focus:ring-red-500' : 'border-gray-300 focus:border-green-500 focus:ring-green-500'
-              }`}
-              placeholder="08012345678"
-              aria-describedby="phone-error"
-              required
-            />
-            {errors.phone && (
-              <p id="phone-error" className="text-red-600 text-sm mt-1">
-                {errors.phone}
-              </p>
-            )}
-          </div>
-
+        <form
+          action="/api/optin"
+          method="POST"
+          className="max-w-md mx-auto flex flex-col gap-4 mt-6"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Your Phone Number"
+            className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
+            required
+          />
           <button
             type="submit"
-            className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-lg text-lg transition duration-200 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-            disabled={!name || !email || !phone}
+            className="bg-accent hover:bg-red-800 transition text-white px-6 py-3 text-lg rounded font-bold font-body"
           >
-            Get the Free Autopsy Reports Now →
+            SEND ME THE FREE GUIDE
           </button>
         </form>
 
-        <p className="text-xs text-gray-500 mt-4 text-center">We hate spam. Your email stays 100% safe.</p>
+        <p className="text-sm italic mt-2 text-secondary">
+          *No spam. No annoying emails. Just the guide you requested.*
+        </p>
+      </section>
+
+      <div className="border-t border-secondary my-8" />
+
+      {/* P.S. Note Section */}
+      <section className="bg-note px-6 py-10 text-primary font-scribble text-lg space-y-4 text-center">
+        <h3 className="text-xl font-bold uppercase mb-2">
+          P.S. - Time Is Your Enemy
+        </h3>
+        <p>
+          Every day you wait to learn these filters is another day you might
+          waste on the wrong business idea.
+        </p>
+        <p>
+          Every week you spend building a business that fails these tests is a
+          week you'll never get back.
+        </p>
+        <p>
+          Every month you struggle with a business that's doomed to fail is a
+          month you could have been building something that actually works.
+        </p>
+        <p className="font-bold">Don't let another day pass without knowing how to pick winning ideas.</p>
+        <p>Get the guide. Learn the system. Change your future.</p>
+        <p className="font-bold text-accent">
+          It's free. It's instant. It's exactly what you need.
+        </p>
+        <button
+          className="mt-4 bg-accent hover:bg-red-800 transition text-white px-8 py-3 rounded font-bold uppercase"
+          // onClick={() => {
+          //   const emailInput = document.querySelector('input[name="email"]');
+          //   if (emailInput) (emailInput as HTMLInputElement).focus();
+          // }}
+          aria-label="Get The ATM Decoder Protocol"
+        >
+          SEND ME THE ATM DECODER PROTOCOL
+        </button>
+      </section>
+
+      <div className="border-t border-secondary my-8" />
+
+      {/* Testimonials */}
+      <section className="max-w-3xl mx-auto px-6 space-y-8 mb-20">
+        <h3 className="text-xl font-bold uppercase text-center mb-6">
+          What People Are Saying
+        </h3>
+        {[
+          {
+            quote:
+              "I wish I had these filters before I wasted ₦35,000 on a business that was doomed from day one. Now I test every idea before I spend a single kobo.",
+            author: "Sarah, Abuja",
+          },
+          {
+            quote:
+              "The Pain Test alone saved me from making a huge mistake. I was about to start a business that nobody actually wanted.",
+            author: "Michael, Lagos",
+          },
+          {
+            quote:
+              "These 4 filters are more valuable than the business courses I paid ₦50,000 for. And this is just the free version!",
+            author: "Jennifer, Port Harcourt",
+          },
+        ].map(({ quote, author }, i) => (
+          <div
+            key={i}
+            className="border border-accent rounded-lg p-6 shadow-md bg-white text-primary font-body"
+          >
+            <p className="italic mb-4 font-scribble text-xl">"{quote}"</p>
+            <p className="font-bold text-right">- {author}</p>
+          </div>
+        ))}
       </section>
     </main>
   );

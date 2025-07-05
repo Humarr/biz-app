@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // /pages/index.tsx
+import Link from 'next/link';
 import React from 'react';
 
 export default function Home() {
@@ -266,9 +267,11 @@ export default function Home() {
         <p className="text-center mt-2">Get <strong>The ATM Decoder Protocol</strong> right now.</p>
         <p className="text-center text-xl font-bold mt-4">Stop guessing. Start knowing.</p>
         <div className="text-center mt-4">
-          <button className="bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold">
-            SEND ME THE FREE GUIDE
-          </button>
+          <Link href="/business/opt-in">
+            <button className="bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold">
+              SEND ME THE FREE GUIDE
+            </button>
+          </Link>
         </div>
       </section>
     </main>
