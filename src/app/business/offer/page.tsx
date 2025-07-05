@@ -216,7 +216,7 @@ Most importantly, it proved I could spot what people really needed.</p>
         <p className="text-lg font-bold">The Ultimate Cash Machine contains everything you need to avoid all of that.</p>
         <p className="text-lg">It's the result of 3 years of testing, failing, learning, and finally succeeding.</p>
         <p className="text-lg">It's the system that took me from eating garri at night to making more money than my friends with "good jobs."</p>
-        <p className="text-lg">And today, you can get the complete system for just ₦11,950.</p>
+        <p className="text-lg">And today, you can get the complete system for just ₦7,950.</p>
         <p className="text-lg font-bold">But here's the thing...</p>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
@@ -226,8 +226,8 @@ Most importantly, it proved I could spot what people really needed.</p>
         <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
            Why You Need To Act Now
         </h3>
-        <p className="text-lg">I'm not going to lie to you and say "this offer expires at midnight" or "only 100 copies available."</p>
-        <p className="text-lg">That's not why you need to act now.</p>
+        <p className="text-lg">I'm not going to lie to you and say <span className="font-scribble text-lg">"this offer expires at midnight"</span> or <span className="text-lg font-scribble">"only 100 copies available."</span> </p>
+        <p className="text-lg font-medium">That's not why you need to act now.</p>
         <p className="text-lg font-bold text-center text-accent">You need to act now because every day you wait is another day you're not building your cash machine.</p>
         <p className="text-lg">Every day you wait is another day your friends are getting ahead while you're still dreaming.</p>
         <p className="text-lg">Every day you wait is another day your family is wondering if you'll ever figure it out.</p>
