@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <main className="bg-white text-black font-body">
+    <main className="bg-background text-primary font-body">
       {/* Hero Section */}
-      <section className="text-center px-4 py-20 bg-black text-white">
+      <section className="text-center px-4 py-20 bg-primary text-white">
         <h1 className="text-4xl sm:text-5xl font-bold uppercase tracking-wide text-red-500 mb-4">
           You Don't Have A Business Problem
         </h1>
