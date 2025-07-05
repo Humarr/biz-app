@@ -195,7 +195,7 @@ export default function Home() {
       <div className="border-t border-gray-300 my-8" />
 
       {/* Call to Action */}
-      <section className="bg-black text-white px-4 py-12 text-center space-y-6">
+      <section className="bg-primary text-white px-4 py-12 text-center space-y-6">
         <h3 className="text-2xl font-bold uppercase text-yellow-400">Get The Free Guide Now</h3>
         <p>Click the button below and I'll send you <strong>The ATM Decoder Protocol</strong> immediately.</p>
         <ul className="list-disc max-w-xl mx-auto text-left text-sm space-y-1 pl-5">
