@@ -59,27 +59,27 @@ export default function OptIn() {
         </ul>
         <div className="max-w-2xl mx-auto space-y-2">
           <p>
-            ✅ <strong>The 4 Core Filters</strong> that eliminate 80% of bad
+          &#10003; <strong>The 4 Core Filters</strong> that eliminate 80% of bad
             business ideas in minutes
           </p>
           <p>
-            ✅ <strong>The David Case Study</strong> - How one filter helped a
+          &#10003; <strong>The David Case Study</strong> - How one filter helped a
             Lagos guy build a ₦340,000/month business with just ₦25,000
           </p>
           <p>
-            ✅ <strong>The Pain Test Formula</strong> - Never waste money on
+          &#10003; <strong>The Pain Test Formula</strong> - Never waste money on
             ideas people don't actually want
           </p>
           <p>
-            ✅ <strong>The Money Test Secret</strong> - How to know if people
+          &#10003; <strong>The Money Test Secret</strong> - How to know if people
             will actually pay for your solution
           </p>
           <p>
-            ✅ <strong>The Frequency Calculator</strong> - Why some businesses
+          &#10003; <strong>The Frequency Calculator</strong> - Why some businesses
             make money once while others print cash every week
           </p>
           <p>
-            ✅ <strong>The Urgency Scale</strong> - The difference between
+          &#10003; <strong>The Urgency Scale</strong> - The difference between
             struggling margins and premium pricing
           </p>
         </div>
