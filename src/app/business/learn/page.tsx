@@ -3,6 +3,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Congratulations from "@/components/business/Congratulations";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
 
       {/* HERO */}
       <section className="text-center space-y-6">
+
+        <Congratulations />
+
         <h1 className="text-5xl md:text-6xl font-headline2 font-bold uppercase leading-tight">
           The ATM Decoder Protocol
         </h1>
