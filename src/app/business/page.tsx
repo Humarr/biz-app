@@ -185,7 +185,7 @@ export default function Home() {
             '"The Pain Test alone saved me from making a huge mistake."',
             '"These 4 filters are more valuable than the business courses I paid ₦60,000 for."',
           ].map((quote, i) => (
-            <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow">
+            <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow font-scribble">
               <p className="italic">*{quote}*</p>
             </div>
           ))}
