@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // /pages/index.tsx
-import Link from 'next/link';
+import CustomButton from '@/components/business/CustomButton';
 import React from 'react';
 
 export default function Home() {
@@ -183,7 +183,7 @@ export default function Home() {
           {[
             '"I wish I had these filters before I wasted ₦35,000 on a business that was doomed from day one."',
             '"The Pain Test alone saved me from making a huge mistake."',
-            '"These 4 filters are more valuable than the business courses I paid ₦50,000 for."',
+            '"These 4 filters are more valuable than the business courses I paid ₦60,000 for."',
           ].map((quote, i) => (
             <div key={i} className="p-4 border-l-4 border-yellow-400 bg-yellow-50 shadow">
               <p className="italic">*{quote}*</p>
@@ -205,14 +205,14 @@ export default function Home() {
           <li>Step-by-step instructions for testing your ideas</li>
         </ul>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-4">
-          <input
+          {/* <input
             type="email"
             placeholder="Email"
             className="px-4 py-3 w-72 text-black rounded border focus:outline-none focus:ring-2 focus:ring-yellow-400"
-          />
-          <button className="bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold">
+          /> */}
+          <CustomButton href='/business/opt-in' className="bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold cursor-pointer">
             SEND ME THE FREE GUIDE
-          </button>
+          </CustomButton>
         </div>
         <p className="text-sm italic mt-2">*No spam. No annoying emails. Just the guide you requested.*</p>
       </section>
@@ -233,9 +233,9 @@ export default function Home() {
         </ul>
         <p className="font-bold">All of that starts with learning how to pick the right ideas.</p>
         <p>And that starts with getting <strong>The ATM Decoder Protocol</strong>.</p>
-        <button className="mt-4 bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold">
+        <CustomButton href='/business/opt-in' className="mt-4 bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold cursor-pointer">
           GET THE FREE GUIDE
-        </button>
+        </CustomButton>
       </section>
 
       <div className="border-t border-gray-300 my-8" />
@@ -267,11 +267,9 @@ export default function Home() {
         <p className="text-center mt-2">Get <strong>The ATM Decoder Protocol</strong> right now.</p>
         <p className="text-center text-xl font-bold mt-4">Stop guessing. Start knowing.</p>
         <div className="text-center mt-4">
-          <Link href="/business/opt-in">
-            <button className="bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold">
-              SEND ME THE FREE GUIDE
-            </button>
-          </Link>
+          <CustomButton href='/business/opt-in' className="bg-red-600 hover:bg-red-700 transition text-white px-6 py-3 text-lg rounded font-bold cursor-pointer">
+            SEND ME THE FREE GUIDE
+          </CustomButton>
         </div>
       </section>
     </main>
