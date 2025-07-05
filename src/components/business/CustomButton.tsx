@@ -30,7 +30,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
 
   return (
     <button
-      className={`mt-4 bg-accent hover:bg-red-800 transition text-white px-8 py-3 rounded font-bold uppercase ${className}`}
+      className={`mt-4 bg-accent hover:bg-red-800 transition text-white px-8 py-3 rounded font-bold uppercase cursor-pointer ${className}`}
       onClick={handleClick}
       aria-label={ariaLabel || typeof children === 'string' ? (children as string) : ''}
       type={type}

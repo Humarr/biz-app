@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import CustomButton from "@/components/business/CustomButton";
+import OptInForm from "@/components/business/Opt-InForm";
 
 import React from "react";
 
@@ -135,54 +136,7 @@ export default function OptIn() {
       <div className="border-t border-secondary my-8" />
 
       {/* Opt‑In Form */}
-      <section className="bg-primary text-white px-6 py-12 text-center space-y-6">
-        <h3 className="text-2xl font-bold uppercase text-highlight">
-          Get Your Free Copy Now
-        </h3>
-        <p>
-          Enter your details below and I'll send you{" "}
-          <strong>The ATM Decoder Protocol</strong> immediately.
-        </p>
-
-        <form
-          // action="/api/optin"
-          // method="POST"
-          className="max-w-md mx-auto flex flex-col gap-4 mt-6"
-        >
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
-            required
-          />
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Your Phone Number"
-            className="px-4 py-3 w-full text-white placeholder:text-gray-400 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-highlight font-body"
-            required
-          />
-          <CustomButton
-            type="submit"
-            href="/business/learn"
-            ariaLabel="Send Me The Free Guide"
-          >
-            SEND ME THE FREE GUIDE
-          </CustomButton>
-        </form>
-
-        <p className="text-sm italic mt-2 text-secondary">
-          *No spam. No annoying emails. Just the guide you requested.*
-        </p>
-      </section>
+      <OptInForm />
 
       <div className="border-t border-secondary my-8" />
 
