@@ -1,4 +1,4 @@
-import Typewriter from '@/components/business/Typewriter';
+// import Typewriter from '@/components/business/Typewriter';
 import React from 'react';
 
 export default function Home() {
@@ -6,11 +6,11 @@ export default function Home() {
     <div className="bg-white text-black px-6 py-12 max-w-3xl mx-auto font-sans space-y-12">
       
       <section className="text-center">
-      <Typewriter
+      {/* <Typewriter
   text="The Ugly Truth About Why Most Nigerians Fail in Business"
   speed={80}
   className="text-4xl md:text-5xl font-extrabold text-red-600 uppercase mb-4 leading-tight"
-/>
+/> */}
 
         {/* <h1 className="text-4xl md:text-5xl font-extrabold text-red-600 uppercase mb-4 leading-tight">
           The Ugly Truth About Why Most Nigerians Fail in Business
