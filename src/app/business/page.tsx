@@ -130,7 +130,7 @@ export default function Home() {
         <p className="font-bold">Idea A: Perfume Oil Business</p>
         <ul className="list-disc pl-5">
           <li>Passes 2 out of 12 tests</li>
-          <li>Result: ₦3,000 profit in 6 months</li>
+          <li>Result: ₦50,750 profit in 6 months</li>
         </ul>
         <p className="font-bold">Idea B: Laundry Pickup Service</p>
         <ul className="list-disc pl-5">
@@ -157,7 +157,7 @@ export default function Home() {
           <li>Opportunities you miss while chasing the wrong idea</li>
         </ul>
         <p className="text-center max-w-2xl mx-auto">
-          The average Nigerian entrepreneur wastes ₦47,000 on failed businesses before they figure out what works.
+          The average Nigerian entrepreneur wastes ₦230,000 on failed businesses before they figure out what works.
         </p>
         <p className="text-center font-bold text-xl text-green-700">But what if you could skip all that?</p>
         <p className="text-center max-w-2xl mx-auto font-bold">What if you could test any business idea in 48 hours and know for certain if it's worth pursuing?</p>
