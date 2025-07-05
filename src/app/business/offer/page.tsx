@@ -271,7 +271,7 @@ Most importantly, it proved I could spot what people really needed.</p>
         <p className="text-lg">In the next 5 days, you'll have a validated business idea that passes all 12 Economic Filters.</p>
         <p className="text-lg">In the next 5 weeks, you'll be making more money than you ever thought possible.</p>
         <p className="text-lg font-bold text-accent">But only if you click the button below right now.</p>
-        <CustomButton className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
+        <CustomButton href="https://selar.com/012403" className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
           GET THE ULTIMATE CASH MACHINE FOR ₦7,950
         </CustomButton>
         <p className="text-sm italic text-secondary mt-2">*Instant download. 30-day money-back guarantee. Change your life or get your money back.*</p>
@@ -291,7 +291,7 @@ Most importantly, it proved I could spot what people really needed.</p>
         <p className="text-lg font-bold">That's worth ₦11,950, isn't it?</p>
         <p className="text-lg">Click the button. Download the book. Change your life.</p>
         <p className="text-lg font-bold">The only risk is not trying.</p>
-        <CustomButton className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
+        <CustomButton href="https://selar.com/012403" className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
           GET THE ULTIMATE CASH MACHINE NOW  
         </CustomButton>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
@@ -307,7 +307,9 @@ Most importantly, it proved I could spot what people really needed.</p>
         <p className="text-lg">Or...</p>
         <p className="text-lg">"That was another day I let fear win."</p>
         <p className="text-lg font-bold">The choice is yours. But you have to choose.</p>
-        <CustomButton className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
+        <CustomButton
+        href="https://selar.com/012403"
+         className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
           YES, I'M READY TO BUILD MY CASH MACHINE
         </CustomButton>
       </section>
