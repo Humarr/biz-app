@@ -156,9 +156,9 @@ export default function Home() {
             <p>David's laundry service passed this test beautifully.</p>
             <p>People were already spending money on laundry:</p>
             <ul className="list-disc list-inside ml-6 space-y-1">
-              <li>₦500 per shirt at the dry cleaner</li>
-              <li>₦200 for detergent every week</li>
-              <li>₦300 for transportation to the laundromat</li>
+              <li>₦2500 per shirt at the dry cleaner</li>
+              <li>₦800 for detergent every week</li>
+              <li>₦1000 for transportation to the laundromat</li>
               <li>Hours of their own time (which is also money)</li>
             </ul>
             <p className="font-semibold underline">They were already spending. David just offered a better option.</p>
