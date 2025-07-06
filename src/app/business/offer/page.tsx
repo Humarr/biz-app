@@ -849,7 +849,7 @@ export default function OfferPage() {
           improve.
         </p>
         <p className="text-lg font-bold text-accent">OR</p>
-        <p className="text-lg">You can invest ₦11,950 in yourself today.</p>
+        <p className="text-lg">You can invest ₦{price} in yourself today.</p>
         <p className="text-lg">
           You can get the system that will change your life.
         </p>
@@ -878,7 +878,7 @@ export default function OfferPage() {
           href="https://selar.com/012403"
           className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors"
         >
-          GET THE ULTIMATE CASH MACHINE FOR ₦11,950
+          GET THE ULTIMATE CASH MACHINE FOR ₦{price}
         </CustomButton>
         <p className="text-sm italic">
           (Don't worry, it won't shock you like NEPA wire.)
@@ -887,7 +887,7 @@ export default function OfferPage() {
         <p className="text-lg font-bold">P.S.</p>
         <p className="text-lg">
           Remember, this comes with a 30-day money-back guarantee. If you don't
-          make at least ₦11,950 in extra income within 30 days, I'll refund
+          make at least ₦{price} in extra income within 30 days, I'll refund
           every kobo. You have nothing to lose and everything to gain.
         </p>
 
