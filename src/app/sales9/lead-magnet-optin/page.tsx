@@ -50,12 +50,15 @@ export default function LeadPage() {
   };
 
   return (
-    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-white min-h-screen">
+    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-background min-h-screen">
       {/* Hero Section */}
       <section className="py-8 md:py-12 text-center">
+        <div className='bg-primary w-full p-2'>
+
         <h1 className="text-red-600 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4">
           "Are you ready to Stop Guessing and Start Winning?"
         </h1>
+        </div>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
           Get the 5 Business Autopsies That Show Why 90% of Nigerians Stay Broke — Even After "Starting a Business."
         </h2>
@@ -100,7 +103,7 @@ export default function LeadPage() {
       </section>
 
       {/* Opt-In Form */}
-      <section className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden p-6 border-2 border-gray-200">
+      <section className="max-w-md mx-auto bg-background rounded-xl shadow-md overflow-hidden p-6 border-2 border-gray-200">
         <h3 className="text-2xl font-bold text-center mb-6 text-gray-800">Get Your Free Reports Now</h3>
 
         <form onSubmit={handleSubmit} className="space-y-4" noValidate>
