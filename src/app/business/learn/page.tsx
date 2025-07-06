@@ -14,9 +14,9 @@ export default function Home() {
 
         <Congratulations />
 
-        <h1 className="text-5xl md:text-6xl font-headline2 font-bold uppercase leading-tight">
+        <p className="text-5xl md:text-6xl font-scribble font-bold uppercase leading-tight">
           The ATM Decoder Protocol
-        </h1>
+        </p>
         <h2 className="text-3xl md:text-4xl font-semibold text-accent underline">
           The 12 Economic Filters That Separate Million-Naira Ideas From Garbage
         </h2>
@@ -282,7 +282,7 @@ export default function Home() {
             <strong>The average Nigerian entrepreneur wastes OVER ₦200,000 on failed businesses before they figure out what works.</strong>
           </p>
           <p>
-            <strong>The complete 12-filter system costs ₦11,950.</strong>
+            <strong>The complete 12-filter system costs way LESS than that.</strong>
           </p>
           <p>
             <strong>You do the math.</strong>

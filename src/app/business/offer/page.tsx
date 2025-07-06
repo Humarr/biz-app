@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-// /pages/index.tsx
 import CustomButton from "@/components/business/CustomButton";
 import React from "react";
 
@@ -10,310 +9,440 @@ export default function OfferPage() {
       {/* HEADLINE SECTION */}
       <section className="text-center mb-8">
         <h1 className="font-headline2 font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight">
-           The Ultimate Cash Machine
+          How A ₦500 Recharge Card Turned Into ₦230,000
         </h1>
         <h2 className="font-headline2 font-semibold text-2xl md:text-3xl text-accent mt-4">
-           How A ₦500 Recharge Card Turned Into ₦230,000... And Why Your "Business Ideas" Keep Failing
+          (And Why Your Business Ideas Keep Failing You)
         </h2>
-        <p className="font-bold text-lg md:text-xl text-accent mt-4">
-          Warning: This is not another "motivational" business guide. This is the real deal.
-        </p>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
 
-      {/* THE STORY */}
+      {/* INTRO STORY */}
       <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           The Story That Started Everything
-        </h3>
-        <p className="text-lg">Last year, I was broke. Not the "I need to budget better" kind of broke. The "I'm eating garri at 10pm because that's all I have" kind of broke.</p>
-        <p className="text-lg">I had tried everything:</p>
+        <p className="text-lg">Listen...</p>
+        <p className="text-lg">I was sitting in my friend's car outside GTBank, Ikeja, staring at my phone screen.</p>
+        <p className="text-lg font-bold">Account balance: ₦480.</p>
+        <p className="text-lg">I had just enough for recharge card to call my mum and lie about how "things are going well."</p>
+        <p className="text-lg">But instead of buying that recharge card, I did something stupid.</p>
+        <p className="text-lg font-bold">I bought a pack of gum.</p>
+        <p className="text-2xl italic font-scribble">*(Yeah, I know. Gum. Stay with me.)*</p>
+        <p className="text-lg">See, I had been watching this woman outside the bank for 30 minutes. She was selling gum, mints, and phone accessories from a small tray.</p>
+        <p className="text-lg">Every 3 minutes, someone bought something from her.</p>
+        <p className="text-lg font-bold">Every. Single. Time.</p>
+        <p className="text-lg">While I was sitting there, broke, with a business degree, watching her make more money in 30 minutes than I made in a week at my "prestigious" internship.</p>
+        <p className="text-lg">That's when it hit me...</p>
+        <p className="text-lg font-bold bg-background border border-accent rounded-lg p-4 shadow-lg">She wasn't selling gum. She was solving a problem.</p>
+        <p className="text-lg">People coming out of the bank had cash. Their breath was probably not fresh after sitting in banking hall for 2 hours. They needed gum.</p>
+        <p className="text-lg">Simple. Obvious. Profitable.</p>
+        <p className="text-lg">But here's the crazy part...</p>
+        <p className="text-lg">That ₦500 I spent on gum? It became the seed money for a business that made me ₦230,000 in 3 months.</p>
+        <p className="text-lg italic">Not selling gum (though that woman is still my hero).</p>
+        <p className="text-lg">But by finally understanding what business really is.</p>
+        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+      </section>
+
+      {/* YOU'VE BEEN LIED TO */}
+      <section className="mb-12 space-y-4">
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          You've Been Lied To About Business
+        </h2>
+        <p className="text-lg italic text-center">(And I bet you're tired of it)</p>
+        <p className="text-lg">Let me guess your story:</p>
+        <p className="text-lg">You tried dropshipping. You tried hair oil. You tried face mask hustle in 2020. You probably even tried selling perfume oils to your WhatsApp contacts.</p>
+        <p className="text-lg font-bold">Where is it now?</p>
+        <p className="text-lg">You spent money you didn't have. You annoyed friends who now avoid your calls. You have boxes of unsold products under your bed.</p>
+        <p className="text-lg">And everyone keeps telling you:</p>
         <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-          <li>Sold perfume oils (made ₦200 profit in 3 months)</li>
-          <li>Tried dropshipping (lost ₦15,000 to Facebook ads)</li>
-          <li>Sold face masks during COVID (still have 200 pieces under my bed)</li>
-          <li>Even tried selling recharge cards (yes, I was that desperate)</li>
+          <li>"Just find your passion"</li>
+          <li>"Start small, dream big"</li>
+          <li>"You need capital to make money"</li>
+          <li>"Network, network, network"</li>
         </ul>
-        <p className="text-lg italic font-semibold text-center text-accent">But here's the crazy part...</p>
-        <p className="text-lg">That recharge card business? The one that made me feel like a failure? It taught me something that changed everything.</p>
-        <p className="text-lg font-bold text-center">(And by the time you finish reading this, you'll know exactly what it was... and how to use it to build your own cash machine)</p>
+        <p className="text-lg font-bold text-center text-accent">All lies.</p>
+        <p className="text-lg">Here's the truth they won't tell you:</p>
+        <p className="text-lg font-bold">Business is not about passion. It's about solving problems people will pay you to solve.</p>
+        <p className="text-lg font-bold">Business is not about starting small. It's about starting smart.</p>
+        <p className="text-lg font-bold">Business is not about capital. It's about clarity.</p>
+        <p className="text-lg font-bold">And business is definitely not about networking with other broke people who have no customers.</p>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
 
-      {/* BRUTAL TRUTH */}
+      {/* REAL REASON SECTION */}
       <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           The Brutal Truth No One Wants To Tell You
-        </h3>
-        <p className="text-lg">You don't have a money problem.</p>
-        <p className="text-lg">You don't have a capital problem.</p>
-        <p className="text-lg">You don't even have a "Nigerian economy" problem.</p>
-        <p className="text-lg font-bold text-center">You have an IDEA problem.</p>
-        <p className="text-lg">And here's the part that hurts:</p>
-        <p className="text-lg">Every time you start another business and it fails, you're not just losing money. You're losing something more valuable.</p>
-        <p className="text-lg font-bold text-center text-accent">Your family's respect.</p>
-        <p className="text-lg">Your girlfriend starts looking at you like you're a dreamer who will never amount to anything.</p>
-        <p className="text-lg">Your parents stop asking about your "business" because they're tired of hearing excuses.</p>
-        <p className="text-lg">Your friends start treating you like the guy who always has a "new idea" but never any results.</p>
-        <p className="text-lg">And the worst part?</p>
-        <p className="text-lg">Deep down, you start believing them.</p>
-        <p className="text-lg">You start thinking maybe you're just not cut out for business. Maybe you should just find a job and accept your fate.</p>
-        <p className="text-lg font-bold text-center text-accent">But what if I told you that every single business failure you've had was actually pointing you toward success?</p>
-        <p className="text-lg">What if the reason your perfume business failed wasn't because "there's no market"...</p>
-        <p className="text-lg">What if your dropshipping disaster wasn't because "Nigerians don't buy online"...</p>
-        <p className="text-lg">What if your face mask hustle didn't work not because "the trend died"...</p>
-        <p className="text-lg font-bold text-center text-accent">What if they failed because you never knew how to pick the RIGHT idea in the first place?</p>
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          The Real Reason Your Business Ideas Fail
+        </h2>
+        <p className="text-lg italic text-center">(This might hurt, but it's necessary)</p>
+        <p className="text-lg">You don't have a business problem.</p>
+        <p className="text-lg font-bold text-accent">You have an idea problem.</p>
+        <p className="text-lg">See, most people start businesses like they're blindfolded, spinning a bottle. Then they cry when it lands on 'failure.'</p>
+        <p className="text-lg">But successful people? They test their ideas before they waste a single kobo.</p>
+        <p className="text-lg">They have a system.</p>
+        <p className="text-lg">They have filters.</p>
+        <p className="text-lg">They have what I call... <span className="font-bold text-accent">The ATM Decoder Protocol</span>.</p>
+        <p className="text-lg italic">*(More on that in a bit)*</p>
+        <p className="text-lg font-bold text-center">But first, let me tell you about Kemi...</p>
+        <p className="text-lg">Kemi was 29. Living in Surulere. Working at a pharmaceutical company, earning ₦65,000 a month.</p>
+        <p className="text-lg">Every month, after rent, transport, and feeding, she had ₦8,000 left.</p>
+        <p className="text-lg font-bold">₦8,000.</p>
+        <p className="text-lg">For a whole month.</p>
+        <p className="text-lg">She wanted to start a business, but she was scared. She had failed before.</p>
+        <p className="text-lg">In 2019, she tried selling waist trainers. Lost ₦45,000.</p>
+        <p className="text-lg">In 2020, she tried selling face masks. Lost ₦23,000.</p>
+        <p className="text-lg">In 2021, she tried selling hair products. Lost ₦67,000.</p>
+        <p className="text-lg">By 2022, she was convinced she was just "not a business person."</p>
+        <p className="text-lg font-bold text-accent">Until she found The Ultimate Cash Machine.</p>
+        <p className="text-lg">And here's what happened...</p>
+        <p className="text-lg">Instead of jumping into another random business idea, she learned the 12 Economic Filters. She tested 7 different business ideas.</p>
+        <p className="text-lg">6 failed the test.</p>
+        <p className="text-lg">1 passed with flying colors.</p>
+        <p className="text-lg">That one idea? A service helping Lagos professionals organize their wardrobes.</p>
+        <p className="text-lg italic">Sounds boring, right?</p>
+        <p className="text-lg font-bold">Wrong.</p>
+        <p className="text-lg">In 4 months, Kemi was making ₦180,000 a month.</p>
+        <p className="text-lg">In 8 months, she quit her job.</p>
+        <p className="text-lg">Today, she has 3 staff members and is opening a second location in Victoria Island.</p>
+        <p className="text-lg font-bold text-center text-accent">What changed?</p>
+        <p className="text-lg font-bold text-center">She stopped guessing. She started testing.</p>
+        <p className="text-lg font-bold text-center">She stopped hoping. She started knowing.</p>
+        <p className="text-lg font-bold text-center">She stopped wasting money on random ideas. She started making money with tested ideas.</p>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
 
-      {/* DISCOVERY */}
+      {/* PRODUCT INTRO */}
       <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           The ₦500 Recharge Card Discovery
-        </h3>
-        <p className="text-lg">Back to that recharge card business...</p>
-        <p className="text-lg">I was sitting in my room, counting my ₦500 profit from selling 20 cards, feeling like a complete failure.</p>
-        <p className="text-lg">Then my neighbor knocked on my door.</p>
-        <p className="text-lg">"Guy, you still dey sell recharge card?"</p>
-        <p className="text-lg">I wanted to lie and say no. I was embarrassed.</p>
-        <p className="text-lg">But I said yes.</p>
-        <p className="text-lg">"I need ₦10,000 worth. But I want you to help me with something else..."</p>
-        <p className="text-lg">Turns out, this guy had been watching me. He noticed I was always organized, always on time, always had the exact change ready.</p>
-        <p className="text-lg">He wanted me to help him manage his small generator rental business.</p>
-        <p className="text-lg">Long story short, that conversation led to a business partnership that made me ₦230,000 in 6 months.</p>
-        <p className="text-lg font-bold text-center text-accent">But here's the real discovery:</p>
-        <p className="text-lg font-bold text-center bg-background border border-accent rounded-lg p-4 shadow-lg">The recharge card business wasn't the business. It was the PROOF.
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          Introducing: The Ultimate Cash Machine
+        </h2>
+        <p className="text-lg font-bold text-center">The Stupidly Simple, Zero-Fluff Guide to Starting a Business That Prints Cash Like a Hacked ATM</p>
+        <p className="text-lg">This is not another "motivational" business book.</p>
+        <p className="text-lg">This is not another "10 Ways to Make Money Online" course.</p>
+        <p className="text-lg">This is not another "Follow Your Passion" fairy tale.</p>
+        <p className="text-lg font-bold text-accent">This is a system.</p>
+        <p className="text-lg">A system that works whether you're in Lagos or Lokoja, whether you have ₦5,000 or ₦500,000, whether you're 22 or 42.</p>
+        <p className="text-lg font-bold text-center text-accent">Here's what you'll discover inside:</p>
+        
+        {/* MODULES */}
+        <div className="space-y-8">
+          {/* MODULE 1 */}
+          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
+            <h3 className="font-bold text-xl text-accent">Module 1: Why Starting a Business is NOT Risky</h3>
+            <p className="italic">(The lies they told you about business risk)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>The real definition of risk (hint: staying broke is riskier than starting a business)</li>
+              <li>Why most businesses fail (and it's not what you think)</li>
+              <li>The 3 types of people who should never start a business</li>
+              <li>Case study: How Tunde turned his "risky" food business into a ₦2.4 million yearly empire</li>
+            </ul>
+          </div>
 
-It proved I was reliable. It proved I understood customer service. It proved I could handle money properly.
+          {/* MODULE 2 */}
+          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
+            <h3 className="font-bold text-xl text-accent">Module 2: How to Spot Pain-Point-Driven Ideas</h3>
+            <p className="italic">(The goldmine hiding in plain sight)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>The 5-minute technique for finding profitable problems in your neighborhood</li>
+              <li>Why selling solutions beats selling products every time</li>
+              <li>The "Annoyance Journal" method that reveals million-naira opportunities</li>
+              <li>Real examples: 12 profitable business ideas I found in one day walking around Obalende</li>
+            </ul>
+          </div>
 
-Most importantly, it proved I could spot what people really needed.</p>
-        <p className="text-lg italic font-scribble text-accent text-center">That's when I realized something that changed everything...</p>
-        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
-      </section>
+          {/* MODULE 3 */}
+          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
+            <h3 className="font-bold text-xl text-accent">Module 3: The 12 Economic Filters</h3>
+            <p className="italic">(Your idea testing laboratory)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>Filter #1: The Urgency Test (does this problem wake people up at 3am?)</li>
+              <li>Filter #2: The Wallet Test (will people pay for this solution?)</li>
+              <li>Filter #3: The Frequency Test (how often do people need this?)</li>
+              <li>Filter #4: The Competition Test (is there room for one more?)</li>
+              <li>Filter #5: The Skill Test (can you deliver this solution?)</li>
+              <li>Filter #6: The Scale Test (can this grow beyond you?)</li>
+              <li>Filter #7: The Margin Test (will you make real money?)</li>
+              <li>Filter #8: The Access Test (can you reach your customers?)</li>
+              <li>Filter #9: The Legal Test (is this business legal and ethical?)</li>
+              <li>Filter #10: The Trend Test (is this growing or dying?)</li>
+              <li>Filter #11: The Passion Test (can you do this for 5 years?)</li>
+              <li>Filter #12: The Exit Test (can you sell this business later?)</li>
+            </ul>
+          </div>
 
-      {/* 12 FILTERS */}
-      <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           The 12 Economic Filters That Separate Winners From Dreamers
-        </h3>
-        <p className="text-lg">Every successful business passes through 12 specific tests.</p>
-        <p className="text-lg">Not 10. Not 15. Exactly 12.</p>
-        <p className="text-lg">I call them the Economic Filters.</p>
-        <p className="text-lg">Think of them like security checkpoints at the airport. If your business idea can't pass through all 12, it's not going to fly.</p>
-        <p className="text-lg font-bold text-center text-accent">Here's the scary part: 99% of Nigerian entrepreneurs never even know these filters exist.</p>
-        <p className="text-lg">They just throw ideas at the wall and hope something sticks.</p>
-        <p className="text-lg">Then they wonder why their perfume business makes ₦200 in 3 months.</p>
-        <p className="text-lg">Then they wonder why their dropshipping store gets zero sales.</p>
-        <p className="text-lg">Then they wonder why their "innovative" app idea never takes off.</p>
-        <p className="text-lg font-bold text-center text-accent">The truth? Their ideas never stood a chance.</p>
-        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
-      </section>
+          {/* MODULE 4 */}
+          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
+            <h3 className="font-bold text-xl text-accent">Module 4: How to Create Irresistible Offers</h3>
+            <p className="italic">(The secret sauce of selling)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>The 3-part formula for offers that make people say "Yes!"</li>
+              <li>Why cheaper is not always better (and when it is)</li>
+              <li>The "Stack Method" for adding value without adding cost</li>
+              <li>How to make your offer feel like a no-brainer (even at full price)</li>
+            </ul>
+          </div>
 
-      {/* LEARN */}
-      <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           What You're About To Learn
-        </h3>
-        <p className="text-lg font-bold text-center">The Ultimate Cash Machine isn't just another business guide.</p>
-        <p className="text-lg">It's a complete system for building businesses that actually work.</p>
-        <p className="text-lg">Here's what's inside:</p>
-        <div className="space-y-6">
+          {/* MODULE 5 */}
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold text-lg font-scribble">PART 1: The Mind Shift</p>
-            <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-              <li>Why starting a business is actually LESS risky than staying employed (this will shock you)</li>
-              <li>The real reason 87% of Nigerian businesses fail in the first year (it's not what you think)</li>
-              <li>How to think like a business owner instead of a dreamer</li>
+            <h3 className="font-bold text-xl text-accent">Module 5: How to Price Like a Boss and Still Sell Out</h3>
+            <p className="italic">(Stop being afraid of money)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>The psychology of pricing (why ₦497 sells better than ₦500)</li>
+              <li>The 3 pricing strategies that work in Nigeria</li>
+              <li>How to raise your prices without losing customers</li>
+              <li>When to offer discounts (and when not to)</li>
             </ul>
           </div>
+
+          {/* MODULE 6 */}
           <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold text-lg font-scribble">PART 2: The Idea Factory</p>
-            <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-              <li>The 12 Economic Filters that separate million‑naira ideas from garbage</li>
-              <li>How to spot pain‑point‑driven opportunities in your own neighborhood</li>
-              <li>The "Recharge Card Test" that validates any business idea in 48 hours</li>
+            <h3 className="font-bold text-xl text-accent">Module 6: How to Get Free Evangelists for Your Brand</h3>
+            <p className="italic">(Let your customers do the marketing)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>The referral system that grows your business while you sleep</li>
+              <li>How to turn one customer into ten customers</li>
+              <li>The "Surprise and Delight" strategy that builds loyalty</li>
+              <li>Why word-of-mouth is still the best marketing in Nigeria</li>
             </ul>
           </div>
-          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold text-lg font-scribble">PART 3: The Offer Engine</p>
-            <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-              <li>How to create offers so good, people feel stupid saying no</li>
-              <li>The psychology of Nigerian buyers (why they buy and why they don't)</li>
-              <li>Pricing strategies that make you money while keeping customers happy</li>
-            </ul>
-          </div>
-          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold text-lg font-scribble">PART 4: The Growth Machine</p>
-            <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-              <li>How to get customers to sell your business for you (free marketing)</li>
-              <li>The "Neighbor Network" strategy that builds trust faster than any ad</li>
-              <li>Why word‑of‑mouth is still the king of Nigerian marketing</li>
-            </ul>
-          </div>
-          <div className="border border-accent rounded-lg p-4 bg-background shadow-lg">
-            <p className="font-bold text-lg font-scribble">PART 5: The Cash Machine</p>
-            <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-              <li>How to price your products like a pro (without losing customers)</li>
-              <li>The "Value Stack" method that justifies any price</li>
-              <li>How to turn one‑time buyers into lifetime customers</li>
-            </ul>
-          </div>
+
+          {/* BONUS */}
           <div className="border border-accent rounded-lg p-4 bg-highlight shadow-lg">
-            <p className="font-bold font-scribble text-lg">BONUS: The 9 Copywriting Secrets</p>
-            <ul className="list-disc list-inside pl-4 text-lg space-y-1">
-              <li>How to Grab ANYONE's Attention EVEN IF they are watching their favourite movie</li>
-              <li>How to make ANYONE take action immediately</li>
-              <li>How to make ANYONE feel like they're getting a steal</li>
+            <h3 className="font-bold text-xl text-accent">BONUS: 9 Copywriting Secrets</h3>
+            <p className="italic">(The words that sell)</p>
+            <ul className="list-disc list-inside pl-4 text-lg space-y-1 mt-2">
+              <li>Headlines that grab attention in 3 seconds</li>
+              <li>CTAs that make people click immediately</li>
+              <li>Offer stacking that increases your sales by 300%</li>
+              <li>Email sequences that turn subscribers into buyers</li>
+              <li>Social proof that builds trust instantly</li>
+              <li>Storytelling formulas that sell without selling</li>
+              <li>Objection handling that closes deals</li>
+              <li>Price anchoring that makes you seem affordable</li>
+              <li>Urgency creation that makes people buy now</li>
             </ul>
           </div>
         </div>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
 
-      {/* WHY THIS WORKS */}
+      {/* TRUST SECTION */}
       <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           Why This Works (Even If You've Failed Before)
-        </h3>
-        <p className="text-lg">Listen, I know you're skeptical.</p>
-        <p className="text-lg">You've probably bought business books before. You've probably watched YouTube videos. You've probably even bought courses.</p>
-        <p className="text-lg font-bold text-center text-accent">And you're still broke.</p>
-        <ul className="list-decimal pl-4 text-lg space-y-2">
-          <li>It's built for Nigeria. Not America. Not Europe. Nigeria. With our culture, our mindset, our economy.</li>
-          <li>It's tested in the real world. These aren't theories from some business school. These are strategies that work in Lagos traffic, with NEPA problems, with Nigerian customers.</li>
-          <li>It's stupidly simple. You don't need a degree. You don't need connections. You don't need capital. You just need to follow the system.</li>
-          <li>It's complete. You're not getting "Part 1" and then told to buy "Part 2." You're getting everything.</li>
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          But Wait... Why Should You Trust Me?
+        </h2>
+        <p className="text-lg italic text-center">(Fair question. Let me answer it.)</p>
+        <p className="text-lg">My name is [Your Name], and I'm not going to lie to you.</p>
+        <p className="text-lg">I'm not a millionaire guru sitting in a mansion in Banana Island.</p>
+        <p className="text-lg">I'm not driving a Range Rover that I rented for Instagram.</p>
+        <p className="text-lg">I'm not living in Dubai, telling you how to make money in Nigeria.</p>
+        <p className="text-lg font-bold">I'm here. In Nigeria. Making money. Teaching people how to make money.</p>
+        <p className="text-lg">And I've helped over 3,000 Nigerians start profitable businesses using the exact system you're about to get.</p>
+        <p className="text-lg font-bold text-center text-accent">Here's what some of them are saying:</p>
+        
+        {/* TESTIMONIALS */}
+        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4 font-scribble text-lg">
+          "I was selling recharge cards and making ₦500 profit per day. After using The Ultimate Cash Machine, I started a phone repair service. Now I make ₦15,000 per day. My landlord calls me 'Chairman' now."<br />
+          <span className="font-bold">— Michael, Port Harcourt</span>
+        </blockquote>
+        
+        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4 font-scribble text-lg">
+          "I almost opened a boutique with ₦200,000 I borrowed. Thank God I found this guide first. I tested the idea using Filter #2 and Filter #8. It failed woefully. I used the same money to start a laundry service instead. Best decision ever."<br />
+          <span className="font-bold">— Funmi, Abuja</span>
+        </blockquote>
+        
+        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4 font-scribble text-lg">
+          "My parents thought I was wasting my time with 'online business.' After making ₦89,000 in my first month using these methods, they now ask me for business advice."<br />
+          <span className="font-bold">— Emeka, Enugu</span>
+        </blockquote>
+        
+        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4 font-scribble text-lg">
+          "I was about to do cryptocurrency trading with my salary. This guide saved me from losing my money. Instead, I started a food delivery service for office workers. I make more in one week than I used to make in one month."<br />
+          <span className="font-bold">— Blessing, Lagos</span>
+        </blockquote>
+        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+      </section>
+
+      {/* TRANSFORMATION SECTION */}
+      <section className="mb-12 space-y-4">
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          Here's What's Going to Happen When You Get This Guide
+        </h2>
+        <p className="text-lg font-bold">Week 1:</p>
+        <p className="text-lg">You'll go through the 12 Economic Filters and test your current business idea (or find a new one). You'll probably be shocked at what you discover.</p>
+        
+        <p className="text-lg font-bold">Week 2:</p>
+        <p className="text-lg">You'll create your first irresistible offer using the formula in Module 4. You'll price it confidently using the strategies in Module 5.</p>
+        
+        <p className="text-lg font-bold">Week 3:</p>
+        <p className="text-lg">You'll start selling. You'll use the copywriting secrets to create your first sales message. You'll be amazed at how people respond.</p>
+        
+        <p className="text-lg font-bold">Week 4:</p>
+        <p className="text-lg">You'll start making money. Real money. Not promises. Not maybe. Actual cash in your account.</p>
+        
+        <p className="text-lg font-bold">Month 2:</p>
+        <p className="text-lg">You'll optimize and scale. You'll use the referral system to grow your business. You'll sleep better at night.</p>
+        
+        <p className="text-lg font-bold">Month 3:</p>
+        <p className="text-lg">You'll probably want to quit your job. (But don't rush. Build your business to ₦100,000 monthly first.)</p>
+        
+        <p className="text-lg font-bold">Month 6:</p>
+        <p className="text-lg">You'll be the person your friends come to for business advice. You'll be the one your family talks about with pride.</p>
+        
+        <p className="text-lg font-bold">Month 12:</p>
+        <p className="text-lg">You'll read this sales page again and laugh at how you almost didn't buy this guide.</p>
+        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+      </section>
+
+      {/* PRICING SECTION */}
+      <section className="mb-12 space-y-4">
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          But Here's the Thing...
+        </h2>
+        <p className="text-lg italic text-center">(The part where I tell you why you need to act now)</p>
+        <p className="text-lg">I could have priced this guide at ₦50,000.</p>
+        <p className="text-lg">That's what most business consultants charge for one hour of their time.</p>
+        <p className="text-lg">I could have priced it at ₦25,000.</p>
+        <p className="text-lg">That's what most business courses cost (and they teach you nothing practical).</p>
+        <p className="text-lg">I could have priced it at ₦15,000.</p>
+        <p className="text-lg">That's what you'll probably spend on failed business attempts this year.</p>
+        <p className="text-lg">But I didn't.</p>
+        <p className="text-lg">Because I remember what it felt like to have ₦480 in my account.</p>
+        <p className="text-lg">I remember what it felt like to lie to my mum about "how well things are going."</p>
+        <p className="text-lg">I remember what it felt like to start a business and watch it fail because I didn't know what I was doing.</p>
+        <p className="text-lg">So I'm pricing this guide at just <span className="font-bold text-accent">₦11,950</span>.</p>
+        <p className="text-lg">Yes, ₦11,950.</p>
+        <p className="text-lg">That's less than what you'll spend on data in 3 months.</p>
+        <p className="text-lg">That's less than what you'll spend on transport in 2 months.</p>
+        <p className="text-lg">That's less than what you'll waste on one bad business idea.</p>
+        <p className="text-lg font-bold text-center">But here's the catch...</p>
+        <p className="text-lg italic text-center">*(There's always a catch, right?)*</p>
+        <p className="text-lg font-bold text-accent">This price is only available for the next 72 hours.</p>
+        <p className="text-lg">After that, it goes back to ₦25,000.</p>
+        <p className="text-lg font-bold">Why?</p>
+        <p className="text-lg">Because I don't want this guide in the hands of people who don't take action.</p>
+        <p className="text-lg">I want it in the hands of people who are serious about changing their lives.</p>
+        <p className="text-lg font-bold">If you're reading this after the 72-hour window, you'll pay full price.</p>
+        <p className="text-lg font-bold">If you're reading this within the 72-hour window, you get it for ₦11,950.</p>
+        <p className="text-lg font-bold text-center">Your choice.</p>
+        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+      </section>
+
+      {/* WHAT YOU GET */}
+      <section className="mb-12 space-y-4">
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          What You Get When You Order Today
+        </h2>
+        <ul className="list-disc list-inside pl-4 text-lg space-y-2">
+          <li><span className="font-bold">The Ultimate Cash Machine</span> (Complete 150-page guide)</li>
+          <li><span className="font-bold">The 12 Economic Filters Checklist</span> (Test any business idea in 20 minutes)</li>
+          <li><span className="font-bold">The Irresistible Offer Formula</span> (Create offers that sell themselves)</li>
+          <li><span className="font-bold">The Pricing Strategy Toolkit</span> (Price like a pro, sell like a boss)</li>
+          <li><span className="font-bold">The Referral System Blueprint</span> (Turn customers into marketers)</li>
+          <li><span className="font-bold">9 Copywriting Secrets Cheat Sheet</span> (Write words that sell)</li>
+          <li><span className="font-bold">30-Day Email Support</span> (Ask me anything about your business)</li>
         </ul>
-        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
-      </section>
-
-      {/* TESTIMONIALS */}
-      <section className="mb-12 space-y-6">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           What People Are Saying
-        </h3>
-        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4  font-scribble text-lg">
-          "I used to think business was for people with money. This book showed me business IS the money. I started with ₦5,000 and <span className="underline text-red-700 font-bold">made ₦80,000 in my first month.</span>" <span className="font-bold">- Kemi, Abuja</span>
-        </blockquote>
-        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4 text-lg font-scribble">
-          "The 12 Economic Filters saved me from wasting ₦50,000 on a business idea that would have failed. Instead, I found an idea that passed all 12 tests. I'm now making <span className="underline text-red-700 font-bold">₦180,000 every month.</span>" <span className="font-bold">- Chuka, Lagos</span>
-        </blockquote>
-        <blockquote className="border-l-4 border-accent pl-4 italic bg-background rounded shadow-sm p-4 text-lg font-scribble">
-          "My family used to think I was a dreamer. Now they think I'm a genius. All because I finally learned how to pick ideas that actually work." <span className="font-bold">- Amaka, Port Harcourt</span>
-        </blockquote>
-        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
-      </section>
-
-      {/* INVESTMENT */}
-      <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           The Investment
-        </h3>
-        <p className="text-lg">Now, here's where things get interesting.</p>
-        <p className="text-lg">A business consultant would charge you ₦50,000 just to tell you if your idea is good or not.</p>
-        <p className="text-lg">An MBA program would cost you ₦2,000,000 and take 2 years.</p>
-        <p className="text-lg">A failed business will cost you your savings, your time, and your reputation.</p>
-        <p className="text-lg font-bold">The Ultimate Cash Machine contains everything you need to avoid all of that.</p>
-        <p className="text-lg">It's the result of 3 years of testing, failing, learning, and finally succeeding.</p>
-        <p className="text-lg">It's the system that took me from eating garri at night to making more money than my friends with "good jobs."</p>
-        <p className="text-lg">And today, you can get the complete system for just ₦7,950.</p>
-        <p className="text-lg font-bold">But here's the thing...</p>
-        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
-      </section>
-
-      {/* URGENCY */}
-      <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           Why You Need To Act Now
-        </h3>
-        <p className="text-lg">I'm not going to lie to you and say <span className="font-scribble text-lg">"this offer expires at midnight"</span> or <span className="text-lg font-scribble">"only 100 copies available."</span> </p>
-        <p className="text-lg font-medium">That's not why you need to act now.</p>
-        <p className="text-lg font-bold text-center text-accent">You need to act now because every day you wait is another day you're not building your cash machine.</p>
-        <p className="text-lg">Every day you wait is another day your friends are getting ahead while you're still dreaming.</p>
-        <p className="text-lg">Every day you wait is another day your family is wondering if you'll ever figure it out.</p>
-        <p className="text-lg">Every day you wait is another day you're letting fear make your decisions for you.</p>
-        <p className="text-lg font-bold">The truth is, you already know you need this.</p>
-        <p className="text-lg">You clicked on this page because something inside you knows you're tired of failing.</p>
-        <p className="text-lg">You're tired of starting businesses that don't work.</p>
-        <p className="text-lg">You're tired of being broke.</p>
-        <p className="text-lg">You're tired of feeling like you're not good enough.</p>
-        <p className="text-lg font-bold">And you know what? You're right to be tired.</p>
+        <p className="text-lg font-bold">Total Value: ₦85,000</p>
+        <p className="text-lg font-bold text-accent">Your Price Today: ₦11,950</p>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
 
       {/* GUARANTEE */}
       <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
-           The Guarantee
-        </h3>
-        <p className="text-lg">I'm so confident that The Ultimate Cash Machine will change your business game that I'm offering you a 30-day money-back guarantee.</p>
-        <p className="text-lg">If you read the entire book, apply the 12 Economic Filters to your business idea, and you don't feel like you finally understand how to build a real business...</p>
-        <p className="text-lg">I'll refund. Every. Single. Kobo.</p>
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          My 30-Day "Make Money or Your Money Back" Guarantee
+        </h2>
+        <p className="text-lg italic text-center">(Because I'm confident this works)</p>
+        <p className="text-lg">Use The Ultimate Cash Machine for 30 days.</p>
+        <p className="text-lg">Apply the 12 Economic Filters to test your business idea.</p>
+        <p className="text-lg">Create your irresistible offer using the formula.</p>
+        <p className="text-lg">Start selling using the copywriting secrets.</p>
+        <p className="text-lg font-bold text-accent">If you don't make at least ₦11,950 in extra income within 30 days, I'll refund every kobo.</p>
         <p className="text-lg">No questions asked.</p>
-        <p className="text-lg">No hard feelings.</p>
-        <p className="text-lg font-bold">But here's what I really believe will happen:</p>
-        <p className="text-lg">You'll read the first chapter and realize why all your previous businesses failed.</p>
-        <p className="text-lg">You'll get to the 12 Economic Filters and finally understand how to pick winning ideas.</p>
-        <p className="text-lg">You'll reach the pricing section and know exactly how to make money without losing customers.</p>
-        <p className="text-lg">And by the time you finish, you'll have a complete plan for building your own cash machine.</p>
-        <p className="text-lg font-bold">You'll never need another business book again.</p>
+        <p className="text-lg">No forms to fill.</p>
+        <p className="text-lg">No "but you didn't implement properly" excuses.</p>
+        <p className="text-lg font-bold">Just send me a message and I'll refund your money.</p>
+        <p className="text-lg font-bold">Why am I so confident?</p>
+        <p className="text-lg">Because this system works.</p>
+        <p className="text-lg">It worked for me.</p>
+        <p className="text-lg">It worked for Kemi.</p>
+        <p className="text-lg">It worked for Michael, Funmi, Emeka, and Blessing.</p>
+        <p className="text-lg">It worked for 3,000+ other Nigerians.</p>
+        <p className="text-lg font-bold text-accent">And it will work for you.</p>
+        <p className="text-lg font-bold">IF you actually use it.</p>
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
       </section>
 
-      {/* CTA */}
+      {/* TYPES OF PEOPLE */}
+      <section className="mb-12 space-y-4">
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          Three Types of People Will Read This Sales Page
+        </h2>
+        <p className="text-lg font-bold">Type 1: The Skeptic</p>
+        <p className="text-lg">You've been burned before. You don't trust anyone selling anything online. You think this is just another scam.</p>
+        <p className="text-lg">I get it. I was you once.</p>
+        <p className="text-lg font-bold">But here's the thing: staying broke because you're afraid of being scammed is not wisdom. It's fear.</p>
+        <p className="text-lg">The guide comes with a 30-day money-back guarantee. You risk nothing.</p>
+        
+        <p className="text-lg font-bold">Type 2: The Procrastinator</p>
+        <p className="text-lg">You like the idea. You want to start a business. You'll buy this guide "next month" when you have more money.</p>
+        <p className="text-lg font-bold">Bad news: next month, you'll have the same excuses.</p>
+        <p className="text-lg font-bold text-accent">Good news: ₦11,950 is probably sitting in your account right now doing nothing.</p>
+        
+        <p className="text-lg font-bold">Type 3: The Action Taker</p>
+        <p className="text-lg">You've read this far. You know you need to start a business. You understand that this guide gives you the system you need.</p>
+        <p className="text-lg">You're ready to stop guessing and start knowing.</p>
+        <p className="text-lg">You're ready to stop hoping and start doing.</p>
+        <p className="text-lg font-bold text-accent">You're ready to stop being broke and start making money.</p>
+        <p className="text-lg font-bold text-center">Which type are you?</p>
+        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+      </section>
+
+      {/* FINAL CTA */}
       <section className="mb-12 space-y-4 text-center">
+        <h2 className="text-2xl md:text-3xl font-bold underline decoration-accent decoration-4 underline-offset-4 text-center">
+          The Choice is Yours
+        </h2>
+        <p className="text-lg">You can close this page and go back to your regular life.</p>
+        <p className="text-lg">Keep working at that job that pays you peanuts.</p>
+        <p className="text-lg">Keep watching other people succeed while you struggle.</p>
+        <p className="text-lg">Keep making excuses about why you can't start a business.</p>
+        <p className="text-lg">Keep hoping that somehow, magically, your financial situation will improve.</p>
+        <p className="text-lg font-bold text-accent">OR</p>
+        <p className="text-lg">You can invest ₦11,950 in yourself today.</p>
+        <p className="text-lg">You can get the system that will change your life.</p>
+        <p className="text-lg">You can finally start making the money you deserve.</p>
+        <p className="text-lg font-bold">You can become the success story you've always wanted to be.</p>
+        <p className="text-lg font-bold text-center">The choice is yours.</p>
+        <p className="text-lg font-bold text-center">But choose quickly.</p>
+        <p className="text-lg font-bold text-center text-accent">This price expires in 72 hours.</p>
+        <p className="text-lg">After that, you'll pay ₦25,000 for the same guide.</p>
+        <p className="text-lg font-bold">Don't say I didn't warn you.</p>
+        
+        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+        
         <h3 className="text-3xl md:text-4xl font-extrabold font-headline2">
-           Ready To Stop Failing And Start Winning?
+          Get The Ultimate Cash Machine Now
         </h3>
-        <p className="text-lg">Click the button below to get The Ultimate Cash Machine right now.</p>
-        <p className="text-lg">In the next 5 minutes, you'll have access to the complete system.</p>
-        <p className="text-lg">In the next 5 hours, you'll understand why your previous businesses failed.</p>
-        <p className="text-lg">In the next 5 days, you'll have a validated business idea that passes all 12 Economic Filters.</p>
-        <p className="text-lg">In the next 5 weeks, you'll be making more money than you ever thought possible.</p>
-        <p className="text-lg font-bold text-accent">But only if you click the button below right now.</p>
-        <CustomButton href="https://selar.com/012403" className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
-          GET THE ULTIMATE CASH MACHINE FOR ₦7,950
+        <CustomButton 
+          href="https://selar.com/012403" 
+          className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors"
+        >
+          GET THE ULTIMATE CASH MACHINE FOR ₦11,950
         </CustomButton>
-        <p className="text-sm italic text-secondary mt-2">*Instant download. 30-day money-back guarantee. Change your life or get your money back.*</p>
+        <p className="text-sm italic">(Don't worry, it won't shock you like NEPA wire.)</p>
+        
+        <p className="text-lg font-bold">P.S.</p>
+        <p className="text-lg">Remember, this comes with a 30-day money-back guarantee. If you don't make at least ₦11,950 in extra income within 30 days, I'll refund every kobo. You have nothing to lose and everything to gain.</p>
+        
+        <p className="text-lg font-bold">P.P.S.</p>
+        <p className="text-lg">I'm limiting this to 500 copies at this price. After that, it goes to ₦25,000. Don't miss out.</p>
+        
+        <p className="text-lg font-bold">P.P.P.S.</p>
+        <p className="text-lg">Your future self will thank you for this decision. Or blame you for not making it. Your choice.</p>
+        
         <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
+        
+        <p className="text-lg italic text-center">Still reading? Stop overthinking and click the button above. Your bank account will thank you later.</p>
       </section>
-
-      {/* PS */}
-      <section className="mb-12 space-y-4">
-        <h3 className="text-2xl md:text-3xl font-bold font-scribble text-center"> P.S. - The Real Question</h3>
-        <p className="text-lg">You're probably thinking, "What if this doesn't work for me?"</p>
-        <p className="text-lg">But that's the wrong question.</p>
-        <p className="text-lg font-bold">The right question is: "What if this DOES work for me?"</p>
-        <p className="text-lg">What if 6 months from now, you're the one making ₦200,000 every month?</p>
-        <p className="text-lg">What if your family starts calling you for business advice?</p>
-        <p className="text-lg">What if you never have to worry about money again?</p>
-        <p className="text-lg">What if you become the success story that inspires other people?</p>
-        <p className="text-lg font-bold">That's worth ₦7,950, isn't it?</p>
-        <p className="text-lg">Click the button. Download the book. Change your life.</p>
-        <p className="text-lg font-bold">The only risk is not trying.</p>
-        <CustomButton href="https://selar.com/012403" className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
-          GET THE ULTIMATE CASH MACHINE NOW  
-        </CustomButton>
-        <div className="border-t-2 border-accent my-6 mx-auto w-24"></div>
-      </section>
-
-      {/* FINAL */}
-      <section className="mb-12 space-y-4">
-        <p className="text-lg">Still reading? Here's one last thing...</p>
-        <p className="text-lg">Every minute you spend thinking about whether to buy this book is a minute you could be spending building your cash machine.</p>
-        <p className="text-lg">Your future self is watching you right now.</p>
-        <p className="text-lg">What do you want them to say about this moment?</p>
-        <p className="text-lg">"That was the day I finally took control of my life."</p>
-        <p className="text-lg">Or...</p>
-        <p className="text-lg">"That was another day I let fear win."</p>
-        <p className="text-lg font-bold">The choice is yours. But you have to choose.</p>
-        <CustomButton
-        href="https://selar.com/012403"
-         className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">
-          YES, I'M READY TO BUILD MY CASH MACHINE
-        </CustomButton>
-      </section>
-
     </main>
   );
 }

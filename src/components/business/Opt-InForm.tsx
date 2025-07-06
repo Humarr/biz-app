@@ -36,7 +36,7 @@ export default function OptInForm() {
         router.push("/business/learn");
     };
     return (
-        <section className="bg-primary text-white px-6 py-12 text-center space-y-6">
+        <section id="opt-in" className="bg-primary text-white px-6 py-12 text-center space-y-6">
         <h3 className="text-2xl font-bold uppercase text-highlight">
           Get Your Free Copy Now
         </h3>

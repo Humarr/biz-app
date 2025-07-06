@@ -163,7 +163,7 @@ export default function OptIn() {
           It's free. It's instant. It's exactly what you need.
         </p>
         <CustomButton
-          href="/business/learn"
+          href="#opt-in"
           ariaLabel="Get The ATM Decoder Protocol"
         >
           SEND ME THE ATM DECODER PROTOCOL
@@ -203,6 +203,15 @@ export default function OptIn() {
           </div>
         ))}
       </section>
+      <div className="flex justify-center">
+
+      <CustomButton
+          href="#opt-in"
+          ariaLabel="Get The ATM Decoder Protocol"
+          >
+          SEND ME THE ATM DECODER PROTOCOL
+        </CustomButton>
+          </div>
     </main>
   );
 }
