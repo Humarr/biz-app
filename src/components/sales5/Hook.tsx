@@ -13,6 +13,13 @@ const Hook = () => {
             </h1>
             <p className="text-2xl text-gray-600 mb-8">Then something shifted — and I started seeing alerts instead.</p>
           </div>
+          {/* <div className="text-center mb-12 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+              I Listened to the Fake Gurus, Watched All the Reels…<br />
+              <span className="text-red-600">Still Ended Up Eating Garri for Dinner.</span>
+            </h1>
+            <p className="text-2xl text-gray-600 mb-8">Then something shifted — and I started seeing alerts instead.</p>
+          </div> */}
       
           <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg border border-gray-100 animate-float">
             <p className="text-lg font-medium mb-2">Let me guess…</p>

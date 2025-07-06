@@ -248,7 +248,7 @@ Most importantly, it proved I could spot what people really needed.</p>
         </h3>
         <p className="text-lg">I'm so confident that The Ultimate Cash Machine will change your business game that I'm offering you a 30-day money-back guarantee.</p>
         <p className="text-lg">If you read the entire book, apply the 12 Economic Filters to your business idea, and you don't feel like you finally understand how to build a real business...</p>
-        <p className="text-lg">I'll refund every single kobo.</p>
+        <p className="text-lg">I'll refund. Every. Single. Kobo.</p>
         <p className="text-lg">No questions asked.</p>
         <p className="text-lg">No hard feelings.</p>
         <p className="text-lg font-bold">But here's what I really believe will happen:</p>
@@ -288,7 +288,7 @@ Most importantly, it proved I could spot what people really needed.</p>
         <p className="text-lg">What if your family starts calling you for business advice?</p>
         <p className="text-lg">What if you never have to worry about money again?</p>
         <p className="text-lg">What if you become the success story that inspires other people?</p>
-        <p className="text-lg font-bold">That's worth ₦11,950, isn't it?</p>
+        <p className="text-lg font-bold">That's worth ₦7,950, isn't it?</p>
         <p className="text-lg">Click the button. Download the book. Change your life.</p>
         <p className="text-lg font-bold">The only risk is not trying.</p>
         <CustomButton href="https://selar.com/012403" className="mt-4 bg-accent text-background font-bold text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-red-700 transition-colors">

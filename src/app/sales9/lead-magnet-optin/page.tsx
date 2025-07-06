@@ -54,7 +54,7 @@ export default function LeadPage() {
       {/* Hero Section */}
       <section className="py-8 md:py-12 text-center">
         <h1 className="text-red-600 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4">
-          Stop Guessing. Start Winning.
+          Are you ready to Stop Guessing and Start Winning?
         </h1>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
           Get the 5 Business Autopsies That Show Why 90% of Nigerians Stay Broke — Even After "Starting a Business."
