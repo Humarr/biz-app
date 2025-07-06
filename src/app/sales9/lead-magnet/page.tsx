@@ -31,7 +31,7 @@ export default function AutopsyReport() {
   };
 
   return (
-    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-white">
+    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 font-sans bg-white text-lg">
       {/* Header */}
       {/* <header className="text-center mb-10 md:mb-14 border-b-2 border-gray-200 pb-8">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-gray-900">
@@ -52,19 +52,22 @@ export default function AutopsyReport() {
       {/* Header Section */}
       <header className="text-center mb-12 md:mb-16 border-b border-gray-200 pb-10">
         {/* Personal Greeting */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Hi, <span className="text-yellow-600 underline italic">{user.name}!</span> <br /> I hereby present to you...
-        </h1>
+        <p className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 font-scribble">
+          Hi, <span className="text-yellow-600 underline italic">{user.name}!</span> <br /> 
+        </p>
 
         {/* Main Title */}
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-red-600 mb-4 tracking-tight">
+        <p className="text-4xl sm:text-5xl md:text-6xl font-extrabold  text-red-600 mb-4 tracking-tight">
+          Give Me 5 Minutes...And I'll Show You Why 90% of Nigerian Businesses Fail — And How to NOT Fall Into It.
+        </p>
+        {/* <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-red-600 mb-4 tracking-tight">
           THE 5 BUSINESS AUTOPSIES
-        </h2>
+        </h2> */}
 
         {/* Subtitle */}
-        <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-700 max-w-3xl mx-auto">
+        {/* <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-700 max-w-3xl mx-auto">
           Why 90% of Nigerian Businesses Fail — And How to NOT Fall Into It
-        </p>
+        </p> */}
 
         {/* Optional Brand/Tagline */}
         <div className="mt-6 text-sm sm:text-base text-gray-500 italic">
@@ -74,11 +77,11 @@ export default function AutopsyReport() {
       </header>
 
       {/* Introduction */}
-      <section className="mb-12 bg-green-50 p-6 rounded-xl border-l-4 border-green-600">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-green-800">
-          🟢 Introduction: The Streets Are Littered With Dead Businesses
+      <section className="mb-12 bg-green-50 p-6 rounded-xl border-l-4 border-green-600 ">
+        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-green-800 text-center">
+          🟢 The Streets Are Littered With Dead Businesses
         </h3>
-        <p className="mb-4 font-medium">It's not a joke.</p>
+        <p className="mb-4 font-medium text-center mt-3">It's not a joke.</p>
         <p className="mb-4">
           Every street has them: shops that open with fireworks, then quietly
           close.
@@ -89,7 +92,7 @@ export default function AutopsyReport() {
           <br />
           Boutiques with stock that never moves.
         </p>
-        <p className="mb-4 font-semibold">The truth?</p>
+        <p className="mb-4 font-semibold text-center mt-3">The truth?</p>
         <p className="mb-4">
           Most Nigerians don't fail because they're lazy or don't hustle hard
           enough.
@@ -112,7 +115,7 @@ export default function AutopsyReport() {
         <h4 className="font-bold mb-2 text-gray-800">Scene of the Crime:</h4>
         <p className="mb-4">
           When Musa saw everyone rushing into the phone accessory business, he
-          thought he'd hit gold. He emptied his savings to fill a glass counter
+          thought he'd hit gold. He emptied his savings and took loan from his friends to fill a glass counter
           with chargers, power banks, and cases.
         </p>
         <h4 className="font-bold mb-2 text-gray-800">
