@@ -1,15 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Kalam } from 'next/font/google'
 
-const kalam = Kalam({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-kalam'
-})
 
 export default function SalesPage() {
   return (
-    <main className={`${kalam.variable} font-sans min-h-screen bg-white text-gray-900`}>
+    <main className={`font-body min-h-screen bg-white text-gray-900`}>
       {/* Hero Section */}
       <section className="py-12 px-4 md:py-20 max-w-4xl mx-auto">
         <div className="text-center mb-12">

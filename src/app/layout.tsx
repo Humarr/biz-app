@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Anton, Patrick_Hand, Poppins } from 'next/font/google'
+import { Inter, Anton, Patrick_Hand, Poppins, Kalam } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
@@ -32,6 +32,12 @@ const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
 })
 
+
+const kalam = Kalam({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-kalam'
+})
 export const metadata: Metadata = {
   title: 'Your Product | Transformative Solution',
   description: 'The ultimate solution for [your target audience]',
@@ -44,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable}`}>
+    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable}`}>
       <body className="antialiased">
         <div className="min-h-screen flex flex-col">
           {children}

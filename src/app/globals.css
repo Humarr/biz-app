@@ -17,6 +17,7 @@
   --font-headline: var(--font-anton);
   --font-scribble: var(--font-patrick-hand);
   --font-headline2: var(--font-poppins);
+  --font-kalam: var(--font-kalam)
 }
 
 /* ====== Theme Definition ====== */
@@ -27,11 +28,12 @@
   --color-highlight: var(--highlight);
   --color-background: var(--background);
   --color-note: var(--note);
-
+  
   --font-body: var(--font-body);
   --font-headline: var(--font-headline);
   --font-scribble: var(--font-scribble);
   --font-headline2: var(--font-headline2);
+  --font-kalam: var(--font-kalam)
 }
 
 /* ====== Dark Mode ====== */
