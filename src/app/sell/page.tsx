@@ -630,6 +630,52 @@ export default function SalesPage() {
 
 
 
+
+
+
+
+
+
+<div className="my-16" />
+
+<h2 className="text-2xl md:text-3xl font-bold mb-6 text-center border-b-2 border-red-500 pb-2">
+  INTRODUCING: THE ULTIMATE CASH MACHINE
+</h2>
+
+<div className="text-lg leading-relaxed space-y-6">
+  <p><strong>A stupidly simple guide to starting a business that prints money like a hacked ATM.</strong></p>
+  <p>This isn't another motivational business book filled with fluff and feel-good quotes.</p>
+  <p>This isn't another "follow your passion" guide that leaves you broke and confused.</p>
+  <p>This isn't another theoretical manual written by professors who've never made a naira in business.</p>
+  <p>This is the complete system that separates the 5% who succeed from the 95% who struggle.</p>
+  <p>This is the exact blueprint that transformed me from a broke graduate to a successful entrepreneur.</p>
+  <p>This is the same system that's helped hundreds of people break free from financial mediocrity.</p>
+
+  <p className="text-xl font-semibold text-green-700">Here's what you'll discover inside:</p>
+
+  <ul className="list-disc pl-6 space-y-2">
+    <li><strong>MODULE 1: THE MINDSET REVOLUTION</strong> – Why starting a business is actually SAFER than getting a job (this will blow your mind)...</li>
+    <li><strong>MODULE 2: THE OPPORTUNITY GOLDMINE</strong> – How to spot "crazily sweet" business opportunities hiding in plain sight...</li>
+    <li><strong>MODULE 3: THE VALIDATION FRAMEWORK</strong> – The 12 economic principles that separate winning ideas from losing ones...</li>
+    <li><strong>MODULE 4: THE BIG BOY POSITIONING STRATEGY</strong> – How to instantly position yourself as a premium player in any market...</li>
+    <li><strong>MODULE 5: THE IRRESISTIBLE OFFER FORMULA</strong> – How to create offers so good that people feel stupid saying no...</li>
+    <li><strong>MODULE 6: THE FEARLESS PRICING SYSTEM</strong> – How to price confidently without losing sales...</li>
+    <li><strong>MODULE 7: THE CUSTOMER MAGNETISM METHOD</strong> – How to attract customers who are eager to buy from you...</li>
+    <li><strong>MODULE 8: THE EVANGELISM ENGINE</strong> – How to turn customers into unpaid salespeople who promote your business...</li>
+    <li><strong>MODULE 9: THE AUTOMATION SYSTEM</strong> – How to build a business that works even when you're sleeping...</li>
+  </ul>
+
+  <p className="text-xl font-semibold text-green-700">Plus, you'll also get:</p>
+
+  <ul className="list-disc pl-6 space-y-2">
+    <li><strong>BONUS #1: THE COPYWRITING ARSENAL</strong> – 9 proven copywriting secrets that turn browsers into buyers...</li>
+    <li><strong>BONUS #2: THE QUICK-START CHECKLIST</strong> – A simple step-by-step checklist that takes you from idea to first sale in 30 days or less.</li>
+    <li><strong>BONUS #3: THE PROFIT CALCULATOR</strong> – A simple tool that tells you exactly how much money you can make from any business idea.</li>
+  </ul>
+</div>
+
+
+
     </main>
   );
 } 
