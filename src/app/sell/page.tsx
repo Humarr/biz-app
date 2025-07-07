@@ -273,6 +273,127 @@ export default function SalesPage() {
           Not only are you playing by the wrong rules, you're also fighting against enemies you don't even know exist.
         </p>
       </div>
+
+        {/* SECTION HEADER */}
+        <h2 className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-center border-b-2 border-red-500 pb-2">
+        THE INVISIBLE ENEMIES THAT HAVE BEEN SABOTAGING YOUR SUCCESS
+      </h2>
+
+      <div className="text-lg leading-relaxed space-y-6">
+        {/* Enemy #1 */}
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          <h3 className="text-xl font-bold text-red-600">Enemy #1: The Poverty Programming</h3>
+        </div>
+        <p>
+          From the day you were born, you've been programmed to think small.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>"Money is not everything."</li>
+          <li>"Rich people are greedy."</li>
+          <li>"Business is risky."</li>
+          <li>"Be grateful for what you have."</li>
+          <li>"Don't aim too high or you'll be disappointed."</li>
+        </ul>
+        <p>
+          These innocent-sounding phrases have been drilling into your subconscious for decades, creating invisible barriers that keep you from even attempting to build wealth.
+        </p>
+
+        {/* Enemy #2 */}
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          <h3 className="text-xl font-bold text-red-600">Enemy #2: The Education Scam</h3>
+        </div>
+        <p>
+          They sold you a lie called "go to school, get good grades, get a good job."
+        </p>
+        <p>
+          They made you believe that a piece of paper would guarantee your success.
+        </p>
+        <p>
+          They convinced you that memorizing information was the same as learning valuable skills.
+        </p>
+        <p>
+          They taught you to be a good employee instead of teaching you to be a good entrepreneur.
+        </p>
+        <p className="font-semibold text-red-600">
+          And now you're finding out the hard way that your degree is just expensive toilet paper.
+        </p>
+
+        {/* Enemy #3 */}
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          <h3 className="text-xl font-bold text-red-600">Enemy #3: The Job Market Illusion</h3>
+        </div>
+        <p>
+          They told you there are "good jobs" waiting for you after graduation.
+        </p>
+        <p>
+          They made you believe that if you just work hard enough, you'll climb the corporate ladder.
+        </p>
+        <p>
+          They convinced you that job security is real and that employers care about your well-being.
+        </p>
+
+        <p className="bg-red-50 border-l-4 border-red-500 p-4">
+          But here's the reality:
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>The "good jobs" don't exist.</li>
+          <li>The corporate ladder is a myth.</li>
+          <li>Job security died with your grandfather's generation.</li>
+        </ul>
+
+        <p>
+          And while you're busy writing "I beg to apply" letters, other people are building businesses and creating their own opportunities.
+        </p>
+
+        {/* Enemy #4 */}
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          <h3 className="text-xl font-bold text-red-600">Enemy #4: The Fake Guru Army</h3>
+        </div>
+        <p>
+          These are the vultures who prey on desperate people like you.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>They post pictures in front of rented Lamborghinis and borrowed private jets.</li>
+          <li>They sell you "proven systems" that are just recycled motivational quotes.</li>
+          <li>They promise you'll make millions in 30 days if you just buy their 200k course.</li>
+        </ul>
+        <p>
+          And after you pay, they disappear faster than your money.
+        </p>
+
+        {/* Enemy #5 */}
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          <h3 className="text-xl font-bold text-red-600">Enemy #5: The Nigerian Dream Merchants</h3>
+        </div>
+        <p>
+          These are the local scammers who've perfected the art of selling false hope.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>They promise you'll become a millionaire through forex trading.</li>
+          <li>They convince you that cryptocurrency is your ticket to freedom.</li>
+          <li>They sell you on network marketing schemes that only make the people at the top rich.</li>
+        </ul>
+        <p>
+          They're the reason you're skeptical of everything now.
+        </p>
+        <p>
+          They're the reason you don't trust anyone offering to help you make money.
+        </p>
+        <p>
+          And they're the reason you're stuck in analysis paralysis instead of taking action.
+        </p>
+
+        {/* BRIDGE TO NEXT SECTION */}
+        <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 my-8">
+          <p className="text-xl text-green-800 font-semibold text-center">
+            But here's the thing...
+          </p>
+          <p className="text-lg text-gray-800 text-center mt-2">
+            While these enemies have been busy keeping you broke, there's a small group of people who figured out how to beat the system.
+          </p>
+        </div>
+      </div>
+      
     </main>
   );
 } 
