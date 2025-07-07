@@ -549,6 +549,87 @@ export default function SalesPage() {
 
 
 
+
+
+      <div className="my-16" />
+
+<h2 className="text-2xl md:text-3xl font-bold mb-6 text-center border-b-2 border-red-500 pb-2">
+  THE SYSTEM THAT SEPARATES THE WINNERS FROM THE LOSERS
+</h2>
+
+<div className="text-lg leading-relaxed space-y-6">
+  <p>Over the next 18 months, I became obsessed.</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>I studied every successful entrepreneur I could find.</li>
+    <li>I analyzed every business model that actually worked.</li>
+    <li>I tested every principle that claimed to create wealth.</li>
+    <li>I separated the real strategies from the fake ones.</li>
+    <li>I identified the patterns that successful people follow.</li>
+  </ul>
+
+  <p className="font-semibold">And I discovered something shocking:</p>
+
+  <div className="bg-green-50 border-2 border-green-600 rounded-lg p-6">
+    <p className="font-bold text-green-800 text-xl mb-4">There's actually a simple, systematic approach to building wealth that 95% of people never learn.</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>It's not complicated.</li>
+      <li>It's not expensive to implement.</li>
+      <li>It's not dependent on luck or connections.</li>
+    </ul>
+  </div>
+
+  <p className="text-red-600 font-bold">But it is hidden.</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Hidden by the education system that profits from keeping you ignorant.</li>
+    <li>Hidden by the job market that needs you to stay desperate.</li>
+    <li>Hidden by the fake gurus who make money selling you false hope.</li>
+    <li>Hidden by the government that needs you to stay dependent.</li>
+  </ul>
+
+  <p className="text-xl font-semibold text-green-700">This system has 9 core components:</p>
+
+  <div className="bg-blue-50 border-l-4 border-blue-600 p-4">
+    <ul className="space-y-2">
+      <li><span className="font-bold">Component #1: The Mindset Shift</span> – How to reprogram your brain from poverty thinking to wealth thinking.</li>
+      <li><span className="font-bold">Component #2: The Opportunity Radar</span> – How to spot profitable business opportunities that others miss.</li>
+      <li><span className="font-bold">Component #3: The Validation Framework</span> – How to test any business idea without losing money.</li>
+      <li><span className="font-bold">Component #4: The Positioning Strategy</span> – How to position yourself as the obvious choice in any market.</li>
+      <li><span className="font-bold">Component #5: The Offer Formula</span> – How to create offers so irresistible that people fight to buy from you.</li>
+      <li><span className="font-bold">Component #6: The Pricing Psychology</span> – How to price your products and services for maximum profit.</li>
+      <li><span className="font-bold">Component #7: The Customer Magnetism Method</span> – How to attract customers who are eager to buy from you.</li>
+      <li><span className="font-bold">Component #8: The Evangelism Engine</span> – How to turn customers into unpaid salespeople who promote your business.</li>
+      <li><span className="font-bold">Component #9: The Automation System</span> – How to build a business that makes money while you sleep.</li>
+    </ul>
+  </div>
+
+  <p className="text-lg font-medium">When you master these 9 components, something magical happens:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>You stop being at the mercy of employers.</li>
+    <li>You stop worrying about bills.</li>
+    <li>You stop calculating every naira you spend.</li>
+    <li>You stop being the family disappointment.</li>
+    <li>You stop living in fear and start living in confidence.</li>
+    <li>You become one of the 5% who have figured it out.</li>
+  </ul>
+
+  <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+    <p className="font-semibold text-red-700">But here's the problem...</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Learning these components took me 18 months of obsessive research and testing.</li>
+      <li>It cost me over 500k in courses, books, and failed experiments.</li>
+      <li>It required me to go through countless scams and disappointments.</li>
+    </ul>
+  </div>
+
+  <p className="text-lg">What if I told you there was a way to learn all of this without going through what I went through?</p>
+  <p className="text-lg">What if I told you there was a way to compress 18 months of learning into 18 hours of reading?</p>
+  <p className="text-lg">What if I told you there was a way to get the complete system for less than what you'd spend on transport fare in a month?</p>
+
+  <p className="text-lg font-bold text-green-700">Well, that's exactly what I'm about to offer you...</p>
+</div>
+
+
+
     </main>
   );
 } 
