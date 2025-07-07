@@ -28,11 +28,11 @@ export default function SalesPage() {
             Listen...
           </p>
           <div className="absolute -right-4 top-0 w-24 md:w-32">
-            <div className="transform rotate-12 bg-yellow-100 p-2 rounded shadow-md">
+            {/* <div className="transform rotate-12 bg-yellow-100 p-2 rounded shadow-md">
               <p className="text-xs md:text-sm text-red-600 font-kalam leading-tight">
                 This will change everything...
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
