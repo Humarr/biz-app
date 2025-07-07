@@ -167,7 +167,112 @@ export default function SalesPage() {
         <p className="text-xl font-semibold text-red-600">
           Well, I'm about to tell you exactly why that's happening...
         </p>
+
+        {/* SECTION HEADER */}
+        <h2 className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-center border-b-2 border-red-500 pb-2">
+          THE BRUTAL TRUTH ABOUT WHY YOU'RE STILL BROKE
+        </h2>
+
+        <p>
+          You want to know the real reason you're still struggling?
+        </p>
+
+        <p>
+          It's not because you're not smart enough.
+        </p>
+
+        <p>
+          It's not because you don't work hard enough.
+        </p>
+
+        <p>
+          It's not because you don't have connections.
+        </p>
+
+        <p>
+          It's not because you don't have capital.
+        </p>
+
+        <p className="font-bold text-red-600 text-xl">
+          It's because you've been lied to your entire life.
+        </p>
+
+        <p>
+          You've been fed a script that was designed to keep you exactly where you are.
+        </p>
+
+        <p>
+          You've been programmed to think like an employee when you should be thinking like an owner.
+        </p>
+
+        <p>
+          You've been taught to look for jobs when you should be creating them.
+        </p>
+
+        <p>
+          You've been conditioned to ask for opportunities when you should be making them.
+        </p>
+
+        <p className="text-red-600 font-semibold">
+          And the worst part?
+        </p>
+
+        <p>
+          The people who fed you these lies genuinely believe they're helping you.
+        </p>
+
+        <p>
+          Your parents genuinely believe that going to school and getting a good job is the path to success.
+        </p>
+
+        <p>
+          Your lecturers genuinely believe that a degree is your ticket to the good life.
+        </p>
+
+        <p>
+          Your friends genuinely believe that "hustling" and "grinding" will eventually pay off.
+        </p>
+
+        <p className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          But here's what they don't know...
+        </p>
+
+        <p>
+          The game changed decades ago.
+        </p>
+
+        <p>
+          The rules they taught you are from a different era.
+        </p>
+
+        <p>
+          The script they gave you is obsolete.
+        </p>
+
+        <p className="font-bold text-red-600">
+          And that's why you're stuck.
+        </p>
+
+        <p>
+          You're playing by old rules in a new game.
+        </p>
+
+        <p>
+          You're using a map from the 1980s to navigate the 2020s.
+        </p>
+
+        <p>
+          You're trying to win a race while everyone else is using a different vehicle.
+        </p>
+
+        <p className="text-red-600 font-semibold">
+          But it gets worse...
+        </p>
+
+        <p>
+          Not only are you playing by the wrong rules, you're also fighting against enemies you don't even know exist.
+        </p>
       </div>
     </main>
   );
-}
+} 
