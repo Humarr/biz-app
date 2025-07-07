@@ -491,6 +491,64 @@ export default function SalesPage() {
       </div>
 
 
+
+
+
+      <h2 className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-center border-b-2 border-red-500 pb-2">
+        THE NIGHT EVERYTHING CHANGED FOR ME
+      </h2>
+
+      <div className="text-lg leading-relaxed space-y-6">
+        <p>Let me tell you a story.</p>
+        <p>Three years ago, I was just like you.</p>
+        <p>Broke. Frustrated. Angry at the world.</p>
+        <p>I had a degree that wasn't worth the paper it was printed on.</p>
+        <p>I had skills that nobody seemed to value.</p>
+        <p>I had dreams that felt more like fantasies.</p>
+        <p>I was tired of being the family disappointment.</p>
+        <p>I was tired of my parents' concerned looks.</p>
+        <p>I was tired of making excuses for why I couldn't afford basic things.</p>
+        <p>I was tired of being tired.</p>
+
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4">
+          <p className="italic">One night, I was scrolling through Facebook (because I couldn't afford Netflix) when I saw a post from a former classmate.</p>
+          <p>He was posting pictures of his new car.</p>
+          <p>His new apartment.</p>
+          <p>His new life.</p>
+          <p>And I lost it.</p>
+          <p>I threw my phone against the wall.</p>
+          <p>I screamed at the ceiling.</p>
+          <p>I cried like a baby.</p>
+        </div>
+
+        <p>But then something clicked.</p>
+        <p>Instead of being angry at him, I got curious.</p>
+        <p>This guy was not smarter than me.</p>
+        <p>He didn't have richer parents.</p>
+        <p>He didn't have better connections.</p>
+        <p>So what did he have that I didn't?</p>
+        <p>I swallowed my pride and sent him a message.</p>
+        <p className="text-xl font-semibold text-green-700">"Guy, how you take do am?"</p>
+
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
+          <p className="font-semibold">What he told me changed everything.</p>
+          <p className="italic">He said: "Bro, I stopped looking for jobs and started creating them. I stopped trying to get hired and started learning to sell. I stopped thinking like an employee and started thinking like a business owner."</p>
+          <p className="mt-4 font-bold text-red-600">Then he said something that hit me like a thunderbolt:</p>
+          <p className="text-lg font-semibold text-red-700">"The difference between broke people and rich people is not intelligence. It's not connections. It's not capital. It's knowledge. Rich people know things that broke people don't know."</p>
+        </div>
+
+        <p className="text-xl font-semibold">That night, I made a decision.</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>I decided to learn what the 5% know.</li>
+          <li>I decided to stop being a victim and start being a victor.</li>
+          <li>I decided to stop making excuses and start making money.</li>
+        </ul>
+
+        <p className="mt-6 text-lg">And that's when I discovered the system that changed everything...</p>
+      </div>
+
+
+
     </main>
   );
 } 
