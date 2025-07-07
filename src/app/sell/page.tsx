@@ -676,6 +676,45 @@ export default function SalesPage() {
 
 
 
+
+
+
+<div className="my-16" />
+
+
+
+
+
+
+
+<h2 className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-center border-b-2 border-red-500 pb-2">
+          WHAT HAPPENS WHEN YOU IMPLEMENT THIS SYSTEM
+        </h2>
+
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Week 1:</strong> You'll experience the mindset shift that changes everything. You'll stop thinking like an employee and start thinking like a business owner.</li>
+          <li><strong>Week 2:</strong> You'll identify 3–5 profitable business opportunities that you never noticed before.</li>
+          <li><strong>Week 3:</strong> You'll validate your best idea and know with certainty whether it will work.</li>
+          <li><strong>Week 4:</strong> You'll create your first irresistible offer and start attracting customers.</li>
+          <li><strong>Month 2:</strong> You'll make your first sales and start building momentum.</li>
+          <li><strong>Month 3:</strong> You'll have a steady stream of customers and consistent income.</li>
+          <li><strong>Month 6:</strong> You'll be making more money than your friends with "good jobs."</li>
+          <li><strong>Month 12:</strong> You'll be the family success story instead of the family disappointment.</li>
+        </ul>
+
+        <div className="mt-6 space-y-2">
+          <p className="text-lg font-semibold">But more importantly...</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>You'll never again have to calculate transport fare.</li>
+            <li>You'll never again have to dodge calls from family members who need money.</li>
+            <li>You'll never again have to make excuses for why you can't afford basic things.</li>
+            <li>You'll never again have to feel ashamed of your financial situation.</li>
+            <li>You'll finally have the respect, recognition, and resources you deserve.</li>
+          </ul>
+        </div>
+    
+ 
+
     </main>
   );
 } 
