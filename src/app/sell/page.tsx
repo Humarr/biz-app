@@ -393,7 +393,104 @@ export default function SalesPage() {
           </p>
         </div>
       </div>
-      
+
+
+      <h2 className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-center border-b-2 border-red-500 pb-2">
+        THE 5% WHO BROKE FREE (And What They Know That You Don't)
+      </h2>
+
+      <div className="text-lg leading-relaxed space-y-6">
+        <p>
+          You've probably noticed them.
+        </p>
+        <p>
+          They're the ones who seem to have cracked some secret code.
+        </p>
+        <p>
+          They're the ones making "bastard money" while you're still calculating transport fare.
+        </p>
+        <p>
+          They're the ones living in nice areas while you're still sharing toilets with 20 neighbors.
+        </p>
+        <p>
+          They're the ones your parents compare you to.
+        </p>
+        <p className="text-xl font-semibold text-red-600">
+          What do they know that you don't?
+        </p>
+
+        {/* Secret #1 */}
+        <div className="bg-green-50 border-l-4 border-green-500 p-4">
+          <h3 className="text-xl font-bold text-green-700">Secret #1: They Know Business is Less Risky Than Employment</h3>
+        </div>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>While you're scared of starting a business because it's "risky," they know that depending on a job is the real risk.</li>
+          <li>They know that businesses can make money 24/7 while jobs only pay when you're present.</li>
+          <li>They know that businesses have unlimited income potential while jobs have salary caps.</li>
+          <li>They know that businesses build wealth while jobs just pay bills.</li>
+        </ul>
+
+        {/* Secret #2 */}
+        <div className="bg-green-50 border-l-4 border-green-500 p-4">
+          <h3 className="text-xl font-bold text-green-700">Secret #2: They Know How to Spot Real Opportunities</h3>
+        </div>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>While you're waiting for the "perfect opportunity," they're creating opportunities everywhere they look.</li>
+          <li>They see problems and think "business opportunity."</li>
+          <li>They see inefficiencies and think "profit potential."</li>
+          <li>They see complaints and think "unmet demand."</li>
+        </ul>
+
+        {/* Secret #3 */}
+        <div className="bg-green-50 border-l-4 border-green-500 p-4">
+          <h3 className="text-xl font-bold text-green-700">Secret #3: They Know How to Test Ideas Without Losing Money</h3>
+        </div>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>While you're scared to try anything because you might lose money, they know how to test business ideas with minimal investment.</li>
+          <li>They know how to validate demand before creating supply.</li>
+          <li>They know how to get customers before they have products.</li>
+          <li>They know how to make money before they spend money.</li>
+        </ul>
+
+        {/* Secret #4 */}
+        <div className="bg-green-50 border-l-4 border-green-500 p-4">
+          <h3 className="text-xl font-bold text-green-700">Secret #4: They Know How to Price Like Winners</h3>
+        </div>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>While you're scared to charge what you're worth, they price their products and services like the premium offerings they are.</li>
+          <li>They know that people equate price with value.</li>
+          <li>They know that expensive products often sell better than cheap ones.</li>
+          <li>They know that confident pricing attracts better customers.</li>
+        </ul>
+
+        {/* Secret #5 */}
+        <div className="bg-green-50 border-l-4 border-green-500 p-4">
+          <h3 className="text-xl font-bold text-green-700">Secret #5: They Know How to Make Customers Come Back</h3>
+        </div>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>While you're worried about making one sale, they're building systems that turn customers into repeat buyers and unpaid salespeople.</li>
+          <li>They know how to create offers so good that people feel stupid saying no.</li>
+          <li>They know how to deliver so much value that customers become raving fans.</li>
+          <li>They know how to build businesses that grow themselves.</li>
+        </ul>
+
+        {/* Final lead-in */}
+        <div className="bg-red-50 border-l-4 border-red-500 p-4 mt-8">
+          <p className="text-lg font-semibold">
+            But here's the million naira question...
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>How do you join the 5% who have figured it out?</li>
+            <li>How do you break free from the 95% who are stuck in the struggle?</li>
+            <li>How do you learn these secrets without falling victim to another scam?</li>
+          </ul>
+          <p className="mt-4 text-lg">
+            Well, I'm about to show you exactly how...
+          </p>
+        </div>
+      </div>
+
+
     </main>
   );
 } 
