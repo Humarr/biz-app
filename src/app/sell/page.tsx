@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-// /app/page.tsx
+// /app/sell/page.tsx
 
 
 export default function SalesPage() {
@@ -8,7 +8,7 @@ export default function SalesPage() {
 
       {/* HEADLINE */}
       <h1 className="text-4xl md:text-6xl font-black text-center mb-10 leading-tight">
-        <span className="text-red-600">TIRED OF BEING THE "BROKE UNCLE"</span>
+        <span className="text-red-600">TIRED OF BEING THE \"BROKE UNCLE\"</span>
         <br />
         <span className="text-gray-900">AT FAMILY GATHERINGS?</span>
       </h1>
@@ -23,7 +23,7 @@ export default function SalesPage() {
       <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
         Sick of Calculating Every Last Naira While
         <br className="md:hidden" />
-        <span className="text-red-600">Your Younger Mates Are Making "Bastard Money"</span> Like It's Child's Play?
+        <span className="text-red-600">Your Younger Mates Are Making \"Bastard Money\"</span> Like It's Child's Play?
       </h2>
 
       {/* BODY COPY */}
@@ -78,6 +78,95 @@ export default function SalesPage() {
             </div>
           </div>
         </div>
+
+        {/* SECTION HEADER */}
+        <h2 className="text-2xl md:text-3xl font-bold mt-16 mb-8 text-center border-b-2 border-red-500 pb-2">
+          THE MIDNIGHT THOUGHTS THAT WON'T LEAVE YOU ALONE
+        </h2>
+
+        <p>
+          You know what's keeping you up at night, right?
+        </p>
+
+        <p>
+          It's not just the mosquitoes or the generator noise from your neighbor's compound.
+        </p>
+
+        <p>
+          It's that crushing feeling in your chest when you realize you're 25... 28... 32... and you're still in the same exact spot you were 3 years ago.
+        </p>
+
+        <p>
+          It's the shame that burns in your throat when your parents throw those disappointed looks your way.
+        </p>
+
+        <p>
+          It's the anger that builds up when you see your former classmates posting pictures of their new cars while you're still begging for bike fare.
+        </p>
+
+        <p>
+          It's the embarrassment that makes you want to disappear when family members start talking about "successful people" and you know they're definitely not talking about you.
+        </p>
+
+        <p>
+          You're tired of being invisible, aren't you?
+        </p>
+
+        <p>
+          Tired of your voice not mattering in family discussions because "what does he know about money anyway?"
+        </p>
+
+        <p>
+          Tired of walking past that girl you've been crushing on since secondary school because you know you can't even afford to buy her a decent meal.
+        </p>
+
+        <p>
+          Tired of your friends gradually stopping to invite you out because they know you'll either make excuses or ask to "borrow" money.
+        </p>
+
+        <p>
+          Tired of checking your account balance and feeling that familiar punch in the gut when you see those depressing numbers.
+        </p>
+
+        <p className="text-xl font-bold text-red-600">
+          But here's what really hurts the most...
+        </p>
+
+        <p>
+          You KNOW you're not stupid.
+        </p>
+
+        <p>
+          You KNOW you're not lazy.
+        </p>
+
+        <p>
+          You KNOW you have ideas, dreams, and ambitions.
+        </p>
+
+        <p>
+          Yet somehow, you're stuck watching people who are clearly less intelligent than you living the life you want.
+        </p>
+
+        <p>
+          And that's what's driving you crazy, isn't it?
+        </p>
+
+        <p>
+          The fact that you can't figure out what they know that you don't.
+        </p>
+
+        <p>
+          The fact that you're working twice as hard but getting half the results.
+        </p>
+
+        <p>
+          The fact that you're following all the "rules" but still ending up broke.
+        </p>
+
+        <p className="text-xl font-semibold text-red-600">
+          Well, I'm about to tell you exactly why that's happening...
+        </p>
       </div>
     </main>
   );
