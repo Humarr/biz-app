@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import Link from "next/link";
+
 
 export default function SalesPage() {
   return (
@@ -1657,9 +1659,11 @@ export default function SalesPage() {
           <p className="text-xl mb-6 line-through opacity-75">
             Regular Price: ₦19,900
           </p>
+          <Link href="https://selar.com/012403">
           <button className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md">
             GET YOUR COPY NOW
           </button>
+          </Link>
         </div>
 
         <div className="bg-yellow-100 border-2 border-yellow-500 rounded-lg p-4 my-8 max-w-md mx-auto text-center">
