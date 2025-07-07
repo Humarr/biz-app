@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // /app/page.tsx
 
-import MarginNote from "@/components/ui/MarginNote";
 
 export default function SalesPage() {
   return (
