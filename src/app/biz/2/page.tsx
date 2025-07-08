@@ -10,12 +10,11 @@ export default function SalesPage() {
         <div className="text-center mb-12">
         <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
   <span className="text-red-600 block">
-    They Said I Would Never <em>Make It</em> In Life — Like I Was Born To Stay Broke, Stuck, And Silent...
+    They Said I Would Never <em>Make It</em> In Life...
   </span>
   <span className="text-gray-900 block mt-4">
-    But Now I Wake Up To The <span className="italic">*</span>Ping<span className="italic">*</span> Of Payments,  
-    The Glow Of Opportunity, And The Smell Of Freedom While  
-    My Business Prints Money In Autopilot.
+    But Now I Wake Up To The <span className="italic">*</span>Ping<span className="italic">*</span> Of Payments While  
+    My Business Prints Money Like a Machine On Autopilot.
   </span>
 </p>
 
