@@ -98,7 +98,8 @@ export default function SalesPage() {
           you're calculating whether you can afford 500 naira for bread.
           <div className="my-6" />
           Your little cousins don't even greet you anymore. They see you coming
-          and whisper, "This one don come again. Stingy uncle."
+          and whisper,
+          <span className="font-scribble text-lg"> "This one don come again. Stingy uncle."</span>
         </p>
 
         <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
