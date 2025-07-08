@@ -543,8 +543,8 @@ export default function SalesPage() {
               It's worked for the 24-year-old NYSC corper who went from 33,000
               naira monthly to 400,000 naira monthly in 6 months.
               <div className="my-6" />
-              It's worked for the single mother who turned her N5,000 savings
-              into a business that now employs 8 people.
+              It's worked for the single mother who turned her N35,000 savings
+              into a business that now <em>employs 8 people.</em>
               <div className="my-6" />
               It's worked for the university dropout who everyone wrote off as a
               failure and who now makes more money than his professors.
