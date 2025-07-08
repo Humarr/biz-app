@@ -13,8 +13,8 @@ export default function SalesPage() {
             </span>
             <span className="text-gray-900 block mt-4">
               But Now I Wake Up To The <span className="italic">*</span>Ping
-              <span className="italic">*</span> Of Credit Alerts While My
-              Business Prints Money Like a 'Machine On Autopilot'.
+              <span className="italic">*</span> Of <span className="underline">Credit Alerts</span> While My
+              Business <span className="underline">Prints Money</span> Like a 'Machine On Autopilot'.
             </span>
           </p>
 
