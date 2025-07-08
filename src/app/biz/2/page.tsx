@@ -63,7 +63,7 @@ export default function SalesPage() {
         <p className="text-lg mb-8">
           Your stomach is churning with that familiar cocktail of shame, frustration, and raw fear.
           <div className="my-6" />
-          You calculate every naira. You've eaten garri for breakfast, lunch, and dinner more times than you care to count. Your phone battery is perpetually at 5% because you can't afford to pay your NEPA bill.
+          You calculate every naira. You've eaten garri for breakfast, lunch, and dinner more times than you care to count. <div className="my-6" />Your phone battery is perpetually at 5% because you can't afford to pay your NEPA bill.
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
