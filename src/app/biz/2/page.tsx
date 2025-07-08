@@ -24,7 +24,7 @@ export default function SalesPage() {
           </p> */}
           
           <p className="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-red-500 pb-2 inline-block">
-            And now I'm going to show you exactly how to do the same - even if you're broke, desperate, and tired of being the "unsuccessful" one in your family
+            Read on... and I'm going to show you exactly how to do the same - even if you're broke, desperate, and tired of being the "unsuccessful" one in your family
           </p>
         </div>
 
