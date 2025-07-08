@@ -437,14 +437,14 @@ export default function SalesPage() {
         <p className="text-lg mb-8">
           Here's what most people do:
           <div className="my-6" />
-          They think, "I want to start a business," then they ask their mum,
+          They think,  <span className="font-scribble text-xl">"I want to start a business,"</span> then they ask their mum,
           sister, or friend what business they should start.
         </p>
 
         <div className="bg-yellow-50 p-6 rounded-lg mb-8">
           <p className="text-lg italic">
-            "Start selling clothes," they say. "Food is always in demand." "Try
-            electronics."
+          <span className="font-scribble text-xl">"Start selling clothes,"</span> they say.  <span className="font-scribble text-xl">"Food is always in demand." "Try
+            electronics."</span>
           </p>
         </div>
 
