@@ -461,8 +461,8 @@ export default function SalesPage() {
             Because they built their business around what THEY wanted to sell,
             not what CUSTOMERS desperately wanted to buy.
             <div className="my-6" />
-            They never asked the most important question in business: "What
-            problem am I solving for people?"
+            They never asked the most important question in business:  <span className="font-scribble text-xl">"What
+            problem am I solving for people?</span>"
           </p>
         </div>
       </section>
