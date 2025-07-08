@@ -1,16 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Kalam } from 'next/font/google'
 import Link from 'next/link'
 
-const kalam = Kalam({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-kalam'
-})
 
 export default function SalesPage() {
   return (
-    <main className={`${kalam.variable} font-sans min-h-screen bg-white text-gray-900`}>
+    <main className={`font-body min-h-screen bg-white text-gray-900`}>
       {/* Hero Section */}
       <section className="py-12 px-4 md:py-20 max-w-4xl mx-auto">
         <div className="text-center mb-12">
@@ -19,9 +13,9 @@ export default function SalesPage() {
             <span className="text-gray-900">But I Built a Cash Machine That Prints Money Like a Hacked ATM</span>
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-red-500 pb-2 inline-block">
+          <p className="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-red-500 pb-2 inline-block">
             And now I'm going to show you exactly how to do the same - even if you're broke, desperate, and tired of being the "unsuccessful" one in your family
-          </h2>
+          </p>
         </div>
 
         <div className="relative">
@@ -40,7 +34,7 @@ export default function SalesPage() {
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
           <p className="text-lg">
             It's 3:47 AM and you're wide awake again.
-            <br />
+            <div className="my-6" />
             Your mind is racing with the same toxic thoughts that visit you every night like unwelcome guests:
           </p>
         </div>
@@ -68,7 +62,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           Your stomach is churning with that familiar cocktail of shame, frustration, and raw fear.
-          <br />
+          <div className="my-6" />
           You calculate every naira. You've eaten garri for breakfast, lunch, and dinner more times than you care to count. Your phone battery is perpetually at 5% because you can't afford to buy credit to charge it at those phone repair shops.
         </p>
 
@@ -83,7 +77,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           Your neighbor's son - the one who barely passed WAEC - just bought his third car. Your former classmate is posting photos from Dubai while you're calculating whether you can afford 50 naira for pure water.
-          <br />
+          <div className="my-6" />
           Your little cousins don't even greet you anymore. They see you coming and whisper, "This one don come again. Stingy uncle."
         </p>
 
@@ -98,7 +92,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           Your mother keeps mentioning how well your friend's daughter is doing. How she just got married and is building a house for her parents.
-          <br />
+          <div className="my-6" />
           Meanwhile, you're 28 (or 32, or 35) and still living like a teenager - broke, dependent, and frankly... irrelevant.
         </p>
 
@@ -108,7 +102,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           You're stuck in areas where "1 million boys" run wild. Where drainage systems overflow with every small rain and your room becomes a swimming pool of sewage.
-          <br />
+          <div className="my-6" />
           You've gotten that dreaded call: "Don't come home tonight. The boys have started again."
         </p>
 
@@ -124,7 +118,7 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             Not the Nollywood version where the poor guy suddenly becomes rich and marries the banker's daughter.
-            <br />
+            <div className="my-6" />
             This is the gritty, soul-crushing reality where you're one emergency away from complete disaster.
           </p>
         </div>
@@ -139,7 +133,7 @@ export default function SalesPage() {
 
           <p className="text-lg mb-8">
             Oh, you've seen them, haven't you?
-            <br />
+            <div className="my-6" />
             These jokers with their rented Lamborghinis and borrowed mansions, promising you'll make "passive income" while you sleep.
           </p>
 
@@ -162,7 +156,7 @@ export default function SalesPage() {
           <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
             <h3 className="text-xl font-bold mb-4 text-center">
               Bullshit.
-              <br />
+              <div className="my-6" />
               Pure, unadulterated bullshit.
             </h3>
           </div>
@@ -178,9 +172,9 @@ export default function SalesPage() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
             <p className="text-lg">
               These scammers are everywhere, preying on desperate people like vultures circling a corpse.
-              <br />
+              <div className="my-6" />
               They know you're hungry. They know you're desperate. They know you're tired of being broke.
-              <br />
+              <div className="my-6" />
               So they dangle these shiny promises in front of you like carrots in front of a donkey.
             </p>
           </div>
@@ -204,7 +198,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           Let me tell you about Emeka.
-          <br />
+          <div className="my-6" />
           Emeka was the golden boy. First Class Honors in Engineering from one of Nigeria's top universities. His parents were so proud they threw a party.
         </p>
 
@@ -216,7 +210,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           Emeka believed the script. He believed that his degree was his ticket to the good life.
-          <br />
+          <div className="my-6" />
           He applied to 247 companies. Got 3 interviews. Zero job offers.
         </p>
 
@@ -227,7 +221,7 @@ export default function SalesPage() {
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
           <p className="text-lg">
             Now Emeka is 28, living with his parents, and his younger cousins whisper "broke uncle" behind his back.
-            <br />
+            <div className="my-6" />
             His girlfriend left him for Chike - a guy who dropped out of school to start selling provisions and now owns 3 shops across Lagos.
           </p>
         </div>
@@ -235,7 +229,7 @@ export default function SalesPage() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">
             The system lied to Emeka.
-            <br />
+            <div className="my-6" />
             Just like it lied to you.
           </h3>
           <p className="text-lg">
@@ -250,7 +244,7 @@ export default function SalesPage() {
         <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
           <h3 className="text-xl font-bold text-center">
             You've been played.
-            <br />
+            <div className="my-6" />
             The game has changed, but nobody told you the new rules.
           </h3>
         </div>
@@ -308,7 +302,7 @@ export default function SalesPage() {
 
           <p className="text-lg mb-8">
             Instead, I went on a mission. A mission to crack the code of business success.
-            <br />
+            <div className="my-6" />
             Not the fake guru version of success. Not the "get rich quick" nonsense.
           </p>
 
@@ -318,9 +312,9 @@ export default function SalesPage() {
             </h3>
             <p className="text-lg">
               The kind that lets you sleep peacefully at night knowing your bills are paid.
-              <br />
+              <div className="my-6" />
               The kind that lets you walk into family gatherings with your head held high.
-              <br />
+              <div className="my-6" />
               The kind that makes people say, "I want to be like you" instead of avoiding you because they think you're going to ask for money.
             </p>
           </div>
@@ -343,18 +337,18 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             They fail because they're following the wrong blueprint.
-            <br />
+            <div className="my-6" />
             They're asking the wrong questions.
-            <br />
+            <div className="my-6" />
             They're solving the wrong problems.
-            <br />
+            <div className="my-6" />
             They're building businesses for themselves instead of for their customers.
           </p>
         </div>
 
         <p className="text-lg mb-8">
           Here's what most people do:
-          <br />
+          <div className="my-6" />
           They think, "I want to start a business," then they ask their mum, sister, or friend what business they should start.
         </p>
 
@@ -366,7 +360,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           So they go and spend their savings buying inventory. They rent a shop. They stock up on products.
-          <br />
+          <div className="my-6" />
           Then they sit there, waiting for customers who never come.
         </p>
 
@@ -376,7 +370,7 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg text-center">
             Because they built their business around what THEY wanted to sell, not what CUSTOMERS desperately wanted to buy.
-            <br />
+            <div className="my-6" />
             They never asked the most important question in business: "What problem am I solving for people?"
           </p>
         </div>
@@ -423,11 +417,11 @@ export default function SalesPage() {
             </h3>
             <p className="text-lg">
               They do all of this using a simple, repeatable system that anyone can follow.
-              <br />
+              <div className="my-6" />
               Even if you're broke right now.
-              <br />
+              <div className="my-6" />
               Even if you've never run a business before.
-              <br />
+              <div className="my-6" />
               Even if you can't spell "entrepreneur."
             </p>
           </div>
@@ -438,11 +432,11 @@ export default function SalesPage() {
             </h3>
             <p className="text-lg text-center">
               It's worked for hundreds of people I've taught privately.
-              <br />
+              <div className="my-6" />
               It's worked for the 24-year-old NYSC corper who went from 33,000 naira monthly to 400,000 naira monthly in 6 months.
-              <br />
+              <div className="my-6" />
               It's worked for the single mother who turned her N5,000 savings into a business that now employs 8 people.
-              <br />
+              <div className="my-6" />
               It's worked for the university dropout who everyone wrote off as a failure and who now makes more money than his professors.
             </p>
           </div>
@@ -984,7 +978,7 @@ export default function SalesPage() {
 
           <p className="text-lg mb-8">
             In fact, I was going to release this for free.
-            <br />
+            <div className="my-6" />
             But my business partner looked at me like I was crazy.
           </p>
 
@@ -996,7 +990,7 @@ export default function SalesPage() {
 
           <p className="text-lg mb-8">
             He was right.
-            <br />
+            <div className="my-6" />
             I've seen it happen before. People don't value what they don't pay for.
           </p>
 
@@ -1008,9 +1002,9 @@ export default function SalesPage() {
             <p className="text-4xl font-bold mb-2">Just ₦9,950</p>
             <p className="text-xl mb-4">
               That's less than what you'd spend on a weekend outing.
-              <br />
+              <div className="my-6" />
               Less than what you'd spend on a pair of sneakers.
-              <br />
+              <div className="my-6" />
               Less than what you'd spend on airtime in a month.
             </p>
             <p className="text-2xl font-bold">
@@ -1028,7 +1022,7 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           I'm not going to beg you to buy this.
-          <br />
+          <div className="my-6" />
           I'm not going to use some countdown timer or fake scarcity tactics.
         </p>
 
@@ -1038,9 +1032,9 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             Most people will read this page and do nothing.
-            <br />
+            <div className="my-6" />
             They'll find excuses. They'll say they don't have the money. They'll say they'll "think about it."
-            <br />
+            <div className="my-6" />
             They'll keep doing the same things that got them broke in the first place.
           </p>
         </div>
@@ -1051,11 +1045,11 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             This isn't for everyone.
-            <br />
+            <div className="my-6" />
             This is only for the 5% who are serious about changing their lives.
-            <br />
+            <div className="my-6" />
             The 5% who are tired of being broke.
-            <br />
+            <div className="my-6" />
             The 5% who are willing to follow a proven system instead of making the same mistakes everyone else is making.
           </p>
         </div>
@@ -1063,7 +1057,7 @@ export default function SalesPage() {
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
           <h3 className="text-xl font-bold text-center">
             If you're part of the 95% who will find excuses, please don't buy this.
-            <br />
+            <div className="my-6" />
             Save your money for garri and pure water.
           </h3>
         </div>
@@ -1071,15 +1065,15 @@ export default function SalesPage() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <h3 className="text-xl font-bold text-center">
             But if you're part of the 5% who are ready to take action...
-            <br />
+            <div className="my-6" />
             If you're tired of being the "unsuccessful" one in your family...
-            <br />
+            <div className="my-6" />
             If you're tired of calculating every naira you spend...
-            <br />
+            <div className="my-6" />
             If you're tired of living in fear of the next emergency...
-            <br />
+            <div className="my-6" />
             If you're ready to build a business that gives you respect, dignity, and financial freedom...
-            <br />
+            <div className="my-6" />
             Then this is for you.
           </h3>
         </div>
@@ -1102,9 +1096,9 @@ export default function SalesPage() {
             </h3>
             <p className="text-lg">
               No questions asked.
-              <br />
+              <div className="my-6" />
               No hoops to jump through.
-              <br />
+              <div className="my-6" />
               Just send me a message and I'll refund your money immediately.
             </p>
           </div>
@@ -1193,11 +1187,11 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             The choice is yours.
-            <br />
+            <div className="my-6" />
             But understand this: every day you wait is money lost.
-            <br />
+            <div className="my-6" />
             Every day you spend broke is another day your family loses respect for you.
-            <br />
+            <div className="my-6" />
             Every day you stay in that ghetto is another day you risk your safety.
           </p>
         </div>
@@ -1210,18 +1204,18 @@ export default function SalesPage() {
 
         <p className="text-lg mb-8">
           Time is not your friend.
-          <br />
+          <div className="my-6" />
           The economy is not getting better.
-          <br />
+          <div className="my-6" />
           Jobs are not becoming more available.
-          <br />
+          <div className="my-6" />
           The fake gurus are not going to suddenly start telling the truth.
         </p>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <h3 className="text-xl font-bold text-center">
             The only thing that's going to change your situation is YOU.
-            <br />
+            <div className="my-6" />
             And you can either change it with a proven blueprint, or you can keep stumbling in the dark.
           </h3>
         </div>
@@ -1236,25 +1230,27 @@ export default function SalesPage() {
 
           <p className="text-lg mb-8 text-center">
             Click the button below and you'll get instant access to The Ultimate Cash Machine.
-            <br />
+            <div className="my-6" />
             You'll be able to download it immediately and start reading within 2 minutes.
-            <br />
+            <div className="my-6" />
             No waiting. No delays. No excuses.
           </p>
 
           <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-lg text-center mb-8">
             <p className="text-4xl font-bold mb-4">₦9,950</p>
+            <Link href="https://selar.com/012403">
             <button className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md">
               GET THE ULTIMATE CASH MACHINE NOW
             </button>
+            </Link>
           </div>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
             <h3 className="text-xl font-bold text-center">
               But remember - this is only for serious people.
-              <br />
+              <div className="my-6" />
               People who are committed to changing their lives.
-              <br />
+              <div className="my-6" />
               People who are willing to follow instructions instead of trying to reinvent the wheel.
             </h3>
             <p className="text-lg font-bold text-center mt-4">
@@ -1360,7 +1356,7 @@ export default function SalesPage() {
               </ul>
               <p className="font-bold mt-4">
                 These people will be successful.
-                <br />
+                <div className="my-6" />
                 Not because they're smarter or luckier, but because they take action when others make excuses.
               </p>
             </div>
@@ -1369,7 +1365,7 @@ export default function SalesPage() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
             <h3 className="text-xl font-bold text-center">
               Which type are you?
-              <br />
+              <div className="my-6" />
               Your bank account already knows the answer.
             </h3>
           </div>
