@@ -1,0 +1,48 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model VisitorSession {
+  id            String   @id @default(cuid())
+  ipAddress     String?
+  userAgent     String?
+  enteredAt     DateTime @default(now())
+  leftAt        DateTime?
+  clickedPayAt  DateTime?
+  userData      UserData?
+  payment       Payment?
+  downloadLogs  DownloadLog[]
+}
+
+model UserData {
+  id             String   @id @default(cuid())
+  sessionId      String   @unique
+  name           String
+  email          String
+  phone          String
+  createdAt      DateTime @default(now())
+  visitorSession VisitorSession @relation(fields: [sessionId], references: [id])
+}
+
+model Payment {
+  id             String   @id @default(cuid())
+  sessionId      String   @unique
+  paystackRef    String   @unique
+  amount         Int
+  status         String
+  paidAt         DateTime
+  visitorSession VisitorSession @relation(fields: [sessionId], references: [id])
+}
+
+model DownloadLog {
+  id             String   @id @default(cuid())
+  sessionId      String
+  downloadedAt   DateTime @default(now())
+  ipAddress      String?
+  visitorSession VisitorSession @relation(fields: [sessionId], references: [id])
+}

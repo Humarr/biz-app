@@ -1,65 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client'
-
-import { useEffect } from 'react'
-import { v4 as uuidv4 } from 'uuid'
-
 import Link from "next/link";
 
 export default function SalesPage() {
-
-
-  useEffect(() => {
-    let sessionId = localStorage.getItem('sessionId')
-
-    if (!sessionId) {
-      sessionId = uuidv4()
-      localStorage.setItem('sessionId', sessionId)
-
-      // Send to backend — create new session
-      fetch('/api/session/start', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          sessionId,
-          ipAddress: '', // Can add via server
-          userAgent: navigator.userAgent,
-        }),
-      })
-    }
-
-    // On page exit
-    const handleUnload = () => {
-      fetch('/api/session/end', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ sessionId }),
-        keepalive: true,
-      })
-    }
-
-    window.addEventListener('beforeunload', handleUnload)
-
-    return () => {
-      window.removeEventListener('beforeunload', handleUnload)
-    }
-  }, [])
-
-
-
-  const handleClick = async () => {
-    const sessionId = localStorage.getItem('sessionId')
-  
-    await fetch('/api/session/payclick', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ sessionId }),
-    })
-  
-    // Then show user info form or Paystack modal
-  }
-  
-
   return (
     <main className={`font-body min-h-screen bg-white text-gray-900`}>
       {/* Hero Section */}
@@ -75,7 +17,6 @@ export default function SalesPage() {
               Business <span className="underline">Prints Money</span> Like a 'Machine On Autopilot'.
             </span>
           </p>
-
 
           {/* <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
             <span className="text-red-600 block">They Didn't Think I Could Escape the Ghetto...</span>
@@ -1747,7 +1688,7 @@ export default function SalesPage() {
           <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-lg text-center mb-8">
             <p className="text-4xl font-bold mb-4">₦9,950</p>
             <Link href="https://selar.com/012403">
-              <button onClick={handleClick} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md">
+              <button className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md">
                 GET THE ULTIMATE CASH MACHINE NOW
               </button>
             </Link>
@@ -1948,7 +1889,7 @@ export default function SalesPage() {
 
           <div className="text-center">
             <Link href="https://selar.com/012403">
-              <button onClick={handleClick} className="bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer max-w-md w-full">
+              <button className="bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer max-w-md w-full">
                 GET THE ULTIMATE CASH MACHINE NOW
               </button>
             </Link>
