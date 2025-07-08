@@ -289,15 +289,15 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             The truth is, that certificate hanging on your wall? It's not worth
-            the paper it's printed on if you don't know how to create value for
+            the paper it's printed on if you don't know how to <em>create value</em> for
             other people.
           </p>
         </div>
 
         <p className="text-lg mb-8">
-          The job market is dead. Companies are laying off thousands of workers
-          every month. The few jobs available pay peanuts while the cost of
-          living skyrockets.
+          {/* The job market is dead. Companies are laying off thousands of workers */}
+          The job market is dead. Companies are 'sacking' thousands of workers
+          every month. The few jobs available pay peanuts while everything keeps adding price.
         </p>
 
         <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
