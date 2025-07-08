@@ -256,7 +256,7 @@ export default function SalesPage() {
 
         <div className="bg-yellow-50 p-6 rounded-lg mb-8">
           <p className="text-lg italic">
-            "Finally," his mother said, "someone in this family has made it."
+            <span className="font-scribble text-xl">"Finally,"</span> his mother said, <span className="font-scribble text-xl">"someone in this family has made it."</span>
           </p>
         </div>
 
