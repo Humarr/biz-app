@@ -529,7 +529,7 @@ export default function SalesPage() {
               <div className="my-6" />
               Even if you've never run a business before.
               <div className="my-6" />
-              Even if you can't spell "entrepreneur."
+              Even if you can't spell  <span className="font-scribble text-xl">"entrepreneur."</span>
             </p>
           </div>
 
