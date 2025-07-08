@@ -397,7 +397,7 @@ export default function SalesPage() {
               The kind that lets you walk into family gatherings with your head
               held high.
               <div className="my-6" />
-              The kind that makes people say, "I want to be like you" instead of
+              The kind that makes people say,  <span className="font-scribble text-xl">"I want to be like you"</span> instead of
               avoiding you because they think you're going to ask for money.
             </p>
           </div>
