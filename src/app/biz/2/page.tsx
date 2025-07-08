@@ -126,7 +126,8 @@ export default function SalesPage() {
         </h2>
 
         <p className="text-lg mb-8">
-          You're stuck in areas where "1 million boys" run wild. Where drainage
+          {/* You're stuck in areas where "1 million boys" run wild. Where drainage */}
+          You're stuck in areas where "area boys" and touts run wild. <div className="my-6"/> Where drainage
           systems overflow with every small rain and your room becomes a
           swimming pool of sewage.
           <div className="my-6" />
