@@ -52,6 +52,7 @@ export default function SalesPage() {
     if (!sessionId) {
       sessionId = uuidv4()
       localStorage.setItem('sessionId', sessionId)
+      console.log("sessionId: ", sessionId)
   
       fetch('/api/session/start', {
         method: 'POST',
