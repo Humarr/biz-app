@@ -24,7 +24,7 @@ export default function SalesPage() {
           </p>
           <div className="absolute -right-4 top-0 w-24 md:w-32">
             <div className="transform rotate-12 bg-yellow-100 p-2 rounded shadow-md">
-              <p className="text-xs md:text-sm text-red-600 font-kalam leading-tight">
+              <p className="text-sm md:text-lg text-red-600 font-scribble leading-tight">
                 This will change everything...
               </p>
             </div>
@@ -63,7 +63,7 @@ export default function SalesPage() {
         <p className="text-lg mb-8">
           Your stomach is churning with that familiar cocktail of shame, frustration, and raw fear.
           <div className="my-6" />
-          You calculate every naira. You've eaten garri for breakfast, lunch, and dinner more times than you care to count. Your phone battery is perpetually at 5% because you can't afford to buy credit to charge it at those phone repair shops.
+          You calculate every naira. You've eaten garri for breakfast, lunch, and dinner more times than you care to count. Your phone battery is perpetually at 5% because you can't afford to pay your NEPA bill.
         </p>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
