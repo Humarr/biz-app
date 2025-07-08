@@ -9,41 +9,80 @@ import Link from "next/link";
 export default function SalesPage() {
 
 
+  // useEffect(() => {
+  //   let sessionId = localStorage.getItem('sessionId')
+
+  //   if (!sessionId) {
+  //     sessionId = uuidv4()
+  //     localStorage.setItem('sessionId', sessionId)
+
+  //     // Send to backend — create new session
+  //     fetch('/api/session/start', {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/json' },
+  //       body: JSON.stringify({
+  //         sessionId,
+  //         ipAddress: '', // Can add via server
+  //         userAgent: navigator.userAgent,
+  //       }),
+  //     })
+  //   }
+
+  //   // On page exit
+  //   const handleUnload = () => {
+  //     fetch('/api/session/end', {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/json' },
+  //       body: JSON.stringify({ sessionId }),
+  //       keepalive: true,
+  //     })
+  //   }
+
+  //   window.addEventListener('beforeunload', handleUnload)
+
+  //   return () => {
+  //     window.removeEventListener('beforeunload', handleUnload)
+  //   }
+  // }, [])
+
+
   useEffect(() => {
     let sessionId = localStorage.getItem('sessionId')
-
+  
     if (!sessionId) {
       sessionId = uuidv4()
       localStorage.setItem('sessionId', sessionId)
-
-      // Send to backend — create new session
+  
       fetch('/api/session/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           sessionId,
-          ipAddress: '', // Can add via server
+          ipAddress: '', // Optional: get from backend
           userAgent: navigator.userAgent,
         }),
       })
     }
-
-    // On page exit
+  
     const handleUnload = () => {
+      const sessionIdToSend = localStorage.getItem('sessionId') // read latest here
+  
+      if (!sessionIdToSend) return // no session to end
+  
       fetch('/api/session/end', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ sessionId }),
+        body: JSON.stringify({ sessionId: sessionIdToSend }),
         keepalive: true,
       })
     }
-
+  
     window.addEventListener('beforeunload', handleUnload)
-
-    return () => {
-      window.removeEventListener('beforeunload', handleUnload)
-    }
+    return () => window.removeEventListener('beforeunload', handleUnload)
   }, [])
+  
+
+
 
 
 
