@@ -277,8 +277,7 @@ export default function SalesPage() {
             Now Emeka is 28, living with his parents, and his younger cousins
             whisper "broke uncle" behind his back.
             <div className="my-6" />
-            His girlfriend left him for Chike - a guy who dropped out of school
-            to start selling provisions and now owns 3 shops across Lagos.
+            His girlfriend left him for Chike — a former classmate who wasn’t as academically bright but started selling provisions and now owns three shops across Lagos.
           </p>
         </div>
 
