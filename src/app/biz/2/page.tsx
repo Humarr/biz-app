@@ -8,10 +8,10 @@ export default function SalesPage() {
       {/* Hero Section */}
       <section className="py-12 px-4 md:py-20 max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight">
+          <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
             <span className="text-red-600 block">They Didn't Think I Could Escape the Ghetto...</span>
             <span className="text-gray-900">But I Built a Cash Machine That Prints Money Like a Hacked ATM</span>
-          </h1>
+          </p>
           
           <p className="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-red-500 pb-2 inline-block">
             And now I'm going to show you exactly how to do the same - even if you're broke, desperate, and tired of being the "unsuccessful" one in your family
