@@ -7,7 +7,7 @@ export function launchPaystackModal(user: FormData, sessionId: string): void {
   const paystackPop = (window as unknown as { PaystackPop: PaystackPop }).PaystackPop
 
   const handler = paystackPop.setup({
-    key: 'pk_test_abc1234567890abcdef1234567890ab', // ✅ Real test key
+    key: process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY!,
     email: user.email,
     amount: amountInKobo,
     currency: 'NGN',
