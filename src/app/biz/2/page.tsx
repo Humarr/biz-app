@@ -98,14 +98,17 @@ export default function SalesPage() {
         <div className="text-center mb-12">
           <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
             <span className="text-red-600 block">
-              They Used To Laugh Behind Your Back...
+              Read This...
             </span>
+            {/* <span className="text-red-600 block">
+              They Used To Laugh Behind Your Back...
+            </span> */}
             <span className="text-gray-900 block mt-4">
-              But Read This, And Watch Those Your Cousins Who Used To Laugh At You Now
+               And Watch Those Your Cousins Who Used To Laugh At You Now
               Start Asking You For <span className="underline">Advice</span> — And Calling You{" "}
               <span className="italic">'Chairman'</span>
-              {" "}Or...{" "} 
-              <span className="italic">'Boss'</span> 
+              {/* {" "}Or...{" "} 
+              <span className="italic">'Boss'</span>  */}
               
               {/* With a Straight Face. */}
 
