@@ -1608,11 +1608,11 @@ export default function SalesPage() {
           But Here's the Thing...
         </h2>
 
-        <p className="text-lg mb-8">
-          I'm not going to beg you to buy this.
+        <div className="text-lg mb-8">
+          <p>I'm not going to beg you to buy this.</p>
           <div className="my-6" />
-          I'm not going to use some countdown timer or fake scarcity tactics.
-        </p>
+          <p>I'm not going to use some countdown timer or fake scarcity tactics.</p>
+        </div>
 
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">Here's the truth:</h3>
