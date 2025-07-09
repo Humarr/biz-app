@@ -225,8 +225,9 @@ export default function SalesPage() {
 
         <div className="text-lg mb-8">
           <p>
-            You're stuck in areas where "area boys" and touts run wild.{" "}
-            <div className="my-6" /> Where drainage systems overflow with every
+            You're stuck in areas where "area boys" and touts run wild.{" "} </p>
+            <div className="my-6" /> 
+            <p>Where drainage systems overflow with every
             small rain and your room becomes a swimming pool of sewage.
           </p>
           <div className="my-6" />
