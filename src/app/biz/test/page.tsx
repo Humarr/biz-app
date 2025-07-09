@@ -1868,7 +1868,7 @@ export default function SalesPage() {
 
           <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-lg text-center mb-8">
             <p className="text-4xl font-bold mb-4">₦9,950</p>
-            <Link href="https://selar.com/012403">
+            {/* <Link href="https://selar.com/012403"> */}
               {/* <button
                 onClick={handleClick}
                 className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md"
@@ -1879,7 +1879,7 @@ export default function SalesPage() {
               onClick={handleClick} 
               className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md" 
               text="GET THE ULTIMATE CASH MACHINE NOW" />
-            </Link>
+            {/* </Link> */}
           </div>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
