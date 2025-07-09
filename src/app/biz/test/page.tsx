@@ -7,10 +7,8 @@ import { v4 as uuidv4 } from "uuid";
 import Link from "next/link";
 
 export default function SalesPage() {
-
-
-  const addSession  = (sessionId: string|null) => {
-  // const addSession  = (sessionId: string|null, retry: boolean = false) => {
+  const addSession = (sessionId: string | null) => {
+    // const addSession  = (sessionId: string|null, retry: boolean = false) => {
     // let sessionId = localStorage.getItem("sessionId");
 
     if (!sessionId) {
@@ -25,17 +23,17 @@ export default function SalesPage() {
           sessionId,
           ipAddress: "", // Can add via server
           userAgent: navigator.userAgent,
+          pathname: window.location.pathname,
         }),
-      })
+      });
     }
-  }
-
+  };
 
   useEffect(() => {
     const sessionId = localStorage.getItem("sessionId");
 
     if (!sessionId) {
-     addSession(sessionId)
+      addSession(sessionId);
     }
 
     const handleUnload = () => {
@@ -44,19 +42,18 @@ export default function SalesPage() {
       if (!sessionIdToSend) return; // no session to end
 
       try {
-        fetch("/api/session/end", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ sessionId: sessionIdToSend }),
-          keepalive: true,
-      });
-    } catch (error) {
-      const err = error as Error
-      if (err.message === 'Session not found') addSession(sessionIdToSend)
-      // if (err.message === 'Session not found') addSession(sessionIdToSend, retry=true)
-      console.error("Error ending session:", err);
-      return;
-    }
+
+        const data = JSON.stringify({ sessionId: sessionIdToSend });
+        const blob = new Blob([data], { type: "application/json" });
+        navigator.sendBeacon("/api/session/end", blob);
+        
+      } catch (error) {
+        const err = error as Error;
+        if (err.message === "Session not found") addSession(sessionIdToSend);
+        // if (err.message === 'Session not found') addSession(sessionIdToSend, retry=true)
+        console.error("Error ending session:", err);
+        return;
+      }
     };
 
     window.addEventListener("beforeunload", handleUnload);
@@ -81,21 +78,17 @@ export default function SalesPage() {
       <section className="py-12 px-4 md:py-20 max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
-            <span className="text-red-600 block">
-              Read This...
-            </span>
+            <span className="text-red-600 block">Read This...</span>
             {/* <span className="text-red-600 block">
               They Used To Laugh Behind Your Back...
             </span> */}
             <span className="text-gray-900 block mt-4">
-               And Watch Those Your Cousins Who Used To Laugh At You Now
-              Start Asking You For <span className="underline">Advice</span> — And Calling You{" "}
-              <span className="italic">'Chairman'</span>
+              And Watch Those Your Cousins Who Used To Laugh At You Now Start
+              Asking You For <span className="underline">Advice</span> — And
+              Calling You <span className="italic">'Chairman'</span>
               {/* {" "}Or...{" "} 
               <span className="italic">'Boss'</span>  */}
-              
               {/* With a Straight Face. */}
-
             </span>
           </p>
         </div>
@@ -149,16 +142,16 @@ export default function SalesPage() {
             Your stomach is churning with that familiar cocktail of shame,
             frustration, and raw fear.
           </p>
-        <div className="my-6" />
-        <p>
-          You calculate every naira. You've eaten garri for breakfast, lunch,
-          and dinner more times than you care to count.
-        </p>
-        <div className="my-6" />
-        <p>
-          Your phone battery is perpetually at 5% because you can't afford to
-          pay your NEPA bill.
-        </p>
+          <div className="my-6" />
+          <p>
+            You calculate every naira. You've eaten garri for breakfast, lunch,
+            and dinner more times than you care to count.
+          </p>
+          <div className="my-6" />
+          <p>
+            Your phone battery is perpetually at 5% because you can't afford to
+            pay your NEPA bill.
+          </p>
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
@@ -213,11 +206,11 @@ export default function SalesPage() {
         </h2>
 
         <div className="text-lg mb-8">
+          <p>You're stuck in areas where "area boys" and touts run wild. </p>
+          <div className="my-6" />
           <p>
-            You're stuck in areas where "area boys" and touts run wild.{" "} </p>
-            <div className="my-6" /> 
-            <p>Where drainage systems overflow with every
-            small rain and your room becomes a swimming pool of sewage.
+            Where drainage systems overflow with every small rain and your room
+            becomes a swimming pool of sewage.
           </p>
           <div className="my-6" />
           <p>

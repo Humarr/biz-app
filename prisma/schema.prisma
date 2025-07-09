@@ -14,9 +14,11 @@ model VisitorSession {
   enteredAt     DateTime @default(now())
   leftAt        DateTime?
   clickedPayAt  DateTime?
+  pathname      String?
   userData      UserData?
   payment       Payment?
   downloadLogs  DownloadLog[]
+  pageViews     PageView[]
 }
 
 model UserData {
@@ -44,5 +46,16 @@ model DownloadLog {
   sessionId      String
   downloadedAt   DateTime @default(now())
   ipAddress      String?
+  visitorSession VisitorSession @relation(fields: [sessionId], references: [id])
+}
+
+
+
+model PageView {
+  id           String   @id @default(cuid())
+  sessionId    String
+  path         String
+  viewedAt     DateTime @default(now())
+  leftAt       DateTime?
   visitorSession VisitorSession @relation(fields: [sessionId], references: [id])
 }
