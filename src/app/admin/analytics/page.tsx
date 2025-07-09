@@ -106,6 +106,6 @@
 //   )
 // }
 
-export const AnalyticsPage = () => {
+export default function AnalyticsPage() {
   return <div>Analytics</div>
 }
