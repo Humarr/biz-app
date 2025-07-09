@@ -1,99 +1,67 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
-// import { useEffect } from "react";
-// import { v4 as uuidv4 } from "uuid";
+import { useEffect } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 import Link from "next/link";
 
 export default function SalesPage() {
-  // useEffect(() => {
-  //   let sessionId = localStorage.getItem('sessionId')
 
-  //   if (!sessionId) {
-  //     sessionId = uuidv4()
-  //     localStorage.setItem('sessionId', sessionId)
 
-  //     // Send to backend — create new session
-  //     fetch('/api/session/start', {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({
-  //         sessionId,
-  //         ipAddress: '', // Can add via server
-  //         userAgent: navigator.userAgent,
-  //       }),
-  //     })
-  //   }
-
-  //   // On page exit
-  //   const handleUnload = () => {
-  //     fetch('/api/session/end', {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({ sessionId }),
-  //       keepalive: true,
-  //     })
-  //   }
-
-  //   window.addEventListener('beforeunload', handleUnload)
-
-  //   return () => {
-  //     window.removeEventListener('beforeunload', handleUnload)
-  //   }
-  // }, [])
-
+  const addSession  = (sessionId: string|null) => {
   // const addSession  = (sessionId: string|null, retry: boolean = false) => {
-  //   // let sessionId = localStorage.getItem("sessionId");
+    // let sessionId = localStorage.getItem("sessionId");
 
-  //   if (!sessionId) {
-  //     sessionId = uuidv4();
-  //     localStorage.setItem("sessionId", sessionId);
-  //     console.log("sessionId: ", sessionId);
+    if (!sessionId) {
+      sessionId = uuidv4();
+      localStorage.setItem("sessionId", sessionId);
+      console.log("sessionId: ", sessionId);
 
-  //     fetch("/api/session/start", {
-  //       method: "POST",
-  //       headers: { "Content-Type": "application/json" },
-  //       body: JSON.stringify({
-  //         sessionId,
-  //         ipAddress: "", // Can add via server
-  //         userAgent: navigator.userAgent,
-  //       }),
-  //     })
-  //   }
-  // }
+      fetch("/api/session/start", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          sessionId,
+          ipAddress: "", // Can add via server
+          userAgent: navigator.userAgent,
+        }),
+      })
+    }
+  }
 
 
-  // useEffect(() => {
-  //   const sessionId = localStorage.getItem("sessionId");
+  useEffect(() => {
+    const sessionId = localStorage.getItem("sessionId");
 
-  //   if (!sessionId) {
-  //    addSession(sessionId)
-  //   }
+    if (!sessionId) {
+     addSession(sessionId)
+    }
 
-  //   const handleUnload = () => {
-  //     const sessionIdToSend = localStorage.getItem("sessionId"); // read latest here
+    const handleUnload = () => {
+      const sessionIdToSend = localStorage.getItem("sessionId"); // read latest here
 
-  //     if (!sessionIdToSend) return; // no session to end
+      if (!sessionIdToSend) return; // no session to end
 
-  //     try {
-  //       fetch("/api/session/end", {
-  //         method: "POST",
-  //         headers: { "Content-Type": "application/json" },
-  //         body: JSON.stringify({ sessionId: sessionIdToSend }),
-  //         keepalive: true,
-  //     });
-  //   } catch (error) {
-  //     const err = error as Error
-  //     if (err.message === 'Session not found') addSession(sessionIdToSend, retry=true)
-  //     console.error("Error ending session:", err);
-  //     return;
-  //   }
-  //   };
+      try {
+        fetch("/api/session/end", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sessionId: sessionIdToSend }),
+          keepalive: true,
+      });
+    } catch (error) {
+      const err = error as Error
+      if (err.message === 'Session not found') addSession(sessionIdToSend)
+      // if (err.message === 'Session not found') addSession(sessionIdToSend, retry=true)
+      console.error("Error ending session:", err);
+      return;
+    }
+    };
 
-  //   window.addEventListener("beforeunload", handleUnload);
-  //   return () => window.removeEventListener("beforeunload", handleUnload);
-  // }, []);
+    window.addEventListener("beforeunload", handleUnload);
+    return () => window.removeEventListener("beforeunload", handleUnload);
+  }, []);
 
   const handleClick = async () => {
     const sessionId = localStorage.getItem("sessionId");
