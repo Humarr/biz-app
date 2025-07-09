@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 import Link from "next/link";
+import BuyNowButton from "@/components/biz/BuyNow";
 
 export default function SalesPage() {
   const addSession = (sessionId: string | null) => {
@@ -63,7 +64,7 @@ export default function SalesPage() {
 
   const handleClick = async () => {
     const sessionId = localStorage.getItem("sessionId");
-
+    console.log("sessionId: ", sessionId);
     await fetch("/api/session/payclick", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -1868,12 +1869,16 @@ export default function SalesPage() {
           <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-lg text-center mb-8">
             <p className="text-4xl font-bold mb-4">₦9,950</p>
             <Link href="https://selar.com/012403">
-              <button
+              {/* <button
                 onClick={handleClick}
                 className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md"
               >
                 GET THE ULTIMATE CASH MACHINE NOW
-              </button>
+              </button> */}
+              <BuyNowButton 
+              onClick={handleClick} 
+              className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md" 
+              text="GET THE ULTIMATE CASH MACHINE NOW" />
             </Link>
           </div>
 
@@ -2071,14 +2076,17 @@ export default function SalesPage() {
           </div>
 
           <div className="text-center">
-            <Link href="https://selar.com/012403">
-              <button
+            {/* <Link href="https://selar.com/012403"> */}
+              {/* <button
                 onClick={handleClick}
                 className="bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer max-w-md w-full"
               >
                 GET THE ULTIMATE CASH MACHINE NOW
-              </button>
-            </Link>
+              </button> */}
+              <BuyNowButton
+               onClick={handleClick} className="bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer max-w-md w-full" 
+               text="GET THE ULTIMATE CASH MACHINE NOW" />
+            {/* </Link> */}
           </div>
 
           <div className="mt-12">
@@ -2129,6 +2137,7 @@ export default function SalesPage() {
           </div>
         </div>
       </section>
+      {/* <BuyNowButton/> */}
     </main>
   );
 }
