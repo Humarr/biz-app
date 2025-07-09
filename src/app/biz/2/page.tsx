@@ -160,10 +160,11 @@ export default function SalesPage() {
           </li>
         </ul>
 
-        <p className="text-lg mb-8">
-          Your stomach is churning with that familiar cocktail of shame,
-          frustration, and raw fear.
-        </p>
+        <div className="text-lg mb-8">
+          <p>
+            Your stomach is churning with that familiar cocktail of shame,
+            frustration, and raw fear.
+          </p>
         <div className="my-6" />
         <p>
           You calculate every naira. You've eaten garri for breakfast, lunch,
@@ -174,6 +175,7 @@ export default function SalesPage() {
           Your phone battery is perpetually at 5% because you can't afford to
           pay your NEPA bill.
         </p>
+        </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">The worst part?</h3>
