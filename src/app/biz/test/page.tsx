@@ -4,7 +4,7 @@
 import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-import Link from "next/link";
+// import Link from "next/link";
 import BuyNowButton from "@/components/biz/BuyNow";
 
 export default function SalesPage() {
