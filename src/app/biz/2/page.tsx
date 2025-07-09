@@ -1,14 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client'
+"use client";
 
-import { useEffect } from 'react'
-import { v4 as uuidv4 } from 'uuid'
+import { useEffect } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 import Link from "next/link";
 
 export default function SalesPage() {
-
-
   // useEffect(() => {
   //   let sessionId = localStorage.getItem('sessionId')
 
@@ -45,60 +43,53 @@ export default function SalesPage() {
   //   }
   // }, [])
 
-
   useEffect(() => {
-    let sessionId = localStorage.getItem('sessionId')
-  
+    let sessionId = localStorage.getItem("sessionId");
+
     if (!sessionId) {
-      sessionId = uuidv4()
-      localStorage.setItem('sessionId', sessionId)
-      console.log("sessionId: ", sessionId)
-  
-      fetch('/api/session/start', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      sessionId = uuidv4();
+      localStorage.setItem("sessionId", sessionId);
+      console.log("sessionId: ", sessionId);
+
+      fetch("/api/session/start", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           sessionId,
-          ipAddress: '', // Optional: get from backend
+          ipAddress: "", // Optional: get from backend
           userAgent: navigator.userAgent,
         }),
-      })
+      });
     }
-  
+
     const handleUnload = () => {
-      const sessionIdToSend = localStorage.getItem('sessionId') // read latest here
-  
-      if (!sessionIdToSend) return // no session to end
-  
-      fetch('/api/session/end', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const sessionIdToSend = localStorage.getItem("sessionId"); // read latest here
+
+      if (!sessionIdToSend) return; // no session to end
+
+      fetch("/api/session/end", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ sessionId: sessionIdToSend }),
         keepalive: true,
-      })
-    }
-  
-    window.addEventListener('beforeunload', handleUnload)
-    return () => window.removeEventListener('beforeunload', handleUnload)
-  }, [])
-  
+      });
+    };
 
-
-
-
+    window.addEventListener("beforeunload", handleUnload);
+    return () => window.removeEventListener("beforeunload", handleUnload);
+  }, []);
 
   const handleClick = async () => {
-    const sessionId = localStorage.getItem('sessionId')
-  
-    await fetch('/api/session/payclick', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const sessionId = localStorage.getItem("sessionId");
+
+    await fetch("/api/session/payclick", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ sessionId }),
-    })
-  
+    });
+
     // Then show user info form or Paystack modal
-  }
-  
+  };
 
   return (
     <main className={`font-body min-h-screen bg-white text-gray-900`}>
@@ -107,25 +98,18 @@ export default function SalesPage() {
         <div className="text-center mb-12">
           <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
             <span className="text-red-600 block">
-              They Said I Would Never <em>Make It</em> In Life...
+              They Used To Laugh Behind Your Back...
             </span>
             <span className="text-gray-900 block mt-4">
-              But Now I Wake Up To The <span className="italic">*</span>Ping
-              <span className="italic">*</span> Of <span className="underline">Credit Alerts</span> While My
-              Business <span className="underline">Prints Money</span> Like a 'Machine On Autopilot'.
+              But Read This, And Watch Those Your Cousins Who Used To Laugh At You Now
+              Start Asking You For <span className="underline">Advice</span> — And Calling You{" "}
+              <span className="italic">'Chairman'</span>
+              {" "}Or...{" "} 
+              <span className="italic">'Boss'</span> 
+              
+              {/* With a Straight Face. */}
+
             </span>
-          </p>
-
-
-          {/* <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
-            <span className="text-red-600 block">They Didn't Think I Could Escape the Ghetto...</span>
-            <span className="text-gray-900">But I Built a Cash Machine That Prints Money Like a Hacked ATM</span>
-          </p> */}
-
-          <p className="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-red-500 pb-2 inline-block">
-            Read on... and I'm going to show you exactly how to do the same -
-            even if you're broke, desperate, and tired of being the
-            "unsuccessful" one in your family
           </p>
         </div>
 
@@ -143,9 +127,9 @@ export default function SalesPage() {
         </div>
 
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-          <p className="text-lg">
-            It's 3:47 AM and you're wide awake again.
-            <div className="my-6" />
+          <p className="text-lg">It's 3:47 AM and you're wide awake again.</p>
+          <div className="my-6" />
+          <p>
             Your mind is racing with the same toxic thoughts that visit you
             every night like unwelcome guests:
           </p>
@@ -176,9 +160,14 @@ export default function SalesPage() {
         <p className="text-lg mb-8">
           Your stomach is churning with that familiar cocktail of shame,
           frustration, and raw fear.
-          <div className="my-6" />
+        </p>
+        <div className="my-6" />
+        <p>
           You calculate every naira. You've eaten garri for breakfast, lunch,
-          and dinner more times than you care to count. <div className="my-6" />
+          and dinner more times than you care to count.
+        </p>
+        <div className="my-6" />
+        <p>
           Your phone battery is perpetually at 5% because you can't afford to
           pay your NEPA bill.
         </p>
@@ -195,10 +184,15 @@ export default function SalesPage() {
           Your neighbor's son - the one who barely passed WAEC - just bought his
           third car. Your former classmate is posting photos from Dubai while
           you're calculating whether you can afford 500 naira for bread.
-          <div className="my-6" />
+        </p>
+        <div className="my-6" />
+        <p>
           Your little cousins don't even greet you anymore. They see you coming
           and whisper,
-          <span className="font-scribble text-lg"> "This one don come again. Stingy uncle."</span>
+          <span className="font-scribble text-lg">
+            {" "}
+            "This one don come again. Stingy uncle."
+          </span>
         </p>
 
         <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
@@ -212,27 +206,35 @@ export default function SalesPage() {
           </p>
         </div>
 
-        <p className="text-lg mb-8">
-          Your mother keeps mentioning how well your friend's daughter is doing.
-          How she just got married and is building a house for her parents.
+        <div className="text-lg mb-8">
+          <p>
+            Your mother keeps mentioning how well your friend's daughter is
+            doing. How she just got married and is building a house for her
+            parents.
+          </p>
           <div className="my-6" />
-          Meanwhile, you're 28 (or 32, or 35) and still living like a teenager -
-          broke, dependent, and frankly... irrelevant.
-        </p>
+          <p>
+            Meanwhile, you're 28 (or 32, or 35) and still living like a teenager
+            - broke, dependent, and frankly... irrelevant.
+          </p>
+        </div>
 
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-red-600">
           The Real Kicker? You're Not Even Safe Where You Live
         </h2>
 
-        <p className="text-lg mb-8">
-          {/* You're stuck in areas where "1 million boys" run wild. Where drainage */}
-          You're stuck in areas where "area boys" and touts run wild. <div className="my-6"/> Where drainage
-          systems overflow with every small rain and your room becomes a
-          swimming pool of sewage.
+        <div className="text-lg mb-8">
+          <p>
+            You're stuck in areas where "area boys" and touts run wild.{" "}
+            <div className="my-6" /> Where drainage systems overflow with every
+            small rain and your room becomes a swimming pool of sewage.
+          </p>
           <div className="my-6" />
-          You've gotten that dreaded call: "Don't come home tonight. The boys
-          have started again."
-        </p>
+          <p>
+            You've gotten that dreaded call: "Don't come home tonight. The boys
+            have started again."
+          </p>
+        </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-lg">
@@ -247,13 +249,17 @@ export default function SalesPage() {
           <h3 className="text-xl font-bold mb-4">
             This is what poverty really looks like in Nigeria.
           </h3>
-          <p className="text-lg">
-            Not the Nollywood version where the poor guy suddenly becomes rich
-            and marries the banker's daughter.
+          <div className="text-lg">
+            <p>
+              Not the Nollywood version where the poor guy suddenly becomes rich
+              and marries the banker's daughter.
+            </p>
             <div className="my-6" />
-            This is the gritty, soul-crushing reality where you're one emergency
-            away from complete disaster.
-          </p>
+            <p>
+              This is the gritty, soul-crushing reality where you're one
+              emergency away from complete disaster.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -264,14 +270,18 @@ export default function SalesPage() {
             And Don't Even Get Me Started on These Fake Guru Scammers
           </h2>
 
-          <p className="text-lg mb-8">
-            Oh, you've seen them, haven't you?
+          <div className="text-lg mb-8">
+            <p>Oh, you've seen them, haven't you?</p>
             <div className="my-6" />
-            These jokers with their rented Lamborghinis and borrowed mansions,
-            promising you'll make "passive income" while you sleep.
-          </p>
+            <p>
+              These jokers with their rented Lamborghinis and borrowed mansions,
+              promising you'll make "passive income" while you sleep.
+            </p>
+          </div>
+        </div>
 
-          <p className="text-lg mb-8">
+        <div className="text-lg mb-8">
+          <p>
             They show you photoshopped screenshots of their "bank accounts" and
             testimonials from "students" who look suspiciously like stock photo
             models.
@@ -317,16 +327,22 @@ export default function SalesPage() {
           </p>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
-            <p className="text-lg">
-              These scammers are everywhere, preying on desperate people like
-              vultures circling a corpse.
+            <div className="text-lg">
+              <p>
+                These scammers are everywhere, preying on desperate people like
+                vultures circling a corpse.
+              </p>
               <div className="my-6" />
-              They know you're hungry. They know you're desperate. They know
-              you're tired of being broke.
+              <p>
+                They know you're hungry. They know you're desperate. They know
+                you're tired of being broke.
+              </p>
               <div className="my-6" />
-              So they dangle these shiny promises in front of you like carrots
-              in front of a donkey.
-            </p>
+              <p>
+                So they dangle these shiny promises in front of you like carrots
+                in front of a donkey.
+              </p>
+            </div>
           </div>
 
           <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
@@ -345,26 +361,34 @@ export default function SalesPage() {
           The "Go to School, Get Good Grades, Find a Good Job" Lie
         </h2>
 
-        <p className="text-lg mb-8">
-          Let me tell you about Emeka.
+        <div className="text-lg mb-8">
+          <p>Let me tell you about Emeka.</p>
           <div className="my-6" />
-          Emeka was the golden boy. First Class Honors in Engineering from one
-          of Nigeria's top universities. His parents were so proud they threw a
-          party.
-        </p>
-
-        <div className="bg-yellow-50 p-6 rounded-lg mb-8">
-          <p className="text-lg italic">
-            <span className="font-scribble text-xl">"Finally,"</span> his mother said, <span className="font-scribble text-xl">"someone in this family has made it."</span>
+          <p>
+            Emeka was the golden boy. First Class Honors in Engineering from one
+            of Nigeria's top universities. His parents were so proud they threw
+            a party.
           </p>
         </div>
 
-        <p className="text-lg mb-8">
-          Emeka believed the script. He believed that his degree was his ticket
-          to the good life.
+        <div className="bg-yellow-50 p-6 rounded-lg mb-8">
+          <p className="text-lg italic">
+            <span className="font-scribble text-xl">"Finally,"</span> his mother
+            said,{" "}
+            <span className="font-scribble text-xl">
+              "someone in this family has made it."
+            </span>
+          </p>
+        </div>
+
+        <div className="text-lg mb-8">
+          <p>
+            Emeka believed the script. He believed that his degree was his
+            ticket to the good life.
+          </p>
           <div className="my-6" />
-          He applied to 247 companies. Got 3 interviews. Zero job offers.
-        </p>
+          <p>He applied to 247 companies. Got 3 interviews. Zero job offers.</p>
+        </div>
 
         <p className="text-lg mb-8">
           The few companies that did respond wanted him to work for 40,000 naira
@@ -372,12 +396,18 @@ export default function SalesPage() {
         </p>
 
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-          <p className="text-lg">
-            Now Emeka is 28, living with his parents, and his younger cousins
-            whisper "broke uncle" behind his back.
+          <div className="text-lg">
+            <p>
+              Now Emeka is 28, living with his parents, and his younger cousins
+              whisper "broke uncle" behind his back.
+            </p>
             <div className="my-6" />
-            His girlfriend left him for Chike — a former classmate who wasn’t as academically bright but started selling provisions and now owns three shops across Lagos.
-          </p>
+            <p>
+              His girlfriend left him for Chike — a former classmate who wasn’t
+              as academically bright but started selling provisions and now owns
+              three shops across Lagos.
+            </p>
+          </div>
         </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
@@ -388,15 +418,16 @@ export default function SalesPage() {
           </h3>
           <p className="text-lg">
             The truth is, that certificate hanging on your wall? It's not worth
-            the paper it's printed on if you don't know how to <em>create value</em> for
-            other people.
+            the paper it's printed on if you don't know how to{" "}
+            <em>create value</em> for other people.
           </p>
         </div>
 
         <p className="text-lg mb-8">
           {/* The job market is dead. Companies are laying off thousands of workers */}
           The job market is dead. Companies are 'sacking' thousands of workers
-          every month. The few jobs available pay peanuts while everything keeps adding price.
+          every month. The few jobs available pay peanuts while everything keeps
+          adding price.
         </p>
 
         <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
@@ -477,28 +508,42 @@ export default function SalesPage() {
             </ul>
           </div>
 
-          <p className="text-lg mb-8">
-            Instead, I went on a mission. A mission to crack the code of
-            business success.
+          <div className="text-lg mb-8">
+            <p>
+              Instead, I went on a mission. A mission to crack the code of
+              business success.
+            </p>
             <div className="my-6" />
-            Not the fake guru version of success. Not the "get rich quick"
-            nonsense.
-          </p>
+            <p>
+              Not the fake guru version of success. Not the "get rich quick"
+              nonsense.
+            </p>
+          </div>
 
           <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
             <h3 className="text-xl font-bold mb-4">
               Real, sustainable, life-changing business success.
             </h3>
-            <p className="text-lg">
-              The kind that lets you sleep peacefully at night knowing your
-              bills are paid.
+            <div className="text-lg">
+              <p>
+                The kind that lets you sleep peacefully at night knowing your
+                bills are paid.
+              </p>
               <div className="my-6" />
-              The kind that lets you walk into family gatherings with your head
-              held high.
+              <p>
+                The kind that lets you walk into family gatherings with your
+                head held high.
+              </p>
               <div className="my-6" />
-              The kind that makes people say,  <span className="font-scribble text-xl">"I want to be like you"</span> instead of
-              avoiding you because they think you're going to ask for money.
-            </p>
+              <p>
+                The kind that makes people say,{" "}
+                <span className="font-scribble text-xl">
+                  "I want to be like you"
+                </span>{" "}
+                instead of avoiding you because they think you're going to ask
+                for money.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -521,48 +566,72 @@ export default function SalesPage() {
             95% of people who try to start businesses fail not because they're
             lazy or stupid.
           </h3>
-          <p className="text-lg">
-            They fail because they're following the wrong blueprint.
+          <div className="text-lg">
+            <p>They fail because they're following the wrong blueprint.</p>
             <div className="my-6" />
-            They're asking the wrong questions.
+            <p>They're asking the wrong questions.</p>
             <div className="my-6" />
-            They're solving the wrong problems.
+            <p>They're solving the wrong problems.</p>
             <div className="my-6" />
-            They're building businesses for themselves instead of for their
-            customers.
-          </p>
+            <p>
+              They're building businesses for themselves instead of for their
+              customers.
+            </p>
+          </div>
         </div>
 
-        <p className="text-lg mb-8">
-          Here's what most people do:
+        <div className="text-lg mb-8">
+          <p>Here's what most people do:</p>
           <div className="my-6" />
-          They think,  <span className="font-scribble text-xl">"I want to start a business,"</span> then they ask their mum,
-          sister, or friend what business they should start.
-        </p>
+          <p>
+            They think,{" "}
+            <span className="font-scribble text-xl">
+              "I want to start a business,"
+            </span>{" "}
+            then they ask their mum, sister, or friend what business they should
+            start.
+          </p>
+        </div>
 
         <div className="bg-yellow-50 p-6 rounded-lg mb-8">
           <p className="text-lg italic">
-          <span className="font-scribble text-xl">"Start selling clothes,"</span> they say.  <span className="font-scribble text-xl">"Food is always in demand." "Try
-            electronics."</span>
+            <span className="font-scribble text-xl">
+              "Start selling clothes,"
+            </span>{" "}
+            they say.{" "}
+            <span className="font-scribble text-xl">
+              "Food is always in demand." "Try electronics."
+            </span>
           </p>
         </div>
 
-        <p className="text-lg mb-8">
-          So they go and spend their savings buying inventory. They rent a shop.
-          They stock up on products.
+        <div className="text-lg mb-8">
+          <p>
+            So they go and spend their savings buying inventory. They rent a
+            shop.
+          </p>
           <div className="my-6" />
-          Then they sit there, waiting for customers who never come.
-        </p>
+          <p>They stock up on products.</p>
+          <div className="my-6" />
+          <p>Then they sit there, waiting for customers who never come.</p>
+        </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4 text-center">Why?</h3>
-          <p className="text-lg text-center">
-            Because they built their business around what THEY wanted to sell,
-            not what CUSTOMERS desperately wanted to buy.
+          <div className="text-lg text-center">
+            <p>
+              Because they built their business around what THEY wanted to sell,
+              not what CUSTOMERS desperately wanted to buy.
+            </p>
             <div className="my-6" />
-            They never asked the most important question in business:  <span className="font-scribble text-xl">"What
-            problem am I solving for people?</span>"
-          </p>
+            <p>
+              They never asked the most important question in business:{" "}
+              <span className="font-scribble text-xl">
+                "What problem am I solving for people?
+              </span>
+              "
+            </p>
+          </div>
         </div>
       </section>
 
@@ -620,34 +689,45 @@ export default function SalesPage() {
 
           <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
             <h3 className="text-xl font-bold mb-4">And here's the kicker:</h3>
-            <p className="text-lg">
-              They do all of this using a simple, repeatable system that anyone
-              can follow.
+            <div className="text-lg">
+              <p>
+                They do all of this using a simple, repeatable system that
+                anyone can follow.
+              </p>
               <div className="my-6" />
-              Even if you're broke right now.
+              <p>Even if you're broke right now.</p>
               <div className="my-6" />
-              Even if you've never run a business before.
+              <p>Even if you've never run a business before.</p>
               <div className="my-6" />
-              Even if you can't spell  <span className="font-scribble text-xl">"entrepreneur."</span>
-            </p>
+              <p>
+                Even if you can't spell{" "}
+                <span className="font-scribble text-xl">"entrepreneur."</span>
+              </p>
+            </div>
           </div>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
             <h3 className="text-xl font-bold text-center">
               This system works.
             </h3>
-            <p className="text-lg text-center">
-              It's worked for hundreds of people I've taught privately.
+            <div className="text-lg text-center">
+              <p>It's worked for hundreds of people I've taught privately.</p>
               <div className="my-6" />
-              It's worked for the 24-year-old NYSC corper who went from 33,000
-              naira monthly to 400,000 naira monthly in 6 months.
+              <p>
+                It's worked for the 24-year-old NYSC corper who went from 33,000
+                naira monthly to 400,000 naira monthly in 6 months.
+              </p>
               <div className="my-6" />
-              It's worked for the single mother who turned her N35,000 savings
-              into a business that now <em>employs 8 people.</em>
+              <p>
+                It's worked for the single mother who turned her N35,000 savings
+                into a business that now <em>employs 8 people.</em>
+              </p>
               <div className="my-6" />
-              It's worked for the university dropout who everyone wrote off as a
-              failure and who now makes more money than his professors.
-            </p>
+              <p>
+                It's worked for the university dropout who everyone wrote off as
+                a failure and who now makes more money than his professors.
+              </p>
+            </div>
           </div>
 
           <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
@@ -1494,11 +1574,11 @@ export default function SalesPage() {
             </p>
           </div>
 
-          <p className="text-lg mb-8">
-            In fact, I was going to release this for free.
+          <div className="text-lg mb-8">
+            <p>In fact, I was going to release this for free.</p>
             <div className="my-6" />
-            But my business partner looked at me like I was crazy.
-          </p>
+            <p>But my business partner looked at me like I was crazy.</p>
+          </div>
 
           <div className="bg-yellow-50 p-6 rounded-lg mb-8">
             <p className="text-lg italic">
@@ -1508,12 +1588,14 @@ export default function SalesPage() {
             </p>
           </div>
 
-          <p className="text-lg mb-8">
-            He was right.
+          <div className="text-lg mb-8">
+            <p>He was right.</p>
             <div className="my-6" />
-            I've seen it happen before. People don't value what they don't pay
-            for.
-          </p>
+            <p>
+              I've seen it happen before. People don't value what they don't pay
+              for.
+            </p>
+          </div>
 
           <p className="text-lg mb-8">
             So I'm putting a small price on this - just enough to make sure
@@ -1522,13 +1604,13 @@ export default function SalesPage() {
 
           <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-lg text-center">
             <p className="text-4xl font-bold mb-2">Just ₦9,950</p>
-            <p className="text-xl mb-4">
-              That's less than what you'd spend on a weekend outing.
+            <div className="text-xl mb-4">
+              <p>That's less than what you'd spend on a weekend outing.</p>
               <div className="my-6" />
-              Less than what you'd spend on a pair of sneakers.
+              <p>Less than what you'd spend on a pair of sneakers.</p>
               <div className="my-6" />
-              Less than what you'd spend on airtime in a month.
-            </p>
+              <p>Less than what you'd spend on airtime in a month.</p>
+            </div>
             <p className="text-2xl font-bold">
               ₦9,950 for a complete business blueprint that could change your
               life forever.
@@ -1551,29 +1633,38 @@ export default function SalesPage() {
 
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">Here's the truth:</h3>
-          <p className="text-lg">
-            Most people will read this page and do nothing.
+          <div className="text-lg">
+            <p>Most people will read this page and do nothing.</p>
             <div className="my-6" />
-            They'll find excuses. They'll say they don't have the money. They'll
-            say they'll "think about it."
+            <p>
+              They'll find excuses. They'll say they don't have the money.
+              They'll say they'll "think about it."
+            </p>
             <div className="my-6" />
-            They'll keep doing the same things that got them broke in the first
-            place.
-          </p>
+            <p>
+              They'll keep doing the same things that got them broke in the
+              first place.
+            </p>
+          </div>
         </div>
 
         <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">And that's fine.</h3>
-          <p className="text-lg">
-            This isn't for everyone.
+          <div className="text-lg">
+            <p>This isn't for everyone.</p>
             <div className="my-6" />
-            This is only for the 5% who are serious about changing their lives.
+            <p>
+              This is only for the 5% who are serious about changing their
+              lives.
+            </p>
             <div className="my-6" />
-            The 5% who are tired of being broke.
+            <p>The 5% who are tired of being broke.</p>
             <div className="my-6" />
-            The 5% who are willing to follow a proven system instead of making
-            the same mistakes everyone else is making.
-          </p>
+            <p>
+              The 5% who are willing to follow a proven system instead of making
+              the same mistakes everyone else is making.
+            </p>
+          </div>
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
@@ -1620,13 +1711,15 @@ export default function SalesPage() {
               least 10 times what you paid within 90 days, I'll refund every
               naira you paid.
             </h3>
-            <p className="text-lg">
-              No questions asked.
+            <div className="text-lg">
+              <p>No questions asked.</p>
               <div className="my-6" />
-              No hoops to jump through.
+              <p>No hoops to jump through.</p>
               <div className="my-6" />
-              Just send me a message and I'll refund your money immediately.
-            </p>
+              <p>
+                Just send me a message and I'll refund your money immediately.
+              </p>
+            </div>
           </div>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
@@ -1747,15 +1840,17 @@ export default function SalesPage() {
           </h3>
         </div>
 
-        <p className="text-lg mb-8">
-          Time is not your friend.
+        <div className="text-lg mb-8">
+          <p>Time is not your friend.</p>
           <div className="my-6" />
-          The economy is not getting better.
+          <p>The economy is not getting better.</p>
           <div className="my-6" />
-          Jobs are not becoming more available.
+          <p>Jobs are not becoming more available.</p>
           <div className="my-6" />
-          The fake gurus are not going to suddenly start telling the truth.
-        </p>
+          <p>
+            The fake gurus are not going to suddenly start telling the truth.
+          </p>
+        </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <h3 className="text-xl font-bold text-center">
@@ -1777,17 +1872,22 @@ export default function SalesPage() {
           <p className="text-lg mb-8 text-center">
             Click the button below and you'll get instant access to The Ultimate
             Cash Machine.
-            <div className="my-6" />
+          </p>
+          <div className="my-6" />
+          <p>
             You'll be able to download it immediately and start reading within 2
             minutes.
-            <div className="my-6" />
-            No waiting. No delays. No excuses.
           </p>
+          <div className="my-6" />
+          <p>No waiting. No delays. No excuses.</p>
 
           <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-lg text-center mb-8">
             <p className="text-4xl font-bold mb-4">₦9,950</p>
             <Link href="https://selar.com/012403">
-              <button onClick={handleClick} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md">
+              <button
+                onClick={handleClick}
+                className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer w-full max-w-md"
+              >
                 GET THE ULTIMATE CASH MACHINE NOW
               </button>
             </Link>
@@ -1969,9 +2069,9 @@ export default function SalesPage() {
                   </span>
                 </li>
               </ul>
-              <p className="font-bold mt-4">
-                These people will be successful.
-                <div className="my-6" />
+              <p className="font-bold mt-4">These people will be successful.</p>
+              <div className="my-6" />
+              <p>
                 Not because they're smarter or luckier, but because they take
                 action when others make excuses.
               </p>
@@ -1988,7 +2088,10 @@ export default function SalesPage() {
 
           <div className="text-center">
             <Link href="https://selar.com/012403">
-              <button onClick={handleClick} className="bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer max-w-md w-full">
+              <button
+                onClick={handleClick}
+                className="bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-full font-bold text-xl hover:shadow-lg transition-shadow cursor-pointer max-w-md w-full"
+              >
                 GET THE ULTIMATE CASH MACHINE NOW
               </button>
             </Link>
