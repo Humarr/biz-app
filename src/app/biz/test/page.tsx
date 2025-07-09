@@ -42,6 +42,7 @@ export default function SalesPage() {
       if (!sessionIdToSend) return; // no session to end
 
       try {
+        console.log("ending session: ", sessionIdToSend);
 
         const data = JSON.stringify({ sessionId: sessionIdToSend });
         const blob = new Blob([data], { type: "application/json" });

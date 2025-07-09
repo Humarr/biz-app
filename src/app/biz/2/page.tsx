@@ -1647,11 +1647,11 @@ export default function SalesPage() {
           But Here's the Thing...
         </h2>
 
-        <p className="text-lg mb-8">
-          I'm not going to beg you to buy this.
+        <div className="text-lg mb-8">
+          <p>I'm not going to beg you to buy this.</p>
           <div className="my-6" />
-          I'm not going to use some countdown timer or fake scarcity tactics.
-        </p>
+          <p>I'm not going to use some countdown timer or fake scarcity tactics.</p>
+        </div>
 
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">Here's the truth:</h3>
@@ -1842,17 +1842,17 @@ export default function SalesPage() {
           <h3 className="text-xl font-bold mb-4">
             Or are you going to take control of your life?
           </h3>
-          <p className="text-lg">
-            The choice is yours.
+          <div className="text-lg">
+            <p>The choice is yours.</p>
             <div className="my-6" />
-            But understand this: every day you wait is money lost.
+            <p>But understand this: every day you wait is money lost.</p>
             <div className="my-6" />
-            Every day you spend broke is another day your family loses respect
-            for you.
+            <p>Every day you spend broke is another day your family loses respect
+            for you.</p>
             <div className="my-6" />
-            Every day you stay in that ghetto is another day you risk your
-            safety.
-          </p>
+            <p>Every day you stay in that ghetto is another day you risk your
+            safety.</p>
+          </div>
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
