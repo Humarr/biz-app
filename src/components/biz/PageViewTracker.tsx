@@ -28,7 +28,7 @@ export function PageViewTracker() {
   // --- Helper: Get or create sessionId
   const ensureSession = useCallback(async (): Promise<string> => {
     let sessionId = localStorage.getItem("sessionId");
-  if (sessionId) localStorage.removeItem("sessionId")
+  // if (sessionId) localStorage.removeItem("sessionId")
     if (!sessionId) {
       sessionId = await createNewSession();
     }

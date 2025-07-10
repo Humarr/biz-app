@@ -63,7 +63,6 @@ export default function SalesPage() {
   //   }
   // }
 
-
   // useEffect(() => {
   //   const sessionId = localStorage.getItem("sessionId");
 
@@ -113,28 +112,21 @@ export default function SalesPage() {
       <section className="py-12 px-4 md:py-20 max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
-            <span className="text-red-600 block">
-              Read This...
-            </span>
-            {/* <span className="text-red-600 block">
-              They Used To Laugh Behind Your Back...
-            </span> */}
+            <span className="text-red-600 block">Give Me 15 Minutes…</span>
             <span className="text-gray-900 block mt-4">
-               And Watch Those Your Cousins Who Used To Laugh At You Now
-              Start Asking You For <span className="underline">Advice</span> — And Calling You{" "}
-              <span className="italic">'Chairman'</span>
-              {/* {" "}Or...{" "} 
-              <span className="italic">'Boss'</span>  */}
-              
-              {/* With a Straight Face. */}
-
+              And I’ll Show You How To Build a Business That Pays You More In 1
+              Month
+              <br className="hidden md:inline" />
+              Than Your Boss Paid You All Year —
+              <br className="hidden md:inline" />
+              And Make Those Who Mocked You Regret Ever Laughing
             </span>
           </p>
         </div>
 
         <div className="relative">
           <p className="text-xl md:text-2xl leading-relaxed mb-8 italic font-medium">
-            Listen...
+            Imagine this...
           </p>
           <div className="absolute -right-4 top-0 w-24 md:w-32">
             <div className="transform rotate-12 bg-yellow-100 p-2 rounded shadow-md">
@@ -181,16 +173,16 @@ export default function SalesPage() {
             Your stomach is churning with that familiar cocktail of shame,
             frustration, and raw fear.
           </p>
-        <div className="my-6" />
-        <p>
-          You calculate every naira. You've eaten garri for breakfast, lunch,
-          and dinner more times than you care to count.
-        </p>
-        <div className="my-6" />
-        <p>
-          Your phone battery is perpetually at 5% because you can't afford to
-          pay your NEPA bill.
-        </p>
+          <div className="my-6" />
+          <p>
+            You calculate every naira. You've eaten garri for breakfast, lunch,
+            and dinner more times than you care to count.
+          </p>
+          <div className="my-6" />
+          <p>
+            Your phone battery is perpetually at 5% because you can't afford to
+            pay your NEPA bill.
+          </p>
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
@@ -245,11 +237,11 @@ export default function SalesPage() {
         </h2>
 
         <div className="text-lg mb-8">
+          <p>You're stuck in areas where "area boys" and touts run wild. </p>
+          <div className="my-6" />
           <p>
-            You're stuck in areas where "area boys" and touts run wild.{" "} </p>
-            <div className="my-6" /> 
-            <p>Where drainage systems overflow with every
-            small rain and your room becomes a swimming pool of sewage.
+            Where drainage systems overflow with every small rain and your room
+            becomes a swimming pool of sewage.
           </p>
           <div className="my-6" />
           <p>
@@ -1650,7 +1642,9 @@ export default function SalesPage() {
         <div className="text-lg mb-8">
           <p>I'm not going to beg you to buy this.</p>
           <div className="my-6" />
-          <p>I'm not going to use some countdown timer or fake scarcity tactics.</p>
+          <p>
+            I'm not going to use some countdown timer or fake scarcity tactics.
+          </p>
         </div>
 
         <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
@@ -1847,11 +1841,15 @@ export default function SalesPage() {
             <div className="my-6" />
             <p>But understand this: every day you wait is money lost.</p>
             <div className="my-6" />
-            <p>Every day you spend broke is another day your family loses respect
-            for you.</p>
+            <p>
+              Every day you spend broke is another day your family loses respect
+              for you.
+            </p>
             <div className="my-6" />
-            <p>Every day you stay in that ghetto is another day you risk your
-            safety.</p>
+            <p>
+              Every day you stay in that ghetto is another day you risk your
+              safety.
+            </p>
           </div>
         </div>
 

@@ -23,7 +23,7 @@ export default function UserDetailsModal({
   onClose,
 }: UserDetailsModalProps) {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center">
+    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center">
       <div className="bg-white p-6 rounded w-full max-w-md shadow-lg">
         <h2 className="text-xl font-bold mb-4">Enter Your Details</h2>
 
