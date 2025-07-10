@@ -1,3 +1,4 @@
+// api/admin/analytics/route
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
@@ -56,6 +57,14 @@ const maxDuration = parseInt(url.searchParams.get('maxDuration') || '999999')
     const durationSec = (new Date(s.leftAt).getTime() - new Date(s.enteredAt).getTime()) / 1000
     return durationSec >= minDuration && durationSec <= maxDuration
   })
+
+  const pageViews = await prisma.pageView.findMany({
+    where: {
+      viewedAt: { gte: new Date(start), lte: new Date(end) },
+      leftAt: { not: null },
+    },
+    select: { viewedAt: true, leftAt: true },
+  });
   
   
   const funnel = {
@@ -77,6 +86,7 @@ const maxDuration = parseInt(url.searchParams.get('maxDuration') || '999999')
   return NextResponse.json({
     sessions: filteredSessions,
     topPages,
+    pageViews,
     counts: funnel
   });
 }  
