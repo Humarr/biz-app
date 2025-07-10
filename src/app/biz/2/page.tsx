@@ -259,7 +259,7 @@ export default function SalesPage() {
         </h2>
 
         <div className="text-lg mb-8">
-          <p>You're stuck in areas where "area boys" and touts run wild. </p>
+          <p>You're stuck in areas where "area boys" and criminals run wild. </p>
           <div className="my-6" />
           <p>
             Where drainage systems overflow with every small rain and your room
