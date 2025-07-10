@@ -1,19 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // lib/paystack.ts
 
 import { FormData, PaystackPop } from '@/type'
 
 export function launchPaystackModal(user: FormData, sessionId: string): void {
-  if (typeof window === 'undefined') return
-
-  const paystackPop = (window as any)?.PaystackPop as PaystackPop
-
-  if (!paystackPop) {
-    console.error('Paystack script not loaded')
-    return
-  }
-
-  const amountInKobo = 300000
+  const amountInKobo = 300000 // ₦3,000
+  const paystackPop = (window as unknown as { PaystackPop: PaystackPop }).PaystackPop
 
   const handler = paystackPop.setup({
     key: process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY!,
@@ -29,7 +20,7 @@ export function launchPaystackModal(user: FormData, sessionId: string): void {
       ],
     },
     callback: (response) => {
-      window.location.href = `/biz/thank-you?ref=${response.reference}`
+      window.location.href = `/thank-you?ref=${response.reference}`
     },
     onClose: () => {
       alert('Payment window closed.')
@@ -38,4 +29,3 @@ export function launchPaystackModal(user: FormData, sessionId: string): void {
 
   handler.openIframe()
 }
-

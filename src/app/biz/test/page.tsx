@@ -78,19 +78,36 @@ export default function SalesPage() {
     <main className={`font-body min-h-screen bg-white text-gray-900`}>
       {/* Hero Section */}
       <section className="py-12 px-4 md:py-20 max-w-4xl mx-auto">
-        <div className="text-center mb-12">
+      <div className="text-center mb-40">
           <p className="text-4xl md:text-6xl font-black mb-8 leading-tight">
-            <span className="text-red-600 block">Read This...</span>
-            {/* <span className="text-red-600 block">
-              They Used To Laugh Behind Your Back...
-            </span> */}
-            <span className="text-gray-900 block mt-4">
-              And Watch Those Your Cousins Who Used To Laugh At You Now Start
-              Asking You For <span className="underline">Advice</span> — And
-              Calling You <span className="italic">'Chairman'</span>
-              {/* {" "}Or...{" "} 
-              <span className="italic">'Boss'</span>  */}
-              {/* With a Straight Face. */}
+            <span className="text-red-600 block">
+              Give Me <span className="underline">15 Minutes</span>…
+            </span>
+
+            <span className="block mt-6 text-gray-900">
+              And I’ll Show You How To Build a Business
+            </span>
+
+            <span className="block mt-2 text-gray-900">
+              That Pays You{" "}
+              <span className="text-green-600">More In 1 Month</span>
+            </span>
+
+            <span className="block mt-2 text-gray-900">
+              {/* Than Your Boss Paid You All Year. */}
+              Than Most People Make In a Year — Working Full-Time.
+            </span>
+
+            <span className="block mt-4 text-green-700 text-3xl font-extrabold">
+              Guaranteed.
+            </span>
+
+            <span className="block mt-8 text-gray-800 italic text-3xl">
+              And make those who mocked you...
+            </span>
+
+            <span className="block mt-2 text-gray-900">
+              Regret <span className="underline">ever laughing</span>.
             </span>
           </p>
         </div>

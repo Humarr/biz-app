@@ -126,7 +126,8 @@ export default function SalesPage() {
             </span>
 
             <span className="block mt-2 text-gray-900">
-              Than Your Boss Paid You All Year.
+              {/* Than Your Boss Paid You All Year. */}
+              Than Most People Make In a Year — Working Full-Time.
             </span>
 
             <span className="block mt-4 text-green-700 text-3xl font-extrabold">
