@@ -46,9 +46,9 @@ const maxDuration = parseInt(url.searchParams.get('maxDuration') || '999999')
       userData: true,
       pageViews: true,
       downloadLogs: true,
-      payment: true
+      payment: true,
     },
-    orderBy: { enteredAt: 'asc' }
+    orderBy: { enteredAt: 'desc' }
   })
 
   

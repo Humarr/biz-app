@@ -9,14 +9,41 @@ import './chartConfig'
 import 'react-datepicker/dist/react-datepicker.css'
 
 interface VisitorSession {
-  enteredAt: string
-  leftAt: string | null
-  pathname: string | null
+  // enteredAt: string
+  // leftAt: string | null
+  // pathname: string | null
+  id: string;
+  enteredAt: string;
+  leftAt: string | null;
+  clickedPayAt: string | null;
+  pathname: string | null;
+  device: string | null;
+  country: string | null;
+  city: string | null;
+  userData?: {
+    name: string;
+    email: string;
+    phone: string;
+  } | null;
+  payment?: {
+    paidAt: string;
+    status: string;
+    amount: number;
+    paystackRef: string;
+  } | null;
+  pageViews: {
+    path: string;
+    viewedAt: string;
+    leftAt: string | number | Date;
+  }[];
+  downloadLogs: {
+    downloadedAt: string;
+  }[];
 }
 
 interface PageView {
   viewedAt: string
-  leftAt: string
+  leftAt: string | number | Date;
 }
 
 interface TopPage {
@@ -177,6 +204,62 @@ export default function AnalyticsClient() {
           </ul>
         </ChartCard>
       </div>
+      {/* SESSION FEED */}
+<ChartCard title="Recent Sessions">
+  <div className="overflow-auto max-h-[30rem] divide-y">
+    {sessions.slice(0, 15).map((s, i) => {
+      const started = new Date(s.enteredAt).toLocaleString()
+      // const ended = s.leftAt ? new Date(s.leftAt).toLocaleString() : null
+      const duration = s.leftAt
+        ? ((new Date(s.leftAt).getTime() - new Date(s.enteredAt).getTime()) / 60000).toFixed(1)
+        : '—'
+
+      return (
+        <details key={i} className="py-3 group cursor-pointer">
+          <summary className="flex justify-between items-center text-sm text-slate-700 font-medium">
+            <div>
+              <span className="font-semibold">Session:</span> {s.pathname ?? '/'} •{' '}
+              {started}
+            </div>
+            <div className="text-xs text-slate-500 group-hover:underline">
+              Duration: {duration} min
+            </div>
+          </summary>
+
+          <div className="mt-2 text-xs text-slate-600 space-y-2 ml-2">
+            <div>
+              <strong>Page Views:</strong>
+              <ul className="list-disc list-inside ml-2">
+                {s.pageViews.map((pv, i) => (
+                  <li key={i}>
+                    
+                    {pv.path} — {(new Date(pv.leftAt).getTime() - new Date(pv.viewedAt).getTime()) / 1000}s
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <strong>Funnel:</strong>
+              <ul className="list-disc list-inside ml-2">
+                <li>
+                  Form Filled: {s.userData ? '✅' : '❌'}
+                </li>
+                <li>
+                  Payment: {s.payment ? `✅ ₦${(s.payment.amount / 100).toLocaleString()}` : '❌'}
+                </li>
+                <li>
+                  Download: {s.downloadLogs.length > 0 ? '✅' : '❌'}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </details>
+      )
+    })}
+  </div>
+</ChartCard>
+
     </div>
   )
 }
