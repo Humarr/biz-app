@@ -33,6 +33,7 @@ interface Session {
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 function getCurrentPage(pageViews: Session["pageViews"]) {
+  if (!pageViews) return null;
   if (!pageViews.length) return null;
   const active = pageViews.find((pv) => !pv.leftAt);
   if (active) return active.path;
