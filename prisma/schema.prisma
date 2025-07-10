@@ -11,6 +11,9 @@ model VisitorSession {
   id            String   @id @default(cuid())
   ipAddress     String?
   userAgent     String?
+  device        String?       // ← NEW
+  country       String?       // ← NEW
+  city          String?       // ← NEW
   enteredAt     DateTime @default(now())
   leftAt        DateTime?
   clickedPayAt  DateTime?

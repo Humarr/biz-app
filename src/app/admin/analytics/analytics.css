@@ -1,0 +1,14 @@
+/* app/analytics/analytics.css */
+
+* {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  a {
+    transition: all 0.2s ease;
+  }
+  
