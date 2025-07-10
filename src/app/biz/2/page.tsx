@@ -243,7 +243,7 @@ export default function SalesPage() {
 
         <div className="text-lg mb-8">
           <p>
-            Your mother keeps mentioning how well your friend's daughter is
+            Your mother keeps mentioning how well her friend's daughter is
             doing. How she just got married and is building a house for her
             parents.
           </p>
