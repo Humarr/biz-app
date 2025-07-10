@@ -4,6 +4,7 @@ import useSWR from 'swr'
 import DatePicker from 'react-datepicker'
 import { Line, Bar, Pie } from 'react-chartjs-2'
 import { format, subDays } from 'date-fns'
+import './chartConfig'
 
 interface VisitorSession {
   enteredAt: string
