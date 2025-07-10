@@ -328,7 +328,7 @@ export default function SalesPage() {
             <div className="bg-yellow-50 p-4 rounded-lg">
               <p className="font-bold text-center">
                 "Just follow my 7-step system and you'll be making 500K
-                monthly!"
+                every week!"
               </p>
             </div>
             <div className="bg-yellow-50 p-4 rounded-lg">
@@ -338,7 +338,7 @@ export default function SalesPage() {
             </div>
             <div className="bg-yellow-50 p-4 rounded-lg">
               <p className="font-bold text-center">
-                "I made 2 million naira in 30 days using this simple method!"
+                "I made 22 million naira in 30 days using this simple method!"
               </p>
             </div>
           </div>
