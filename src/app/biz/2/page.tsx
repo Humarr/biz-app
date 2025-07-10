@@ -249,7 +249,7 @@ export default function SalesPage() {
           </p>
           <div className="my-6" />
           <p>
-            Meanwhile, you're 28 (or 32, or 35) and still living like a teenager
+            Meanwhile, you're 28 (or 32, or 35, or older) and still living like a teenager
             - broke, dependent, and frankly... irrelevant.
           </p>
         </div>
