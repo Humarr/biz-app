@@ -223,7 +223,7 @@ export default function SalesPage() {
         <p>
           Your little cousins don't even greet you anymore. They see you coming
           and whisper,
-          <span className="font-scribble text-lg">
+          <span className="font-scribble text-xl">
             {" "}
             "This one don come again. Stingy uncle."
           </span>
@@ -267,8 +267,9 @@ export default function SalesPage() {
           </p>
           <div className="my-6" />
           <p>
-            You've gotten that dreaded call: "Don't come home tonight. The boys
-            have started again."
+            You've gotten that dreaded call: <span className="font-scribble text-xl">
+            {" "}"Don't come home tonight. The boys
+            have started again."</span>
           </p>
         </div>
 
