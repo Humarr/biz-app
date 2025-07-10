@@ -1,11 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // app/dashboard/page.tsx
 import DashboardStats from "./DashboardStats";
-import SessionCard from "./SessionCard";
-import useSessions from "./useSessions";
+// import SessionCard from "./SessionCard";
+// import useSessions from "./useSessions";
+import SessionsClient from "./SessionsClient";
 
 export default function DashboardPage() {
-  const { sessions, isLoading } = useSessions();
+  // const { sessions, isLoading } = useSessions();
 
   return (
     <main className="min-h-screen bg-[#0d1117] text-[#e6edf3] p-4 space-y-6">
@@ -13,13 +14,7 @@ export default function DashboardPage() {
       <DashboardStats />
 
       <div className="space-y-4">
-        {isLoading ? (
-          <p className="text-gray-400">Loading sessions...</p>
-        ) : (
-          sessions.map((session: any) => (
-            <SessionCard key={session.id} session={session} />
-          ))
-        )}
+        <SessionsClient />
       </div>
     </main>
   );
