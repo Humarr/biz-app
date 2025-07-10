@@ -213,6 +213,7 @@ export default function SalesPage() {
           </p>
         </div>
 
+        <div className="text-lg mb-8">
         <p className="text-lg mb-8">
           Your neighbor's son - the one who barely passed WAEC - just bought his
           third car. Your former classmate is posting photos from Dubai while
@@ -227,6 +228,7 @@ export default function SalesPage() {
             "This one don come again. Stingy uncle."
           </span>
         </p>
+        </div>
 
         <div className="bg-red-100 border-l-4 border-red-600 p-6 my-8">
           <h3 className="text-xl font-bold mb-4">
