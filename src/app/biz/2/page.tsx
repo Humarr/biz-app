@@ -122,12 +122,12 @@ export default function SalesPage() {
 
             <span className="block mt-2 text-gray-900">
               That Pays You{" "}
-              <span className="text-green-600">More In 1 Month</span>
+              <span className="text-green-600">More In 30 Days</span>
             </span>
 
-            <span className="block mt-2 text-gray-900">
+            <span className="block mt-6 text-3xl font-bold text-gray-900">
               {/* Than Your Boss Paid You All Year. */}
-              Than Most People Make In a Year — Working Full-Time.
+              Than Most People Make In 365 Days — Working Full-Time.
             </span>
 
             <span className="block mt-4 text-green-700 text-3xl font-extrabold">
