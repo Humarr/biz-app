@@ -347,7 +347,8 @@ export default function SalesPage() {
             <h3 className="text-xl font-bold mb-4 text-center">
               Bullshit.
               <div className="my-6" />
-              Pure, unadulterated bullshit.
+              {/* Pure, unadulterated bullshit. */}
+              Raw, straight bullshit.
             </h3>
           </div>
 
