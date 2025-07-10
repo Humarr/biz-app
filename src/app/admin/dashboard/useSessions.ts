@@ -5,7 +5,7 @@ import useSWR from "swr";
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 export default function useSessions() {
-  const { data, error } = useSWR("/api/analytics/sessions", fetcher);
+  const { data, error } = useSWR("/api/admin1/analytics/sessions", fetcher);
   return {
     sessions: data?.sessions || [],
     isLoading: !data && !error,
