@@ -92,7 +92,7 @@ export default function OptInPage() {
     </div>
   
     {/* CTA Button */}
-    <Link href="/second/sell">
+    <Link href="/biz/3/sell">
     <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-md text-lg transition duration-200 cursor-pointer">
       SHOW ME HOW TO ESCAPE MY JOB WITH THE MONEY SWITCH
     </button>
