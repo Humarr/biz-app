@@ -2,7 +2,7 @@
 
 export default function SalesLetter() {
   return (
-    <div className="bg-white text-gray-900 max-w-4xl mx-auto py-8 px-4">
+    <div className="bg-white text-gray-900 max-w-4xl mx-auto py-8 px-4 text-lg">
       {/* Header */}
       <header className="mb-12 text-center">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">

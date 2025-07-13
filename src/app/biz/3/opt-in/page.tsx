@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function OptInPage() {
   return (
-    <div className="max-w-2xl mx-auto bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-16">
+    <div className="max-w-2xl mx-auto bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-16 text-lg">
     {/* Headline */}
     <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
       Enter Your Details Below To Access The Complete Money Switch Method
