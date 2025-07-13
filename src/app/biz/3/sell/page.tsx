@@ -5,11 +5,15 @@ export default function SalesLetter() {
     <div className="bg-white text-gray-900 max-w-4xl mx-auto py-8 px-4">
       {/* Header */}
       <header className="mb-12 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          How A Broke Corporate Slave Discovered The "Money Switch" That Turns
-          Job Prisoners Into Business Owners Who Make More In A Month Than They
-          Used To Make In A Year
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+          How A Broke Corporate Slave Discovered The "Money Switch"
         </h1>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700">
+          That Turns Job Prisoners Into Business Owners
+        </h2>
+        <p className="text-xl md:text-2xl mb-8 font-bold font-heading2">
+          Who Make More In A Month Than They Used To Make In A Year
+        </p>
         <p className="text-xl mb-6">
           The same switch that's helping ordinary Nigerians escape the 9-to-5
           trap and build businesses that generate money from day 1
