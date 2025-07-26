@@ -15,8 +15,11 @@ export default function SalesPage() {
 
         {/* Sub Headline */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 border-b-2 border-red-500 pb-2">
-          How A Broke Software Developer With Only ₦100 In His Account Built A Business Empire That Now Pays Him ₦2.5 Million Monthly... And How You Can Copy His Exact Blueprint In The Next 60 Days
+          How A Broke Software Developer With Only ₦100 In His Account Built A Business Empire That Now Pays Him ₦500k+ Monthly... And How You Can Copy His Exact Blueprint In The Next 60 Days
         </h2>
+        {/* <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 border-b-2 border-red-500 pb-2">
+          How A Broke Software Developer With Only ₦100 In His Account Built A Business Empire That Now Pays Him ₦2.5 Million Monthly... And How You Can Copy His Exact Blueprint In The Next 60 Days
+        </h2> */}
 
         {/* Intro Section */}
         <p className="text-lg leading-relaxed mb-6">
@@ -26,7 +29,7 @@ export default function SalesPage() {
           Let me tell you about the most embarrassing day of my life...
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          It was a Tuesday morning in March 2022. I was sitting in a cramped one-room apartment in Surulere, staring at my phone screen showing <span className="font-bold text-red-600">₦100 balance</span>.
+          It was a Tuesday morning in March 2022. I was sitting in a cramped one-room apartment in Surulere, Lagos, staring at my phone screen showing <span className="font-bold text-red-600">₦100 balance</span>.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           <span className="font-bold text-red-600">One hundred naira.</span>
