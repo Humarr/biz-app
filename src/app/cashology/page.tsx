@@ -39,7 +39,8 @@ export default function SalesPage() {
 //       console.error(err);
 //     }
 //   };
-const paymentLink = 'https://paystack.shop/pay/cashology'
+const paymentLink = 'https://paystack.shop/pay/tpo0dokl-l'
+// const paymentLink = 'https://paystack.shop/pay/cashology'
 const price = '8,999'
 
   return (
