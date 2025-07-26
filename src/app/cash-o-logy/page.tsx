@@ -404,7 +404,7 @@ export default function SalesPage() {
         </p>
 
         {/* Modules Section */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 border-b-2 border-green-500 pb-2">
+        {/* <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 border-b-2 border-green-500 pb-2">
           Here&apos;s What You&apos;ll Discover Inside Cash-o-logy:
         </h2>
         <div className="space-y-8 mb-12">
@@ -683,10 +683,313 @@ export default function SalesPage() {
               </li>
             </ul>
           </div>
+        </div> */}
+             {/* Revised Modules Section */}
+             <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 border-b-2 border-green-500 pb-2">
+          Here&apos;s What You&apos;ll Discover Inside Cash-o-logy:
+        </h2>
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 space-y-6 mb-12">
+          <ul className="space-y-4">
+            {/* Module 1: The Mindset Revolution */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Break Free From the Hidden Programming That Keeps You Broke Despite Your Intelligence
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                The Lies You’ve Been Told About Risk That Trap You in Poverty While Others Build Wealth
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                3 Poverty Beliefs You Must Eliminate to Unlock Your Financial Future (Most People Cling to All Three!)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                Why Your Degree Could Be Sabotaging Your Success (This Truth Will Shock You)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Escape the “Safety” Scam That’s Actually the Riskiest Financial Trap of All
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            And there’s more...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 2: The Opportunity Goldmine */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                5 Powerful Lenses to Develop Your “Opportunity Radar” and Spot Million-Naira Ideas Everywhere
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Use the “Pain Detector” Method to Uncover Profitable Problems in Any Market
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                Where to Find Hidden Gaps and Inefficiencies That Turn Into Automatic Money-Makers
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                7 Blind Spots That Hide Lucrative Opportunities From 99% of People (And How to See Them Clearly)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                When to Act on an Opportunity to Maximize Profits and Avoid Missing Out
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            That’s not all...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 3: The Validation Framework */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Use the 12-Point Validation Framework to Ensure Your Business Idea Will Sell Before You Invest a Dime
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                3 Brutal Tests to Weed Out Bad Ideas and Save You From Costly Failures
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                The “Million-Naira Question” That Instantly Tells You If Your Idea Is a Winner
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                The Lies You’ve Been Told About Business Ideas That Lead Smart People to Build Flops
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                When to Pivot Your Idea to Avoid Wasting Time on a Losing Bet
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            But wait, it gets better...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 4: The Big Boy Positioning Strategy */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Position Yourself as the Go-To Expert Using 4 Bulletproof Pillars That Crush Competition
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                5 Deadly Positioning Mistakes That Could Sink Your Business (Mistake #3 Will Blow Your Mind)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Turn Your Inexperience Into a Magnetic Selling Point With the “I’m New Here” Advantage
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                The 5-Step Positioning Process That Makes Your Competitors Irrelevant Overnight
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                Where to Showcase Your Positioning to Attract High-Paying Clients Fast
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            And we’re just getting started...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 5: The Irresistible Offer Formula */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Craft Offers So Compelling Customers Feel Foolish for Saying No
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                5 Elements of an Irresistible Offer That Trigger Instant “Shut Up and Take My Money” Reactions
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Make Your Offer Feel Like You’re Giving Away Free Money (While Still Profiting Big)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                When to Roll Out Your Offer to Maximize Sales Without Looking Desperate
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            Hold on, there’s even more...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 6: The Fearless Pricing System */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Charge Premium Prices Without Losing Customers (And Why Higher Prices Mean More Sales)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                3 Ways to Escape the “Pity-Pricing Trap” That Keeps Entrepreneurs Broke Forever
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                The Value-Stacking Method That Justifies Any Price You Dare to Charge
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                When to Raise Your Prices to Skyrocket Your Income Without Scaring Clients Away
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Use the Fearless Pricing System to Get Paid What You’re Truly Worth
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            But we’re not done yet...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 7: The Customer Magnetism Method */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Attract Ideal Clients Like a Magnet Using the Customer Magnetism Method
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                3 Psychological Triggers That Make Customers Refer You Without You Asking
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Turn Your Customers Into Free Promoters Without Begging or Bribing
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                Where to Find Your Dream Clients Who Are Ready to Pay Premium Prices
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            And guess what? There’s still more...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 8: The Evangelism Engine */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Build an Evangelism Engine That Turns Customers Into Unpaid Hype-Men for Your Brand
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                5 Ways to Amplify Word-of-Mouth Marketing for Free Using a Systematic Approach
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                When to Leverage Your Evangelists to Explode Your Business Growth
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-blue-700 font-bold">
+            And finally...
+          </p>
+          <ul className="space-y-4">
+            {/* Module 9: The Automation System */}
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Set Up an Automation System That Generates Cash While You Sleep (or Scroll TikTok)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                4 Levels of Business Evolution to Escape the Time-for-Money Trap Forever
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                The Exact Tools Nigerian Entrepreneurs Use to Run Businesses Without Constant Babysitting
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                How to Avoid Becoming a “Fake Entrepreneur” Who’s Just a Glorified Employee
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-blue-500 text-2xl">•</span>
+              <span className="text-lg font-semibold">
+                When to Automate Your Business to Free Up Your Time and Multiply Your Income
+              </span>
+            </li>
+          </ul>
         </div>
 
         {/* Bonuses Section */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+        {/* <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
           But Wait... I&apos;m Not Done Yet!
         </h2>
         <p className="text-lg leading-relaxed mb-6">
@@ -813,7 +1116,7 @@ export default function SalesPage() {
           <p className="text-lg text-gray-800 mt-4">
             Never again will you wonder &quot;Will this business actually make money?&quot; You&apos;ll KNOW before you risk a single naira.
           </p>
-        </div>
+        </div> */}
 
         {/* Testimonials Section */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
