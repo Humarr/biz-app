@@ -1332,7 +1332,7 @@ export default function SalesPage() {
         </h2>
         <div className="space-y-8 mb-12">
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
-            <blockquote className="text-lg italic text-gray-800 mb-4">
+            <blockquote className="text-xl italic text-gray-800 mb-4 font-scribble">
               &quot;I was skeptical at first, but the validation framework alone saved me from losing ₦150,000 on a bad business idea. Three months later, I&apos;m making ₦280,000 monthly from my consulting business.&quot;
             </blockquote>
             <cite className="text-sm font-semibold text-blue-600 not-italic">
@@ -1340,7 +1340,7 @@ export default function SalesPage() {
             </cite>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
-            <blockquote className="text-lg italic text-gray-800 mb-4">
+            <blockquote className="text-xl italic text-gray-800 mb-4 font-scribble">
               &quot;The positioning strategies changed everything. I went from being just another graphic designer to THE brand designer in my niche. Tripled my rates overnight.&quot;
             </blockquote>
             <cite className="text-sm font-semibold text-blue-600 not-italic">
@@ -1348,7 +1348,7 @@ export default function SalesPage() {
             </cite>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
-            <blockquote className="text-lg italic text-gray-800 mb-4">
+            <blockquote className="text-xl italic text-gray-800 mb-4 font-scribble">
               &quot;My friends used to laugh at my &apos;side hustles.&apos; Now they&apos;re asking me for business advice. Made my first ₦500K month using the automation system.&quot;
             </blockquote>
             <cite className="text-sm font-semibold text-blue-600 not-italic">
