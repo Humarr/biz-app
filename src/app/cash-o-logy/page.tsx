@@ -1916,7 +1916,7 @@ export default function SalesPage() {
           Cash-o-logy is the complete system I used to make this transformation. It&apos;s the exact blueprint that took me from laughingstock to millionaire in 6 months.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          For ₦25,000 (less than most people spend on weekend enjoyment), you get:
+          For ₦8,999 (less than most people spend on weekend enjoyment), you get:
         </p>
         <ul className="space-y-4 mb-8">
           <li className="flex items-start space-x-3">
