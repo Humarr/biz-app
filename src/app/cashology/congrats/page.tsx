@@ -1,11 +1,11 @@
 'use client'
 import { useEffect } from 'react';
-import { useRouter } from 'next/router';
 import axios from 'axios';
+import { useSearchParams } from 'next/navigation';
 
 export default function Congrats() {
-  const router = useRouter();
-  const { reference } = router.query;
+  const searchParams = useSearchParams();
+  const reference = searchParams.get('reference');
 
   useEffect(() => {
     if (reference) {
