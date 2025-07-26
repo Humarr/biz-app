@@ -1848,7 +1848,7 @@ export default function SalesPage() {
           You smile because this is just another Tuesday. Another regular day in your new life.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Your kids run up to you, excited about their new school. Your wife kisses you, proud of how far you&apos;ve come. Your parents call to ask for business advice.
+          Your kids run up to you, excited about their new school. Your wife kisses you, proud of how far you&apos;ve come. Your friends call to ask for business advice.
         </p>
 
                 {/* Continuation of Final Imagination Section */}
