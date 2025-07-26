@@ -1878,7 +1878,7 @@ export default function SalesPage() {
             ⏰ FINAL WARNING: 72 Hours Left
           </p>
           <p className="text-lg text-gray-800 font-bold text-red-600">
-            Clock is ticking. Price goes up to ₦65,000 in:
+            Clock is ticking. Price goes up to ₦25,000 in:
           </p>
           <p className="text-2xl font-bold text-red-600">
             71 hours, 23 minutes...
