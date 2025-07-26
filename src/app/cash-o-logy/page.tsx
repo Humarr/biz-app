@@ -1527,9 +1527,13 @@ export default function SalesPage() {
         <p className="text-lg leading-relaxed mb-6">
           Not even ₦100,000...
         </p>
+        <p className="text-lg leading-relaxed mb-6">
+          Not even ₦50,000...
+        </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            Today Only: ₦25,000
+            Today Only: ₦8,999
+            {/* Today Only: ₦25,000 */}
           </h3>
           <p className="text-xl mb-6">
             (That&apos;s less than what some people spend on weekend enjoyment!)
@@ -1547,10 +1551,10 @@ export default function SalesPage() {
           I can&apos;t keep this price forever.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Once I hit 500 copies sold, the price goes to ₦65,000.
+          Once I hit 500 copies sold, the price goes to ₦25,000.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          At 1,000 copies sold, it becomes ₦125,000.
+          At 1,000 copies sold, it becomes ₦65,000.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Why?
