@@ -1979,7 +1979,7 @@ export default function SalesPage() {
           Another year of the same salary... same financial stress... same lack of options... same embarrassment at family gatherings...
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          While this book costs ₦25,000, staying broke will cost you MILLIONS in lost opportunities, lost respect, and lost time.
+          While this book costs ₦8,999, staying broke will cost you MILLIONS in lost opportunities, lost respect, and lost time.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           I&apos;ve given you everything: The complete system, massive bonuses, iron-clad guarantee, and rock-bottom pricing.
