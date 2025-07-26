@@ -1762,10 +1762,10 @@ export default function SalesPage() {
           Let me guess what you&apos;re thinking right now:
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-red-600">
-          &quot;I don&apos;t have ₦25,000 to spare...&quot;
+          &quot;I don&apos;t have ₦8,999 to spare...&quot;
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Really? You don&apos;t have ₦25,000 to invest in changing your entire financial future? That&apos;s less than ₦1,000 per day for a month. Less than what some people spend on data and food weekly.
+          Really? You don&apos;t have ₦8,999 to invest in changing your entire financial future? That&apos;s less than ₦400 per day for a month. Less than what some people spend on data and food daily.
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-red-600">
           &quot;I need to think about it...&quot;
