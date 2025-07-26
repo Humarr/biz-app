@@ -38,7 +38,7 @@ export default function SalesPage() {
           That&apos;s all I had left in the world.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          My stomach was growling so loud my roommate kept asking if I was okay. I hadn&apos;t eaten anything in 18 hours. The only thing in our kitchen was a small cup of garri that I&apos;d been rationing like it was gold.
+          My stomach was growling so loud my roommate kept asking if I was okay. I hadn&apos;t eaten anything in 18 hours. The only thing in our kitchen was a small cup of garri that I&apos;d been eating small small like it was gold.
         </p>
 
         {/* Attention Text Box */}
