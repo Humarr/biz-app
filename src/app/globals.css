@@ -65,8 +65,8 @@ h3,
 h4 {
   font-family: var(--font-headline2);
   /* color: var(--primary); */
-  font-weight: bold;
-  text-transform: uppercase;
+  /* font-weight: bold;
+  text-transform: uppercase; */
 }
 
 /* h1 {
