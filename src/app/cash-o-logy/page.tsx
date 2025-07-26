@@ -1907,10 +1907,10 @@ export default function SalesPage() {
           I know some of you scrolled straight to this P.S. section (I do it too). Here&apos;s the deal:
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          My name is Chinedu. Six months ago, I was broke with ₦100 in my account. My friends laughed when I said I wanted to start a business.
+          Six months ago, I was broke with ₦100 in my account. My friends laughed when I said I wanted to start a business.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Today, I make ₦2.5 million monthly from businesses that run mostly without me.
+          Today, I make ₦500k+ monthly from businesses that run mostly without me.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Cash-o-logy is the complete system I used to make this transformation. It&apos;s the exact blueprint that took me from laughingstock to millionaire in 6 months.
