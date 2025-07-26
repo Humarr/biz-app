@@ -1646,7 +1646,7 @@ export default function SalesPage() {
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            GET CASH-O-LOGY NOW - ONLY ₦25,000
+            GET CASH-O-LOGY NOW - ONLY ₦8,999
           </h3>
           <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
@@ -1730,16 +1730,16 @@ export default function SalesPage() {
           In 12 months, that&apos;s ₦900,000 in additional income.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Your investment today: ₦25,000
+          Your investment today: ₦8,999
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
-          Your return: 3,600%
+          Your return: 3,600+%
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Even if I&apos;m HALF wrong and you only make an extra ₦35,000 monthly, you&apos;ll still pocket ₦420,000 in year one.
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
-          That&apos;s still a 1,680% return on investment!
+          That&apos;s still a 1,680+% return on investment!
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Show me a bank, stock, or cryptocurrency that beats that consistently!
@@ -1751,7 +1751,7 @@ export default function SalesPage() {
           What if you implement multiple strategies? What if you build a business that makes ₦200,000 monthly? ₦500,000? ₦1,000,000?
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Suddenly, this ₦25,000 investment becomes the best money you&apos;ve ever spent.
+          Suddenly, this ₦8,999 investment becomes the best money you&apos;ve ever spent.
         </p>
 
         {/* Excuses Section */}
