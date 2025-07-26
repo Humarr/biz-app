@@ -9,6 +9,7 @@ export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const reference = searchParams.get('reference');
+    console.log("reference: ", reference)
 
     if (!reference) {
       return NextResponse.json(
@@ -28,6 +29,8 @@ export async function GET(req: NextRequest) {
     );
 
     const { status, data } = response.data;
+    console.log("status: ", status)
+    console.log("data: ", data)
 
     if (status && data.status === 'success') {
       // TODO: Save transaction details to your database

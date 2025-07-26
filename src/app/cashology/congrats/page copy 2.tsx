@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
@@ -6,8 +5,10 @@ import axios from 'axios';
 import Link from 'next/link';
 
 export default function Congrats() {
-  const searchParams = useSearchParams();
-  const reference = searchParams.get('reference');
+  const params = useSearchParams();
+  const reference = params.get('reference');
+  console.log("reference: ", reference)
+  console.log(params)
   const [status, setStatus] = useState<'verifying' | 'success' | 'failed'>('verifying');
   const [errorMessage, setErrorMessage] = useState('');
   const [downloadUrl, setDownloadUrl] = useState('');
@@ -17,7 +18,7 @@ export default function Congrats() {
       verifyPayment(reference);
     } else {
       setStatus('failed');
-      setErrorMessage('No payment reference found. Please complete your purchase to access the Cash-o-logy eBook.');
+      setErrorMessage('No payment reference found. Please complete your purchase to access the eBook.');
     }
   }, [reference]);
 
@@ -25,24 +26,23 @@ export default function Congrats() {
     try {
       const response = await axios.get(`/api/verify-payment?reference=${ref}`);
       if (response.data.status === 'success') {
+        // Fetch Backblaze download URL
         const downloadResponse = await axios.get('/api/get-download-url');
         if (downloadResponse.data.downloadUrl) {
           setDownloadUrl(downloadResponse.data.downloadUrl);
           setStatus('success');
         } else {
           setStatus('failed');
-          setErrorMessage('Failed to generate eBook download link. Please contact support.');
+          setErrorMessage('Failed to generate download link. Please contact support.');
         }
       } else {
         setStatus('failed');
         setErrorMessage('Payment verification failed. Please contact support.');
       }
-    } catch (error: any) {
-      console.error('Error:', error.response?.data || error.message);
+    } catch (error) {
+      console.error('Error:', error);
       setStatus('failed');
-      setErrorMessage(
-        error.response?.data?.error || 'An error occurred while verifying your payment or generating the download link. Please contact support.'
-      );
+      setErrorMessage('An error occurred while verifying your payment or generating the download link. Please contact support.');
     }
   };
 
@@ -119,4 +119,3 @@ export default function Congrats() {
     </div>
   );
 }
-
