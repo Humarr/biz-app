@@ -1892,7 +1892,7 @@ export default function SalesPage() {
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            SECURE MY COPY NOW - ONLY ₦25,000
+            SECURE MY COPY NOW - ONLY ₦8,999
           </h3>
           <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             GET INSTANT ACCESS
