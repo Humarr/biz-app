@@ -1,8 +1,47 @@
+// 'use client'
 import Link from "next/link";
+// import { useState } from "react";
 
 
 
 export default function SalesPage() {
+//     const [email, setEmail] = useState('');
+//   const [error, setErrorMessage] = useState('');
+
+//   const initiatePayment = async () => {
+//     if (!email) {
+//       setErrorMessage('Please enter a valid email address');
+//       return;
+//     }
+
+//     try {
+//       const response = await fetch('/api/initiate-payment', {
+//         method: 'POST',
+//         headers: {
+//           'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify({
+//           email: 'test@example.com',
+//           amount: 25000, // ₦25,000
+//         }),
+//       });
+
+//       const data = await response.json();
+
+//       if (!response.ok) {
+//         throw new Error(data.error || 'Failed to initiate payment');
+//       }
+
+//       // Redirect to Paystack payment page
+//       window.location.href = data.authorization_url;
+//     } catch (err) {
+//       setErrorMessage('An error occurred. Please try again.');
+//       console.error(err);
+//     }
+//   };
+const paymentLink = 'https://paystack.shop/pay/cashology'
+const price = '8,999'
+
   return (
     <div className={`min-h-screen bg-gray-100 font-inter`}>
       <main className="px-4 md:px-8 lg:px-12 py-12 max-w-4xl mx-auto">
@@ -1532,7 +1571,7 @@ export default function SalesPage() {
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            Today Only: ₦8,999
+            Today Only: ₦{price}
             {/* Today Only: ₦25,000 */}
           </h3>
           <p className="text-xl mb-6">
@@ -1570,7 +1609,7 @@ export default function SalesPage() {
             ⏰ WARNING: This Offer Expires In 72 Hours
           </p>
           <p className="text-lg text-gray-800">
-            I&apos;m only releasing 500 copies at this ₦8,999 price.
+            I&apos;m only releasing 500 copies at this ₦{price} price.
           </p>
           <p className="text-lg text-gray-800">
             After 72 hours OR when we hit 500 copies (whichever comes first), this deal disappears forever.
@@ -1646,7 +1685,7 @@ export default function SalesPage() {
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            GET CASH-O-LOGY NOW - ONLY ₦8,999
+            GET CASH-O-LOGY NOW - ONLY ₦{price}
           </h3>
           <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
@@ -1730,7 +1769,7 @@ export default function SalesPage() {
           In 12 months, that&apos;s ₦900,000 in additional income.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Your investment today: ₦8,999
+          Your investment today: ₦{price}
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
           Your return: 3,600+%
@@ -1751,7 +1790,7 @@ export default function SalesPage() {
           What if you implement multiple strategies? What if you build a business that makes ₦200,000 monthly? ₦500,000? ₦1,000,000?
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Suddenly, this ₦8,999 investment becomes the best money you&apos;ve ever spent.
+          Suddenly, this ₦{price} investment becomes the best money you&apos;ve ever spent.
         </p>
 
         {/* Excuses Section */}
@@ -1762,10 +1801,10 @@ export default function SalesPage() {
           Let me guess what you&apos;re thinking right now:
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-red-600">
-          &quot;I don&apos;t have ₦8,999 to spare...&quot;
+          &quot;I don&apos;t have ₦{price} to spare...&quot;
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Really? You don&apos;t have ₦8,999 to invest in changing your entire financial future? That&apos;s less than ₦400 per day for a month. Less than what some people spend on data and food daily.
+          Really? You don&apos;t have ₦{price} to invest in changing your entire financial future? That&apos;s less than ₦400 per day for a month. Less than what some people spend on data and food daily.
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-red-600">
           &quot;I need to think about it...&quot;
@@ -1892,7 +1931,7 @@ export default function SalesPage() {
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            SECURE MY COPY NOW - ONLY ₦8,999
+            SECURE MY COPY NOW - ONLY ₦{price}
           </h3>
           <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             GET INSTANT ACCESS
@@ -1916,7 +1955,7 @@ export default function SalesPage() {
           Cash-o-logy is the complete system I used to make this transformation. It&apos;s the exact blueprint that took me from laughingstock to millionaire in 6 months.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          For ₦8,999 (less than most people spend on weekend enjoyment), you get:
+          For ₦{price} (less than most people spend on weekend enjoyment), you get:
         </p>
         <ul className="space-y-4 mb-8">
           <li className="flex items-start space-x-3">
@@ -1945,7 +1984,7 @@ export default function SalesPage() {
           </li>
         </ul>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
-          Total value: ₦975,000. Your price today: ₦8,999.
+          Total value: ₦975,000. Your price today: ₦{price}.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           All backed by my 90-day, sleep-tight-at-night guarantee.
@@ -1958,9 +1997,9 @@ export default function SalesPage() {
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            GET INSTANT ACCESS - ₦8,999
+            GET INSTANT ACCESS - ₦{price}
           </h3>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
           </Link>
         </div>
@@ -1979,7 +2018,7 @@ export default function SalesPage() {
           Another year of the same salary... same financial stress... same lack of options... same embarrassment at family gatherings...
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          While this book costs ₦8,999, staying broke will cost you MILLIONS in lost opportunities, lost respect, and lost time.
+          While this book costs ₦{price}, staying broke will cost you MILLIONS in lost opportunities, lost respect, and lost time.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           I&apos;ve given you everything: The complete system, massive bonuses, iron-clad guarantee, and rock-bottom pricing.
@@ -2000,7 +2039,7 @@ export default function SalesPage() {
           <h3 className="text-3xl font-bold mb-4">
             CHANGE MY LIFE NOW - GET CASH-O-LOGY
           </h3>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
           </Link>
         </div>
@@ -2043,7 +2082,15 @@ export default function SalesPage() {
           <h3 className="text-3xl font-bold mb-4">
             YES! I&apos;M READY TO STOP BEING BROKE
           </h3>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          {/* <input
+            type="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full p-4 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500"
+          />
+          {error && <p className="text-white mb-4">{error}</p>} */}
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
           </Link>
         </div>

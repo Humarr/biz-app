@@ -3,7 +3,7 @@ import { Inter, Anton, Patrick_Hand, Poppins, Kalam } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
-import {PageViewTracker} from '@/components/biz/PageViewTracker'
+// import {PageViewTracker} from '@/components/biz/PageViewTracker'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -54,7 +54,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable}`}>
       <body className="antialiased">
         <div className="min-h-screen flex flex-col">
-          <PageViewTracker />
+          {/* <PageViewTracker /> */}
           {children}
           <Footer />
         </div>
