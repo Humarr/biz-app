@@ -1118,6 +1118,214 @@ export default function SalesPage() {
           </p>
         </div> */}
 
+
+        {/* Revised Bonuses Section */}
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+          But Wait... I&apos;m Not Done Yet!
+        </h2>
+        <p className="text-lg leading-relaxed mb-6">
+          When you get Cash-o-logy today, you&apos;re also getting these game-changing bonuses absolutely FREE:
+        </p>
+        
+        {/* Bonus #1: The Copywriting Arsenal */}
+        <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 my-8">
+          <h3 className="text-2xl font-bold text-green-700 mb-4">
+            🎁 BONUS #1: The Copywriting Arsenal (Value: ₦75,000)
+          </h3>
+          <p className="text-lg text-gray-800 mb-4">
+            &quot;How To Sell Like A Wizard (Even If You Can&apos;t Spell &apos;Copywriting&apos;)&quot;
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Turn Browsers Into Buyers With 9 Psychological Cheat Codes That Work Like Magic
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                The Headline Hypnosis System That Makes Prospects Beg to Buy From You
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                7 Ways to Convert Interest Into Instant Sales Using the Emotion-to-Action System
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Obliterate Every Objection and Remove Excuses Not to Buy
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-green-700 font-bold mt-4">
+            And there’s more...
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                When to Deploy Your Copywriting Secrets to Skyrocket Sales in 24 Hours
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                The Lies You’ve Been Told About Copywriting That Keep You From Writing Killer Sales Messages
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Craft Sales Messages That Generated ₦380,000 in Just 3 Days
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                Where to Use Your Copywriting Arsenal to Attract High-Value Customers Online and Offline
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg text-gray-800 mt-4">
+            These techniques took me from ZERO sales to ₦50K in 24 hours. Imagine never struggling to write persuasive sales messages again!
+          </p>
+        </div>
+
+        {/* Bonus #2: The Quick-Start Checklist */}
+        <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 my-8">
+          <h3 className="text-2xl font-bold text-green-700 mb-4">
+            🎁 BONUS #2: The Quick-Start Checklist (Value: ₦50,000)
+          </h3>
+          <p className="text-lg text-gray-800 mb-4">
+            &quot;Zero To First Sale: Your Exact Roadmap In 30 Days Or Less&quot;
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Go From Zero to Your First Sale in 30 Days With a Step-by-Step Checklist
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                5 Daily Actions in Week 1 to Build a Rock-Solid Business Foundation
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Validate and Position Your Offer in Week 2 for Maximum Appeal
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                3 Proven Launch Strategies in Week 3 to Land Your First Paying Customers
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-green-700 font-bold mt-4">
+            That’s not all...
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Scale Your Results in Week 4 to Multiply Your Income Fast
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                Where to Focus Your Efforts to Eliminate Confusion and Get Results
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                When to Take Each Step to Build Momentum and Avoid Overwhelm
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Follow the Exact 30-Day Plan That Took Me From Broke to ₦200K Weekly
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg text-gray-800 mt-4">
+            No more guessing or wondering where to start. Just follow this checklist to see your business come alive in 30 days or less.
+          </p>
+        </div>
+
+        {/* Bonus #3: The Profit Calculator */}
+        <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 my-8">
+          <h3 className="text-2xl font-bold text-green-700 mb-4">
+            🎁 BONUS #3: The Profit Calculator (Value: ₦35,000)
+          </h3>
+          <p className="text-lg text-gray-800 mb-4">
+            &quot;The Formula That Prevents Financial Disasters Before They Happen&quot;
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Predict Your Business Profits With a Brutally Simple Formula That Never Fails
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                5 Real Nigerian Case Studies That Show Exactly How to Make Money (From Shawarma to E-Commerce)
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Use Worksheet Templates to Plan Profitable Businesses in Any Industry
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                The “Rat Race Trap” Detector That Saves You From Building a Glorified Job
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg italic text-green-700 font-bold mt-4">
+            And here’s the kicker...
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                When to Trust Your Numbers to Avoid Million-Naira Mistakes
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                Where to Apply the Profit Calculator to Spot Financial Disasters Before They Happen
+              </span>
+            </li>
+            <li className="flex items-start space-x-3">
+              <span className="text-green-500 text-2xl">→</span>
+              <span className="text-lg font-semibold">
+                How to Save Millions by Avoiding “Sure-Fire” Ideas That Are Actually Doomed
+              </span>
+            </li>
+          </ul>
+          <p className="text-lg text-gray-800 mt-4">
+            Never wonder if your business will make money again. This calculator saved me from a ₦2 million loss—imagine what it can do for you!
+          </p>
+        </div>
+
+
         {/* Testimonials Section */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
           What Others Are Saying:
