@@ -206,6 +206,9 @@ export default function SalesPage() {
           I read every business book I could find. Watched thousands of hours of YouTube videos at free Wi-Fi spots. Took notes like my life depended on it (because it did).
         </p>
         <p className="text-lg leading-relaxed mb-6">
+          I paid for courses. LOTS of courses.
+        </p>
+        <p className="text-lg leading-relaxed mb-6">
           I studied successful Nigerian entrepreneurs. Analyzed their strategies. Dissected their business models.
         </p>
         <p className="text-lg leading-relaxed mb-6">
@@ -242,19 +245,19 @@ export default function SalesPage() {
         </p>
         <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 my-8">
           <h3 className="text-2xl font-bold text-green-700 mb-4 text-center">
-            💰 Within 24 hours, I made my first ₦50,000.
+            💰 Within 24 hours, I made my first ₦20,000.
           </h3>
           <p className="text-lg text-gray-800">
-            By week two, I was making ₦200,000 weekly.
+            By week two, I was making ₦50,000 weekly.
           </p>
           <p className="text-lg text-gray-800">
-            By month three, I was earning ₦800,000 monthly.
+            By month three, I was earning ₦200,000 monthly.
           </p>
           <p className="text-lg text-gray-800">
             By month six...
           </p>
           <p className="text-lg text-gray-800 font-bold">
-            I was making ₦2.5 million every single month.
+            I was making OVER ₦500k+ every single month.
           </p>
         </div>
         <p className="text-lg leading-relaxed mb-6">
