@@ -1,11 +1,11 @@
 'use client'
 import { useEffect } from 'react';
 import axios from 'axios';
-import { useSearchParams } from 'next/navigation';
+import { useParams } from 'next/navigation';
 
 export default function Congrats() {
-  const searchParams = useSearchParams();
-  const reference = searchParams.get('reference');
+  const params = useParams();
+  const reference = params.reference;
 
   useEffect(() => {
     if (reference) {
