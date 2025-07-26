@@ -67,10 +67,10 @@ export default function Congrats() {
               Congratulations! Your Purchase Was Successful!
             </h2>
             <p className="text-lg text-gray-800 mb-4">
-              You’ve secured <span className="font-bold">Cash-o-logy</span> for ₦25,000! You’re now ready to transform your financial future with the system that took me from ₦100 to ₦2.5 million monthly.
+              You’ve secured <span className="font-bold">Cash-o-logy</span> for ₦8,999! You’re now ready to transform your financial future with the system that took me from ₦100 to ₦500k+ monthly.
             </p>
             <p className="text-lg text-gray-800 mb-6">
-              <span className="font-bold">Your eBook is ready!</span> Click below to download Cash-o-logy instantly. We’ve also sent access details to your email (check spam/junk). Can’t access it? Contact <a href="mailto:support@cashology.com" className="text-blue-600 underline">support@cashology.com</a>.
+              <span className="font-bold">Your eBook is ready!</span> Click below to download Cash-o-logy instantly. Have issues? Contact <a href="mailto:support@cashology.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
             </p>
             <div className="bg-green-50 border-2 border-green-500 rounded-lg p-4 mb-6">
               <p className="text-lg text-gray-800 font-semibold">
@@ -84,14 +84,14 @@ export default function Congrats() {
             >
               Download Cash-o-logy eBook Now
             </a>
-            <Link
+            {/* <Link
               href="/dashboard" // Replace with actual course access URL, if applicable
               className="bg-blue-500 text-white py-4 px-8 rounded-full font-bold text-xl hover:bg-blue-600 transform hover:scale-105 transition-all duration-200 inline-block"
             >
               Access Members’ Area
-            </Link>
+            </Link> */}
             <p className="text-sm text-gray-600 mt-6">
-              We’re thrilled to have you on board! Your success story starts today. Questions? Contact <a href="mailto:support@cashology.com" className="text-blue-600 underline">support@cashology.com</a>.
+              We’re thrilled to have you on board! Your success story starts today. Questions? Contact <a href="mailto:support@cashology.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
             </p>
           </>
         )}
@@ -105,7 +105,7 @@ export default function Congrats() {
               {errorMessage}
             </p>
             <Link
-              href="/support" // Replace with actual support page URL
+              href="mailto:thecashologists00@gmail.com" // Replace with actual support page URL
               className="bg-red-500 text-white py-4 px-8 rounded-full font-bold text-xl hover:bg-red-600 transform hover:scale-105 transition-all duration-200"
             >
               Contact Support
