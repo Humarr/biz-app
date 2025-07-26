@@ -391,7 +391,7 @@ export default function SalesPage() {
           This isn&apos;t just another business book.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          This is the exact system I used to go from ₦100 in my account to ₦2.5 million monthly income in 6 months.
+          This is the exact system I used to go from ₦100 in my account to ₦500k+ monthly income in 6 months.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           The same system my friends are now using to build their own businesses.
