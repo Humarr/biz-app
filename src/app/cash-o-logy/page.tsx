@@ -64,15 +64,15 @@ export default function SalesPage() {
             <br /><br />
             Tunde: &quot;Omo, this hunger is making you talk anyhow. Go and look for work first.&quot;
             <br /><br />
-            Kemi: &quot;Chinedu, be serious. What business? With what money? You were begging me for transport fare last week!&quot;
+            Kemi: &quot;Guy, be serious. What business? With what money? You were begging me for transport fare last week!&quot;
           </p>
-          <div className="absolute -right-4 md:right-0 top-0 w-20 md:w-32">
+          {/* <div className="absolute -right-4 md:right-0 top-0 w-20 md:w-32">
             <div className="transform rotate-12 bg-yellow-100 p-2 rounded shadow-md">
               <p className={`text-xs md:text-sm text-red-600 font-handwritten`}>
                 They laughed at me!
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <p className="text-lg leading-relaxed mb-6">
           They laughed.
