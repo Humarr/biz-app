@@ -614,7 +614,7 @@ export default function SalesPage() {
               <li className="flex items-start space-x-3">
                 <span className="text-blue-500 text-2xl">•</span>
                 <span className="text-lg">
-                  The customer magnetism method that attracts ideal clients like metal to a magnet
+                  The customer magnetism method that attracts ideal customers like metal to a magnet
                 </span>
               </li>
               <li className="flex items-start space-x-3">
@@ -826,7 +826,7 @@ export default function SalesPage() {
             <li className="flex items-start space-x-3">
               <span className="text-blue-500 text-2xl">•</span>
               <span className="text-lg font-semibold">
-                Where to Showcase Your Positioning to Attract High-Paying Clients Fast
+                Where to Showcase Your Positioning to Attract High-Paying Customers Fast
               </span>
             </li>
           </ul>
@@ -886,7 +886,7 @@ export default function SalesPage() {
             <li className="flex items-start space-x-3">
               <span className="text-blue-500 text-2xl">•</span>
               <span className="text-lg font-semibold">
-                When to Raise Your Prices to Skyrocket Your Income Without Scaring Clients Away
+                When to Raise Your Prices to Skyrocket Your Income Without Scaring Customers Away
               </span>
             </li>
             <li className="flex items-start space-x-3">
@@ -904,7 +904,7 @@ export default function SalesPage() {
             <li className="flex items-start space-x-3">
               <span className="text-blue-500 text-2xl">•</span>
               <span className="text-lg font-semibold">
-                How to Attract Ideal Clients Like a Magnet Using the Customer Magnetism Method
+                How to Attract Ideal Customers Like a Magnet Using the Customer Magnetism Method
               </span>
             </li>
             <li className="flex items-start space-x-3">
@@ -922,7 +922,7 @@ export default function SalesPage() {
             <li className="flex items-start space-x-3">
               <span className="text-blue-500 text-2xl">•</span>
               <span className="text-lg font-semibold">
-                Where to Find Your Dream Clients Who Are Ready to Pay Premium Prices
+                Where to Find Your Dream Customers Who Are Ready to Pay Premium Prices
               </span>
             </li>
           </ul>
