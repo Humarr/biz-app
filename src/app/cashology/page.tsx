@@ -1577,7 +1577,7 @@ const price = '8,999'
           <p className="text-xl mb-6">
             (That&apos;s less than what some people spend on weekend enjoyment!)
           </p>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             GET YOUR COPY NOW
           </Link>
         </div>
@@ -1687,7 +1687,7 @@ const price = '8,999'
           <h3 className="text-3xl font-bold mb-4">
             GET CASH-O-LOGY NOW - ONLY ₦{price}
           </h3>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
           </Link>
         </div>
@@ -1862,7 +1862,7 @@ const price = '8,999'
           <h3 className="text-3xl font-bold mb-4">
             YES! I WANT TO CHANGE MY LIFE - GET CASH-O-LOGY NOW
           </h3>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
           </Link>
         </div>
@@ -1933,7 +1933,7 @@ const price = '8,999'
           <h3 className="text-3xl font-bold mb-4">
             SECURE MY COPY NOW - ONLY ₦{price}
           </h3>
-          <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
+          <Link href={paymentLink} className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             GET INSTANT ACCESS
           </Link>
         </div>
