@@ -1516,7 +1516,7 @@ export default function SalesPage() {
           </li>
         </ul>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
-          Total Value of Cash-o-logy + All Bonuses: ₦975,000
+          Total Value of Cash-o-logy + All Bonuses: <span className="text-xl text-red-600">₦975,000</span>
         </p>
         <p className="text-lg leading-relaxed mb-6">
           But you won&apos;t pay ₦975,000...
@@ -1570,7 +1570,7 @@ export default function SalesPage() {
             ⏰ WARNING: This Offer Expires In 72 Hours
           </p>
           <p className="text-lg text-gray-800">
-            I&apos;m only releasing 500 copies at this ₦25,000 price.
+            I&apos;m only releasing 500 copies at this ₦8,999 price.
           </p>
           <p className="text-lg text-gray-800">
             After 72 hours OR when we hit 500 copies (whichever comes first), this deal disappears forever.
@@ -1597,7 +1597,19 @@ export default function SalesPage() {
           You close this page. You tell yourself &quot;maybe later.&quot; You go back to scrolling social media, watching other people live the life you want.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Six months from now, you&apos;re in the exact same position. Same job. Same salary. Same financial stress. Same voicelessness at family gatherings.
+          Six months from now, you&apos;re in the exact same position. 
+          <br/>
+          <br/>
+          Same job. 
+          <br/>
+          <br/>
+          Same salary. 
+          <br/>
+          <br/>
+          Same financial stress. 
+          <br/>
+          <br/>
+          Same voicelessness at family gatherings.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Your friends who laughed at your business dreams are still laughing. Because you never proved them wrong.
