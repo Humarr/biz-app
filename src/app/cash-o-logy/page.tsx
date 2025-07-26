@@ -131,7 +131,7 @@ export default function SalesPage() {
           I looked at the coding challenge and smiled. I&apos;d solved similar problems a hundred times. This was going to be easy money.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          I opened my IDE, cracked my knuckles, and started typing...
+          I opened my Code Editor, cracked my knuckles, and started typing...
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Then it happened.
