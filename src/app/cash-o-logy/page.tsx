@@ -84,7 +84,7 @@ export default function SalesPage() {
           The kind that makes you want to disappear into thin air.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          &quot;This guy has lost his mind,&quot; Tunde said between chuckles. &quot;Man is talking about business when he can&apos;t even buy Gala.&quot;
+          &quot;This guy has lost his mind,&quot; Tunde said between chuckles. &quot;Man is talking about business when he can&apos;t even buy good food.&quot;
         </p>
         <p className="text-lg leading-relaxed mb-6">
           I hung up the phone feeling smaller than an ant.
