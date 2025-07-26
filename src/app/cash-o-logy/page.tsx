@@ -1945,20 +1945,20 @@ export default function SalesPage() {
           </li>
         </ul>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
-          Total value: ₦975,000. Your price today: ₦25,000.
+          Total value: ₦975,000. Your price today: ₦8,999.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           All backed by my 90-day, sleep-tight-at-night guarantee.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          This offer expires in 72 hours. After that, the price goes to ₦65,000.
+          This offer expires in 72 hours. After that, the price goes to ₦25,000.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           Don&apos;t spend another year wishing you had started. Start TODAY.
         </p>
         <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-lg my-12 text-center shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
-            GET INSTANT ACCESS - ₦25,000
+            GET INSTANT ACCESS - ₦8,999
           </h3>
           <Link href="#" className="bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl hover:bg-red-700 hover:text-white transform hover:scale-105 transition-all duration-200">
             SECURE MY COPY NOW
