@@ -1327,7 +1327,7 @@ export default function SalesPage() {
 
 
         {/* Testimonials Section */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+        {/* <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
           What Others Are Saying:
         </h2>
         <div className="space-y-8 mb-12">
@@ -1355,7 +1355,7 @@ export default function SalesPage() {
               - Ibrahim M., Kano
             </cite>
           </div>
-        </div>
+        </div> */}
 
         {/* Guarantee Section */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 border-b-2 border-blue-500 pb-2">
