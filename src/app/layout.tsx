@@ -40,9 +40,9 @@ const kalam = Kalam({
   variable: '--font-kalam'
 })
 export const metadata: Metadata = {
-  title: 'Your Product | Transformative Solution',
-  description: 'The ultimate solution for [your target audience]',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://yoursite.com'),
+  title: '',
+  description: '',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ebook.umarsaadu.com.ng'),
 }
 
 export default function RootLayout({
