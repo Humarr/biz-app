@@ -65,11 +65,11 @@ h3,
 h4 {
   font-family: var(--font-headline2);
   /* color: var(--primary); */
-  /* font-weight: bold;
-  text-transform: uppercase; */
+   font-weight: bold;
+  text-transform: uppercase; 
 }
 
-/* h1 {
+h1 {
   font-size: 3rem;
   line-height: 4rem;
   margin-bottom: 1.5rem;
@@ -93,7 +93,7 @@ h4 {
 p {
   margin-bottom: 1.5rem;
 
-} */
+} 
 
 
 
