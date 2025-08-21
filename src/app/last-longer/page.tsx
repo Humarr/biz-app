@@ -368,8 +368,8 @@ export default function SalesPage() {
         </div>
 
         {/* Imagination Section */}
-        <div className="my-12 bg-gradient-to-r from-blue-500 to-blue-700 p-8 rounded-lg text-center">
-          <h2 className="text-3xl font-bold mb-8 text-white">Here's What This Could Mean for Your Marriage:</h2>
+        <div className="my-12 bg-gradient-to-r from-blue-500 to-blue-700 p-8 rounded-lg text-center text-white">
+          <h2 className="text-3xl font-bold mb-8 ">Here's What This Could Mean for Your Marriage:</h2>
           
           <div className="max-w-2xl mx-auto space-y-4 text-left">
             <p className="flex items-start">
