@@ -337,31 +337,31 @@ export default function SalesPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Bonus 1 */}
             <div className="bg-white bg-opacity-10 p-6 rounded-lg border border-purple-300">
-              <h3 className="font-bold text-yellow-300 text-xl mb-3">BONUS #1: The "First Night Success" Quick-Start Guide</h3>
+              <h3 className="font-bold text-yellow-500 text-xl mb-3">BONUS #1: The "First Night Success" Quick-Start Guide</h3>
               <p>Get results on your very first try with this rapid implementation guide. Many men see dramatic improvement in their first attempt using these techniques.</p>
             </div>
             
             {/* Bonus 2 */}
             <div className="bg-white bg-opacity-10 p-6 rounded-lg border border-purple-300">
-              <h3 className="font-bold text-yellow-300 text-xl mb-3">BONUS #2: The Confidence Recovery Protocol</h3>
+              <h3 className="font-bold text-yellow-500 text-xl mb-3">BONUS #2: The Confidence Recovery Protocol</h3>
               <p>Rebuild your sexual confidence and eliminate the shame, embarrassment, and anxiety that premature ejaculation has caused in your marriage.</p>
             </div>
             
             {/* Bonus 3 */}
             <div className="bg-white bg-opacity-10 p-6 rounded-lg border border-purple-300">
-              <h3 className="font-bold text-yellow-300 text-xl mb-3">BONUS #3: The "Her Pleasure" Masterclass</h3>
+              <h3 className="font-bold text-yellow-500 text-xl mb-3">BONUS #3: The "Her Pleasure" Masterclass</h3>
               <p>Learn exactly how to give your wife the most intense orgasms of her life, ensuring she becomes completely addicted to intimacy with you.</p>
             </div>
             
             {/* Bonus 4 */}
             <div className="bg-white bg-opacity-10 p-6 rounded-lg border border-purple-300">
-              <h3 className="font-bold text-yellow-300 text-xl mb-3">BONUS #4: Troubleshooting Common Challenges</h3>
+              <h3 className="font-bold text-yellow-500 text-xl mb-3">BONUS #4: Troubleshooting Common Challenges</h3>
               <p>What to do if you're nervous, stressed, or haven't been intimate in months. Plus solutions for every obstacle you might face.</p>
             </div>
             
             {/* Bonus 5 */}
             <div className="bg-white bg-opacity-10 p-6 rounded-lg border border-purple-300 md:col-span-2">
-              <h3 className="font-bold text-yellow-300 text-xl mb-3">BONUS #5: The Advanced Stamina Techniques</h3>
+              <h3 className="font-bold text-yellow-500 text-xl mb-3">BONUS #5: The Advanced Stamina Techniques</h3>
               <p>Once you've mastered the basics, these advanced methods will make you absolutely legendary in the bedroom.</p>
             </div>
           </div>
