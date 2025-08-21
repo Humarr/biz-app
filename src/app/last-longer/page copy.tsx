@@ -441,7 +441,7 @@ export default function SalesPage() {
         <p>In fact, I'm not even going to charge what this system is actually worth.</p>
         
         <div className="bg-white p-6 rounded-lg border border-gray-300 mt-6">
-          <h3 className="font-bold text-center text-xl mb-4">The total value is $844:</h3>
+          <h3 className="font-bold text-center text-xl mb-4">The total value is $1,247:</h3>
           <ul className="space-y-2">
             <li className="flex justify-between">
               <span>The complete 20-Minute Man system:</span>
@@ -451,24 +451,22 @@ export default function SalesPage() {
               <span>5 exclusive bonuses:</span>
               <span>$347</span>
             </li>
-            {/* <li className="flex justify-between">
+            <li className="flex justify-between">
               <span>Personal email support:</span>
               <span>$403</span>
-            </li> */}
+            </li>
             <li className="flex justify-between border-t border-gray-300 pt-2 font-bold">
               <span>Total Value:</span>
-              <span>$844</span>
+              <span>$1,247</span>
             </li>
           </ul>
         </div>
         
-        <p className="text-center font-bold mt-6">But I'm not asking for $844.</p>
+        <p className="text-center font-bold mt-6">But I'm not asking for $1,247.</p>
         <p className="text-center font-bold">I'm not even asking for $497.</p>
         
-        <p className="text-center font-bold">I'm not even asking you to pay in $ dollars because I know how the exchange rate isn't favourable for Nigerians.</p>
-        
         <div className="bg-green-100 p-6 rounded-lg text-center border border-green-300 mt-6">
-          <p className="font-bold text-3xl text-green-800">Today, you can get everything for just ₦9,999.</p>
+          <p className="font-bold text-3xl text-green-800">Today, you can get everything for just $97.</p>
           <p className="mt-2">That's less than what most men waste on useless delay sprays in 6 months.</p>
           <p>Less than a single therapy session.</p>
           <p>Less than one dinner for you and your wife.</p>
@@ -490,7 +488,7 @@ export default function SalesPage() {
         <div className="bg-white p-6 rounded-lg border border-red-300">
           <p className="font-bold">Here's why:</p>
           <p className="mt-2">My private clients paid $2,500 for this exact information.</p>
-          <p>If I keep selling it for ₦9,999, they're going to be furious.</p>
+          <p>If I keep selling it for $97, they're going to be furious.</p>
           <p className="font-bold mt-4">So after 48 hours, the price goes back to $497 (which is still a steal for information this powerful).</p>
         </div>
         
@@ -505,7 +503,7 @@ export default function SalesPage() {
             
             <div className="bg-white p-4 rounded-lg border border-green-400">
               <h4 className="font-bold text-green-700 mb-2">Choice #2:</h4>
-              <p>Invest ₦9,999 in the solution that will transform you into the lover your wife has been desperately craving. Give her the sexual satisfaction she deserves. Become the confident, sexually powerful man you were meant to be.</p>
+              <p>Invest $97 in the solution that will transform you into the lover your wife has been desperately craving. Give her the sexual satisfaction she deserves. Become the confident, sexually powerful man you were meant to be.</p>
             </div>
           </div>
           
@@ -569,11 +567,11 @@ export default function SalesPage() {
           <p>Your order is 100% confidential. Nothing embarrassing appears on your credit card statement</p>
         </div>
         
-        {/* <div className="bg-white p-6 rounded-lg border border-gray-300 text-center">
+        <div className="bg-white p-6 rounded-lg border border-gray-300 text-center">
           <div className="w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
           <h3 className="font-bold text-green-800 text-lg mb-2">Personal Support:</h3>
           <p>Email me directly with any questions. I personally respond to every message</p>
-        </div> */}
+        </div>
       </div>
     </div>
 
@@ -605,7 +603,7 @@ export default function SalesPage() {
 
     {/* CTA Section */}
     <div className="my-12 bg-gradient-to-r from-green-600 to-green-800 text-white p-8 rounded-lg text-center">
-      <Link className="text-3xl font-bold mb-8">[ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999]</Link>
+      <h2 className="text-3xl font-bold mb-8">[ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST $97]</h2>
       <p className="mb-6">(Regular Price $497 - Limited Time Only)</p>
       
       <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8">
@@ -621,12 +619,12 @@ export default function SalesPage() {
             All 5 Exclusive Bonuses
           </p>
         </div>
-        {/* <div className="bg-white bg-opacity-20 p-4 rounded-lg">
+        <div className="bg-white bg-opacity-20 p-4 rounded-lg">
           <p className="flex items-center justify-center">
             <span className="inline-block w-5 h-5 bg-white text-green-700 rounded-full flex items-center justify-center mr-2">✓</span>
             Personal Email Support
           </p>
-        </div> */}
+        </div>
         <div className="bg-white bg-opacity-20 p-4 rounded-lg">
           <p className="flex items-center justify-center">
             <span className="inline-block w-5 h-5 bg-white text-green-700 rounded-full flex items-center justify-center mr-2">✓</span>
@@ -645,8 +643,8 @@ export default function SalesPage() {
         <p className="text-green-800 font-bold">SECURE ORDER FORM - 256-BIT SSL ENCRYPTION</p>
       </div>
       
-      <div className="bg-yellow-300 text-red-800 p-4 rounded-lg max-w-2xl mx-auto mt-6">
-        <p className="font-bold">Remember: This ₦9,999 price disappears in 48 hours. After that, you'll pay $497 for the exact same system.</p>
+      <div className="bg-yellow-400 text-red-800 p-4 rounded-lg max-w-2xl mx-auto mt-6">
+        <p className="font-bold">Remember: This $97 price disappears in 48 hours. After that, you'll pay $497 for the exact same system.</p>
       </div>
     </div>
 
@@ -671,7 +669,7 @@ export default function SalesPage() {
     </div>
 
     {/* Disclaimer */}
-    <div className="my-12 text-center text-xs text-gray-500 italic">
+    <div className="my-12 text-center text-xs text-gray-500">
       <p>*This product is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any medical condition. Individual results may vary. Please consult with a healthcare professional before making any changes to your health regimen.*</p>
     </div>
   </main>
