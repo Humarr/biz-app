@@ -595,7 +595,7 @@ export default function SalesPage() {
         <p className="font-bold text-2xl text-red-700">Click the button below right now and reclaim your manhood.</p>
       </div>
 
-      <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 bg-red-600 text-white p-4 rounded-lg">
+      <Link href="https://selar.com/last-longer" className="block text-center text-white bg-red-600 hover:bg-red-700 font-bold text-xl md:text-2xl py-4 px-6 rounded-lg shadow-lg transition-all duration-200">
       <button>
 
       GET THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
@@ -646,7 +646,7 @@ export default function SalesPage() {
         <p className="text-green-800 font-bold">SECURE ORDER FORM - 256-BIT SSL ENCRYPTION</p>
       </div>
 
-      <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 text-white bg-green-600 p-4 rounded-lg">
+      <Link href="https://selar.com/last-longer" className="block text-center text-white bg-red-600 hover:bg-red-700 font-bold text-xl md:text-2xl py-4 px-6 rounded-lg shadow-lg transition-all duration-200">
       <button>
       ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
       </button>
@@ -672,11 +672,13 @@ export default function SalesPage() {
             <p className="mt-4 font-bold text-blue-700">- Brian S., Nashville</p>
           </div>
           
-          <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 text-white bg-green-600 p-4 rounded-lg">
-          <button>
-          ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
-          </button>
-          </Link>
+          <Link 
+  href="https://selar.com/last-longer" 
+  className="block text-center text-white bg-red-600 hover:bg-red-700 font-bold text-xl md:text-2xl py-4 px-6 rounded-lg shadow-lg transition-all duration-200"
+>
+  ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
+</Link>
+
           
           <p className="font-bold text-center mt-6">Don't wait another day. Order now.</p>
         </div>
