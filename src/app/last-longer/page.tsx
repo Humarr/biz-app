@@ -143,25 +143,25 @@ export default function SalesPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Testimonial 1 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"Dr. Chen, I can't believe this actually worked. My husband tried your technique on Thursday night. We went from our usual 90-second disaster to 47 minutes of the most incredible sex we've had in 12 years of marriage. I actually had THREE orgasms. I forgot that was even possible. Thank you for saving our marriage."</p>
+              <p className="font-scribble text-xl text-purple-800">"Dr. Chen, I can't believe this actually worked. My husband tried your technique on Thursday night. We went from our usual 90-second disaster to 47 minutes of the most incredible sex we've had in 12 years of marriage. I actually had THREE orgasms. I forgot that was even possible. Thank you for saving our marriage."</p>
               <p className="mt-4 font-bold text-purple-700">- Sarah M., Denver (her husband's results after just 4 days)</p>
             </div>
             
             {/* Testimonial 2 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"This is insane. I've been married 15 years and always thought I was just 'built this way.' Used your brain reset technique and lasted 38 minutes last night. My wife couldn't believe it. Neither could I. She's been smiling all day."</p>
+              <p className="font-scribble text-xl text-purple-800">"This is insane. I've been married 15 years and always thought I was just 'built this way.' Used your brain reset technique and lasted 38 minutes last night. My wife couldn't believe it. Neither could I. She's been smiling all day."</p>
               <p className="mt-4 font-bold text-purple-700">- Mike T., Atlanta</p>
             </div>
             
             {/* Testimonial 3 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"I was about to ask my wife for a divorce because I couldn't handle disappointing her anymore. Your method gave me my confidence back. Last weekend we had sex for over an hour. AN HOUR! She told me it was better than our honeymoon."</p>
+              <p className="font-scribble text-xl text-purple-800">"I was about to ask my wife for a divorce because I couldn't handle disappointing her anymore. Your method gave me my confidence back. Last weekend we had sex for over an hour. AN HOUR! She told me it was better than our honeymoon."</p>
               <p className="mt-4 font-bold text-purple-700">- James R., Phoenix</p>
             </div>
             
             {/* Testimonial 4 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"My wife actually asked ME what I did differently. She said it was like being with a completely different man. We've had sex 4 times this week - more than we had in the previous 6 months combined."</p>
+              <p className="font-scribble text-xl text-purple-800">"My wife actually asked ME what I did differently. She said it was like being with a completely different man. We've had sex 4 times this week - more than we had in the previous 6 months combined."</p>
               <p className="mt-4 font-bold text-purple-700">- David L., Chicago</p>
             </div>
           </div>
@@ -255,19 +255,19 @@ export default function SalesPage() {
           <div className="space-y-6">
             {/* Testimonial 1 */}
             <div className="bg-pink-50 p-6 rounded-lg border border-pink-200">
-              <p className="font-handwriting text-xl text-pink-800">"Dr. Chen, this is embarrassing to admit, but I've never lasted more than 3 minutes my entire adult life. I'm 34 years old and I felt like a complete fraud as a husband. Your 20-minute protocol changed everything. Last night I lasted 73 minutes. My wife was amazed. I was amazed. This actually works."</p>
+              <p className="font-scribble text-xl text-pink-800">"Dr. Chen, this is embarrassing to admit, but I've never lasted more than 3 minutes my entire adult life. I'm 34 years old and I felt like a complete fraud as a husband. Your 20-minute protocol changed everything. Last night I lasted 73 minutes. My wife was amazed. I was amazed. This actually works."</p>
               <p className="mt-4 font-bold text-pink-700">- Robert K., Miami</p>
             </div>
             
             {/* Testimonial 2 */}
             <div className="bg-pink-50 p-6 rounded-lg border border-pink-200">
-              <p className="font-handwriting text-xl text-pink-800">"Your method is incredible. I've gone from 2-minute disasters to 45-minute sessions consistently. My wife says our sex life is better now than when we were dating 8 years ago. She's more attracted to me, more affectionate, and more eager for intimacy than ever before."</p>
+              <p className="font-scribble text-xl text-pink-800">"Your method is incredible. I've gone from 2-minute disasters to 45-minute sessions consistently. My wife says our sex life is better now than when we were dating 8 years ago. She's more attracted to me, more affectionate, and more eager for intimacy than ever before."</p>
               <p className="mt-4 font-bold text-pink-700">- Anthony P., Seattle</p>
             </div>
             
             {/* Testimonial 3 */}
             <div className="bg-pink-50 p-6 rounded-lg border border-pink-200">
-              <p className="font-handwriting text-xl text-pink-800">"I can't believe I wasted 2 years and over $3,000 on sprays, pills, and therapy that didn't work. Your brain-based approach fixed my premature ejaculation in 9 days. Nine days! I should have found you sooner."</p>
+              <p className="font-scribble text-xl text-pink-800">"I can't believe I wasted 2 years and over $3,000 on sprays, pills, and therapy that didn't work. Your brain-based approach fixed my premature ejaculation in 9 days. Nine days! I should have found you sooner."</p>
               <p className="mt-4 font-bold text-pink-700">- Chris M., Dallas</p>
             </div>
           </div>
@@ -416,13 +416,13 @@ export default function SalesPage() {
       <div className="grid md:grid-cols-2 gap-6">
         {/* Testimonial 1 */}
         <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-          <p className="font-handwriting text-xl text-orange-800">"Dr. Chen, I have to tell you what happened. My wife and I were talking about separation because our sex life was so bad. I lasted maybe 90 seconds on good nights. She never had orgasms. We were both miserable. Your system saved our marriage. I now last 30-45 minutes every single time. She's had more orgasms in the past month than in our previous 5 years combined. We're like newlyweds again."</p>
+          <p className="font-scribble text-xl text-orange-800">"Dr. Chen, I have to tell you what happened. My wife and I were talking about separation because our sex life was so bad. I lasted maybe 90 seconds on good nights. She never had orgasms. We were both miserable. Your system saved our marriage. I now last 30-45 minutes every single time. She's had more orgasms in the past month than in our previous 5 years combined. We're like newlyweds again."</p>
           <p className="mt-4 font-bold text-orange-700">- Mark T., Portland</p>
         </div>
         
         {/* Testimonial 2 */}
         <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-          <p className="font-handwriting text-xl text-orange-800">"This method is unbelievable. I went from 2-minute embarrassment to giving my wife 3 orgasms in a 50-minute session last weekend. She couldn't stop talking about it. She's been more loving, more affectionate, and way more interested in sex ever since. Thank you for giving me my manhood back."</p>
+          <p className="font-scribble text-xl text-orange-800">"This method is unbelievable. I went from 2-minute embarrassment to giving my wife 3 orgasms in a 50-minute session last weekend. She couldn't stop talking about it. She's been more loving, more affectionate, and way more interested in sex ever since. Thank you for giving me my manhood back."</p>
           <p className="mt-4 font-bold text-orange-700">- Kevin R., Boston</p>
         </div>
       </div>
@@ -659,7 +659,7 @@ export default function SalesPage() {
           <p className="font-bold">P.P.S. - Still hesitating? Here's one final testimonial:</p>
           
           <div className="bg-blue-50 p-4 rounded-lg mt-4 border border-blue-200">
-            <p className="font-handwriting text-xl text-blue-800">"Dr. Chen, I just wanted to say thank you one more time. It's been 3 months since I got your system. Our sex life is incredible now. I last 30-45 minutes every time. My wife has multiple orgasms. She tells me constantly how satisfied she is. But the best part? She looks at me the way she did when we first met. Like I'm her hero. Like she's proud to be my wife. Your system didn't just fix my premature ejaculation - it saved my marriage."</p>
+            <p className="font-scribble text-xl text-blue-800">"Dr. Chen, I just wanted to say thank you one more time. It's been 3 months since I got your system. Our sex life is incredible now. I last 30-45 minutes every time. My wife has multiple orgasms. She tells me constantly how satisfied she is. But the best part? She looks at me the way she did when we first met. Like I'm her hero. Like she's proud to be my wife. Your system didn't just fix my premature ejaculation - it saved my marriage."</p>
             <p className="mt-4 font-bold text-blue-700">- Brian S., Nashville</p>
           </div>
           
