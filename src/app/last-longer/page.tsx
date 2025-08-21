@@ -431,90 +431,81 @@ export default function SalesPage() {
     </div>
 
     {/* Pricing Section */}
-    <div className="my-12 bg-gray-100 p-8 rounded-lg">
-      <h2 className="text-3xl font-bold text-center mb-8">But Here's the Problem...</h2>
-      
-      <div className="max-w-2xl mx-auto space-y-6">
-        <p>I originally created this system for my private clients who paid $2,500 for personal consultations.</p>
-        <p>The results were so incredible that word spread quickly.</p>
-        <p>Soon I had a waiting list of over 800 men wanting help.</p>
-        <p>I realized I couldn't help everyone individually, so I created this comprehensive system.</p>
-        <p>But I'm not going to charge anywhere near what my private clients paid.</p>
-        <p>In fact, I'm not even going to charge what this system is actually worth.</p>
-        
-        <div className="bg-white p-6 rounded-lg border border-gray-300 mt-6">
-          <h3 className="font-bold text-center text-xl mb-4">The total value is $844:</h3>
-          <ul className="space-y-2">
-            <li className="flex justify-between">
-              <span>The complete 20-Minute Man system:</span>
-              <span>$497</span>
-            </li>
-            <li className="flex justify-between">
-              <span>5 exclusive bonuses:</span>
-              <span>$347</span>
-            </li>
-            {/* <li className="flex justify-between">
-              <span>Personal email support:</span>
-              <span>$403</span>
-            </li> */}
-            <li className="flex justify-between border-t border-gray-300 pt-2 font-bold">
-              <span>Total Value:</span>
-              <span>$844</span>
-            </li>
-          </ul>
-        </div>
-        
-        <p className="text-center font-bold mt-6">But I'm not asking for $844.</p>
-        <p className="text-center font-bold">I'm not even asking for $497.</p>
-        
-        <p className="text-center font-bold">I'm not even asking you to pay in $ dollars because I know how the exchange rate isn't favourable for Nigerians.</p>
-        
-        <div className="bg-green-100 p-6 rounded-lg text-center border border-green-300 mt-6">
-          <p className="font-bold text-3xl text-green-800">Today, you can get everything for just ₦9,999.</p>
-          <p className="mt-2">That's less than what most men waste on useless delay sprays in 6 months.</p>
-          <p>Less than a single therapy session.</p>
-          <p>Less than one dinner for you and your wife.</p>
-        </div>
-        
-        <div className="bg-yellow-100 p-4 rounded-lg border-l-4 border-yellow-500 mt-6">
-          <p className="font-bold">But there's a catch...</p>
-        </div>
-      </div>
+<div className="my-12 bg-gray-100 p-8 rounded-lg">
+  <h2 className="text-3xl font-bold text-center mb-8">But Here's the Problem...</h2>
+
+  <div className="max-w-2xl mx-auto space-y-6">
+    <p>Programs like this often cost <span className="font-bold">$2,000+</span> when taught one-on-one by coaches or therapists.</p>
+    <p>Even cheaper “seminars” regularly go for hundreds of dollars—and that’s before travel, time, and embarrassment costs are factored in.</p>
+    <p>But I didn’t want Nigerian men to miss out just because of insane exchange rates or overpriced gimmicks.</p>
+    <p>That’s why I put everything into a complete step-by-step system—so you can get the same transformation without paying through your nose.</p>
+
+    <div className="bg-white p-6 rounded-lg border border-gray-300 mt-6">
+      <h3 className="font-bold text-center text-xl mb-4">The total value is $844:</h3>
+      <ul className="space-y-2">
+        <li className="flex justify-between">
+          <span>The complete 20-Minute Man system:</span>
+          <span>$497</span>
+        </li>
+        <li className="flex justify-between">
+          <span>5 exclusive bonuses:</span>
+          <span>$347</span>
+        </li>
+        <li className="flex justify-between border-t border-gray-300 pt-2 font-bold">
+          <span>Total Value:</span>
+          <span>$844</span>
+        </li>
+      </ul>
     </div>
 
-    {/* Urgency Section */}
-    <div className="my-12 bg-red-100 p-8 rounded-lg text-center">
-      <h2 className="text-3xl font-bold text-red-800 mb-8">This Offer Disappears in 48 Hours</h2>
+    <p className="text-center font-bold mt-6">But I’m not asking for $844.</p>
+    <p className="text-center font-bold">Not even $497.</p>
+    <p className="text-center font-bold">And I’m not asking in U.S. dollars at all—because I know how bad the exchange rate hits Nigerians.</p>
+
+    <div className="bg-green-100 p-6 rounded-lg text-center border border-green-300 mt-6">
+      <p className="font-bold text-3xl text-green-800">Today, you can get everything for just ₦9,999.</p>
+      <p className="mt-2">That’s less than what most men waste on delay sprays in 6 months.</p>
+      <p>Less than a single therapy session.</p>
+      <p>Less than one dinner for you and your wife.</p>
+    </div>
+
+    <div className="bg-yellow-100 p-4 rounded-lg border-l-4 border-yellow-500 mt-6">
+      <p className="font-bold">But there’s a catch...</p>
+    </div>
+  </div>
+</div>
+
+{/* Urgency Section */}
+<div className="my-12 bg-red-100 p-8 rounded-lg text-center">
+  <h2 className="text-3xl font-bold text-red-800 mb-8">This Offer Disappears in 48 Hours</h2>
+
+  <div className="max-w-2xl mx-auto space-y-6">
+    <p>I can only keep this price for the next 48 hours.</p>
+
+    <div className="bg-white p-6 rounded-lg border border-red-300">
+      <p className="font-bold">Here’s why:</p>
+      <p className="mt-2">This is a special launch price for Nigerians only. Once the launch window closes, the system goes back to ₦29,999 (still a steal compared to international prices).</p>
+    </div>
+
+    <div className="bg-red-200 p-6 rounded-lg">
+      <h3 className="font-bold text-xl mb-4">You have two choices:</h3>
       
-      <div className="max-w-2xl mx-auto space-y-6">
-        <p>I can only offer this system at this price for the next 48 hours.</p>
-        
-        <div className="bg-white p-6 rounded-lg border border-red-300">
-          <p className="font-bold">Here's why:</p>
-          <p className="mt-2">My private clients paid $2,500 for this exact information.</p>
-          <p>If I keep selling it for ₦9,999, they're going to be furious.</p>
-          <p className="font-bold mt-4">So after 48 hours, the price goes back to $497 (which is still a steal for information this powerful).</p>
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="bg-white p-4 rounded-lg border border-red-400">
+          <h4 className="font-bold text-red-700 mb-2">Choice #1:</h4>
+          <p>Do nothing. Keep disappointing your wife. Keep feeling like less of a man. Watch your marriage slowly deteriorate because you refuse to act.</p>
         </div>
         
-        <div className="bg-red-200 p-6 rounded-lg">
-          <h3 className="font-bold text-xl mb-4">You have two choices:</h3>
-          
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-4 rounded-lg border border-red-400">
-              <h4 className="font-bold text-red-700 mb-2">Choice #1:</h4>
-              <p>Do nothing. Keep disappointing your wife. Keep feeling like less of a man. Watch your marriage slowly deteriorate because you're too stubborn or scared to take action.</p>
-            </div>
-            
-            <div className="bg-white p-4 rounded-lg border border-green-400">
-              <h4 className="font-bold text-green-700 mb-2">Choice #2:</h4>
-              <p>Invest ₦9,999 in the solution that will transform you into the lover your wife has been desperately craving. Give her the sexual satisfaction she deserves. Become the confident, sexually powerful man you were meant to be.</p>
-            </div>
-          </div>
-          
-          <p className="font-bold text-xl mt-6">The choice is obvious.</p>
+        <div className="bg-white p-4 rounded-lg border border-green-400">
+          <h4 className="font-bold text-green-700 mb-2">Choice #2:</h4>
+          <p>Invest ₦9,999 today in a proven system. Become the confident, sexually powerful man your wife craves and deserves.</p>
         </div>
       </div>
+      
+      <p className="font-bold text-xl mt-6">The choice is obvious.</p>
     </div>
+  </div>
+</div>
 
     {/* Guarantee Section */}
     <div className="my-12 bg-blue-100 p-8 rounded-lg text-center">
