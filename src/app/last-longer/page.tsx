@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // 'use client';
 
+import Link from "next/link";
+
 // import { useState, useEffect } from 'react';
 
 export default function SalesPage() {
