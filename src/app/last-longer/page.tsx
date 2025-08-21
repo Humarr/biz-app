@@ -594,12 +594,20 @@ export default function SalesPage() {
         
         <p className="font-bold text-2xl text-red-700">Click the button below right now and reclaim your manhood.</p>
       </div>
+
+      <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 bg-red-600 text-white p-4 rounded-lg">
+      <button>
+
+      GET THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
+      </button>
+      
+      </Link>
+      <p className="mb-6">(Regular Price ₦29,999 - Limited Time Only)</p>
     </div>
 
     {/* CTA Section */}
-    <div className="my-12 bg-gradient-to-r from-green-600 to-green-800 text-white p-8 rounded-lg text-center">
-      <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8">[ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999]</Link>
-      <p className="mb-6">(Regular Price $497 - Limited Time Only)</p>
+    <div className="my-12 bg-gradient-to-r from-green-600 to-green-800  p-8 rounded-lg text-center">
+    
       
       <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8">
         <div className="bg-white bg-opacity-20 p-4 rounded-lg">
@@ -638,7 +646,11 @@ export default function SalesPage() {
         <p className="text-green-800 font-bold">SECURE ORDER FORM - 256-BIT SSL ENCRYPTION</p>
       </div>
 
-      <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 text-white bg-green-600 p-4 rounded-lg">ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999</Link>
+      <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 text-white bg-green-600 p-4 rounded-lg">
+      <button>
+      ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
+      </button>
+      </Link>
       
       <div className="bg-yellow-300 text-red-800 p-4 rounded-lg max-w-2xl mx-auto mt-6">
         <p className="font-bold">Remember: This ₦9,999 price disappears in 48 hours. After that, you'll pay $497 for the exact same system.</p>
@@ -660,7 +672,11 @@ export default function SalesPage() {
             <p className="mt-4 font-bold text-blue-700">- Brian S., Nashville</p>
           </div>
           
-          <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 text-white bg-green-600 p-4 rounded-lg">ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999</Link>
+          <Link href="https://selar.com/last-longer" className="text-3xl font-bold mb-8 text-white bg-green-600 p-4 rounded-lg">
+          <button>
+          ORDER THE 20-MINUTE MAN SYSTEM NOW - JUST ₦9,999
+          </button>
+          </Link>
           
           <p className="font-bold text-center mt-6">Don't wait another day. Order now.</p>
         </div>
