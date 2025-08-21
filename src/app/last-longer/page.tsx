@@ -331,8 +331,8 @@ export default function SalesPage() {
         </div>
 
         {/* Bonuses Section */}
-        <div className="my-12 bg-gradient-to-r from-purple-800 to-purple-600 text-white p-8 rounded-lg">
-          <h2 className="text-3xl font-bold text-center mb-8">PLUS You Get These Exclusive Bonuses (Worth $347):</h2>
+        <div className="my-12 bg-gradient-to-r from-purple-800 to-purple-600  p-8 rounded-lg">
+          <h2 className="text-3xl font-bold text-center mb-8 text-white">PLUS You Get These Exclusive Bonuses (Worth $347):</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             {/* Bonus 1 */}
@@ -368,8 +368,8 @@ export default function SalesPage() {
         </div>
 
         {/* Imagination Section */}
-        <div className="my-12 bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8 rounded-lg text-center">
-          <h2 className="text-3xl font-bold mb-8">Here's What This Could Mean for Your Marriage:</h2>
+        <div className="my-12 bg-gradient-to-r from-blue-500 to-blue-700 p-8 rounded-lg text-center">
+          <h2 className="text-3xl font-bold mb-8 text-white">Here's What This Could Mean for Your Marriage:</h2>
           
           <div className="max-w-2xl mx-auto space-y-4 text-left">
             <p className="flex items-start">
