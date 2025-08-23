@@ -113,18 +113,18 @@ export default function SalesPage() {
             </div>
             
             {/* First CTA Button */}
-            <div className="text-center mt-8">
+            {/* <div className="text-center mt-8">
               <Link href="https://selar.com/graduate-rich" className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300">
                 GET THE ALERT MANUAL NOW - ₦4,950 ONLY
               </Link>
               <p className="text-sm text-gray-600 mt-2">Secure Payment • Instant Access • 30-Day Money-Back Guarantee</p>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* The Alert Manual Section */}
         <div className="my-12 bg-green-50 p-6 rounded-lg border border-green-200">
-          <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-4">The Alert Manual System</h2>
+          {/* <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-4">The Alert Manual System</h2> */}
           
           <p className="mb-4">And he said…</p>
           <p className="mb-4">That's because most universities have been keeping this secret from you…</p>
