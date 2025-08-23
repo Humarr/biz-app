@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // 'use client';
 
+import Link from "next/link";
+
 // import { useState, useEffect } from 'react';
 
 export default function SalesPage() {
@@ -414,7 +416,7 @@ export default function SalesPage() {
           </div>
           
           <div className="mt-6 bg-green-100 p-4 rounded-lg border border-green-300">
-            <p className="font-bold text-green-800 text-xl">[GET THE COMPLETE TRAINING FOR ₦4,950 NOW]</p>
+            <Link href="https://selar.com/5k-to-150k" className="font-bold text-green-800 text-xl">GET THE COMPLETE TRAINING FOR ₦4,950 NOW</Link>
           </div>
         </div>
 
@@ -461,7 +463,7 @@ export default function SalesPage() {
           </div>
           
           <div className="bg-white p-6 rounded-lg max-w-2xl mx-auto">
-            <p className="text-green-800 font-bold text-xl mb-4">[YES, I WANT TO DEVELOP MY OPPORTUNITY RECOGNITION SYSTEM - ₦4,950]</p>
+            <Link href="https://selar.com/5k-to-150k" className="text-green-800 font-bold text-xl mb-4">YES, I WANT TO DEVELOP MY OPPORTUNITY RECOGNITION SYSTEM</Link>
             <p className="text-gray-600">Secure Payment • Instant Access • 60-Day Money-Back Guarantee</p>
           </div>
         </div>
