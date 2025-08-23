@@ -127,8 +127,8 @@ export default function SalesPage() {
             
             <div className="bg-blue-100 p-4 my-6 border-l-4 border-blue-500">
               <p className="font-bold">That's because most universities have been keeping this secret from you…</p>
-              <p className="mb-2">Maybe because they don't want you to succeed because who would write jamb, post jamb to go to school if you succeed?</p>
-              <p>Or maybe they don't even FULLY understand it themselves on a deeper level.</p>
+              <p className="mb-2">Maybe because they don't want you to know you can make LEGIT money <span className="underline">without</span> their certificate</p>
+              <p>Or maybe (just maybe). they don't even FULLY understand it themselves on a deeper level.</p>
             </div>
           </div>
 
