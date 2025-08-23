@@ -128,8 +128,8 @@ export default function SalesPage() {
           
           <p className="mb-4">And he said…</p>
           <p className="mb-4">That's because most universities have been keeping this secret from you…</p>
-          <p className="mb-4">Maybe because they don't want you to succeed because who would write jamb, post jamb to go to school if you succeed?</p>
-          <p className="mb-4">Or maybe they don't even FULLY understand it themselves on a deeper level.</p>
+          <p className="mb-4">Maybe because they don't want you to know you can make LEGIT money <span className="underline">without</span> their certificate</p>
+          <p className="mb-4">Or maybe (just maybe) they don't even FULLY understand it themselves on a deeper level.</p>
           
           <div className="bg-white p-4 rounded-lg my-6 border border-green-300">
             <p className="font-bold mb-2">And have you ever wondered why most people never get the money and freedom they want?</p>
