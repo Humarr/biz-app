@@ -154,27 +154,27 @@ export default function SalesPage() {
 
         {/* Testimonials Section */}
         <div className="my-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">BUT BEFORE YOU READ ON, HERE'S SOME OF WHAT I PREDICT YOU'LL SAY ABOUT WORKING WITH ME:</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">BUT BEFORE YOU READ ON, HERE'S SOME OF WHAT I PREDICT YOU'LL SAY WHEN YOU GET THE ALERT MANUAL SYSTEM TODAY:</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             {/* Testimonial 1 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"Hey man, you changed my life. I went from broke student who could barely afford a single meal in a day to making 300k+ monthly from my online service business. The framework in chapter 1 alone is worth millions"</p>
+              <p className="font-scribble text-xl text-purple-800">"Hey man, you changed my life. I went from broke student who could barely afford a single meal in a day to making 300k+ monthly from my online service business. The framework in chapter 1 alone is worth millions"</p>
             </div>
             
             {/* Testimonial 2 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"Chapter 3's Free Advertising secrets helped me get my first 50 customers without spending money on ads. This is pure gold"</p>
+              <p className="font-scribble text-xl text-purple-800">"Chapter 3's Free Advertising secrets helped me get my first 50 customers without spending money on ads. This is pure gold"</p>
             </div>
             
             {/* Testimonial 3 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"This guy understands the Nigerian business landscape. No wonder his strategies works for students who want a stable and legal way to generate cool cash"</p>
+              <p className="font-scribble text-xl text-purple-800">"This guy understands the Nigerian business landscape. No wonder his strategies works for students who want a stable and legal way to generate cool cash"</p>
             </div>
             
             {/* Testimonial 4 */}
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-              <p className="font-handwriting text-xl text-purple-800">"This guy is someone who can take students who are complete beginners and then turn them into profitable business owners, regardless of the economic situation. Remarkable"</p>
+              <p className="font-scribble text-xl text-purple-800">"This guy is someone who can take students who are complete beginners and then turn them into profitable business owners, regardless of the economic situation. Remarkable"</p>
             </div>
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function SalesPage() {
           </div>
           
           <div className="bg-white p-4 rounded-lg border border-red-300 mt-6">
-            <p className="font-handwriting text-xl">"I applied the pricing strategies in my fashion business, and I was scared at first. But when I started getting customers who are paying my new prices even though it was HIGHER? Mehnnn!"</p>
+            <p className="font-scribble text-xl">"I applied the pricing strategies in my fashion business, and I was scared at first. But when I started getting customers who are paying my new prices even though it was HIGHER? Mehnnn!"</p>
           </div>
           
           <p className="mt-4 font-bold">How about e-commerce, consulting, freelancing and more?</p>
