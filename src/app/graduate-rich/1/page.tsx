@@ -127,8 +127,8 @@ export default function SalesPage() {
             
             <div className="bg-blue-100 p-4 my-6 border-l-4 border-blue-500">
               <p className="font-bold">That's because most universities have been keeping this secret from you…</p>
-              <p className="mb-2">Maybe because they don't want you to succeed because who would write jamb, post jamb to go to school if you succeed?</p>
-              <p>Or maybe they don't even FULLY understand it themselves on a deeper level.</p>
+              <p className="mb-2">Maybe because they don't want you to know you can make LEGIT money <span className="underline">without</span> their certificate</p>
+              <p>Or maybe (just maybe). they don't even FULLY understand it themselves on a deeper level.</p>
             </div>
           </div>
 
@@ -1033,19 +1033,19 @@ export default function SalesPage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-12 px-4 bg-gradient-to-r from-blue-900 to-purple-800 text-white">
+      <section className="py-12 px-4 bg-gradient-to-r from-blue-900 to-purple-800">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">The moment of truth:</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white">The moment of truth:</h2>
           
           <div className="bg-white bg-opacity-10 p-6 rounded-lg mb-8">
             <p className="font-bold mb-4">You have two paths in front of you.</p>
             
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div className="bg-red-500 bg-opacity-30 p-4 rounded">
-                <p className="font-bold mb-2">Path 1: Close this page. Continue as you were. Keep calling home for money. Keep struggling. Keep hoping things will magically change after graduation.</p>
+                <p className="font-bold mb-2 text-white">Path 1: Close this page. Continue as you were. Keep calling home for money. Keep struggling. Keep hoping things will magically change after graduation.</p>
               </div>
               <div className="bg-green-500 bg-opacity-30 p-4 rounded">
-                <p className="font-bold mb-2">Path 2: Invest ₦4,950 in yourself. Learn the Alert Manual system. Start seeing opportunities everywhere. Begin making money as a student. Graduate financially prepared.</p>
+                <p className="font-bold mb-2 text-white">Path 2: Invest ₦4,950 in yourself. Learn the Alert Manual system. Start seeing opportunities everywhere. Begin making money as a student. Graduate financially prepared.</p>
               </div>
             </div>
             
@@ -1078,8 +1078,8 @@ export default function SalesPage() {
           </div>
           
           <div className="mt-8 text-left">
-            <p className="font-bold italic">P.S. - In 48 hours, when this offer expires, don't be the person who says "I should have taken action when I had the chance." Be the person who says "Best ₦4,950 I ever spent."</p>
-            <p className="font-bold italic mt-4">P.P.S. - Your parents have sacrificed so much to put you through school. The least you can do is invest ₦4,950 to ensure their sacrifice wasn't in vain. Make them proud. Make yourself proud. Take action now.</p>
+            <p className="font-bold italic text-white">P.S. - In 48 hours, when this offer expires, don't be the person who says "I should have taken action when I had the chance." Be the person who says "Best ₦4,950 I ever spent."</p>
+            <p className="font-bold italic mt-4 text-white">P.P.S. - Your parents have sacrificed so much to put you through school. The least you can do is invest ₦4,950 to ensure their sacrifice wasn't in vain. Make them proud. Make yourself proud. Take action now.</p>
           </div>
         </div>
       </section>
