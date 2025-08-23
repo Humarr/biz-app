@@ -809,7 +809,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="font-bold text-xl my-6">
-            I'm charging 9,950 Naira.
+            I'm charging 2,950 Naira.
           </p>
           
           <p className="font-bold mb-6">
@@ -1101,7 +1101,7 @@ export default function SalesLetter() {
             <p className="font-bold text-lg mb-4">👇 GET INSTANT ACCESS NOW 👇</p>
             <Link href={paymentLink}>
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-              GET "FROM 2-MINUTE HUSBAND TO HER ALL-NIGHT BEDROOM HERO" FOR JUST ₦9,950 - INSTANT DOWNLOAD
+              GET "FROM 2-MINUTE HUSBAND TO HER ALL-NIGHT BEDROOM HERO" FOR JUST ₦2,950 - INSTANT DOWNLOAD
             </button>
             </Link>
           </div>
@@ -1128,7 +1128,7 @@ export default function SalesLetter() {
           </ul>
           
           <p className="my-6">
-            All for just 9,950 Naira.
+            All for just 2,950 Naira.
           </p>
           
           <p>
@@ -1152,7 +1152,7 @@ export default function SalesLetter() {
             <p className="font-bold text-lg mb-4">👇 YES, I'M READY TO BECOME HER ALL-NIGHT BEDROOM HERO 👇</p>
             <Link href={paymentLink}>
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-              INSTANT ACCESS - ₦9,950 - DOWNLOAD NOW
+              INSTANT ACCESS - ₦2,950 - DOWNLOAD NOW
             </button>
             </Link>
           </div>
@@ -1170,7 +1170,7 @@ export default function SalesLetter() {
           <p className="font-bold mb-2">"What if I'm too far gone?"</p>
           <p className="mb-4">Brother, I was finishing in under 2 minutes. If it worked for me, it'll work for you.</p>
           
-          <p className="font-bold mb-2">"What if 9,950 Naira is too much?"</p>
+          <p className="font-bold mb-2">"What if 2,950 Naira is too much?"</p>
           <p className="mb-4">What's it costing you to stay where you are? What's it worth to never feel shame in your bedroom again? This is literally less than a nice dinner out.</p>
           
           <p className="font-bold mb-2">"What if I can't find the time to practice?"</p>
@@ -1196,7 +1196,7 @@ export default function SalesLetter() {
             <p className="font-bold text-lg mb-4">👇 YES, I'M READY TO LAST 20+ MINUTES STARTING TONIGHT 👇</p>
             <Link href={paymentLink}>
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-              INSTANT ACCESS - ₦9,950 - DOWNLOAD NOW
+              INSTANT ACCESS - ₦2,950 - DOWNLOAD NOW
             </button>
             </Link>
           </div>
@@ -1233,7 +1233,7 @@ export default function SalesLetter() {
             <p className="font-bold text-lg mb-4">👇 TRANSFORM MY SEXUAL PERFORMANCE TONIGHT 👇</p>
             <Link href={paymentLink}>
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-              INSTANT ACCESS - "FROM 2-MINUTE HUSBAND TO HER ALL-NIGHT BEDROOM HERO" - ₦9,950
+              INSTANT ACCESS - "FROM 2-MINUTE HUSBAND TO HER ALL-NIGHT BEDROOM HERO" - ₦2,950
             </button>
             </Link>
           </div>
@@ -1267,7 +1267,7 @@ export default function SalesLetter() {
             <p className="font-bold text-lg mb-4">👇 YES! I'M READY TO LAST 20+ MINUTES STARTING TONIGHT 👇</p>
             <Link href={paymentLink}>
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-              INSTANT DOWNLOAD - ₦9,950 - FULL 60-DAY GUARANTEE
+              INSTANT DOWNLOAD - ₦2,950 - FULL 60-DAY GUARANTEE
             </button>
             </Link>
           </div>
