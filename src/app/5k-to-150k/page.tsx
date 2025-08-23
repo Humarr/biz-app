@@ -438,8 +438,8 @@ export default function SalesPage() {
         </div>
 
         {/* Final CTA Section */}
-        <div className="my-12 bg-gradient-to-r from-green-600 to-green-800 text-white p-8 rounded-lg text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">Your Two Paths Forward</h2>
+        <div className="my-12 bg-gradient-to-r from-green-600 to-green-800  p-8 rounded-lg text-center">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white">Your Two Paths Forward</h2>
           
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
             <div className="bg-white bg-opacity-20 p-6 rounded-lg">

@@ -42,7 +42,7 @@ const kalam = Kalam({
 export const metadata: Metadata = {
   title: '',
   description: '',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ebook.umarsaadu.com.ng'),
+  // metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ebook.umarsaadu.com.ng'),
 }
 
 export default function RootLayout({
@@ -56,7 +56,7 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           {/* <PageViewTracker /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
        {/* Facebook Pixel Script */}
@@ -82,13 +82,13 @@ export default function RootLayout({
   )
 }
 
-function Footer() {
-  return (
+// function Footer() {
+//   return (
  
-    <footer className="bg-primary text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-xs mt-16">
-  <p>© {new Date().getFullYear()} The Ultimate Cash Machine. All rights reserved.</p>
-  <p className="mt-2">No hype. No scams. Just real business training.</p>
-</footer>
+//     <footer className="bg-primary text-white py-8 px-4 sm:px-6 lg:px-8 text-center text-xs mt-16">
+//   <p>© {new Date().getFullYear()} The Ultimate Cash Machine. All rights reserved.</p>
+//   <p className="mt-2">No hype. No scams. Just real business training.</p>
+// </footer>
 
-  )
-}
+//   )
+// }
