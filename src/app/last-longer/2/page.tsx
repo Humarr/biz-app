@@ -1082,7 +1082,7 @@ export default function SalesLetter() {
         </div>
         
         <p className="font-bold my-6 text-center">
-          But even if I'm half wrong...
+          But even if I'm half right...
         </p>
         
         <p>
