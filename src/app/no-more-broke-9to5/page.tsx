@@ -752,7 +752,7 @@ export default function SalesLetter() {
       <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            GET THE ALERT MANUAL NOW - ₦9,950
+            GET THE ALERT MANUAL NOW!
           </button>
         </Link>
       </div>
@@ -884,7 +884,7 @@ export default function SalesLetter() {
       <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            GET THE ALERT MANUAL NOW - ₦9,950
+            GET THE ALERT MANUAL NOW!
           </button>
         </Link>
       </div>
@@ -1013,7 +1013,7 @@ export default function SalesLetter() {
       <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            CLAIM YOUR COPY NOW - ₦9,950
+            CLAIM YOUR COPY NOW!
           </button>
         </Link>
       </div>
@@ -1092,7 +1092,7 @@ export default function SalesLetter() {
       <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            GET THE ALERT MANUAL NOW - ₦9,950
+            I WANT THE ALERT MANUAL NOW!
           </button>
         </Link>
       </div>
@@ -1250,7 +1250,7 @@ export default function SalesLetter() {
       <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            SECURE YOUR COPY NOW - ₦9,950
+            SECURE YOUR COPY NOW!
           </button>
         </Link>
       </div>
