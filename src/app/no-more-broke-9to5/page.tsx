@@ -24,7 +24,7 @@ export default function SalesLetter() {
         
         <div className="border-l-4 border-blue-500 pl-4 my-8 italic">
           <p className="font-bold">
-            Kemi got her first ₦50,000 in 21 days – no boss approval, no office politics, no begging HR for a raise that never comes.
+            Kemi got her first ₦257,000 in 21 days – no boss approval, no office politics, no begging HR for a raise that never comes.
           </p>
           <p className="font-bold">
             And while others were busy updating their CVs and praying someone would "consider" them, David learned how to create his own paycheck and never worry about a sack letter again.
