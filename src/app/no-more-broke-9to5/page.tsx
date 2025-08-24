@@ -376,7 +376,7 @@ export default function SalesLetter() {
       </div>
 
       <p>
-        Something that can fund a ₦3 million surgery without breaking a sweat.
+        Something that can fund a ₦3 million emergency without breaking a sweat.
       </p>
 
       <p className="mb-6">
@@ -688,7 +688,7 @@ export default function SalesLetter() {
 
       <p>The knowledge that could save you when everything else fails.</p>
 
-      <p>The knowledge that could fund your father's surgery.</p>
+      <p>The knowledge that could fund ANY emergency.</p>
 
       <p className="mb-6">
         The knowledge that could buy your family's freedom.
@@ -959,7 +959,7 @@ export default function SalesLetter() {
       <p className="mb-4">What if you get that sack letter tomorrow?</p>
       <div className="border-2 border-red-500 p-4 my-6 text-center">
         <p className="font-bold">
-          What if your father needs surgery and you can't help?
+          What if there's a family emergency and you can't help?
         </p>
       </div>
       <p className="mb-4">
@@ -1219,7 +1219,7 @@ export default function SalesLetter() {
 
       <div className="border-2 border-red-500 p-6 my-8 text-center">
         <p className="font-bold text-xl">
-          Are you ready to build something that can fund your father's surgery,
+          Are you ready to build something that can fund ANY emergency,
           your children's education, and your family's freedom?
         </p>
       </div>
