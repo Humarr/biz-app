@@ -793,6 +793,18 @@ export default function SalesLetter() {
         </p>
       </div>
 
+
+        {/* CTA Section */}
+        <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
+            <Link href={paymentLink}>
+          <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
+            I WANT THE ALERT MANUAL NOW!
+          </button>
+            </Link>
+        </div>
+        
+        <hr className="my-8 border-gray-300" />
+
       <hr className="my-8 border-gray-300" />
 
       {/* Section 13 */}
