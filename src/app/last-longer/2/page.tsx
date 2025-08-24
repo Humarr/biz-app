@@ -12,13 +12,13 @@ export default function SalesLetter() {
     return (
       <div className="bg-white text-gray-900 font-sans leading-relaxed max-w-3xl mx-auto px-4 py-8">
         {/* Header */}
-        <p className="text-sm text-gray-600 mb-2 border-2 border-green-600">
+        <p className="text-sm text-gray-600 mb-2 border-2 border-green-600 p-2">
           From the bedroom of a man who went from finishing in 2 minutes (and feeling like dying of shame) to lasting 20+ minutes and becoming the guy she brags about to her girls...
         </p>
         
-        <p className="my-6 font-bold">
+        <h2 className=" text-2xl text-center my-6 font-bold">
           I hate to be blunt, but if you're reading this, you probably know that sick feeling in your stomach when you finish too early... AGAIN.
-        </p>
+        </h2>
         
         <p>And she gives you that look.</p>
         <p>You know the one.</p>
