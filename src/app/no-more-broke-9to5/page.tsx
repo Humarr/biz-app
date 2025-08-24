@@ -686,7 +686,7 @@ export default function SalesLetter() {
         
         <div className="border-2 border-red-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            Even if I'm half wrong and you only make an extra ₦25,000 per month...
+            Even if I'm half right and you only make an extra ₦25,000 per month...
           </p>
           <p className="font-bold text-xl">
             That's still ₦300,000 per year.
