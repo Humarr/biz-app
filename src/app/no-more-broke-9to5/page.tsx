@@ -14,7 +14,7 @@ export default function SalesLetter() {
       </p>
 
       <div className="border-2 border-red-500 p-6 my-8 text-center">
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-2xl text-red-600 font-bold mb-4">
           Would you like me to refund your ₦9,950 if you use what's inside this
           manual every day for 90 days and don't make more in 180 days than you
           earned in the last 360 days?
