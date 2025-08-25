@@ -560,7 +560,7 @@ export default function SalesLetter() {
         
         <div className="bg-green-100 p-8 my-12 text-center rounded-lg">
           <p className="font-bold text-xl mb-4">
-            Use the strategies in The Escape Plan for 90 days. If you don't make at least 3 times your investment back in that time, I'll give you a full refund plus an extra ₦10,000 for your trouble.
+            Use the strategies in The Escape Plan for 180 days. If you don't make at least 3 times your investment back in that time, I'll give you a full refund plus an extra ₦10,000 for your trouble.
           </p>
         </div>
         
