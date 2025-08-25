@@ -355,7 +355,7 @@ export default function SalesLetter() {
           <li className="flex items-start">
             <span className="text-green-600 font-bold mr-2">•</span>
             <span>
-              <span className="font-bold">Page 12:</span> Why 9 out of 10 "brilliant" business ideas end up as expensive lessons in the business cemetery—and the single revelation that separates winners from wannabes
+              <span className="font-bold">Page 12:</span> Why 9 out of 10 "brilliant" business ideas end up as expensive lessons in the business graveyard—and the single revelation that separates winners from wannabes
             </span>
           </li>
           <li className="flex items-start">
