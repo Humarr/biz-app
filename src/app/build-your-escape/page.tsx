@@ -382,6 +382,11 @@ export default function SalesLetter() {
               <span className="font-bold">Page 25:</span> The brutal 9-point framework that instantly reveals if your business idea will make you rich or bankrupt—before you waste a single kobo
             </span>
           </li>
+          <div className="border-2 border-blue-500 p-6 my-8 text-center">
+          <p className="font-bold text-xl">
+            That's NOT All...
+          </p>
+        </div>
           <li className="flex items-start">
             <span className="text-green-600 font-bold mr-2">•</span>
             <span>
@@ -406,9 +411,18 @@ export default function SalesLetter() {
               <span className="font-bold">Page 78:</span> How to build an army of customers who promote your business more aggressively than you do—without paying them a kobo in commissions
             </span>
           </li>
+
+
+          <div className="border-2 border-green-500 p-6 my-8 text-center">
+          <p className="font-bold text-xl">
+            There's Still More...
+          </p>
+        </div>
           <li className="flex items-start">
             <span className="text-green-600 font-bold mr-2">•</span>
             <span>
+
+
               <span className="font-bold">Page 87:</span> The "price drop death loop" that kills businesses faster than bad products (and why your customers actually want you to charge more)
             </span>
           </li>
