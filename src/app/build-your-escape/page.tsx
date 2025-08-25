@@ -280,7 +280,7 @@ export default function SalesLetter() {
         </p>
         
         <p>
-          She started small. Really small. Just 2 hours on weekends, using her phone and ₦15,000 she had saved up.
+          She started small. Really small. Just 2 hours on weekends, using her phone and ₦45,000 she had saved up.
         </p>
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
