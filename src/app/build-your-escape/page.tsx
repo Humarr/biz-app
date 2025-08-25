@@ -408,7 +408,7 @@ export default function SalesLetter() {
           <li className="flex items-start">
             <span className="text-green-600 font-bold mr-2">•</span>
             <span>
-              <span className="font-bold">Page 78:</span> How to build an army of customers who promote your business more aggressively than you do—without paying them a kobo in commissions
+              <span className="font-bold">Page 78:</span> How to build an army of customers who promote your business more aggressively than you WITHOUT paying them a kobo in commissions
             </span>
           </li>
 
