@@ -10,7 +10,7 @@ export default function SalesLetter() {
         {/* Header */}
         <div className="text-center my-12">
           <h1 className="text-3xl font-bold mb-6">
-            What Nigerian Salary Earners Don't Know Could <span className="text-red-600">Wreck Their Income by December 2025</span>
+            What Nigerian Salary Earners Don't Know Could <span className="text-red-600">Wreck Their Income</span> by December 2025
           </h1>
           <h2 className="text-2xl font-bold text-red-600">
             (And Why Your Monthly Paycheck Is Actually Making You Poorer Every Single Day)
