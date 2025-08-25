@@ -396,7 +396,7 @@ export default function SalesLetter() {
           <li className="flex items-start">
             <span className="text-green-600 font-bold mr-2">•</span>
             <span>
-              <span className="font-bold">Page 51:</span> 8 unbreakable laws that turn every naira spent on advertising into 5 naira back—starting with your very first campaign
+              <span className="font-bold">Page 51:</span> 8 unbreakable laws that turn EVERY naira spent on advertising into 5 naira back—starting with your very first campaign
             </span>
           </li>
           <li className="flex items-start">
