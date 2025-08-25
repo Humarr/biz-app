@@ -3,7 +3,8 @@
 import Link from "next/link";
 
 export default function SalesLetter() {
-  const paymentLink = "https://selar.com/build-your-escape";
+  const paymentLink = "https://selar.com/escape-plan";
+  // const paymentLink = "https://selar.com/build-your-escape";
 
     return (
       <div className="bg-white text-gray-900 font-sans leading-relaxed max-w-3xl mx-auto px-4 py-8">
