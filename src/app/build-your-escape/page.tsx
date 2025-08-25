@@ -39,7 +39,7 @@ export default function SalesLetter() {
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            And what if—God forbid—you or someone in your family had a medical emergency next month that required ₦500,000?
+            And what if—God forbid—you or someone in your family had a medical emergency next month that required ₦5,000,000?
           </p>
           <p className="font-bold text-xl">
             Could you handle it without borrowing money or selling everything you own?
