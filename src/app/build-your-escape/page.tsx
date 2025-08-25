@@ -361,7 +361,7 @@ export default function SalesLetter() {
           <li className="flex items-start">
             <span className="text-green-600 font-bold mr-2">•</span>
             <span>
-              <span className="font-bold">Page 15:</span> The "STARVING CROWD" secret that made a broke mechanic from Lagos ₦50 million richer in 18 months (while his "smarter" friends kept planning)
+              <span className="font-bold">Page 15:</span> The "STARVING CROWD" secret that made a broke mechanic from Lagos ₦10 million richer in 18 months (while his "smarter" friends kept planning)
             </span>
           </li>
           <li className="flex items-start">
