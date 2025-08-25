@@ -439,7 +439,7 @@ export default function SalesLetter() {
         </div>
         
         <p className="text-center mb-6">
-          Because when you get your copy of The Alert Manual today, I'm also going to give you these incredible bonuses that are worth more than the manual itself:
+          Because when you get your copy of The Escape Plan today, I'm also going to give you these incredible bonuses that are worth more than the manual itself:
         </p>
         
         <div className="bg-yellow-100 p-6 my-8 rounded-lg">
@@ -482,7 +482,7 @@ export default function SalesLetter() {
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            If you respond to this letter today, you can get the complete Alert Manual plus all four bonuses for just ₦9,950.
+            If you respond to this letter today, you can get the complete Escape Plan plus all four bonuses for just ₦9,950.
           </p>
         </div>
         
@@ -546,7 +546,7 @@ export default function SalesLetter() {
         
         <div className="bg-green-100 p-8 my-12 text-center rounded-lg">
           <p className="font-bold text-xl mb-4">
-            Use the strategies in The Alert Manual for 90 days. If you don't make at least 3 times your investment back in that time, I'll give you a full refund plus an extra ₦10,000 for your trouble.
+            Use the strategies in The Escape Plan for 90 days. If you don't make at least 3 times your investment back in that time, I'll give you a full refund plus an extra ₦10,000 for your trouble.
           </p>
         </div>
         
