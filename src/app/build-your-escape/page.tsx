@@ -670,7 +670,7 @@ export default function SalesLetter() {
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            And unlike your job, I can't guarantee it will still be here tomorrow.
+            And just like your job, I can't guarantee it will still be here tomorrow.
           </p>
         </div>
         
