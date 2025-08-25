@@ -285,13 +285,13 @@ export default function SalesLetter() {
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            In her first month, she made ₦45,000 extra.
+            In her first month, she made ₦75,000 extra.
           </p>
         </div>
         
         <div className="border-2 border-red-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            In month three, she made ₦120,000.
+            In month three, she made ₦150,000.
           </p>
         </div>
         
