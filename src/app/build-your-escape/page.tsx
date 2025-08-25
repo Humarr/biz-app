@@ -77,7 +77,7 @@ export default function SalesLetter() {
         </p>
         
         <p>
-          Last week, I was talking to a friend who works at one of those "big, stable" companies in Victoria Island. You know the type—the kind of company that makes you feel important when you tell people where you work.
+          Last week, I was talking to a friend who works at one of those "big, stable" companies in Lagos. You know the type—the kind of company that makes you feel important when you tell people where you work.
         </p>
         
         <p>
