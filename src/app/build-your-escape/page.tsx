@@ -481,7 +481,7 @@ export default function SalesLetter() {
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            If you respond to this letter today, you can get the complete Alert Manual plus all four bonuses for just ₦29,500.
+            If you respond to this letter today, you can get the complete Alert Manual plus all four bonuses for just ₦9,950.
           </p>
         </div>
         
@@ -504,17 +504,17 @@ export default function SalesLetter() {
         </p>
         
         <p className="mb-6">
-          ₦600,000 minus the ₦29,500 investment equals ₦570,500 in pure profit.
+          ₦600,000 minus the ₦9,950 investment equals ₦590,050 in pure profit.
         </p>
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            That's a 1,934% return on your investment.
+            That's a 5,930.80% return on your investment.
           </p>
         </div>
         
         <p className="text-center mb-6">
-          Show me a bank that pays 1,934% interest and I'll show you a miracle.
+          Show me a bank that pays 5,930.80% interest and I'll show you a miracle.
         </p>
         
         <p className="text-center">
@@ -612,7 +612,7 @@ export default function SalesLetter() {
         </p>
         
         <p>
-          They'll think about it. They'll say they'll come back to it later. They'll make excuses about why they can't afford ₦29,500 right now.
+          They'll think about it. They'll say they'll come back to it later. They'll make excuses about why they can't afford ₦9,950 right now.
         </p>
         
         <p className="mb-6">
