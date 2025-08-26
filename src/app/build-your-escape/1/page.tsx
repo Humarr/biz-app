@@ -447,7 +447,7 @@ export default function SalesLetter() {
         </div>
         
         <p className="mb-6">
-          Here was me with HND, five years work experience, speaking good English, and I was broke. While Tunde wey no even get WAEC was living like king.
+          Here was me with Masters degree, five years work experience, speaking good English, and I was broke. While Tunde wey no even get WAEC was living like king.
         </p>
         
         <div className="border-2 border-red-500 p-6 my-8 text-center">
