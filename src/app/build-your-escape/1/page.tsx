@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+8/* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
 
@@ -954,7 +954,7 @@ export default function SalesLetter() {
         </p>
         
         <p className="text-center font-bold">
-          [Your Name]
+          Kayden
         </p>
         
         <hr className="my-8 border-gray-300" />
