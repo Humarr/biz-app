@@ -319,7 +319,7 @@ export default function SalesLetter() {
         
         <div className="bg-blue-100 p-8 my-12 text-center rounded-lg">
           <h2 className="text-2xl font-bold mb-6">
-            "THE ALERT MANUAL: How to Launch a Business That Pays You More in 180 Days Than You Earned in the Last 360 Days... Guaranteed!"
+            "THE ESCAPE PLAN: How to Launch a Business That Pays You More in 180 Days Than You Earned in the Last 360 Days... Guaranteed!"
           </h2>
         </div>
         
@@ -921,7 +921,7 @@ export default function SalesLetter() {
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
             <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            CLICK HERE TO GET YOUR COPY OF THE ALERT MANUAL NOW
+            CLICK HERE TO GET YOUR COPY OF THE ESCAPE PLAN NOW
           </button>
             </Link>
         </div>
