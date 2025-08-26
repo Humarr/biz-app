@@ -1,6 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+
+import Link from "next/link";
+
 // app/page.js
 export default function SalesLetter() {
+
+    const paymentLink = "https://selar.com/escape-plan";
+    // const paymentLink = "https://selar.com/build-your-escape";
+
     return (
       <div className="bg-white text-gray-900 font-sans leading-relaxed max-w-3xl mx-auto px-4 py-8">
         {/* Header */}
@@ -912,9 +919,11 @@ export default function SalesLetter() {
         
         {/* CTA Section */}
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
+            <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
             CLICK HERE TO GET YOUR COPY OF THE ALERT MANUAL NOW
           </button>
+            </Link>
         </div>
         
         <p className="text-center mb-6">
@@ -933,9 +942,11 @@ export default function SalesLetter() {
         
         {/* CTA Section */}
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
+            <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
             YES! I READY TO ESCAPE SALARY TRAP - GIVE ME THE MANUAL NOW
           </button>
+            </Link>
         </div>
         
         <p className="text-center mb-6">
@@ -973,9 +984,11 @@ export default function SalesLetter() {
         
         {/* Final CTA Section */}
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
+            <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
             SECURE YOUR COPY BEFORE TIME RUN OUT - CLICK HERE
           </button>
+            </Link>
         </div>
       </div>
     );
