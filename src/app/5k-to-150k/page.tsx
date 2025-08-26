@@ -34,6 +34,8 @@ export default function SalesPage() {
 //     return () => clearInterval(timer);
 //   }, []);
 
+const paymentLink = "https://selar.com/build-your-escape";
+
   return (
     <div className="min-h-screen bg-white font-sans">
       {/* Header Section */}
@@ -416,7 +418,7 @@ export default function SalesPage() {
           </div>
           
           <div className="mt-6 bg-green-100 p-4 rounded-lg border border-green-300">
-            <Link href="https://selar.com/5k-to-150k" className="font-bold text-green-800 text-xl">GET THE COMPLETE TRAINING FOR ₦4,950 NOW</Link>
+            <Link href={paymentLink} className="font-bold text-green-800 text-xl">GET THE COMPLETE TRAINING FOR ₦4,950 NOW</Link>
           </div>
         </div>
 
@@ -463,7 +465,7 @@ export default function SalesPage() {
           </div>
           
           <div className="bg-white p-6 rounded-lg max-w-2xl mx-auto">
-            <Link href="https://selar.com/5k-to-150k" className="text-green-800 font-bold text-xl mb-4">YES, I WANT TO DEVELOP MY OPPORTUNITY RECOGNITION SYSTEM</Link>
+            <Link href={paymentLink} className="text-green-800 font-bold text-xl mb-4">YES, I WANT TO DEVELOP MY OPPORTUNITY RECOGNITION SYSTEM</Link>
             <p className="text-gray-600">Secure Payment • Instant Access • 60-Day Money-Back Guarantee</p>
           </div>
         </div>
