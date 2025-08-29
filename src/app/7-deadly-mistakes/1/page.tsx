@@ -675,8 +675,8 @@ export default function SalesLetter() {
           <p>Copy-and-paste ad templates you can customize for any business in any industry</p>
           
           {/* <p className="font-bold text-lg mb-4 mt-6">🎁 BONUS #3: The Competitive Intelligence Toolkit (Worth ₦7,000)</p>
-          <p>Step-by-step guide to analyzing your competitors and finding their weaknesses</p>
-        </div> */}
+          <p>Step-by-step guide to analyzing your competitors and finding their weaknesses</p>*/}
+        </div> 
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
