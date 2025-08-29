@@ -304,7 +304,7 @@ export default function SalesLetter() {
   
         <p className="mb-4">Why?</p>
         <p className="mb-4">Because I can only work with a limited number of entrepreneurs at once. Once too many people start using these strategies in the same markets, they become less effective.</p>
-        <p className="mb-4">I'm limiting this to the first 100 serious business owners who take action. After that, The ALERT Manual goes to its regular price of ₦15,000 (if I decide to offer it again at all).</p>
+        <p className="mb-4">I'm limiting this to the first 100 serious business owners who take action. After that, The ALERT Manual goes to its regular price of ₦25,000 (if I decide to offer it again at all).</p>
         <p className="mb-4">Plus, I'm throwing in these exclusive bonuses:</p>
         
         <ul className="list-disc pl-5 mb-6">
