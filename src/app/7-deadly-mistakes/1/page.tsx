@@ -734,7 +734,7 @@ export default function SalesLetter() {
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            GET THE ALERT MANUAL NOW - ₦13,950
+            GET THE ALERT MANUAL NOW
           </button>
           </Link>
         </div>
@@ -790,7 +790,7 @@ export default function SalesLetter() {
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            YES! Give Me The ALERT Manual Now - ₦13,950
+            YES! Give Me The ALERT Manual Now
           </button>
           </Link>
         </div>
