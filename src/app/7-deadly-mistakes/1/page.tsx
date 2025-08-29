@@ -620,7 +620,7 @@ export default function SalesLetter() {
         </ul>
         
         <p className="text-center mb-6">
-          So why am I only charging ₦13,950?
+          So why am I only charging ₦9,950?
         </p>
         
         <p className="mb-6">
@@ -658,7 +658,7 @@ export default function SalesLetter() {
         </p>
         
         <p className="mb-6">
-          I'm limiting this to the first 100 serious business owners who take action. After that, The ALERT Manual goes to its regular price of ₦35,000 (if I decide to offer it again at all).
+          I'm limiting this to the first 100 serious business owners who take action. After that, The ALERT Manual goes to its regular price of ₦25,000 (if I decide to offer it again at all).
         </p>
         
         <div className="border-2 border-red-500 p-6 my-8 text-center">
@@ -668,22 +668,22 @@ export default function SalesLetter() {
         </div>
         
         <div className="bg-yellow-100 p-6 my-8 rounded-lg">
-          <p className="font-bold text-lg mb-4">🎁 BONUS #1: THE 6 PRODUCTS NIGERIANS WILL ALWAYS BUY (Worth ₦20,000)</p>
-          <p>A No-Nonsense Guide to Building a Profitable Business in Nigeria's Hottest Markets</p>
+          <p className="font-bold text-lg mb-4">🎁 BONUS #1: The Nigerian Market Opportunity Database (Worth ₦10,000)</p>
+          <p>A curated list of 50 proven business opportunities specifically researched for the Nigerian market</p>
           
-          <p className="font-bold text-lg mb-4 mt-6">🎁 BONUS #2: Direct Response Ad Templates (Worth ₦35,000)</p>
+          <p className="font-bold text-lg mb-4 mt-6">🎁 BONUS #2: Direct Response Ad Templates (Worth ₦8,000)</p>
           <p>Copy-and-paste ad templates you can customize for any business in any industry</p>
           
           {/* <p className="font-bold text-lg mb-4 mt-6">🎁 BONUS #3: The Competitive Intelligence Toolkit (Worth ₦7,000)</p>
-          <p>Step-by-step guide to analyzing your competitors and finding their weaknesses</p>*/}
-        </div> 
+          <p>Step-by-step guide to analyzing your competitors and finding their weaknesses</p> */}
+        </div>
         
         <div className="border-2 border-blue-500 p-6 my-8 text-center">
           <p className="font-bold text-xl">
-            Total Value: ₦75,000
+            Total Value: ₦45,000
           </p>
           <p className="font-bold text-xl">
-            Your Investment Today: Only ₦13,950
+            Your Investment Today: Only ₦9,950
           </p>
         </div>
         
@@ -707,7 +707,7 @@ export default function SalesLetter() {
         </div>
         
         <div className="bg-green-50 p-6 my-6 rounded-lg">
-          <p className="font-bold text-lg mb-4">CHOICE #2: Invest ₦13,950 in your business education right now.</p>
+          <p className="font-bold text-lg mb-4">CHOICE #2: Invest ₦9,950 in your business education right now.</p>
           <p>Get the complete system that successful entrepreneurs use. Avoid all 7 deadly mistakes. Build a business that actually works.</p>
           <p className="font-bold mt-4">Result: In one year, you'll be running a profitable business that gives you the lifestyle, respect, and financial freedom you deserve.</p>
         </div>
@@ -734,7 +734,7 @@ export default function SalesLetter() {
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            GET THE ALERT MANUAL NOW
+            GET THE ALERT MANUAL NOW - ₦9,950
           </button>
           </Link>
         </div>
@@ -771,7 +771,7 @@ export default function SalesLetter() {
         <div className="border-2 border-gray-400 p-6 my-12">
           <p className="font-bold text-xl mb-4 text-center">P.S.</p>
           <p className="mb-4">Still thinking about it? Listen, I understand. You've probably been burned by fake gurus before. But ask yourself this: What's the real cost of continuing to make the same mistakes that kill businesses? What's the cost of staying stuck where you are for another year?</p>
-          <p className="mb-4">Compare that to ₦13,950 for a proven system that could change your life forever. It's not even a choice.</p>
+          <p className="mb-4">Compare that to ₦9,950 for a proven system that could change your life forever. It's not even a choice.</p>
         </div>
         
         {/* P.P.S. Section */}
@@ -790,7 +790,7 @@ export default function SalesLetter() {
         <div className="text-center my-12 p-8 bg-gray-100 rounded-lg">
         <Link href={paymentLink}>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded mt-4 text-lg">
-            YES! Give Me The ALERT Manual Now
+            YES! Give Me The ALERT Manual Now - ₦9,950
           </button>
           </Link>
         </div>
