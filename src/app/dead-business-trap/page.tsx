@@ -408,7 +408,7 @@ export default function SalesLetter() {
           <p>A detailed list of 6 hot-selling business opportunities I've verified in the Nigerian market. These opportunities will ALWAYS sell like CRAZY, no matter the economic situation.</p>
           
           <h3 className="font-bold text-lg mb-4 mt-6">🎁 BONUS #2: The Direct Response Ad Template Collection</h3>
-          <p>20 proven ad templates that have generated millions for Nigerian businesses. Just fill in the blanks and watch people beg to buy from you.</p>
+          <p>20 proven ad templates that have generated millions for Nigerian businesses. Just fill in the blanks and watch people rush to buy from you.</p>
           
           <h3 className="font-bold text-lg mb-4 mt-6">🎁 BONUS #3: The Business Validator Checklist</h3>
           <p>My personal 15-point checklist for validating any business idea in 7 days or less, without spending a kobo on inventory.</p>
