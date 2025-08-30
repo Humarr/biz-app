@@ -669,7 +669,7 @@ export default function SalesLetter() {
         
         <div className="bg-yellow-100 p-6 my-8 rounded-lg">
           <p className="font-bold text-lg mb-4">🎁 BONUS #1: The Nigerian Market Opportunity Database (Worth ₦10,000)</p>
-          <p>A curated list of 50 proven business opportunities specifically researched for the Nigerian market</p>
+          <p>A curated list of 6 proven business opportunities specifically researched for the Nigerian market</p>
           
           <p className="font-bold text-lg mb-4 mt-6">🎁 BONUS #2: Direct Response Ad Templates (Worth ₦8,000)</p>
           <p>Copy-and-paste ad templates you can customize for any business in any industry</p>
