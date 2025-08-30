@@ -405,7 +405,7 @@ export default function SalesLetter() {
         
         <div className="bg-yellow-100 p-6 my-8 rounded-lg">
           <h3 className="font-bold text-lg mb-4">🎁 BONUS #1: The Nigerian Market Opportunity Database</h3>
-          <p>A detailed list of 6 hot-selling business opportunities I've verified in the Nigerian market. These opportunities will ALWAYS sell like CRAZY, no matter the economic situation.</p>
+          <p>A detailed list of 6 HOT-SELLING business opportunities I've verified in the Nigerian market. These opportunities will ALWAYS sell like CRAZY, no matter the economic situation.</p>
           
           <h3 className="font-bold text-lg mb-4 mt-6">🎁 BONUS #2: The Direct Response Ad Template Collection</h3>
           <p>20 proven ad templates that have generated millions for Nigerian businesses. Just fill in the blanks and watch people rush to buy from you.</p>
