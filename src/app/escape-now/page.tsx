@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function SalesLetter() {
 
 
-    const paymentLink = "https://selar.com/the-alert-manual"
+    const paymentLink = "https://selar.com/escape-now"
 
   return (
     <div className="bg-white text-black font-sans max-w-4xl mx-auto p-6">
