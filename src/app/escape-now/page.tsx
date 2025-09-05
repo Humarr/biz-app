@@ -1289,16 +1289,27 @@ export default function SalesLetter() {
         <p className="text-xl font-bold mb-4">P.S. -</p>
         <p className="text-xl mb-6">
           If you skipped to the end, here's what you missed:
+          {"\n"}
           Your 9-5 job is literally killing you (Medical Reports Show that 9-5 Jobs Are Killing 120,000 People Every Year), but I've spent 300 days researching ordinary Nigerians who escaped using something called the "Starving Crowd System…"
+          {"\n"}
           For just N15,000 (less than you spend on data monthly), you get:
+          {"\n"}
           the complete system that shows you how to find "starving crowds" of people desperate to pay you for solutions, plus..
+          {"\n"}
           psychology tricks that make advertising profitable,
+          {"\n"}
           pricing strategies that beat competitors, and
+          {"\n"}
           methods to get free promotion…
+          {"\n"}
           You also get 2 bonuses:
+          {"\n"}
           6 products that always sell in Nigeria and
+          {"\n"}
           ready-to-use advertising templates.
+          {"\n"}
           I'm so confident this works that I guarantee your money back if you don't see results in 90 days.
+          {"\n"}
           This price won't last - click now before it increases.
         </p>
       </div>
