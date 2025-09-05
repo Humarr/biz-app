@@ -1277,9 +1277,11 @@ export default function SalesLetter() {
       </p>
 
       <div className="text-center my-10">
+        <Link href={paymentLink}>
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-2xl">
           GET THE STARVING CROWD SYSTEM NOW
         </button>
+        </Link>
       </div>
 
       {/* P.S. */}
