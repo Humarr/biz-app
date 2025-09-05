@@ -149,7 +149,7 @@ export default function SalesLetter() {
       </div>
 
       <p className="text-2xl text-center font-bold mb-6">
-        Sound impossible? Let me prove it to you…
+        Sound impossible?
       </p>
       <p className="text-2xl text-center font-bold mb-10">
         Keep reading, because it's about to get even better…
@@ -202,7 +202,7 @@ export default function SalesLetter() {
       </p>
 
       <p className="text-xl mb-6">
-        Daviid decided to play around on Facebook and came across an ad about the Starving Crowd system.
+        David decided to play around on Facebook and came across an ad about the Starving Crowd system.
       </p>
 
       <p className="text-xl mb-6">
@@ -624,11 +624,11 @@ export default function SalesLetter() {
         Things are expensive…
       </p>
       <p className="text-xl mb-10">
-        The government is moving mad
+        Or the government is moving mad
       </p>
 
       <p className="text-xl mb-6">
-        The truth is…
+        Because the truth is…
       </p>
       <p className="text-2xl text-center font-bold mb-10">
         As long as you follow this Starving Crowd system I'll show you…
@@ -690,7 +690,7 @@ export default function SalesLetter() {
           And That's Why The First Thing I Will Be Teaching You In This System is…
         </p>
         <p className="text-2xl text-red-600 font-bold text-center mb-6">
-          EXACTLY What To Do Before You Quit Your Job So You Get Ahead of Your Colleagues… FAST!
+          EXACTLY What To Do Before You Quit Your Job So You Get Ahead of Your Colleagues… FASTER!
         </p>
 
         <p className="text-2xl font-bold text-center mb-6">
@@ -1003,7 +1003,7 @@ export default function SalesLetter() {
       <p className="text-xl mb-6">
         The first one is CRAZY…
       </p>
-      <p className="text-xl mb-6">
+      <p className="text-2xl text-red-600 font-bold text-center mb-6">
         Because, it will SHOW you the 6 categories of products that WILL ALWAYS sell in Nigeria, no matter the condition of the economy…
       </p>
       <p className="text-xl mb-6">
@@ -1030,12 +1030,12 @@ export default function SalesLetter() {
       <p className="text-xl mb-6">
         In addition to the 8 unbreakable laws of advertising that you WILL learn…
       </p>
-      <p className="text-xl mb-10">
+      <p className="text-2xl text-red-600 font-bold text-center mb-10">
         I will also give you ready-to-use templates that you can just fill in the blanks and use to run your ads.
       </p>
 
       <p className="text-xl mb-6">
-        YSo that you can EVEN post on your whatsapp status and groups…
+        So that you can EVEN post on your whatsapp status and groups…
       </p>
       <p className="text-xl mb-10">
         And heck!
