@@ -858,7 +858,7 @@ export default function SalesLetter() {
       </p>
 
       <p className="text-xl mb-6">
-        And if you're among the first people to pay 15,000 NAIRA today, you'll
+        And if you're among the first people to pay 9.950 NAIRA today, you'll
         get full access to the program…
       </p>
       <p className="text-xl mb-6">Plus..</p>
@@ -867,7 +867,7 @@ export default function SalesLetter() {
       </p>
 
       <p className="text-xl mb-6">
-        So, I will include TWO JUICY BONUSES IF you pay 15,000 NAIRA today.
+        So, I will include TWO JUICY BONUSES IF you pay 9.950 NAIRA today.
       </p>
       <p className="text-xl mb-10">
         Yes, you heard me right… TWO JUICY and TASTY bonuses…
@@ -1040,7 +1040,7 @@ export default function SalesLetter() {
         Listen, I Need To Be Honest With You About Something…
       </p>
       <p className="text-xl mb-6">
-        I can only keep this price at N15,000 for so long.
+        I can only keep this price at N9.950 for so long.
       </p>
       <p className="text-xl mb-10">
         Once word spreads about this system (and it will), I'll have to increase
@@ -1060,7 +1060,7 @@ export default function SalesLetter() {
         </p>
         <p className="text-xl mb-6">
           Click the button below and secure your copy of the Starving Crowd
-          System for just N15,000.
+          System for just N9.950.
         </p>
         <p className="text-xl mb-6">
           And once you click the button, you will be taken to a secure page
@@ -1124,7 +1124,7 @@ export default function SalesLetter() {
         dreams die...
       </p>
       <p className="text-2xl text-center text-red-600 font-bold mb-10">
-        Or invest N15,000 in your freedom and start building the life you truly
+        Or invest N9.950 in your freedom and start building the life you truly
         deserve.
       </p>
 
@@ -1158,7 +1158,7 @@ export default function SalesLetter() {
         </p>
 
         <p className="text-base font-medium mb-2">
-          For just <span className="font-bold">₦15,000</span> (less than you
+          For just <span className="font-bold">₦9.950</span> (less than you
           spend on data monthly), you get:
         </p>
         <ul className="list-disc list-inside space-y-2 mb-6 text-base">
