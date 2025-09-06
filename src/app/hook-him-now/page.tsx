@@ -9,12 +9,14 @@ export default function SalesLetter() {
       <div className="bg-white text-gray-900 font-sans">
         {/* Header Section */}
         <div className="max-w-3xl mx-auto px-4 py-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 leading-tight">
-            This ₦15,000 Mistake Almost Destroyed My 8-Month Marriage
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 leading-tight text-red-600">
+            {/* This ₦15,000 Mistake Almost Destroyed My 8-Month Marriage */}
+
+            The New "Forbidden Marriage Psychology" That Lets You See Which Women Are Hunting Your Husband (And the ₦15,000 Mistake That Almost Cost Me Mine)
           </h1>
           
           <p className="text-xl mb-8 text-center">
-            My dear sister,
+            Look...My dear sister,
           </p>
           
           <p className="text-lg mb-6">
