@@ -18,6 +18,12 @@ export default function SalesLetter() {
           <p className="text-xl mb-8 text-center">
             Look...My dear sister,
           </p>
+          <p className="text-lg mb-6">
+            Let me tell you how I almost lost my husband because of one silly 15,000 naira mistake you might be making too...
+          </p>
+          <p className="text-lg mb-6">
+           Sounds crazy, I know...
+          </p>
           
           <p className="text-lg mb-6">
             You see, three years ago, I made a ₦15,000 mistake that nearly cost me my marriage before our first wedding anniversary...
