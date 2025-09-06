@@ -173,11 +173,11 @@ export default function SalesLetter() {
             Truth is... once I learned these principles and started applying them, everything changed.
           </p>
           
-          <p className="text-lg mb-6">
-            Within 3 weeks:
+          <p className="text-lg mb-6">  
+            And within 3 weeks:
           </p>
           
-          <ul className="list-disc pl-6 mb-6 text-lg">
+          <ul className="list-disc pl-6 mb-6 text-lg font-bold">
             <li className="mb-2">He stopped mentioning Funmi's name</li>
             <li className="mb-2">Started coming home earlier just to spend time with me</li>
             <li className="mb-2">Began bragging about me to his friends again</li>
