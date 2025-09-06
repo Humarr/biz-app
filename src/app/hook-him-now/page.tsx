@@ -134,7 +134,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="text-lg mb-6">
-            You know how we Nigerian women are - we think once we get the ring, the work is done. The man is "caught" and we can relax.
+            You know how we women are - we think once we get the ring, the work is done. The man is "caught" and we can relax.
           </p>
           
           <p className="text-xl font-bold mb-6 text-center">
@@ -170,7 +170,7 @@ export default function SalesLetter() {
           </h2>
           
           <p className="text-lg mb-6">
-            Once I learned these principles and started applying them, everything changed.
+            Truth is... once I learned these principles and started applying them, everything changed.
           </p>
           
           <p className="text-lg mb-6">
