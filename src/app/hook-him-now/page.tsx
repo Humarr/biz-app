@@ -70,7 +70,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="text-lg mb-6">
-            And she couldn't cook eba to save her life (I heard she buys food from mama put every day!).
+            And she couldn't even cook eba to save her life (I heard she buys food from mama put every day!).
           </p>
           
           <p className="text-lg mb-6">
