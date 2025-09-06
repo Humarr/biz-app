@@ -178,9 +178,9 @@ export default function SalesLetter() {
           </p>
           
           <ul className="list-disc pl-6 mb-6 text-lg font-bold">
-            <li className="mb-2">He stopped mentioning Funmi's name</li>
-            <li className="mb-2">Started coming home earlier just to spend time with me</li>
-            <li className="mb-2">Began bragging about me to his friends again</li>
+            <li className="mb-2">He stopped mentioning Funmi's name...</li>
+            <li className="mb-2">Started coming home earlier just to spend time with me...</li>
+            <li className="mb-2">Began bragging about me to his friends again...</li>
             <li className="mb-2">And that look in his eyes? The one from our wedding day? It came back.</li>
           </ul>
           
