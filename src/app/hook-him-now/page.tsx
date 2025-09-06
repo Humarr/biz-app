@@ -102,7 +102,7 @@ export default function SalesLetter() {
           </h2>
           
           <p className="text-lg mb-6">
-            The breaking point came during our 8th month anniversary dinner.
+            Because... the breaking point came during our 8th month anniversary dinner.
           </p>
           
           <p className="text-lg mb-6">
@@ -114,7 +114,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="text-lg mb-6">
-            That night, lying in our matrimonial bed, I realized something terrifying:
+            And that night, lying in our matrimonial bed, I realized something terrifying:
           </p>
           
           <p className="text-xl font-bold mb-6 text-center">
