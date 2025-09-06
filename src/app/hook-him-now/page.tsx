@@ -22,7 +22,7 @@ export default function SalesLetter() {
             Let me tell you how I almost lost my husband because of one silly 15,000 naira mistake you might be making too...
           </p>
           <p className="text-lg mb-6">
-           Sounds crazy, I know...
+           Sounds crazy, I know.
           </p>
           
           <p className="text-lg mb-6">
