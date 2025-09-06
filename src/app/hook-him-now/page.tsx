@@ -50,7 +50,7 @@ export default function SalesLetter() {
           </p>
           
           <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-6 text-center border-t-2 border-b-2 border-red-600 py-4">
-            The fact is, the Honeymoon Phase Doesn't Last Forever (And What Replaces It Will Shock You)
+            Because... the fact is, the Honeymoon Phase Doesn't Last Forever (And What Replaces It Will Shock You)
           </h2>
           
           <p className="text-lg mb-6">
@@ -66,7 +66,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="text-lg mb-6">
-            Also, he wasn't even that fine - just average height, average looks, nothing special.
+            Also, she wasn't even that fine - just average height, average looks, nothing special.
           </p>
           
           <p className="text-lg mb-6">
