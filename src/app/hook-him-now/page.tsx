@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import Image from "next/image";
 import Link from "next/link";
 
 // app/page.js
@@ -201,7 +202,7 @@ export default function SalesLetter() {
           </p>
           
           <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-6 text-center border-t-2 border-b-2 border-red-600 py-4">
-            Just when you thought it couldn't get better…
+            And just when you thought it couldn't get better…
           </h2>
           
           <p className="text-lg mb-6">
@@ -323,7 +324,7 @@ export default function SalesLetter() {
           <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-6 text-center border-t-2 border-b-2 border-red-600 py-4">
             And that's Why I Created "Keep Him Hooked (For Wives Only)"
           </h2>
-          
+          <Image src="/mockups/keep-him-hooked.jpeg" alt="Keep Him Hooked (For Wives Only)" width={500} height={500} className="mx-auto my-6"/>
           <p className="text-lg mb-6">
             After helping 247 newlywed wives transform their marriages using these psychological principles, I knew I had to create something specifically for us.
           </p>
