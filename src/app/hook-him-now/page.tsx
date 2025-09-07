@@ -434,8 +434,9 @@ export default function SalesLetter() {
         </h2>
 
         <p className="text-lg mb-6">
-          Look, I could charge ₦50,000 for this information. That's even less than
-          what you probably spent on aso-ebi for the last wedding you attended.
+          Look, I could charge ₦50,000 for this information. That's even less
+          than what you probably spent on aso-ebi for the last wedding you
+          attended.
         </p>
 
         <p className="text-lg mb-6">
@@ -469,13 +470,9 @@ export default function SalesLetter() {
           </p>
           <div className="text-center">
             <Link href={paymentLink}>
-         
-              <button
-  className="relative bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold py-5 px-10 rounded-2xl text-2xl shadow-xl hover:shadow-2xl transition-all duration-300 animate-pulse"
->
-   Yes! I Want To Save My Marriage Now
-</button>
-
+              <button className="relative bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold py-5 px-10 rounded-2xl text-2xl shadow-xl hover:shadow-2xl transition-all duration-300 animate-pulse">
+                Yes! I Want To Save My Marriage Now
+              </button>
             </Link>
           </div>
         </div>
@@ -543,19 +540,10 @@ export default function SalesLetter() {
           </p>
           <div className="text-center">
             <Link href={paymentLink}>
-            
- 
-
-<button
-  className="relative bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold py-5 px-10 rounded-2xl text-2xl shadow-xl hover:shadow-2xl transition-all duration-300"
->
-  <span className="absolute inset-0 rounded-2xl ring-4 ring-red-400 animate-ping"></span>
-  <span className="relative z-10">Secure My Marriage Today
-   
-    </span>
-</button>
-
-
+              <button className="relative bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold py-5 px-10 rounded-2xl text-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                <span className="absolute inset-0 rounded-2xl ring-4 ring-red-400 animate-ping"></span>
+                <span className="relative z-10">Secure My Marriage Today</span>
+              </button>
             </Link>
           </div>
         </div>
@@ -590,16 +578,10 @@ export default function SalesLetter() {
           </p>
           <div className="text-center mt-4">
             <Link href={paymentLink}>
-             
-          
-
-              <button
-  className="relative bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold py-5 px-10 rounded-2xl text-2xl shadow-xl hover:shadow-2xl transition-all duration-300"
->
-  <span className="absolute inset-0 rounded-2xl fire-ring"></span>
-  <span className="relative z-10">Get Instant Access Now</span>
-</button>
-
+              <button className="relative bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold py-5 px-10 rounded-2xl text-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                <span className="absolute inset-0 rounded-2xl fire-ring"></span>
+                <span className="relative z-10">Get Instant Access Now</span>
+              </button>
             </Link>
           </div>
         </div>
