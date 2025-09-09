@@ -216,7 +216,7 @@ export default function SalesLetter() {
         </p>
 
         <p>
-          Because, for 300 days straight, I went on a research spree like a mad man…
+          Because, for 374 days straight, I went on a research spree like a mad man…
         </p>
 
         <p>
@@ -627,7 +627,7 @@ export default function SalesLetter() {
         </p>
 
         <p>
-          See, while I was buried in my 300-day research, I discovered something strange…
+          See, while I was buried in my 374-day research, I discovered something strange…
         </p>
 
         <p>
