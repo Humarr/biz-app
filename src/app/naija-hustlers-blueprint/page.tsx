@@ -160,7 +160,7 @@ export default function SalesLetter() {
         </p>
 
         <p className="text-center text-2xl font-bold my-10">
-          So, get this… your salary right now, is NOT the highest  amount of money you're capable of making. You have the brains and power of making waaayyy MORE than that once you have the right guidance.
+          So, get this… your salary right now, is NOT the highest  amount of money you're capable of making. You have the ability and power of making waaayyy MORE than that once you have the right guidance.
         </p>
 
         <p>
