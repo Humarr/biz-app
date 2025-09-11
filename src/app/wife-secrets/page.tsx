@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function SalesPage() {
   return (
@@ -201,6 +202,7 @@ export default function SalesPage() {
           <div className="bg-white p-8 rounded-lg shadow-xl border-2 border-blue-300 transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl font-bold text-purple-700 mb-4">Sister, I want to introduce you to something that will change everything:</h3>
             <h4 className="text-3xl font-bold text-purple-800 mb-6">"Make Him Obsessed: The Wife's Secret to Becoming So Irresistible He Forgets Other Women Exist"</h4>
+            <Image src="/mockups/make-him-obsessed.jpeg" alt="Book Cover" width={200} height={300} />
             <p className="text-lg">This is not just another marriage book. This is not relationship advice from someone who's never been in your shoes.</p>
             <p className="text-lg font-semibold mt-4">This is a psychological warfare manual written specifically for Nigerian wives who refuse to be replaced.</p>
           </div>
