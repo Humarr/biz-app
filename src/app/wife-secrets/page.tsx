@@ -362,7 +362,7 @@ export default function SalesPage() {
       {/* Warning Section */}
       <section className="py-12 px-4 bg-red-50">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-center mb-8 text-red-700">The Damaging Admission I Must Make</h2>
+          <h2 className="text-2xl font-bold text-center mb-8 text-red-700">But I Must Admit...</h2>
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <p className="mb-6">This book won't work for every marriage.</p>
             <p className="mb-6">If your husband has already made up his mind to leave... if he's completely checked out emotionally... if there's abuse or addiction involved... this book alone won't fix those problems.</p>
