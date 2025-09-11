@@ -213,7 +213,7 @@ export default function SalesPage() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Here's My Story (And Why I Had to Write This Book)</h2>
-          <p className="mb-6">My name is [Author Name], and five years ago, I was exactly where you might be right now.</p>
+          <p className="mb-6">Five years ago, I was exactly where you might be right now.</p>
           <p className="mb-6">I had been married for 12 years to a man I loved more than my own life. We had three beautiful children. I was what everyone called a "good wife."</p>
           <p className="mb-6">I cooked his favorite meals. I kept our home beautiful. I supported his business. I prayed for him daily. I respected him. I loved him with everything I had.</p>
           <p className="mb-6 font-semibold">But I was losing him.</p>
