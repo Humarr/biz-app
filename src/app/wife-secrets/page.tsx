@@ -26,7 +26,7 @@ export default function SalesPage() {
           Because right now, as you read these words, there's a woman somewhere in Lagos... Abuja... Kano... crying herself to sleep.
         </p>
         <p className="mb-6">
-          She's a <em className="font-semibold">good woman.</em> She cooks. She cleans. She takes care of the children. She goes to church. She respects her husband. She does everything our mothers taught us to do.
+          She's a <em className="font-semibold">good woman.</em> She cooks. She cleans. She takes care of the children. She respects her husband. She does everything our mothers taught us to do.
         </p>
         <p className="mb-6">
           But her husband just brought home a second wife.
@@ -96,7 +96,7 @@ export default function SalesPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-red-700 mb-4">MISTAKE #2: Competing on Looks Instead of Psychology</h3>
               <p className="mb-4">When you see her picture on his phone, what's the first thing you do? You start comparing your body to hers. Your face to hers. Your age to hers.</p>
-              <p className="mb-4">Sister, this is exactly what she WANTS you to do. Because while you're worried about stretch marks and gray hairs, she's working on his MIND. She's becoming his emotional refuge. His safe space. His source of significance.</p>
+              <p className="mb-4">Sister, this is exactly what she WANTS you to do. Because while you're worried about stretch marks, she's working on his MIND. She's becoming his emotional refuge. His safe space. His source of significance.</p>
               <p>She knows that a man might be attracted to beauty, but he becomes OBSESSED with the woman who makes him feel like the best version of himself.</p>
             </div>
 
@@ -135,7 +135,7 @@ export default function SalesPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-red-700 mb-4">MISTAKE #7: Losing Your "New Wife" Energy</h3>
               <p className="mb-4">Remember when you were dating? When you were engaged? You put effort into how you looked when you saw him. You planned special surprises. You were excited to spend time together.</p>
-              <p className="mb-4">But now? You're comfortable. You wear your old wrapper around the house. You only dress up for church. You save your best energy for everyone else.</p>
+              <p className="mb-4">But now? You're comfortable. You wear your old wrapper around the house. You only dress up when going out. You save your best energy for everyone else.</p>
               <p>Meanwhile, she still has that "new relationship" excitement. She's still trying to impress him. She still makes him feel special, chosen, pursued.</p>
             </div>
 
@@ -346,12 +346,12 @@ export default function SalesPage() {
 
             <div className="bg-pink-50 p-6 rounded-lg shadow-md">
               <p className="italic mb-4">"The respect strategies in Chapter 5 saved my marriage. I didn't realize how badly I was damaging his ego every day. Within two weeks of stopping these mistakes, he was treating me like a queen again."</p>
-              <p className="font-semibold">- Mrs. B., Abuja</p>
+              <p className="font-semibold">- Mrs. H., Abuja</p>
             </div>
 
             <div className="bg-pink-50 p-6 rounded-lg shadow-md">
               <p className="italic mb-4">"Chapter 7 about money changed everything. I went from being a source of financial stress to being his financial peace. He now discusses every business decision with me first."</p>
-              <p className="font-semibold">- Mrs. C., Port Harcourt</p>
+              <p className="font-semibold">- Mrs. D., Port Harcourt</p>
             </div>
           </div>
         </div>
@@ -411,7 +411,7 @@ export default function SalesPage() {
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4 text-gray-800">Your Investment Today:</h3>
             <div className="relative inline-block">
-              <span className="text-5xl font-bold text-purple-700">Just ₦15,000</span>
+              <span className="text-5xl font-bold text-purple-700">Just ₦7,950</span>
               <div className="absolute -right-4 -top-4 bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-full rotate-12">
                 SAVE 85%
               </div>
@@ -492,10 +492,10 @@ export default function SalesPage() {
             <p className="mb-6">Sister, I need to tell you something important:</p>
             
             <div className="bg-red-100 p-6 rounded-lg mb-6">
-              <p className="font-bold text-red-700">This special price of ₦15,000 is only available for the next 48 hours.</p>
+              <p className="font-bold text-red-700">This special price of ₦7,950 is only available for the next 48 hours.</p>
             </div>
             
-            <p className="mb-6">After that, the price goes to ₦35,000 (which is still a bargain for what you're getting).</p>
+            <p className="mb-6">After that, the price goes to ₦15,950 (which is still a bargain for what you're getting).</p>
             
             <div className="bg-yellow-100 p-6 rounded-lg mb-6">
               <p className="font-bold">But more importantly, after 48 hours, the bonuses disappear forever.</p>
@@ -586,7 +586,7 @@ export default function SalesPage() {
           </div>
           
           <div className="text-center mt-8 text-sm text-red-600 font-semibold">
-            <p>This offer expires in 48 hours. Price increases to ₦35,000 after that. Bonuses disappear forever.</p>
+            <p>This offer expires in 48 hours. Price increases to ₦15,950 after that. Bonuses disappear forever.</p>
           </div>
         </div>
       </section>
