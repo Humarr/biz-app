@@ -418,7 +418,7 @@ export default function SalesPage() {
                 SAVE 85%
               </div>
             </div>
-            <p className="mt-4 text-gray-600">That's right. For less than what you spend on hair in a month... less than what you spend on groceries in a week... less than what you spend on fuel in two weeks...</p>
+            <p className="mt-4 text-gray-600">That's right. For less than what you spend on hair in a month... less than what you spend on groceries in a week... less than what you spend on data in 3 days...</p>
           </div>
         </div>
       </section>
