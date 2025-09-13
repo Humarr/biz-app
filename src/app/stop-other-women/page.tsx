@@ -870,7 +870,7 @@ export default function SalesPage() {
             </h3>
             <div className="relative inline-block">
               <span className="text-5xl font-bold text-purple-700">
-                Just ₦7,950
+                Just ₦3,950
               </span>
               <div className="absolute -right-4 -top-4 bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-full rotate-12">
                 SAVE 85%
@@ -1003,7 +1003,7 @@ export default function SalesPage() {
 
             <div className="bg-red-100 p-6 rounded-lg mb-6">
               <p className="font-bold text-red-700">
-                This special price of ₦7,950 is only available for the next 48
+                This special price of ₦3,950 is only available for the next 48
                 hours.
               </p>
             </div>
