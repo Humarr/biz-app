@@ -14,7 +14,7 @@ export default function SalesPage() {
             {/* Do You Make These DEADLY Mistakes in Your Marriage? */}
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold text-gray-900 italic mb-8">
-            The Shocking Truth: A Lot of Women Still Lose Their Husbands to Side
+            The Shocking Truth: A Lot of Women Still Lose Their Sweet Men to Side
             Chicks
             {/* The Shocking Truth: Why Even "Good Women" Still Lose Their Husbands to Side Chicks and Polygamy... And How This Secret Book Prevents It */}
           </h2>
