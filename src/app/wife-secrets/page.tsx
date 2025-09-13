@@ -9,10 +9,12 @@ export default function SalesPage() {
       <section className="bg-gradient-to-r from-red-50 to-pink-50 py-16 px-4 text-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-red-700 mb-4">
-            Do You Make These DEADLY Mistakes in Your Marriage?
+            Do You Make These DEADLY Mistakes That Push Your Man Into The Arms Of Another Woman?
+            {/* Do You Make These DEADLY Mistakes in Your Marriage? */}
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold text-gray-900 italic mb-8">
-            The Shocking Truth: Why Even "Good Women" Still Lose Their Husbands to Side Chicks and Polygamy... And How This Secret Book Prevents It
+            The Shocking Truth: A Lot of Women Still Lose Their Husbands to Side Chicks
+            {/* The Shocking Truth: Why Even "Good Women" Still Lose Their Husbands to Side Chicks and Polygamy... And How This Secret Book Prevents It */}
           </h2>
         </div>
       </section>
