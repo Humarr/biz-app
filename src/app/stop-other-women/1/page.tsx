@@ -185,11 +185,11 @@ export default function LandingPage() {
               <div className="text-yellow-300 font-semibold">Worth ₦7,000</div>
             </div>
             
-            <div className="bg-purple-800 p-6 rounded-xl">
+            {/* <div className="bg-purple-800 p-6 rounded-xl">
               <h3 className="text-xl font-bold mb-3 text-yellow-300">BONUS #4: Side Chick Elimination Scripts</h3>
               <p className="mb-4">Exactly what to say and do to make side chicks disappear from your marriage without looking desperate.</p>
               <div className="text-yellow-300 font-semibold">Worth ₦8,000</div>
-            </div>
+            </div> */}
           </div>
           
           <div className="mt-12 text-center p-6 bg-purple-800 rounded-xl">
