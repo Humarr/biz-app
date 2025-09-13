@@ -62,7 +62,7 @@ export default function SalesPage() {
           but that's not their secret weapon.
         </p>
         <p className="mb-6 font-semibold">
-          Their secret weapon is that they know something about Nigerian men
+          Their secret weapon is that they know something about  men
           that most wives don't.
         </p>
         <p className="mb-6">
@@ -94,7 +94,7 @@ export default function SalesPage() {
       <section className="py-12 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-red-700">
-            The 10 Marriage-Killing Mistakes That Drive Nigerian Men Straight
+            The 10 Marriage-Killing Mistakes That Drive Husbands Straight
             Into Another Woman's Arms
           </h2>
           <p className="text-center mb-10 italic">
@@ -222,7 +222,7 @@ export default function SalesPage() {
                 MISTAKE #6: Mishandling Money in Ways That Damage His Confidence
               </h3>
               <p className="mb-4">
-                Money is connected to a Nigerian man's identity. When you argue
+                Money is connected to a  man's identity. When you argue
                 about money, question his financial decisions, or make him feel
                 like he's not providing well enough... you're not just talking
                 about naira and kobo.
@@ -270,7 +270,7 @@ export default function SalesPage() {
                 enough. History is not enough. Even children are not enough.
               </p>
               <p>
-                Nigerian men can love their wives and still take a second wife.
+                Men can love their wives and still take a second wife.
                 They can have beautiful children with you and still need
                 something else from another woman.
               </p>
@@ -432,8 +432,7 @@ export default function SalesPage() {
               advice from someone who's never been in your shoes.
             </p>
             <p className="text-lg font-semibold mt-4">
-              This is a psychological warfare manual written specifically for
-              Nigerian wives who refuse to be replaced.
+              This is a psychological warfare manual written specifically for wives who refuse to be replaced.
             </p>
           </div>
         </div>
@@ -500,7 +499,7 @@ export default function SalesPage() {
             And sister, what I discovered shocked me.
           </p>
           <p className="mb-6">
-            I learned that there are psychological triggers in Nigerian men that
+            I learned that there are psychological triggers in men that
             most wives never even know exist. Emotional needs that go deeper
             than love. Mental patterns that, once you understand them, give you
             power you never knew you had.
@@ -552,7 +551,7 @@ export default function SalesPage() {
               <p>
                 You'll discover the four specific ways good women accidentally
                 push their husbands into other women's arms. Plus, the
-                psychology Nigerian men don't want you to know... and the side
+                psychology  men don't want you to know... and the side
                 chick's secret strategy that works every time.
               </p>
             </div>
@@ -560,11 +559,11 @@ export default function SalesPage() {
             {/* Chapter 3 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-purple-700 mb-4">
-                In Chapter 3: The Nigerian Man's Weak Spot
+                In Chapter 3: Men's Weak Spot
               </h3>
               <p>
-                Learn the ONE thing every Nigerian man craves more than food or
-                sex... and why Nigerian men are especially vulnerable to this
+                Learn the ONE thing every  man craves more than food or
+                sex... and why  men are especially vulnerable to this
                 psychological need. You'll also discover the three-step method
                 to become his safe harbor.
               </p>
@@ -589,10 +588,10 @@ export default function SalesPage() {
                 In Chapter 5: The Respect Game
               </h3>
               <p>
-                Discover the respect vs. love confusion that's killing Nigerian
+                Discover the respect vs. love confusion that's killing 
                 marriages... and how we accidentally disrespect our husbands
                 daily without even knowing it. Plus, the respect language
-                Nigerian men understand.
+                 men understand.
               </p>
             </div>
 
@@ -603,7 +602,7 @@ export default function SalesPage() {
               </h3>
               <p>
                 Learn to identify and neutralize the five hidden enemies of
-                Nigerian marriages... including how to deal with the "concerned"
+                 marriages... including how to deal with the "concerned"
                 mother-in-law and build your marriage fortress.
               </p>
             </div>
@@ -614,7 +613,7 @@ export default function SalesPage() {
                 In Chapter 7: The Money Factor
               </h3>
               <p>
-                Discover the secret power Nigerian wives don't know they have
+                Discover the secret power  wives don't know they have
                 when it comes to money... and the four ways wives accidentally
                 damage his financial confidence. Plus, the financial peace
                 strategy that wins his heart forever.
