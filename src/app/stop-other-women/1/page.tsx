@@ -277,19 +277,19 @@ export default function LandingPage() {
           <p className="text-xl mb-10">To Get Access, Make Payment Into The Account Below:</p>
           
           <div className="bg-white text-purple-900 p-8 rounded-2xl shadow-lg mb-10">
-            <p className="font-semibold mb-2">Price = Any Amount You Choose (₦500 minimum)</p>
+            <p className="font-semibold mb-2">Price = Any Amount You Choose (₦1000 minimum)</p>
             <div className="space-y-4 text-left max-w-md mx-auto">
               <div>
                 <p className="font-medium">Bank Name:</p>
-                <p className="bg-gray-100 p-3 rounded">[Your Bank Name]</p>
+                <p className="bg-gray-100 p-3 rounded">Opay</p>
               </div>
               <div>
                 <p className="font-medium">Account Number:</p>
-                <p className="bg-gray-100 p-3 rounded">[Your Account Number]</p>
+                <p className="bg-gray-100 p-3 rounded">6141949210</p>
               </div>
               <div>
                 <p className="font-medium">Account Name:</p>
-                <p className="bg-gray-100 p-3 rounded">[Your Account Name]</p>
+                <p className="bg-gray-100 p-3 rounded">UMAR MOBOLAJI</p>
               </div>
             </div>
           </div>
@@ -297,7 +297,7 @@ export default function LandingPage() {
           <p className="text-lg mb-6">Once you've made payment, click the button below to send your payment proof on WhatsApp</p>
           
           <a 
-            href="https://wa.me/yournumber?text=I've%20made%20payment%20for%20the%20Make%20Him%20Obsessed%20Blueprint" 
+            href="https://wa.me/8121466644?text=I've%20made%20payment%20for%20the%20Make%20Him%20Obsessed%20Blueprint" 
             className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transition"
           >
             I've Made Payment - WhatsApp Now
@@ -314,7 +314,7 @@ export default function LandingPage() {
       <footer className="py-8 px-4 bg-gray-900 text-white text-center">
         <div className="container mx-auto">
           <p className="mb-4">90-Day Money-Back Guarantee • Book delivered within 2 hours • Join 3,000+ wives who chose to WIN</p>
-          <p>Copyright 2025 | [Your Name] | All rights reserved.</p>
+          <p>Copyright 2025 | Make him obsessed | All rights reserved.</p>
         </div>
       </footer>
     </div>
