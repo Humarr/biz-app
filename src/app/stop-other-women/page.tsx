@@ -1125,7 +1125,7 @@ export default function SalesPage() {
             </div>
 
             <Link
-              href="https://selar.com/wife-secrets"
+              href="https://selar.com/stop-other-women"
               className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-2xl py-4 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300 animate-pulse"
             >
               GET MY COPY NOW
@@ -1171,7 +1171,7 @@ export default function SalesPage() {
 
           <div className="text-center mt-8">
             <Link
-              href="https://selar.com/wife-secrets"
+              href="https://selar.com/stop-other-women"
               className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
             >
               GET MY COPY NOW
