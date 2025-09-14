@@ -221,15 +221,17 @@ export default function Home() {
           </h3>
 
           <div className="my-10">
-            <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg relative">
-              <Image
-                src="/illustrations/alert-manual.png"
-                alt="Person breaking free from chains with Nigerian flag"
-                fill
-                className="object-contain p-4"
-              />
-            </div>
-          </div>
+  <div className="w-full max-w-sm mx-auto">
+    <Image
+      src="/illustrations/alert-manual.png"
+      alt="3D mockup of the ebook cover"
+      width={500}
+      height={600}
+      className="w-full h-auto object-contain"
+      priority
+    />
+  </div>
+</div>
 
           <h4 className="text-2xl font-semibold mb-8 text-center text-gray-800">
             The Secret Escape Plan For Smart Nigerian Professionals Who Want
