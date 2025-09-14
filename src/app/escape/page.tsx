@@ -3,6 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+
+    const paymentLink = "https://selar.com/thealertmanual"
+
+
   return (
     <div className="bg-white text-gray-900 font-sans">
       {/* Hero Section */}
@@ -13,7 +17,7 @@ export default function Home() {
               Naija Hustlers
             </div>
             <Link
-              href="#purchase"
+              href={paymentLink}
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300"
             >
               Get The Blueprint Now
@@ -600,7 +604,7 @@ export default function Home() {
           </div>
 
           <Link
-            href="#purchase"
+            href={paymentLink}
             className="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold text-xl py-4 px-10 rounded-lg shadow-lg transition duration-300 mb-6"
           >
             GET THE ALERT MANUAL NOW
@@ -638,7 +642,7 @@ export default function Home() {
           </div>
 
           <Link
-            href="#purchase"
+            href={paymentLink}
             className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-4 px-10 rounded-lg shadow-lg transition duration-300 mt-8"
           >
             GET THE BLUEPRINT NOW
@@ -680,7 +684,7 @@ export default function Home() {
               Get The Alert Manual Now
             </p>
             <Link
-              href="#purchase"
+              href={paymentLink}
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-6 rounded-lg"
             >
               Buy Now
