@@ -160,7 +160,7 @@ export default function Home() {
           <div className="text-center">
             <p className="text-2xl font-bold mb-4">How are they doing it?</p>
             <h3 className="text-4xl font-bold bg-yellow-500 text-white p-4 rounded-lg inline-block">
-              The Naija Hustlers Blueprint.
+              The Alert Manual.
             </h3>
           </div>
         </section>
@@ -215,8 +215,20 @@ export default function Home() {
         {/* Solution Section */}
         <section className="mb-16">
           <h3 className="text-3xl font-bold mb-6 text-center text-gray-900">
-            Introducing: The Naija Hustlers Blueprint
+            Introducing: The Alert Manual
           </h3>
+
+          <div className="my-10">
+            <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg relative">
+              <Image
+                src="/illustrations/alert-manual.png"
+                alt="Person breaking free from chains with Nigerian flag"
+                fill
+                className="object-contain p-4"
+              />
+            </div>
+          </div>
+
           <h4 className="text-2xl font-semibold mb-8 text-center text-gray-800">
             The Secret Escape Plan For Smart Nigerian Professionals Who Want
             Financial Freedom Without Risking Their Day Job
@@ -307,7 +319,7 @@ export default function Home() {
         {/* What You Get Section */}
         <section className="mb-16">
           <h3 className="text-3xl font-bold mb-8 text-center text-gray-900">
-            Here's Exactly What You Get Inside "The Naija Hustlers Blueprint":
+            Here's Exactly What You Get Inside "The Alert Manual":
           </h3>
 
           <div className="space-y-10">
@@ -529,7 +541,7 @@ export default function Home() {
             strategy that's working for thousands right now...
           </p>
           <p className="text-2xl font-bold text-center mt-6">
-            It's all inside The Naija Hustlers Blueprint.
+            It's all inside The Alert Manual.
           </p>
         </section>
 
@@ -539,7 +551,7 @@ export default function Home() {
           className="mb-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-lg text-center"
         >
           <h3 className="text-3xl font-bold mb-6">
-            Get The Complete Naija Hustlers Blueprint Today
+            Get The Complete Alert Manual Today
           </h3>
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
@@ -555,9 +567,7 @@ export default function Home() {
             <h4 className="text-2xl font-bold mb-4 text-blue-800">
               Your Success Is 100% Guaranteed
             </h4>
-            <p className="mb-4">
-              Try The Naija Hustlers Blueprint for 60 days.
-            </p>
+            <p className="mb-4">Try The Alert Manual for 60 days.</p>
             <p className="mb-4">
               If you don't see a clear path to earning at least 2x your monthly
               salary within 90 days...
@@ -589,7 +599,7 @@ export default function Home() {
             href="#purchase"
             className="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold text-xl py-4 px-10 rounded-lg shadow-lg transition duration-300 mb-6"
           >
-            GET THE NAIJA HUSTLERS BLUEPRINT NOW
+            GET THE ALERT MANUAL NOW
           </Link>
 
           <div className="mt-8">
@@ -609,10 +619,10 @@ export default function Home() {
               <div className="bg-green-100 p-6 rounded-lg">
                 <h4 className="text-xl font-bold mb-4">Option 2:</h4>
                 <p>
-                  Get The Naija Hustlers Blueprint. Join thousands of smart
-                  Nigerian professionals who've found their escape plan. Build
-                  multiple income streams. Create real options. Never be
-                  "desperate" again.
+                  Get The Alert Manual. Join thousands of smart Nigerian
+                  professionals who've found their escape plan. Build multiple
+                  income streams. Create real options. Never be "desperate"
+                  again.
                 </p>
               </div>
             </div>
@@ -641,9 +651,9 @@ export default function Home() {
         {/* PS Section */}
         <section className="text-center mb-12">
           <p className="text-xl font-bold mb-4">
-            P.S. - The Naija Hustlers Blueprint isn't just information. It's
-            transformation. From "salary slave" to financial freedom. From
-            desperate to options. From broke to wealthy. The choice is yours.
+            P.S. - The Alert Manual isn't just information. It's transformation.
+            From "salary slave" to financial freedom. From desperate to options.
+            From broke to wealthy. The choice is yours.
           </p>
           <p className="text-xl font-bold mb-4">
             P.P.S. - Still thinking about it? While you think, others are taking
@@ -663,7 +673,7 @@ export default function Home() {
         <section className="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 shadow-lg z-50">
           <div className="container mx-auto px-4 max-w-4xl flex flex-col md:flex-row justify-between items-center">
             <p className="text-lg font-bold mb-2 md:mb-0">
-              Get The Naija Hustlers Blueprint Now - Only N6,997
+              Get The Alert Manual Now - Only N6,997
             </p>
             <Link
               href="#purchase"
