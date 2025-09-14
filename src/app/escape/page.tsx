@@ -193,6 +193,8 @@ export default function Home() {
             ))}
           </ul>
 
+                <p className="font bold text-xl my-6 text-center">The Brutal Reality?</p>
+
           <div className="bg-gray-800 text-white p-6 rounded-lg text-center mb-8">
             <p className="text-2xl font-bold italic">
               "Many jobs today can't pay the bills."
