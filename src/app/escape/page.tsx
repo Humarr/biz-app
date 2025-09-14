@@ -653,7 +653,7 @@ export default function Home() {
         </section>
 
         {/* PS Section */}
-        <section className="text-center mb-12">
+        <section className="text-center mb-24">
           <p className="text-xl font-bold mb-4">
             P.S. - The Alert Manual isn't just information. It's transformation.
             From "salary slave" to financial freedom. From desperate to options.
@@ -677,7 +677,7 @@ export default function Home() {
         <section className="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 shadow-lg z-50">
           <div className="container mx-auto px-4 max-w-4xl flex flex-col md:flex-row justify-between items-center">
             <p className="text-lg font-bold mb-2 md:mb-0">
-              Get The Alert Manual Now - Only N6,997
+              Get The Alert Manual Now
             </p>
             <Link
               href="#purchase"
