@@ -256,7 +256,7 @@ export default function Home() {
                 key={index}
                 className="flex items-start bg-green-50 p-4 rounded-lg"
               >
-                <span className="text-green-500 mr-2 text-xl">✅</span>
+                {/* <span className="text-green-500 mr-2 text-xl">✅</span> */}
                 <span className="text-lg">{item}</span>
               </li>
             ))}
