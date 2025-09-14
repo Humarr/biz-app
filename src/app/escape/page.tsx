@@ -176,12 +176,12 @@ export default function Home() {
 
           <ul className="space-y-4 mb-10">
             {[
-              "❌ You're '9-5 and Still Broke' - Your salary barely covers basic living expenses, let alone savings or investments",
-              "❌ You're At The Mercy of Toxic Bosses - You accept poor treatment because you're 'desperate' and 'there are no jobs'",
-              "❌ You Have Zero Financial Security - One missed paycheck and you're in trouble. One job loss and you're finished.",
-              "❌ You're Aging Out of Opportunities - Every year you stay stuck, younger candidates become more attractive to employers",
-              "❌ You're Missing The Digital Gold Rush - While you're stuck in meetings, others are building online empires",
-              "❌ You Feel Suffocated and Uncomfortable - But you can't leave because you have bills to pay",
+              "You're '9-5 and Still Broke' - Your salary barely covers basic living expenses, let alone savings or investments",
+              "You're At The Mercy of Toxic Bosses - You accept poor treatment because you're 'desperate' and 'there are no jobs'",
+              "You Have Zero Financial Security - One missed paycheck and you're in trouble. One job loss and you're finished.",
+              "You're Aging Out of Opportunities - Every year you stay stuck, younger candidates become more attractive to employers",
+              "You're Missing The Digital Gold Rush - While you're stuck in meetings, others are building online empires",
+              "You Feel Suffocated and Uncomfortable - But you can't leave because you have bills to pay",
             ].map((item, index) => (
               <li
                 key={index}
