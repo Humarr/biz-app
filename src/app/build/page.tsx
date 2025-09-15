@@ -137,16 +137,15 @@ export default function Home() {
             </div>
           </div> */}
 
-<div className="my-10 flex justify-center">
-  <Image
-    src="/illustrations/bills.png"
-    alt="Bills piling up"
-    width={600}
-    height={400}
-    className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
-  />
-</div>
-
+          <div className="my-10 flex justify-center">
+            <Image
+              src="/illustrations/bills.png"
+              alt="Bills piling up"
+              width={600}
+              height={400}
+              className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
+            />
+          </div>
 
           <p className="text-xl mb-6">
             And yet, this is the reality for millions of Nigerians who wake up
@@ -360,16 +359,15 @@ export default function Home() {
             </div>
           </div> */}
 
-<div className="my-10 flex justify-center">
-  <Image
-    src="/illustrations/research.png"
-    alt="Research process"
-    width={600}
-    height={400}
-    className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
-  />
-</div>
-
+          <div className="my-10 flex justify-center">
+            <Image
+              src="/illustrations/research.png"
+              alt="Research process"
+              width={600}
+              height={400}
+              className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
+            />
+          </div>
 
           <p className="text-xl mb-6">
             At one point, I had to spend my "last card" on transport fare to go
@@ -646,16 +644,15 @@ export default function Home() {
             </div>
           </div> */}
 
-<div className="my-10 flex justify-center">
-  <Image
-    src="/illustrations/treasure1.png"
-    alt="Treasure chest overflowing with Nigerian Naira and business resources"
-    width={600}
-    height={400}
-    className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
-  />
-</div>
-
+          <div className="my-10 flex justify-center">
+            <Image
+              src="/illustrations/treasure1.png"
+              alt="Treasure chest overflowing with Nigerian Naira and business resources"
+              width={600}
+              height={400}
+              className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
+            />
+          </div>
 
           <div className="text-center bg-yellow-100 p-6 rounded-lg">
             <p className="text-xl font-bold">
