@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+
+    const paymentLink = "https://selar.com/naija-hustlers-blueprint";
+
   return (
     <div className="bg-white text-gray-900 font-sans text-lg">
       {/* Hero Section */}
@@ -11,7 +14,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold text-white">Naija Hustlers</div>
             <Link
-              href="#purchase"
+              href={paymentLink}
               className="bg-white hover:bg-gray-100 text-yellow-600 font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300"
             >
               Get The Blueprint Now
@@ -1116,7 +1119,7 @@ export default function Home() {
 
           <div className="text-center mt-10">
             <Link
-              href="#purchase"
+              href={paymentLink}
               className="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold text-xl py-4 px-10 rounded-lg shadow-lg transition duration-300"
             >
               GET THE NAIJA HUSTLERS BLUEPRINT FOR ₦5,000
@@ -1131,7 +1134,7 @@ export default function Home() {
               Get The Naija Hustlers Blueprint Now - Only ₦5,000
             </p>
             <Link
-              href="#purchase"
+              href={paymentLink}
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-6 rounded-lg"
             >
               Buy Now
