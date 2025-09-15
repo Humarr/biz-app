@@ -42,7 +42,7 @@ export default function Home() {
 
           <div className="my-10 flex justify-center">
             <Image
-              src="/mockups/broke-to-rich.png"
+              src="/illustrations/broke-to-rich.png"
               alt="Before/After transformation of a Nigerian from struggling to prosperous"
               width={600}
               height={400}
@@ -128,14 +128,25 @@ export default function Home() {
           </div>
 
           {/* Illustration: A meme-style image of a person looking at empty wallet with bills piling up */}
-          <div className="my-10">
+          {/* <div className="my-10">
             <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg">
               <span className="text-gray-500">
                 [Meme: Person surrounded by bills with text "Salary Don Finish
                 Again?"]
               </span>
             </div>
-          </div>
+          </div> */}
+
+<div className="my-10 flex justify-center">
+  <Image
+    src="/illustrations/bills.png"
+    alt="Bills piling up"
+    width={600}
+    height={400}
+    className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
+  />
+</div>
+
 
           <p className="text-xl mb-6">
             And yet, this is the reality for millions of Nigerians who wake up
@@ -340,14 +351,25 @@ export default function Home() {
           </div>
 
           {/* Illustration: A pencil-drawn image of someone researching and studying intensely */}
-          <div className="my-10">
+          {/* <div className="my-10">
             <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg">
               <span className="text-gray-500">
                 [Illustration: Person surrounded by books and research
                 materials, looking determined]
               </span>
             </div>
-          </div>
+          </div> */}
+
+<div className="my-10 flex justify-center">
+  <Image
+    src="/illustrations/research.png"
+    alt="Research process"
+    width={600}
+    height={400}
+    className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
+  />
+</div>
+
 
           <p className="text-xl mb-6">
             At one point, I had to spend my "last card" on transport fare to go
@@ -615,14 +637,25 @@ export default function Home() {
           </div>
 
           {/* Illustration: A treasure chest overflowing with Nigerian Naira and business resources */}
-          <div className="my-10">
+          {/* <div className="my-10">
             <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg">
               <span className="text-gray-500">
                 [Illustration: Treasure chest with Nigerian Naira and business
                 resources overflowing]
               </span>
             </div>
-          </div>
+          </div> */}
+
+<div className="my-10 flex justify-center">
+  <Image
+    src="/illustrations/treasure1.png"
+    alt="Treasure chest overflowing with Nigerian Naira and business resources"
+    width={600}
+    height={400}
+    className="rounded-lg shadow-2xl border-2 border-gray-300 hover:scale-105 transition-transform duration-300"
+  />
+</div>
+
 
           <div className="text-center bg-yellow-100 p-6 rounded-lg">
             <p className="text-xl font-bold">
