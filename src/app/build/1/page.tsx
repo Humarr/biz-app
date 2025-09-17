@@ -28,7 +28,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A successful Nigerian entrepreneur standing in front of a modern Lagos office building, smiling confidently while holding a tablet showing business growth charts */}
               <Image
-                src="/hero-image.png"
+                src="/small-biz/hero-image.png"
                 alt="Successful Nigerian entrepreneur showing business growth"
                 width={600}
                 height={400}
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A visual showing the stark contrast between a successful Nigerian business owner (well-dressed, confident) versus someone stuck in a low-paying job (looking stressed, counting small money) */}
               <Image
-                src="/contrast-image.jpg"
+                src="/small-biz/contrast-image.png"
                 alt="Contrast between successful business owner and struggling employee"
                 width={500}
                 height={400}
@@ -120,7 +120,7 @@ export default function Home() {
             <div>
               {/* IMAGE: A visual representation of inflation in Nigeria - naira notes losing value, prices rising, a frustrated Nigerian looking at empty wallet */}
               <Image
-                src="/inflation-image.jpg"
+                src="/small-biz/inflation-image.png"
                 alt="Visual representation of inflation in Nigeria"
                 width={500}
                 height={400}
@@ -148,7 +148,7 @@ export default function Home() {
             <div>
               {/* IMAGE: A timeline visual showing how salary gets depleted - from salary alert to various deductions until nothing is left */}
               <Image
-                src="/salary-depletion.jpg"
+                src="/small-biz/salary-depletion.png"
                 alt="How salary gets depleted with various expenses"
                 width={500}
                 height={400}
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A lightbulb moment graphic with Nigerian colors, showing someone having an epiphany about business success */}
               <Image
-                src="/good-news-image.jpg"
+                src="/small-biz/good-news-image.png"
                 alt="Good news - business opportunity for Nigerians"
                 width={500}
                 height={400}
@@ -270,7 +270,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A professional headshot of Umar, the author, looking trustworthy and successful */}
               <Image
-                src="/umar-profile.jpg"
+                src="/small-biz/umar-profile.png"
                 alt="Umar - Author of The Small Business Playbook"
                 width={400}
                 height={400}
@@ -308,7 +308,7 @@ export default function Home() {
               <div>
                 {/* IMAGE: A stack of business books with Nigerian context visible (Naira notes, Nigerian authors) */}
                 <Image
-                  src="/research-books.jpg"
+                  src="/small-biz/research-books.png"
                   alt="Stack of business books researched"
                   width={400}
                   height={300}
@@ -321,7 +321,7 @@ export default function Home() {
               <div>
                 {/* IMAGE: Someone watching interviews of successful Nigerian entrepreneurs on a laptop */}
                 <Image
-                  src="/interview-research.jpg"
+                  src="/small-biz/interview-research.png"
                   alt="Researching Nigerian success stories"
                   width={400}
                   height={300}
@@ -337,7 +337,7 @@ export default function Home() {
               <div>
                 {/* IMAGE: Umar meeting with business owners in different Nigerian settings (Lagos office, Onitsha market, Abuja tech hub) */}
                 <Image
-                  src="/field-research.jpg"
+                  src="/small-biz/field-research.png"
                   alt="Meeting with successful Nigerian business owners"
                   width={400}
                   height={300}
@@ -350,7 +350,7 @@ export default function Home() {
               <div>
                 {/* IMAGE: Visual representation of sacrifice - empty plate, transport ticket, late night working */}
                 <Image
-                  src="/sacrifice-image.jpg"
+                  src="/small-biz/sacrifice-image.png"
                   alt="Sacrifices made during research"
                   width={400}
                   height={300}
@@ -397,7 +397,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A visual showing the transformation from struggle to success - from collecting food on credit to being a successful business owner */}
               <Image
-                src="/transformation-image.jpg"
+                src="/small-biz/transformation-image.png"
                 alt="Transformation from struggle to success"
                 width={500}
                 height={400}
@@ -490,7 +490,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A visual of "The Small Business Playbook" - a premium-looking ebook or physical book with Nigerian branding elements */}
               <Image
-                src="/playbook-image.jpg"
+                src="/small-biz/playbook-image.png"
                 alt="The Small Business Playbook"
                 width={500}
                 height={400}
@@ -517,7 +517,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Visual showing business survival rate comparison with a highlighted "bulletproof strategy" */}
               <Image
-                src="/business-survival.jpg"
+                src="/small-biz/business-survival.png"
                 alt="Business survival strategy"
                 width={400}
                 height={300}
@@ -530,7 +530,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Visual metaphor showing "starving crowd" vs "cemetery of failed businesses" */}
               <Image
-                src="/starving-crowd.jpg"
+                src="/small-biz/starving-crowd.png"
                 alt="Starving crowd concept"
                 width={400}
                 height={300}
@@ -543,7 +543,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Eagle eye visual with business opportunities highlighted that others miss */}
               <Image
-                src="/eagle-eye.jpg"
+                src="/small-biz/eagle-eye.png"
                 alt="Eagle eye for business opportunities"
                 width={400}
                 height={300}
@@ -556,7 +556,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: X-ray vision graphic analyzing business ideas with profit/loss indicators */}
               <Image
-                src="/business-analyzer.jpg"
+                src="/small-biz/business-analyzer.png"
                 alt="Business analyzer framework"
                 width={400}
                 height={300}
@@ -569,7 +569,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Visual of a simple test/protocol before investing in any business idea */}
               <Image
-                src="/investment-test.jpg"
+                src="/small-biz/investment-test.png"
                 alt="Investment test before investing"
                 width={400}
                 height={300}
@@ -660,7 +660,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Visual showing the "price drop death loop" and how to escape it */}
               <Image
-                src="/price-death-loop.jpg"
+                src="/small-biz/price-death-loop.png"
                 alt="Price drop death loop"
                 width={400}
                 height={300}
@@ -673,7 +673,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Visual showing what Nigerians truly value beyond low prices */}
               <Image
-                src="/value-over-price.jpg"
+                src="/small-biz/value-over-price.png"
                 alt="Value over price for Nigerian customers"
                 width={400}
                 height={300}
@@ -686,7 +686,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Visual representation of Nigerian consumer psychology */}
               <Image
-                src="/buying-psychology.jpg"
+                src="/small-biz/buying-psychology.png"
                 alt="Nigerian buying psychology"
                 width={400}
                 height={300}
@@ -699,7 +699,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Happy Nigerian customers paying premium prices with smiles */}
               <Image
-                src="/premium-pricing.jpg"
+                src="/small-biz/premium-pricing.png"
                 alt="Charging more with happy customers"
                 width={400}
                 height={300}
@@ -712,7 +712,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Strategic use of low prices as a competitive weapon */}
               <Image
-                src="/low-price-weapon.jpg"
+                src="/small-biz/low-price-weapon.png"
                 alt="Using low prices as a weapon"
                 width={400}
                 height={300}
@@ -725,7 +725,7 @@ export default function Home() {
               </h4>
               {/* IMAGE: Pricing strategy that works even in bad economy */}
               <Image
-                src="/recession-pricing.jpg"
+                src="/small-biz/recession-pricing.png"
                 alt="Bad economy-proof pricing strategy"
                 width={400}
                 height={300}
@@ -780,7 +780,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: Visual timeline showing progression from now to 2026 with and without the Playbook */}
               <Image
-                src="/future-timeline.jpg"
+                src="/small-biz/future-timeline.png"
                 alt="Future timeline with and without the Playbook"
                 width={500}
                 height={400}
@@ -858,7 +858,7 @@ export default function Home() {
               </p>
               {/* IMAGE: Visual showing the 6 unstoppable product categories that always sell in Nigeria */}
               <Image
-                src="/6-products.jpg"
+                src="/small-biz/6-products.png"
                 alt="6 unstoppable products that always sell in Nigeria"
                 width={400}
                 height={300}
@@ -912,7 +912,7 @@ export default function Home() {
               </ul>
               {/* IMAGE: Visual of the Direct Response Ad Templates Toolkit with Nigerian context */}
               <Image
-                src="/ad-templates.jpg"
+                src="/small-biz/ad-templates.png"
                 alt="Direct Response Ad Templates Toolkit"
                 width={400}
                 height={300}
@@ -1033,7 +1033,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: Visual showing the difference between people who paid for information (successful) vs those who got it free (still stuck) */}
               <Image
-                src="/paid-vs-free.jpg"
+                src="/small-biz/paid-vs-free.png"
                 alt="Paid vs free information results"
                 width={500}
                 height={400}
@@ -1146,7 +1146,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: Visual showing ROI calculation - small investment vs potential monthly income */}
               <Image
-                src="/roi-calculation.jpg"
+                src="/small-biz/roi-calculation.png"
                 alt="ROI calculation - small investment vs big returns"
                 width={500}
                 height={400}
