@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
-    const paymentLink = "https://selar.com/small-biz"
+    // const paymentLink = "https://selar.com/small-biz"
   return (
     <main className="min-h-screen bg-white text-black">
       {/* Hero Section */}
@@ -1286,7 +1286,8 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-black">
                 Click the button below and secure your copy now— before the bonuses disappear and the price doubles in 72 hours.
               </h3>
-              <Link href={paymentLink}>
+              <Link href="/build/1/checkout">
+              {/* <Link href={paymentLink}> */}
               <button className="bg-red-600 hover:bg-red-700 text-white text-2xl font-bold py-4 px-8 rounded-lg shadow-lg transition-colors duration-300">
                 GET THE PLAYBOOK NOW
               </button>
