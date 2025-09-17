@@ -9,13 +9,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-yellow-50 py-12 px-4 md:px-8 border-b-4 border-yellow-400">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 leading-tight">
+          <h1 className="text-lg md:text-5xl lg:text-6xl font-bold text-center mb-8 leading-tight">
             ATTENTION: From The Desk Of Top Nigerian Entrepreneur Revealing…
           </h1>
           
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-800">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-green-800">
                 The Secrets To Starting An Outrageously Profitable "Small Business" You're Not Supposed To Know
               </h2>
               <p className="text-xl mb-6">
