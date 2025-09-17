@@ -28,7 +28,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* IMAGE: A successful Nigerian entrepreneur standing in front of a modern Lagos office building, smiling confidently while holding a tablet showing business growth charts */}
               <Image
-                src="/hero-image.jpg"
+                src="/hero-image.png"
                 alt="Successful Nigerian entrepreneur showing business growth"
                 width={600}
                 height={400}
