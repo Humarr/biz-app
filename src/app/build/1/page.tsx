@@ -18,10 +18,10 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-green-800">
                 The Secrets To Starting An Outrageously Profitable "Small Business" You're Not Supposed To Know
               </h2>
-              <p className="text-xl mb-6">
+              <p className="text-xl mb-6 text-center">
                 And they have the "ultimate power" to build and scale your business - even if you're starting from zero - by adding an extra 500k - 1 million naira (or more) to your monthly income as soon as you start putting them into fast action!
               </p>
-              <p className="text-xl font-semibold">
+              <p className="text-xl font-semibold text-center">
                 In fact, it doesn't matter if you are a Teacher, Civil Servant, Student, Fresh Graduate, Unemployed, Stay-at-home mum, or ANYONE, as long as you want to build a profitable small business from scratch!
               </p>
             </div>
