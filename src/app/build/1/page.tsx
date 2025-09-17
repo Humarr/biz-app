@@ -10,7 +10,7 @@ export default function Home() {
       <section className="bg-yellow-50 py-12 px-4 md:px-8 border-b-4 border-yellow-400">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-lg md:text-xl lg:text-6xl font-bold text-center mb-8 leading-tight">
-            ATTENTION: From The Desk Of Top Nigerian Entrepreneur Revealing…
+            ATTENTION: Top Nigerian Entrepreneur Reveals…
           </h1>
           
           <div className="flex flex-col md:flex-row items-center gap-8">
