@@ -267,16 +267,16 @@ export default function Home() {
       <section className="py-16 px-4 md:px-8 bg-blue-50">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
-            <div className="md:w-1/2">
+            {/* <div className="md:w-1/2"> */}
               {/* IMAGE: A professional headshot of Umar, the author, looking trustworthy and successful */}
-              <Image
+              {/* <Image
                 src="/small-biz/umar-profile.png"
                 alt="Umar - Author of The Small Business Playbook"
                 width={400}
                 height={400}
                 className="rounded-full mx-auto"
               />
-            </div>
+            </div> */}
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 My name is Umar, and for 374 days straight… I was obsessed with helping people like you escape from the suffocating grip of this crazy economy.
@@ -336,13 +336,13 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 {/* IMAGE: Umar meeting with business owners in different Nigerian settings (Lagos office, Onitsha market, Abuja tech hub) */}
-                <Image
+                {/* <Image
                   src="/small-biz/field-research.png"
                   alt="Meeting with successful Nigerian business owners"
                   width={400}
                   height={300}
                   className="rounded-lg"
-                />
+                /> */}
                 <p className="text-lg mt-4">
                   I sat down with business owners (who all started from scratch) in Lagos, traders in Onitsha, tech guys in Abuja—studying how they built their successful ventures…
                 </p>
@@ -516,65 +516,65 @@ export default function Home() {
                 Why 90% of Nigerian businesses die in the first year — and the bulletproof strategy that keeps yours alive, booming and successful.
               </h4>
               {/* IMAGE: Visual showing business survival rate comparison with a highlighted "bulletproof strategy" */}
-              <Image
+              {/* <Image
                 src="/small-biz/business-survival.png"
                 alt="Business survival strategy"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 The secret "Starving Crowd" revelation that separates businesses that blow up from the ones that get buried in "the cemetery of failed businesses"
               </h4>
               {/* IMAGE: Visual metaphor showing "starving crowd" vs "cemetery of failed businesses" */}
-              <Image
+              {/* <Image
                 src="/small-biz/starving-crowd.png"
                 alt="Starving crowd concept"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 How to develop "eagle eyes" for business opportunities that 99 percent of people miss everyday
               </h4>
               {/* IMAGE: Eagle eye visual with business opportunities highlighted that others miss */}
-              <Image
+              {/* <Image
                 src="/small-biz/eagle-eye.png"
                 alt="Eagle eye for business opportunities"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 The Business Analyzer Framework: your x-ray vision for spotting if an idea will make you money (and which one will disgrace you)
               </h4>
               {/* IMAGE: X-ray vision graphic analyzing business ideas with profit/loss indicators */}
-              <Image
+              {/* <Image
                 src="/small-biz/business-analyzer.png"
                 alt="Business analyzer framework"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 The one simple test you must run before you put 1 naira into any idea (ignore this, and you might as well burn your savings)
               </h4>
               {/* IMAGE: Visual of a simple test/protocol before investing in any business idea */}
-              <Image
+              {/* <Image
                 src="/small-biz/investment-test.png"
                 alt="Investment test before investing"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
           </div>
 
@@ -659,78 +659,78 @@ export default function Home() {
                 The deadly "price drop death loop" that keeps businesses broke - and how to escape it for good.
               </h4>
               {/* IMAGE: Visual showing the "price drop death loop" and how to escape it */}
-              <Image
+              {/* <Image
                 src="/small-biz/price-death-loop.png"
                 alt="Price drop death loop"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 Why Nigerians are not actually looking for the lowest price (and what they want instead)
               </h4>
               {/* IMAGE: Visual showing what Nigerians truly value beyond low prices */}
-              <Image
+              {/* <Image
                 src="/small-biz/value-over-price.png"
                 alt="Value over price for Nigerian customers"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 The hidden psychology behind every Nigerian buying decision (miss this, and they'll keep pricing you down)...
               </h4>
               {/* IMAGE: Visual representation of Nigerian consumer psychology */}
-              <Image
+              {/* <Image
                 src="/small-biz/buying-psychology.png"
                 alt="Nigerian buying psychology"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 How to charge more and still get people rushing to buy from you, while thanking you with a big smile on their faces…
               </h4>
               {/* IMAGE: Happy Nigerian customers paying premium prices with smiles */}
-              <Image
+              {/* <Image
                 src="/small-biz/premium-pricing.png"
                 alt="Charging more with happy customers"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 Smart ways to use low prices as a weapon — without losing profits or your mind…
               </h4>
               {/* IMAGE: Strategic use of low prices as a competitive weapon */}
-              <Image
+              {/* <Image
                 src="/small-biz/low-price-weapon.png"
                 alt="Using low prices as a weapon"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-green-800">
                 The "bad economy"-proof pricing strategy that makes customers feel lucky to buy from you
               </h4>
               {/* IMAGE: Pricing strategy that works even in bad economy */}
-              <Image
+              {/* <Image
                 src="/small-biz/recession-pricing.png"
                 alt="Bad economy-proof pricing strategy"
                 width={400}
                 height={300}
                 className="rounded-lg mb-4"
-              />
+              /> */}
             </div>
           </div>
 
@@ -779,13 +779,13 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
             <div className="md:w-1/2">
               {/* IMAGE: Visual timeline showing progression from now to 2026 with and without the Playbook */}
-              <Image
+              {/* <Image
                 src="/small-biz/future-timeline.png"
                 alt="Future timeline with and without the Playbook"
                 width={500}
                 height={400}
                 className="rounded-lg"
-              />
+              /> */}
             </div>
             <div className="md:w-1/2">
               <p className="text-xl mb-6">
@@ -857,13 +857,13 @@ export default function Home() {
                 That's one of the first things I'll teach you in this playbook, and this gift will give you "confirm" business ideas EASIER and FASTER…
               </p>
               {/* IMAGE: Visual showing the 6 unstoppable product categories that always sell in Nigeria */}
-              <Image
+              {/* <Image
                 src="/small-biz/6-products.png"
                 alt="6 unstoppable products that always sell in Nigeria"
                 width={400}
                 height={300}
                 className="rounded-lg mt-4"
-              />
+              /> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold mb-4 text-green-800">
@@ -911,13 +911,13 @@ export default function Home() {
                 </li>
               </ul>
               {/* IMAGE: Visual of the Direct Response Ad Templates Toolkit with Nigerian context */}
-              <Image
+              {/* <Image
                 src="/small-biz/ad-templates.png"
                 alt="Direct Response Ad Templates Toolkit"
                 width={400}
                 height={300}
                 className="rounded-lg mt-4"
-              />
+              /> */}
             </div>
           </div>
 
@@ -1030,16 +1030,16 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
-            <div className="md:w-1/2">
+            {/* <div className="md:w-1/2"> */}
               {/* IMAGE: Visual showing the difference between people who paid for information (successful) vs those who got it free (still stuck) */}
-              <Image
+              {/* <Image
                 src="/small-biz/paid-vs-free.png"
                 alt="Paid vs free information results"
                 width={500}
                 height={400}
                 className="rounded-lg"
-              />
-            </div>
+              /> */}
+            {/* </div> */}
             <div className="md:w-1/2">
               <p className="text-xl mb-6">
                 Not because the information is wrong. And not because they didn't want to succeed.
@@ -1143,16 +1143,16 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 items-center mb-12">
-            <div className="md:w-1/2">
+            {/* <div className="md:w-1/2"> */}
               {/* IMAGE: Visual showing ROI calculation - small investment vs potential monthly income */}
-              <Image
+              {/* <Image
                 src="/small-biz/roi-calculation.png"
                 alt="ROI calculation - small investment vs big returns"
                 width={500}
                 height={400}
                 className="rounded-lg"
               />
-            </div>
+            </div> */}
             <div className="md:w-1/2">
               <h3 className="text-2xl font-bold mb-6">
                 Now, think about what you'll gain for a second…
