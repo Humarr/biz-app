@@ -1776,7 +1776,7 @@ const price = '8,999'
           Your return: 3,600+%
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          Even if I&apos;m HALF wrong and you only make an extra ₦35,000 monthly, you&apos;ll still pocket ₦420,000 in year one.
+          Even if I&apos;m HALF right and you only make an extra ₦35,000 monthly, you&apos;ll still pocket ₦420,000 in year one.
         </p>
         <p className="text-lg leading-relaxed mb-6 font-bold text-green-600">
           That&apos;s still a 1,680+% return on investment!
