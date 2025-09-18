@@ -657,7 +657,7 @@ export default function SalesPage() {
               The women who need this most are often the ones who have already spent thousands on marriage counseling, self-help books, and relationship courses that didn't work.
             </p>
             
-            <p className="text-lg mb-6 leading-relaxed font-bold text-purple-700 text-center text-2xl">
+            <p className="mb-6 leading-relaxed font-bold text-purple-700 text-center text-2xl">
               So instead of charging what this is actually worth, I'm making this entire system available for just <span className="line-through opacity-50">₦19,900</span> <span className="text-3xl">₦7,950</span>.
             </p>
             
