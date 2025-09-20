@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable react/no-unescaped-entities */
+// app/congrats/page.js
 'use client';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
@@ -18,7 +20,7 @@ export default function Congrats() {
       verifyPayment(reference);
     } else {
       setStatus('failed');
-      setErrorMessage('No payment reference found. Please complete your purchase to access the Cash-o-logy eBook.');
+      setErrorMessage('No payment reference found. Please complete your purchase to access The Female Code eBook.');
     }
   }, [reference]);
 
@@ -55,7 +57,7 @@ export default function Congrats() {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'cashology.pdf';
+      link.download = 'female_code.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -71,16 +73,16 @@ export default function Congrats() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4 py-12">
-      <div className="bg-white p-4 rounded-lg shadow-lg text-center max-w-xl w-full">
+      <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-2xl w-full">
         {status === 'verifying' && (
           <>
             <h2 className="text-3xl md:text-4xl font-bold text-green-600 mb-3">
               Processing Payment...
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Please wait while we verify your Cash-o-logy payment...
+              Please wait while we verify your Female Code payment...
             </p>
-            <div className="animate-spin rounded-full h-10 w-10 border-2 border-green-600 mx-auto"></div>
+            <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-green-600 mx-auto"></div>
           </>
         )}
 
@@ -90,14 +92,14 @@ export default function Congrats() {
               Congratulations! Payment Successful!
             </h2>
             <p className="text-lg text-gray-700 mb-4">
-              You’ve secured <span className="font-bold">Cash-o-logy</span> for ₦8,999! You’re now ready to transform your financial future with the system that took me from ₦100 to ₦500k+ monthly.
+              You've secured <span className="font-bold">The Female Code</span> for ₦9,250! You're now ready to transform your dating life with the system that took me from being rejected to having women chase me.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              <span className="font-bold">Your eBook is ready!</span> Click below to download Cash-o-logy instantly. Have issues? Contact <a href="mailto:thecashologists00@gmail.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
+              <span className="font-bold">Your eBook is ready!</span> Click below to download The Female Code instantly. Have issues? Contact <a href="mailto:thecahologists00@gmail.com" className="text-blue-600 underline">thecahologists00@gmail.com</a>.
             </p>
             <div className="bg-green-50 border-2 border-green-500 rounded-lg p-4 mb-6">
               <p className="text-lg text-gray-700 font-semibold">
-                Start your journey now—unlock the secrets to building a profitable business in record time!
+                Start your journey now—unlock the secrets to understanding women and making them chase you!
               </p>
             </div>
             <button
@@ -107,13 +109,13 @@ export default function Congrats() {
                 downloadStatus === 'downloading' ? 'opacity-50 cursor-not-allowed' : ''
               }`}
             >
-              {downloadStatus === 'downloading' ? 'Downloading...' : 'Download Cash-o-logy eBook Now'}
+              {downloadStatus === 'downloading' ? 'Downloading...' : 'Download The Female Code eBook Now'}
             </button>
             {downloadStatus === 'downloading' && (
-              <div className="animate-spin rounded-full h-10 w-10 border-2 border-green-600 mx-auto mt-4"></div>
+              <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-green-600 mx-auto mt-4"></div>
             )}
             <p className="text-sm text-gray-600 mt-6">
-              We’re thrilled to have you on board! Your success story starts today. Questions? Contact <a href="mailto:thecashologists00@gmail.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
+              We're thrilled to have you on board! Your dating success story starts today. Questions? Contact <a href="mailto:thecahologists00@gmail.com" className="text-blue-600 underline">thecahologists00@gmail.com</a>.
             </p>
           </>
         )}
@@ -125,7 +127,7 @@ export default function Congrats() {
             </h2>
             <p className="text-lg text-gray-700 mb-6">{errorMessage}</p>
             <Link
-              href="mailto:thecashologists00@gmail.com"
+              href="mailto:thecahologists00@gmail.com"
               className="bg-red-500 text-white py-4 px-8 rounded-full font-bold text-xl hover:bg-red-600 transform hover:scale-105 transition-all duration-200"
             >
               Contact Support
