@@ -1,4 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+
+import Link from "next/link";
+
 // app/sales-letter/page.js
 export default function SalesLetter() {
     return (
@@ -787,9 +790,11 @@ export default function SalesLetter() {
             </ol>
             <p className="mb-4">The whole process is faster than ordering food on Jumia, and just as secure.</p>
             <div className="text-center">
+                <Link href="https://paystack.shop/pay/3e8ubwfmr0">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
                 GET INSTANT ACCESS - PAY WITH CARD/TRANSFER ₦9,250
               </button>
+                </Link>
             </div>
           </div>
           
@@ -822,9 +827,11 @@ export default function SalesLetter() {
           <div className="border-t-2 border-black pt-4">
             <p className="font-bold mb-2">P.S. - Remember, for just ₦9,250 - less than you'd spend on one disappointing date - you get the complete psychological blueprint that will make any woman chase you instead of you chasing her, plus my iron-clad money-back guarantee that puts all the risk on me.</p>
             <div className="text-center mt-4">
+            <Link href="https://paystack.shop/pay/3e8ubwfmr0">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
                 Click here to get instant access now
               </button>
+              </Link>
             </div>
           </div>
         </div>
