@@ -765,7 +765,12 @@ export default function SalesLetter() {
               <li>Send your payment proof to thecahologists00@gmail.com</li>
               <li>You'll receive The Female Code in your email within minutes</li>
             </ol>
-            <p className="font-bold">Bank Details: [Your bank details would go here]</p>
+            <p className="font-bold">Bank Details: 
+                
+                Bank name: OPAY
+                Account Name: Umar Saadu
+                Account number: 6141949210
+                </p>
           </div>
           
           <div className="border-2 border-black p-4 mb-8">
