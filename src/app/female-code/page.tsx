@@ -121,7 +121,7 @@ export default function SalesLetter() {
           </ul>
           
           <p className="text-center font-bold mb-8">
-            This same secret code will show you exactly how to make any Nigerian woman chase you like you're the last man on earth.
+            This same secret code will show you exactly how to make any woman chase you like you're the last man on earth.
           </p>
           
           <p className="font-bold mb-4">But first, who the hell is this guy writing to you?</p>
@@ -698,7 +698,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="text-center font-bold text-red-600 mb-8">
-            Or you can finally take control of your dating life and become the type of man that Nigerian women actually want to be with.
+            Or you can finally take control of your dating life and become the type of man that women actually want to be with.
           </p>
           
           <p className="mb-4">
@@ -710,7 +710,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="mb-4">
-            While you're "thinking about it," other Nigerian men are downloading The Female Code right now and starting to use these techniques.
+            While you're "thinking about it," other men are downloading The Female Code right now and starting to use these techniques.
           </p>
           
           <p className="mb-4">
@@ -736,7 +736,7 @@ export default function SalesLetter() {
           <p className="mb-8 italic">Do you want to be the guy who let fear and indecision rob him of the dating life he deserves?</p>
           
           <p className="text-center font-bold text-green-600 text-xl mb-8">
-            Or do you want to be the guy who finally took control, invested in himself, and became irresistible to Nigerian women?
+            Or do you want to be the guy who finally took control, invested in himself, and became irresistible to women?
           </p>
           
           <p className="text-center font-bold mb-4">
@@ -797,7 +797,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="mb-8 italic">
-            But honestly, once you start using these techniques and see how Nigerian women respond to you differently, you'll wonder why you waited so long to get this information.
+            But honestly, once you start using these techniques and see how women respond to you differently, you'll wonder why you waited so long to get this information.
           </p>
           
           <p className="text-center font-bold mb-2">Stop letting other men get the women you want.</p>
