@@ -7,7 +7,7 @@ import axios from 'axios';
 const B2_KEY_ID = process.env.B2_KEY_ID;
 const B2_APPLICATION_KEY = process.env.B2_APPLICATION_KEY;
 const B2_BUCKET_NAME = 'digital-products';
-const B2_FILE_PATH = 'Cashology.pdf';
+const B2_FILE_PATH = 'The Female Code How to Talk, Flirt, and Make Women Addicted to You.pdf';
 
 export async function GET() {
     // const fileName = new URL(req.url).searchParams.get('file') || 'Cashology.pdf';
