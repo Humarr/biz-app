@@ -528,7 +528,7 @@ export default function SalesLetter() {
           <p className="mb-4">Hell, I'm not even going to charge you ₦15,000...</p>
           
           <p className="text-center font-bold text-2xl text-red-600 mb-4 border-2 border-red-600 p-4">
-            Today, you can get the complete Female Code system for just ₦5,250.
+            Today, you can get the complete Female Code system for just ₦5250.
           </p>
           
           <p className="mb-4 italic">
@@ -544,7 +544,7 @@ export default function SalesLetter() {
           </p>
           
           <p className="text-center font-bold mb-8">
-            But for this tiny investment of ₦5,250, you get the complete psychological blueprint that will transform your dating life forever...
+            But for this tiny investment of ₦5250, you get the complete psychological blueprint that will transform your dating life forever...
           </p>
           
           <p className="font-bold mb-4">
@@ -764,7 +764,7 @@ export default function SalesLetter() {
             <p className="font-bold text-lg mb-2">OPTION 1: Direct Bank Transfer (Most Popular)</p>
             <p className="mb-2">This is the fastest way to get started:</p>
             <ol className="list-decimal pl-5 mb-4">
-              <li>Transfer ₦5,250 to my account (details below)</li>
+              <li>Transfer ₦5250 to my account (details below)</li>
               <li>Send your payment proof to thecahologists00@gmail.com</li>
               <li>You'll receive The Female Code in your email within minutes</li>
             </ol>
@@ -792,7 +792,7 @@ export default function SalesLetter() {
             <div className="text-center">
                 <Link href="https://paystack.shop/pay/3e8ubwfmr0">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
-                GET INSTANT ACCESS - PAY WITH CARD/TRANSFER ₦5,250
+                GET INSTANT ACCESS - PAY WITH CARD/TRANSFER ₦5250
               </button>
                 </Link>
             </div>
@@ -825,7 +825,7 @@ export default function SalesLetter() {
           <p className="text-center mb-8">To your dating success.</p>
           
           <div className="border-t-2 border-black pt-4">
-            <p className="font-bold mb-2">P.S. - Remember, for just ₦5,250 - less than you'd spend on one disappointing date - you get the complete psychological blueprint that will make any woman chase you instead of you chasing her, plus my iron-clad money-back guarantee that puts all the risk on me.</p>
+            <p className="font-bold mb-2">P.S. - Remember, for just ₦5250 - less than you'd spend on one disappointing date - you get the complete psychological blueprint that will make any woman chase you instead of you chasing her, plus my iron-clad money-back guarantee that puts all the risk on me.</p>
             <div className="text-center mt-4">
             <Link href="https://paystack.shop/pay/3e8ubwfmr0">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
