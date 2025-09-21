@@ -312,7 +312,10 @@ export default function SalesLetter() {
         </p>
 
         <p className="mb-4">
-          The fact is... I'm just a regular guy who got tired of being played by
+          The fact is... 
+          </p>
+          <p className="mb-4 ">
+          I'm just a regular guy who got tired of being played by
           women and decided to crack the code once and for all.
         </p>
 
@@ -321,7 +324,7 @@ export default function SalesLetter() {
           been using these principles for centuries.
         </p>
 
-        <p className="mb-4 italic">
+        <p className="mb-4 italic text-center text-2xl">
           Even the great Maya Angelou once said: "When people show you who they
           are, believe them the first time."
         </p>
@@ -335,8 +338,17 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           <span className="font-bold">✔</span> According to research published
-          in the Journal of Social Psychology, over 93% of human communication
-          is non-verbal. That means when she's telling you "I'm fine" or "Maybe
+          in the Journal of Social Psychology...
+          </p>
+
+          <p className="mb-4">
+          ...over 93% of human communication
+          is non-verbal. 
+          </p>
+
+          <p className="mb-4 text-xl text-center font-bold">
+          
+          That means when she's telling you "I'm fine" or "Maybe
           later," her body and tone are screaming the complete opposite message.
         </p>
 
@@ -344,7 +356,10 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           <span className="font-bold">✔</span> Dr. Albert Mehrabian's famous
-          study revealed that only 7% of what people communicate comes from
+          study revealed that...
+          </p>
+          <p className="mb-4">
+           ...only 7% of what people communicate comes from
           their actual words. The remaining 93% comes from body language and
           tone of voice.
         </p>
@@ -353,30 +368,40 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           <span className="font-bold">✔</span> This means every time a woman
-          says "I'm not ready for a relationship," she might actually be saying
-          "You haven't triggered the right emotions in me yet."
+          says...
+          <br/>
+          "I'm not ready for a relationship," 
+          <br/>
+          she might actually be saying...
+          <br/>
+          
+
+         <span className="font-bold italic text-lg"> "You haven't triggered the right emotions in me yet."</span>
         </p>
 
         <p className="mb-4">
           <span className="font-bold">✔</span> And when she says "Let's just be
-          friends," her subconscious might be screaming "Show me you're the type
-          of man I can't resist!"
+          friends," 
+          
+          ...her subconscious might be screaming 
+          
+          <span className="font-bold italic text-lg"> "Show me you're the type
+          of man I can't resist!"</span>
         </p>
 
-        <p className="font-bold mb-4 text-red-600">
+        <p className="font-bold mb-4 text-red-600 text-center text-2xl">
           The thing is... most men are completely deaf to this 93% of
           communication.
         </p>
 
         <p className="mb-4">
-          That's exactly why guys like Davido, Wizkid, and even politicians like
-          Dino Melaye can walk into any room and have women gravitating toward
+          That's exactly why celebrities, and even politicians can walk into any room and have women gravitating toward
           them like iron to a magnet.
         </p>
 
         <p className="mb-4">It's not their money alone (though it helps)...</p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold text-center mb-4">
           It's because they understand something most men don't: Women
           communicate in a completely different language than men.
         </p>
@@ -393,7 +418,7 @@ export default function SalesLetter() {
           her language yet.
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-center text-2xl">
           But here's where it gets interesting...
         </p>
 
