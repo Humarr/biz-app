@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useButtonClickTracker } from "@/hooks/useButtonClickTracker";
+// import { useButtonClickTracker } from "@/hooks/useButtonClickTracker";
 // app/sales-letter/page.js
 export default function SalesLetter() {
 
-  const { handleButtonClick } = useButtonClickTracker();
+  // const { handleButtonClick } = useButtonClickTracker();
 
   // const handleCTAClick = () => {
   //   handleButtonClick();
@@ -1416,7 +1416,8 @@ export default function SalesLetter() {
           </p>
           <div className="text-center">
             <Link href="https://paystack.shop/pay/3e8ubwfmr0">
-              <button onClick={handleButtonClick} className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
+              <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
+              {/* <button onClick={handleButtonClick} className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg"> */}
                 GET INSTANT ACCESS - PAY WITH CARD/TRANSFER ₦5250
               </button>
             </Link>
@@ -1470,7 +1471,8 @@ export default function SalesLetter() {
           </p>
           <div className="text-center mt-4">
             <Link href="https://paystack.shop/pay/3e8ubwfmr0">
-              <button onClick={handleButtonClick} className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
+              <button  className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
+              {/* <button onClick={handleButtonClick} className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg"> */}
                 Click here to get instant access now
               </button>
             </Link>
