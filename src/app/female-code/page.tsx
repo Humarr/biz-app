@@ -34,6 +34,19 @@ export default function SalesLetter() {
           <p className="font-bold mb-2">Dear Friend,</p>
           
           <p className="mb-4">
+          You've tried every dating advice that's come your way. You've downloaded countless "how to get girls" PDFs, watched YouTube videos about confidence, perhaps even bought expensive courses from foreign "gurus," but the truth is you just can't seem to understand women (or keep their interest).
+          </p>
+          <p className="mb-4">
+          Perhaps you're even feeling a little disgusted with yourself and your inability to decode their mixed signals and confusing behavior. You feel like no matter what approach you try - being the nice guy, the bad boy, the funny guy, the rich guy - it's not going to work.
+          </p>
+          <p className="mb-4">
+          You've spent thousands of naira on dates that led nowhere. You've sent countless "good morning beautiful" messages that got ignored. You've tried being romantic, you've tried being distant, you've tried everything... but Nigerian women still seem like an unsolvable puzzle.
+          </p>
+          <p className="mb-4">
+          Maybe you're starting to think there's something fundamentally wrong with you, or that you're just destined to be alone while other guys effortlessly attract the women you want.
+          </p>
+
+          <p className="mb-4">
             You see, just last Tuesday night, I got a WhatsApp voice note that almost made me cry...
           </p>
           
