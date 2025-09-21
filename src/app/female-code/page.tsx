@@ -864,9 +864,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">There's still more coming...</p>
+        <p className="font-bold mb-4 text-xl">There's still more coming...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The secrets of men who date multiple beautiful women at the same
             time (Without lying or cheating) (Page 542)
@@ -881,9 +881,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">And I'm nowhere near done...</p>
+        <p className="font-bold mb-4 text-xl">And I'm nowhere near done...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             Do you know the 3 signs she's ready to be kissed? (Miss these, and
             she'll think you're not interested) (Page 563)
@@ -902,9 +902,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">Finally, as a special bonus...</p>
+        <p className="font-bold mb-4 text-xl">Finally, as a special bonus...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             Why Western pickup advice fails Nigerian men (And the cultural
             adaptation that actually works) (Page 591)
@@ -923,12 +923,12 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="mb-4">
+        <p className="mb-4 text-2xl font-bold text-center">
           You see, this isn't just another dating book filled with theory and
           fluff...
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-xl">
           This is a complete transformation system that gives you the exact
           psychological blueprint to understand and attract any woman.
         </p>
