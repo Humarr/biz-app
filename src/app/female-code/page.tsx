@@ -8,7 +8,7 @@ export default function SalesLetter() {
       <div className="bg-[#f7f7f7] min-h-screen py-8 px-4 font-serif">
         <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
           <p className="font-bold text-center mb-6">
-            If you knew the <span className="underline">TRUE REASON</span> why every woman rejects you...you'd <span className="underline">NEVER</span> see women the same way again.
+            If you knew the <span className="underline">TRUE REASON</span> why every lady rejects you...you'd <span className="underline">NEVER</span> see ladies the same way again.
             {/* If you knew the TRUE REASON why every woman "forms" for you...you'd NEVER see women the same way again. */}
           </p>
           
