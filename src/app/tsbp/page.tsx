@@ -998,7 +998,11 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="mb-4">
-            You understand that this isn't just another business course. This is your chance to break free from the salary trap that keeps most Nigerians broke their entire lives.
+            You understand that this isn't just another business course. 
+            </p>
+          <p className="mb-4 text-center text-xl font-semibold">
+            
+            This is your chance to break free from the salary trap that keeps most Nigerians broke their entire lives.
           </p>
           
           <p className="mb-4">
