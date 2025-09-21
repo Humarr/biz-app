@@ -8,7 +8,7 @@ export default function SmallBusinessPlaybook() {
       <div className="bg-[#f7f7f7] min-h-screen py-8 px-4">
         <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
           <p className="text-center mb-6">
-            If you knew the TRUE WAY you can start a side business...your life would NEVER remain the same again.
+            If you knew the RIGHT WAY you can start a side business...your life would NEVER remain the same again.
           </p>
           
           <p className="text-center font-bold mb-6">
