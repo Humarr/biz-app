@@ -1238,11 +1238,11 @@ export default function SalesLetter() {
 
         <p className="text-center font-bold mb-8">
           Either The Female Code transforms your dating life like it has for
-          hundreds of other men, or you get your money back and keep all the
+          hundreds of other men, <br/>or you get your money back and keep all the
           information anyway.
         </p>
 
-        <p className="text-center font-bold mb-4 italic">
+        <p className="text-center mt-8 text-xl font-bold mb-4 italic">
           How's that for fair?
         </p>
 
@@ -1266,7 +1266,7 @@ export default function SalesLetter() {
           single while your friends are getting into serious relationships?
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 font-bold text-lg">
           You see, there are two types of men in this world…
         </p>
 
@@ -1302,17 +1302,17 @@ export default function SalesLetter() {
           still frustrated, still confused about women, still getting rejected.
         </p>
 
-        <p className="font-bold mb-4">Then there's the second type of man...</p>
+        <p className="font-bold mb-4 text-lg">Then there's the second type of man...</p>
 
-        <p className="text-green-600 font-bold mb-2">
+        <p className="text-green-800 font-bold mb-2">
           ✔ The man who recognizes opportunity when it's staring him in the
           face.
         </p>
-        <p className="text-green-600 mb-2">
+        <p className="text-green-800 mb-2">
           ✔ The man who understands that his current approach isn't working and
           has the courage to try something different.
         </p>
-        <p className="text-green-600 mb-8">
+        <p className="text-green-800 mb-8">
           ✔ The man who invests in himself instead of wasting money on women who
           don't respect him.
         </p>
@@ -1342,7 +1342,7 @@ export default function SalesLetter() {
           continue getting the same disappointing results.
         </p>
 
-        <p className="text-center font-bold text-red-600 mb-8">
+        <p className="text-center font-bold text-red-800 mb-8">
           Or you can finally take control of your dating life and become the
           type of man that women actually want to be with.
         </p>
@@ -1353,7 +1353,7 @@ export default function SalesLetter() {
           know it.
         </p>
 
-        <p className="font-bold mb-4 text-red-600">
+        <p className="font-bold mb-4 text-red-800">
           But what IS true is this: Every day you wait is another day you're
           missing opportunities with women.
         </p>
@@ -1385,7 +1385,7 @@ export default function SalesLetter() {
 
         <p className="font-bold mb-4 italic">Is that really what you want?</p>
 
-        <p className="mb-4 italic">
+        <p className="mb-4 italic text-xl text-center">
           Do you want to be the guy who had the chance to change everything but
           chose to stay stuck instead?
         </p>
@@ -1395,7 +1395,7 @@ export default function SalesLetter() {
           dating life he deserves?
         </p>
 
-        <p className="text-center font-bold text-green-600 text-xl mb-8">
+        <p className="text-center font-bold text-green-800 text-2xl mb-8">
           Or do you want to be the guy who finally took control, invested in
           himself, and became irresistible to women?
         </p>
@@ -1414,7 +1414,7 @@ export default function SalesLetter() {
           Don't let that happen to you.
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-xl">
           Here's how to get your copy of The Female Code right now:
         </p>
 
@@ -1500,21 +1500,21 @@ export default function SalesLetter() {
           get this information.
         </p>
 
-        <p className="text-center font-bold mb-2">
+        <p className="text-center font-bold mb-2 text-lg">
           Stop letting other men get the women you want.
         </p>
-        <p className="text-center font-bold mb-2">
+        <p className="text-center font-bold mb-2 text-lg">
           Stop being confused by female psychology.
         </p>
-        <p className="text-center font-bold mb-8">
+        <p className="text-center font-bold mb-8 text-lg">
           Stop wasting money on dates that lead nowhere.
         </p>
 
-        <p className="text-center font-bold mb-8">
+        <p className="text-center font-bold mb-8 text-lg">
           Choose your payment option above and let's get started right now.
         </p>
 
-        <p className="text-center font-bold text-xl mb-8">
+        <p className="text-center font-bold text-xl mb-8 text-lg">
           Your future self will thank you for making this decision today.
         </p>
 
