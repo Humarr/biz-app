@@ -568,11 +568,11 @@ export default function SmallBusinessPlaybook() {
             <br/>
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             You see, I've documented everything into a step-by-step playbook that eliminates all the guesswork, fear, and expensive mistakes.
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-xl text-center">
             And today, for the first time ever, I'm making this complete system available to regular Nigerians who are tired of watching their dreams die while they survive on salary.
           </p>
           
