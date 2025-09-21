@@ -527,9 +527,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">But wait, there's still more...</p>
+        <p className="font-bold mb-4 text-xl">But wait, there's still more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The Scarcity Switch - Why being slightly unavailable multiplies your
             value instantly (Page 105)
@@ -548,9 +548,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">That's still not all...</p>
+        <p className="font-bold mb-4 text-xl">That's still not all...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The Status Signal - Why other women's attention matters more than
             your bank account (Page 141)
@@ -566,9 +566,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">And there's even more...</p>
+        <p className="font-bold mb-4 text-xl">And there's even more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             Women make 90% of their decisions about you in the first 3
             minutes... Here's how to hack those crucial 180 seconds and make her
@@ -585,9 +585,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">I'm still not done...</p>
+        <p className="font-bold mb-4 text-xl">I'm still not done...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The conversation framework that makes her say "I've never told
             anyone this before" and creates instant emotional intimacy (Page
@@ -607,9 +607,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">There's more where that came from...</p>
+        <p className="font-bold mb-4 text-xl">There's more where that came from...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             Give me one traffic jam, and I'll teach you how to read women's body
             language like a CIA interrogator (Page 213)
@@ -624,9 +624,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">But that's just the beginning...</p>
+        <p className="font-bold mb-4 text-xl">But that's just the beginning...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             If you can send a WhatsApp message, then you can make any woman
             obsessed with texting you back (Page 234)
@@ -641,9 +641,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">And there's still much more...</p>
+        <p className="font-bold mb-4 text-xl">And there's still much more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The truth about why "good guys finish last" - and it's not what your
             mother told you (Page 255)
@@ -662,9 +662,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">I'm nowhere near finished...</p>
+        <p className="font-bold mb-4 text-xl">I'm nowhere near finished...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The single most important text message you'll ever send - this one
             message can resurrect a dead conversation and make her beg to see
@@ -684,9 +684,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">There's still so much more...</p>
+        <p className="font-bold mb-4 text-xl">There's still so much more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             How to transform from invisible "nice guy" into the mysterious man
             she can't stop thinking about - even when she's with other men (Page
@@ -706,9 +706,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">And I'm just scratching the surface...</p>
+        <p className="font-bold mb-4 text-xl">And I'm just scratching the surface...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             3 words that make any woman instantly see you as boyfriend material
             instead of just another guy trying to get in her pants (Page 339)
@@ -727,9 +727,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">There's even more...</p>
+        <p className="font-bold mb-4 text-2xl">There's even more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The sneaky psychological trick women use to test your confidence
             (Once you know this, you'll pass every test she throws at you) (Page
@@ -749,9 +749,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">But wait, there's more...</p>
+        <p className="font-bold mb-4 text-lg">But wait, there's more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             Better than expensive gifts: The free gesture that makes women feel
             more special than any Rolex or jewelry (Page 395)
@@ -770,9 +770,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">And there's still more to come...</p>
+        <p className="font-bold mb-4 text-xl">And there's still more to come...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             73% of beautiful women are actually insecure about their looks -
             here's how to use this knowledge to connect with any woman instantly
@@ -788,9 +788,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">I'm not stopping there...</p>
+        <p className="font-bold mb-4 text-xl">I'm not stopping there...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             What to text her at 2 AM that makes her instantly horny (Warning:
             Only use this when you can meet up immediately) (Page 444)
@@ -809,9 +809,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">There's still plenty more...</p>
+        <p className="font-bold mb-4 text-xl">There's still plenty more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             What never to say when she mentions her ex-boyfriend (Unless you
             want to become her emotional tampon forever) (Page 472)
@@ -830,9 +830,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">And I'm just getting warmed up...</p>
+        <p className="font-bold mb-4 text-xl">And I'm just getting warmed up...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             Do you make these 3 fatal mistakes when texting women? (If you do,
             you're training them to ignore you forever) (Page 500)
@@ -847,9 +847,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">But there's much more...</p>
+        <p className="font-bold mb-4 text-xl">But there's much more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The reason why women love "bad boys" more than nice guys (It has
             nothing to do with money or looks) (Page 521)
