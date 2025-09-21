@@ -535,7 +535,10 @@ export default function SmallBusinessPlaybook() {
           </p>
            */}
           <p className="font-bold mb-4 text-red-600 text-center">
-            The fact is, in today's economy, having only one source of income is like having all your eggs in one basket. And we've all seen what happens when that basket breaks...
+            The fact is, in today's economy, having only one source of income is like having all your eggs in one basket. 
+            </p>
+            <p className="mb-4">
+            And we've all seen what happens when that basket breaks...
           </p>
           
           <p className="mb-4">
@@ -548,7 +551,7 @@ export default function SmallBusinessPlaybook() {
           
           <p className="text-center font-bold mb-4">So let me ask you this...</p>
           
-          <p className="text-center font-bold mb-8">
+          <p className="text-center text-2xl font-bold mb-8">
             If I could guarantee that you'll never again have to worry about living paycheck to paycheck... if I could show you exactly how to build a steady ₦50,000-₦200,000 monthly side income without risking your job or savings... would that be worth 30 minutes of your time?
           </p>
           
@@ -564,79 +567,79 @@ export default function SmallBusinessPlaybook() {
             But before I tell you how to get your hands on this playbook, let me show you just a tiny sample of what's waiting inside:
           </p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>The "STARVING CROWD" revelation that makes any business idea 10x more likely to succeed (Most people start businesses backwards - they create products first, then look for customers. This simple reversal will save you months of wasted effort) - Page 16</li>
             <li>Why 87% of Nigerian businesses fail before they even start (The shocking reason has nothing to do with capital, location, or competition - once you know this, you'll spot doomed businesses from miles away) - Page 15</li>
             <li>The sneaky methods big corporations use to keep you trapped in salary dependency (They don't want you to know these 3 psychological tricks that keep employees from ever becoming entrepreneurs) - Page 41</li>
             <li>What never to do when starting a side business (If you make this one mistake, your boss will find out within 2 weeks - and you might lose your job) - Page 47</li>
           </ul>
           
-          <p className="font-bold mb-4">That's not all...</p>
+          <p className="font-bold mb-4 text-2xl">That's not all...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>The "Business Cemetery" secret that reveals why great ideas fail (Look at any failed business and you'll find it's not about bad ideas - it's about good ideas that made this one fatal error) - Page 13</li>
             <li>The David and Goliath strategy that lets small businesses crush big competitors (How a ₦50,000 side business can steal customers from companies spending millions on advertising) - Page 46</li>
             <li>The truth about Nigerian customers (Forget everything you think you know about price sensitivity - this psychological study reveals what Nigerians really buy and why) - Page 90</li>
             <li>How to own space in your customer's mind forever (Once you deploy this "mind domination" strategy, customers will think of YOU first every time they need what you're selling) - Page 41</li>
           </ul>
           
-          <p className="font-bold mb-4">There's more...</p>
+          <p className="font-bold mb-4 text-2xl">There's more...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>The 8 unbreakable laws of advertising that make people buy instantly (Law #3 alone will double your sales overnight - yet 95% of Nigerian businesses violate it daily) - Page 52</li>
             <li>The "Wrong" way to advertise that actually works better than the "right" way (Big brand advertising is designed to keep you broke - here's the direct response method that fills your account with cash) - Page 49</li>
             <li>Why most people waste money on fliers (Stop throwing your money away - this alternative costs half as much and brings 5x more customers) - Page 75</li>
             <li>The single most important decision that determines if your business will fail or succeed (Get this wrong and nothing else matters. Get this right and everything else becomes easier) - Page 26</li>
           </ul>
           
-          <p className="font-bold mb-4">I'm just getting started...</p>
+          <p className="font-bold mb-4 text-2xl">I'm just getting started...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>How to turn one customer into ten without spending a naira on advertising (The "unpaid sales army" method that makes your customers recruit new customers for you) - Page 81</li>
             <li>The currency of trust in Nigerian business (Master this and customers will pay premium prices. Ignore this and you'll compete only on price forever) - Page 80</li>
             <li>The compound effect of word-of-mouth that creates business avalanches (Why one satisfied customer today could bring you 100+ customers within 6 months) - Page 86</li>
             <li>The "Price Drop Death Loop" that kills profitable businesses (If you're competing on price, you're already losing - here's how to escape this trap) - Page 88</li>
           </ul>
           
-          <p className="font-bold mb-4">There's still more...</p>
+          <p className="font-bold mb-4 text-2xl">There's still more...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>The psychology of Nigerian buying behavior revealed (Why your customers lie about wanting "cheaper" prices - what they really want will shock you) - Page 90</li>
             <li>The market vendor's pricing psychology that makes customers eager to buy (How Lagos market women use this to sell overpriced goods to smart customers who know they're overpaying) - Page 92</li>
             <li>The art of value stacking that makes high prices feel like bargains (Turn a ₦10,000 product into an irresistible ₦50,000 offer without changing anything except how you present it) - Page 93</li>
             <li>The recession-proof pricing strategy (While others drop prices and go bankrupt, you'll raise prices and increase profits) - Page 103</li>
           </ul>
           
-          <p className="font-bold mb-4">But wait, there's even more...</p>
+          <p className="font-bold mb-4 text-2xl">But wait, there's even more...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>The 6 products Nigerians will ALWAYS buy (During boom or recession, these markets never disappear - position yourself in any of these and you'll never lack customers) - Page 119</li>
             <li>Market #1: Why we must celebrate everything (Tap into this ₦2.3 billion annual market that grows bigger every year) - Page 120</li>
             <li>Market #4: The silent goldmine nobody talks about (This market generates over ₦500 billion yearly in Nigeria, yet most entrepreneurs ignore it completely) - Page 125</li>
             <li>The Great Nigerian Exodus market worth ₦1.8 trillion (How to profit from the massive relocation trend without leaving your current city) - Page 128</li>
           </ul>
           
-          <p className="font-bold mb-4">And I'm not done...</p>
+          <p className="font-bold mb-4 text-2xl">And I'm not done...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>Direct response ad templates that work in Nigeria (Copy-and-paste headlines, complete ad structures, and proven formulas you can use tonight) - Page 133</li>
             <li>The Problem-Agitation-Solution ad template (Fill in the blanks and watch customers beg to buy from you) - Page 148</li>
             <li>The Social Proof Avalanche ad that creates buying frenzies (Why Nigerians buy more based on what others are doing than what they actually need) - Page 154</li>
             <li>The Profit Calculator that could've saved thousands of failed businesses (Plug in your numbers and instantly know if your idea will make money or lose money) - Page 162</li>
           </ul>
           
-          <p className="font-bold mb-4">There's still more waiting inside...</p>
+          <p className="font-bold mb-4 text-2xl">There's still more waiting inside...</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>The Shawarma Bros case study (How two unemployed friends built a ₦300,000 monthly business with just ₦25,000 starting capital) - Page 167</li>
             <li>The "Rat Race Trap" test (Are you building a business or just creating another job for yourself? This 2-minute test reveals the truth) - Page 165</li>
             <li>Why speed beats perfection every time (The ₦100,000 mistake perfectionists make that kills their business before it starts) - Page 107</li>
             <li>The reinvestment formula that creates millionaires (Do this with your first ₦50,000 profit and watch your business explode) - Page 108</li>
           </ul>
           
-          <p className="font-bold mb-4">And there's even more than that...</p>
+          <p className="font-bold mb-4 text-2xl">And there's even more than that...</p>
           
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-2xl">
             Now, before I reveal how you can get your hands on this complete system, let me ask you something important:
           </p>
           
@@ -645,22 +648,26 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="mb-4">
-            You see, if you continue living paycheck to paycheck for the next 12 months, you'll essentially "pay" at least ₦1,200,000 in missed opportunities. Here's what I mean...
+            You see, if you continue living paycheck to paycheck for the next 12 months, you'll essentially "pay" at least ₦1,200,000 in missed opportunities. 
+            </p>
+            
+            <p className="mb-4 font-bold text-2xl">
+            Here's what I mean...
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 font-bold">
             If this playbook helps you generate just ₦100,000 extra monthly (and most of our followers make much more), that's ₦1,200,000 annually you're leaving on the table by not starting.
           </p>
           
           <p className="font-bold mb-4">But let's be even more conservative...</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             Even if you only make an extra ₦50,000 monthly from your side business, that's still ₦600,000 yearly you're missing out on by staying stuck in salary dependency.
           </p>
           
           <p className="font-bold mb-4">Think about what ₦600,000 could do for your life:</p>
           
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 apce-y-6">
             <li>Pay your rent for a year</li>
             <li>Buy that used car you've been dreaming about</li>
             <li>Start building real savings for emergencies</li>
@@ -688,7 +695,7 @@ export default function SmallBusinessPlaybook() {
             After all, this isn't just theory. These are the exact methods that have helped over 200 employed Nigerians build profitable side businesses worth millions of naira combined.
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-xl font-bold text-center">
             Some people have told me I should charge ₦150,000 for this system. Others said ₦200,000 would be fair given the life-changing results.
           </p>
           
@@ -709,7 +716,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold text-2xl text-red-600 mb-4 border-2 border-red-600 p-4">
-            The complete "Small Business Playbook: How Everyone Can Start, Build, and Grow An Outrageously Profitable Business" - with everything I've shown you and much more - is available for just ₦5,250.
+            The complete "Small Business Playbook: How Everyone Can Start, and Grow An Outrageously Profitable Business" - with everything I've shown you and much more - is available for just ₦6250.
           </p>
           
           <p className="mb-4 italic">
@@ -719,15 +726,15 @@ export default function SmallBusinessPlaybook() {
           <p className="font-bold mb-4">Let me put this in perspective for you...</p>
           
           <p className="mb-4">
-            ₦5,250 is what you might spend on lunch for one day. But this playbook could generate ₦50,000+ monthly for years to come.
+            ₦6250 is what you might spend on lunch for one day. But this playbook could generate ₦50,000+ monthly for years to come.
           </p>
           
-          <p className="font-bold mb-8 text-red-600">
+          <p className="font-bold text-lg not-odd:mb-8 text-red-600">
             That's a return of nearly 1,000% on your investment in the first month alone!
           </p>
           
           <p className="text-center font-bold mb-8">
-            Would you give me ₦5,250 today if I guaranteed you'd make at least ₦50,000 extra next month?
+            Would you give me ₦6250 today if I guaranteed you'd make at least ₦50,000 extra next month?
           </p>
           
           <p className="mb-4">
@@ -736,8 +743,17 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">But here's what makes this even more compelling...</p>
           
-          <p className="mb-4">
-            You see, I know what you're thinking right now. You're probably wondering: "This sounds too good to be true. What if it doesn't work for me? What if I'm different? What if I waste my ₦5,250?"
+          <p className="mb-4 text-lg">
+            You see, I know what you're thinking right now. You're probably wondering: 
+            
+            <br/><br/>
+            "This sounds too good to be true.""
+            <br/><br/>
+            "What if it doesn't work for me? "
+            <br/><br/>
+            "What if I'm different? "
+            <br/><br/>
+            "What if I waste my ₦6250?"
           </p>
           
           <p className="mb-4">I get it. I really do.</p>
@@ -759,22 +775,34 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold text-red-600 text-xl mb-4 border-2 border-black p-4">
-            I'm going to let you download this entire playbook, read through every page, implement the strategies, and start seeing results... and if you're not completely satisfied for ANY reason within the next 60 days, I'll give you every single naira back.
+            I'm going to let you download this entire playbook, read through every page, implement the strategies, and start seeing results... 
+            <br/><br/>
+            ...and if you're not completely satisfied for ANY reason within the next 60 days, I'll give you every single naira back.
           </p>
+
+           <Image 
+              src="/female-code/risk-reversal.png" 
+              alt="Risk Reversal" 
+              width={600} 
+              height={300}
+              className="rounded-lg"
+            />
+          </div>
+          
           
           <p className="text-center font-bold mb-4">
             No questions asked. No hoops to jump through. No forms to fill out.
           </p>
           
           <p className="text-center font-bold mb-8">
-            Just send me a simple email saying "I want my money back" and I'll refund your ₦5,250 immediately.
+            Just send me a simple email saying "I want my money back" and I'll refund your ₦6250 immediately.
           </p>
           
           <p className="mb-4">
             Now, I know this sounds like every other "money-back guarantee" you've heard before, but let me be brutally honest with you about what this really means...
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-xl font-bold text-center">
             Once you download this playbook, I can't get it back from you. The information will be on your phone, your laptop, your brain. You could literally read the entire thing, implement everything, start making money, and still ask for a refund.
           </p>
           
@@ -782,22 +810,35 @@ export default function SmallBusinessPlaybook() {
             I'm basically trusting you not to rip me off.
           </p>
           
-          <p className="font-bold mb-4">Why would I take such a risk?</p>
+          <p className="font-bold mb-4 text-lg">Why would I take such a risk?</p>
           
           <p className="mb-4">
-            Because I've seen what happens when regular Nigerians like you implement these strategies. I've watched unemployed graduates build ₦200,000 monthly businesses. I've seen tired employees transform into confident entrepreneurs. I've witnessed people go from borrowing transport money to helping their families financially.
+            Because I've seen what happens when regular Nigerians like you implement these strategies. 
+            </p>
+            <p className="mb-4">
+            I've watched unemployed graduates build ₦200,000 monthly businesses. 
+            </p>
+
+            <p className="mb-4">
+            I've seen tired employees transform into confident entrepreneurs. 
+            </p>
+            <p className="mb-4">
+            I've witnessed people go from borrowing transport money to helping their families financially.
           </p>
           
-          <p className="text-center font-bold mb-8">
+          <p className="text-center font-bold mb-8 text-xl">
             The strategies in this playbook work. Period.
           </p>
           
           <p className="mb-4">
-            But more than that, I believe you're a person of integrity. I believe that when you start making an extra ₦50,000+ monthly using these methods, you'll be so grateful that the thought of asking for a refund won't even cross your mind.
+            But more than that, I believe you're a person of integrity. 
+            </p>
+            <p className="mb-4">
+            I believe that when you start making an extra ₦50,000+ monthly using these methods, you'll be so grateful that the thought of asking for a refund won't even cross your mind.
           </p>
           
           <p className="text-center font-bold mb-8">
-            I'm willing to bet ₦5,250 that you're the kind of person who keeps their word.
+            I'm willing to bet ₦6250 that you're the kind of person who keeps their word.
           </p>
           
           <p className="text-center font-bold text-xl mb-8">
@@ -824,26 +865,41 @@ export default function SmallBusinessPlaybook() {
             You see, while you're reading this right now, something interesting is happening all around you.
           </p>
           
-          <p className="text-red-600 mb-2">❌Your colleagues are going about their day, complaining about their salaries, worrying about next month's expenses, and doing absolutely nothing to change their situation.</p>
-          <p className="text-red-600 mb-2">❌Your friends are scrolling through social media, looking at other people's success stories, and wishing they could have that life too.</p>
-          <p className="text-red-600 mb-8">❌Your neighbors are having the same conversations they had last year: "If only I had more money..." "If only I could start a business..." "If only things were different..."</p>
+          <p className="text-red-600 mb-6">❌Your colleagues are going about their day, complaining about their salaries, worrying about next month's expenses, and doing absolutely nothing to change their situation.</p>
+          <p className="text-red-600 mb-6">❌Your friends are scrolling through social media, looking at other people's success stories, and wishing they could have that life too.</p>
+          <p className="text-red-600 mb-8">❌Your neighbors are having the same conversations they had last year: 
+          <br/><br/>
+            "If only I had more money..." 
+            <br/><br/>
+            "If only I could start a business..." 
+            <br/><br/>
+            "If only things were different..."</p>
           
-          <p className="mb-4">But you? You're different.</p>
+          <p className="mb-4 text-xl font-bold">But you? You're different.</p>
           
-          <p className="text-green-600 mb-2">✔You're here, reading this, because something inside you refuses to accept mediocrity.</p>
-          <p className="text-green-600 mb-2">✔You're not like the 97% of Nigerians who will read something like this and do nothing.</p>
+          <p className="text-green-600 mb-6">✔You're here, reading this, because something inside you refuses to accept mediocrity.</p>
+          <p className="text-green-600 mb-6">✔You're not like the 97% of Nigerians who will read something like this and do nothing.</p>
           <p className="text-green-600 mb-8">✔You're part of the 3% who actually take action when opportunity presents itself.</p>
           
           <p className="font-bold mb-4">
-            Here's what separates successful people from everyone else: When they see a proven system that could change their life, they don't hesitate. They don't overthink it. They don't wait for the "perfect time."
+            Here's what separates successful people from everyone else: When they see a proven system that could change their life... 
+            </p>
+            
+          <p className="font-bold mb-4">
+            ...they don't hesitate. They don't overthink it. They don't wait for the "perfect time."
           </p>
           
           <p className="text-center font-bold mb-8">They act.</p>
           
           <p className="font-bold mb-4">And right now, you have a choice to make...</p>
           
-          <p className="text-red-600 mb-2">❌You can close this page and go back to your normal routine. Wake up tomorrow, go to work, collect your salary, struggle through another month, and hope things magically get better.</p>
-          <p className="text-green-600 mb-8">✔ Or you can be the person who does what others won't do today, so you can have what others can't have tomorrow.</p>
+          <p className="text-red-600 mb-6">
+            ❌You can close this page and go back to your normal routine. 
+            
+            <br/><br/>
+            Wake up tomorrow, go to work, collect your salary, struggle through another month, and hope things magically get better.</p>
+          <p className="text-green-600 mb-8">
+            ✔ Or you can be the person who does what others won't do today, so you can have what others can't have tomorrow.</p>
           
           <p className="font-bold mb-4">But here's the brutal truth most people don't want to face...</p>
           
@@ -856,7 +912,11 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="mb-4">
-            Remember that colleague I told you about who was making ₦80,000 monthly from skincare? He started 6 months ago. If he had waited just 6 more months to "think about it," he would have lost ₦480,000 in income.
+            Remember that colleague I told you about who was making ₦80,000 monthly from skincare? 
+            </p>
+
+          <p className="mb-4">
+            He started 6 months ago. If he had waited just 6 more months to "think about it," he would have lost ₦480,000 in income.
           </p>
           
           <p className="font-bold mb-8 text-red-600">
@@ -875,23 +935,35 @@ export default function SmallBusinessPlaybook() {
             It's the ability to make decisions quickly and stick with them.
           </p>
           
-          <p className="text-red-600 mb-2">❌Most people take forever to decide and then change their minds quickly.</p>
-          <p className="text-green-600 mb-8">✔Successful people decide quickly and rarely change their minds.</p>
+          <p className="text-red-600 mb-6">❌ Most people take forever to decide and then change their minds quickly.</p>
+          <p className="text-green-800 text-xl text-center mb-8">
+            ✔ Successful people decide quickly and rarely change their minds.</p>
           
           <p className="text-center font-bold mb-8">Which type of person are you?</p>
           
-          <p className="mb-4">
-            Are you the type who sees an opportunity like this and immediately recognizes its value? Who understands that ₦5,250 invested today could generate ₦600,000+ this year?
+          <p className="mb-4 text-center font-bold text-2xl">
+            Are you the type who sees an opportunity like this and immediately recognizes its value? 
+            </p>
+            
+          <p className="mb-4 text-xl">
+            Who understands that ₦6250 invested today could generate ₦600,000+ this year?
           </p>
           
           <p className="mb-8">
             Or are you the type who will bookmark this page, tell yourself you'll come back to it later, and then never take action?
           </p>
           
-          <p className="font-bold mb-4">Here's what I know about you already...</p>
+          <p className="font-bold mb-4 ">Here's what I know about you already...</p>
           
           <p className="mb-4">
-            The fact that you're still reading this far tells me you're not average. Average people would have stopped reading 5 minutes ago. You're still here because you recognize something special when you see it.
+            The fact that you're still reading this far tells me you're not average. 
+            </p>
+          <p className="mb-4">
+            Average people would have stopped reading 5 minutes ago. 
+            </p>
+
+          <p className="mb-4">
+            You're still here because you recognize something special when you see it.
           </p>
           
           <p className="mb-4">
@@ -914,14 +986,14 @@ export default function SmallBusinessPlaybook() {
             Because I'll be honest with you... this playbook isn't for everyone.
           </p>
           
-          <p className="text-red-600 mb-2">❌It's not for people who want to get rich overnight without working.</p>
-          <p className="text-red-600 mb-2">❌It's not for people who make excuses instead of taking action.</p>
+          <p className="text-red-600 mb-6">❌It's not for people who want to get rich overnight without working.</p>
+          <p className="text-red-600 mb-6">❌It's not for people who make excuses instead of taking action.</p>
           <p className="text-red-600 mb-8">❌It's not for people who blame everyone else for their problems.</p>
           
           <p className="mb-4">But..</p>
           
-          <p className="text-green-600 mb-2">✔If you're someone who's ready to take control of your financial future...</p>
-          <p className="text-green-600 mb-2">✔If you're tired of living paycheck to paycheck...</p>
+          <p className="text-green-600 mb-6">✔If you're someone who's ready to take control of your financial future...</p>
+          <p className="text-green-600 mb-6">✔If you're tired of living paycheck to paycheck...</p>
           <p className="text-green-600 mb-8">✔If you're ready to build something meaningful that could change your family's destiny...</p>
           
           <p className="text-center font-bold text-xl mb-8">
@@ -940,7 +1012,7 @@ export default function SmallBusinessPlaybook() {
             <p className="font-bold text-lg mb-2">OPTION 1: Direct Bank Transfer (Most Popular)</p>
             <p className="mb-2">This is the fastest way for most people to get started:</p>
             <ol className="list-decimal pl-5 mb-4">
-              <li>Transfer ₦5,250 to: [Your Account Details]</li>
+              <li>Transfer ₦6250 to: [Your Account Details]</li>
               <li>Send your payment proof to: thecashologists00@gmail.com</li>
               <li>Include your full name and email address</li>
               <li>Your playbook will be sent to your email within 30 minutes (usually much faster)</li>
@@ -963,7 +1035,7 @@ export default function SmallBusinessPlaybook() {
             <p className="mb-4">The whole process takes less than 2 minutes, and Paystack handles everything securely. You don't need to send emails or wait for manual processing - it's completely automated.</p>
             <div className="text-center">
               <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
-                GET INSTANT ACCESS VIA PAYSTACK - ₦5,250
+                GET INSTANT ACCESS VIA PAYSTACK - ₦6250
               </button>
             </div>
           </div>
@@ -972,7 +1044,7 @@ export default function SmallBusinessPlaybook() {
           
           <div className="text-center mb-8">
             <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg mb-4">
-              GET INSTANT ACCESS VIA PAYSTACK - ₦5,250
+              GET INSTANT ACCESS VIA PAYSTACK - ₦6250
             </button>
             <p className="text-sm">Most convenient - Download immediately after payment</p>
           </div>
@@ -980,7 +1052,7 @@ export default function SmallBusinessPlaybook() {
           <p className="text-center font-bold mb-4">OR</p>
           
           <p className="text-center mb-8">
-            Pay via Bank Transfer: Send ₦5,250 to [Account Details] and email proof to thecashologists00@gmail.com
+            Pay via Bank Transfer: Send ₦6250 to [Account Details] and email proof to thecashologists00@gmail.com
           </p>
           
           <p className="text-center font-bold mb-8">
@@ -1006,7 +1078,7 @@ export default function SmallBusinessPlaybook() {
           <p className="text-center font-bold text-xl mb-8">Choose now.</p>
           
           <div className="border-t-2 border-black pt-4">
-            <p className="font-bold mb-2">P.S. - If you skipped straight to the bottom, here's what you need to know: For just ₦5,250 (less than what you spend on lunch this week), you get the complete step-by-step system that shows employed Nigerians how to build ₦50,000-₦200,000 monthly side businesses without risking their jobs or savings. 60-day money-back guarantee means you literally cannot lose.</p>
+            <p className="font-bold mb-2">P.S. - If you skipped straight to the bottom, here's what you need to know: For just ₦6250 (less than what you spend on lunch this week), you get the complete step-by-step system that shows employed Nigerians how to build ₦50,000-₦200,000 monthly side businesses without risking their jobs or savings. 60-day money-back guarantee means you literally cannot lose.</p>
             <div className="text-center mt-4">
               <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
                 Click here to get instant access now
