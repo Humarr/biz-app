@@ -449,15 +449,17 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           This isn't some imported oyibo advice that doesn't work in Nigeria.
-          This is specifically designed for men dealing with women in our
-          cultural context.
+          
+          
+          <p className="mb-4 text-center text-2xl font-bold">This is specifically designed for men dealing with women in our cultural context.</p>
+          
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-xl">
           Here's just a taste of what you'll discover inside:
         </p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The "Interview Trap" - Why asking too many questions makes her feel
             like she's being interrogated by EFCC (Page 47)
@@ -472,9 +474,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">That's not all...</p>
+        <p className="font-bold mb-4 text-xl">That's not all...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             What to NEVER say when she says "I'm fine" (If you get this wrong,
             she'll shut down emotionally and you'll never know why) (Page 23)
@@ -490,9 +492,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">There's more...</p>
+        <p className="font-bold mb-4 text-xl">There's more...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The "Nice Guy Noose" - How being too agreeable slowly strangles her
             interest in you (Page 67)
@@ -507,9 +509,9 @@ export default function SalesLetter() {
           </li>
         </ul>
 
-        <p className="font-bold mb-4">I'm just getting started...</p>
+        <p className="font-bold mb-4 text-xl">I'm just getting started...</p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>
             The secret body language signal that tells you she wants to be
             kissed (Miss this, and you'll think she's not interested when she's
