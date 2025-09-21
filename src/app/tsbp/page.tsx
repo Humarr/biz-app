@@ -961,13 +961,14 @@ export default function SmallBusinessPlaybook() {
             The difference between successful people and everyone else isn't talent, luck, or connections.
           </p>
           
-          <p className="text-center font-bold mb-8">
+          <p className="text-center font-bold mb-8 text-2xl">
             It's the ability to make decisions quickly and stick with them.
           </p>
           
           <p className="text-red-800 mb-6">❌ Most people take forever to decide and then change their minds quickly.</p>
           <p className="text-green-800 text-xl text-center mb-8">
-            ✔ Successful people decide quickly and rarely change their minds.</p>
+            ✔ Successful people decide quickly and go all in.</p>
+            {/* ✔ Successful people decide quickly and rarely change their minds.</p> */}
           
           <p className="text-center font-bold mb-8">Which type of person are you?</p>
           
