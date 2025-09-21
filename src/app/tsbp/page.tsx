@@ -588,12 +588,12 @@ export default function SmallBusinessPlaybook() {
                 - they create products first, then look for customers. This simple reversal will save you months of wasted effort) - Page 16</li>
 
             <li>Why 87% of Nigerian businesses fail before they even start (The shocking reason has nothing to do with capital, location, or competition 
-                <br/><br/>
+                {/* <br/><br/> */}
                 
                 - once you know this, you'll spot doomed businesses from miles away) - Page 15</li>
 
             <li>The sneaky methods big corporations use to keep you trapped in salary dependency
-            <br/><br/>
+            {/* <br/><br/> */}
                  (They don't want you to know these 3 psychological tricks that keep employees from ever becoming entrepreneurs) - Page 41</li>
 
             <li>What never to do when starting a side business <br/><br/>(If you make this one mistake, your boss will find out within 2 weeks - and you might lose your job) - Page 47</li>
