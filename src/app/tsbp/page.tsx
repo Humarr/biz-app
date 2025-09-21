@@ -17,7 +17,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
-            THE <span className="text-red-600 underline"> "SECRET PLAYBOOK"</span> THAT REVEALS HOW TO START A PROFITABLE SIDE BUSINESS WITHOUT RISKING YOUR JOB OR SAVINGS!
+            THE <span className="text-red-800 underline"> "SECRET PLAYBOOK"</span> THAT REVEALS HOW TO START A PROFITABLE SIDE BUSINESS WITHOUT RISKING YOUR JOB OR SAVINGS!
           </h1>
           
           <p className="text-center text-lg font-bold mb-8">
@@ -134,7 +134,7 @@ export default function SmallBusinessPlaybook() {
             Or have they started to fade around the edges, becoming more like distant wishes than actual plans?
           </p>
           
-          <p className="font-bold mb-4 text-red-600">
+          <p className="font-bold mb-4 text-red-800">
             You see, the most expensive thing you're losing isn't money. It's time.
           </p>
           
@@ -166,13 +166,13 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">The difference? ₦170,000 monthly.</p>
           
-          <p className="font-bold mb-4 text-red-600">
+          <p className="font-bold mb-4 text-red-800">
             That means every month you don't start your business, you're essentially losing ₦170,000 every month.
           </p>
           
           <p className="font-bold mb-4">Every year? That's over ₦2 million naira you're leaving on the table.</p>
           
-          <p className="font-bold mb-8 text-red-600">In 5 years? That's ₦10 million naira in missed opportunity.</p>
+          <p className="font-bold mb-8 text-red-800">In 5 years? That's ₦10 million naira in missed opportunity.</p>
           
           <p className="font-bold mb-4">But the real cost goes deeper than money...</p>
           
@@ -200,7 +200,7 @@ export default function SmallBusinessPlaybook() {
             What about the parents you can't help as much as you'd like because you're barely surviving yourself?
           </p>
           
-          <p className="font-bold mb-4 text-red-600">And here's the craziest part of all...</p>
+          <p className="font-bold mb-4 text-red-800">And here's the craziest part of all...</p>
           
           <p className="mb-4">
             While you're stuck in researching and planning and "getting ready" mode, other people - people no smarter than you, no more talented than you, no more deserving than you - are out there building the exact businesses you keep dreaming about.
@@ -224,9 +224,9 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">Someone just made their first sale from their business.</p>
           
-          <p className="font-bold mb-8 text-red-600">Someone just made their first ₦50,000 while you're still "planning."</p>
+          <p className="font-bold mb-8 text-red-800">Someone just made their first ₦50,000 while you're still "planning."</p>
           
-          <p className="font-bold mb-4 text-red-600">The window of opportunity doesn't stay open forever.</p>
+          <p className="font-bold mb-4 text-red-800">The window of opportunity doesn't stay open forever.</p>
           
           <p className="font-bold mb-4">But here's what gives me hope for you...</p>
           
@@ -391,7 +391,7 @@ export default function SmallBusinessPlaybook() {
             Just practical, proven steps that any employed Nigerian could follow without risking their job or savings.
           </p>
           
-          <p className="font-bold mb-4 text-red-600">
+          <p className="font-bold mb-4 text-red-800">
             The fact is, this wasn't some "get rich quick" scheme or crypto nonsense...
           </p>
           
@@ -538,7 +538,7 @@ export default function SmallBusinessPlaybook() {
             Jeff Bezos didn't start Amazon in his garage because he was broke. He started it while working at a hedge fund, making excellent money. But he knew that staying "safe" was actually the riskiest thing he could do.
           </p>
            */}
-          <p className="font-bold mb-4 text-red-600 text-center">
+          <p className="font-bold mb-4 text-red-800 text-center">
             The fact is, in today's economy, having only one source of income is like having all your eggs in one basket. 
             </p>
             <p className="mb-4">
@@ -668,7 +668,7 @@ export default function SmallBusinessPlaybook() {
             Now, before I reveal how you can get your hands on this complete system, let me ask you something important:
           </p>
           
-          <p className="text-center font-bold mb-4 text-red-600">
+          <p className="text-center font-bold mb-4 text-red-800">
             What's the real cost of staying where you are right now?
           </p>
           
@@ -740,7 +740,7 @@ export default function SmallBusinessPlaybook() {
             So I'm not going to charge you ₦150,000. I'm not even going to charge you ₦100,000.
           </p>
           
-          <p className="text-center font-bold text-2xl text-red-600 mb-4 border-2 border-red-600 p-4">
+          <p className="text-center font-bold text-2xl text-red-800 mb-4 border-2 border-red-800 p-4">
             The complete "Small Business Playbook: How Everyone Can Start, and Grow An Outrageously Profitable Business" - with everything I've shown you and much more - is available for just ₦9250.
           </p>
           
@@ -754,7 +754,7 @@ export default function SmallBusinessPlaybook() {
             ₦9250 is what you might spend on lunch for one day. But this playbook could generate ₦50,000+ monthly for years to come.
           </p>
           
-          <p className="font-bold text-lg not-odd:mb-8 text-red-600">
+          <p className="font-bold text-lg not-odd:mb-8 text-red-800">
             That's a return of nearly 1,000% on your investment in the first month alone!
           </p>
           
@@ -799,7 +799,7 @@ export default function SmallBusinessPlaybook() {
             That's exactly why I'm going to do something that might sound crazy...
           </p>
           
-          <p className="text-center font-bold text-red-600 text-xl mb-4 border-2 border-black p-4">
+          <p className="text-center font-bold text-red-800 text-xl mb-4 border-2 border-black p-4">
             I'm going to let you download this entire playbook, read through every page, implement the strategies, and start seeing results... 
             <br/><br/>
             ...and if you're not completely satisfied for ANY reason within the next 60 days, I'll give you every single naira back.
@@ -879,7 +879,7 @@ export default function SmallBusinessPlaybook() {
             Either this playbook changes your financial life forever (which I'm confident it will), or you get your money back and keep all the information anyway.
           </p>
           
-          <p className="text-center font-bold text-red-600 text-xl mb-8">
+          <p className="text-center font-bold text-red-800 text-xl mb-8">
             I'm taking ALL the risk. You're taking NONE.
           </p>
           
@@ -923,12 +923,12 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">And right now, you have a choice to make...</p>
           
-          <p className="text-red-600 mb-6">
+          <p className="text-red-800 mb-6">
             ❌You can close this page and go back to your normal routine. 
             
             <br/><br/>
             Wake up tomorrow, go to work, collect your salary, struggle through another month, and hope things magically get better.</p>
-          <p className="text-green-600 mb-8">
+          <p className="text-green-800 mb-8">
             ✔ Or you can be the person who does what others won't do today, so you can have what others can't have tomorrow.</p>
           
           <p className="font-bold mb-4 text-center text-2xl">But here's the brutal truth most people don't want to face...</p>
@@ -949,11 +949,11 @@ export default function SmallBusinessPlaybook() {
             He started 6 months ago. If he had waited just 6 more months to "think about it," he would have lost ₦480,000 in income.
           </p>
           
-          <p className="font-bold mb-8 text-xl text-center text-red-600">
+          <p className="font-bold mb-8 text-xl text-center text-red-800">
             Six months from now, you'll either be celebrating your first ₦100,000 month and thanking yourself for taking action today...
           </p>
           
-          <p className="font-bold mb-8 text-red-600">
+          <p className="font-bold mb-8 text-red-800">
             Or you'll still be reading articles like this one, still dreaming, still wishing, still stuck in the same place you are right now.
           </p>
           
@@ -965,7 +965,7 @@ export default function SmallBusinessPlaybook() {
             It's the ability to make decisions quickly and stick with them.
           </p>
           
-          <p className="text-red-600 mb-6">❌ Most people take forever to decide and then change their minds quickly.</p>
+          <p className="text-red-800 mb-6">❌ Most people take forever to decide and then change their minds quickly.</p>
           <p className="text-green-800 text-xl text-center mb-8">
             ✔ Successful people decide quickly and rarely change their minds.</p>
           
@@ -1016,9 +1016,9 @@ export default function SmallBusinessPlaybook() {
             Because I'll be honest with you... this playbook isn't for everyone.
           </p>
           
-          <p className="text-red-600 mb-6">❌It's not for people who want to get rich overnight without working.</p>
-          <p className="text-red-600 mb-6">❌It's not for people who make excuses instead of taking action.</p>
-          <p className="text-red-600 mb-8">❌It's not for people who blame everyone else for their problems.</p>
+          <p className="text-red-800 mb-6">❌It's not for people who want to get rich overnight without working.</p>
+          <p className="text-red-800 mb-6">❌It's not for people who make excuses instead of taking action.</p>
+          <p className="text-red-800 mb-8">❌It's not for people who blame everyone else for their problems.</p>
           
           <p className="mb-4">But..</p>
           
@@ -1032,7 +1032,7 @@ export default function SmallBusinessPlaybook() {
           
           <p className="text-center font-bold mb-8">The choice is yours.</p>
           
-          <p className="text-center font-bold text-red-600 text-xl mb-8">But choose now...</p>
+          <p className="text-center font-bold text-red-800 text-xl mb-8">But choose now...</p>
           
           <p className="font-bold mb-4">
             Here's exactly how to get your copy of "The Small Business Playbook" and start building your financial freedom today:
@@ -1076,7 +1076,7 @@ export default function SmallBusinessPlaybook() {
             <p className="mb-4">The whole process takes less than 2 minutes, and Paystack handles everything securely. You don't need to send emails or wait for manual processing - it's completely automated.</p>
             <div className="text-center">
             <Link href="https://paystack.shop/pay/tsbp">
-              <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
+              <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
                 GET INSTANT ACCESS VIA PAYSTACK - ₦9250
               </button>
               </Link>
@@ -1087,7 +1087,7 @@ export default function SmallBusinessPlaybook() {
           
           <div className="text-center mb-8">
             <Link href="https://paystack.shop/pay/tsbp">
-            <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg mb-4">
+            <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg mb-4">
               GET INSTANT ACCESS VIA PAYSTACK - ₦9250
             </button>
             </Link>
@@ -1145,7 +1145,7 @@ export default function SmallBusinessPlaybook() {
                 60-day money-back guarantee means you literally cannot lose.</p>
             <div className="text-center mt-4">
                 <Link href="https://paystack.shop/pay/tsbp">
-              <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
+              <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
                 Click here to get instant access now
               </button>
               </Link>
