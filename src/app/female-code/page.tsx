@@ -1086,6 +1086,17 @@ export default function SalesLetter() {
           see results, I'll give you every single naira back.
         </p>
 
+        <div className="my-6 flex justify-center">
+  <Image 
+    src="/female-code/risk-reversal.png" 
+    alt="Risk Reversal" 
+    width={600} 
+    height={300}
+    className="rounded-lg"
+  />
+</div>
+
+
         <p className="text-center font-bold mb-4">
           No questions asked. No hassles. No "store credit" nonsense.
         </p>
