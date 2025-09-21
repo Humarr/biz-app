@@ -28,10 +28,10 @@ export default function SalesLetter() {
 
         <p className="text-center font-bold mb-6">NEW research shows:</p>
 
-        <h2 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
+        <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
           THE <span className="text-red-700 underline">"FEMALE CODE"</span> THAT
           REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU!
-        </h2>
+        </h1>
 
         <p className="text-center font-bold mb-8">
           And now you can use this to get any woman to want to "drop her pants"
