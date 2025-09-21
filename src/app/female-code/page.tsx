@@ -1115,16 +1115,16 @@ export default function SalesLetter() {
 
         <p className="mb-4 italic text-xl">
           "This sounds too good to be true." 
-          <br/>
+          <br/><br/>
           " What if it doesn't work for me?"
           <br/>
-          
-          "What if I'm different?"
           <br/>
+          "What if I'm different?"
+          <br/><br/>
           
           "What if I waste my money like I've done so many
           times before?"
-          <br/>
+          <br/><br/>
         </p>
 
         <p className="mb-4">
