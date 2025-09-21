@@ -993,7 +993,7 @@ export default function SalesLetter() {
           ₦20,000? ₦50,000? ₦100,000? Maybe even more?
         </p>
 
-        <p className="font-bold mb-4">And what about the emotional cost?</p>
+        <p className="font-bold text-lg mb-4">And what about the emotional cost?</p>
 
         <p className="mb-4">
           The sleepless nights wondering why she stopped texting back...
@@ -1009,7 +1009,7 @@ export default function SalesLetter() {
           again...
         </p>
 
-        <p className="font-bold mb-4 text-red-600">
+        <p className="font-bold mb-4 text-lg text-red-600">
           Can you really put a price on ending all of that suffering forever?
         </p>
 
@@ -1017,22 +1017,22 @@ export default function SalesLetter() {
           But let's talk about the positive side...
         </p>
 
-        <p className="mb-4 italic">
+        <p className="mb-4 italic text-xl">
           What's it really worth to have beautiful women competing for your
           attention?
         </p>
 
-        <p className="mb-4 italic">
+        <p className="mb-4 italic text-xl">
           What's it worth to never wonder "does she like me?" because you'll
           know exactly how to read her signals?
         </p>
 
-        <p className="mb-4 italic">
+        <p className="mb-4 italic text-xl">
           What's it worth to have the confidence to approach any woman anywhere
           without fear of rejection?
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 text-xl">
           Conservative estimate... if this system saves you just ₦20,000 in
           wasted dating expenses over the next year (and trust me, it will save
           you much more), you'll already come out ahead.
@@ -1059,11 +1059,11 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           Honestly, if I wanted to, I could easily charge ₦50,000 for this
-          information. That's what most relationship coaches in Lagos charge for
+          information. That's what most relationship coaches charge for
           just one consultation session.
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 text-center text-2xl font-bold">
           In fact, some of the "gurus" you see on Instagram charging ₦100,000
           for their "masterclasses" don't know half of what's inside The Female
           Code.
@@ -1092,7 +1092,7 @@ export default function SalesLetter() {
           It's less than what you'd spend on drinks for one night out.
         </p>
 
-        <p className="mb-8 italic">
+        <p className="mb-8 italic text-xl">
           It's probably less than what you spent on the last woman who rejected
           you anyway.
         </p>
@@ -1107,10 +1107,18 @@ export default function SalesLetter() {
           Now listen, I know what you might be thinking right now...
         </p>
 
-        <p className="mb-4 italic">
-          "This sounds too good to be true. What if it doesn't work for me? What
-          if I'm different? What if I waste my money like I've done so many
+        <p className="mb-4 italic text-xl">
+          "This sounds too good to be true." 
+          <br/>
+          " What if it doesn't work for me?"
+          <br/>
+          
+          "What if I'm different?"
+          <br/>
+          
+          "What if I waste my money like I've done so many
           times before?"
+          <br/>
         </p>
 
         <p className="mb-4">
@@ -1133,7 +1141,7 @@ export default function SalesLetter() {
           something that might seem crazy to you...
         </p>
 
-        <p className="text-center font-bold text-red-600 text-xl mb-4 border-2 border-black p-4">
+        <p className="text-center font-bold text-red-600 text-2xl mb-4 border-2 border-black p-4">
           I'm going to let you download The Female Code, read through the entire
           system, test every single strategy and technique... and if you don't
           see results, I'll give you every single naira back.
@@ -1160,27 +1168,32 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           Once you download The Female Code, it's on your phone or computer
-          forever. I can't take back the knowledge. I can't delete the
-          strategies from your brain. I can't make you "unread" the
+          forever. I can't take back the knowledge. 
+          
+          <br/>
+          I can't delete the
+          strategies from your brain. 
+          <br/>
+          I can't make you "unread" the
           psychological secrets that will change how you see women forever.
         </p>
 
         <p className="font-bold mb-4 text-red-600">
           You could literally download the entire system right now, read every
-          page, learn all the techniques, start using them to attract women...
+          page, learn all the techniques, start using them to attract women...<br/>
           and then email me tomorrow asking for a full refund.
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 text-center text-lg">
           And you know what? I'd give it to you immediately.
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-xl text-center">
           That means you could potentially get all this life-changing
           information completely free and rip me off in the process.
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 font-bold">
           I'm basically trusting that you're an honest person who won't take
           advantage of me like that.
         </p>
