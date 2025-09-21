@@ -440,41 +440,48 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4 text-2xl text-red-700 text-center">But first, who the heck am I to be writing to you about business success?</p>
           
-          <p className="mb-4">
-            Look, I'm not going to stand here and tell you I'm some billionaire guru or business genius. I'm just a regular Nigerian who figured out what actually works.
+          <p className="mb-4 text-center">
+            Look, I'm not going to stand here and tell you I'm some billionaire guru or business genius. 
+            </p>
+            
+            <p className="mb-4">
+            I'm just a regular Nigerian who figured out what actually works.
           </p>
           
           <p className="mb-4">
             But you know what? I don't need to be a billionaire for this to make sense...
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-xl font-bold">
             You see, some of the smartest business minds in history have been saying exactly what I discovered:
           </p>
           
-          <p className="mb-4 italic">
+          <p className="mb-4 italic text-lg text-center">
             Warren Buffett, the world's most successful investor, once said: "Someone's sitting in the shade today because someone planted a tree a long time ago."
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-center text-xl font-bold">
             The thing is, while I was sitting there scared to plant my first business "tree," other employed people were quietly building their financial forests.
           </p>
           
           <p className="font-bold mb-4">And here's what really opened my eyes...</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             According to the Global Entrepreneurship Monitor, over 84% of successful businesses globally are started by people who kept their day jobs during the early stages.
           </p>
           
-          <p className="mb-4 font-bold">Wait, what? You mean most successful entrepreneurs didn't quit their jobs and risk everything?</p>
+          <p className="mb-4 font-bold text-2xl text-red-800">Wait, what? You mean most successful entrepreneurs didn't quit their jobs and risk everything?</p>
           
           <p className="text-center font-bold mb-4">Exactly!</p>
           
           <p className="mb-4">
-            In fact, Sara Blakely, founder of Spanx (now worth over $1 billion), worked full-time selling fax machines for 7 years while building her business on the side. She didn't quit her job until her side business was making more money than her salary.
+            In fact, Sara Blakely, founder of Spanx (now worth over $1 billion), worked full-time selling fax machines for 7 years while building her business on the side. 
+            </p>
+            <p className="mb-8 font-bold text-red-800">
+            She didn't quit her job until her side business was making more money than her salary.
           </p>
           
-          <p className="font-bold mb-4">But here's the part that really blew my mind...</p>
+          <p className="font-bold mb-4 text-2xl text-center">But here's the part that really blew my mind...</p>
           
           <p className="mb-4 italic">
             Richard Branson, founder of Virgin Group, said: "Business opportunities are like buses, there's always another one coming."
@@ -486,13 +493,13 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">You see, even in Nigeria, the statistics are encouraging...</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-center font-bold text-2xl">
             A recent study by the Nigerian Bureau of Statistics showed that 68% of small businesses that survive their first 5 years were started as side hustles by employed individuals.
           </p>
           
           <p className="font-bold mb-4">Stick with me here, because this gets even better...</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             The same study revealed that employed people who start side businesses are 3x more likely to succeed than those who quit their jobs first.
           </p>
           
@@ -505,10 +512,13 @@ export default function SmallBusinessPlaybook() {
           <p className="font-bold mb-4">But wait, there's more...</p>
           
           <p className="mb-4">
-            You know what the Central Bank of Nigeria reported last year? That the average Nigerian saves only 2.4% of their income. Meanwhile, inflation is eating away at whatever little we manage to save.
+            You know what the Central Bank of Nigeria reported last year? 
+            </p>
+            <p className="mb-4">
+            That the average Nigerian saves only 2.4% of their income. Meanwhile, inflation is eating away at whatever little we manage to save.
           </p>
           
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-2xl text-center ">
             The math is simple - if you're not creating additional income streams, you're actually getting poorer every year.
           </p>
           
@@ -518,13 +528,13 @@ export default function SmallBusinessPlaybook() {
           
           <p className="mb-4 font-bold">But how can you live your dreams when you're trapped in a cycle of barely surviving?</p>
           
-          <p className="font-bold mb-4">Here's what really convinced me though...</p>
+          <p className="font-bold text-xl mb-4">Here's what really convinced me though...</p>
           
-          <p className="mb-4">
+          {/* <p className="mb-4">
             Jeff Bezos didn't start Amazon in his garage because he was broke. He started it while working at a hedge fund, making excellent money. But he knew that staying "safe" was actually the riskiest thing he could do.
           </p>
-          
-          <p className="font-bold mb-4 text-red-600">
+           */}
+          <p className="font-bold mb-4 text-red-600 text-center">
             The fact is, in today's economy, having only one source of income is like having all your eggs in one basket. And we've all seen what happens when that basket breaks...
           </p>
           
