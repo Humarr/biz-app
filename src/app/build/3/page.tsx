@@ -21,7 +21,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="font-bold mb-4">It doesn't matter if:</p>
-          <ul className="list-disc pl-5 mb-8">
+          <ul className="list-disc pl-5 mb-8 space-y-4">
             <li>You've never started a business before</li>
             <li>You have zero capital to invest</li>
             <li>You work 10+ hours daily and barely have free time</li>
@@ -30,7 +30,7 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-2">Dear Friend,</p>
           
-          <p className="mb-4">
+          {/* <p className="mb-4">
             You've likely researched every "business opportunity" that's come along.
           </p>
           
@@ -230,7 +230,7 @@ export default function SmallBusinessPlaybook() {
             The fact that you're still reading this tells me something important. It tells me you haven't given up. Deep down, you still believe you can have more. You still believe you deserve better.
           </p>
           
-          <p className="text-center font-bold mb-8">And you're right.</p>
+          <p className="text-center font-bold mb-8">And you're right.</p> */}
           
           <p className="mb-4">
             You see, I know exactly how you feel right now because I was once in the exact same place...
