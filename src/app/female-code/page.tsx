@@ -34,8 +34,9 @@ export default function SalesLetter() {
         </h1>
 
         <p className="text-center font-bold mb-8">
-          And now you can use this to get any woman to want to "drop her pants"
-          for you in less than 7 days!
+          And now you can use this to get any woman obsessed over you in less than 7 days!
+          {/* And now you can use this to get any woman to want to "drop her pants"
+          for you in less than 7 days! */}
         </p>
 
         <p className="font-bold mb-4">It doesn't matter if:</p>
