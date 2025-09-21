@@ -681,7 +681,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="mb-4 font-bold">
-            If this playbook helps you generate just ₦100,000 extra monthly (and most of our followers make much more), that's ₦1,200,000 annually you're leaving on the table by not starting.
+            If this playbook helps you generate just ₦100,000 extra monthly (and most people make much more), that's ₦1,200,000 annually you're leaving on the table by not starting.
           </p>
           
           <p className="font-bold mb-4">But let's be even more conservative...</p>
