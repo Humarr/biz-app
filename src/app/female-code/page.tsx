@@ -7,7 +7,7 @@ export default function SalesLetter() {
     return (
       <div className="bg-[#f7f7f7] min-h-screen py-8 px-4 font-serif">
         <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
-          <h1 className="text-3xl font-bold text-center mb-6">
+          <h1 className="text-xl font-bold text-center mb-6">
             If you knew the TRUE REASON why every woman rejects you...you'd NEVER see women the same way again.
             {/* If you knew the TRUE REASON why every woman "forms" for you...you'd NEVER see women the same way again. */}
           </h1>
@@ -16,8 +16,8 @@ export default function SalesLetter() {
             NEW research shows:
           </p>
           
-          <h2 className="text-2xl font-bold text-center mb-6 border-2 border-black p-4">
-            THE "FEMALE CODE" THAT REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU!
+          <h2 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
+            THE <span className="text-red-700">"FEMALE CODE"</span> THAT REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU!
           </h2>
           
           <p className="text-center font-bold mb-8">
@@ -766,14 +766,14 @@ export default function SalesLetter() {
             <p className="mb-2">This is the fastest way to get started:</p>
             <ol className="list-decimal pl-5 mb-4">
               <li>Transfer ₦5250 to my account (details below)</li>
-              <li>Send your payment proof to thecahologists00@gmail.com</li>
+              <li>Send your payment proof to thecashologists00@gmail.com</li>
               <li>You'll receive The Female Code in your email within minutes</li>
             </ol>
             <p className="font-bold">Bank Details: 
                 
-                Bank name: OPAY
-                Account Name: Umar Saadu
-                Account number: 6141949210
+                {"\n"}Bank name: OPAY
+                {"\n"}Account Name: Umar Saadu
+                {"\n"}Account number: 6141949210
                 </p>
           </div>
           
