@@ -1052,11 +1052,11 @@ export default function SmallBusinessPlaybook() {
               <p className="font-bold">
             Bank Details:
             <br />
-            Bank name: OPAY
+            Bank name: GTBank
             <br />
             Account Name: Umar Saadu
             <br />
-            Account number: 6141949210
+            Account number: 0495076758
           </p>
               </li>
               <li>Send your payment proof to: thecashologists00@gmail.com</li>
@@ -1107,11 +1107,11 @@ export default function SmallBusinessPlaybook() {
             <p className="font-bold">
             Bank Details:
             <br />
-            Bank name: OPAY
+            Bank name: GTBank
             <br />
             Account Name: Umar Saadu
             <br />
-            Account number: 6141949210
+            Account number: 0495076758
           </p> 
           <br/>
           ...and email proof to thecashologists00@gmail.com
