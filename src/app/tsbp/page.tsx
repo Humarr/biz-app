@@ -576,14 +576,19 @@ export default function SmallBusinessPlaybook() {
             And today, for the first time ever, I'm making this complete system available to regular Nigerians who are tired of watching their dreams die while they survive on salary.
           </p>
           
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-lg">
             But before I tell you how to get your hands on this playbook, let me show you just a tiny sample of what's waiting inside:
           </p>
           
           <ul className="list-disc pl-5 mb-8 space-y-4">
-            <li>The "STARVING CROWD" revelation that makes any business idea 10x more likely to succeed (Most people start businesses backwards - they create products first, then look for customers. This simple reversal will save you months of wasted effort) - Page 16</li>
+            <li>The "STARVING CROWD" revelation that makes any business idea 10x more likely to succeed (Most people start businesses backwards 
+                <br/>
+                - they create products first, then look for customers. This simple reversal will save you months of wasted effort) - Page 16</li>
+
             <li>Why 87% of Nigerian businesses fail before they even start (The shocking reason has nothing to do with capital, location, or competition - once you know this, you'll spot doomed businesses from miles away) - Page 15</li>
+
             <li>The sneaky methods big corporations use to keep you trapped in salary dependency (They don't want you to know these 3 psychological tricks that keep employees from ever becoming entrepreneurs) - Page 41</li>
+            
             <li>What never to do when starting a side business (If you make this one mistake, your boss will find out within 2 weeks - and you might lose your job) - Page 47</li>
           </ul>
           
