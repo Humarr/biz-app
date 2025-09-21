@@ -911,11 +911,11 @@ export default function SmallBusinessPlaybook() {
           <p className="text-green-800 mb-6">✔You're not like the 97% of Nigerians who will read something like this and do nothing.</p>
           <p className="text-green-800 mb-8">✔You're part of the 3% who actually take action when opportunity presents itself.</p>
           
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-lg">
             Here's what separates successful people from everyone else: When they see a proven system that could change their life... 
             </p>
             
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-lg">
             ...they don't hesitate. They don't overthink it. They don't wait for the "perfect time."
           </p>
           
