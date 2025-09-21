@@ -40,7 +40,7 @@ export default function SalesLetter() {
         </p>
 
         <p className="font-bold mb-4">It doesn't matter if:</p>
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>You're short, broke, fat, or old...</li>
           <li>Your thing is so small she might laugh</li>
           <li>You're so scared you shake when talking to fine girls</li>
@@ -48,7 +48,7 @@ export default function SalesLetter() {
 
         <p className="font-bold mb-2">Dear Friend,</p>
 
-        <p className="mb-4 bold">
+        {/* <p className="mb-4 bold">
           You've tried every dating advice that's come your way. 
           </p>
           <p className="mb-4">
@@ -90,7 +90,7 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           Maybe you're starting to think there's something fundamentally wrong
-          with you, or that you're just destined to be alone while other guys
+          with you...or that you're just destined to be alone while other guys
           effortlessly attract the women you want.
         </p>
 
@@ -163,7 +163,7 @@ export default function SalesLetter() {
           The choice is yours, but time is not on your side.
         </p>
 
-        <p className="mb-4 bold text-xl text-center">Because...</p>
+        <p className="mb-4 bold text-xl text-center">Because...</p> */}
 
         <p className="mb-4">
           You see, just last Tuesday night, I got a WhatsApp voice note that
