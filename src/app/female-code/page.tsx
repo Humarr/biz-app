@@ -21,7 +21,7 @@ export default function SalesLetter() {
           </h2>
           
           <p className="text-center font-bold mb-8">
-            And now you can use this to get any woman to chase you in less than 7 days!
+            And now you can use this to get any woman to want to drop her pants for you in less than 7 days!
           </p>
           
           <p className="font-bold mb-4">It doesn't matter if:</p>
@@ -125,7 +125,7 @@ export default function SalesLetter() {
           </ul>
           
           <p className="text-center font-bold mb-8">
-            This same secret code will show you exactly how to make any woman chase you like you're the last man on earth.
+            This same secret code will show you exactly how to make any woman obsess over you like you're the last man on earth.
           </p>
           
           <p className="font-bold mb-4">But first, who the hell is this guy writing to you?</p>
@@ -258,7 +258,7 @@ export default function SalesLetter() {
             <li>The Scarcity Switch - Why being slightly unavailable multiplies your value instantly (Page 105)</li>
             <li>The Challenge Channel - How light teasing creates more attraction than compliments ever will (Page 112)</li>
             <li>The Leader Lock - Why women are biologically programmed to follow confident direction (Page 119)</li>
-            <li>The Mystery Magnet - How revealing just enough (but not everything) keeps her obsessed (Page 127)</li>
+            <li>The Mystery Magnet - How revealing just enough (but not everything) keeps her obsessed over you (Page 127)</li>
           </ul>
           
           <p className="font-bold mb-4">That's still not all...</p>
@@ -272,7 +272,7 @@ export default function SalesLetter() {
           <p className="font-bold mb-4">And there's even more...</p>
           
           <ul className="list-disc pl-5 mb-8">
-            <li>Women make 90% of their decisions about you in the first 3 minutes... Here's how to hack those crucial 180 seconds and make her obsessed from the start (Page 163)</li>
+            <li>Women make 90% of their decisions about you in the first 3 minutes... Here's how to hack those crucial 180 seconds and make her obsessed with you from the start (Page 163)</li>
             <li>The average woman receives 50+ messages per day on social media... Here's the psychological pattern that makes yours the ONLY one she responds to (Page 171)</li>
             <li>How to walk into any social event and have women approach YOU instead of you chasing them around like a hungry dog (Page 178)</li>
           </ul>
@@ -299,7 +299,7 @@ export default function SalesLetter() {
           <ul className="list-disc pl-5 mb-8">
             <li>If you can send a WhatsApp message, then you can make any woman obsessed with texting you back (Page 234)</li>
             <li>If you can have a normal conversation with your male friends, then you can learn to create sexual tension with women (Page 241)</li>
-            <li>If you can negotiate a business deal, then you can master the psychology that makes women chase you (Page 248)</li>
+            <li>If you can negotiate a business deal, then you can master the psychology that makes women addicted to you (Page 248)</li>
           </ul>
           
           <p className="font-bold mb-4">And there's still much more...</p>
@@ -334,7 +334,7 @@ export default function SalesLetter() {
           <ul className="list-disc pl-5 mb-8">
             <li>3 words that make any woman instantly see you as boyfriend material instead of just another guy trying to get in her pants (Page 339)</li>
             <li>5 deadly mistakes that instantly kill attraction ( men make #3 every single day without knowing it) (Page 346)</li>
-            <li>The 7 psychological triggers that make women chase men (Most guys accidentally trigger the opposite) (Page 353)</li>
+            <li>The 7 psychological triggers that make women obsess over men (Most guys accidentally trigger the opposite) (Page 353)</li>
             <li>4 simple body language changes that make you instantly more attractive to every woman in the room (Page 360)</li>
           </ul>
           
@@ -826,7 +826,7 @@ export default function SalesLetter() {
           <p className="text-center mb-8">To your dating success.</p>
           
           <div className="border-t-2 border-black pt-4">
-            <p className="font-bold mb-2">P.S. - Remember, for just ₦5250 - less than you'd spend on one disappointing date - you get the complete psychological blueprint that will make any woman chase you instead of you chasing her, plus my iron-clad money-back guarantee that puts all the risk on me.</p>
+            <p className="font-bold mb-2">P.S. - Remember, for just ₦5250 - less than you'd spend on one disappointing date - you get the complete psychological blueprint that will make any woman obsessed with you instead of you chasing her, plus my iron-clad money-back guarantee that puts all the risk on me.</p>
             <div className="text-center mt-4">
             <Link href="https://paystack.shop/pay/3e8ubwfmr0">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded text-lg">
