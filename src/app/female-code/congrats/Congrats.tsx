@@ -28,7 +28,7 @@ export default function Congrats() {
     try {
       const response = await axios.get(`/api/verify-payment?reference=${ref}`);
       if (response.data.status === 'success') {
-        const downloadResponse = await axios.get('/api/get-download-url');
+        const downloadResponse = await axios.get('/api/get-female-code-download-url');
         if (downloadResponse.data.downloadUrl) {
           setDownloadUrl(downloadResponse.data.downloadUrl);
           setStatus('success');
