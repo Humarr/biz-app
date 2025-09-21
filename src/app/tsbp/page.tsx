@@ -1005,11 +1005,11 @@ export default function SmallBusinessPlaybook() {
             This is your chance to break free from the salary trap that keeps most Nigerians broke their entire lives.
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             You're smart enough to know that the best investment you can make is in yourself and your financial education.
           </p>
           
-          <p className="text-center font-bold mb-8">
+          <p className="mb-8 text-lg text-center font-bold">
             And you're brave enough to bet on yourself when you find the right opportunity.
           </p>
           
@@ -1017,7 +1017,7 @@ export default function SmallBusinessPlaybook() {
           
           <p className="text-center font-bold mb-8">The question is whether you're ready to do what it takes to make it work.</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-center text-lg text-red-900 font-bold">
             Because I'll be honest with you... this playbook isn't for everyone.
           </p>
           
