@@ -237,6 +237,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="font-bold mb-4">
+            {/* In fact, let me tell you about the day that changed everything for me. The day I realized I couldn't continue living this way anymore... */}
             In fact, let me tell you about the day that changed everything for me. The day I realized I couldn't continue living this way anymore...
           </p>
           
@@ -252,8 +253,8 @@ export default function SmallBusinessPlaybook() {
             My salary? Already spent on transport, food, and that "small small" help I gave my mother last week.
           </p>
           
-          <p className="text-center font-bold italic mb-4">
-            "Tunde, you're 29 years old. When will you buy your own car? When will you move to a better area? Your mates are building houses already!"
+          <p className="text-center font-bold text-xl italic mb-4">
+            "Tunde, you're 29 years old. When will you buy your own car? When will you move to a better area? Your mates are bgetting married already!"
           </p>
           
           <p className="mb-4">
@@ -263,34 +264,44 @@ export default function SmallBusinessPlaybook() {
           <p className="font-bold mb-4">But you see, this wasn't the first time I felt this shame...</p>
           
           <p className="mb-4">
-            In fact, I'd been thinking about starting a business for over 3 years. Every month, same story. Check Instagram, see my classmates posting their new cars, new apartments, business openings. Then check my account balance and feel like a complete failure.
+            In fact, I'd been thinking about starting a business for over 3 years. Every month, same story... 
+            </p>
+            <p className="mb-4">
+            Check Instagram, see my classmates posting their new cars, new apartments, business openings. Then check my account balance and feel like a complete failure.
           </p>
           
-          <p className="mb-4">I had tried everything...</p>
+          <p className="mb-4 text-lg">I had tried everything...</p>
           
           <p className="mb-4">
-            I researched drop shipping for months. Never started. I downloaded cryptocurrency trading courses. Never opened them. I even bought domain names for 4 different business ideas. Never built the websites.
+            I researched drop shipping for months. Never started. 
+            </p>
+            <p className="mb-4">
+            I downloaded cryptocurrency trading courses. Never opened them. 
+            
+            </p>
+            <p className="mb-4">
+            I even bought domain names for 4 different business ideas. Never built the websites.
           </p>
           
-          <p className="font-bold mb-4">Why?</p>
+          <p className="font-bold text-center text-2xl mb-4">Why?</p>
           
           <p className="mb-4">
             The thing is, every time I got close to taking action, the fear would hit me like a Lagos trailer:
           </p>
           
-          <p className="mb-4 italic">
+          <p className="mb-4 italic text-lg text-center">
             "What if I lose the little money I have?"
           </p>
           
-          <p className="mb-4 italic">
+          <p className="mb-4 italic text-lg text-center">
             "What if my boss finds out and fires me?"
           </p>
           
-          <p className="mb-4 italic">
+          <p className="mb-4 italic text-lg text-center">
             "What if my girlfriend thinks I'm being foolish?"
           </p>
           
-          <p className="mb-8 italic">
+          <p className="mb-8 italic text-lg text-center">
             "What if I fail and everyone laughs at me?"
           </p>
           
@@ -304,8 +315,8 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">But that phone call changed everything...</p>
           
-          <p className="mb-4">
-            You see, it was my bank calling to inform me that my account would be closed for insufficient funds. ₦4,500 for a whole month's expenses? I was officially broke.
+          <p className="mb-4 text-lg">
+            You see, it was my landlord calling to inform me that I have only two weeks to pay my rent or he'd send me out. ₦4,500 for a whole month's expenses? I was officially broke.
           </p>
           
           <p className="mb-4">
@@ -322,23 +333,37 @@ export default function SmallBusinessPlaybook() {
           
           <p className="text-center font-bold mb-8">I was fed up. Completely finished.</p>
           
-          <p className="font-bold mb-4">But wait, the story gets worse...</p>
+          <p className="font-bold mb-4 text-center text-lg">But wait, the story gets worse...</p>
           
           <p className="mb-4">
-            The next day at work, I overheard two of my junior colleagues talking about their side businesses. One was selling imported skincare products and making ₦80,000 monthly profit. The other was running a small food delivery service, making ₦120,000 monthly.
+            The next day at work, I overheard two of my junior colleagues talking about their side businesses. 
+            </p>
+            <p className="mb-4">
+            One was selling imported skincare products and making ₦80,000 monthly profit. 
+            
+            </p>
+            <p className="mb-4">
+            The other was running a small food delivery service, making ₦120,000 monthly.
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-2xl text-center font-bold">
             These guys were younger than me. Had less experience than me. But they were making more money in their "spare time" than I was making from my full-time job!
           </p>
           
-          <p className="mb-4 italic">Sounds unbelievable, right?</p>
+          <p className="mb-4 italic text-lg">Sounds unbelievable, right?</p>
           
           <p className="mb-4">
-            That's exactly what I thought. Until I saw their bank statements. Until I saw their customers calling to place orders. Until I realized they had cracked a code I'd been too scared to learn.
+            That's exactly what I thought. 
+            <br/><br/>
+            Until I saw their bank statements. 
+            <br/><br/>
+            Until I saw their customers calling to place orders. 
+            
+            <br/><br/>
+            Until I realized they had cracked a code I'd been too scared to learn.
           </p>
           
-          <p className="font-bold mb-8">
+          <p className="font-bold text-lg mb-8">
             Stick with me here, because what happened next will change how you think about side businesses forever...
           </p>
           
@@ -346,39 +371,54 @@ export default function SmallBusinessPlaybook() {
             You see, I cornered Emeka (the skincare guy) during lunch break and practically begged him to tell me his secret.
           </p>
           
-          <p className="text-center font-bold italic mb-4">
+          <p className="text-center font-bold text-lg italic mb-4">
             "Tunde," he said, laughing, "there's no secret. I just followed a simple system that removes all the guesswork and fear."
           </p>
           
           <p className="mb-4 font-bold">"What system?" I asked desperately.</p>
           
           <p className="mb-4">
-            He pulled out his phone and showed me a step-by-step playbook. Nothing fancy. No complicated theories. Just practical, proven steps that any employed Nigerian could follow without risking their job or savings.
+            He pulled out his phone and showed me a step-by-step playbook. 
+            <br/><br/>
+            Nothing fancy. 
+            <br/><br/>
+            No complicated theories. 
+            <br/><br/><br/>
+            Just practical, proven steps that any employed Nigerian could follow without risking their job or savings.
           </p>
           
           <p className="font-bold mb-4 text-red-600">
             The fact is, this wasn't some "get rich quick" scheme or crypto nonsense...
           </p>
           
-          <p className="mb-4">
-            It was a real business system designed specifically for people like us - employed Nigerians who wanted financial freedom but couldn't afford to lose our current security.
+          <p className="mb-8 text-2xl font-bold text-center">
+            It was a real business system designed specifically for people like us - employed Nigerians who wanted financial freedom but couldn't afford to lose our current jobs.
           </p>
           
-          <p className="mb-4 font-bold">Wait, what? A business system that actually worked without massive risk or startup capital?</p>
+          <p className="mb-4 font-bold text-lg">Wait, what? A business system that actually worked without massive risk or startup capital?</p>
           
           <p className="mb-4">
             I was skeptical, but desperate enough to try anything.
           </p>
           
           <p className="mb-4">
-            Three months later, I was making an extra ₦95,000 monthly from my side business. Six months later, ₦180,000. Today, I make more from my "side hustle" than my main job, and I've helped over 200 other employed Nigerians do the same.
+            Three months later, I was making an extra ₦95,000 monthly from my side business. 
+            </p>
+            <p className="mb-4">
+            Six months later, ₦180,000. Today, I make more from my "side hustle" than my main job, and I've helped over 200 other employed Nigerians do the same.
           </p>
           
           <p className="mb-4">
-            The beautiful thing? My boss still doesn't know. My family just thinks I got a salary raise. And I sleep peacefully knowing that if anything happens to my job tomorrow, I'll be just fine.
+            The beautiful thing? My boss still doesn't know. 
+            </p>
+            <p className="mb-4">
+            My family just thinks I got a salary raise. 
+            </p>
+            <p className="mb-4">
+            And I sleep peacefully knowing that if anything happens to my job tomorrow, I'll be just fine.
           </p>
           
-          <p className="font-bold mb-4 text-red-600">But here's what shocked me the most...</p>
+          <p className="font-bold text-lg mb-4 text-red-800">But here's what shocked me the most...</p>
           
           <p className="mb-4">
             All those years I spent researching and thinking and planning? Complete waste of time.
@@ -390,7 +430,7 @@ export default function SmallBusinessPlaybook() {
           
           <p className="font-bold mb-4">You see, the problem was never that I wasn't smart enough or didn't have good ideas...</p>
           
-          <p className="text-center font-bold mb-8">
+          <p className="text-center font-bold text-xl mb-8">
             The real problem was that I was trying to figure out everything from scratch instead of following a proven blueprint that already worked for people exactly like me.
           </p>
           
@@ -398,7 +438,7 @@ export default function SmallBusinessPlaybook() {
             Stick with me, because I'm about to share this exact blueprint with you...
           </p>
           
-          <p className="font-bold mb-4">But first, who the heck am I to be writing to you about business success?</p>
+          <p className="font-bold mb-4 text-2xl text-red-700 text-center">But first, who the heck am I to be writing to you about business success?</p>
           
           <p className="mb-4">
             Look, I'm not going to stand here and tell you I'm some billionaire guru or business genius. I'm just a regular Nigerian who figured out what actually works.
