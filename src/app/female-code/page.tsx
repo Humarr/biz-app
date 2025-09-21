@@ -36,7 +36,7 @@ export default function SalesLetter() {
 
         <p className="font-bold mb-2">Dear Friend,</p>
 
-        <p className="mb-4">
+        <p className="mb-4 bold">
           You've tried every dating advice that's come your way. 
           </p>
           <p className="mb-4">
@@ -88,7 +88,7 @@ export default function SalesLetter() {
           Think about it for a second. You're how old now? 25? 30? 35? Maybe
           older?
         </p>
-        <p className="mb-4">
+        <p className="mb-4 bold text-xl text-center">
           How many more years are you going to waste being confused by women
           while your friends get into serious relationships and start families?
         </p>
@@ -126,11 +126,19 @@ export default function SalesLetter() {
           behind while they get further ahead.
         </p>
         <p className="mb-4">
-          Think about where you want to be in 5 years. Do you see yourself still
-          asking friends "what did she mean by that?" Do you see yourself still
+          Think about where you want to be in 5 years. 
+          
+          <p className="mb-4">
+          Do you see yourself still
+          asking friends "what did she mean by that?" 
+          </p>
+          
+          <p className="mb-4">
+          Do you see yourself still
           spending money on women who don't respect you?
+          </p>
         </p>
-        <p className="mb-4">
+        <p className="mb-4 bold text-xl text-center">
           Or do you see yourself as the man who finally cracked the code, who
           understands women completely, who has quality women competing for your
           attention?
@@ -139,7 +147,7 @@ export default function SalesLetter() {
           The choice is yours, but time is not on your side.
         </p>
 
-        <p className="mb-4">Because...</p>
+        <p className="mb-4 bold text-xl text-center">Because...</p>
 
         <p className="mb-4">
           You see, just last Tuesday night, I got a WhatsApp voice note that
