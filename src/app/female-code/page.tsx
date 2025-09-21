@@ -933,7 +933,7 @@ export default function SalesLetter() {
           psychological blueprint to understand and attract any woman.
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-center text-xl">
           But here's what I want you to think about for a second...
         </p>
 
@@ -951,7 +951,7 @@ export default function SalesLetter() {
           says "I'm fine" or "maybe later"?
         </p>
 
-        <p className="mb-4">Let me put this in perspective for you...</p>
+        <p className="mb-4 font-bold underline text-xl">Let me put this in perspective for you...</p>
 
         <p className="mb-4">
           The average guy spends at least ₦15,000 per month trying to impress
@@ -966,25 +966,30 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           You see, my friend Tunde spent over ₦300,000 last year chasing women
-          who ended up rejecting him anyway. He bought expensive gifts, took
+          who ended up rejecting him anyway. 
+          </p>
+          <p className="mb-4">
+          He bought expensive gifts, took
           them to fancy restaurants in Victoria Island, even paid for their hair
           appointments... all for nothing.
         </p>
 
         <p className="mb-4">
           Another guy I know, Kemi's brother, spent ₦50,000 on just one date
-          trying to impress a girl from Ikoyi. She didn't even kiss him
-          goodnight and never responded to his messages again.
-        </p>
+          trying to impress a girl from Ikoyi. 
+          </p>
+          
+          <p className="mb-4">She didn't even kiss him goodnight and never responded to his messages again.</p>
+        
 
-        <p className="font-bold mb-4">Think about your own life...</p>
+        <p className="font-bold mb-4 text-xl">Think about your own life...</p>
 
         <p className="mb-4 italic">
           How much have you already spent on women who ended up friendzoning you
           or completely ghosting you?
         </p>
 
-        <p className="mb-4 italic">
+        <p className="mb-4 italic text-xl">
           ₦20,000? ₦50,000? ₦100,000? Maybe even more?
         </p>
 
