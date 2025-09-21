@@ -209,7 +209,10 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           One fine girl even told me to "go make money first before you can talk
-          to me." Another one looked at my pot belly and said "Oga, lose some
+          to me." 
+          </p>
+          <p className="mb-4">
+          Another one looked at my pot belly and said "Oga, lose some
           weight before you even think of approaching me."
         </p>
 
@@ -236,6 +239,8 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           Didn't leave my house for almost 4 months. Just there thinking...
+          </p> 
+          <p className="mb-4 mt-4 text-center text-xl font-bold">
           "What is wrong with me? Why do all these women keep rejecting me? Am I
           cursed or what?"
         </p>
@@ -251,11 +256,15 @@ export default function SalesLetter() {
           I ever told myself.
         </p>
 
-        <p className="font-bold mb-4 text-red-600">The truth is...</p>
+        <p className="font-bold mb-4 text-xl  text-red-600">The truth is...</p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold text-lg mb-4">
           I was completely BLIND to the real reason why women were rejecting me
-          left and right. And it had nothing to do with my looks, my money, or
+          left and right. 
+          </p>
+
+          <p className="mb-4">
+          And it had nothing to do with my looks, my money, or
           even my pot belly.
         </p>
 
@@ -263,7 +272,7 @@ export default function SalesLetter() {
           Stick with me here because what I discovered changed everything...
         </p>
 
-        <p className="text-center font-bold mb-4 border p-4">
+        <p className="text-center text-2xl font-bold mb-4 border p-4">
           This same secret code moved me from "The Guy Every Woman Rejected"
           to "The Guy Who Now Has Fine Girls Begging to Sleep With Him."
         </p>
@@ -273,13 +282,13 @@ export default function SalesLetter() {
           my calendar was full. One of them even offered to pay for our date!
         </p>
 
-        <p className="mb-4 italic">Sounds unbelievable, right?</p>
+        <p className="mb-4 italic text-xl">Sounds unbelievable, right?</p>
 
         <p className="mb-4">
           But this can also be you... because it doesn't matter if you are:
         </p>
 
-        <ul className="list-disc pl-5 mb-8">
+        <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>Broke and living with your parents</li>
           <li>Bald like Dangote</li>
           <li>Fat with a pot belly like me</li>
