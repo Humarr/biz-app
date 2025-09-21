@@ -854,13 +854,16 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold mb-8 text-xl">
-            The strategies in this playbook work. Period.
+            The strategies in this playbook work. 
+            </p>
+          <p className="text-center font-bold mb-8 text-xl">
+            Period.
           </p>
           
           <p className="mb-4">
             But more than that, I believe you're a person of integrity. 
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-lg">
             I believe that when you start making an extra ₦50,000+ monthly using these methods, you'll be so grateful that the thought of asking for a refund won't even cross your mind.
           </p>
           
@@ -884,7 +887,7 @@ export default function SmallBusinessPlaybook() {
             The only way you can lose in this situation is if you do nothing and stay stuck where you are right now.
           </p>
           
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-lg">
             But wait... there's something else that makes this opportunity even more irresistible...
           </p>
           
@@ -892,9 +895,9 @@ export default function SmallBusinessPlaybook() {
             You see, while you're reading this right now, something interesting is happening all around you.
           </p>
           
-          <p className="text-red-600 mb-6">❌Your colleagues are going about their day, complaining about their salaries, worrying about next month's expenses, and doing absolutely nothing to change their situation.</p>
-          <p className="text-red-600 mb-6">❌Your friends are scrolling through social media, looking at other people's success stories, and wishing they could have that life too.</p>
-          <p className="text-red-600 mb-8">❌Your neighbors are having the same conversations they had last year: 
+          <p className="text-red-800 mb-6">❌Your colleagues are going about their day, complaining about their salaries, worrying about next month's expenses, and doing absolutely nothing to change their situation.</p>
+          <p className="text-red-800 mb-6">❌Your friends are scrolling through social media, looking at other people's success stories, and wishing they could have that life too.</p>
+          <p className="text-red-800 mb-8">❌Your neighbors are having the same conversations they had last year: 
           <br/><br/>
             "If only I had more money..." 
             <br/><br/>
