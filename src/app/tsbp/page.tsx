@@ -556,7 +556,16 @@ export default function SmallBusinessPlaybook() {
           <p className="text-center font-bold mb-4">So let me ask you this...</p>
           
           <p className="text-center text-2xl font-bold mb-8">
-            If I could guarantee that you'll never again have to worry about living paycheck to paycheck... if I could show you exactly how to build a steady ₦50,000-₦200,000 monthly side income without risking your job or savings... would that be worth 30 minutes of your time?
+            If I could guarantee that you'll never again have to worry about living paycheck to paycheck... 
+
+            <br/>
+            
+            ..if I could show you exactly how to build a steady ₦50,000-₦200,000 monthly side income without risking your job or savings... 
+            <br/>
+            
+            ...would that be worth 30 minutes of your time?
+            <br/>
+            <br/>
           </p>
           
           <p className="mb-4">
