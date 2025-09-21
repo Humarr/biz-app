@@ -33,7 +33,7 @@ export default function SalesLetter() {
           REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU!
         </h1>
 
-        <p className="text-center font-bold mb-8">
+        <p className="text-center text-lg font-bold mb-8">
           And now you can use this to get any woman obsessed over you in less than 7 days!
           {/* And now you can use this to get any woman to want to "drop her pants"
           for you in less than 7 days! */}

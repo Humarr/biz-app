@@ -4,20 +4,20 @@ export default function SmallBusinessPlaybook() {
     return (
       <div className="bg-[#f7f7f7] min-h-screen py-8 px-4">
         <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
-          <h1 className="text-3xl font-bold text-center mb-6">
-            If you knew the TRUE REASON why most employees stay broke...you'd NEVER see your job the same way again.
-          </h1>
+          <p className="text-center mb-6">
+            If you knew the TRUE WAY you can start a side business...your life would NEVER remain the same again.
+          </p>
           
           <p className="text-center font-bold mb-6">
             NEW research shows:
           </p>
           
-          <h2 className="text-2xl font-bold text-center mb-6 border-2 border-black p-4">
-            THE "SECRET PLAYBOOK" THAT REVEALS HOW TO START A PROFITABLE SIDE BUSINESS WITHOUT RISKING YOUR JOB OR SAVINGS!
+          <h2 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
+            THE <span className="text-red-600 underline"> "SECRET PLAYBOOK"</span> THAT REVEALS HOW TO START A PROFITABLE SIDE BUSINESS WITHOUT RISKING YOUR JOB OR SAVINGS!
           </h2>
           
-          <p className="text-center font-bold mb-8">
-            And now you can use this to add ₦50,000-₦200,000 monthly to your income in the next 90 days!
+          <p className="text-center text-lg font-bold mb-8">
+            And now you can use this to add ₦50,000-₦200,000 monthly to your income in the next 60 days!
           </p>
           
           <p className="font-bold mb-4">It doesn't matter if:</p>
