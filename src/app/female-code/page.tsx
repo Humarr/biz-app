@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
-
+import Image from "next/image";
 // app/sales-letter/page.js
 export default function SalesLetter() {
   return (
@@ -163,6 +163,17 @@ export default function SalesLetter() {
           The voice was shaking with disgust as she said those words. Then she
           blocked me immediately.
         </p>
+
+        <div className="my-6 flex justify-center">
+  <Image 
+    src="/female-code/1.png" 
+    alt="From confused to confident with the Female Code" 
+    width={600} 
+    height={300}
+    className="rounded-lg"
+  />
+</div>
+
 
         <p className="mb-4">
           I just sat there in my one-room apartment in Surulere, staring at my
