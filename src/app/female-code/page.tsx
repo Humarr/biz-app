@@ -442,7 +442,7 @@ export default function SalesLetter() {
           And that's exactly what I want to share with you today.
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 text-center text-2xl font-bold">
           I've taken everything I learned and put it into a simple system called
           THE FEMALE CODE: How to Talk, Flirt, and Make Women Addicted to You.
         </p>
