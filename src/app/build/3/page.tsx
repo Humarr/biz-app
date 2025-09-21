@@ -257,7 +257,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold text-xl italic mb-4">
-            "Tunde, you're 29 years old. When will you buy your own car? When will you move to a better area? Your mates are bgetting married already!"
+            "Tunde, you're 29 years old. When will you buy your own car? When will you move to a better area? Your mates are getting married already!"
           </p>
           
           <p className="mb-4">
