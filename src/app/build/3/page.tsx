@@ -15,9 +15,9 @@ export default function SmallBusinessPlaybook() {
             NEW research shows:
           </p>
           
-          <h2 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
+          <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
             THE <span className="text-red-600 underline"> "SECRET PLAYBOOK"</span> THAT REVEALS HOW TO START A PROFITABLE SIDE BUSINESS WITHOUT RISKING YOUR JOB OR SAVINGS!
-          </h2>
+          </h1>
           
           <p className="text-center text-lg font-bold mb-8">
             And now you can use this to add ₦50,000-₦200,000 monthly to your income in the next 60 days!
