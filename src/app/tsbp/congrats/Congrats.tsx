@@ -28,7 +28,7 @@ export default function Congrats() {
     try {
       const response = await axios.get(`/api/verify-payment?reference=${ref}`);
       if (response.data.status === 'success') {
-        const downloadResponse = await axios.get('/api/get-female-code-download-url');
+        const downloadResponse = await axios.get('/api/get-tsbp-download-url');
         if (downloadResponse.data.downloadUrl) {
           setDownloadUrl(downloadResponse.data.downloadUrl);
           setStatus('success');
@@ -57,7 +57,7 @@ export default function Congrats() {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'The Female Code: How to Talk, Flirt, and Make Women Addicted to You.pdf';
+      link.download = 'The Small Business Playbook. How Everyone Can Start, and Grow An Outrageously Profitable Business.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -80,7 +80,7 @@ export default function Congrats() {
               Processing Payment...
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Please wait while we verify your Female Code payment...
+              Please wait while we verify your The Small Business Playbook payment...
             </p>
             <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-green-600 mx-auto"></div>
           </>
@@ -92,14 +92,14 @@ export default function Congrats() {
               Congratulations! Payment Successful!
             </h2>
             <p className="text-lg text-gray-700 mb-4">
-              You've secured <span className="font-bold">The Female Code</span> for ₦5,250! You're now ready to transform your dating life with the system that took me from being rejected to having women chase me.
+              You've secured <span className="font-bold">The Small Business Playbook</span> for ₦6,250! You're now ready to transform your financial life with the system that took me from being broke and dependednt on paychecks to building a profitable side business.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              <span className="font-bold">Your eBook is ready!</span> Click below to download The Female Code instantly. Have issues? Contact <a href="mailto:thecashologists00@gmail.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
+              <span className="font-bold">Your eBook is ready!</span> Click below to download The Small Business Playbook instantly. Have issues? Contact <a href="mailto:thecashologists00@gmail.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
             </p>
             <div className="bg-green-50 border-2 border-green-500 rounded-lg p-4 mb-6">
               <p className="text-lg text-gray-700 font-semibold">
-                Start your journey now—unlock the secrets to understanding women and making them chase you!
+                Start your journey now—unlock the secrets to building and ngrowing an outrageously profitable side business!
               </p>
             </div>
             <button
@@ -115,7 +115,7 @@ export default function Congrats() {
               <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-green-600 mx-auto mt-4"></div>
             )}
             <p className="text-sm text-gray-600 mt-6">
-              We're thrilled to have you on board! Your dating success story starts today. Questions? Contact <a href="mailto:thecashologists00@gmail.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
+              We're thrilled to have you on board! Your business success story starts today. Questions? Contact <a href="mailto:thecashologists00@gmail.com" className="text-blue-600 underline">thecashologists00@gmail.com</a>.
             </p>
           </>
         )}
