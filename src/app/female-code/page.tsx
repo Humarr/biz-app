@@ -1128,7 +1128,10 @@ export default function SalesLetter() {
         </p>
 
         <p className="mb-4">
-          Look, I get it. You've probably been burned before by products that
+          Look, I get it. 
+          </p>
+          <p className="mb-4">
+          You've probably been burned before by products that
           promised the world and delivered nothing.
         </p>
 
