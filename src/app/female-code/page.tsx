@@ -40,7 +40,7 @@ export default function SalesLetter() {
           Perhaps you're even feeling a little disgusted with yourself and your inability to decode their mixed signals and confusing behavior. You feel like no matter what approach you try - being the nice guy, the bad boy, the funny guy, the rich guy - it's not going to work.
           </p>
           <p className="mb-4">
-          You've spent thousands of naira on dates that led nowhere. You've sent countless "good morning beautiful" messages that got ignored. You've tried being romantic, you've tried being distant, you've tried everything... but Nigerian women still seem like an unsolvable puzzle.
+          You've spent thousands of naira on dates that led nowhere. You've sent countless "good morning beautiful" messages that got ignored. You've tried being romantic, you've tried being distant, you've tried everything... but women still seem like an unsolvable puzzle.
           </p>
           <p className="mb-4">
           Maybe you're starting to think there's something fundamentally wrong with you, or that you're just destined to be alone while other guys effortlessly attract the women you want.
