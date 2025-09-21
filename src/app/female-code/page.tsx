@@ -302,11 +302,11 @@ export default function SalesLetter() {
           obsess over you like you're the last man on earth.
         </p>
 
-        <p className="font-bold mb-4">
+        <p className="font-bold mb-4 text-2xl text-center text-red-600">
           But first, who the hell is this guy writing to you?
         </p>
 
-        <p className="mb-4">
+        <p className="mb-4 font-bold mt-4">
           I'm not some smooth-talking Lagos big boy or relationship guru with a
           fancy office in Ikoyi.
         </p>
