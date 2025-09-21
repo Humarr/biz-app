@@ -2,7 +2,7 @@
 // app/small-business-playbook/page.js
 export default function SmallBusinessPlaybook() {
     return (
-      <div className="bg-[#f7f7f7] min-h-screen py-8 px-4 font-serif">
+      <div className="bg-[#f7f7f7] min-h-screen py-8 px-4">
         <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
           <h1 className="text-3xl font-bold text-center mb-6">
             If you knew the TRUE REASON why most employees stay broke...you'd NEVER see your job the same way again.
