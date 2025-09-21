@@ -931,13 +931,13 @@ export default function SmallBusinessPlaybook() {
           <p className="text-green-600 mb-8">
             ✔ Or you can be the person who does what others won't do today, so you can have what others can't have tomorrow.</p>
           
-          <p className="font-bold mb-4">But here's the brutal truth most people don't want to face...</p>
+          <p className="font-bold mb-4 text-center text-2xl">But here's the brutal truth most people don't want to face...</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             Every day you delay starting your side business is another day you're falling further behind.
           </p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             While you're "thinking about it" and "planning to start soon," someone else is building the exact business you're dreaming about.
           </p>
           
