@@ -252,8 +252,8 @@ export default function SalesLetter() {
         </p>
 
         <p className="text-center font-bold mb-4 border p-4">
-          This same secret code moved me from "The Fat Guy Every Woman Rejected"
-          to "The Fat Guy Who Now Has Fine Girls Begging to Sleep With Him."
+          This same secret code moved me from "The Guy Every Woman Rejected"
+          to "The Guy Who Now Has Fine Girls Begging to Sleep With Him."
         </p>
 
         <p className="mb-4">
