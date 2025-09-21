@@ -1025,7 +1025,7 @@ export default function SmallBusinessPlaybook() {
           <p className="text-red-800 mb-6">❌It's not for people who make excuses instead of taking action.</p>
           <p className="text-red-800 mb-8">❌It's not for people who blame everyone else for their problems.</p>
           
-          <p className="mb-4">But..</p>
+          <p className="mb-4 text-2xl text-center font-bold">But..</p>
           
           <p className="text-green-800 mb-6">✔If you're someone who's ready to take control of your financial future...</p>
           <p className="text-green-800 mb-6">✔If you're tired of living paycheck to paycheck...</p>
@@ -1039,7 +1039,7 @@ export default function SmallBusinessPlaybook() {
           
           <p className="text-center font-bold text-red-800 text-xl mb-8">But choose now...</p>
           
-          <p className="font-bold mb-4">
+          <p className="font-bold mb-4 text-xl">
             Here's exactly how to get your copy of "The Small Business Playbook" and start building your financial freedom today:
           </p>
           
