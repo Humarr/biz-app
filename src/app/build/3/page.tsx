@@ -270,7 +270,7 @@ export default function SmallBusinessPlaybook() {
             In fact, I'd been thinking about starting a business for over 3 years. Every month, same story... 
             </p>
             <p className="mb-4">
-            Check Instagram, see my classmates posting their new cars, new apartments, business openings. Then check my account balance and feel like a complete failure.
+            ...Check Instagram, see my classmates posting their new cars, new apartments, business openings. Then check my account balance and feel like a complete failure.
           </p>
           
           <p className="mb-4 text-lg">I had tried everything...</p>
