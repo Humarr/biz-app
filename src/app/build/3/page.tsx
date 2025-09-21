@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // app/small-business-playbook/page.js
+
+import Image from 'next/image'
+
 export default function SmallBusinessPlaybook() {
     return (
       <div className="bg-[#f7f7f7] min-h-screen py-8 px-4">
@@ -780,6 +783,8 @@ export default function SmallBusinessPlaybook() {
             ...and if you're not completely satisfied for ANY reason within the next 60 days, I'll give you every single naira back.
           </p>
 
+
+          <div className="my-6 flex justify-center">
            <Image 
               src="/female-code/risk-reversal.png" 
               alt="Risk Reversal" 
@@ -992,9 +997,9 @@ export default function SmallBusinessPlaybook() {
           
           <p className="mb-4">But..</p>
           
-          <p className="text-green-600 mb-6">✔If you're someone who's ready to take control of your financial future...</p>
-          <p className="text-green-600 mb-6">✔If you're tired of living paycheck to paycheck...</p>
-          <p className="text-green-600 mb-8">✔If you're ready to build something meaningful that could change your family's destiny...</p>
+          <p className="text-green-800 mb-6">✔If you're someone who's ready to take control of your financial future...</p>
+          <p className="text-green-800 mb-6">✔If you're tired of living paycheck to paycheck...</p>
+          <p className="text-green-800 mb-8">✔If you're ready to build something meaningful that could change your family's destiny...</p>
           
           <p className="text-center font-bold text-xl mb-8">
             Then this is exactly what you've been looking for.
@@ -1011,8 +1016,19 @@ export default function SmallBusinessPlaybook() {
           <div className="border-2 border-black p-4 mb-8">
             <p className="font-bold text-lg mb-2">OPTION 1: Direct Bank Transfer (Most Popular)</p>
             <p className="mb-2">This is the fastest way for most people to get started:</p>
-            <ol className="list-decimal pl-5 mb-4">
-              <li>Transfer ₦6250 to: [Your Account Details]</li>
+            <ol className="list-decimal pl-5 mb-4 space-y-6">
+              <li>Transfer ₦6250 to: 
+                
+              <p className="font-bold">
+            Bank Details:
+            <br />
+            Bank name: OPAY
+            <br />
+            Account Name: Umar Saadu
+            <br />
+            Account number: 6141949210
+          </p>
+              </li>
               <li>Send your payment proof to: thecashologists00@gmail.com</li>
               <li>Include your full name and email address</li>
               <li>Your playbook will be sent to your email within 30 minutes (usually much faster)</li>
@@ -1024,7 +1040,7 @@ export default function SmallBusinessPlaybook() {
             <p className="font-bold text-lg mb-2">OPTION 2: Paystack Payment (Cards, USSD, Mobile Money)</p>
             <p className="mb-2">If you prefer to pay with your ATM card, USSD, or mobile money, we use Paystack - Nigeria's most trusted payment platform (the same system used by Flutterwave, Jumia, and other major companies).</p>
             <p className="mb-2 font-bold">Here's exactly what happens when you click the button below:</p>
-            <ol className="list-decimal pl-5 mb-4">
+            <ol className="list-decimal pl-5 mb-4 space-y-6">
               <li>Click "Get Instant Access" → Takes you to our secure Paystack payment page (don't worry, it's still us - just a different, more secure payment system)</li>
               <li>Enter your email and name → Takes 10 seconds</li>
               <li>Click "Pay Now" → You'll see all payment options (bank transfer, card, USSD, mobile money)</li>
@@ -1052,14 +1068,29 @@ export default function SmallBusinessPlaybook() {
           <p className="text-center font-bold mb-4">OR</p>
           
           <p className="text-center mb-8">
-            Pay via Bank Transfer: Send ₦6250 to [Account Details] and email proof to thecashologists00@gmail.com
+            Pay via Bank Transfer: Send ₦6250 to    
+            
+            <p className="font-bold">
+            Bank Details:
+            <br />
+            Bank name: OPAY
+            <br />
+            Account Name: Umar Saadu
+            <br />
+            Account number: 6141949210
+          </p> 
+          <br/>
+          ...and email proof to thecashologists00@gmail.com
           </p>
           
           <p className="text-center font-bold mb-8">
-            Remember, you're protected by our 60-day, no-questions-asked money-back guarantee. If you're not completely satisfied, just email us and we'll refund every naira.
+            Remember, you're protected by our 60-day, no-questions-asked money-back guarantee. 
+            </p>
+            <p className="mb-4">
+            If you're not completely satisfied, just email us and we'll refund every naira.
           </p>
           
-          <p className="text-center font-bold mb-8">
+          <p className="text-center text-xl font-bold mb-8">
             But I have a feeling that 60 days from now, when you're celebrating your first ₦50,000+ month from your new side business, you'll be writing to thank us instead.
           </p>
           
@@ -1071,14 +1102,18 @@ export default function SmallBusinessPlaybook() {
             Or will you be the person who thought about it, closed this page, and stayed exactly where you are?
           </p>
           
-          <p className="text-center font-bold text-green-600 text-xl mb-8">
+          <p className="text-center font-bold text-green-800 text-xl mb-8">
             Your financial freedom is just one click away.
           </p>
           
           <p className="text-center font-bold text-xl mb-8">Choose now.</p>
           
           <div className="border-t-2 border-black pt-4">
-            <p className="font-bold mb-2">P.S. - If you skipped straight to the bottom, here's what you need to know: For just ₦6250 (less than what you spend on lunch this week), you get the complete step-by-step system that shows employed Nigerians how to build ₦50,000-₦200,000 monthly side businesses without risking their jobs or savings. 60-day money-back guarantee means you literally cannot lose.</p>
+            <p className="font-bold mb-2">P.S. - If you skipped straight to the bottom, here's what you need to know: 
+                <br/>
+                For just ₦6250 (less than what you spend on lunch this week), you get the complete step-by-step system that shows employed Nigerians how to build ₦50,000-₦200,000 monthly side businesses without risking their jobs or savings. 
+                <br/>
+                60-day money-back guarantee means you literally cannot lose.</p>
             <div className="text-center mt-4">
               <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
                 Click here to get instant access now
