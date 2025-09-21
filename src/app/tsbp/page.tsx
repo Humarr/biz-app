@@ -984,12 +984,12 @@ export default function SmallBusinessPlaybook() {
             Or are you the type who will bookmark this page, tell yourself you'll come back to it later, and then never take action?
           </p>
           
-          <p className="font-bold mb-4 ">Here's what I know about you already...</p>
+          <p className="font-bold mb-4 text-xl">Here's what I know about you already...</p>
           
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             The fact that you're still reading this far tells me you're not average. 
             </p>
-          <p className="mb-4">
+          <p className="mb-4 text-lg">
             Average people would have stopped reading 5 minutes ago. 
             </p>
 
