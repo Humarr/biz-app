@@ -203,8 +203,14 @@ export default function SalesLetter() {
 
         <p className="mb-4">
           Before Chioma (that was her name), I had tried with at least 12 other
-          women. Every single one either called me names like "Weirdo! Loser!
-          Small boy! Broke ass!"
+          women. 
+          
+          <br/><br/>
+          
+          Every single one either called me names like 
+          
+          <br/>"Weirdo! <br/>Loser!
+          <br/>Small boy! <br/>Broke ass!"
         </p>
 
         <p className="mb-4">
