@@ -1187,7 +1187,7 @@ export default function SalesLetter() {
           psychological secrets that will change how you see women forever.
         </p>
 
-        <p className="font-bold mb-4 text-red-600">
+        <p className="font-bold mb-4 text-red-600 text-xl text-center">
           You could literally download the entire system right now, read every
           page, learn all the techniques, start using them to attract women...<br/>
           and then email me tomorrow asking for a full refund.
