@@ -1379,9 +1379,12 @@ export default function SalesLetter() {
           </ol>
           <p className="font-bold">
             Bank Details:
-            {"\n"}Bank name: OPAY
-            {"\n"}Account Name: Umar Saadu
-            {"\n"}Account number: 6141949210
+            <br />
+            Bank name: OPAY
+            <br />
+            Account Name: Umar Saadu
+            <br />
+            Account number: 6141949210
           </p>
         </div>
 
