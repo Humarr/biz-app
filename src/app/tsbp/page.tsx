@@ -949,7 +949,7 @@ export default function SmallBusinessPlaybook() {
             He started 6 months ago. If he had waited just 6 more months to "think about it," he would have lost ₦480,000 in income.
           </p>
           
-          <p className="font-bold mb-8 text-red-600">
+          <p className="font-bold mb-8 text-xl text-center text-red-600">
             Six months from now, you'll either be celebrating your first ₦100,000 month and thanking yourself for taking action today...
           </p>
           
