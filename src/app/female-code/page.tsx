@@ -41,7 +41,11 @@ export default function SalesLetter() {
           </p>
           <p className="mb-4">
           You've downloaded countless "how to get girls" PDFs, watched YouTube videos
-          about confidence, perhaps even bought expensive courses from foreign
+          about confidence... 
+          </p>
+          
+          <p className="mb-4">
+          ...perhaps even bought expensive courses from foreign
           "gurus," but the truth is you just can't seem to understand women (or
           keep their interest).
         </p>
