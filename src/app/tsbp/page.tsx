@@ -907,9 +907,9 @@ export default function SmallBusinessPlaybook() {
           
           <p className="mb-4 text-xl font-bold">But you? You're different.</p>
           
-          <p className="text-green-600 mb-6">✔You're here, reading this, because something inside you refuses to accept mediocrity.</p>
-          <p className="text-green-600 mb-6">✔You're not like the 97% of Nigerians who will read something like this and do nothing.</p>
-          <p className="text-green-600 mb-8">✔You're part of the 3% who actually take action when opportunity presents itself.</p>
+          <p className="text-green-800 mb-6">✔You're here, reading this, because something inside you refuses to accept mediocrity.</p>
+          <p className="text-green-800 mb-6">✔You're not like the 97% of Nigerians who will read something like this and do nothing.</p>
+          <p className="text-green-800 mb-8">✔You're part of the 3% who actually take action when opportunity presents itself.</p>
           
           <p className="font-bold mb-4">
             Here's what separates successful people from everyone else: When they see a proven system that could change their life... 
