@@ -833,14 +833,14 @@ export default function SmallBusinessPlaybook() {
             Once you download this playbook, I can't get it back from you. The information will be on your phone, your laptop, your brain. You could literally read the entire thing, implement everything, start making money, and still ask for a refund.
           </p>
           
-          <p className="font-bold mb-4 text-red-600">
+          <p className="font-bold mb-4 text-lg text-red-700">
             I'm basically trusting you not to rip me off.
           </p>
           
-          <p className="font-bold mb-4 text-lg">Why would I take such a risk?</p>
+          <p className="font-bold mb-4 text-xl">Why would I take such a risk?</p>
           
           <p className="mb-4">
-            Because I've seen what happens when regular Nigerians like you implement these strategies. 
+            Because I've seen what happens when regular people like you implement these strategies. 
             </p>
             <p className="mb-4">
             I've watched unemployed graduates build ₦200,000 monthly businesses. 
