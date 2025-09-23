@@ -14,16 +14,19 @@ export default function SmallBusinessPlaybookV2() {
           
           {/* SUBHEAD */}
           <p className="text-center font-bold mb-6">
-            Top Entrepreneur Guarantees…
+            Top Entrepreneur <span className="underline"> Reveals</span> "New Playbook" That Shows You...
           </p>
           
           {/* GUARANTEE BOX */}
           <div className="border-2 border-black p-4 mb-8 text-3xl font-bold text-center">
-            If You Don't Have A Profitable Business In 14 Days (Using This "New Playbook"), I'll Give You ₦20,000 Cash!
+            {/* If You Want To Start A Profitable Business With Predictable Flow Of New Customers,  */}
+            {/* If You Don't Have A Profitable Business In 14 Days (Using This "New Playbook"), I'll Give You ₦20,000 Cash! */}
+
+           <h1> How To Start A Profitable Business Today Starting From Scratch!</h1>
           </div>
   
           {/* MAIN PROMISE */}
-          <p className="font-bold underline mb-6 text-center">
+          <p className="font-bold underline mb-6 text-center text-lg">
             And it has the "ultimate power" to build and scale your business - even if you're starting from zero - by adding an extra <span className="text-red-600 font-bold">500k - 1 million naira (or more)</span> to your monthly income as soon as you start putting them into fast action!
           </p>
   
@@ -42,12 +45,12 @@ export default function SmallBusinessPlaybookV2() {
             <li><span className="font-bold">Have no rich and powerful connections</span></li>
           </ul>
   
-          <p className="font-bold underline mb-6">or ANYONE…</p>
+          <p className="font-bold underline mb-6">Or anything in between…</p>
   
           <p className="mb-8">as long as you want to build a profitable business from scratch!</p>
   
           {/* SUBHEAD */}
-          <p className="text-center font-bold mb-6">
+          <p className="text-center font-bold mb-6 mt-12">
             Dear Soon-to-be Business Owner,
           </p>
   
