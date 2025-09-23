@@ -46,6 +46,7 @@ export default function SmallBusinessPlaybookV2() {
           </ul>
   
           <p className="font-bold underline mb-6">Or anything in between…</p>
+          {/* <p className="font-bold underline mb-6">Or anything in between…</p> */}
   
           <p className="mb-8">as long as you want to build a profitable business from scratch!</p>
   
