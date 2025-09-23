@@ -52,7 +52,8 @@ export default function SmallBusinessPlaybookV2() {
   
           {/* SUBHEAD */}
           <p className="text-center font-bold mb-6 mt-12">
-            Dear Soon-to-be Business Owner,
+            Dear Friend,
+            {/* Dear Soon-to-be Business Owner, */}
           </p>
   
           {/* QUESTION SERIES */}
