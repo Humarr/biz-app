@@ -66,7 +66,7 @@ export default function SmallBusinessPlaybookV2() {
   
           {/* ENGAGEMENT SECTION */}
           <div className="border-2 border-black p-4 mb-8">
-            <p className="font-bold mb-4">But first, would you please do this right now?</p>
+            <p className="font-bold mb-4">But first, I need you to please do this right now...</p>
             <p className="font-bold mb-2">Write down your average monthly income over the last 12months.</p>
             <p className="font-bold mb-4">Then write down what you want your average monthly income to be.</p>
             <p className="mb-4">Let's say your average monthly income is ₦150,000 and your goal is actually to make ₦500,000 per month.</p>
