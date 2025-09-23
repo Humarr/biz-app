@@ -469,7 +469,7 @@ export default function SmallBusinessPlaybookV2() {
             <p className="font-bold text-center mb-4">Here's my promise to you:</p>
             <div className="space-y-4 font-bold">
               <p>Download The Small Business Playbook right now. Read every single page. Try the strategies. Use the templates. Test the frameworks.</p>
-              <p><span className="underline">If after 60 days</span> you haven't found at least ONE strategy that could add ₦50,000 to your monthly income...</p>
+              <p><span className="underline">If after 90 days</span> you haven't found at least ONE strategy that could add ₦50,000 to your monthly income...</p>
               <p><span className="underline">If you don't see a clear path</span> to building the business you've been dreaming about...</p>
               <p><span className="underline">If you're not convinced</span> this playbook is worth at least 10 times what you paid for it...</p>
               <p className="text-red-600 font-bold text-xl text-center">Just send me one simple email and I'll refund every single kobo.</p>
@@ -491,7 +491,7 @@ export default function SmallBusinessPlaybookV2() {
           <p className="font-bold text-center mb-6">But think about what this means for you:</p>
   
           <div className="border-2 border-black p-4 mb-8">
-            <p className="mb-4">You have <span className="text-red-600 font-bold">60 full days</span> to test everything. That's enough time to find your starving crowd, validate your business idea, write your first profitable ad, and start seeing real results.</p>
+            <p className="mb-4">You have <span className="text-red-600 font-bold">90 full days</span> to test everything. That's enough time to find your starving crowd, validate your business idea, write your first profitable ad, and start seeing real results.</p>
             <p className="font-bold">If it works (and I know it will), you keep the playbook and the profits.</p>
             <p className="font-bold">If somehow it doesn't work for you, you get all your money back and keep the playbook anyway.</p>
           </div>
@@ -746,7 +746,7 @@ export default function SmallBusinessPlaybookV2() {
               </div>
             </div>
   
-            <p className="text-center font-bold mb-4">Either way you choose, you're protected by my 60-day guarantee.</p>
+            <p className="text-center font-bold mb-4">Either way you choose, you're protected by my 90-day guarantee.</p>
             <p className="text-center font-bold mb-4">Either way, you're getting the complete system that could add ₦500,000+ to your income this year.</p>
             <p className="text-center font-bold mb-6">Either way, you're taking the first step toward the business that finally sets you free.</p>
   
@@ -765,7 +765,7 @@ export default function SmallBusinessPlaybookV2() {
   
             <p className="font-bold mt-6">P.P.S.</p>
             <p className="mb-4">Let me remind you exactly what you're getting today: The complete Small Business Playbook that shows you how to find your starving crowd, dominate your market, create ads that actually sell, build an unpaid sales army, and price for maximum profits. <span className="font-bold">PLUS</span> the "6 Products Nigerians Will Always Buy" guide (₦15,000 value), the Direct Response Ad Templates Toolkit (₦12,000 value), and The Profit Calculator (₦8,000 value). <span className="line-through">Total value: ₦55,000.</span> <span className="text-red-600 font-bold">Your price today: Just ₦9,250.</span></p>
-            <p className="mb-4">And remember what your life looks like 6 months from now: You're waking up in your own place, checking ₦847,000 in your business account, picking up restaurant bills without checking your balance, making your mother cry tears of pride, and helping others build their own freedom. All protected by my 60-day guarantee - if these strategies don't show you a clear path to ₦50,000+ monthly income, I'll refund every kobo and you keep everything anyway.</p>
+            <p className="mb-4">And remember what your life looks like 6 months from now: You're waking up in your own place, checking ₦847,000 in your business account, picking up restaurant bills without checking your balance, making your mother cry tears of pride, and helping others build their own freedom. All protected by my 90-day guarantee - if these strategies don't show you a clear path to ₦50,000+ monthly income, I'll refund every kobo and you keep everything anyway.</p>
             <p className="text-red-600 font-bold">The question isn't whether this works. The question is whether you'll let another opportunity slip by while someone else builds the life you want. <span className="text-red-600 font-bold">Click your preferred payment option above and let's make your business dreams reality. Right now.</span></p>
           </div>
 
