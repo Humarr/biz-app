@@ -770,11 +770,11 @@ export default function SmallBusinessPlaybookV2() {
           </div>
 
           <div className="text-center mb-6">
-              <Link href="#payment">
+              <a href="#payment">
                 <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-lg">
                   DOWNLOAD THE SMALL BUSINESS PLAYBOOK NOW
                 </button>
-                </Link>
+                </a>
               </div>
         </div>
       </div>
