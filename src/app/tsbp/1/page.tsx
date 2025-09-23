@@ -5,7 +5,7 @@ export default function SmallBusinessPlaybookV2() {
       <div className="bg-[#f7f7f7] min-h-screen py-8 px-4 font-serif">
         <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
           {/* ATTENTION GRABBER */}
-          <h1 className="text-3xl font-bold text-center mb-6 text-red-600">
+          <h1 className="text-xl font-bold text-center mb-6 text-red-600">
             ATTENTION: Want To Start A Profitable Business?
           </h1>
           
@@ -15,12 +15,12 @@ export default function SmallBusinessPlaybookV2() {
           </p>
           
           {/* GUARANTEE BOX */}
-          <div className="border-2 border-black p-4 mb-8 text-lg font-bold text-center">
+          <div className="border-2 border-black p-4 mb-8 text-3xl font-bold text-center">
             If You Don't Have A Profitable Business In 14 Days (Using This "New Playbook"), I'll Give You ₦20,000 Cash!
           </div>
   
           {/* MAIN PROMISE */}
-          <p className="font-bold underline mb-6">
+          <p className="font-bold underline mb-6 text-center">
             And it has the "ultimate power" to build and scale your business - even if you're starting from zero - by adding an extra <span className="text-red-600 font-bold">500k - 1 million naira (or more)</span> to your monthly income as soon as you start putting them into fast action!
           </p>
   
