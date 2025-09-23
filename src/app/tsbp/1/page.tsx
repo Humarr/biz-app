@@ -694,7 +694,7 @@ export default function SmallBusinessPlaybookV2() {
             <p className="mb-6">You have two simple ways to secure your Small Business Playbook and start building the business that finally sets you free:</p>
   
             {/* OPTION 1 */}
-            <div className="border-2 border-black p-4 mb-8">
+            <div id="payment" className="border-2 border-black p-4 mb-8">
               <p className="text-red-600 font-bold mb-4">OPTION 1: DIRECT BANK TRANSFER (Most Popular)</p>
               <p className="font-bold mb-4">This is the fastest way for most Nigerians:</p>
               <ol className="list-decimal pl-5 space-y-2 mb-4">
@@ -768,6 +768,14 @@ export default function SmallBusinessPlaybookV2() {
             <p className="mb-4">And remember what your life looks like 6 months from now: You're waking up in your own place, checking ₦847,000 in your business account, picking up restaurant bills without checking your balance, making your mother cry tears of pride, and helping others build their own freedom. All protected by my 60-day guarantee - if these strategies don't show you a clear path to ₦50,000+ monthly income, I'll refund every kobo and you keep everything anyway.</p>
             <p className="text-red-600 font-bold">The question isn't whether this works. The question is whether you'll let another opportunity slip by while someone else builds the life you want. <span className="text-red-600 font-bold">Click your preferred payment option above and let's make your business dreams reality. Right now.</span></p>
           </div>
+
+          <div className="text-center mb-6">
+              <Link href="#payment">
+                <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-lg">
+                  DOWNLOAD THE SMALL BUSINESS PLAYBOOK NOW
+                </button>
+                </Link>
+              </div>
         </div>
       </div>
     );
