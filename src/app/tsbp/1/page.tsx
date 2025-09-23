@@ -349,6 +349,14 @@ export default function SmallBusinessPlaybookV2() {
               <p className="text-red-600 font-bold text-2xl mt-2">But today, you're getting everything for just... ₦9,250</p>
             </div>
           </div>
+
+          <div className="text-center mb-6">
+              <a href="#payment">
+                <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-lg">
+                  DOWNLOAD THE SMALL BUSINESS PLAYBOOK NOW
+                </button>
+                </a>
+              </div>
   
           {/* VALUE JUSTIFICATION */}
           <p className="text-center font-bold mb-6">
