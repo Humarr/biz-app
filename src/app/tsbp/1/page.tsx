@@ -239,7 +239,7 @@ export default function SmallBusinessPlaybookV2() {
             <p>• <span className="font-bold">The value stacking technique</span> that makes customers feel stupid for NOT buying from you</p>
             <p>• <span className="font-bold">Why most price resistance comes from the seller, not the buyer</span> - fix this and watch objections melt away</p>
             <p>• <span className="font-bold">The recession-proof pricing strategy</span> that actually makes you MORE money when times are hard</p>
-            <p>• <span className="font-bold">How to use low prices without losing your shirt</span> (most business owners get this dangerously wrong)</p>
+            <p>• <span className="font-bold">How to use low prices without losing your profits</span> (most business owners get this dangerously wrong)</p>
           </div>
   
           <p className="font-bold text-red-600 mb-6">Plus these action-taking secrets...</p>
