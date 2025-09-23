@@ -1,4 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+
+import Link from "next/link";
+
 // app/small-business-playbook-v2/page.js
 export default function SmallBusinessPlaybookV2() {
     return (
@@ -700,7 +703,18 @@ export default function SmallBusinessPlaybookV2() {
                 <li><span className="font-bold">Send it to thecashologists00@gmail.com</span></li>
                 <li><span className="font-bold">Your complete playbook + all bonuses will hit your email within 2 hours (usually much faster)</span></li>
               </ol>
-              <p className="text-center font-bold">Bank Details: [Your bank details would go here]</p>
+              <p className="text-center font-bold">Bank Details: <p className="font-bold">
+            <br />
+            Bank name: GTBank
+            <br />
+            Account Name: Umar Saadu
+            <br />
+            Account number: 0495076758
+          </p> 
+          <br/>
+          <br/>
+          ...and send email proof of payment to thecashologists00@gmail.com
+          </p>
               <p className="italic mt-4">Why people love this option: It's straightforward, uses your regular banking app, and you get personal service from me directly.</p>
             </div>
   
@@ -710,9 +724,11 @@ export default function SmallBusinessPlaybookV2() {
               <p className="font-bold mb-4">Want your playbook in the next 5 minutes? Click the button below:</p>
               
               <div className="text-center mb-6">
+              <Link href="https://paystack.shop/pay/tsbp">
                 <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-lg">
                   DOWNLOAD THE SMALL BUSINESS PLAYBOOK NOW - ₦9,250
                 </button>
+                </Link>
               </div>
   
               <p className="font-bold mb-4">Here's exactly what happens when you click (it's surprisingly simple):</p>
