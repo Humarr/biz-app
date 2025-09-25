@@ -28,7 +28,7 @@ export default function SalesLetter() {
 
         <p className="text-center font-bold mb-6">NEW research shows:</p>
 
-        <h1 className="text-3xl font-bold text-center mb-6 p-4">
+        <h1 className="text-4xl font-bold text-center mb-6">
         {/* <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4"> */}
           THE <span className="text-red-700 underline">UNBELIEVABLE SECRET CODE</span> THAT
           REVEALS HOW TO TALK AND FLIRT WITH WOMEN!
@@ -50,7 +50,7 @@ export default function SalesLetter() {
           <li>You are so scared to even approach a lady</li>
         </ul>
 
-        <p className="font-bold mb-2">Dear Friend,</p>
+        <p className="font-bold mb-2 mt-16">Dear Friend,</p>
 
         {/* <p className="mb-4 bold">
           You've tried every dating advice that's come your way. 
