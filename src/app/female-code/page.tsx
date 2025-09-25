@@ -28,13 +28,16 @@ export default function SalesLetter() {
 
         <p className="text-center font-bold mb-6">NEW research shows:</p>
 
-        <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4">
-          THE <span className="text-red-700 underline">"FEMALE CODE"</span> THAT
-          REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU!
+        <h1 className="text-3xl font-bold text-center mb-6 p-4">
+        {/* <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4"> */}
+          THE <span className="text-red-700 underline">UNBELIEVABLE SECRET CODE</span> THAT
+          REVEALS HOW TO TALK AND FLIRT WITH WOMEN!
+          {/* REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU! */}
         </h1>
 
         <p className="text-center text-lg font-bold mb-8">
-          And now you can use this to get any woman obsessed over you in less than 7 days!
+          And it has the "<span className="text-red-700 underline">ultimate power</span>" to get any woman attracted and addicted to you as soon as you start putting it into fast action!
+          {/* And now you can use this to get any woman obsessed over you in less than 7 days! */}
           {/* And now you can use this to get any woman to want to "drop her pants"
           for you in less than 7 days! */}
         </p>
@@ -42,8 +45,9 @@ export default function SalesLetter() {
         <p className="font-bold mb-4">It doesn't matter if:</p>
         <ul className="list-disc pl-5 mb-8 space-y-4">
           <li>You're short, broke, fat, or old...</li>
-          <li>Your thing is so small she might laugh</li>
-          <li>You're so scared you shake when talking to fine girls</li>
+          <li>Your "thing" is so small she might laugh...</li>
+          {/* <li>You're so scared you shake when talking to fine girls</li> */}
+          <li>You are so scared to even approach a lady</li>
         </ul>
 
         <p className="font-bold mb-2">Dear Friend,</p>
