@@ -30,7 +30,7 @@ export default function SalesLetter() {
 
         <h1 className="text-4xl font-bold text-center mb-6">
         {/* <h1 className="text-3xl font-bold text-center mb-6 border-2 border-black p-4"> */}
-          THE <span className="text-red-700 underline">UNBELIEVABLE SECRET CODE</span> THAT
+          THE <span className="text-red-700 underline">UNBELIEVABLE "SECRET CODE"</span> THAT
           REVEALS HOW TO TALK AND FLIRT WITH WOMEN!
           {/* REVEALS WHAT A WOMAN WANTS THAT SHE WILL NEVER TELL YOU! */}
         </h1>
