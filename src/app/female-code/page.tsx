@@ -22,7 +22,7 @@ export default function SalesLetter() {
           If you knew the <span className="underline">TRUE REASON</span> why
           every lady rejects you...you'd{" "}
           <span className="underline">NEVER</span> see ladies the same way
-          again.
+          again...
           {/* If you knew the TRUE REASON why every woman "forms" for you...you'd NEVER see women the same way again. */}
         </p>
 
