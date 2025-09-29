@@ -54,7 +54,7 @@ export default function MenFinancialFreedom() {
             {/* His name? Status Quo. */}
           </p>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          <p className="font-bold mb-4">The fact is...</p>
 
           <p className="mb-8">
             While you're reading this letter, that thief just stole another
@@ -71,7 +71,7 @@ export default function MenFinancialFreedom() {
 
           <p className="mb-4">
             Today, more than ever before, money is what counts. The cost of
-            living is mounting month by month. You can't cover your bills with
+            living is mounting month by month. You can't pay your bills with
             what you've been making.
           </p>
 
