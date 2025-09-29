@@ -815,7 +815,7 @@ And there's more...
           <p className="mb-4 italic">Now, let me be clear...</p>
 
           <p className="mb-4">
-            I'm not saying you'll make millions or even ₦50k today...
+            I'm not saying you'll make millions or even ₦100k today...
           </p>
 
           <p className="font-bold mb-4">
@@ -832,7 +832,7 @@ And there's more...
             </p>
           </div>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          {/* <p className="font-bold mb-4">And there's more...</p> */}
 
           <p className="text-center font-bold text-xl mb-4">
             If that's what just the FREE gifts will do for you... imagine what
