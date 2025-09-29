@@ -141,10 +141,14 @@ export default function MenFinancialFreedom() {
             years.
           </p>
 
+          <p className="text-center font-bold text-red-600 text-xl mb-4">
+            God forbid.
+          </p>
+
           <p className="font-bold mb-4">And that's not all...</p>
 
           <p className="font-bold mb-4">
-            Think about what's really at stake here:
+            Think about what's really at stake here when you solve this problem:
           </p>
 
           <div className="space-y-3 mb-6">
@@ -165,17 +169,54 @@ export default function MenFinancialFreedom() {
               No more sleeping in that neighborhood where you worry about your
               kids being influenced by area boys.
             </p>
+            <p>
+            Imagine your children's excited faces when they come home talking about the family trip YOU can now afford—not just Lagos, but Dubai, London, anywhere you choose.
+            </p>
+            <p>
+        
+Imagine never having to pretend you're full so your family can eat. Instead, everyone eats well, and there's still money left over.
+
+            </p>
+            <p>
+         
+Imagine walking into family gatherings with your head held high, being the one people come to for help instead of the one who needs help.
+            </p>
+            <p>
+         
+Imagine moving into that secure neighborhood where your kids are surrounded by good influences and opportunities.
+
+            </p>
+            <p className="font-bold text-xl">
+    
+That's not all...
+            </p>
+            <p>
+  
+Imagine the look of pride and respect in your wife's eyes because she knows her husband is an odogwu who has everything under control.
+
+            </p>
+            <p>
+     
+Imagine being seen as THE leader in your family and community—the one people look up to and seek advice from.
+
+            </p>
+            <p>
+Imagine your retirement years filled with travel, comfort, and joy instead of worry and dependence on others...
+            </p>
+            {/* <p className="font-bold text-xl">
+  
+And there's more...
+            </p> */}
+            
           </div>
 
-          <p className="text-center font-bold text-red-600 text-xl mb-4">
-            God forbid.
-          </p>
+     
         </div>
 
         {/* SOLUTION INTRODUCTION */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-center mb-4">
-            Luckily For You, There's Now A Solution...
+            Luckily For You, There's Now A Solution That Can Make That A Reality...
           </h2>
 
           <p className="mb-4">
