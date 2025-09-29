@@ -13,7 +13,7 @@ export default function MenFinancialFreedom() {
             Men... How To Get Rid of Money Worries For Good — Even If The
             Economy Is Crumbling
           </h1>
-          <div className="text-sm text-gray-600">
+          {/* <div className="text-sm text-gray-600">
             <p>
               <strong>From the Desk of:</strong> [Your Name]
             </p>
@@ -21,7 +21,7 @@ export default function MenFinancialFreedom() {
               <strong>Re:</strong> The ₦850,000 Question Every Nigerian Man Must
               Answer...
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* OPENING SECTION */}
