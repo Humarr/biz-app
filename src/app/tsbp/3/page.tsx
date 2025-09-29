@@ -570,7 +570,7 @@ export default function MenFinancialFreedom() {
             <p className="font-bold mb-4">That's not all...</p>
 
             <div className="border-2 border-black p-4 mb-6">
-              <p className="font-bold mb-4">Chijioke M. from Enugu:</p>
+              <p className="font-bold mb-4">Chijioke from Enugu:</p>
               <p className="italic">
                 "I never finished university. I thought business was for 'big
                 men' only. This book showed me I was wrong. Now I'm making more
@@ -579,7 +579,7 @@ export default function MenFinancialFreedom() {
             </div>
 
             <div className="border-2 border-black p-4 mb-6">
-              <p className="font-bold mb-4">Ibrahim S. from Kaduna:</p>
+              <p className="font-bold mb-4">Ibrahim from Kaduna:</p>
               <p className="italic">
                 "The chapter on pricing strategy saved my business! I was
                 selling too cheap and going broke. After reading the 'Premium
