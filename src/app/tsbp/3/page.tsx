@@ -879,12 +879,12 @@ And there's more...
           <p className="font-bold mb-4">That's not all...</p>
 
           <p className="text-center mb-4">
-            That's just <span className="font-bold">67 naira per day</span> when
+            That's just <span className="font-bold">25 naira per day</span> when
             spread over 7 months.
           </p>
 
           <p className="text-center mb-6">
-            67 naira. Less than a bottle of Coke.
+            25 naira. Less than a bottle of Coke.
           </p>
 
           <p className="mb-4">
@@ -1060,7 +1060,7 @@ And there's more...
           <div className="border-2 border-green-600 p-4 mb-6">
             <p className="font-bold text-green-600 mb-4">CHOICE #2:</p>
             <p className="text-center font-bold text-xl">
-              Invest 67 naira per day to potentially change your family's entire
+              Invest 25 naira per day to potentially change your family's entire
               bloodline forever.
             </p>
           </div>
