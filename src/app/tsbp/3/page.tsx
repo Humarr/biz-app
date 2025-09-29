@@ -354,7 +354,7 @@ And there's more...
               <p className="italic mb-4">
                 "This strategy alone changed everything for me. I found a hungry
                 market I didn't even know existed in my area. Within 3 weeks, I
-                had 47 paying customers!"<br/>  — Amaka, Hairdresser
+                had 17 paying customers!"<br/>  — Amaka, Hairdresser
               </p>
             </div>
 
