@@ -431,7 +431,7 @@ And there's more...
                 "I was wasting ₦50,000 monthly on Facebook ads that brought ZERO
                 sales. After learning these 8 commandments, my very next ad
                 brought in ₦180,000 in sales. Same budget. I nearly cried." —
-                Fatima, Fashion Designer, Abuja
+                Fatima, Fashion Designer
               </p>
             </div>
 
