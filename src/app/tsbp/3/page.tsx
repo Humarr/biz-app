@@ -9,7 +9,7 @@ export default function MenFinancialFreedom() {
       <div className="max-w-3xl mx-auto bg-white p-6 md:p-8 shadow-lg">
         {/* HEADER SECTION */}
         <div className="text-center mb-8 border-b-2 border-gray-300 pb-6">
-          <h1 className="text-3xl font-bold mb-4">
+          <h1 className="text-3xl font-bold mb-4 text-red-600">
             Men... How To Get Rid of Money Worries For Good — Even If The
             Economy Is Crumbling
           </h1>
