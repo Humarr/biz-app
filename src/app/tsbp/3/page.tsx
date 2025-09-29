@@ -49,9 +49,12 @@ export default function MenFinancialFreedom() {
           <p className="mb-4">
             You can't see him. You can't catch him. But he's there.
           </p>
+          <p className="mb-4">
+        And he is...
+          </p>
 
           <p className="text-center font-bold text-red-600 text-xl mb-4">
-            His name? “your current financial situation”.
+            “your current financial situation”.
             {/* His name? “the way things are”. */}
             {/* His name? Status Quo. */}
           </p>
