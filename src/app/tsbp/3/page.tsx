@@ -1,4 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+
+import Link from "next/link";
+
 // app/men-financial-freedom/page.js
 export default function MenFinancialFreedom() {
     return (
@@ -621,9 +624,11 @@ export default function MenFinancialFreedom() {
   
           {/* MAIN CTA BUTTON */}
           <div className="text-center mb-8">
+          <Link href="https://paystack.shop/pay/tsbp">
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl">
-              [CLICK HERE TO CLAIM YOUR COPY NOW - ONLY 153 COPIES LEFT]
+              CLICK HERE TO CLAIM YOUR COPY NOW
             </button>
+            </Link>
           </div>
   
           {/* PS SECTION */}
@@ -637,9 +642,13 @@ export default function MenFinancialFreedom() {
             <p className="font-bold mb-6">P.P.P.P.S. If the button above doesn't work, we're sold out for the month. Try again next month, but the price will be ₦29,040 by then. Don't say I didn't warn you.</p>
             
             <div className="text-center">
-              <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl">
-                [FINAL WARNING: ONLY 153 COPIES LEFT AT THIS PRICE - CLAIM YOURS NOW BEFORE THEY'RE GONE]
+                
+                <p className="font-bold mb-6"  >FINAL WARNING: ONLY 153 COPIES LEFT AT THIS PRICE -</p>
+            <Link href="https://paystack.shop/pay/tsbp">
+              <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl shadow-2xl">
+                 CLAIM YOURS NOW BEFORE THEY'RE GONE
               </button>
+              </Link>
             </div>
           </div>
         </div>
