@@ -889,7 +889,10 @@ And there's more...
 
           <p className="mb-4">
             If this Playbook helps you make an extra ₦200k per month, that's
-            over <span className="font-bold">10X</span> what you paid.
+            over <span className="font-bold">40X</span> what you paid.
+          </p>
+          <p className="mb-4">
+            It's like paying me ₦5250 to get <span className="font-bold">₦200k</span> EVERY moonth.
           </p>
 
           <p className="mb-6">
