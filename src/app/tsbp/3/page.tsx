@@ -354,7 +354,7 @@ And there's more...
               <p className="italic mb-4">
                 "This strategy alone changed everything for me. I found a hungry
                 market I didn't even know existed in my area. Within 3 weeks, I
-                had 47 paying customers!" — Amaka, Hairdresser
+                had 47 paying customers!"<br/>  — Amaka, Hairdresser
               </p>
             </div>
 
@@ -369,7 +369,7 @@ And there's more...
               <p className="italic mb-4">
                 "I used these psychological triggers in my advertisement and my
                 conversion rate went from 2% to 18%. Same product, same price,
-                different words. This is witchcraft!" — Tunde, Electronics
+                different words. This is witchcraft!"<br/>  — Tunde, Electronics
                 Dealer
               </p>
             </div>
@@ -476,7 +476,7 @@ And there's more...
                 "I had 12 loyal customers. I used trick number 3 from this
                 chapter and within one month, those 12 customers brought me 20
                 new customers. Without me spending one kobo on advertising. This
-                book is pure gold!" — Olawale, Caterer
+                book is pure gold!"<br/>  — Olawale, Caterer
               </p>
             </div>
 
@@ -508,7 +508,7 @@ And there's more...
                 "I used to compete on price and was always broke. After reading
                 the Premium Perception chapter, I increased my prices by 60% and
                 added some small packaging changes. Now customers see me as
-                premium and I'm making 3X more profit!" — Chidi, Perfume Seller
+                premium and I'm making 3X more profit!"<br/>  — Chidi, Perfume Seller
               </p>
             </div>
 
@@ -563,7 +563,7 @@ And there's more...
                 "I was making good money but the business collapsed within 6
                 months. I wish I had read this book earlier. Now I'm starting
                 again and avoiding all 3 mistakes. My business is more stable
-                and profitable than before." — Musa, Poultry Farmer
+                and profitable than before."<br/>  — Musa, Poultry Farmer
               </p>
             </div>
 
@@ -734,13 +734,13 @@ And there's more...
               "I read the 6 Guaranteed Products bonus first. Picked number 4
               from the list. Started my business the same day with ₦20,000.
               Three months later, I'm doing ₦280,000 monthly. My only regret is
-              not starting sooner!" — Adamu, Small Business Owner
+              not starting sooner!"<br/>  — Adamu, Small Business Owner
             </p>
             <p className="italic mb-4">
               "While everyone was complaining, I focused on product number 2
               from this bonus. While my friends were crying about the economy, I
               was making steady money. This bonus alone is worth more than what
-              I paid!" — Jennifer, Entrepreneur, Warri
+              I paid!"<br/>  — Jennifer, Entrepreneur, Warri
             </p>
           </div>
 
@@ -765,19 +765,19 @@ And there's more...
             <p className="italic mb-4">
               "I'm not a writer. I can barely type. But these templates made me
               look like a professional copywriter. I just filled in the blanks
-              and boom! My first ad brought in 23 customers in 2 days." — Kunle,
+              and boom! My first ad brought in 23 customers in 2 days."<br/>  — Kunle,
               Barber
             </p>
             <p className="italic mb-4">
               "I used Template #7 for my Facebook ad. I spent ₦5,000 on the ad
               and made ₦67,000 in sales in one week. I've used that same
               template 5 times now and it works every single time. This toolkit
-              is a cheat code!" — Ngozi, Makeup Artist
+              is a cheat code!"<br/>  — Ngozi, Makeup Artist
             </p>
             <p>
               "I'm not a writer. I can barely type. But these templates made me
               look like a professional copywriter. I just filled in the blanks
-              and boom! My first ad brought in 23 customers in 2 days." — Kunle,
+              and boom! My first ad brought in 23 customers in 2 days."<br/>  — Kunle,
               Barber
             </p>
           </div>
@@ -806,7 +806,7 @@ And there's more...
               "I followed these exact 5 steps. Step by step. By day 3, I had my
               first product. By day 5, I had my first customer. By week 2, I had
               made ₦85,000. If you can follow simple instructions, you will make
-              money with this." — Patrick, Computer Training Center Owner
+              money with this."<br/>  — Patrick, Computer Training Center Owner
             </p>
           </div>
 
@@ -829,7 +829,7 @@ And there's more...
             <p className="italic mb-4">
               "I got the book at 10am. By 3pm same day, I had created my offer
               using the templates. By 7pm, I made my first ₦8,000 sale. SAME
-              DAY! This is not hype. This is real!" — Ahmed, Graphic Designer,
+              DAY! This is not hype. This is real!"<br/>  — Ahmed, Graphic Designer,
               Sokoto
             </p>
           </div>
