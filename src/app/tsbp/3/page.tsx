@@ -775,10 +775,7 @@ And there's more...
               is a cheat code!"<br/>  — Ngozi, Makeup Artist
             </p>
             <p>
-              "I'm not a writer. I can barely type. But these templates made me
-              look like a professional copywriter. I just filled in the blanks
-              and boom! My first ad brought in 23 customers in 2 days."<br/>  — Kunle,
-              Barber
+            "Before I got these templates, I was paying a copywriter ₦15,000 per ad. Now I just use the templates and customize them. I've saved over ₦90,000 in copywriting fees in 6 months alone!" — Daniel, Phone Accessories Seller
             </p>
           </div>
 
