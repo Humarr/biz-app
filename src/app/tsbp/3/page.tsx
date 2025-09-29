@@ -136,9 +136,9 @@ export default function MenFinancialFreedom() {
             community.
           </p>
           <p className="font-bold mb-4">
-            Which means when you retire, you'll be passing around flyers on
-            social media begging for donations instead of enjoying your golden
-            years.
+          Which means when you retire, you’ll be begging your kids for help—kids who may not even care, because they’ll be busy with their own lives (or focusing only on their mother).
+            {/* Which means when you retire, you'll be depending on your children (who might not even take care of you because they'll be focused on their mother) instead of enjoying your golden
+            years. */}
           </p>
 
           <p className="text-center font-bold text-red-600 text-xl mb-4">
