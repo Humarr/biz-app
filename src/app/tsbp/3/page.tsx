@@ -10,8 +10,9 @@ export default function MenFinancialFreedom() {
         {/* HEADER SECTION */}
         <div className="text-center mb-8 border-b-2 border-gray-300 pb-6">
           <h1 className="text-3xl font-bold mb-4 text-red-600">
-            Men... How To Get Rid of Money Worries For Good — Even If The
-            Economy Is Crumbling
+            Men... <br/>
+            If You can Follow Simple Instructions, You Can get Rid Of Money Worries For Good
+            {/* How To Get Rid of Money Worries For Good — Even If The Economy Is Crumbling */}
           </h1>
           {/* <div className="text-sm text-gray-600">
             <p>
