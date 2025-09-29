@@ -51,7 +51,8 @@ export default function MenFinancialFreedom() {
           </p>
 
           <p className="text-center font-bold text-red-600 text-xl mb-4">
-            His name? “the way things are”.
+            His name? “your current financial situation”.
+            {/* His name? “the way things are”. */}
             {/* His name? Status Quo. */}
           </p>
 
