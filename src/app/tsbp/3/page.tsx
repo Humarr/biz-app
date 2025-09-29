@@ -591,7 +591,7 @@ export default function MenFinancialFreedom() {
             <p className="mb-4">Enter your name and email (so they can send you the payment receipt).</p>
             
             <p className="mb-4">Make your payment by any method you choose:</p>
-            <ul className="list-disc pl-6 mb-4">
+            <ul className="list-disc pl-6 mb-4 space-y-4">
               <li>Direct bank transfer</li>
               <li>USSD code</li>
               <li>Debit/credit card</li>
