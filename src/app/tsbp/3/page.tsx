@@ -291,6 +291,12 @@ export default function MenFinancialFreedom() {
               goldmines)
             </p>
 
+            <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "This strategy alone changed everything for me. I found a hungry market I didn't even know existed in my area. Within 3 weeks, I had 47 paying customers!" — Amaka O., Hairdresser, Port Harcourt
+              </p>
+            </div>
+
             <p className="font-bold">And there's more...</p>
 
             <p>
@@ -350,6 +356,13 @@ export default function MenFinancialFreedom() {
               (Miss one and your advertising will flop like a bad Nollywood
               movie)
             </p>
+
+            <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I was wasting ₦50,000 monthly on Facebook ads that brought ZERO sales. After learning these 8 commandments, my very next ad brought in ₦180,000 in sales. Same budget. I nearly cried." — Fatima, Fashion Designer, Abuja
+              </p>
+            </div>
+
             <p>
               •{" "}
               <span className="font-bold">
