@@ -293,7 +293,7 @@ export default function MenFinancialFreedom() {
 
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "This strategy alone changed everything for me. I found a hungry market I didn't even know existed in my area. Within 3 weeks, I had 47 paying customers!" — Amaka O., Hairdresser, Port Harcourt
+              "This strategy alone changed everything for me. I found a hungry market I didn't even know existed in my area. Within 3 weeks, I had 47 paying customers!" — Amaka, Hairdresser
               </p>
             </div>
 
@@ -304,6 +304,11 @@ export default function MenFinancialFreedom() {
               in every Nigerian's brain—and the exact words that press them
               (discovered through analyzing 10,000+ customer purchases)
             </p>
+            <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I used these psychological triggers in my advertisement and my conversion rate went from 2% to 18%. Same product, same price, different words. This is witchcraft!" — Tunde, Electronics Dealer
+              </p>
+            </div>
             <p>
               •{" "}
               <span className="font-bold">The Business Analyzer Framework</span>
@@ -398,6 +403,13 @@ export default function MenFinancialFreedom() {
               </span>{" "}
               (Without doing extra work or spending more money)
             </p>
+
+            <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I had 12 loyal customers. I used trick number 3 from this chapter and within one month, those 12 customers brought me 20 new customers. Without me spending one kobo on advertising. This book is pure gold!" — Olawale, Caterer
+              </p>
+            </div>
+
             <p>
               •{" "}
               <span className="font-bold">
@@ -420,6 +432,12 @@ export default function MenFinancialFreedom() {
               </span>{" "}
               that makes your products look more valuable to customers
             </p>
+
+            <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I used to compete on price and was always broke. After reading the Premium Perception chapter, I increased my prices by 60% and added some small packaging changes. Now customers see me as premium and I'm making 3X more profit!" — Chidi, Perfume Seller
+              </p>
+            </div>
 
             <p className="font-bold">That's not all...</p>
 
@@ -466,6 +484,13 @@ export default function MenFinancialFreedom() {
               </span>{" "}
               (and how you can avoid them completely)
             </p>
+
+            <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I was making good money but the business collapsed within 6 months. I wish I had read this book earlier. Now I'm starting again and avoiding all 3 mistakes. My business is more stable and profitable than before." — Musa, Poultry Farmer
+              </p>
+            </div>
+
             <p className="font-bold">And many, many, many more...</p>
           </div>
         </div>
@@ -484,8 +509,8 @@ export default function MenFinancialFreedom() {
           <p className="mb-4 italic">Fair question.</p>
 
           <p className="mb-4">
-            My name is Umar, and I've spent the last 360 days studying how
-            ordinary men like you build profitable businesses from scratch.
+            My name is Umar, and I've spent the last 360 days helping
+             men like you build profitable businesses from scratch.
           </p>
 
           <p className="mb-4">
