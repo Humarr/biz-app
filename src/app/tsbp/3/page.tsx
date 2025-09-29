@@ -897,7 +897,7 @@ And there's more...
 
           <p className="mb-6">
             Even if I'm only half right and it makes you ₦100k monthly, that's
-            still <span className="font-bold">4X</span> your investment.
+            still over <span className="font-bold">10X</span> your investment.
           </p>
         </div>
 
