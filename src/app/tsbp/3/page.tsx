@@ -631,7 +631,7 @@ export default function MenFinancialFreedom() {
           {/* BONUS 1 */}
           <div className="border-2 border-black p-4 mb-6">
             <h3 className="text-red-600 font-bold text-xl mb-4 text-center">
-              FREE BONUS #1: The 6 Recession-Proof Products (Value: ₦15,000)
+              FREE BONUS #1: The 6 Guaranteed Products Nigerians Love To Buy (Value: ₦15,000)
             </h3>
             <p className="mb-4">Inside you'll discover:</p>
             <ul className="list-disc pl-6 mb-4 space-y-4">
@@ -652,6 +652,15 @@ export default function MenFinancialFreedom() {
             </p>
           </div>
 
+          <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I read the 6 Guaranteed Products bonus first. Picked number 4 from the list. Started my business the same day with ₦20,000. Three months later, I'm doing ₦280,000 monthly. My only regret is not starting sooner!" — Adamu, Small Business Owner
+              </p>
+              <p className="italic mb-4">
+              "While everyone was complaining, I focused on product number 2 from this bonus. While my friends were crying about the economy, I was making steady money. This bonus alone is worth more than what I paid!" — Jennifer, Entrepreneur, Warri
+              </p>
+            </div>
+
           <p className="font-bold mb-4">And there's more...</p>
 
           {/* BONUS 2 */}
@@ -668,6 +677,19 @@ export default function MenFinancialFreedom() {
               </li>
             </ul>
           </div>
+
+          <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I'm not a writer. I can barely type. But these templates made me look like a professional copywriter. I just filled in the blanks and boom! My first ad brought in 23 customers in 2 days." — Kunle, Barber
+              </p>
+              <p className="italic mb-4">
+              "I used Template #7 for my Facebook ad. I spent ₦5,000 on the ad and made ₦67,000 in sales in one week. I've used that same template 5 times now and it works every single time. This toolkit is a cheat code!" — Ngozi, Makeup Artist
+              </p>
+              <p>
+              "I'm not a writer. I can barely type. But these templates made me look like a professional copywriter. I just filled in the blanks and boom! My first ad brought in 23 customers in 2 days." — Kunle, Barber
+              </p>
+            </div>
+
 
           <p className="font-bold mb-4">That's not all...</p>
 
@@ -688,6 +710,12 @@ export default function MenFinancialFreedom() {
 
           <p className="mb-4">Run it as an ad and start getting sales.</p>
 
+          <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I followed these exact 5 steps. Step by step. By day 3, I had my first product. By day 5, I had my first customer. By week 2, I had made ₦85,000. If you can follow simple instructions, you will make money with this." — Patrick, Computer Training Center Owner
+              </p>
+            </div>
+
           <p className="font-bold mb-4">
             I can tell you that you can start making money TODAY.
           </p>
@@ -702,6 +730,12 @@ export default function MenFinancialFreedom() {
             But you CAN start making money today so you can prove to yourself
             that this works.
           </p>
+
+          <div className="border-2 border-black p-4 mb-6">
+              <p className="italic mb-4">
+              "I got the book at 10am. By 3pm same day, I had created my offer using the templates. By 7pm, I made my first ₦8,000 sale. SAME DAY! This is not hype. This is real!" — Ahmed, Graphic Designer, Sokoto
+              </p>
+            </div>
 
           <p className="font-bold mb-4">And there's more...</p>
 
