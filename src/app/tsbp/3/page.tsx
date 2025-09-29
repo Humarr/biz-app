@@ -1200,7 +1200,7 @@ And there's more...
         {/* MAIN CTA BUTTON */}
         <div className="text-center mb-8">
           <Link href="https://paystack.shop/pay/tsbp">
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl">
+            <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl shadow-2xl animate-pulse">
               CLICK HERE TO CLAIM YOUR COPY NOW
             </button>
           </Link>
@@ -1241,7 +1241,7 @@ And there's more...
               FINAL WARNING: ONLY 153 COPIES LEFT AT THIS PRICE -
             </p>
             <Link href="https://paystack.shop/pay/tsbp">
-              <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl shadow-2xl">
+              <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-xl shadow-2xl animate-bounce">
                 CLAIM YOURS NOW BEFORE THEY'RE GONE
               </button>
             </Link>
