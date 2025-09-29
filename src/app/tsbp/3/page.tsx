@@ -123,6 +123,10 @@ export default function MenFinancialFreedom() {
             Which means you're avoiding family gatherings because you can't
             afford to contribute financially.
           </p>
+          <p className="font-bold text-xl">
+    
+    Also...
+                </p>
           <p className="font-bold mb-2">
             Which means you're sleeping in that neighborhood where you
             constantly worry about area boys influencing your kids.
@@ -166,6 +170,11 @@ export default function MenFinancialFreedom() {
               No more avoiding family gatherings because you can't afford to
               contribute financially.
             </p>
+
+            <p className="font-bold text-xl">
+    
+    Oh, and...
+                </p>
             <p>
               No more sleeping in that neighborhood where you worry about your
               kids being influenced by area boys.
@@ -175,6 +184,10 @@ export default function MenFinancialFreedom() {
             </p>
             <p>
         
+            <p className="font-bold text-xl">
+    
+    Also...
+                </p>
 Imagine never having to pretend you're full so your family can eat. Instead, everyone eats well, and there's still money left over.
 
             </p>
