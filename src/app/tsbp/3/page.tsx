@@ -1069,7 +1069,7 @@ And there's more...
             </p>
           </div>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          <p className="font-bold mb-4">Here's another thing...</p>
 
           <p className="mb-4">I know something about you...</p>
 
@@ -1154,7 +1154,7 @@ And there's more...
             payment platform—also used by Jumia and other big companies).
           </p>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          <p className="font-bold mb-4">Then...</p>
 
           <p className="mb-4">
             Enter your name and email (so they can send you the payment
@@ -1168,7 +1168,7 @@ And there's more...
             <li>Debit/credit card</li>
           </ul>
 
-          <p className="font-bold mb-4">That's not all...</p>
+          <p className="font-bold mb-4">And...</p>
 
           <p className="mb-4">
             Once payment is complete, you'll be redirected to a secure page
