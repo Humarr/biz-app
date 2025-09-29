@@ -1184,7 +1184,7 @@ And there's more...
             your financial life.
           </p>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          <p className="font-bold mb-4">And the AMAZING thing is...</p>
 
           <p className="mb-4">
             You can start your business using the FREE bonuses TODAY...and start
