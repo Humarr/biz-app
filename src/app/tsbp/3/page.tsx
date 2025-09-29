@@ -767,14 +767,14 @@ export default function MenFinancialFreedom() {
           <p className="font-bold mb-4">And there's more...</p>
 
           <p className="text-center font-bold text-red-600 text-2xl mb-4">
-            I'm making The Small Business Playbook available for just ₦14,520
+            I'm making The Small Business Playbook available for just ₦9,250
             naira only.
           </p>
 
           <p className="text-center font-bold mb-4">You heard that right.</p>
 
           <p className="text-center font-bold text-red-600 text-2xl mb-4">
-            ₦14,520 only.
+            ₦9,250 only.
           </p>
 
           <p className="mb-4">
@@ -840,8 +840,8 @@ export default function MenFinancialFreedom() {
           <p className="font-bold mb-4">That's not all...</p>
 
           <p className="mb-4">
-            The price is going up next month to ₦29,040. The month after?
-            ₦45,000.
+            The price is going up next month to ₦18,500. The month after?
+            ₦35,000.
           </p>
 
           <p className="mb-4">Why?</p>
@@ -875,19 +875,19 @@ export default function MenFinancialFreedom() {
           <p className="mb-4">
             If after <span className="font-bold">90 full days</span> you don't
             make back at least{" "}
-            <span className="font-bold">3X your ₦14,520 investment</span>, I'll
+            <span className="font-bold">3X your ₦9,250 investment</span>, I'll
             not only refund your money...
           </p>
 
           <p className="text-center font-bold text-red-600 text-xl mb-4">
-            I'll also pay you an additional ₦14,520 for wasting your time.
+            I'll also pay you an additional ₦9,250 for wasting your time.
           </p>
 
           <p className="text-center mb-4">That's right.</p>
 
           <p className="text-center font-bold mb-4">
             Try the system for 90 days. If it doesn't work, you get{" "}
-            <span className="text-red-600">₦29,040 back.</span>
+            <span className="text-red-600">₦18,500 back.</span>
           </p>
 
           <p className="text-center font-bold text-xl mb-4">
@@ -1118,7 +1118,7 @@ export default function MenFinancialFreedom() {
 
           <p className="font-bold mb-4">
             P.P.S. Remember, you have FULL 90 days to try everything. If you
-            don't make back at least 3X your investment, I'll PAY you ₦29,040.
+            don't make back at least 3X your investment, I'll PAY you ₦18,500.
             You literally cannot lose money on this deal. The only way you lose
             is by not trying.
           </p>
@@ -1133,7 +1133,7 @@ export default function MenFinancialFreedom() {
 
           <p className="font-bold mb-6">
             P.P.P.P.S. If the button above doesn't work, we're sold out for the
-            month. Try again next month, but the price will be ₦29,040 by then.
+            month. Try again next month, but the price will be ₦18,500 by then.
             Don't say I didn't warn you.
           </p>
 
