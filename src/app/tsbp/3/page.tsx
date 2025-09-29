@@ -968,7 +968,7 @@ And there's more...
             Implement everything inside.
           </p>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          {/* <p className="font-bold mb-4">And there's more...</p> */}
 
           <p className="mb-4">
             If after <span className="font-bold">90 full days</span> you don't
@@ -978,6 +978,7 @@ And there's more...
           </p>
 
           <p className="text-center font-bold text-red-600 text-xl mb-4">
+            {/* I'll also write you a personal apology letter for wasting your time. */}
             I'll also pay you an additional ₦5,250 for wasting your time.
           </p>
 
@@ -1009,7 +1010,7 @@ And there's more...
             No questions asked. No hard feelings.
           </p>
 
-          <p className="font-bold mb-4">And there's more...</p>
+          <p className="font-bold mb-4">The truth is...</p>
 
           <p className="mb-4">You see, I'm taking a HUGE risk here...</p>
 
