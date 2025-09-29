@@ -707,7 +707,7 @@ And there's more...
           {/* BONUS 1 */}
           <div className="border-2 border-black p-4 mb-6">
             <h3 className="text-red-600 font-bold text-xl mb-4 text-center">
-              FREE BONUS #1: The 6 Guaranteed Products Nigerians Love To Buy
+              FREE BONUS #1: The 6 GUARANTEED Products Nigerians Love To Buy
               (Value: ₦15,000)
             </h3>
             <p className="mb-4">Inside you'll discover:</p>
