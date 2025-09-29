@@ -110,6 +110,37 @@ export default function MenFinancialFreedom() {
             That's ₦10.2 million per year just... vanishing.
           </p>
 
+          <p className="font-bold mb-2">
+            Which means you're watching your dreams slip away one month at a
+            time.
+          </p>
+          <p className="font-bold mb-2">
+            Which means your children are drinking garri for dinner while their
+            classmates are eating chicken.
+          </p>
+          <p className="font-bold mb-2">
+            Which means you're avoiding family gatherings because you can't
+            afford to contribute financially.
+          </p>
+          <p className="font-bold mb-2">
+            Which means you're sleeping in that neighborhood where you
+            constantly worry about area boys influencing your kids.
+          </p>
+
+          <p className="font-bold mb-2">
+            Which means your wife loses respect for you (even if she doesn't say
+            it out loud).
+          </p>
+          <p className="font-bold mb-2">
+            Which means you'll never be seen as a leader in your family or
+            community.
+          </p>
+          <p className="font-bold mb-4">
+            Which means when you retire, you'll be passing around flyers on
+            social media begging for donations instead of enjoying your golden
+            years.
+          </p>
+
           <p className="font-bold mb-4">And that's not all...</p>
 
           <p className="font-bold mb-4">
@@ -135,20 +166,6 @@ export default function MenFinancialFreedom() {
               kids being influenced by area boys.
             </p>
           </div>
-
-          <p className="font-bold mb-2">
-            Which means your wife loses respect for you (even if she doesn't say
-            it out loud).
-          </p>
-          <p className="font-bold mb-2">
-            Which means you'll never be seen as a leader in your family or
-            community.
-          </p>
-          <p className="font-bold mb-4">
-            Which means when you retire, you'll be passing around flyers on
-            social media begging for donations instead of enjoying your golden
-            years.
-          </p>
 
           <p className="text-center font-bold text-red-600 text-xl mb-4">
             God forbid.
@@ -294,7 +311,9 @@ export default function MenFinancialFreedom() {
 
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "This strategy alone changed everything for me. I found a hungry market I didn't even know existed in my area. Within 3 weeks, I had 47 paying customers!" — Amaka, Hairdresser
+                "This strategy alone changed everything for me. I found a hungry
+                market I didn't even know existed in my area. Within 3 weeks, I
+                had 47 paying customers!" — Amaka, Hairdresser
               </p>
             </div>
 
@@ -307,7 +326,10 @@ export default function MenFinancialFreedom() {
             </p>
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "I used these psychological triggers in my advertisement and my conversion rate went from 2% to 18%. Same product, same price, different words. This is witchcraft!" — Tunde, Electronics Dealer
+                "I used these psychological triggers in my advertisement and my
+                conversion rate went from 2% to 18%. Same product, same price,
+                different words. This is witchcraft!" — Tunde, Electronics
+                Dealer
               </p>
             </div>
             <p>
@@ -365,7 +387,10 @@ export default function MenFinancialFreedom() {
 
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "I was wasting ₦50,000 monthly on Facebook ads that brought ZERO sales. After learning these 8 commandments, my very next ad brought in ₦180,000 in sales. Same budget. I nearly cried." — Fatima, Fashion Designer, Abuja
+                "I was wasting ₦50,000 monthly on Facebook ads that brought ZERO
+                sales. After learning these 8 commandments, my very next ad
+                brought in ₦180,000 in sales. Same budget. I nearly cried." —
+                Fatima, Fashion Designer, Abuja
               </p>
             </div>
 
@@ -407,7 +432,10 @@ export default function MenFinancialFreedom() {
 
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "I had 12 loyal customers. I used trick number 3 from this chapter and within one month, those 12 customers brought me 20 new customers. Without me spending one kobo on advertising. This book is pure gold!" — Olawale, Caterer
+                "I had 12 loyal customers. I used trick number 3 from this
+                chapter and within one month, those 12 customers brought me 20
+                new customers. Without me spending one kobo on advertising. This
+                book is pure gold!" — Olawale, Caterer
               </p>
             </div>
 
@@ -436,7 +464,10 @@ export default function MenFinancialFreedom() {
 
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "I used to compete on price and was always broke. After reading the Premium Perception chapter, I increased my prices by 60% and added some small packaging changes. Now customers see me as premium and I'm making 3X more profit!" — Chidi, Perfume Seller
+                "I used to compete on price and was always broke. After reading
+                the Premium Perception chapter, I increased my prices by 60% and
+                added some small packaging changes. Now customers see me as
+                premium and I'm making 3X more profit!" — Chidi, Perfume Seller
               </p>
             </div>
 
@@ -488,7 +519,10 @@ export default function MenFinancialFreedom() {
 
             <div className="border-2 border-black p-4 mb-6">
               <p className="italic mb-4">
-              "I was making good money but the business collapsed within 6 months. I wish I had read this book earlier. Now I'm starting again and avoiding all 3 mistakes. My business is more stable and profitable than before." — Musa, Poultry Farmer
+                "I was making good money but the business collapsed within 6
+                months. I wish I had read this book earlier. Now I'm starting
+                again and avoiding all 3 mistakes. My business is more stable
+                and profitable than before." — Musa, Poultry Farmer
               </p>
             </div>
 
@@ -510,8 +544,8 @@ export default function MenFinancialFreedom() {
           <p className="mb-4 italic">Fair question.</p>
 
           <p className="mb-4">
-            My name is Umar, and I've spent the last 360 days helping
-             men like you build profitable businesses from scratch.
+            My name is Umar, and I've spent the last 360 days helping men like
+            you build profitable businesses from scratch.
           </p>
 
           <p className="mb-4">
@@ -632,7 +666,8 @@ export default function MenFinancialFreedom() {
           {/* BONUS 1 */}
           <div className="border-2 border-black p-4 mb-6">
             <h3 className="text-red-600 font-bold text-xl mb-4 text-center">
-              FREE BONUS #1: The 6 Guaranteed Products Nigerians Love To Buy (Value: ₦15,000)
+              FREE BONUS #1: The 6 Guaranteed Products Nigerians Love To Buy
+              (Value: ₦15,000)
             </h3>
             <p className="mb-4">Inside you'll discover:</p>
             <ul className="list-disc pl-6 mb-4 space-y-4">
@@ -654,13 +689,19 @@ export default function MenFinancialFreedom() {
           </div>
 
           <div className="border-2 border-black p-4 mb-6">
-              <p className="italic mb-4">
-              "I read the 6 Guaranteed Products bonus first. Picked number 4 from the list. Started my business the same day with ₦20,000. Three months later, I'm doing ₦280,000 monthly. My only regret is not starting sooner!" — Adamu, Small Business Owner
-              </p>
-              <p className="italic mb-4">
-              "While everyone was complaining, I focused on product number 2 from this bonus. While my friends were crying about the economy, I was making steady money. This bonus alone is worth more than what I paid!" — Jennifer, Entrepreneur, Warri
-              </p>
-            </div>
+            <p className="italic mb-4">
+              "I read the 6 Guaranteed Products bonus first. Picked number 4
+              from the list. Started my business the same day with ₦20,000.
+              Three months later, I'm doing ₦280,000 monthly. My only regret is
+              not starting sooner!" — Adamu, Small Business Owner
+            </p>
+            <p className="italic mb-4">
+              "While everyone was complaining, I focused on product number 2
+              from this bonus. While my friends were crying about the economy, I
+              was making steady money. This bonus alone is worth more than what
+              I paid!" — Jennifer, Entrepreneur, Warri
+            </p>
+          </div>
 
           <p className="font-bold mb-4">And there's more...</p>
 
@@ -680,17 +721,25 @@ export default function MenFinancialFreedom() {
           </div>
 
           <div className="border-2 border-black p-4 mb-6">
-              <p className="italic mb-4">
-              "I'm not a writer. I can barely type. But these templates made me look like a professional copywriter. I just filled in the blanks and boom! My first ad brought in 23 customers in 2 days." — Kunle, Barber
-              </p>
-              <p className="italic mb-4">
-              "I used Template #7 for my Facebook ad. I spent ₦5,000 on the ad and made ₦67,000 in sales in one week. I've used that same template 5 times now and it works every single time. This toolkit is a cheat code!" — Ngozi, Makeup Artist
-              </p>
-              <p>
-              "I'm not a writer. I can barely type. But these templates made me look like a professional copywriter. I just filled in the blanks and boom! My first ad brought in 23 customers in 2 days." — Kunle, Barber
-              </p>
-            </div>
-
+            <p className="italic mb-4">
+              "I'm not a writer. I can barely type. But these templates made me
+              look like a professional copywriter. I just filled in the blanks
+              and boom! My first ad brought in 23 customers in 2 days." — Kunle,
+              Barber
+            </p>
+            <p className="italic mb-4">
+              "I used Template #7 for my Facebook ad. I spent ₦5,000 on the ad
+              and made ₦67,000 in sales in one week. I've used that same
+              template 5 times now and it works every single time. This toolkit
+              is a cheat code!" — Ngozi, Makeup Artist
+            </p>
+            <p>
+              "I'm not a writer. I can barely type. But these templates made me
+              look like a professional copywriter. I just filled in the blanks
+              and boom! My first ad brought in 23 customers in 2 days." — Kunle,
+              Barber
+            </p>
+          </div>
 
           <p className="font-bold mb-4">That's not all...</p>
 
@@ -712,10 +761,13 @@ export default function MenFinancialFreedom() {
           <p className="mb-4">Run it as an ad and start getting sales.</p>
 
           <div className="border-2 border-black p-4 mb-6">
-              <p className="italic mb-4">
-              "I followed these exact 5 steps. Step by step. By day 3, I had my first product. By day 5, I had my first customer. By week 2, I had made ₦85,000. If you can follow simple instructions, you will make money with this." — Patrick, Computer Training Center Owner
-              </p>
-            </div>
+            <p className="italic mb-4">
+              "I followed these exact 5 steps. Step by step. By day 3, I had my
+              first product. By day 5, I had my first customer. By week 2, I had
+              made ₦85,000. If you can follow simple instructions, you will make
+              money with this." — Patrick, Computer Training Center Owner
+            </p>
+          </div>
 
           <p className="font-bold mb-4">
             I can tell you that you can start making money TODAY.
@@ -733,10 +785,13 @@ export default function MenFinancialFreedom() {
           </p>
 
           <div className="border-2 border-black p-4 mb-6">
-              <p className="italic mb-4">
-              "I got the book at 10am. By 3pm same day, I had created my offer using the templates. By 7pm, I made my first ₦8,000 sale. SAME DAY! This is not hype. This is real!" — Ahmed, Graphic Designer, Sokoto
-              </p>
-            </div>
+            <p className="italic mb-4">
+              "I got the book at 10am. By 3pm same day, I had created my offer
+              using the templates. By 7pm, I made my first ₦8,000 sale. SAME
+              DAY! This is not hype. This is real!" — Ahmed, Graphic Designer,
+              Sokoto
+            </p>
+          </div>
 
           <p className="font-bold mb-4">And there's more...</p>
 
