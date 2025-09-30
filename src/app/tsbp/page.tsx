@@ -741,7 +741,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold text-2xl text-red-800 mb-4 border-2 border-red-800 p-4">
-            The complete "Small Business Playbook: How Everyone Can Start, and Grow An Outrageously Profitable Business" - with everything I've shown you and much more - is available for just ₦9250.
+            The complete "Small Business Playbook: How Everyone Can Start, and Grow An Outrageously Profitable Business" - with everything I've shown you and much more - is available for just ₦5250.
           </p>
           
           <p className="mb-4 italic">
@@ -751,7 +751,7 @@ export default function SmallBusinessPlaybook() {
           <p className="font-bold mb-4">Let me put this in perspective for you...</p>
           
           <p className="mb-4">
-            ₦9250 is what you might spend on lunch for one day. But this playbook could generate ₦50,000+ monthly for years to come.
+            ₦5250 is what you might spend on lunch for one day. But this playbook could generate ₦50,000+ monthly for years to come.
           </p>
           
           <p className="font-bold text-lg not-odd:mb-8 text-red-800">
@@ -759,7 +759,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold mb-8">
-            Would you give me ₦9250 today if I guaranteed you'd make at least ₦50,000 extra next month?
+            Would you give me ₦5250 today if I guaranteed you'd make at least ₦50,000 extra next month?
           </p>
           
           <p className="mb-4">
@@ -778,7 +778,7 @@ export default function SmallBusinessPlaybook() {
             <br/><br/>
             "What if I'm different? "
             <br/><br/>
-            "What if I waste my ₦9250?"
+            "What if I waste my ₦5250?"
           </p>
           
           <p className="mb-4">I get it. I really do.</p>
@@ -822,7 +822,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold mb-8">
-            Just send me a simple email saying "I want my money back" and I'll refund your ₦9250 immediately.
+            Just send me a simple email saying "I want my money back" and I'll refund your ₦5250 immediately.
           </p>
           
           <p className="mb-4">
@@ -868,7 +868,7 @@ export default function SmallBusinessPlaybook() {
           </p>
           
           <p className="text-center font-bold mb-8">
-            I'm willing to bet ₦9250 that you're the kind of person who keeps their word.
+            I'm willing to bet ₦5250 that you're the kind of person who keeps their word.
           </p>
           
           <p className="text-center font-bold text-xl mb-8">
@@ -977,7 +977,7 @@ export default function SmallBusinessPlaybook() {
             </p>
             
           <p className="mb-4 text-xl">
-            Who understands that ₦9250 invested today could generate ₦600,000+ this year?
+            Who understands that ₦5250 invested today could generate ₦600,000+ this year?
           </p>
           
           <p className="mb-8">
@@ -1047,7 +1047,7 @@ export default function SmallBusinessPlaybook() {
             <p className="font-bold text-lg mb-2">OPTION 1: Direct Bank Transfer (Most Popular)</p>
             <p className="mb-2">This is the fastest way for most people to get started:</p>
             <ol className="list-decimal pl-5 mb-4 space-y-6">
-              <li>Transfer ₦9250 to: 
+              <li>Transfer ₦5250 to: 
                 
               <p className="font-bold">
             Bank Details:
@@ -1082,7 +1082,7 @@ export default function SmallBusinessPlaybook() {
             <div className="text-center">
             <Link href="https://paystack.shop/pay/tsbp2">
               <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
-                GET INSTANT ACCESS VIA PAYSTACK - ₦9250
+                GET INSTANT ACCESS VIA PAYSTACK - ₦5250
               </button>
               </Link>
             </div>
@@ -1093,7 +1093,7 @@ export default function SmallBusinessPlaybook() {
           <div className="text-center mb-8">
             <Link href="https://paystack.shop/pay/tsbp2">
             <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg mb-4">
-              GET INSTANT ACCESS VIA PAYSTACK - ₦9250
+              GET INSTANT ACCESS VIA PAYSTACK - ₦5250
             </button>
             </Link>
             <p className="text-sm">Most convenient - Download immediately after payment</p>
@@ -1102,7 +1102,7 @@ export default function SmallBusinessPlaybook() {
           <p className="text-center font-bold mb-4">OR</p>
           
           <p className="text-center mb-8">
-            Pay via Bank Transfer: Send ₦9250 to    
+            Pay via Bank Transfer: Send ₦5250 to    
             
             <p className="font-bold">
             Bank Details:
@@ -1145,7 +1145,7 @@ export default function SmallBusinessPlaybook() {
           <div className="border-t-2 border-black pt-4">
             <p className="font-bold mb-2">P.S. - If you skipped straight to the bottom, here's what you need to know: 
                 <br/>
-                For just ₦9250 (less than what you spend on lunch this week), you get the complete step-by-step system that shows employed Nigerians how to build ₦50,000-₦200,000 monthly side businesses without risking their jobs or savings. 
+                For just ₦5250 (less than what you spend on lunch this week), you get the complete step-by-step system that shows employed Nigerians how to build ₦50,000-₦200,000 monthly side businesses without risking their jobs or savings. 
                 <br/>
                 60-day money-back guarantee means you literally cannot lose.</p>
             <div className="text-center mt-4">
