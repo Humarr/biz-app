@@ -1080,7 +1080,7 @@ export default function SmallBusinessPlaybook() {
             </ol>
             <p className="mb-4">The whole process takes less than 2 minutes, and Paystack handles everything securely. You don't need to send emails or wait for manual processing - it's completely automated.</p>
             <div className="text-center">
-            <Link href="https://paystack.shop/pay/tsbp">
+            <Link href="https://paystack.shop/pay/tsbp2">
               <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
                 GET INSTANT ACCESS VIA PAYSTACK - ₦9250
               </button>
@@ -1091,7 +1091,7 @@ export default function SmallBusinessPlaybook() {
           <p className="text-center font-bold mb-4">Choose Your Payment Method Below:</p>
           
           <div className="text-center mb-8">
-            <Link href="https://paystack.shop/pay/tsbp">
+            <Link href="https://paystack.shop/pay/tsbp2">
             <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg mb-4">
               GET INSTANT ACCESS VIA PAYSTACK - ₦9250
             </button>
@@ -1149,7 +1149,7 @@ export default function SmallBusinessPlaybook() {
                 <br/>
                 60-day money-back guarantee means you literally cannot lose.</p>
             <div className="text-center mt-4">
-                <Link href="https://paystack.shop/pay/tsbp">
+                <Link href="https://paystack.shop/pay/tsbp2">
               <button className="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded text-lg">
                 Click here to get instant access now
               </button>
