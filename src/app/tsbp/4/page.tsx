@@ -60,13 +60,19 @@ export default function SalesLetter() {
             </p>
   
             <p>
-              While most aspiring entrepreneurs waste months (or years) overthinking which business to start, the survivors know exactly how to identify profitable ideas that match their skills and resources. While most businesses fail because they can&apos;t attract customers, the survivors know the four psychological triggers that make Nigerians open their wallets—even in a struggling economy.
+              While most aspiring entrepreneurs waste months (or years) overthinking which business to start, the survivors know exactly how to identify profitable ideas that match their skills and resources. 
+              <br />
+              <br />
+              While most businesses fail because they can&apos;t attract customers, the survivors know the four psychological triggers that make Nigerians open their wallets—even in a struggling economy.
             </p>
           </div>
   
           <div className="space-y-6">
             <p>
-              While most small business owners price themselves into poverty (too low) or obscurity (too high), the survivors know the pricing formulas that maximize profit while still getting customers to say yes. And while most entrepreneurs burn through their capital on advertising that doesn&apos;t work, the survivors use proven direct response templates that turn ₦5,000 in ad spend into ₦50,000 in sales.
+              While most small business owners price themselves into poverty (too low) or obscurity (too high), the survivors know the pricing formulas that maximize profit while still getting customers to say yes. 
+              <br />
+              <br />
+              And while most entrepreneurs burn through their capital on advertising that doesn&apos;t work, the survivors use proven direct response templates that turn ₦5,000 in ad spend into ₦50,000 in sales.
             </p>
   
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4">
@@ -74,7 +80,10 @@ export default function SalesLetter() {
             </h2>
   
             <p>
-              According to business failure research, a failure to conduct conclusive market research is the number one reason why 1 in 2 businesses in Africa fail. Translation? Most people fail because they&apos;re guessing. They&apos;re hoping. They&apos;re copying what they see others doing without understanding the underlying principles.
+              According to business failure research, a failure to conduct conclusive market research is the number one reason why 1 in 2 businesses in Africa fail. 
+              <br />
+              <br />
+              Translation? Most people fail because they&apos;re guessing. They&apos;re hoping. They&apos;re copying what they see others doing without understanding the underlying principles.
             </p>
   
             <p>
@@ -82,7 +91,10 @@ export default function SalesLetter() {
             </p>
   
             <p>
-              That&apos;s exactly what some aspiring Nigerian entrepreneurs have been quietly using to tilt the odds in their favor. It&apos;s called <em>The Small Business Playbook</em>—a comprehensive guide that walks you through everything from finding the right business idea for YOUR situation, to positioning yourself as number one in your marketplace, to advertising for maximum profitability.
+              That&apos;s exactly what some aspiring Nigerian entrepreneurs have been quietly using to tilt the odds in their favor. 
+              <br />
+              <br />
+              It&apos;s called <em>The Small Business Playbook</em>—a comprehensive guide that walks you through everything from finding the right business idea for YOUR situation, to positioning yourself as number one in your marketplace, to advertising for maximum profitability.
             </p>
   
             <p>
@@ -121,11 +133,14 @@ export default function SalesLetter() {
         {/* Newspaper Footer */}
         <footer className="mt-12 pt-6 border-t-2 border-gray-300 text-sm text-gray-700">
           <p className="mb-4">
-            <strong>For more information about <em>The Small Business Playbook</em>,  <a className="text-red-600 underline italic" href="/tsbp/4/sales">visit here</a></strong>
+            <strong>For more information about <em>The Small Business Playbook</em>,  <a className="text-red-600 underline italic text-lg" href="/tsbp/4/sales">visit here</a></strong>
           </p>
           
           <p className="text-xs italic">
-            <em>Disclosure: This article mentions The Small Business Playbook, a digital guide for aspiring Nigerian entrepreneurs. The statistics and research cited are from independent sources including Moniepoint, Research Tech Global, and government economic data.</em>
+            <em>Disclosure: This article mentions The Small Business Playbook, a digital guide for aspiring Nigerian entrepreneurs. 
+              <br />
+              <br />
+              The statistics and research cited are from independent sources including Moniepoint, Research Tech Global, and government economic data.</em>
           </p>
         </footer>
       </article>
