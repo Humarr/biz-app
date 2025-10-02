@@ -33,7 +33,7 @@ export default function SmallBusinessPlaybookV3() {
 
         {/* LEAD */}
         <div className="mb-8">
-          <p className="mb-4">
+          <p className="mb-4 mt-8">
             If you've been stuck at a job where your ₦70,000–₦150,000 salary
             feels like it's shrinking every month...
           </p>
