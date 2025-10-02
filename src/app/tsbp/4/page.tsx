@@ -121,7 +121,7 @@ export default function SalesLetter() {
         {/* Newspaper Footer */}
         <footer className="mt-12 pt-6 border-t-2 border-gray-300 text-sm text-gray-700">
           <p className="mb-4">
-            <strong>For more information about <em>The Small Business Playbook</em>, visit [YOUR WEBSITE/LINK HERE]</strong>
+            <strong>For more information about <em>The Small Business Playbook</em>, visit <a href="/tsbp/4/sales">here</a></strong>
           </p>
           
           <p className="text-xs italic">
