@@ -804,7 +804,7 @@ export default function SmallBusinessPlaybookV3() {
               </li>
               <li>
                 <span className="font-bold">
-                  Choose your payment method (Paystack or bank transfer).
+                  Choose your payment method (Paystack).
                 </span>
               </li>
               <li>
@@ -849,9 +849,9 @@ export default function SmallBusinessPlaybookV3() {
             <div className="text-center">
               <p className="font-bold mb-2">Accepted Payment Methods:</p>
               <p>💳 Paystack (Card, USSD, Bank Transfer)</p>
-              <p>🏦 Direct Bank Transfer</p>
+              {/* <p>🏦 Direct Bank Transfer</p> */}
               <p className="font-bold mt-4">
-                Instant Delivery: Your download link will be sent to your email
+                Instant Delivery: You'll beredirected to a secure download page where you'll get your unique download link 
                 within seconds of payment confirmation.
               </p>
             </div>
@@ -863,18 +863,38 @@ export default function SmallBusinessPlaybookV3() {
           <p className="font-bold mb-4">
             P.S. — Let me be brutally honest with you: Most people will read
             this entire page, feel that spark of excitement and possibility...
-            and then close the tab and do nothing. They'll go back to their jobs
-            on Monday. They'll complain about their salary. They'll dream about
-            "someday." And five years from now, they'll still be in the exact
+            <br/>
+            <br/>
+            and then close the tab and do nothing. 
+            {/* They'll go back to their jobs */}
+            on Monday. 
+            <br/>
+            <br/>
+            They'll complain about their salary. 
+            <br/>
+            <br/>
+            They'll dream about
+            "someday." 
+            <br/>
+            <br/>
+            And five years from now, they'll still be in the exact
             same place, wishing they'd acted when they had the chance.
           </p>
 
           <p className="font-bold text-center mb-4">Don't be most people.</p>
 
           <p className="mb-4">
-            The 5% who succeed aren't special. They're not luckier. They're not
-            more talented. They simply made the decision to ACT while everyone
-            else was making excuses. They followed a playbook while everyone
+            The 5% who succeed aren't special. 
+            
+            They're not luckier. 
+            
+            They're not
+            more talented. 
+            
+            They simply made the decision to ACT while everyone
+            else was making excuses. 
+            
+            They followed a playbook while everyone
             else was guessing.
           </p>
 
@@ -882,8 +902,17 @@ export default function SmallBusinessPlaybookV3() {
 
           <p className="mb-4">
             ₦5,250 to finally get clarity, direction, and a proven framework
-            that eliminates the guesswork. 60-day guarantee that removes all the
-            risk. Instant access that means you could be reading this playbook
+            that eliminates the guesswork. 
+            
+            <br/>
+            <br/>
+            
+            60-day guarantee that removes all the
+            risk. 
+            <br/>
+            <br/>
+            
+            Instant access that means you could be reading this playbook
             in the next 5 minutes.
           </p>
 
@@ -902,9 +931,21 @@ export default function SmallBusinessPlaybookV3() {
           <p className="font-bold mt-6">
             P.P.S. — Still unsure? Ask yourself this: What's the cost of doing
             nothing? Six months from now, will you be glad you played it safe...
-            or will you wish you'd taken action today? The playbook is here. The
-            guarantee protects you. The only thing standing between you and a
-            real shot at building something profitable is one decision. Make it
+            or will you wish you'd taken action today? 
+            <br/>
+            <br/>
+            The playbook is here. 
+            <br/>
+            <br/>
+            The
+            guarantee protects you. 
+            <br/>
+            <br/>
+            The only thing standing between you and a
+            real shot at building something profitable is one decision. 
+            <br/>
+            <br/>
+            Make it
             count.
           </p>
         </div>
