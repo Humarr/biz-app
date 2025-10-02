@@ -32,7 +32,10 @@ export default function SalesLetter() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           <div className="space-y-6">
             <p>
-              Recent research reveals a sobering truth: over 50% of Nigerian SMEs fail in their first year of operation, and more than 95% fail during their first five years. That&apos;s not a typo. Ninety-five percent.
+              Recent research reveals a sobering truth: over 50% of Nigerian SMEs fail in their first year of operation, and more than 95% fail during their first five years. 
+              <br/>
+              <br/>
+              That&apos;s not a typo. Ninety-five percent.
             </p>
             
             <p>
@@ -40,7 +43,10 @@ export default function SalesLetter() {
             </p>
   
             <p>
-              For the millions of Nigerians currently working in jobs where the minimum wage stands at ₦70,000 per month while inflation is estimated to reach 30% by 2025, the math is brutal. Your salary is losing value faster than you can earn it. The &quot;security&quot; of that job? It&apos;s an illusion.
+              For the millions of Nigerians currently working in jobs where the minimum wage stands at ₦70,000 per month while inflation is estimated to reach 30% by 2025, the math is brutal. 
+              <br/>
+              <br/>
+              Your salary is losing value faster than you can earn it. The &quot;security&quot; of that job? It&apos;s an illusion.
             </p>
   
             <p className="font-semibold italic text-lg border-l-4 border-gray-400 pl-4 py-2">
@@ -52,7 +58,10 @@ export default function SalesLetter() {
             </h2>
   
             <p>
-              Business researchers studying the small percentage of Nigerian entrepreneurs who beat these odds discovered something fascinating: They&apos;re not smarter. They&apos;re not luckier. They&apos;re not more connected.
+              Business researchers studying the small percentage of Nigerian entrepreneurs who beat these odds discovered something fascinating: 
+              <br/>
+              <br/>
+              They&apos;re not smarter. They&apos;re not luckier. They&apos;re not more connected.
             </p>
   
             <p>
@@ -83,7 +92,10 @@ export default function SalesLetter() {
               According to business failure research, a failure to conduct conclusive market research is the number one reason why 1 in 2 businesses in Africa fail. 
               <br />
               <br />
-              Translation? Most people fail because they&apos;re guessing. They&apos;re hoping. They&apos;re copying what they see others doing without understanding the underlying principles.
+              Translation? Most people fail because they&apos;re guessing. 
+              <br/>
+              <br/>
+              They&apos;re hoping. They&apos;re copying what they see others doing without understanding the underlying principles.
             </p>
   
             <p>
@@ -118,22 +130,28 @@ export default function SalesLetter() {
           </h2>
   
           <p>
-            Let&apos;s be brutally honest: If you&apos;re reading this hoping things will &quot;get better&quot; at your current job, you&apos;re betting against reality. Inflation in Nigeria decreased to 20.12 percent in August 2025 from 21.88 percent in July—but that&apos;s still eating your salary alive month after month.
+            Let&apos;s be brutally honest: 
+            <br/>
+            <br/>
+            If you&apos;re reading this hoping things will &quot;get better&quot; at your current job, you&apos;re betting against reality.            <br/>
+            <br/>Inflation in Nigeria decreased to 20.12 percent in August 2025 from 21.88 percent in July—but that&apos;s still eating your salary alive month after month.
+          </p>
+  
+          <p className="font-bold text-lg">
+            The question isn&apos;t whether you should start a business.            <br/>
+            <br/>The question is: Do you want to be part of the 95% who guess and fail, or the 5% who follow a proven playbook and succeed?
           </p>
   
           <p>
-            The question isn&apos;t whether you should start a business. The question is: Do you want to be part of the 95% who guess and fail, or the 5% who follow a proven playbook and succeed?
-          </p>
-  
-          <p>
-            You can learn more about <em>The Small Business Playbook</em> and decide for yourself if it&apos;s right for you. It won&apos;t do the work for you—but it will give you the knowledge that separates survivors from statistics.
+            You can learn more about <em>The Small Business Playbook</em> and decide for yourself if it&apos;s right for you.            <br/>
+            <br/>It won&apos;t do the work for you—but it will give you the knowledge that separates survivors from statistics.
           </p>
         </section>
   
         {/* Newspaper Footer */}
         <footer className="mt-12 pt-6 border-t-2 border-gray-300 text-sm text-gray-700">
           <p className="mb-4">
-            <strong>For more information about <em>The Small Business Playbook</em>,  <a className="text-red-600 underline italic text-lg" href="/tsbp/4/sales">visit here</a></strong>
+            <strong>For more information about <em>The Small Business Playbook</em>,  <a className="text-red-600 underline italic text-lg" href="/tsbp/4/sales">click here</a></strong>
           </p>
           
           <p className="text-xs italic">

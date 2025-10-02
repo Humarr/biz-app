@@ -76,15 +76,38 @@ export default function SmallBusinessPlaybookV3() {
           <p className="mb-4">
             I've sat in that office chair, watching the clock, knowing that no
             matter how hard I worked, my salary would stay the same while prices
-            kept climbing. I've felt that knot in my stomach every time I
+            kept climbing. 
+            <br />
+            <br />
+            I've felt that knot in my stomach every time I
             checked my bank account and did the math: rent, transport, food,
             family obligations... and nothing left over for the dreams I'd been
             carrying since I was 20 years old.
           </p>
           <p className="mb-4">
-            I've had those conversations with myself at 2 AM: *"Should I start a
-            business? But what if I fail? What would I even sell? How do I get
-            customers? What if I lose my money?"*
+            I've had those conversations with myself at 2 AM: 
+            
+            <br />
+            <br />
+            *"Should I start a
+            business? 
+            <br />
+            <br />
+            
+            But what if I fail? 
+            <br />
+            <br />
+            
+            What would I even sell? 
+            <br />
+            <br />
+            
+            How do I get
+            customers? 
+            <br />
+            <br />
+            
+            What if I lose my money?"*
           </p>
           <p className="mb-4">
             And I've watched good people—smart people, hardworking people—leave
@@ -540,7 +563,13 @@ export default function SmallBusinessPlaybookV3() {
               <p className="mb-2">
                 "I'm not going to lie and say I made millions overnight. But I
                 finally understand WHY my first business failed. I was guessing.
-                I was copying competitors. I wasn't thinking strategically. If
+                I was copying competitors. 
+                <br/>
+                <br/>
+                I wasn't thinking strategically. 
+                <br/>
+                <br/>
+                If
                 I'd had this playbook two years ago, I would've saved myself
                 ₦200,000 and a lot of stress."
               </p>
@@ -627,7 +656,10 @@ export default function SmallBusinessPlaybookV3() {
           <p className="mb-4">
             This price isn't going to last forever. Right now, we're in the
             "early adopter" phase—getting this playbook into the hands of
-            serious people who are ready to act. As more Nigerians use it, as
+            serious people who are ready to act. 
+            <br/>
+            <br/>
+            As more Nigerians use it, as
             more success stories come in, as the value becomes undeniable... the
             price will increase.
           </p>
@@ -639,14 +671,26 @@ export default function SmallBusinessPlaybookV3() {
           <p className="mb-4">
             While you're reading this, other people—people who might not be as
             smart as you, as hardworking as you, or as deserving as you—are
-            taking action. They're reading this playbook. They're applying the
-            frameworks. They're launching businesses using the exact templates
+            taking action. 
+                       <br/>
+            <br/>
+            They're reading this playbook. 
+            <br/>
+            <br/>
+            They're applying the
+            frameworks. 
+            <br/>
+            <br/>
+            They're launching businesses using the exact templates
             you're about to get access to.
           </p>
 
           <p className="mb-4">
             Six months from now, you'll see them posting their wins on social
-            media. You'll hear their success stories. You'll watch them escape
+            media. You'll hear their success stories. 
+            <br/>
+            <br/>
+            You'll watch them escape
             the 9-to-5 grind while you're still stuck at that desk, still
             checking your bank account with dread, still telling yourself
             "someday."
