@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
+import Image from "next/image";
 
 // app/small-business-playbook-v3/page.js
 export default function SmallBusinessPlaybookV3() {
@@ -684,6 +685,17 @@ export default function SmallBusinessPlaybookV3() {
             <p className="text-center font-bold mb-4">
               No questions asked. No hassle. No guilt trip.
             </p>
+
+            
+                      <div className="my-6 flex justify-center">
+                       <Image 
+                          src="/female-code/risk-reversal.png" 
+                          alt="Risk Reversal" 
+                          width={600} 
+                          height={300}
+                          className="rounded-lg"
+                        />
+                      </div>
 
             <p className="font-bold mb-4">
               But here's where I'm taking a real risk:
