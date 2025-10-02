@@ -783,7 +783,7 @@ export default function SmallBusinessPlaybookV3() {
               <p className="font-bold text-xl mb-4">
                 👇 CLICK HERE TO GET INSTANT ACCESS FOR JUST ₦5,250 👇
               </p>
-              <Link href="https://paystack.shop/tsbp">
+              <Link href="https://paystack.shop/pay/tsbp">
                 <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded text-lg">
                   GET INSTANT ACCESS NOW
                 </button>
@@ -836,7 +836,7 @@ export default function SmallBusinessPlaybookV3() {
           </p>
 
           <div className="text-center">
-            <Link href="https://paystack.shop/tsbp">
+            <Link href="https://paystack.shop/pay/tsbp">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded text-lg">
                 CLICK HERE TO GET INSTANT ACCESS NOW
               </button>
