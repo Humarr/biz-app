@@ -1,5 +1,6 @@
 // app/page.tsx
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
@@ -8,7 +9,9 @@ export default function Home() {
         <h1 className="text-6xl md:text-7xl font-bold text-center mb-8 leading-tight">
           PICTURE THIS:
         </h1>
-          <p className="text-4xl md:text-5xl text-center font-bold">You are tired of job and want to start a business.</p>
+        <p className="text-4xl md:text-5xl text-center font-bold">
+          You are tired of job and want to start a business.
+        </p>
 
         <div className="text-lg leading-relaxed space-y-6">
           <p className="">It&apos;s 11:47 PM on a Tuesday night.</p>
@@ -71,9 +74,10 @@ export default function Home() {
 
         <div className="mt-12 p-6 bg-yellow-50 border-l-4 border-yellow-400">
           <p className="text-lg font-semibold">
-            If that fear made your chest tighten just now… <span className="line-through">
-            this might be the
-            most important letter you&apos;ll ever read.</span>
+            If that fear made your chest tighten just now…{" "}
+            <span className="line-through">
+              this might be the most important letter you&apos;ll ever read.
+            </span>
           </p>
         </div>
 
@@ -104,17 +108,16 @@ export default function Home() {
               THE SMALL BUSINESS PLAYBOOK
             </h2>
 
-
             <div className="my-6 flex justify-center">
-                                   <Image 
-                                      src="/tsbp/cover.png" 
-                                      alt="The small business playbook book cover" 
-                                      width={600} 
-                                      height={300}
-                                      className="rounded-lg"
-                                    />
-                                  </div>
-            
+              <Image
+                src="/tsbp/cover.png"
+                alt="The small business playbook book cover"
+                width={600}
+                height={300}
+                className="rounded-lg"
+              />
+            </div>
+
             <p className="text-lg text-gray-700">
               And if I lost all my business knowledge tomorrow and had to start
               from scratch in Nigeria with ₦50,000 in my pocket…
@@ -1680,9 +1683,11 @@ export default function Home() {
               available for download. You&apos;ll be instantly redirected to a
               secure download page with your unique download link.)
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-              BUY NOW - ₦9450
-            </button>
+            <Link href="https://paystack.shop/pay/tsbp">
+              <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+                BUY NOW - ₦9450
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -1700,10 +1705,13 @@ export default function Home() {
               is for you or not.
             </p>
             {/* <p>But in case you have any questions, here are some answers:</p> */}
-          <h2 className="text-3xl font-bold text-center mb-12">
-          But wait, I Still Have Questions. Can You Answer Them?
-          </h2>
-            <p>Sure. But I&apos;m only going to answer the REAL questions, not the fake ones people use to stall.</p>
+            <h2 className="text-3xl font-bold text-center mb-12">
+              But wait, I Still Have Questions. Can You Answer Them?
+            </h2>
+            <p>
+              Sure. But I&apos;m only going to answer the REAL questions, not
+              the fake ones people use to stall.
+            </p>
           </div>
 
           <div className="mt-12 space-y-8">
@@ -1954,8 +1962,8 @@ export default function Home() {
 
         <div className="space-y-6 text-lg">
           <p>
-            But here&apos;s the thing: ₦9450 is less than what most people
-            spend on data and food in a week.
+            But here&apos;s the thing: ₦9450 is less than what most people spend
+            on data and food in a week.
           </p>
           <p>
             If you&apos;re serious about starting a business, you can find
@@ -2098,8 +2106,8 @@ export default function Home() {
           <p>You know you want to start a business.</p>
           <p>You know you need a system (not just random tips).</p>
           <p>
-            You know ₦9450 is not a lot of money for something that could
-            change your financial situation.
+            You know ₦9450 is not a lot of money for something that could change
+            your financial situation.
           </p>
           <p>
             And you know that if it doesn&apos;t work out, you can get a refund
@@ -2174,9 +2182,11 @@ export default function Home() {
             Instant download • 90-day money-back guarantee • Secure payment via
             Paystack
           </p>
-          <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦9450
-          </button>
+          <Link href="https://paystack.shop/pay/tsbp">
+            <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+              BUY NOW - ₦9450
+            </button>
+          </Link>
           <p className="mt-4 text-sm opacity-90">
             (Instant download. 90-day money-back guarantee. Secure payment via
             Paystack.)
@@ -2291,9 +2301,11 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             YES, I&apos;M READY. GET ME THE PLAYBOOK NOW.
           </h2>
-          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦9450
-          </button>
+          <Link href="https://paystack.shop/pay/tsbp">
+            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+              BUY NOW - ₦9450
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -2381,9 +2393,11 @@ export default function Home() {
           <p className="text-xl mb-8">
             (Secure payment via Paystack. Instant download. No waiting.)
           </p>
-          <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦9450
-          </button>
+          <Link href="https://paystack.shop/pay/tsbp">
+            <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+              BUY NOW - ₦9450
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -2433,9 +2447,11 @@ export default function Home() {
 
           <div className="mt-12">
             <p className="text-2xl font-bold mb-6">Start now.</p>
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-              GET THE SMALL BUSINESS PLAYBOOK NOW
-            </button>
+            <Link href="https://paystack.shop/pay/tsbp">
+              <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+                GET THE SMALL BUSINESS PLAYBOOK NOW
+              </button>
+            </Link>
           </div>
 
           <div className="mt-12 text-sm text-gray-600">
