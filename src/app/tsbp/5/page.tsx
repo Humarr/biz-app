@@ -7,9 +7,10 @@ export default function Home() {
         <h1 className="text-6xl md:text-7xl font-bold text-center mb-8 leading-tight">
           PICTURE THIS:
         </h1>
+          <p className="text-4xl md:text-5xl text-center font-bold">You are tired of job and want to start a business.</p>
 
         <div className="text-lg leading-relaxed space-y-6">
-          <p className="text-4xl md:text-5xl text-center font-bold">It&apos;s 11:47 PM on a Tuesday night.</p>
+          <p className="">It&apos;s 11:47 PM on a Tuesday night.</p>
           <p>You&apos;re lying in bed, staring at your phone screen.</p>
           <p>
             Your savings account is open in one tab. Your &quot;business
