@@ -1,4 +1,5 @@
 // app/page.tsx
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
@@ -102,6 +103,18 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               THE SMALL BUSINESS PLAYBOOK
             </h2>
+
+
+            <div className="my-6 flex justify-center">
+                                   <Image 
+                                      src="/tsbp/cover.png" 
+                                      alt="The small business playbook book cover" 
+                                      width={600} 
+                                      height={300}
+                                      className="rounded-lg"
+                                    />
+                                  </div>
+            
             <p className="text-lg text-gray-700">
               And if I lost all my business knowledge tomorrow and had to start
               from scratch in Nigeria with ₦50,000 in my pocket…
