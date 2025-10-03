@@ -104,12 +104,12 @@ export default function LandingPage() {
                 😰
               </p>
               <p className="text-lg mb-6 leading-relaxed">
-                If that fear made your chest tighten just now… this might be the most important letter you'll ever read.
+                If that fear made your chest tighten just now… <span className="line-through">this might be the most important letter you'll ever read.</span>
               </p>
               <p className="text-lg mb-6 leading-relaxed">
                 I mean, uh, I… have good news for you.
               </p>
-              <p className="text-lg mb-6 leading-relaxed italic">
+              <p className="text-sm mb-6 leading-relaxed italic">
                 *Phew, nearly went full motivational speaker mode there.*
               </p>
               <p className="text-lg mb-6 leading-relaxed">

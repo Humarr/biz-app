@@ -70,8 +70,9 @@ export default function Home() {
 
         <div className="mt-12 p-6 bg-yellow-50 border-l-4 border-yellow-400">
           <p className="text-lg font-semibold">
-            If that fear made your chest tighten just now… this might be the
-            most important letter you&apos;ll ever read.
+            If that fear made your chest tighten just now… <span className="line-through">
+            this might be the
+            most important letter you&apos;ll ever read.</span>
           </p>
         </div>
 
