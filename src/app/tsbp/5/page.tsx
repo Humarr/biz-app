@@ -4,12 +4,12 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-900 font-sans">
       {/* Hero Section */}
       <section className="px-4 py-16 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 leading-tight">
+        <h1 className="text-6xl md:text-7xl font-bold text-center mb-8 leading-tight">
           PICTURE THIS:
         </h1>
 
         <div className="text-lg leading-relaxed space-y-6">
-          <p>It&apos;s 11:47 PM on a Tuesday night.</p>
+          <p className="text-4xl md:text-5xl text-center font-bold">It&apos;s 11:47 PM on a Tuesday night.</p>
           <p>You&apos;re lying in bed, staring at your phone screen.</p>
           <p>
             Your savings account is open in one tab. Your &quot;business
