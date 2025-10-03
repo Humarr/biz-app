@@ -109,7 +109,7 @@ export default function LandingPage() {
               <p className="text-lg mb-6 leading-relaxed">
                 I mean, uh, I… have good news for you.
               </p>
-              <p className="text-sm mb-6 leading-relaxed italic">
+              <p className="text-xs mb-6 leading-relaxed italic">
                 *Phew, nearly went full motivational speaker mode there.*
               </p>
               <p className="text-lg mb-6 leading-relaxed">
