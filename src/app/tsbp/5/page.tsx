@@ -1699,7 +1699,11 @@ export default function Home() {
               Honestly, if you&apos;ve read this far, you already know if this
               is for you or not.
             </p>
-            <p>But in case you have any questions, here are some answers:</p>
+            {/* <p>But in case you have any questions, here are some answers:</p> */}
+          <h2 className="text-3xl font-bold text-center mb-12">
+          But wait, I Still Have Questions. Can You Answer Them?
+          </h2>
+            <p>Sure. But I&apos;m only going to answer the REAL questions, not the fake ones people use to stall.</p>
           </div>
 
           <div className="mt-12 space-y-8">
