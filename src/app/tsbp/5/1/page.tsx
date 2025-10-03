@@ -18,7 +18,7 @@ export default function LandingPage() {
         <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+              <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
                 # PICTURE THIS:
               </h1>
               <p className="text-xl text-gray-700 leading-relaxed">
