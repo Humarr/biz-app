@@ -1352,7 +1352,7 @@ export default function Home() {
           </p>
           <p className="mt-2">
             &quot;Run Facebook ads!&quot; (Okay, but your target customers are
-            on WhatsApp.)
+            on Tiktok.)
           </p>
           <p className="mt-2">
             &quot;Build an email list!&quot; (Nigerians don&apos;t check email
