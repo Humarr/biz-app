@@ -1677,8 +1677,8 @@ export default function Home() {
             </h3>
             <p className="mb-4">
               (Once you purchase, your e-book + bonuses will be immediately
-              available for download. Check your email for the secure download
-              link.)
+              available for download. You&apos;ll be instantly redirected to a
+              secure download page with your unique download link.)
             </p>
             <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               BUY NOW - ₦8,500
