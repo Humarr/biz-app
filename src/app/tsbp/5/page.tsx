@@ -83,7 +83,7 @@ export default function Home() {
 
         <div className="mt-8 text-lg leading-relaxed">
           <p>I mean, uh, I… have good news for you.</p>
-          <p className="italic">
+          <p className="italic text-xs">
             *Phew, nearly went full motivational speaker mode there.*
           </p>
           <p>

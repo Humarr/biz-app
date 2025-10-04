@@ -1,4 +1,5 @@
 // app/female-code/page.tsx
+import Image from "next/image";
 export default function FemaleCode() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
@@ -52,13 +53,13 @@ export default function FemaleCode() {
 
         <div className="mt-12 p-6 bg-yellow-50 border-l-4 border-yellow-400">
           <p className="text-lg font-semibold">
-            Well, if this scene made your blood run cold... this might be the
-            most important letter you ever re— I mean, uh, I... have good news
+            Well, if this scene made your blood run cold... <span className="line-through"> this might be the
+            most important letter you ever re— </span> I mean, uh, I... have good news
             for you.
           </p>
         </div>
 
-        <div className="mt-8 text-lg leading-relaxed">
+        <div className="mt-8 text-xs leading-relaxed">
           <p className="italic">
             Phew, nearly went full sales letter cliche mode there.
           </p>
@@ -86,6 +87,17 @@ export default function FemaleCode() {
               How to Talk, Flirt, and Make Women Addicted to You
             </p>
           </div>
+
+
+          <div className="my-6 flex justify-center">
+              <Image
+                src="/female-code/mockup.png"
+                alt="The small business playbook book cover"
+                width={600}
+                height={300}
+                className="rounded-lg"
+              />
+            </div>
 
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <p className="text-lg text-gray-700">
