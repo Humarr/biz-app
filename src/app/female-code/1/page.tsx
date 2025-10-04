@@ -1056,6 +1056,19 @@ export default function FemaleCode() {
             <h3 className="text-2xl font-bold mb-4">
               BUY THE FEMALE CODE FOR ₦5250
             </h3>
+
+            <p className="text-xl mb-8">
+            Instant download • 90-day money-back guarantee • Secure payment
+          </p>
+          {/* <Link href="https://paystack.shop/pay/3e8ubwfmr0"> */}
+          <Link href="https://selar.com/female-code">
+          <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+            BUY NOW - ₦5250
+          </button>
+          </Link>
+          <p className="mt-4 text-sm opacity-90">Secure payment via Paystack</p>
+
+
             <p className="mb-4">
               Once you purchase via Paystack&apos;s secure payment system,
               you&apos;ll be immediately redirected to your unique download page
