@@ -920,7 +920,8 @@ export default function FemaleCode() {
           <p className="text-xl mb-8">
             Instant download • 90-day money-back guarantee • Secure payment
           </p>
-          <Link href="https://paystack.shop/pay/3e8ubwfmr0">
+          {/* <Link href="https://paystack.shop/pay/3e8ubwfmr0"> */}
+          <Link href="https://selar.com/female-code">
           <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
             BUY NOW - ₦5250
           </button>
@@ -1374,7 +1375,8 @@ export default function FemaleCode() {
               </p>
             </div>
           </div>
-          <Link href="https://paystack.shop/pay/3e8ubwfmr0">
+          {/* <Link href="https://paystack.shop/pay/3e8ubwfmr0"> */}
+          <Link href="https://selar.com/female-code">
           <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
             BUY NOW - ₦5250
           </button>
@@ -1515,7 +1517,8 @@ export default function FemaleCode() {
               Remember: 90-Day Money-Back Guarantee
             </p>
           </div>
-<Link href="https://paystack.shop/pay/3e8ubwfmr0">
+{/* <Link href="https://paystack.shop/pay/3e8ubwfmr0"> */}
+<Link href="https://selar.com/female-code">
           <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
             BUY NOW - ₦5250
           </button>
@@ -1574,7 +1577,9 @@ export default function FemaleCode() {
           <p className="text-xl mb-8">
             98 Laws • Nigerian Context • 90-Day Guarantee
           </p>
-          <Link href="https://paystack.shop/pay/3e8ubwfmr0">
+          {/* <Link href="https://paystack.shop/pay/3e8ubwfmr0"> */}
+
+          <Link href="https://selar.com/female-code">
           <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
             BUY NOW - ₦5250
           </button>
