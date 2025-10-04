@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 font-sans">
+    <div className="min-h-screen bg-white text-gray-900 font-body">
       {/* Hero Section */}
       <section className="px-4 py-16 max-w-4xl mx-auto">
         <h1 className="text-6xl md:text-7xl font-bold text-center mb-8 leading-tight">
