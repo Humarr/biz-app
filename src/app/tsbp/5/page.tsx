@@ -321,7 +321,7 @@ export default function Home() {
               </li>
             </ul>
 
-            <p className="mt-8 text-lg italic">
+            <p className="mt-8 text-xs italic">
               *Sigh.* Somehow, it&apos;s not as easy as that business seminar
               made it look.
             </p>
