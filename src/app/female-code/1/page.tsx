@@ -611,7 +611,7 @@ export default function FemaleCode() {
 
       {/* First Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">The &quot;interested vs. interesting&quot; mistake</span> that makes women walk away from 90% of Nigerian men in the first 5 minutes (fix this ONE thing and watch how much longer conversations last)</li>
           <li>→ <span className="font-semibold">Why &quot;I&apos;m fine&quot; never means fine</span> — and the 3 different situations where it means something completely different (miss this and you&apos;ll keep stepping on landmines you didn&apos;t even see)</li>
           <li>→ <span className="font-semibold">The truth about &quot;maybe&quot;</span> — spoiler: it&apos;s always &quot;no&quot; (but here&apos;s the one test you can use to know if it&apos;s the rare exception... and why you shouldn&apos;t bother anyway)</li>
@@ -625,7 +625,7 @@ export default function FemaleCode() {
 
       {/* Second Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">The 3 pillars of attraction women never tell you about</span> — and which one matters most at each stage (get the order wrong and you&apos;ll be &quot;such a great guy&quot; she&apos;s not attracted to)</li>
           <li>→ <span className="font-semibold">Why persistence sometimes shows confidence and sometimes shows desperation</span> — the &quot;Lagos traffic&quot; analogy that makes this crystal clear (plus: the 5 signs you should stop persisting immediately)</li>
           <li>→ <span className="font-semibold">The exact moment to &quot;strike while the iron is hot&quot;</span> — miss this window and she&apos;ll convince herself she was never that interested (Nigerian men miss this 80% of the time... here&apos;s how to spot it)</li>
@@ -639,7 +639,7 @@ export default function FemaleCode() {
 
       {/* Third Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">The self-sabotage pattern 90% of Nigerian men fall into:</span> projecting their insecurities onto women who never gave them a reason to (do this and you&apos;ll create the exact problems you&apos;re trying to avoid)</li>
           <li>→ <span className="font-semibold">Why women&apos;s minds have &quot;ambivalence&quot;</span> — and how to use this psychological reality to your advantage instead of fighting against it (most men don&apos;t know this exists... which is why they stay confused)</li>
           <li>→ <span className="font-semibold">The female decision-making process that has nothing to do with logic:</span> &quot;if it feels true, it IS true&quot; (try to logic your way through this and you&apos;ve already lost)</li>
@@ -653,7 +653,7 @@ export default function FemaleCode() {
 
       {/* Fourth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">How to identify &quot;honest signals&quot; vs. &quot;leakage&quot; vs. &quot;hotspots&quot;</span> — the three channels where the truth always shows up (this is how you read her like an open book)</li>
           <li>→ <span className="font-semibold">Why you should NEVER conclude based on a single signal</span> — and the &quot;cluster method&quot; that gives you accurate reads every single time (do this wrong and you&apos;ll misread situations constantly)</li>
           <li>→ <span className="font-semibold">The &quot;sponge vs. rock&quot; principle</span> — why being emotionally absorbing kills attraction faster than anything else (and how to be a rock without being cold)</li>
@@ -667,7 +667,7 @@ export default function FemaleCode() {
 
       {/* Fifth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">The strategic silence technique</span> that makes women talk more, reveal more, and chase more (most Nigerian men fear silence... that&apos;s why they lose)</li>
           <li>→ <span className="font-semibold">Why &quot;action reveals all&quot;</span> — and the 3-level analysis system for reading what she&apos;s really about (her words lie, her actions tell the truth)</li>
           <li>→ <span className="font-semibold">The &quot;three-second rule&quot; for reading body language</span> — why her first reaction is always the honest one (everything after that is management)</li>
@@ -681,7 +681,7 @@ export default function FemaleCode() {
 
       {/* Sixth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">The difference between &quot;noise&quot; and &quot;signals&quot;</span> — why she creates noise, and how to filter through it to see what actually matters (master this and you&apos;ll never be confused by &quot;mixed signals&quot; again)</li>
           <li>→ <span className="font-semibold">Why &quot;direct beats clever&quot; every single time with Nigerian women</span> — especially when they&apos;ve heard every smooth line before (be the exception by being straightforward)</li>
           <li>→ <span className="font-semibold">The &quot;relationship-building vs. problem-solving&quot; communication gap</span> that makes men and women completely miss each other (this is why she gets mad when you try to &quot;fix&quot; her problems)</li>
@@ -695,7 +695,7 @@ export default function FemaleCode() {
 
       {/* Seventh Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">The Nigerian/African cultural layer</span> that changes everything about how women here communicate vs. Western women (ignore this and you&apos;re following advice that doesn&apos;t work in your context)</li>
           <li>→ <span className="font-semibold">When to use direct communication and when to use indirect</span> — yes, there are times YOU should be indirect too (most men get this backwards)</li>
           <li>→ <span className="font-semibold">The &quot;hint minefield&quot;</span> — how to know if she&apos;s dropping hints or if you&apos;re imagining things (misread this and you&apos;ll either miss opportunities or look desperate)</li>
@@ -709,7 +709,7 @@ export default function FemaleCode() {
 
       {/* Eighth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">Common ways Nigerian men miss &quot;hot iron moments&quot;</span> — from WhatsApp to in-person interactions (stop doing these immediately)</li>
           <li>→ <span className="font-semibold">The &quot;scarcity vs. abundance&quot; principle</span> that determines whether she chases you or you chase her (get on the wrong side of this and you&apos;re already in the friend zone)</li>
           <li>→ <span className="font-semibold">The investment principle</span> — why women value what they work for, and how to make them invest without playing manipulative games (this is how attraction builds naturally)</li>
@@ -723,7 +723,7 @@ export default function FemaleCode() {
 
       {/* Ninth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">How to identify her core values in the first few conversations</span> — and feed them back to her in a way that creates deep connection (women call this &quot;he just gets me&quot;)</li>
           <li>→ <span className="font-semibold">Why she should be sucked into YOUR world more than you&apos;re sucked into hers</span> — and how to make this happen naturally (reverse this and you become her orbiter, not her lover)</li>
           <li>→ <span className="font-semibold">The art of &quot;stacking value&quot;</span> — the different types of value and how to demonstrate each one without bragging (do this right and you won&apos;t need to &quot;sell&quot; yourself)</li>
@@ -737,7 +737,7 @@ export default function FemaleCode() {
 
       {/* Tenth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">Why &quot;a woman&apos;s view of the world reveals who she is&quot;</span> — and how to read her worldview within one conversation (this tells you if she&apos;s worth pursuing)</li>
           <li>→ <span className="font-semibold">The uncomfortable truth: &quot;most communication is unspoken&quot;</span> — and why you&apos;ve been paying attention to the wrong 20% this whole time (shift your focus and everything becomes clear)</li>
           <li>→ <span className="font-semibold">How to create a &quot;mutual understanding that sex will happen&quot;</span> — without awkward conversations or wondering if you&apos;re moving too fast (women appreciate men who can do this smoothly)</li>
@@ -751,7 +751,7 @@ export default function FemaleCode() {
 
       {/* Eleventh Group */}
       <div className="mb-12">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-4 text-gray-700">
           <li>→ <span className="font-semibold">Why thinking with your dick can destroy your life</span> — and the filtering system that prevents you from making catastrophic decisions about women (ignore this at your own risk)</li>
           <li>→ <span className="font-semibold">The truth about female indirect communication</span> — why women evolved to communicate this way, and why fighting it is pointless (adapt to it instead)</li>
           <li>→ <span className="font-semibold">How to bypass emotional bias and execute coldly</span> — the businessman&apos;s approach to reading situations accurately (emotions cloud judgment, cold analysis reveals truth)</li>
