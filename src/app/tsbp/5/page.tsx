@@ -690,7 +690,7 @@ export default function Home() {
 
       {/* First Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">The STARVING CROWD Revelation</span> — why this single concept separates businesses that print money from businesses that beg for customers (miss this, and you&apos;ll struggle forever)</li>
           <li>→ <span className="font-semibold">How to develop &quot;Eagle Eyes&quot; for business opportunities</span> — the simple mental shift that lets you spot profitable ideas everywhere, while everyone else walks past them blind</li>
           <li>→ <span className="font-semibold">The Business Analyzer Framework</span> — my step-by-step system for evaluating ANY business idea in under 30 minutes (so you never waste months on something that was doomed from day one)</li>
@@ -704,7 +704,7 @@ export default function Home() {
 
       {/* Second Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">How to validate your idea BEFORE you invest a single naira</span> — the exact questions to ask that reveal whether your business will work or flop (I learned this from a marketer who&apos;s launched 40+ successful businesses)</li>
           <li>→ <span className="font-semibold">The Universal Economic Values that make your offer irresistible</span> — there are only 8 of them, and if your business doesn&apos;t deliver at least 3, you&apos;re in trouble</li>
           <li>→ <span className="font-semibold">The &quot;wrong&quot; Business Model Death Trap</span> — why 73% of new businesses pick a model that guarantees they&apos;ll work like slaves for peanuts (and the 4 models that actually scale)</li>
@@ -718,7 +718,7 @@ export default function Home() {
 
       {/* Third Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">The 4 strategies for owning space in your customer&apos;s mind</span> — even if you&apos;re not first, not cheapest, and not the biggest, you can still dominate using these positioning tricks</li>
           <li>→ <span className="font-semibold">The Big Brand Advertising Trap (and why you must never fall into it)</span> — if you copy what Coca-Cola and MTN do, you&apos;ll go broke fast. Here&apos;s what small businesses should do instead</li>
           <li>→ <span className="font-semibold">The 8 Unbreakable Laws of Direct Response Marketing</span> — the ONLY type of advertising that actually makes money for small businesses (everything else is just expensive ego-stroking)</li>
@@ -732,7 +732,7 @@ export default function Home() {
 
       {/* Fourth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">Why most people waste money on fliers (and the 3 elements that make them work instead)</span> — if your flier doesn&apos;t have these, you might as well burn your cash</li>
           <li>→ <span className="font-semibold">How to turn one buyer into ten</span> — without running a single ad — the word-of-mouth system that builds you an unpaid sales army (this is how small businesses beat big ones)</li>
           <li>→ <span className="font-semibold">The compound effect of word-of-mouth</span> — why your 10th customer is worth 50X more than your 1st customer (and how to accelerate this exponential growth)</li>
@@ -746,7 +746,7 @@ export default function Home() {
 
       {/* Fifth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">What Nigerians are REALLY looking for when they ask for your price</span> — it&apos;s not the lowest number, and once you understand this psychology, pricing becomes easy</li>
           <li>→ <span className="font-semibold">The shocking truth about price resistance</span> — 80% of it comes from YOU, not the customer (here&apos;s how to fix your own head first)</li>
           <li>→ <span className="font-semibold">The Market Vendor&apos;s Pricing Psychology</span> — what Balogun Market traders know about human behavior that university-educated business owners somehow miss</li>
@@ -760,7 +760,7 @@ export default function Home() {
 
       {/* Sixth Group */}
       <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">The &quot;Affordable vs. Cheap&quot; Revolution</span> — why positioning yourself as affordable makes you rich, but being cheap keeps you broke (this subtle shift changes everything)</li>
           <li>→ <span className="font-semibold">The Psychology of Price Anchoring</span> — the cognitive bias that makes people HAPPY to pay your price, even if it&apos;s higher than your competitors&apos;</li>
           <li>→ <span className="font-semibold">The Recession-Proof Pricing Strategy</span> — what to do when &quot;the economy is bad&quot; and everyone&apos;s crying poverty (spoiler: you don&apos;t drop your prices)</li>
@@ -774,7 +774,7 @@ export default function Home() {
 
       {/* Seventh Group */}
       <div className="mb-12">
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">How to change your delivery model to charge more for the same thing</span> — the simple trick that lets you 3X your price while customers thank you for it</li>
           <li>→ <span className="font-semibold">Why &quot;speed beats perfection&quot; is both true AND misleading</span> — what this actually means, and the one thing you MUST get right before you launch (skip this and speed will destroy you)</li>
           <li>→ <span className="font-semibold">The &quot;Reinvest Before You Flex&quot; principle</span> — why your friends who buy cars and clothes stay broke, while quiet millionaires drive old Corollas</li>
@@ -808,7 +808,7 @@ export default function Home() {
           A No-Nonsense Guide to Building a Profitable Business in Nigeria&apos;s Hottest Markets
         </p>
         <p className="text-lg mb-4 font-semibold">Here&apos;s what you&apos;ll discover inside:</p>
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">Market #1: The celebration obsession</span> — why Nigerians will go broke to celebrate, and how to position your business to capture this spending (this market NEVER stops, even in recession)</li>
           <li>→ <span className="font-semibold">Market #2: The ancient wisdom goldmine</span> — why herbal products sell themselves, and the psychology behind why modern Nigerians trust &quot;natural&quot; solutions more than pharmaceuticals</li>
           <li>→ <span className="font-semibold">Market #3: The ultimate life goal</span> — the marriage and relationship market that prints money year-round (because everyone wants it, and everyone&apos;s terrified of losing it)</li>
@@ -827,7 +827,7 @@ export default function Home() {
         <p className="text-lg mb-4 italic">
           The Nigerian Business Starter Edition
         </p>
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">50+ Headline Templates</span> you can plug your business into immediately (Problem/Solution, Curiosity, Benefit, Urgency, Social Proof)</li>
           <li>→ <span className="font-semibold">5 Complete Ad Structures with real examples</span> — just fill in the blanks and you&apos;ve got ads that actually work</li>
           <li>→ <span className="font-semibold">The Problem-Agitation-Solution formula</span> — the 3-step framework that turns cold strangers into buyers</li>
@@ -846,7 +846,7 @@ export default function Home() {
         <p className="text-lg mb-4 italic">
           (Or: How To Know If Your Business Idea Is Financially Stupid Before You Start)
         </p>
-        <ul className="space-y-3 text-gray-700">
+        <ul className="space-y-6 text-gray-700">
           <li>→ <span className="font-semibold">The story of the guy who skipped this step</span> — and lost 18 months and ₦600,000 before he realized his business could never be profitable (don&apos;t be him)</li>
           <li>→ <span className="font-semibold">The brutally simple formula that tells you in 10 minutes whether your idea can actually make money</span></li>
           <li>→ <span className="font-semibold">How to spot the &quot;Rat Race Trap&quot;</span> — the warning sign that you&apos;re building yourself a job, not a business</li>
