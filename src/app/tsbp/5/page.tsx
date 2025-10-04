@@ -10,7 +10,7 @@ export default function Home() {
           PICTURE THIS:
         </h1>
         <p className="text-4xl md:text-5xl text-center font-bold">
-          You are tired of job and want to start a business.
+          You are tired of your job and want to start a business.
         </p>
 
         <div className="text-lg leading-relaxed space-y-6">
