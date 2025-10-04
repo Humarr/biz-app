@@ -800,7 +800,7 @@ export default function Home() {
       </div>
 
       {/* Bonus 1 */}
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <h3 className="text-2xl font-bold mb-4 text-green-600">
           BONUS #1: THE 6 PRODUCTS NIGERIANS WILL ALWAYS BUY
         </h3>
@@ -817,8 +817,50 @@ export default function Home() {
           <li>→ <span className="font-semibold">Market #6: The great exodus</span> — the relocation services boom that&apos;s making early movers rich (and why this trend is only getting bigger)</li>
           <li>→ <span className="font-semibold">Why most people FAIL in these guaranteed markets</span> — yes, even in markets where people are desperate to buy, you can still screw it up. Here&apos;s how to avoid that</li>
         </ul>
-      </div>
+      </div> */}
 
+
+{/* Bonus 1 */}
+<div className="mb-12">
+  <h3 className="text-2xl font-bold mb-4 text-green-600">
+    BONUS #1: THE 6 PRODUCTS NIGERIANS WILL ALWAYS BUY
+  </h3>
+  <p className="text-lg mb-4 italic">
+    A No-Nonsense Guide to Building a Profitable Business in Nigeria&apos;s Hottest Markets
+  </p>
+  
+  <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+    <p className="text-lg font-semibold">Listen.</p>
+    <p className="text-lg mt-2">You can pick any business you want.</p>
+    <p className="text-lg">But some markets are just… easier to make money in than others.</p>
+    <p className="text-lg font-semibold mt-2">
+      This bonus reveals the 6 markets in Nigeria where people are ALWAYS spending money, no matter what the economy is doing.
+    </p>
+  </div>
+
+  <p className="text-lg mb-4 font-semibold">Here&apos;s what you&apos;ll discover inside:</p>
+  
+  <ul className="space-y-6 text-gray-700">
+    <li>→ <span className="font-semibold">The one thing Nigerians will literally go BROKE to do</span> — even when they claim &quot;the economy is bad,&quot; they&apos;ll find money for THIS (position yourself here and you&apos;ll never lack customers)</li>
+    <li>→ <span className="font-semibold">The ancient wisdom that modern wallets can&apos;t resist</span> — why a certain product category sells itself without advertising, and how to enter this market even if you know nothing about it</li>
+    <li>→ <span className="font-semibold">The ultimate life goal that makes people do crazy things</span> — the emotional market where logic goes out the window and people pay ANYTHING to solve their problem (hint: it&apos;s not what you think)</li>
+    <li>→ <span className="font-semibold">The taboo goldmine hiding in plain sight</span> — the market worth billions that almost nobody talks about openly (which means virtually zero competition for those brave enough to enter)</li>
+    <li>→ <span className="font-semibold">What never to say when selling in Market #4</span> — one wrong word and you&apos;ve lost the sale forever (I&apos;ll show you the exact language that works instead)</li>
+    <li>→ <span className="font-semibold">The pursuit that NEVER ends</span> — why customers in this market will buy from you again and again and again, no matter how much they&apos;ve already spent</li>
+    <li>→ <span className="font-semibold">The hidden pattern in all 6 markets</span> — once you see this, you&apos;ll understand why certain businesses print money while others beg for customers (this alone is worth 10X the price of this book)</li>
+    <li>→ <span className="font-semibold">Why most people FAIL even in these guaranteed markets</span> — yes, even when people are desperate to buy, you can still screw it up. Here&apos;s the #1 mistake that kills businesses in hot markets</li>
+    <li>→ <span className="font-semibold">The &quot;Great Exodus&quot; opportunity</span> — the trend that&apos;s creating millionaires right now, and why the next 3 years will be the golden window (miss this and you&apos;ll regret it in 2028)</li>
+    <li>→ <span className="font-semibold">The wrong way to enter Market #3</span> — do this and you&apos;ll blend in with 10,000 other businesses. Do THIS instead and customers will seek YOU out</li>
+    <li>→ <span className="font-semibold">The sneaky secret about Market #2</span> — conventional wisdom says you need to be an &quot;expert&quot; to sell here. Wrong. Here&apos;s what you actually need (and it&apos;s way easier)</li>
+    <li>→ <span className="font-semibold">How to know which of the 6 markets YOU should enter</span> — the simple decision matrix that matches your skills, capital, and personality to the right opportunity</li>
+  </ul>
+
+  <div className="mt-6 bg-blue-50 border-l-4 border-blue-400 p-4">
+    <p className="text-lg font-semibold italic">
+      (But I&apos;m not going to tell you what the 6 markets are here. You&apos;ll have to get the book to find out.)
+    </p>
+  </div>
+</div>
       {/* Bonus 2 */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold mb-4 text-blue-600">
@@ -859,7 +901,7 @@ export default function Home() {
   </div>
 </section>
       {/* Bonuses Section */}
-      <section className="px-4 py-16 max-w-4xl mx-auto">
+      {/* <section className="px-4 py-16 max-w-4xl mx-auto"> */}
         {/* <h2 className="text-3xl font-bold text-center mb-12">
           BUT WAIT. THERE&apos;S MORE.
         </h2>
@@ -1024,7 +1066,7 @@ export default function Home() {
           </p>
           <p className="mt-4 text-lg font-semibold">Don&apos;t be that guy.</p>
         </div> */}
-      </section>
+      {/* </section> */}
 
       {/* Consumption Section */}
       <section className="px-4 py-16 bg-gray-50">
