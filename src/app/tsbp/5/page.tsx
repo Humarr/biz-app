@@ -1598,7 +1598,7 @@ export default function Home() {
             </p>
             {/* <p>But in case you have any questions, here are some answers:</p> */}
             <h2 className="text-3xl font-bold text-center mb-12">
-              But wait, I Still Have Questions. Can You Answer Them?
+            &quot;But wait, I Still Have Questions. Can You Answer Them?&quot;
             </h2>
             <p>
               Sure. But I&apos;m only going to answer the REAL questions, not
