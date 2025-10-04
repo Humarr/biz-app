@@ -648,7 +648,7 @@ export default function Home() {
             it&quot; forever and expect customers to magically appear.
           </p>
           <p>
-            But… HOW do you know if your idea is solid? And when to actually
+            But… HOW do you know if your idea is solid? And how and when to actually
             launch?
           </p>
           <p className="text-xl font-semibold">
