@@ -55,13 +55,13 @@ export default function FemaleCode() {
         <div className="mt-12 p-6 bg-yellow-50 border-l-4 border-yellow-400">
           <p className="text-lg font-semibold">
             Well, if this scene made your blood run cold... <span className="line-through"> this might be the
-            most important letter you ever re— </span> I mean, uh, I... have good news
+            most important letter you ever re—</span> <br/><br/>I mean, uh, I... have good news
             for you.
           </p>
         </div>
 
-        <div className="mt-8 text-xs leading-relaxed">
-          <p className="italic">
+        <div className="mt-8  leading-relaxed">
+          <p className="italic text-xs">
             Phew, nearly went full sales letter cliche mode there.
           </p>
           <p>
