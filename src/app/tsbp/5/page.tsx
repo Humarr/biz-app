@@ -1575,7 +1575,8 @@ export default function Home() {
               available for download. You&apos;ll be instantly redirected to a
               secure download page with your unique download link.)
             </p>
-            <Link href="https://paystack.shop/pay/tsbp">
+            <Link href="https://selar.com/small-biz">
+            {/* <Link href="https://paystack.shop/pay/tsbp"> */}
               <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
                 BUY NOW - ₦7999
               </button>
@@ -2074,7 +2075,8 @@ export default function Home() {
             Instant download • 90-day money-back guarantee • Secure payment via
             Paystack
           </p>
-          <Link href="https://paystack.shop/pay/tsbp">
+          <Link href="https://selar.com/small-biz">
+          {/* <Link href="https://paystack.shop/pay/tsbp"> */}
             <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               BUY NOW - ₦7999
             </button>
@@ -2193,7 +2195,8 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             YES, I&apos;M READY. GET ME THE PLAYBOOK NOW.
           </h2>
-          <Link href="https://paystack.shop/pay/tsbp">
+          <Link href="https://selar.com/small-biz">
+          {/* <Link href="https://paystack.shop/pay/tsbp"> */}
             <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               BUY NOW - ₦7999
             </button>
@@ -2285,7 +2288,8 @@ export default function Home() {
           <p className="text-xl mb-8">
             (Secure payment via Paystack. Instant download. No waiting.)
           </p>
-          <Link href="https://paystack.shop/pay/tsbp">
+          {/* <Link href="https://paystack.shop/pay/tsbp"> */}
+          <Link href="https://selar.com/small-biz">
             <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
               BUY NOW - ₦7999
             </button>
@@ -2339,7 +2343,8 @@ export default function Home() {
 
           <div className="mt-12">
             <p className="text-2xl font-bold mb-6">Start now.</p>
-            <Link href="https://paystack.shop/pay/tsbp">
+            {/* <Link href="https://paystack.shop/pay/tsbp"> */}
+            <Link href="https://selar.com/small-biz">
               <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
                 GET THE SMALL BUSINESS PLAYBOOK NOW
               </button>
