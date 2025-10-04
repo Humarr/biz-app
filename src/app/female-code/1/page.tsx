@@ -93,7 +93,7 @@ export default function FemaleCode() {
           <div className="my-6 flex justify-center">
               <Image
                 src="/female-code/mockup.png"
-                alt="The small business playbook book cover"
+                alt="The female code book cover"
                 width={600}
                 height={300}
                 className="rounded-lg"
