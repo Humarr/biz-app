@@ -9,9 +9,9 @@ export default function FemaleCode() {
         <h1 className="text-6xl md:text-7xl font-bold text-center mb-8 leading-tight">
           PICTURE THIS:
         </h1>
-        <h1 className="text-6xl md:text-7xl font-bold text-center mb-8 leading-tight">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 leading-tight">
           There&apos;s this girl you have a crush on...
-        </h1>
+        </h2>
 
         <div className="text-lg leading-relaxed space-y-6">
           <p>You see her across the room.</p>
