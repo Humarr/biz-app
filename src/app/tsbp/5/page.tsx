@@ -1207,6 +1207,38 @@ export default function Home() {
         </div>
 
         <div className="mt-12 bg-yellow-50 border-l-4 border-yellow-400 p-6">
+  <p className="text-lg font-semibold">
+    Because here&apos;s the thing:
+  </p>
+  <p className="mt-4">
+    Most business advice online is written by Americans, for Americans.
+  </p>
+  <p className="mt-2">
+    &quot;Just get a business loan to start!&quot; (You know how that works here.
+    Banks want collateral you don&apos;t have.)
+  </p>
+  <p className="mt-2">
+    &quot;Reinvest 100% of your profits!&quot; (Easy to say when you&apos;re not
+    dealing with family asking for money or needing to see cash hit your account
+    to stay motivated.)
+  </p>
+  <p className="mt-2">
+    &quot;Set up Stripe and start selling!&quot; (Stripe doesn&apos;t work here.
+    You need Paystack, Flutterwave, or you&apos;re collecting bank transfers.)
+  </p>
+  <p className="mt-2">
+    &quot;Find a gap in the market!&quot; (That gap might not have hungry buyers.
+    You need starving crowds, not empty spaces.)
+  </p>
+  <p className="mt-2">
+    &quot;Ignore the haggling, set your price!&quot; (Good luck with that.
+    Negotiation culture is real here, and you need strategies that work WITH it,
+    not against it.)
+  </p>
+</div>
+
+
+        {/* <div className="mt-12 bg-yellow-50 border-l-4 border-yellow-400 p-6">
           <p className="text-lg font-semibold">
             Because here&apos;s the thing:
           </p>
@@ -1225,7 +1257,7 @@ export default function Home() {
             &quot;Charge premium prices!&quot; (Cool, but Nigerians will just
             say you&apos;re too expensive and go buy from someone else.)
           </p>
-        </div>
+        </div> */}
 
         <div className="mt-12 space-y-6 text-lg">
           <p className="font-semibold">
