@@ -860,7 +860,7 @@ export default function Home() {
 </section>
       {/* Bonuses Section */}
       <section className="px-4 py-16 max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">
+        {/* <h2 className="text-3xl font-bold text-center mb-12">
           BUT WAIT. THERE&apos;S MORE.
         </h2>
 
@@ -870,10 +870,10 @@ export default function Home() {
             getting TWO game-changing bonuses that could each be sold
             separately:
           </p>
-        </div>
+        </div> */}
 
         {/* Bonus 1 */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h3 className="text-2xl font-bold mb-4">
             BONUS #1: THE 6 PRODUCTS NIGERIANS WILL ALWAYS BUY
           </h3>
@@ -916,10 +916,10 @@ export default function Home() {
           <p className="mt-4 text-lg font-semibold">
             This bonus alone could change your entire business direction.
           </p>
-        </div>
+        </div> */}
 
         {/* Bonus 2 */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h3 className="text-2xl font-bold mb-4">
             BONUS #2: DIRECT RESPONSE AD TEMPLATES TOOLKIT
           </h3>
@@ -981,10 +981,10 @@ export default function Home() {
               —for positioning yourself as the expert (even if you&apos;re new)
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Bonus 3 */}
-        <div>
+        {/* <div>
           <h3 className="text-2xl font-bold mb-4">
             BONUS #3: THE PROFIT CALCULATOR
           </h3>
@@ -1023,7 +1023,7 @@ export default function Home() {
             than ₦50k profit after expenses.
           </p>
           <p className="mt-4 text-lg font-semibold">Don&apos;t be that guy.</p>
-        </div>
+        </div> */}
       </section>
 
       {/* Consumption Section */}
