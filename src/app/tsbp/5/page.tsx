@@ -88,7 +88,7 @@ export default function Home() {
           </p>
           <p>
             Because on this page, I&apos;m going to show you how you can avoid
-            becoming another Nigerian business statistic…
+            becoming another Nigerian business failure statistic…
           </p>
           <p className="text-xl font-semibold">
             …by revealing the <em>actual system</em> that separates businesses
