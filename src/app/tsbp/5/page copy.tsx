@@ -670,194 +670,376 @@ export default function Home() {
         </div>
       </section>
 
-    {/* What's Inside Section */}
-<section className="px-4 py-16 bg-gray-50">
-  <div className="max-w-4xl mx-auto">
-    <h2 className="text-3xl font-bold text-center mb-12">
-      So… what&apos;s inside the book?
-    </h2>
+      {/* What's Inside Section */}
+      <section className="px-4 py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-12">
+            So… what&apos;s inside the e-book?
+          </h2>
 
-    <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-      <p className="text-lg mb-6">
-        Well, rather than throw in a bunch of hype bullets about &quot;unlocking your potential&quot; and &quot;achieving your dreams&quot;…
-      </p>
-      <p className="text-lg mb-6">
-        I&apos;m just going to SHOW you what&apos;s in it.
-      </p>
-      <p className="text-lg font-semibold mb-8">
-        Here are some of the things you&apos;ll discover when you read The Small Business Playbook:
-      </p>
+          <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+            <p className="text-lg mb-6">
+              Well, rather than throw in a bunch of hype and promises...
+              I&apos;m just going to SHOW you what&apos;s in the e-book.
+              Straight from the table of contents.
+            </p>
+            <p className="text-lg font-semibold mb-8">
+              Here is literally everything you&apos;re getting:
+            </p>
 
-      {/* First Group */}
-      <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">The STARVING CROWD Revelation</span> — why this single concept separates businesses that print money from businesses that beg for customers (miss this, and you&apos;ll struggle forever)</li>
-          <li>→ <span className="font-semibold">How to develop &quot;Eagle Eyes&quot; for business opportunities</span> — the simple mental shift that lets you spot profitable ideas everywhere, while everyone else walks past them blind</li>
-          <li>→ <span className="font-semibold">The Business Analyzer Framework</span> — my step-by-step system for evaluating ANY business idea in under 30 minutes (so you never waste months on something that was doomed from day one)</li>
-          <li>→ <span className="font-semibold">The two simple ways to find your Starving Crowd</span> — one takes 10 minutes online, the other requires leaving your house (most people only know about the second one, which is why they struggle)</li>
-        </ul>
-      </div>
+            {/* Chapter 1 */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-4">
+                CHAPTER 1: Before You Quit Your Job Or Waste Your Savings
+              </h3>
+              <p className="text-lg mb-4">
+                Ever wondered how to pick a business that won&apos;t flop in 3
+                months? This chapter covers:
+              </p>
+              <ul className="space-y-2 text-gray-700 ml-6">
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why &quot;great ideas&quot; fill business graveyards
+                  </span>
+                  —and the one thing every profitable business has that failures
+                  don&apos;t (it&apos;s not what you think)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The &quot;Starving Crowd&quot; secret
+                  </span>
+                  —how to spot markets that are literally begging to throw money
+                  at you (while everyone else fights over scraps)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The only 2 ways to find your starving crowd
+                  </span>
+                  —and exactly where to look for them in Nigeria (page 18)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    A step-by-step process for finding gold
+                  </span>
+                  —the exact questions to ask that reveal if your idea will make
+                  money or leave you broke
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The Business Analyzer Framework
+                  </span>
+                  —a scoring system that tells you (before you invest) if
+                  you&apos;re about to waste your money on a dud (I&apos;ve used
+                  this to evaluate 12+ business ideas in a single afternoon)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    How to validate your idea before you spend a single naira
+                  </span>
+                  —so you&apos;re not &quot;hoping&quot; it works, you{" "}
+                  <em>know</em> it works
+                </li>
+                <li>
+                  • <span className="font-semibold">What to do right now</span>
+                  —not &quot;someday,&quot; not &quot;when you&apos;re
+                  ready.&quot; Today. (Page 39)
+                </li>
+              </ul>
+            </div>
 
-      <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
-        <p className="text-lg font-semibold text-center">And that&apos;s just the beginning...</p>
-      </div>
+            {/* Chapter 2 */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-4">
+                CHAPTER 2: How to Own Space in Your Customer&apos;s Mind
+              </h3>
+              <p className="text-lg mb-4">
+                Want to know why some businesses are the <em>first</em> name
+                people think of—while others get forgotten immediately? This
+                chapter reveals:
+              </p>
+              <ul className="space-y-2 text-gray-700 ml-6">
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The &quot;mind domination&quot; strategy
+                  </span>
+                  —how to position your business so customers think of YOU
+                  first, even if competitors are bigger, older, or cheaper
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    4 proven strategies for beating competitors
+                  </span>
+                  —including the &quot;niche domination&quot; play that lets
+                  small businesses crush big players (this is how I&apos;d start
+                  if I had ₦50k and no connections)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The David and Goliath technique
+                  </span>
+                  —how to win against competitors with 10x your budget (and make
+                  them look stupid while doing it)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why &quot;being better&quot; is a terrible strategy
+                  </span>
+                  —and what actually makes customers pick you instead
+                </li>
+              </ul>
+            </div>
 
-      {/* Second Group */}
-      <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">How to validate your idea BEFORE you invest a single naira</span> — the exact questions to ask that reveal whether your business will work or flop (I learned this from a marketer who&apos;s launched 40+ successful businesses)</li>
-          <li>→ <span className="font-semibold">The Universal Economic Values that make your offer irresistible</span> — there are only 8 of them, and if your business doesn&apos;t deliver at least 3, you&apos;re in trouble</li>
-          <li>→ <span className="font-semibold">The &quot;wrong&quot; Business Model Death Trap</span> — why 73% of new businesses pick a model that guarantees they&apos;ll work like slaves for peanuts (and the 4 models that actually scale)</li>
-          <li>→ <span className="font-semibold">The David and Goliath Strategy for beating big competitors</span> — what to do when there&apos;s already an established player in your market (hint: competing on price is the WORST option)</li>
-        </ul>
-      </div>
+            {/* Chapter 3 */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-4">
+                CHAPTER 3: The Advertising Secret That Makes People Buy
+                Instantly
+              </h3>
+              <p className="text-lg mb-4">
+                Tired of posting &quot;DM to order&quot; and getting ignored?
+                This chapter teaches you:
+              </p>
+              <ul className="space-y-2 text-gray-700 ml-6">
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why 99% of small business advertising is a waste of money
+                  </span>
+                  —and the one type of advertising that actually brings in sales
+                  (most Nigerians have never even heard of this)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The 8 Unbreakable Laws of Direct Response Marketing
+                  </span>
+                  —follow these, and your ads print money. Break them, and
+                  you&apos;re just burning cash.
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    How to make people actually RESPOND to your ads
+                  </span>
+                  —instead of scrolling past like you don&apos;t exist
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The &quot;instant action&quot; formula
+                  </span>
+                  —how to make people buy NOW instead of saying &quot;I&apos;ll
+                  think about it&quot; (and never coming back)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The exact formula for tiny ad spaces
+                  </span>
+                  —if you&apos;re advertising on a tight budget (fliers, small
+                  posts, etc.), use this (page 74)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why your fliers aren&apos;t working
+                  </span>
+                  —and the 3 changes that turn fliers from trash into cash
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    How to track what&apos;s working and what&apos;s not
+                  </span>
+                  —so you&apos;re not guessing which ads are making you money
+                </li>
+              </ul>
+            </div>
 
-      <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
-        <p className="text-lg font-semibold text-center">Wait, there&apos;s more...</p>
-      </div>
+            {/* Chapter 4 */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-4">
+                CHAPTER 4: The Unpaid Sales Army—How To Get Others To Promote
+                Your Business FOR FREE
+              </h3>
+              <p className="text-lg mb-4">
+                Want customers to bring you MORE customers? This chapter shows
+                you:
+              </p>
+              <ul className="space-y-2 text-gray-700 ml-6">
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why word-of-mouth is your secret weapon in Nigeria
+                  </span>
+                  —and how to engineer it so customers can&apos;t stop talking
+                  about you
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    How to turn 1 buyer into 10
+                  </span>
+                  —without running a single ad (page 81)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The &quot;compound effect&quot; of referrals
+                  </span>
+                  —and why this is how most successful Nigerian businesses
+                  actually grow
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Your exact action plan for getting referrals
+                  </span>
+                  —not &quot;tips,&quot; not &quot;ideas.&quot; Specific steps.
+                </li>
+              </ul>
+            </div>
 
-      {/* Third Group */}
-      <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">The 4 strategies for owning space in your customer&apos;s mind</span> — even if you&apos;re not first, not cheapest, and not the biggest, you can still dominate using these positioning tricks</li>
-          <li>→ <span className="font-semibold">The Big Brand Advertising Trap (and why you must never fall into it)</span> — if you copy what Coca-Cola and MTN do, you&apos;ll go broke fast. Here&apos;s what small businesses should do instead</li>
-          <li>→ <span className="font-semibold">The 8 Unbreakable Laws of Direct Response Marketing</span> — the ONLY type of advertising that actually makes money for small businesses (everything else is just expensive ego-stroking)</li>
-          <li>→ <span className="font-semibold">The single biggest advertising mistake that wastes 90% of people&apos;s money</span> — I see this everywhere, and it breaks my heart because it&apos;s so easy to fix</li>
-        </ul>
-      </div>
+            {/* Chapter 5 */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-4">
+                CHAPTER 5: How to Set a Price That Feels Fair—And Sells Like
+                Crazy
+              </h3>
+              <p className="text-lg mb-4">
+                Struggling with pricing? Afraid you&apos;re too expensive—or
+                working for peanuts? This chapter breaks down:
+              </p>
+              <ul className="space-y-2 text-gray-700 ml-6">
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The &quot;price drop death loop&quot;
+                  </span>
+                  —why lowering your prices to &quot;compete&quot; is the
+                  fastest way to go broke (and how to escape it)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why people aren&apos;t looking for the lowest price
+                  </span>
+                  —they&apos;re looking for THIS instead (once you understand
+                  this, pricing gets 10x easier)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The psychology of Nigerian buying behavior
+                  </span>
+                  —how people actually make buying decisions (it&apos;s not what
+                  the textbooks say)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    How to set a price that feels fair and sells
+                  </span>
+                  —a simple system for pricing that makes you money AND makes
+                  customers happy
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The art of value stacking
+                  </span>
+                  —how to make customers feel like they&apos;re getting a crazy
+                  deal (even when your price is higher than competitors)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The difference between &quot;affordable&quot; and
+                    &quot;cheap&quot;
+                  </span>
+                  —and why &quot;cheap&quot; is killing your business
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Smart ways to use low prices without losing your shirt
+                  </span>
+                  —when discounts actually work (and when they destroy your
+                  brand)
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    The recession-proof pricing strategy
+                  </span>
+                  —how to keep selling even when &quot;nobody has money&quot;
+                </li>
+              </ul>
+            </div>
 
-      <div className="bg-green-50 border-l-4 border-green-400 p-4 mb-8">
-        <p className="text-lg font-semibold text-center">I&apos;m not finished yet...</p>
-      </div>
+            {/* Chapter X */}
+            <div>
+              <h3 className="text-2xl font-bold mb-4">
+                CHAPTER X: The Next Step Is Simple—MOVE.
+              </h3>
+              <p className="text-lg mb-4">
+                Most people finish books and do... nothing. This chapter makes
+                sure that&apos;s not you:
+              </p>
+              <ul className="space-y-2 text-gray-700 ml-6">
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why starting small is smarter than starting big
+                  </span>
+                  —and exactly how small to start
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why speed beats perfection
+                  </span>
+                  —and how &quot;rough action&quot; makes you more money than
+                  &quot;perfect planning&quot;
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    When to reinvest vs. when to chop your profits
+                  </span>
+                  —the balance that keeps you motivated AND growing
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Why sticking with one business beats jumping around
+                  </span>
+                  —and how long to stick before you pivot
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    How to keep the money you make
+                  </span>
+                  —so you&apos;re not making ₦500k and still somehow broke at
+                  the end of the month
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      {/* Fourth Group */}
-      <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">Why most people waste money on fliers (and the 3 elements that make them work instead)</span> — if your flier doesn&apos;t have these, you might as well burn your cash</li>
-          <li>→ <span className="font-semibold">How to turn one buyer into ten</span> — without running a single ad — the word-of-mouth system that builds you an unpaid sales army (this is how small businesses beat big ones)</li>
-          <li>→ <span className="font-semibold">The compound effect of word-of-mouth</span> — why your 10th customer is worth 50X more than your 1st customer (and how to accelerate this exponential growth)</li>
-          <li>→ <span className="font-semibold">THE PRICE DROP DEATH LOOP</span> — why slashing your prices to &quot;be competitive&quot; actually KILLS your business (and traps you in poverty forever)</li>
-        </ul>
-      </div>
-
-      <div className="bg-purple-50 border-l-4 border-purple-400 p-4 mb-8">
-        <p className="text-lg font-semibold text-center">And we&apos;re just getting to the good stuff...</p>
-      </div>
-
-      {/* Fifth Group */}
-      <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">What Nigerians are REALLY looking for when they ask for your price</span> — it&apos;s not the lowest number, and once you understand this psychology, pricing becomes easy</li>
-          <li>→ <span className="font-semibold">The shocking truth about price resistance</span> — 80% of it comes from YOU, not the customer (here&apos;s how to fix your own head first)</li>
-          <li>→ <span className="font-semibold">The Market Vendor&apos;s Pricing Psychology</span> — what Balogun Market traders know about human behavior that university-educated business owners somehow miss</li>
-          <li>→ <span className="font-semibold">The Art of Value Stacking</span> — how to make a ₦15,000 product feel like it&apos;s worth ₦50,000 (without lying or manipulating anyone)</li>
-        </ul>
-      </div>
-
-      <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-8">
-        <p className="text-lg font-semibold text-center">There&apos;s so much more coming...</p>
-      </div>
-
-      {/* Sixth Group */}
-      <div className="mb-8">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">The &quot;Affordable vs. Cheap&quot; Revolution</span> — why positioning yourself as affordable makes you rich, but being cheap keeps you broke (this subtle shift changes everything)</li>
-          <li>→ <span className="font-semibold">The Psychology of Price Anchoring</span> — the cognitive bias that makes people HAPPY to pay your price, even if it&apos;s higher than your competitors&apos;</li>
-          <li>→ <span className="font-semibold">The Recession-Proof Pricing Strategy</span> — what to do when &quot;the economy is bad&quot; and everyone&apos;s crying poverty (spoiler: you don&apos;t drop your prices)</li>
-          <li>→ <span className="font-semibold">4 smart ways to use low prices without losing your shirt</span> — when discounting actually works, and when it&apos;s financial suicide</li>
-        </ul>
-      </div>
-
-      <div className="bg-indigo-50 border-l-4 border-indigo-400 p-4 mb-8">
-        <p className="text-lg font-semibold text-center">But wait, there&apos;s still more...</p>
-      </div>
-
-      {/* Seventh Group */}
-      <div className="mb-12">
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">How to change your delivery model to charge more for the same thing</span> — the simple trick that lets you 3X your price while customers thank you for it</li>
-          <li>→ <span className="font-semibold">Why &quot;speed beats perfection&quot; is both true AND misleading</span> — what this actually means, and the one thing you MUST get right before you launch (skip this and speed will destroy you)</li>
-          <li>→ <span className="font-semibold">The &quot;Reinvest Before You Flex&quot; principle</span> — why your friends who buy cars and clothes stay broke, while quiet millionaires drive old Corollas</li>
-          <li>→ <span className="font-semibold">Why you should stick with ONE business for a while</span> — the minimum time you need to give an idea before you know if it&apos;s working (quit too early and you&apos;ll never succeed at anything)</li>
-          <li>→ <span className="font-semibold">How to &quot;keep the doors open&quot; when things get tough</span> — the survival tactics that carry you through the hard months everyone experiences</li>
-          <li>→ <span className="font-semibold">The money mistake that keeps business owners perpetually broke</span> — you&apos;re making profit, but somehow you&apos;re still struggling financially. Here&apos;s why</li>
-        </ul>
-      </div>
-
-      <div className="bg-gradient-to-r from-blue-50 to-purple-50 border-l-4 border-blue-400 p-6 text-center mb-12">
-        <p className="text-lg font-semibold italic mb-4">
-          But wait. There&apos;s more.
-        </p>
-        <p className="text-lg italic mb-4">
-          (I know, I know. I sound like a late-night infomercial. Bear with me.)
-        </p>
-        <p className="text-lg font-semibold">
-          Because you don&apos;t just get the book.
-        </p>
-        <p className="text-xl font-bold">
-          You also get three INSANELY valuable bonuses that could honestly be sold as separate products:
-        </p>
-      </div>
-
-      {/* Bonus 1 */}
-      <div className="mb-12">
-        <h3 className="text-2xl font-bold mb-4 text-green-600">
-          BONUS #1: THE 6 PRODUCTS NIGERIANS WILL ALWAYS BUY
-        </h3>
-        <p className="text-lg mb-4 italic">
-          A No-Nonsense Guide to Building a Profitable Business in Nigeria&apos;s Hottest Markets
-        </p>
-        <p className="text-lg mb-4 font-semibold">Here&apos;s what you&apos;ll discover inside:</p>
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">Market #1: The celebration obsession</span> — why Nigerians will go broke to celebrate, and how to position your business to capture this spending (this market NEVER stops, even in recession)</li>
-          <li>→ <span className="font-semibold">Market #2: The ancient wisdom goldmine</span> — why herbal products sell themselves, and the psychology behind why modern Nigerians trust &quot;natural&quot; solutions more than pharmaceuticals</li>
-          <li>→ <span className="font-semibold">Market #3: The ultimate life goal</span> — the marriage and relationship market that prints money year-round (because everyone wants it, and everyone&apos;s terrified of losing it)</li>
-          <li>→ <span className="font-semibold">Market #4: The silent goldmine nobody talks about</span> — the taboo market that&apos;s worth billions, with almost zero competition because everyone&apos;s too shy to enter it</li>
-          <li>→ <span className="font-semibold">Market #5: The endless beauty pursuit</span> — why this market will NEVER be satisfied, and how to position yourself as the solution they&apos;ve been searching for</li>
-          <li>→ <span className="font-semibold">Market #6: The great exodus</span> — the relocation services boom that&apos;s making early movers rich (and why this trend is only getting bigger)</li>
-          <li>→ <span className="font-semibold">Why most people FAIL in these guaranteed markets</span> — yes, even in markets where people are desperate to buy, you can still screw it up. Here&apos;s how to avoid that</li>
-        </ul>
-      </div>
-
-      {/* Bonus 2 */}
-      <div className="mb-12">
-        <h3 className="text-2xl font-bold mb-4 text-blue-600">
-          BONUS #2: DIRECT RESPONSE AD TEMPLATES TOOLKIT
-        </h3>
-        <p className="text-lg mb-4 italic">
-          The Nigerian Business Starter Edition
-        </p>
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">50+ Headline Templates</span> you can plug your business into immediately (Problem/Solution, Curiosity, Benefit, Urgency, Social Proof)</li>
-          <li>→ <span className="font-semibold">5 Complete Ad Structures with real examples</span> — just fill in the blanks and you&apos;ve got ads that actually work</li>
-          <li>→ <span className="font-semibold">The Problem-Agitation-Solution formula</span> — the 3-step framework that turns cold strangers into buyers</li>
-          <li>→ <span className="font-semibold">The Before/After Transformation template</span> — how to paint a picture so vivid, people can&apos;t help but want what you&apos;re selling</li>
-          <li>→ <span className="font-semibold">The Social Proof Avalanche technique</span> — how to use testimonials so effectively that skeptics become believers</li>
-          <li>→ <span className="font-semibold">The Scarcity/Urgency template</span> — how to make people act NOW without sounding desperate or manipulative</li>
-          <li>→ <span className="font-semibold">Ready-to-use templates for:</span> Facebook ads, Instagram posts, fliers, WhatsApp broadcasts, and more</li>
-        </ul>
-      </div>
-
-      {/* Bonus 3 */}
-      <div className="mb-8">
-        <h3 className="text-2xl font-bold mb-4 text-purple-600">
-          BONUS #3: THE PROFIT CALCULATOR
-        </h3>
-        <p className="text-lg mb-4 italic">
-          (Or: How To Know If Your Business Idea Is Financially Stupid Before You Start)
-        </p>
-        <ul className="space-y-3 text-gray-700">
-          <li>→ <span className="font-semibold">The story of the guy who skipped this step</span> — and lost 18 months and ₦600,000 before he realized his business could never be profitable (don&apos;t be him)</li>
-          <li>→ <span className="font-semibold">The brutally simple formula that tells you in 10 minutes whether your idea can actually make money</span></li>
-          <li>→ <span className="font-semibold">How to spot the &quot;Rat Race Trap&quot;</span> — the warning sign that you&apos;re building yourself a job, not a business</li>
-          <li>→ <span className="font-semibold">The Sensitivity Test</span> — what happens to your profit if sales drop 20%? If costs go up 15%? This test reveals if your business is fragile or robust</li>
-          <li>→ <span className="font-semibold">Sample calculators for different business types</span> — product-based, service-based, and hybrid models all calculated for you</li>
-          <li>→ <span className="font-semibold">The Decision Point framework</span> — the exact moment when you know whether to launch, pivot, or kill your idea</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
       {/* Bonuses Section */}
       <section className="px-4 py-16 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">
