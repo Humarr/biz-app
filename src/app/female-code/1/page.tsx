@@ -1,5 +1,6 @@
 // app/female-code/page.tsx
 import Image from "next/image";
+import Link from "next/link"
 export default function FemaleCode() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
@@ -136,7 +137,7 @@ export default function FemaleCode() {
 
             <ul className="mt-4 space-y-2 text-gray-700">
               <li>
-                • It is a rather expensive e-book (it costs ₦15,000, which is
+                • It is a rather expensive e-book (it costs ₦5250, which is
                 not exactly spare change by most people&apos;s standards).
               </li>
               <li>
@@ -817,7 +818,7 @@ export default function FemaleCode() {
               "I'm a quiet guy, not really social. Thought that meant I'd never attract quality women. This book showed me how to work WITH my personality instead of trying to be someone I'm not. Already seeing better results than when I was trying to be 'alpha'. — James E., Calabar",
               "The 'cold as ice' section changed my life. I used to get emotional and reactive whenever girls tested me. Now I stay calm, and guess what? They respect me more and actually pursue ME. Crazy how that works. — Samuel B., Jos",
               "I've read other relationship books before. American ones, mostly. This is the first one that actually understands Nigerian women and Nigerian culture. Makes a huge difference. — Chibueze U., Owerri",
-              "Not going to cap — I was skeptical about paying ₦15,000 for a PDF. But after reading it twice and applying what I learned, I can honestly say this is the best money I've spent on myself this year. — Femi L., Lekki",
+              "Not going to cap — I was skeptical about paying ₦5250 for a PDF. But after reading it twice and applying what I learned, I can honestly say this is the best money I've spent on myself this year. — Femi L., Lekki",
             ].map((testimonial, index) => (
               <div
                 key={index}
@@ -853,7 +854,7 @@ export default function FemaleCode() {
           </p>
           <p>
             Which is why The Female Code is very deliberately priced at{" "}
-            <span className="font-bold">₦15,000</span>.
+            <span className="font-bold">₦5250</span>.
           </p>
           <p>
             Obviously, this is not an &apos;impulse&apos; buy. Nor do I want it
@@ -900,7 +901,7 @@ export default function FemaleCode() {
             I&apos;m taking all the risk here.
           </p>
           <p>You risk nothing.</p>
-          <p>I could lose ₦15,000.</p>
+          <p>I could lose ₦5250.</p>
           <p>But you? You can only win.</p>
           <p className="text-xl font-bold">
             Either this book transforms your dating life... or you get your
@@ -913,14 +914,16 @@ export default function FemaleCode() {
       <section className="px-4 py-16 bg-green-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            GET THE FEMALE CODE FOR ₦15,000
+            GET THE FEMALE CODE FOR ₦5250
           </h2>
           <p className="text-xl mb-8">
             Instant download • 90-day money-back guarantee • Secure payment
           </p>
+          <Link href="https://paystack.shop/pay/3e8ubwfmr0">
           <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦15,000
+            BUY NOW - ₦5250
           </button>
+          </Link>
           <p className="mt-4 text-sm opacity-90">Secure payment via Paystack</p>
         </div>
       </section>
@@ -1049,7 +1052,7 @@ export default function FemaleCode() {
         <div className="mt-12 text-center">
           <div className="bg-blue-600 text-white p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-4">
-              BUY THE FEMALE CODE FOR ₦15,000
+              BUY THE FEMALE CODE FOR ₦5250
             </h3>
             <p className="mb-4">
               Once you purchase via Paystack&apos;s secure payment system,
@@ -1148,7 +1151,7 @@ export default function FemaleCode() {
 
           <div>
             <h3 className="text-xl font-semibold mb-4">
-              &quot;Why should I pay ₦15,000 for a PDF when I can get free
+              &quot;Why should I pay ₦5250 for a PDF when I can get free
               advice on YouTube?&quot;
             </h3>
             <p className="text-gray-700">
@@ -1245,11 +1248,11 @@ export default function FemaleCode() {
             </h3>
             <p className="text-gray-700">No.</p>
             <p className="text-gray-700 mt-2">
-              If you want The Female Code and can&apos;t afford ₦15,000 right
+              If you want The Female Code and can&apos;t afford ₦5250 right
               now, start saving up.
             </p>
             <p className="text-gray-700 mt-2">
-              (And if ₦15,000 is genuinely impossible for you to save, you have
+              (And if ₦5250 is genuinely impossible for you to save, you have
               bigger financial problems than dating problems.)
             </p>
           </div>
@@ -1359,7 +1362,7 @@ export default function FemaleCode() {
           </h2>
           <div className="bg-white text-green-600 p-8 rounded-lg mb-6">
             <h3 className="text-2xl font-bold mb-4">
-              BUY THE FEMALE CODE FOR ₦15,000
+              BUY THE FEMALE CODE FOR ₦5250
             </h3>
             <div className="space-y-2 text-lg">
               <p>✅ Instant PDF download after payment</p>
@@ -1370,10 +1373,11 @@ export default function FemaleCode() {
               </p>
             </div>
           </div>
-
+          <Link href="https://paystack.shop/pay/3e8ubwfmr0">
           <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦15,000
+            BUY NOW - ₦5250
           </button>
+          </Link>
 
           <p className="mt-4 text-sm opacity-90">
             Secured by Paystack. Your information is safe.
@@ -1399,7 +1403,7 @@ export default function FemaleCode() {
 
         <div className="space-y-6 text-lg">
           <p>Look, I get it.</p>
-          <p className="text-xl font-semibold">₦15,000 is real money.</p>
+          <p className="text-xl font-semibold">₦5250 is real money.</p>
           <p>
             You&apos;re probably thinking: &quot;What if this is just another
             overhyped product that doesn&apos;t deliver?&quot;
@@ -1438,7 +1442,7 @@ export default function FemaleCode() {
 
         <div className="mt-12 bg-yellow-50 border-l-4 border-yellow-400 p-6">
           <p className="text-xl font-bold text-center">
-            That price? It&apos;s WAY more than ₦15,000.
+            That price? It&apos;s WAY more than ₦5250.
           </p>
           <p className="text-center mt-4 font-semibold">
             And unlike this book, you don&apos;t get your money back from those
@@ -1474,7 +1478,7 @@ export default function FemaleCode() {
                 Option B
               </h3>
               <p className="text-lg mb-4">
-                You can invest ₦15,000 in actually understanding how women
+                You can invest ₦5250 in actually understanding how women
                 think.
               </p>
               <p className="text-lg mb-4 font-semibold">
@@ -1504,16 +1508,17 @@ export default function FemaleCode() {
           </h2>
           <div className="bg-white text-green-600 p-6 rounded-lg mb-6">
             <h3 className="text-2xl font-bold mb-2">
-              BUY FOR ₦15,000 - INSTANT ACCESS
+              BUY FOR ₦5250 - INSTANT ACCESS
             </h3>
             <p className="text-lg font-semibold">
               Remember: 90-Day Money-Back Guarantee
             </p>
           </div>
-
+<Link href="https://paystack.shop/pay/3e8ubwfmr0">
           <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦15,000
+            BUY NOW - ₦5250
           </button>
+</Link>
 
           <div className="mt-8 space-y-4 text-lg">
             <p>No questions asked. No hard feelings.</p>
@@ -1568,9 +1573,11 @@ export default function FemaleCode() {
           <p className="text-xl mb-8">
             98 Laws • Nigerian Context • 90-Day Guarantee
           </p>
+          <Link href="https://paystack.shop/pay/3e8ubwfmr0">
           <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-            BUY NOW - ₦15,000
+            BUY NOW - ₦5250
           </button>
+          </Link>
           <p className="mt-4 text-sm opacity-90">
             Your journey to understanding women starts now
           </p>
