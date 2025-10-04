@@ -1312,7 +1312,7 @@ export default function Home() {
           <p className="text-lg font-semibold">
             So here&apos;s what The Small Business Playbook costs:
           </p>
-          <p className="text-4xl font-bold mt-4">Just ₦9450.</p>
+          <p className="text-4xl font-bold mt-4">Just ₦7999.</p>
           <p className="text-lg mt-4">That&apos;s it.</p>
         </div>
 
@@ -1320,7 +1320,7 @@ export default function Home() {
           <p>Not ₦50,000 for a course.</p>
           <p>Not ₦25,000 for a &quot;masterclass.&quot;</p>
           <p className="text-xl font-semibold">
-            ₦9450 for the complete playbook + both bonuses + lifetime access to
+            ₦7999 for the complete playbook + both bonuses + lifetime access to
             the PDF.
           </p>
         </div>
@@ -1351,7 +1351,7 @@ export default function Home() {
             that are just 3 hours of motivation with no real system.
           </p>
           <p className="mt-4 text-lg font-semibold">
-            So I priced this at ₦9450 because I want YOU to be able to afford
+            So I priced this at ₦7999 because I want YOU to be able to afford
             it—even if you&apos;re just starting out.
           </p>
         </div>
@@ -1366,7 +1366,7 @@ export default function Home() {
             And if it helps you actually start and run a profitable business?
           </p>
           <p className="text-xl font-semibold">
-            ₦9450 will look like the best money you&apos;ve ever spent.
+            ₦7999 will look like the best money you&apos;ve ever spent.
           </p>
         </div>
       </section>
@@ -1395,7 +1395,7 @@ export default function Home() {
             </h3>
             <p className="text-lg mb-6">Here&apos;s how it works:</p>
             <p className="text-lg mb-6">
-              Buy The Small Business Playbook today for ₦9450.
+              Buy The Small Business Playbook today for ₦7999.
             </p>
             <p className="text-lg mb-6">Read the whole thing.</p>
             <p className="text-lg mb-6">
@@ -1447,7 +1447,7 @@ export default function Home() {
             </p>
             <p className="text-xl font-bold mt-4">
               You have 90 days to decide if The Small Business Playbook is worth
-              ₦9450.
+              ₦7999.
             </p>
             <p className="text-lg mt-4">I&apos;m betting it is.</p>
             <p className="text-lg font-semibold">
@@ -1472,7 +1472,7 @@ export default function Home() {
             <strong>Step 1:</strong> Click the big button below
           </p>
           <p>
-            <strong>Step 2:</strong> Pay ₦9450 securely via Paystack (they
+            <strong>Step 2:</strong> Pay ₦7999 securely via Paystack (they
             handle payments for Flutterwave, PiggyVest, and pretty much every
             major Nigerian company—your payment is 100% safe)
           </p>
@@ -1494,7 +1494,7 @@ export default function Home() {
           <p className="text-lg font-semibold mb-4">Here&apos;s the button:</p>
           <div className="bg-blue-600 text-white p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-4">
-              GET THE SMALL BUSINESS PLAYBOOK FOR ₦9450
+              GET THE SMALL BUSINESS PLAYBOOK FOR ₦7999
             </h3>
             <p className="mb-4">
               (Once you purchase, your e-book + bonuses will be immediately
@@ -1503,7 +1503,7 @@ export default function Home() {
             </p>
             <Link href="https://paystack.shop/pay/tsbp">
               <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-                BUY NOW - ₦9450
+                BUY NOW - ₦7999
               </button>
             </Link>
           </div>
@@ -1569,7 +1569,7 @@ export default function Home() {
                 sources.
               </p>
               <p className="text-gray-700 mt-2">
-                Or you could spend ₦9450 and get the complete system in one
+                Or you could spend ₦7999 and get the complete system in one
                 weekend.
               </p>
               <p className="text-gray-700 mt-2">
@@ -1720,7 +1720,7 @@ export default function Home() {
               </p>
               <p className="text-gray-700 mt-2">
                 If your friend wants it, send them to buy their own copy.
-                It&apos;s only ₦9450.
+                It&apos;s only ₦7999.
               </p>
               <p className="text-gray-700 mt-2">
                 (Plus, people value things they pay for. If you just send it to
@@ -1761,7 +1761,7 @@ export default function Home() {
               </p>
               <p className="text-gray-700 mt-2">
                 And if after 90 days you genuinely feel like this wasn&apos;t
-                worth ₦9450? You shouldn&apos;t have to keep it.
+                worth ₦7999? You shouldn&apos;t have to keep it.
               </p>
             </div>
           </div>
@@ -1780,12 +1780,12 @@ export default function Home() {
 
         <div className="space-y-6 text-lg">
           <p>
-            But here&apos;s the thing: ₦9450 is less than what most people spend
+            But here&apos;s the thing: ₦7999 is less than what most people spend
             on data and food in a week.
           </p>
           <p>
             If you&apos;re serious about starting a business, you can find
-            ₦9450.
+            ₦7999.
           </p>
           <p>
             Cut back on something else for one week. Ask a family member to
@@ -1798,7 +1798,7 @@ export default function Home() {
             Because here&apos;s what I know:
           </p>
           <p className="text-xl font-bold mt-4">
-            If you can&apos;t find ₦9450 to invest in knowledge that could
+            If you can&apos;t find ₦7999 to invest in knowledge that could
             change your financial situation…
           </p>
           <p className="text-xl font-bold mt-4">
@@ -1817,7 +1817,7 @@ export default function Home() {
             waiting forever.
           </p>
           <p className="text-xl font-semibold">
-            Find the ₦9450. Get the playbook. Start building.
+            Find the ₦7999. Get the playbook. Start building.
           </p>
         </div>
       </section>
@@ -1846,7 +1846,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               "The Business Analyzer Framework is insane. I had 4 business ideas and couldn't pick one. Used the framework, scored all 4, and immediately knew which one to pursue. Saved me months of confusion. — Oluwaseun D., Abeokuta",
-              "I've spent over ₦80,000 on business courses in the past 2 years. This ₦9450 e-book taught me more than all of them combined. I'm not even exaggerating. — Amarachi P., Asaba",
+              "I've spent over ₦80,000 on business courses in the past 2 years. This ₦7999 e-book taught me more than all of them combined. I'm not even exaggerating. — Amarachi P., Asaba",
               "Chapter 5 on pricing changed my entire business. I was charging ₦1,500 for something I should've been charging ₦4,000 for. Customers still buy, and I'm making 3x the profit now. — Yusuf M., Jos",
               "The ad templates in Bonus #2 are pure gold. I literally copied one of the structures, changed it to fit my product, and posted it. Got 9 orders that same day. First time I've made money from an ad. — Chiamaka F., Uyo",
               "I'm the type who overthinks everything. This book forced me to stop planning and start doing. Used the validation method, confirmed my idea would work, and launched 2 weeks later. Already profitable. — Abdullahi T., Sokoto",
@@ -1924,7 +1924,7 @@ export default function Home() {
           <p>You know you want to start a business.</p>
           <p>You know you need a system (not just random tips).</p>
           <p>
-            You know ₦9450 is not a lot of money for something that could change
+            You know ₦7999 is not a lot of money for something that could change
             your financial situation.
           </p>
           <p>
@@ -1981,7 +1981,7 @@ export default function Home() {
             Stop telling yourself you&apos;ll do it &quot;next month.&quot;
           </p>
           <p className="text-lg mb-8">Click the button below.</p>
-          <p className="text-lg mb-4">Pay ₦9450.</p>
+          <p className="text-lg mb-4">Pay ₦7999.</p>
           <p className="text-lg mb-4">Download the playbook.</p>
           <p className="text-lg mb-4">Read it this weekend.</p>
           <p className="text-xl font-semibold">
@@ -1994,7 +1994,7 @@ export default function Home() {
       <section className="px-4 py-16 bg-green-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            GET THE SMALL BUSINESS PLAYBOOK NOW FOR ₦9450
+            GET THE SMALL BUSINESS PLAYBOOK NOW FOR ₦7999
           </h2>
           <p className="text-xl mb-8">
             Instant download • 90-day money-back guarantee • Secure payment via
@@ -2002,7 +2002,7 @@ export default function Home() {
           </p>
           <Link href="https://paystack.shop/pay/tsbp">
             <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-              BUY NOW - ₦9450
+              BUY NOW - ₦7999
             </button>
           </Link>
           <p className="mt-4 text-sm opacity-90">
@@ -2058,7 +2058,7 @@ export default function Home() {
             The decision to stop consuming information and start applying it.
           </p>
           <p>
-            The decision to invest ₦9450 in yourself instead of spending it on
+            The decision to invest ₦7999 in yourself instead of spending it on
             something you&apos;ll forget about next week.
           </p>
           <p>
@@ -2121,7 +2121,7 @@ export default function Home() {
           </h2>
           <Link href="https://paystack.shop/pay/tsbp">
             <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-              BUY NOW - ₦9450
+              BUY NOW - ₦7999
             </button>
           </Link>
         </div>
@@ -2178,7 +2178,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               <div className="text-center">
                 <p className="font-semibold">Price:</p>
-                <p className="text-xl font-bold">₦9450</p>
+                <p className="text-xl font-bold">₦7999</p>
               </div>
               <div className="text-center">
                 <p className="font-semibold">Format:</p>
@@ -2206,14 +2206,14 @@ export default function Home() {
       <section className="px-4 py-16 bg-green-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            GET THE SMALL BUSINESS PLAYBOOK FOR ₦9450
+            GET THE SMALL BUSINESS PLAYBOOK FOR ₦7999
           </h2>
           <p className="text-xl mb-8">
             (Secure payment via Paystack. Instant download. No waiting.)
           </p>
           <Link href="https://paystack.shop/pay/tsbp">
             <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-              BUY NOW - ₦9450
+              BUY NOW - ₦7999
             </button>
           </Link>
         </div>
@@ -2289,11 +2289,11 @@ export default function Home() {
       {/* <section className="px-4 py-16 bg-green-600 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              GET THE SMALL BUSINESS PLAYBOOK FOR ₦9450
+              GET THE SMALL BUSINESS PLAYBOOK FOR ₦7999
             </h2>
             <p className="text-xl mb-8">Instant download • 90-day money-back guarantee • Secure payment</p>
             <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl transition-colors">
-              BUY NOW - ₦9450
+              BUY NOW - ₦7999
             </button>
             <p className="mt-4 text-sm opacity-90">Secure payment via Paystack</p>
           </div>
