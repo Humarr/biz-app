@@ -855,6 +855,7 @@ export default function FemaleCode() {
           <p>
             Which is why The Female Code is very deliberately priced at{" "}
             <span className="font-bold">₦5250</span>.
+            <p className="text-xs italic">*Lol... I know that&apos;s not as expensive as I made it seem. But... you get the gits 😉</p>
           </p>
           <p>
             Obviously, this is not an &apos;impulse&apos; buy. Nor do I want it
