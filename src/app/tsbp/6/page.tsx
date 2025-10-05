@@ -7,13 +7,14 @@ export default function SmallBusinessPlaybookPage() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Header Section */}
-      <header className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20 px-4">
+      <header className=" py-20 px-4">
+      {/* <header className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20 px-4"> */}
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          {/* <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Does God Want You to Be Rich?
-          </h1>
-          <h2 className="text-xl md:text-2xl font-semibold mb-8">
-            Ex-Teacher Reveals How You Can Start Your Own Extremely Profitable Business In the Next 30 Days
+          </h1> */}
+          <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-red-600">
+            "Ex-Teacher Reveals How You Can Start Your Own Extremely Profitable Business In the Next 30 Days"
           </h2>
           <p className="text-lg md:text-xl font-medium">
             Without Huge Capital Or Quitting Your Job…Yet
