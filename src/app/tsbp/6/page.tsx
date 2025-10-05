@@ -46,7 +46,11 @@ export default function SmallBusinessPlaybookV2() {
               <p className="text-lg mb-6">I promise to make it short.</p>
               
               <div className="space-y-6 text-lg">
-                <p>In 2023, after I lost countless interviews that could literally change my life because I didn&apos;t have money for data, I decided to try another way to make money without relying on interviews.</p>
+                <p>Ever since I graduated in 2019, I lost countless interviews that could literally change my life because I didn&apos;t have money for data..
+                    
+                    <br/>
+                    <br/>
+                    Then in 2023, I decided to try another way to make money without relying on interviews.</p>
                 <p>So, I decided to start a business.</p>
                 <p>I attended a webinar on how to sell in bulk.</p>
                 <p>It was during my time running this business that I learnt a lot about starting and running a business. I mentored under successful entrepreneurs and I&apos;ve seen their strategies.</p>
