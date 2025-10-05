@@ -578,7 +578,7 @@ export default function SmallBusinessPlaybookPage() {
 
               <div className="bg-gray-100 p-6 rounded-lg">
                 <p className="text-lg font-bold text-gray-900 text-center">
-                  Could you say all those things without hyperventilating? 
+                  Could you agree to all those things without second-guessing? 
                 </p>
                 <p className="text-lg font-bold text-green-600 text-center mt-2">
                   Then click the button and get started.
