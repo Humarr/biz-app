@@ -380,7 +380,7 @@ export default function SmallBusinessPlaybookPage() {
                 And because when people start businesses
               </p>
               <ul className="list-disc list-inside space-y-2 text-lg">
-                <li>…they're able to <span className="font-bold">cheat their bills</span> with confidence,</li>
+                <li>…they're able to <span className="font-bold">chest their bills</span> with confidence,</li>
                 <li>…secure better quality partners</li>
                 <li>…you'll also be free from fear that you may lose your job</li>
                 <li>…you'll live in better quality places</li>
