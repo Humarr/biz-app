@@ -8,7 +8,7 @@ export default function SmallBusinessPlaybookV2() {
         {/* Hero Section */}
         <section className="px-4 py-16 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 leading-tight">
-            # Does God Want You to Be Rich?
+          Does God Want You to Be Rich?
           </h1>
           
           <div className="text-center mb-12">
