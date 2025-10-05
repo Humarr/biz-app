@@ -506,9 +506,11 @@ export default function SmallBusinessPlaybookPage() {
 
             <div className="mt-8">
                 <Link 
-           href="https://selar.com/small-biz"
+           href="https://selar.com/small-biz">
+           <button
            className="bg-green-500 hover:bg-green-600 text-white font-bold text-2xl py-4 px-12 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
                 ORDER THE SMALL BUSINESS PLAYBOOK NOW
+              </button>
               </Link>
             </div>
           </div>
@@ -618,10 +620,12 @@ export default function SmallBusinessPlaybookPage() {
 
             <div className="text-center">
                    <Link 
-           href="https://selar.com/small-biz"
+           href="https://selar.com/small-biz">
+           <button
            className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-4 px-8 rounded-lg shadow-lg transition duration-300">
                 ORDER THE SMALL BUSINESS PLAYBOOK NOW
-              </Link>
+              </button>
+            </Link>
             </div>
           </div>
         </section>
