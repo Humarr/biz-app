@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // app/page.tsx
 import Image from "next/image";
 import Link from "next/link";
@@ -421,7 +422,7 @@ export default function Home() {
   
           {/* CTA Button */}
           <div className="text-center my-12">
-           <Link href="https://selar.com/small-biz">
+           <Link href="https://selar.com/small-biz"
               className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold text-xl px-12 py-6 rounded-lg shadow-lg transition-colors duration-200"
             >
               ORDER THE SMALL BUSINESS PLAYBOOK NOW
@@ -505,9 +506,10 @@ export default function Home() {
   
           {/* Final CTA Button */}
           <div className="text-center my-12">
-           <Link href="https://selar.com/small-biz">
-              className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold text-xl px-12 py-6 rounded-lg shadow-lg transition-colors duration-200"
-            >
+           <Link 
+           href="https://selar.com/small-biz"
+           
+              className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold text-xl px-12 py-6 rounded-lg shadow-lg transition-colors duration-200">
               ORDER THE SMALL BUSINESS PLAYBOOK NOW
             </Link>
           </div>
