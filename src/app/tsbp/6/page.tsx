@@ -572,7 +572,7 @@ export default function SmallBusinessPlaybookPage() {
                   "I understand there ARE refunds if the book doesn't work for me."
                 </p>
                 <p className="text-lg text-gray-700">
-                  Yes, I'm serious about the guarantee. If you read the book and don't like it, email me and I'll refund your money. But I'm trusting you not to be that person who downloads, refunds, and keeps the book. Don't be that person.
+                  Yes, I'm serious about the guarantee. If you read the book and don't like it, email me and I'll refund your money. But I'm trusting you not to be that person who downloads, then ask for refunds just to rip me off. Don't be that person.
                 </p>
               </div>
 
