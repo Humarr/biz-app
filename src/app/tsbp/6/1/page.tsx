@@ -6,7 +6,9 @@ export default function Home() {
     return (
       <main className="min-h-screen bg-white">
         {/* Container matching reference page max-width */}
-        <article className="max-w-3xl mx-auto px-6 py-12 font-serif text-lg leading-relaxed text-gray-900">
+        <article className="max-w-3xl mx-auto px-6 py-12 text-lg leading-relaxed text-gray-900">
+          
+        {/* <article className="max-w-3xl mx-auto px-6 py-12 font-serif text-lg leading-relaxed text-gray-900"> */}
           
           {/* Header */}
           <header className="mb-12 text-center">
