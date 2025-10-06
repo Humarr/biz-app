@@ -8,10 +8,10 @@ export default function SalesPage() {
     <main className="bg-white min-h-screen">
       {/* Hero Section */}
       <section className="px-8 lg:px-40 py-40">
-        <h1 className="font-bowlby font-black text-5xl lg:text-7xl text-gray-900 leading-tight">
+        <h1 className="font-heading2 font-black text-5xl lg:text-7xl text-center text-gray-900 leading-tight">
           PICTURE THIS:
         </h1>
-        <h2 className="font-bowlby font-black italic text-3xl lg:text-4xl text-gray-900 leading-tight">
+        <h2 className="font-bold italic text-3xl lg:text-4xl text-center text-gray-900 leading-tight mt-6">
         It's Monday morning.
         </h2>
         
