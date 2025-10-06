@@ -125,15 +125,9 @@ export default function SalesPage() {
                 height={300}
                 className="rounded-lg"
               />
-            </div>   <div className="my-6 flex justify-center">
-              <Image
-                src="/tsbp/cover.png"
-                alt="The small business playbook book cover"
-                width={600}
-                height={300}
-                className="rounded-lg"
-              />
-            </div>
+            </div>   
+            
+           
 
         <div className="mt-6 space-y-4">
           <p>I wrote this book with <strong>you</strong> in mind.</p>
@@ -158,7 +152,7 @@ export default function SalesPage() {
           <div className="bg-white p-6 rounded-lg border border-gray-200">
             <p>Asking your friends and family what business you should start is a good strategy, right?</p>
             <p className="font-bold text-red-600 mt-2"><strong>Wrong.</strong></p>
-            <p className="text-sm italic">(We'll explain why when you get the book. Spoiler: they're idiots.)</p>
+            <p className="text-sm italic">(We'll explain why when you get the book. </p>
           </div>
 
           <div className="bg-white p-6 rounded-lg border border-gray-200">
