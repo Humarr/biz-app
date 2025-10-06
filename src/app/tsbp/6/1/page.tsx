@@ -54,7 +54,13 @@ export default function Home() {
           <p className="mb-6">I promise to make it short.</p>
   
           <p className="mb-6">
-            In 2023, after I lost countless interviews that could literally change my life because I didn't have money for data, I decided to try another way to make money without relying on interviews.
+
+          <p>Ever since I graduated in 2019, I lost countless interviews that could literally change my life because I didn&apos;t have money for data..
+                    
+                    <br/>
+                    <br/>
+                    Then in 2023, I decided to try another way to make money without relying on interviews.</p>
+            {/* In 2023, after I lost countless interviews that could literally change my life because I didn't have money for data, I decided to try another way to make money without relying on interviews. */}
           </p>
   
           <p className="mb-6">So, I decided to start a business.</p>
