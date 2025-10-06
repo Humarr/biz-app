@@ -5,7 +5,7 @@ export default function Home() {
     return (
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h1 className="font-montserrat text-6xl font-bold text-center tracking-tight lg:text-8xl">
             PICTURE THIS:
           </h1>
@@ -75,9 +75,9 @@ export default function Home() {
         </section>
   
         {/* Book Title Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <hr className="border-gray-300" />
-          <h2 className="mt-20 font-montserrat text-5xl font-black lg:text-7xl">
+          <h2 className="mt-20 font-montserrat text-5xl text-center font-black lg:text-7xl">
             The Small Business Playbook
           </h2>
 
@@ -168,7 +168,7 @@ export default function Home() {
         </section>
   
         {/* "So You Want to Start a Business" Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             So You Want to Start a Business
           </h2>
@@ -243,7 +243,7 @@ export default function Home() {
         </section>
   
         {/* Bad Advice Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <p className="text-2xl leading-relaxed text-gray-800">
             Don&apos;t worry though! There are plenty of &apos;business advice&apos; videos online, full of HELPFUL (🙄) tips like:
           </p>
@@ -274,7 +274,7 @@ export default function Home() {
         </section>
   
         {/* My Story Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             Here&apos;s My Story (And Why I Had No Choice But to Figure This Out)
           </h2>
@@ -400,7 +400,7 @@ export default function Home() {
         </section>
   
         {/* What's Inside Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             So… What&apos;s Inside The Small Business Playbook?
           </h2>
@@ -488,7 +488,7 @@ export default function Home() {
         </section>
   
         {/* Gifts Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h3 className="font-montserrat text-3xl font-black text-red-600 lg:text-4xl">
             GIFT #1: The 6 Kinds of Products People Love to Buy
           </h3>
@@ -523,7 +523,7 @@ export default function Home() {
         </section>
   
         {/* Who It's For Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             So… Who&apos;s This Book For?
           </h2>
@@ -554,7 +554,7 @@ export default function Home() {
         </section>
   
         {/* Testimonials Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             Don&apos;t Just Take My Word for It
           </h2>
@@ -614,7 +614,7 @@ export default function Home() {
         </section>
   
         {/* Pricing Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             Okay, Yeah, But How Much Does It Cost?
           </h2>
@@ -656,7 +656,7 @@ export default function Home() {
         </section>
   
         {/* Guarantee Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             But Wait—Here&apos;s the Part Where I Take ALL the Risk
           </h2>
@@ -715,7 +715,7 @@ export default function Home() {
         </section>
   
         {/* CTA Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             How to Get Your Copy Right Now
           </h2>
@@ -759,7 +759,7 @@ export default function Home() {
         </section>
   
         {/* FAQ Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             A Few Final Questions (Because I Know You&apos;re Thinking Them)
           </h2>
@@ -853,7 +853,7 @@ export default function Home() {
         </section>
   
         {/* Final CTA Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-montserrat text-4xl font-black lg:text-6xl">
             Okay, This Really Is the End
           </h2>
