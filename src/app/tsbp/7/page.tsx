@@ -548,7 +548,7 @@ export default function Home() {
             - Wants to start a business but doesn&apos;t know where to begin<br />
             - Is tired of feeling like you could be fired at any moment<br />
             - Actually wants to PUT IN THE WORK to build something real<br /><br />
-  </div>
+                </div>
             Then this book is for you.
           </p>
         </section>
