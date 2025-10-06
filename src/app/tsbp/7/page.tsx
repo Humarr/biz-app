@@ -402,7 +402,7 @@ export default function SalesPage() {
       {/* Pricing Section */}
       <section className="px-8 lg:px-40 py-40">
         <h2 className="font-lato font-black text-4xl lg:text-5xl text-gray-900 text-center mb-8">
-          N15,000
+          N7999
         </h2>
         
         <div className="font-lato text-xl text-gray-700 text-center max-w-2xl mx-auto space-y-8 leading-relaxed">
@@ -445,7 +445,7 @@ export default function SalesPage() {
             href="https://selar.com/small-biz"
             className="inline-block bg-red-600 hover:bg-red-700 text-white font-lato font-bold text-2xl px-16 py-6 transition-colors"
           >
-            GET THE SMALL BUSINESS PLAYBOOK NOW - N15,000
+            GET THE SMALL BUSINESS PLAYBOOK NOW - N7999
           </Link>
         </div>
       </section>
@@ -517,7 +517,7 @@ export default function SalesPage() {
             
             <div className="text-left max-w-md mx-auto">
               <p className="font-lato font-bold text-lg mb-4"><strong>Choice #1:</strong> Close this page. Go back to your job. Keep telling yourself "someday I'll start a business." Keep waiting for the "perfect time." Keep hoping things will magically get better.</p>
-              <p className="font-lato font-bold text-lg"><strong>Choice #2:</strong> Invest N15,000 in yourself. Get The Small Business Playbook. Read it. Apply it. Start building something that's YOURS. Something nobody can take away from you. Something that could finally set you free.</p>
+              <p className="font-lato font-bold text-lg"><strong>Choice #2:</strong> Invest N7999 in yourself. Get The Small Business Playbook. Read it. Apply it. Start building something that's YOURS. Something nobody can take away from you. Something that could finally set you free.</p>
             </div>
             
             <p>Which choice sounds better?</p>
@@ -530,7 +530,7 @@ export default function SalesPage() {
               href="https://selar.com/small-biz"
               className="inline-block bg-red-600 hover:bg-red-700 text-white font-lato font-bold text-2xl px-16 py-6 transition-colors"
             >
-              GET THE SMALL BUSINESS PLAYBOOK NOW - N15,000
+              GET THE SMALL BUSINESS PLAYBOOK NOW - N7999
             </Link>
           </div>
 
