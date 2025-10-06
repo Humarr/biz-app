@@ -677,8 +677,8 @@ export default function Home() {
             <Image 
               src="/guarantee-seal.png" 
               alt="100% Money-Back Guarantee"
-              width={150}
-              height={150}
+              width={400}
+              height={400}
             />
           </div>
   
