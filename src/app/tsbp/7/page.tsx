@@ -114,10 +114,11 @@ export default function Home() {
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
             Neat, hey? But hang on. Before I tell you what The Small Business Playbook is about, a word of warning:<br /><br />
   
+            <div className="space-y-4">
             - It is NOT a get-rich-quick scheme. (In fact, I&apos;m going to tell you exactly why those don&apos;t work and what to do instead.)<br />
             - Also, it is not filled with complicated business jargon or MBA nonsense. (This is written for regular people who just want to make money, not impress investors at cocktail parties.)<br />
             - And WORST of all… I&apos;m going to tell you some hard truths about starting a business that most &quot;gurus&quot; won&apos;t tell you because it doesn&apos;t sound sexy.<br /><br />
-  
+  </div>
             All right. That&apos;s the bad news.<br /><br />
   
             So… what is this ebook about?<br /><br />
@@ -176,13 +177,16 @@ export default function Home() {
   
             You start with those things everyone says you &quot;should&quot; do, like…<br /><br />
   
+            <div className="space-y-4">
             - <strong>Ask your friends and family for business ideas.</strong> That&apos;s what people do, right? Except… your uncle suggests you open a barbershop (even though you hate cutting hair), your friend says &quot;just sell stuff online,&quot; and your mom tells you to &quot;get a real job.&quot; So much for that suggestion.<br /><br />
   
             - <strong>Next, you try to come up with &quot;the perfect idea.&quot;</strong> But… nothing comes. Or worse, you have 17 half-baked ideas and no clue which one is actually worth pursuing. You&apos;re paralyzed by choice.<br /><br />
   
             - <strong>Okay… what about just starting something and seeing what happens?</strong> Everyone says &quot;just start,&quot; right? But… you don&apos;t want to waste money on an idea that flops. And you don&apos;t know how to test if people will actually buy. It&apos;s just a bunch of guessing.<br /><br />
   
-            - <strong>You&apos;re getting desperate.</strong> You Google &quot;best business ideas&quot; and find… listicles. &quot;Top 50 businesses to start in 2024!&quot; Dropshipping, affiliate marketing, print-on-demand… all these things you&apos;ve heard about but have no idea how to actually DO.<br /><br />
+            - <strong>You&apos;re getting desperate.</strong> You Google &quot;best business ideas&quot; and find… listicles. &quot;Top 50 businesses to start in 2024!&quot; Dropshipping, affiliate marketing, print-on-demand… all these things you&apos;ve heard about but have no idea how to actually DO.<br /><br /> 
+            
+            </div>
   
             Sigh. Somehow, it&apos;s not as easy as that YouTube video made it look.<br /><br />
   
@@ -538,12 +542,13 @@ export default function Home() {
   
             If you&apos;re someone who:<br /><br />
   
+            <div className="space-y-4">
             - Works a job but DREAMS of being your own boss<br />
             - Feels trapped making other people rich while you struggle<br />
             - Wants to start a business but doesn&apos;t know where to begin<br />
             - Is tired of feeling like you could be fired at any moment<br />
             - Actually wants to PUT IN THE WORK to build something real<br /><br />
-  
+  </div>
             Then this book is for you.
           </p>
         </section>
