@@ -8,7 +8,7 @@ export default function SalesPage() {
     <main className="bg-white min-h-screen">
       {/* Hero Section */}
       <section className="px-8 lg:px-40 py-40">
-        <h1 className="font-heading2 font-black text-5xl lg:text-7xl text-center text-gray-900 leading-tight">
+        <h1 className="font-heading2 font-bold text-5xl lg:text-7xl text-center text-gray-900 leading-tight">
           PICTURE THIS:
         </h1>
         <h2 className="font-bold italic text-3xl lg:text-4xl text-center text-gray-900 leading-tight mt-6">
@@ -39,7 +39,7 @@ export default function SalesPage() {
           <p>😱</p>
           <p>Sound familiar?</p>
           <p>Well, if this scene made your stomach drop… I have good news for you.</p>
-          <p>(Phew, nearly went full "doom and gloom" mode there without offering a solution.)</p>
+          <p className='text-xs'>(Phew, nearly went full "doom and gloom" mode there without offering a solution.)</p>
           <p>Because on this page, I'm going to show you how you can escape the job trap forever…</p>
           <p>… by revealing the step-by-step playbook that transforms regular people stuck in dead-end jobs into profitable business owners.</p>
           <p>Sound good?</p>
