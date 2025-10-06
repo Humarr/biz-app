@@ -9,9 +9,10 @@ export default function Home() {
           <h1 className="font-montserrat text-6xl font-black tracking-tight lg:text-8xl">
             PICTURE THIS:
           </h1>
-          <h2 className="mt-12 text-2xl leading-relaxed text-gray-800">
-            It&apos;s Monday morning. <br /><br />
-            </h2>
+          <h2 className="font-bold italic text-3xl lg:text-4xl text-center text-gray-900 leading-tight mt-6">
+        It&apos;s Monday morning.
+        </h2>
+        
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
             {/* It&apos;s Monday morning. <br /><br /> */}
   
