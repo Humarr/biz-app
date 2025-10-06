@@ -268,7 +268,7 @@ export default function SmallBusinessPlaybookV2() {
             <p className="text-lg">You won&apos;t pay ₦50,000.</p>
             <div className="mt-8 bg-green-50 border-l-4 border-green-400 p-6">
               <p className="text-lg font-semibold">You can get <span className="text-blue-600">The Small Business Playbook</span> right now for just</p>
-              <p className="text-4xl font-bold mt-4">₦8,999</p>
+              <p className="text-4xl font-bold mt-4">₦6,999</p>
             </div>
           </div>
         </section>

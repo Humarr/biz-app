@@ -333,7 +333,7 @@ export default function Home() {
           <p className="mb-6">You won't pay ₦50,000.</p>
   
           <p className="mb-6 text-2xl font-bold">
-            You can get <strong>The Small Business Playbook</strong> right now for just <strong>₦8,999</strong>.
+            You can get <strong>The Small Business Playbook</strong> right now for just <strong>₦6,999</strong>.
           </p>
   
           <hr className="my-10 border-gray-300" />
