@@ -6,14 +6,14 @@ export default function Home() {
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="px-8 py-40 lg:px-32">
-          <h1 className="font-montserrat text-6xl font-black tracking-tight lg:text-8xl">
+          <h1 className="font-montserrat text-6xl font-bold text-center tracking-tight lg:text-8xl">
             PICTURE THIS:
           </h1>
           <h2 className="font-bold italic text-3xl lg:text-4xl text-center text-gray-900 leading-tight mt-6">
         It&apos;s Monday morning.
         </h2>
         
-          <p className="mt-12 text-2xl leading-relaxed text-gray-800">
+          <p className="mt-12 text-2xl text-center leading-relaxed text-gray-800">
             {/* It&apos;s Monday morning. <br /><br /> */}
   
             Your alarm goes off at 6 AM.<br /><br />
@@ -425,7 +425,7 @@ export default function Home() {
             
             <p><strong>The reason why your products should be affordable, not cheap</strong> (and how you can do it without losing money or looking desperate)</p>
             
-            <p>And there&apos;s more…</p>
+            <p>That&apos;s not all…</p>
             
             <p><strong>How to price your products for maximum profitability WITHOUT losing customers</strong> (hint: it&apos;s not about being the cheapest option)</p>
             
@@ -435,7 +435,7 @@ export default function Home() {
             
             <p><strong>The sneaky &quot;David and Goliath&quot; trick you can use to STEAL customers from your competitors</strong> (even if they&apos;re ten times your size)</p>
             
-            <p>And there&apos;s more…</p>
+            <p>And I&apos;m just starting…</p>
             
             <p><strong>The truth about being #1 in your business category</strong> (and how to achieve it without spending a fortune on marketing)</p>
             
@@ -445,7 +445,7 @@ export default function Home() {
             
             <p><strong>The sneaky tricks to get your customers to promote your business everywhere they go like MTN</strong> — without paying them a kobo (this is the closest thing to &quot;free advertising&quot; you&apos;ll ever find)</p>
             
-            <p>And there&apos;s more…</p>
+            <p>I&apos;m not even finished…</p>
             
             <p><strong>The reasons why word of mouth is very important for the survival and profitability of your business</strong> (ignore this and you&apos;ll be stuck paying for ads forever)</p>
             
@@ -455,7 +455,7 @@ export default function Home() {
             
             <p><strong>What you should avoid when you start making money in your business</strong> (this is where most people sabotage themselves just as things start working)</p>
             
-            <p>And there&apos;s more…</p>
+            <p>And there&apos;s still more…</p>
             
             <p><strong>The psychological reason why people buy</strong> — and how you can use it to INCREASE your prices without losing customers (In fact, follow it, and they&apos;ll still snub your competitors to buy from you!)</p>
             
@@ -465,7 +465,7 @@ export default function Home() {
             
             <p><strong>The steps you can take to prevent your business from failing in its first 6 months</strong> (because most businesses DO fail in that time—but yours doesn&apos;t have to)</p>
             
-            <p>And there&apos;s more…</p>
+            <p>And that&apos;s still not all…</p>
             
             <p><strong>The reasons why people are NOT looking for low prices</strong> (and what they want instead—nail this and you&apos;ll never have to compete on price again)</p>
             
