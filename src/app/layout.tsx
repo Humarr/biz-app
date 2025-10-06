@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Anton, Patrick_Hand, Poppins, Kalam } from 'next/font/google'
+import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
@@ -33,6 +33,21 @@ const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
 })
 
+const bowlby = Bowlby_One_SC({
+  subsets: ['latin'],
+  variable: '--font-bowlby',
+  display: 'swap',
+  weight: ['400'],
+})
+const lato = Lato({
+  subsets: ['latin'],
+  variable: '--font-lato',
+  display: 'swap',
+  weight: ['400', '700', '900'],
+})
+
+
+
 
 const kalam = Kalam({
   subsets: ['latin'],
@@ -51,7 +66,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable}`}>
+    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} 
+   ${bowlby.variable} ${lato.variable} 
+    
+    `}>
       <body className="antialiased">
         <div className="min-h-screen flex flex-col">
           {/* <PageViewTracker /> */}

@@ -17,7 +17,9 @@
   --font-headline: var(--font-anton);
   --font-scribble: var(--font-patrick-hand);
   --font-headline2: var(--font-poppins);
-  --font-kalam: var(--font-kalam)
+  --font-kalam: var(--font-kalam);
+  --font-lato: var(--font-lato);
+  --font-bowlby: var(--font-bowlby);
 }
 
 /* ====== Theme Definition ====== */
@@ -33,7 +35,9 @@
   --font-headline: var(--font-headline);
   --font-scribble: var(--font-scribble);
   --font-headline2: var(--font-headline2);
-  --font-kalam: var(--font-kalam)
+  --font-kalam: var(--font-kalam);
+  --font-lato: var(--font-lato);
+  --font-bowlby: var(--font-bowlby);
 }
 
 /* ====== Dark Mode ====== */
@@ -63,7 +67,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-headline2);
+  font-family: var(--font-heading2);
   /* color: var(--primary); */
    font-weight: bold;
   /* text-transform: uppercase;  */
