@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato } from 'next/font/google'
+import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato, Montserrat, Merriweather } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
@@ -47,7 +47,19 @@ const lato = Lato({
 })
 
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+  // We'll use weights 400 (regular) and 900 (black)
+});
 
+const merriweather = Merriweather({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-merriweather',
+});
 
 const kalam = Kalam({
   subsets: ['latin'],
@@ -68,6 +80,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} 
    ${bowlby.variable} ${lato.variable} 
+   ${merriweather.variable} ${montserrat.variable} 
     
     `}>
       <body className="antialiased">

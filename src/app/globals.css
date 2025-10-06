@@ -20,6 +20,8 @@
   --font-kalam: var(--font-kalam);
   --font-lato: var(--font-lato);
   --font-bowlby: var(--font-bowlby);
+  --font-merriweather: var(--font-merriweather);
+  --font-montserrat: var(--font-montserrat);
 }
 
 /* ====== Theme Definition ====== */
@@ -38,6 +40,8 @@
   --font-kalam: var(--font-kalam);
   --font-lato: var(--font-lato);
   --font-bowlby: var(--font-bowlby);
+  --font-merriweather: var(--font-merriweather);
+  --font-montserrat: var(--font-montserrat);
 }
 
 /* ====== Dark Mode ====== */
