@@ -685,7 +685,7 @@ export default function LandingPage() {
               href="https://selar.com/small-biz"
             >
             <button className="bg-[#E10600] text-white font-montserrat font-black text-[32px] px-16 py-6 rounded-none hover:bg-[#C10500] transition-colors">
-              PLACE ORDER NOW
+              YES, Umar! I Want to Start My Own Business!
             </button>
             </Link>
           </div>
@@ -742,9 +742,12 @@ export default function LandingPage() {
               href="https://selar.com/small-biz"
             >
             <button className="bg-[#E10600] text-white font-montserrat font-black text-[32px] px-16 py-6 rounded-none hover:bg-[#C10500] transition-colors">
-              PLACE ORDER NOW
+              Click Now to Order
             </button>
             </Link>
+            <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
+              You&apos;ll Get Your Copy of the Small Business Playbook Instantly After Payment!
+            </p>
           </div>
 
           {/* Signature */}
@@ -801,7 +804,7 @@ export default function LandingPage() {
               href="https://selar.com/small-biz"
             >
             <button className="bg-[#E10600] text-white font-montserrat font-black text-xl px-12 py-4 rounded-none hover:bg-[#C10500] transition-colors">
-              PLACE ORDER NOW
+              Click For My Copy of The Small Business Playbook
             </button>
             </Link>
             <p className="font-montserrat font-black text-[20px] text-[#333333] mt-4">
