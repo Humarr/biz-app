@@ -53,7 +53,7 @@ export default function LandingPage() {
             </p>
             
             <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
-              Chidi works in one of those companies on the Island. You know the type - air-conditioned office, fancy title on his business card, and a salary that sounds impressive until you realize it barely covers rent, feeding, and that generator fuel that keeps disappearing.
+              Chidi works in one of those companies on the Island. You know the type. Air-conditioned office, fancy title on his business card, and a salary that sounds impressive until you realize it barely covers rent, feeding, and that generator fuel that keeps disappearing.
             </p>
 
             <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
