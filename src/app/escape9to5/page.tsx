@@ -7,8 +7,8 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="px-8 py-20 text-center">
-        <h1 className="font-montserrat font-black text-3xl leading-[1.1] text-[#333333] mb-8">
+      <section className="px-8 py-20 ">
+        <h1 className="font-montserrat text-center font-black text-3xl leading-[1.1] text-[#333333] mb-8">
           How To Start A Small Business That Prints Money Like A Lagos ATM On Salary Day (Even If You&apos;re Dead Broke And Still Working That Soul-Crushing 9-to-5)
         </h1>
         
