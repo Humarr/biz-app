@@ -508,6 +508,9 @@ export default function LandingPage() {
       {/* Urgency Section */}
       <section className="px-8 py-20 bg-white">
         <div className="max-w-4xl mx-auto text-center">
+            <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
+            But here&apos;s the thing...
+            </p>
           <h2 className="font-montserrat font-black text-[48px] leading-[1.2] text-[#333333] mb-12">
             This Price Won&apos;t Last
           </h2>
@@ -592,6 +595,9 @@ export default function LandingPage() {
               height={400}
             />
           </div>
+            <p className="font-merriweather text-xl leading-[1.6] text-[#333333] text-center italic">
+            You could literally read the entire book, use the strategies to make money, and STILL ask for a refund.
+            </p>
             <p className="font-merriweather text-xl leading-[1.6] text-[#333333] text-center italic">
               (Please don&apos;t be that person, but technically you could.)
             </p>
