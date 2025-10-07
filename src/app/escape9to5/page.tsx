@@ -741,7 +741,7 @@ export default function LandingPage() {
             <Link 
               href="https://selar.com/small-biz"
             >
-            <button className="bg-[#E10600] text-white font-montserrat font-black text-xl px-16 py-6 rounded-none hover:bg-[#C10500] transition-colors animate-pulse">
+            <button className="bg-[#E10600] text-white font-montserrat font-black text-xl px-16 py-6 rounded-none hover:bg-[#C10500] transition-colors animate-spin">
               Click Now to Order
             </button>
             </Link>
