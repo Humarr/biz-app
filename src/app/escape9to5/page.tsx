@@ -23,6 +23,9 @@ export default function LandingPage() {
               href="https://selar.com/small-biz"
             >Here</Link> to Order
         </p>
+        <p className="font-merriweather text-lg italic leading-[1.6] text-[#333333] mb-8 text-left">
+         Learn How to Start Your Own profitable Business!
+        </p>
         
         <div className="max-w-4xl mx-auto">
           <p className="font-merriweather text-xl leading-[1.6] text-[#333333] mb-8 text-left">
