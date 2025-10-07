@@ -217,7 +217,7 @@ export default function LandingPage() {
       {/* Book Introduction */}
       <section className="px-8 py-20 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-montserrat font-black text-[48px] leading-[1.2] text-[#333333] text-center mb-12">
+          <h2 className="font-montserrat font-black text-2xl leading-[1.2] text-[#333333] text-center mb-12">
             Let Me Introduce You To Something That Could Make You A Very Wealthy Person
           </h2>
           
