@@ -9,8 +9,14 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="px-8 py-20 ">
         <h1 className="font-montserrat text-center font-black text-3xl leading-[1.1] text-[#333333] mb-8">
-          How To Start A Small Business That Prints Money Like A Lagos ATM On Salary Day (Even If You&apos;re Dead Broke And Still Working That Soul-Crushing 9-to-5)
+          How To Start A Small Business That Prints Money Like A Lagos ATM On Salary Day 
+          
         </h1>
+        
+        <h2 className="font-montserrat text-center font-black text-xl leading-[1.1] text-[#333333] mb-8">
+         
+          (Even If You&apos;re Dead Broke And Still Working That Soul-Crushing 9-to-5)
+        </h2>
         
         <div className="max-w-4xl mx-auto">
           <p className="font-merriweather text-xl leading-[1.6] text-[#333333] mb-8 text-left">
