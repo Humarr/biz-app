@@ -341,7 +341,7 @@ export default function LandingPage() {
             </p>
 
             <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
-              He&apos;s an engineer who got tired of the BS and figured out what actually works in the real world, with real people, in Nigeria, today.
+              He&apos;s a mechatronics engineer who got tired of the BS and figured out what actually works in the real world, with real people, in Nigeria, today.
             </p>
 
             <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
