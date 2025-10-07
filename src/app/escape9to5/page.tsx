@@ -755,6 +755,9 @@ export default function LandingPage() {
             <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
               To your success (and I mean that),
             </p>
+            <p className="font-merriweather mt-4 font-bold text-xl leading-[1.6] text-[#333333]">
+              Umar
+            </p>
           </div>
         </div>
       </section>
