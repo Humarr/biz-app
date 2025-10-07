@@ -17,6 +17,12 @@ export default function LandingPage() {
          
           (Even If You&apos;re Dead Broke And Still Working That Soul-Crushing 9-to-5)
         </h2>
+
+        <p className="font-merriweather text-lg italic leading-[1.6] text-[#333333] mb-8 text-left">
+          Click   <Link className='font-bold underline text-red-600'
+              href="https://selar.com/small-biz"
+            >Here</Link> to Order
+        </p>
         
         <div className="max-w-4xl mx-auto">
           <p className="font-merriweather text-xl leading-[1.6] text-[#333333] mb-8 text-left">
