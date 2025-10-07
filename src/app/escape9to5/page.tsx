@@ -386,7 +386,7 @@ export default function LandingPage() {
                   BONUS #2: The 6 Products Nigerians Will ALWAYS Buy
                 </h3>
                 <p className="font-merriweather text-[20px] leading-[1.6] text-[#333333]">
-                  A complete guide to the hottest markets in Nigeria where demand never stops, customers are desperate, and money flows non-stop. Pick any one of these and you&apos;re practically guaranteed to make money.
+                  A complete guide to the hottest markets in Nigeria where demand never stops, customers are desperate, and money flows non-stop like tap water. Pick any one of these and you&apos;re practically guaranteed to make money.
                 </p>
               </div>
 
