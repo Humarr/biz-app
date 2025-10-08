@@ -115,11 +115,11 @@ export default function Home() {
   
             But a real, practical system that shows you:<br /><br />
   
-            - <span className="italic font-bold">How to know WHICH businesses will actually make money (before you waste a single naira)</span><br />
-            - <span className="italic font-bold">How to test your idea to see if people will actually buy (so you never have that nightmare scenario where you invest everything and nobody shows up)</span><br /><br />
-            - <span className="italic font-bold">How to get customers WITHOUT begging your friends and family to &quot;patronize&quot; you</span><br /><br />
-            - <span className="italic font-bold">How to price so you actually make profit (not just stay busy and broke)</span><br /><br />
-            - <span className="italic font-bold">How to make your first sale within weeks (not months or years of &quot;building&quot; with no income)</span><br /><br /><br />
+            - <span className="italic font-bold">How to know WHICH businesses will actually make money </span>(before you waste a single naira)<br />
+            - <span className="italic font-bold">How to test your idea to see if people will actually buy</span> (so you never have that nightmare scenario where you invest everything and nobody shows up)<br /><br />
+            - <span className="italic font-bold">How to get customers</span> WITHOUT begging your friends and family to &quot;patronize&quot; you<br /><br />
+            - <span className="italic font-bold">How to price so you actually make profit</span> (not just stay busy and broke)<br /><br />
+            - <span className="italic font-bold">How to make your first sale within weeks</span> (not months or years of &quot;building&quot; with no income)<br /><br /><br />
   
             Look, I get it.<br /><br />
   
