@@ -23,7 +23,7 @@ export default function Home() {
   
             Yeah. That feeling.<br /><br />
   
-            The one where you smile and nod but inside you&apos;re thinking: *&quot;Why is everyone moving forward except me?&quot;*<br /><br />
+            The one where you smile and nod but inside you&apos;re thinking: <span className="italic font-bold">&quot;Why is everyone moving forward except me?&quot;</span><br /><br />
   
             Let me ask you something, and I want you to be honest (nobody&apos;s watching):<br /><br />
   
