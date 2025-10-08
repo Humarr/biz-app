@@ -47,7 +47,7 @@ export default function Home() {
         </section>
   
         {/* Truth Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl text-center">
             Here&apos;s The Truth Nobody Talks About...
           </h2>
@@ -103,7 +103,7 @@ export default function Home() {
         </section>
   
         {/* Blueprint Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             What If I Told You There&apos;s A Step-By-Step Blueprint For Starting Businesses That Actually Work?
           </h2>
@@ -143,7 +143,7 @@ export default function Home() {
         </section>
   
         {/* What's Inside Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             Here&apos;s What&apos;s Inside:
           </h2>
@@ -224,7 +224,7 @@ export default function Home() {
         </section>
   
         {/* Differentiator Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             But Here&apos;s What Makes This Different From Every Other Business Book...
           </h2>
@@ -254,7 +254,7 @@ export default function Home() {
         </section>
   
         {/* Bonuses Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             And You&apos;re Not Just Getting The Book...
           </h2>
@@ -308,7 +308,7 @@ export default function Home() {
         </section>
   
         {/* Pricing Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             Here&apos;s Your Investment:
           </h2>
@@ -365,7 +365,7 @@ export default function Home() {
         </section>
   
         {/* Price Increase Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             This Price Won&apos;t Last Forever
           </h2>
@@ -393,7 +393,7 @@ export default function Home() {
         </section>
   
         {/* Guarantee Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             Now Let Me Remove Every Ounce Of Risk
           </h2>
@@ -425,7 +425,7 @@ export default function Home() {
         </section>
   
         {/* CTA Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             Here&apos;s What Happens When You Order Right Now:
           </h2>
@@ -454,7 +454,7 @@ export default function Home() {
         </section>
   
         {/* Final CTA Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h2 className="font-sans text-4xl font-black lg:text-6xl">
             Let Me Ask You Something...
           </h2>
