@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function Home() {
     return (
       <main className="min-h-screen bg-white">
-         <p className="font-merriweather text-lg italic leading-[1.6] text-[#333333] mb-4 text-left">
+         <p className="font-merriweather text-lg italic leading-[1.6] text-[#333333] pt-10 mb-4 text-left">
           Click   <Link className='font-bold underline text-red-600'
               href="https://selar.com/small-biz"
             >Here</Link> to Start My Profitable Business!
         </p>
         {/* Hero Section */}
-        <section className="px-8 py-40 lg:px-32">
+        <section className="px-8 py-20 lg:px-32">
           <h1 className="font-sans text-5xl font-black text-center leading-tight lg:text-7xl">
             Build A Business You Can Actually Be PROUD Of... Instead Of Another &quot;Side Hustle&quot; That Dies In 3 Months
           </h1>
