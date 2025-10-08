@@ -11,7 +11,8 @@ export default function Home() {
         {/* Hero Section */}
         <section className="px-8 py-20 lg:px-32">
           <h1 className="font-lato text-5xl font-black text-center leading-tight lg:text-7xl">
-            Build A Business You Can Actually Be PROUD Of... Instead Of Another &quot;Side Hustle&quot; That Dies In 3 Months
+            Build A Business That Gives You The <span className="font-bold underline text-red-600">Income</span> You Can Actually Be PROUD Of... 
+            {/* Instead Of Another &quot;Side Hustle&quot; That Dies In 3 Months */}
           </h1>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
             You know that feeling you get when someone asks &quot;So, what do you do?&quot;<br /><br />
