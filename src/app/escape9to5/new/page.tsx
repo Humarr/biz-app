@@ -48,7 +48,7 @@ export default function Home() {
   
         {/* Truth Section */}
         <section className="px-8 py-40 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-sans text-4xl font-black lg:text-6xl text-center">
             Here&apos;s The Truth Nobody Talks About...
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
