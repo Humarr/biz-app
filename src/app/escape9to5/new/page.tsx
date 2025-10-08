@@ -115,7 +115,7 @@ export default function Home() {
   
             But a real, practical system that shows you:<br /><br />
   
-            - <span className="italic font-bold">How to know WHICH businesses will actually make money </span>(before you waste a single naira)<br />
+            - <span className="italic font-bold">How to know WHICH businesses will actually make money </span>(before you waste a single naira)<br /><br />
             - <span className="italic font-bold">How to test your idea to see if people will actually buy</span> (so you never have that nightmare scenario where you invest everything and nobody shows up)<br /><br />
             - <span className="italic font-bold">How to get customers</span> WITHOUT begging your friends and family to &quot;patronize&quot; you<br /><br />
             - <span className="italic font-bold">How to price so you actually make profit</span> (not just stay busy and broke)<br /><br />
