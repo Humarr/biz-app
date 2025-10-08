@@ -469,7 +469,7 @@ export default function Home() {
           <div className="mt-20">
             <Link 
               href="https://selar.com/small-biz"
-              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700"
+              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700 animate-ping"
             >
               YES! I Want to Start My Own Business!
             </Link>
@@ -525,12 +525,12 @@ export default function Home() {
           <div className="mt-20">
             <Link 
               href="https://selar.com/small-biz"
-              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700"
+              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700 animate-spin"
             >
               Click Now to Order
            
             </Link>
-            <p className="font-merriweather text-xl leading-[1.6] text-[#333333]">
+            <p className="font-lato text-xl text-center text-gray-800">
               You&apos;ll Get Your Copy of the Small Business Playbook Instantly After Payment!
             </p>
           </div>
