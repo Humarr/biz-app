@@ -554,7 +554,7 @@ export default function Home() {
           <div className="mt-12">
             <Link 
               href="https://selar.com/small-biz"
-              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700"
+              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700 animate-bounce"
             >
               Click For My Copy of The Small Business Playbook
             </Link>
