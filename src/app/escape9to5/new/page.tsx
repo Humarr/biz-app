@@ -315,13 +315,13 @@ export default function Home() {
           </h2>
           
           <h3 className="mt-12 font-lato text-5xl font-black text-red-600 lg:text-7xl">
-            Just ₦7,999.
+            Just ₦3999.
           </h3>
   
           <p className="mt-8 text-2xl leading-relaxed text-gray-800">
             That&apos;s it.<br /><br />
   
-            ₦7,999 for everything.<br /><br />
+            ₦3999 for everything.<br /><br />
   
             Now, I know what some people think when they see a price that low:<br /><br />
   
@@ -345,7 +345,7 @@ export default function Home() {
   
             I want you to actually read this. Actually use it. Actually build something.<br /><br />
   
-            So the price is ₦7,999.<br /><br />
+            So the price is ₦3999.<br /><br />
   
             That&apos;s less than:<br />
             - A weekend of eating out<br />
@@ -359,7 +359,7 @@ export default function Home() {
   
             <strong>Information that could completely change your financial future.</strong><br /><br />
   
-            Still ₦7,999.<br /><br />
+            Still ₦3999.<br /><br />
   
             But there&apos;s something you need to know...
           </p>
@@ -373,7 +373,7 @@ export default function Home() {
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
             Every time 50 people order this book, the price goes up by ₦2,000.<br /><br />
   
-            Right now: ₦7,999<br /><br />
+            Right now: ₦3999<br /><br />
   
             Next week: Probably ₦9,999<br /><br />
   
@@ -433,7 +433,7 @@ export default function Home() {
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
             1. Click the button below<br />
             2. Secure payment page loads<br />
-            3. Pay ₦7,999<br />
+            3. Pay ₦3999<br />
             4. Instant access to the complete book (PDF - read on any device)<br />
             5. Instant access to all 4 bonuses<br />
             6. Start reading TODAY<br /><br />
@@ -484,7 +484,7 @@ export default function Home() {
   
             But others - people just like you - will make a different choice.<br /><br />
   
-            They&apos;ll invest ₦7,999 in themselves.<br /><br />
+            They&apos;ll invest ₦3999 in themselves.<br /><br />
   
             They&apos;ll read this book.<br /><br />
   
@@ -514,15 +514,15 @@ export default function Home() {
           </div>
   
           <p className="mt-8 text-center text-2xl font-black text-gray-800">
-            Only ₦7,999 Today
+            Only ₦3999 Today
           </p>
   
           {/* P.S. Section */}
           <div className="mt-20 border-t border-gray-300 pt-20">
             <p className="text-2xl leading-relaxed text-gray-800">
-              <strong>P.S.</strong> - I want to tell you something important. That feeling you get when your classmate talks about their business and you feel... small? That doesn&apos;t have to be your reality forever. This book shows you exactly how to build something you can actually be proud of. Not in theory. In practice. ₦7,999 to finally stop feeling left behind. Is that worth it?<br /><br />
+              <strong>P.S.</strong> - I want to tell you something important. That feeling you get when your classmate talks about their business and you feel... small? That doesn&apos;t have to be your reality forever. This book shows you exactly how to build something you can actually be proud of. Not in theory. In practice. ₦3999 to finally stop feeling left behind. Is that worth it?<br /><br />
   
-              <strong>P.P.S.</strong> - Remember, the price goes up every 50 orders. We&apos;re at 46 right now. By the time you &quot;come back later,&quot; it could be ₦9,999 or more. Get it now while it&apos;s still ₦7,999.<br /><br />
+              <strong>P.P.S.</strong> - Remember, the price goes up every 50 orders. We&apos;re at 46 right now. By the time you &quot;come back later,&quot; it could be ₦9,999 or more. Get it now while it&apos;s still ₦3999.<br /><br />
   
               <strong>P.P.P.S.</strong> - That guarantee is real. Zero risk. If you read it and don&apos;t find it valuable, you get every kobo back. The only way you lose is if you don&apos;t try. Six months from now, do you want to look back and wish you&apos;d taken action today? Or do you want to look back and feel proud of what you built?
             </p>
@@ -539,7 +539,7 @@ export default function Home() {
           </div>
   
           <p className="mt-8 text-center text-2xl font-black text-gray-800">
-            ₦7,999 - Price Increases Very Soon
+            ₦3999 - Price Increases Very Soon
           </p>
         </section>
       </main>
