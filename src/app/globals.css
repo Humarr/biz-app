@@ -22,6 +22,8 @@
   --font-bowlby: var(--font-bowlby);
   --font-merriweather: var(--font-merriweather);
   --font-montserrat: var(--font-montserrat);
+  --font-bebas-neue: var(--font-bebas-neue);
+  --font-pt_serif: var(--font-pt_serif);
 }
 
 /* ====== Theme Definition ====== */
@@ -42,6 +44,8 @@
   --font-bowlby: var(--font-bowlby);
   --font-merriweather: var(--font-merriweather);
   --font-montserrat: var(--font-montserrat);
+  --font-bebas-neue: var(--font-bebas-neue);
+  --font-pt_serif: var(--font-pt_serif);
 }
 
 /* ====== Dark Mode ====== */
@@ -63,7 +67,8 @@ html {
 body {
   background-color: var(--background);
   color: var(--primary);
-  font-family: var(--font-lato);
+  /* font-family: var(--font-lato); */
+  font-family: var(--font-pt_serif);
   line-height: 1.7;
 }
 
@@ -71,12 +76,15 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-montserrat);
+  font-family: var(--font-bebas-neue);
+  /* font-family: var(--font-montserrat); */
   /* font-family: var(--font-heading2); */
   /* color: var(--primary); */
    font-weight: bold;
   /* text-transform: uppercase;  */
 }
+
+ 
 
 /* h1 {
   font-size: 3rem;

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato, Montserrat, Merriweather } from 'next/font/google'
+import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato, Montserrat, Merriweather, Bebas_Neue, PT_Serif } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
@@ -54,6 +54,20 @@ const montserrat = Montserrat({
   weight: ['400', '700'],
   // We'll use weights 400 (regular) and 900 (black)
 });
+const bebas_neue = Bebas_Neue({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bebas-neue',
+  weight: [ '400'],
+  // We'll use weights 400 (regular) and 900 (black)
+});
+const pt_serif = PT_Serif({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-pt_serif',
+  weight: [ '400'],
+  // We'll use weights 400 (regular) and 900 (black)
+});
 
 const merriweather = Merriweather({
   weight: ['400', '700'],
@@ -82,6 +96,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} 
    ${bowlby.variable} ${lato.variable} 
    ${merriweather.variable} ${montserrat.variable} 
+   ${bebas_neue.variable} ${pt_serif.variable} 
     
     `}>
       <body className="antialiased">
