@@ -53,8 +53,8 @@ export default function Home() {
             Here&apos;s The Truth Nobody Talks About...
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
-            Starting a business isn&apos;t scary. It only feels like scary because you don&apos;t know &quot;how to do it.&quot;<br /><br />
-  
+            Starting a business isn&apos;t scary because you don&apos;t know &quot;how to do it.&quot;<br /><br />
+            {/* Starting a business isn&apos;t scary. It only feels like scary because you don&apos;t know &quot;how to do it.&quot;<br /><br /> */}
             You&apos;re smart. You can figure out logistics.<br /><br />
   
             What&apos;s really scary is this:<br /><br />
