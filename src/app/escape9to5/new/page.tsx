@@ -361,9 +361,9 @@ export default function Home() {
             So the price is ₦3999.<br /><br />
   
             That&apos;s less than:<br />
+            - What you spend on data in a week<br />
             - A weekend of eating out<br />
-            - Two tanks of fuel<br />
-            - One pair of shoes you&apos;ll wear for 6 months<br />
+            - Two litres of fuel<br />
             - That phone accessory you&apos;re eyeing<br /><br />
   
             But unlike all those things, this won&apos;t be gone in a few weeks.<br /><br />
