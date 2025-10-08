@@ -63,7 +63,7 @@ html {
 body {
   background-color: var(--background);
   color: var(--primary);
-  font-family: var(--font-merriweather);
+  font-family: var(--font-lato);
   line-height: 1.7;
 }
 

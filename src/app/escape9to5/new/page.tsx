@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function Home() {
     return (
       <main className="min-h-screen bg-white">
-         <p className="font-merriweather text-lg italic leading-[1.6] text-[#333333] pt-10 mb-4 text-left">
+         <p className="font-lato text-lg italic leading-[1.6] text-[#333333] pt-10 mb-4 text-left">
           Click   <Link className='font-bold underline text-red-600'
               href="https://selar.com/small-biz"
             >Here</Link> to Start My Profitable Business!
         </p>
         {/* Hero Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h1 className="font-sans text-5xl font-black text-center leading-tight lg:text-7xl">
+          <h1 className="font-lato text-5xl font-black text-center leading-tight lg:text-7xl">
             Build A Business You Can Actually Be PROUD Of... Instead Of Another &quot;Side Hustle&quot; That Dies In 3 Months
           </h1>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -48,7 +48,7 @@ export default function Home() {
   
         {/* Truth Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl text-center">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl text-center">
             Here&apos;s The Truth Nobody Talks About...
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -104,7 +104,7 @@ export default function Home() {
   
         {/* Blueprint Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             What If I Told You There&apos;s A Step-By-Step Blueprint For Starting Businesses That Actually Work?
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -144,7 +144,7 @@ export default function Home() {
   
         {/* What's Inside Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             Here&apos;s What&apos;s Inside:
           </h2>
           
@@ -225,7 +225,7 @@ export default function Home() {
   
         {/* Differentiator Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             But Here&apos;s What Makes This Different From Every Other Business Book...
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -255,7 +255,7 @@ export default function Home() {
   
         {/* Bonuses Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             And You&apos;re Not Just Getting The Book...
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -264,7 +264,7 @@ export default function Home() {
   
           <div className="mt-12 space-y-16">
             <div>
-              <h3 className="font-sans text-3xl font-black text-red-600 lg:text-4xl">
+              <h3 className="font-lato text-3xl font-black text-red-600 lg:text-4xl">
                 BONUS #1: The Direct Response Ad Templates Toolkit
               </h3>
               <p className="mt-4 text-2xl leading-relaxed text-gray-800">
@@ -273,7 +273,7 @@ export default function Home() {
             </div>
   
             <div>
-              <h3 className="font-sans text-3xl font-black text-red-600 lg:text-4xl">
+              <h3 className="font-lato text-3xl font-black text-red-600 lg:text-4xl">
                 BONUS #2: The 6 Products Nigerians Will ALWAYS Buy
               </h3>
               <p className="mt-4 text-2xl leading-relaxed text-gray-800">
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
   
             <div>
-              <h3 className="font-sans text-3xl font-black text-red-600 lg:text-4xl">
+              <h3 className="font-lato text-3xl font-black text-red-600 lg:text-4xl">
                 BONUS #3: The Profit Calculator
               </h3>
               <p className="mt-4 text-2xl leading-relaxed text-gray-800">
@@ -291,7 +291,7 @@ export default function Home() {
             </div>
   
             <div>
-              <h3 className="font-sans text-3xl font-black text-red-600 lg:text-4xl">
+              <h3 className="font-lato text-3xl font-black text-red-600 lg:text-4xl">
                 BONUS #4: Real Nigerian Case Studies
               </h3>
               <p className="mt-4 text-2xl leading-relaxed text-gray-800">
@@ -309,11 +309,11 @@ export default function Home() {
   
         {/* Pricing Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             Here&apos;s Your Investment:
           </h2>
           
-          <h3 className="mt-12 font-sans text-5xl font-black text-red-600 lg:text-7xl">
+          <h3 className="mt-12 font-lato text-5xl font-black text-red-600 lg:text-7xl">
             Just ₦7,999.
           </h3>
   
@@ -366,7 +366,7 @@ export default function Home() {
   
         {/* Price Increase Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             This Price Won&apos;t Last Forever
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -394,7 +394,7 @@ export default function Home() {
   
         {/* Guarantee Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             Now Let Me Remove Every Ounce Of Risk
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -426,7 +426,7 @@ export default function Home() {
   
         {/* CTA Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             Here&apos;s What Happens When You Order Right Now:
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -446,7 +446,7 @@ export default function Home() {
           <div className="mt-20">
             <Link 
               href="https://selar.com/small-biz"
-              className="inline-block bg-red-600 px-16 py-6 text-center font-sans text-2xl font-black text-white transition-colors hover:bg-red-700"
+              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700"
             >
               YES! I Want to Start My Own Business!
             </Link>
@@ -455,7 +455,7 @@ export default function Home() {
   
         {/* Final CTA Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-sans text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-4xl font-black lg:text-6xl">
             Let Me Ask You Something...
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -502,7 +502,7 @@ export default function Home() {
           <div className="mt-20">
             <Link 
               href="https://selar.com/small-biz"
-              className="inline-block bg-red-600 px-16 py-6 text-center font-sans text-2xl font-black text-white transition-colors hover:bg-red-700"
+              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700"
             >
               Click Now to Order
            
@@ -531,7 +531,7 @@ export default function Home() {
           <div className="mt-12">
             <Link 
               href="https://selar.com/small-biz"
-              className="inline-block bg-red-600 px-16 py-6 text-center font-sans text-2xl font-black text-white transition-colors hover:bg-red-700"
+              className="inline-block bg-red-600 px-16 py-6 text-center font-lato text-2xl font-black text-white transition-colors hover:bg-red-700"
             >
               Click For My Copy of The Small Business Playbook
             </Link>
