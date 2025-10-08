@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from 'next/image'
 export default function Home() {
     return (
       <main className="min-h-screen bg-white">
@@ -142,6 +142,19 @@ export default function Home() {
             <strong>&quot;The Small Business Playbook: How Anyone Can Start, Build and Grow Extremely Profitable Businesses&quot;</strong>
           </p>
         </section>
+
+        
+                             {/* 3D Book Mockup */}
+                <div className="flex justify-center mt-16">
+                  <Image 
+                      src="/tsbp/cover.png"
+                        // alt="The small business playbook book cover"
+                    alt="The Small Business Playbook 3D Mockup"
+                    width={400}
+                    height={500}
+                    className="shadow-2xl"
+                  />
+                </div>
   
         {/* What's Inside Section */}
         <section className="px-8 py-20 lg:px-32">
@@ -410,6 +423,15 @@ export default function Home() {
             <strong>If you&apos;re not convinced this is the most practical business guide you&apos;ve ever read...</strong><br /><br />
   
             <strong>Just message me with proof you actually read it, and I&apos;ll refund every single kobo.</strong><br /><br />
+
+            <div className="flex justify-center mb-8">
+            <Image 
+              src="/guarantee-seal.png" 
+              alt="100% Money-Back Guarantee"
+              width={400}
+              height={400}
+            />
+          </div>
   
             No questions. No forms. No hassle.<br /><br />
   
