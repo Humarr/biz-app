@@ -10,7 +10,7 @@ export default function Home() {
         </p>
         {/* Hero Section */}
         <section className="px-8 py-40 lg:px-32">
-          <h1 className="font-sans text-5xl font-black leading-tight lg:text-7xl">
+          <h1 className="font-sans text-5xl font-black text-center leading-tight lg:text-7xl">
             Build A Business You Can Actually Be PROUD Of... Instead Of Another &quot;Side Hustle&quot; That Dies In 3 Months
           </h1>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
