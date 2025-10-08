@@ -105,7 +105,7 @@ export default function Home() {
   
         {/* Blueprint Section */}
         <section className="px-8 py-20 lg:px-32">
-          <h2 className="font-lato text-4xl font-black lg:text-6xl">
+          <h2 className="font-lato text-3xl font-black lg:text-5xl text-center">
             What If I Told You There&apos;s A Step-By-Step Blueprint For Starting Businesses That Actually Work?
           </h2>
           <p className="mt-12 text-2xl leading-relaxed text-gray-800">
