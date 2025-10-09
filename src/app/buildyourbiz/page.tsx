@@ -1,11 +1,12 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white font-lato">
+    <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="px-8 py-40 lg:px-32">
-        <h1 className=" text-5xl font-bold tracking-tight lg:text-7xl text-center">
+      <section className="px-6 py-16 lg:px-32">
+        <h1 className=" text-5xl font-extrabold lg:text-7xl text-center">
           I Made <span className='text-red-600 underline'>N27,495</span> (From 11 Sales) in My First 24 Hours Using This Book... And I&apos;m Still a Complete Beginner! 😲
         </h1>
 
@@ -37,7 +38,7 @@ export default function Home() {
       </section>
 
       {/* What Happened Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Here&apos;s What Happened...
         </h2>
@@ -75,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* Why Am I Telling You This Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Why Am I Telling You This?
         </h2>
@@ -104,7 +105,7 @@ export default function Home() {
       </section>
 
       {/* What's Inside Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Let Me Show You Exactly What&apos;s Inside (And Why It&apos;s So Easy to Use)
         </h2>
@@ -257,7 +258,7 @@ export default function Home() {
       </section>
 
       {/* Made For Beginners Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           This Book Is Made For BEGINNERS (Like Me!)
         </h2>
@@ -288,7 +289,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Now Here&apos;s Where It Gets Even Better...
         </h2>
@@ -314,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* Free Gifts Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           PLUS, You Get These 2 FREE GIFTS (Only for the Next 48 Hours):
         </h2>
@@ -363,7 +364,7 @@ export default function Home() {
       </section>
 
       {/* Guarantee Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Here&apos;s My Personal Guarantee to You...
         </h2>
@@ -410,7 +411,7 @@ export default function Home() {
       </section>
 
       {/* CTA Steps Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           So Here&apos;s What You Need to Do Right Now:
         </h2>
@@ -439,12 +440,12 @@ export default function Home() {
 
         {/* Main CTA Button */}
         <div className="mt-20">
-          <a 
+          <Link 
             href="https://selar.com/small-biz"
             className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
             CLICK HERE TO GET INSTANT ACCESS
-          </a>
+          </Link>
         </div>
 
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -458,7 +459,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="px-8 py-40 lg:px-32">
+      <section className="px-6 py-16 lg:px-32">
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Let Me Ask You Something...
         </h2>
@@ -492,12 +493,12 @@ export default function Home() {
 
         {/* Final CTA Button */}
         <div className="mt-20">
-          <a 
+          <Link 
             href="https://selar.com/small-biz"
             className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
             GET INSTANT ACCESS NOW
-          </a>
+          </Link>
         </div>
 
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -519,12 +520,12 @@ export default function Home() {
 
         {/* Final CTA Button */}
         <div className="mt-20">
-          <a 
+          <Link
             href="https://selar.com/small-biz"
             className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
             STOP OVERTHINKING. START BUILDING
-          </a>
+          </Link>
         </div>
       </section>
     </main>
