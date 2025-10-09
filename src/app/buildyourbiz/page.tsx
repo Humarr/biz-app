@@ -380,7 +380,7 @@ export default function Home() {
           <strong>If I can do it, YOU can definitely do it.</strong>
         </p>
 
-        {/* <div className="mt-20">
+        <div className="mt-20">
           <div className="relative h-96 w-full bg-gray-100">
        
             <Image
@@ -391,21 +391,7 @@ export default function Home() {
             />
           </div>
           <p className="mt-4 text-center text-lg text-gray-600">Your bank account when you start implementing the strategies in the book!</p>
-        </div> */}
-
-<div className="mt-20 text-center px-4">
-  <div className="relative w-full max-w-2xl mx-auto bg-gray-100 rounded-2xl overflow-hidden shadow-lg">
-    <img
-      src="/tsbp/money-printer.gif"
-      alt="Money printer"
-      className="w-full h-auto object-contain"
-    />
-  </div>
-  <p className="mt-4 text-lg text-gray-600">
-    Your bank account when you start implementing the strategies in the book! 💸
-  </p>
-</div>
-
+        </div>
       </section>
 
       {/* Pricing Section */}
