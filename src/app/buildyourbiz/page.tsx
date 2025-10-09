@@ -24,8 +24,8 @@ export default function Home() {
     </h1>
 
     <p className="mt-6 text-lg sm:text-xl text-gray-700 leading-relaxed">
-      Learn the <span className="font-semibold">exact step-by-step system</span> I used — 
-      no experience, no loans, no mistakes.  
+      Learn the <span className="font-semibold">exact step-by-step system</span> I used WITHOUT
+    taking crazy risks! <br/><br/>
       If you can follow simple instructions, you can do this too.
     </p>
 
