@@ -615,7 +615,7 @@ export default function Home() {
             href="https://selar.com/small-biz"
             className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
-            GET INSTANT ACCESS NOW
+            I WANT INSTANT ACCESS NOW
           </Link>
         </div>
 
@@ -642,7 +642,7 @@ export default function Home() {
             href="https://selar.com/small-biz"
             className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
-            STOP OVERTHINKING. START BUILDING
+            START BUILDING MY BUSINESS!
           </Link>
         </div>
       </section>
