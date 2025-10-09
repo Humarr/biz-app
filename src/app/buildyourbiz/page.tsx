@@ -172,12 +172,15 @@ export default function Home() {
 
           You&apos;re tired of watching others succeed while you&apos;re &quot;planning&quot; and &quot;thinking about it.&quot;<br /><br />
 
-          You want to start a business but you&apos;re paralyzed because:<br />
+         <span className='font-bold'> You want to start a business but you&apos;re paralyzed because:</span><br /><br />
+         <div className='space-y-4'>
+
           - You don&apos;t know WHICH business to start<br />
           - You&apos;re scared of wasting money on the wrong idea<br />
           - You don&apos;t know how to get customers<br />
           - You don&apos;t know how to advertise<br />
           - You&apos;re afraid of looking like a failure if it doesn&apos;t work<br /><br />
+         </div>
 
           <strong>I had ALL of those same fears.</strong><br /><br />
 
@@ -298,11 +301,14 @@ export default function Home() {
               This is not theory. These are the actual rules that make ads bring sales.<br /><br />
 
               Things like:<br />
+              <div className='space-y-4'>
+
               - How to grab attention (if they don&apos;t stop scrolling, your ad is dead)<br />
               - How to make an irresistible offer (not just &quot;here&apos;s my product, buy it&quot;)<br />
               - How to create urgency (so they buy NOW, not &quot;later&quot;)<br />
               - How to build trust fast (especially when you&apos;re new)<br />
               - How to remove all risk (this one tripled my conversion rate)<br /><br />
+              </div>
 
               I follow these 8 laws in every ad I write now. And every ad brings results.
             </p>
@@ -325,12 +331,15 @@ export default function Home() {
         <p className="mt-20 text-2xl leading-relaxed text-gray-800">
           <strong>And there&apos;s SO MUCH MORE inside...</strong><br /><br />
 
-          - How to turn customers into free salespeople (they promote you without you paying them)<br />
-          - The 4 psychological triggers that make people buy immediately<br />
-          - How to validate your idea before spending money (this saved me ₦50k+)<br />
-          - The guarantee structure that removes all buying hesitation<br />
-          - How to track which ads work (so you stop wasting money)<br />
+          - How to turn customers into free salespeople (they promote you without you paying them)<br /><br />
+          <div className='space-y-4'>
+
+          - The 4 psychological triggers that make people buy immediately<br /><br />
+          - How to validate your idea before spending money (this saved me ₦50k+)<br /><br />
+          - The guarantee structure that removes all buying hesitation<br /><br />
+          - How to track which ads work (so you stop wasting money)<br /><br />
           - How to start with little or no capital (real examples)<br /><br />
+          </div>
 
           Look, I could go on and on. The book is PACKED with practical stuff.<br /><br />
 
@@ -351,11 +360,14 @@ export default function Home() {
           You don&apos;t need connections.<br /><br />
 
           You just need to:<br />
+          <div className='space-y-4'>
+            
           1. Pick one of the 6 hot markets<br />
           2. Use the framework to validate it&apos;s good<br />
           3. Copy a template to create your ad<br />
           4. Follow the pricing guidance<br />
           5. Launch<br /><br />
+          </div>
 
           That&apos;s literally it.<br /><br />
 
@@ -367,6 +379,19 @@ export default function Home() {
 
           <strong>If I can do it, YOU can definitely do it.</strong>
         </p>
+
+        <div className="mt-20">
+          <div className="relative h-96 w-full bg-gray-100">
+       
+            <Image
+              src="/tsbp/money-printer.gif" // Replace with your image path
+              alt="money printer"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <p className="mt-4 text-center text-lg text-gray-600">Your bank account when you start implementing the strategies in the book!</p>
+        </div>
       </section>
 
       {/* Pricing Section */}
@@ -410,10 +435,13 @@ export default function Home() {
               This is the guide I used to pick my business in 10 minutes.<br /><br />
 
               It shows you the 6 hottest markets in Nigeria where:<br />
+              <div className='space-y-4'>
+
               - Demand never stops<br />
               - Customers are desperate<br />
               - Money flows non-stop<br />
               - Competition is weak (because most people don&apos;t know about these markets)<br /><br />
+              </div>
 
               Just pick one and you&apos;re already 10 steps ahead of people trying to &quot;figure out&quot; what to sell.
             </p>
@@ -427,10 +455,13 @@ export default function Home() {
               This is what I used to write my ad in 10 minutes.<br /><br />
 
               Ready-to-use templates for:<br />
+              <div className='space-y-4'>
+
               - Headlines that grab attention<br />
               - Openings that hook readers<br />
               - Offers that make people say &quot;I need this NOW&quot;<br />
               - Calls-to-action that get people to buy<br /><br />
+              </div>
 
               Just plug in your details and you&apos;re done. No &quot;learning copywriting.&quot; No guessing. Just copy, paste, adjust, post.
             </p>
@@ -496,15 +527,18 @@ export default function Home() {
         <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           So Here&apos;s What You Need to Do Right Now:
         </h2>
-        <p className="mt-12 text-2xl leading-relaxed text-gray-800">
+        <p className="mt-12 text-2xl leading-relaxed text-gray-800 space-y-4">
           <strong>STEP 1:</strong> Click the link below<br /><br />
 
           <strong>STEP 2:</strong> Complete the payment (₦4,999 - not ₦14,999)<br /><br />
 
           <strong>STEP 3:</strong> Get instant access to:<br />
+          <div className='space-y-4'>
+
           - The complete Small Business Playbook<br />
           - FREE GIFT #1: The 6 Products Nigerians Always Buy<br />
           - FREE GIFT #2: The Advertisement Templates Toolkit<br /><br />
+          </div>
 
           <strong>STEP 4:</strong> Pick your market (takes 10 minutes)<br /><br />
 
@@ -531,11 +565,14 @@ export default function Home() {
 
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
           Remember:<br />
+          <div className='space-y-4'>
+
           - ₦4,999 today (₦10,000 OFF)<br />
           - Price goes back to ₦14,999 in 48 hours<br />
           - 2 FREE gifts included (only for 48 hours)<br />
           - 90-Day Money-Back Guarantee<br />
           - Zero risk, all reward
+          </div>
         </p>
       </section>
 
