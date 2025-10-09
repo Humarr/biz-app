@@ -6,13 +6,64 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="px-6 py-16 lg:px-32">
-        <h1 className=" text-5xl font-extrabold lg:text-7xl text-center">
+        {/* <h1 className=" text-5xl font-extrabold lg:text-7xl text-center">
           I Made <span className='text-red-600 underline'>N27,495</span> (From 11 Sales) in My First 24 Hours Using This Book... And I&apos;m Still a Complete Beginner! 😲
-        </h1>
+        </h1> */}
 
-        <div className="mt-20">
-          <div className="relative h-96 w-full bg-gray-100">
+
+<section className="max-w-6xl mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+  {/* TEXT SECTION */}
+  <div className="flex-1 text-center md:text-left">
+    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight sm:leading-snug tracking-tight">
+      I Made <span className="text-red-600 underline">N27,495</span> 
+      <span className="block sm:inline"> (From 11 Sales)</span> 
+      <br className="sm:hidden" />
+      in My First 24 Hours Using This Book...
+      <br />
+      <span className="text-black/90">And I&apos;m Still a Complete Beginner! 😲</span>
+    </h1>
+
+    <p className="mt-6 text-lg sm:text-xl text-gray-700 leading-relaxed">
+      Learn the <span className="font-semibold">exact step-by-step system</span> I used — 
+      no experience, no loans, no mistakes.  
+      If you can follow simple instructions, you can do this too.
+    </p>
+
+    <div className="mt-10 flex justify-center md:justify-start">
+        <Link 
+            href="https://selar.com/small-biz">
+
+      <button className="bg-gradient-to-r from-red-600 via-pink-500 to-yellow-400 text-white font-bold py-4 px-8 rounded-full shadow-lg hover:scale-105 transition-transform duration-200 animate-pulse">
+        📘 Get The Book Now
+      </button>
+            </Link>
+    
+    </div>
+
+    <p className="mt-4 text-xs text-gray-500 text-center md:text-left">
+      Instant download. No waiting, no fluff — just results.
+    </p>
+  </div>
+
+  {/* IMAGE SECTION */}
+  <div className="flex-1 flex justify-center md:justify-end">
+    <Image
+      src="/tsbp/cover.png" // Replace with your image path
+              alt="Book cover"
+              
+      className="w-64 sm:w-80 md:w-96 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
+    />
+  </div>
+</section>
+
+
+
+
+
+
             {/* 3D mockup of book cover */}
+        {/* <div className="mt-20">
+          <div className="relative h-96 w-full bg-gray-100">
             <Image
               src="/tsbp/cover.png" // Replace with your image path
               alt="Book cover"
@@ -20,7 +71,7 @@ export default function Home() {
               className="object-contain"
             />
           </div>
-        </div>
+        </div> */}
 
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
           Look, I&apos;m not going to lie to you...<br /><br />
