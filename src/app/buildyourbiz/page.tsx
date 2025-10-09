@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white font-lato">
       {/* Hero Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h1 className=" text-5xl font-black tracking-tight lg:text-7xl">
-          I Made 27,495 NAIRA (From 11 Sales) in My First 24 Hours Using This Book... And I&apos;m Still a Complete Beginner! 😲
+        <h1 className=" text-5xl font-black tracking-tight lg:text-7xl text-center">
+          I Made <span className='text-red-600 underline'>N27,495</span> (From 11 Sales) in My First 24 Hours Using This Book... And I&apos;m Still a Complete Beginner! 😲
         </h1>
 
         <div className="mt-20">
