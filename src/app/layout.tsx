@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato, Montserrat, Merriweather, Bebas_Neue, PT_Serif } from 'next/font/google'
+import { Inter, Anton, Patrick_Hand, Poppins, Kalam,Bowlby_One_SC, Lato, Montserrat, Merriweather, Bebas_Neue, PT_Serif, Bitter, Roboto } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
@@ -81,6 +81,21 @@ const kalam = Kalam({
   weight: ['400'],
   variable: '--font-kalam'
 })
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto',
+  weight: ['400', '500', '700', '900'],
+})
+
+const bitter = Bitter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bitter',
+  weight: ['400', '500', '700', '900'],
+})
+
 export const metadata: Metadata = {
   title: '',
   description: '',
@@ -93,7 +108,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} 
+    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} ${roboto.variable} ${bitter.variable}
    ${bowlby.variable} ${lato.variable} 
    ${merriweather.variable} ${montserrat.variable} 
    ${bebas_neue.variable} ${pt_serif.variable} 

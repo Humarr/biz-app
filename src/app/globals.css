@@ -24,6 +24,8 @@
   --font-montserrat: var(--font-montserrat);
   --font-bebas-neue: var(--font-bebas-neue);
   --font-pt_serif: var(--font-pt_serif);
+  --font-roboto: var(--font-roboto);
+  --font-bitter: var(--font-bitter);
 }
 
 /* ====== Theme Definition ====== */
@@ -46,6 +48,8 @@
   --font-montserrat: var(--font-montserrat);
   --font-bebas-neue: var(--font-bebas-neue);
   --font-pt_serif: var(--font-pt_serif);
+  --font-roboto: var(--font-roboto);
+  --font-bitter: var(--font-bitter);
 }
 
 /* ====== Dark Mode ====== */
@@ -68,7 +72,7 @@ body {
   background-color: var(--background);
   color: var(--primary);
   /* font-family: var(--font-lato); */
-  font-family: var(--font-lato);
+  font-family: var(--font-roboto);
   line-height: 1.7;
 }
 
@@ -78,7 +82,7 @@ h3,
 h4 {
   /* font-family: var(--font-montserrat); */
   /* font-family: var(--font-montserrat); */
-  font-family: var(--font-heading2);
+  font-family: var(--font-bitter);
   /* color: var(--primary); */
    font-weight: bold;
   /* text-transform: uppercase;  */
