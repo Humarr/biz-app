@@ -116,7 +116,7 @@ export default function Home() {
           <div className="relative h-96 w-full bg-gray-100">
             {/* Replace with your actual screenshot */}
             <Image
-              src="/screenshot-proof.png" // Replace with your image path
+              src="/tsbp/screenshot-proof.png" // Replace with your image path
               alt="Proof of 11 sales in 24 hours"
               fill
               className="object-contain"
