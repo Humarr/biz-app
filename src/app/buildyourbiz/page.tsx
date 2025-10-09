@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-screen bg-white font-lato">
       {/* Hero Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h1 className=" text-5xl font-black tracking-tight lg:text-7xl text-center">
+        <h1 className=" text-5xl font-bold tracking-tight lg:text-7xl text-center">
           I Made <span className='text-red-600 underline'>N27,495</span> (From 11 Sales) in My First 24 Hours Using This Book... And I&apos;m Still a Complete Beginner! 😲
         </h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* What Happened Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Here&apos;s What Happened...
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* Why Am I Telling You This Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Why Am I Telling You This?
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -105,7 +105,7 @@ export default function Home() {
 
       {/* What's Inside Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Let Me Show You Exactly What&apos;s Inside (And Why It&apos;s So Easy to Use)
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -116,7 +116,7 @@ export default function Home() {
 
         <div className="mt-20 space-y-20">
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               FIRST: How to pick the RIGHT business idea
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               SECOND: How to know if your idea will actually make money BEFORE you waste a single naira
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               THIRD: The exact templates to write ads that actually bring customers
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -175,7 +175,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               FOURTH: How to price so you actually make profit
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -194,7 +194,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               FIFTH: How to get customers without begging friends to &quot;patronize&quot; you
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -209,7 +209,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               SIXTH: The 8 Laws of Advertising That Actually Work
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -227,7 +227,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               SEVENTH: How to compete with bigger businesses and WIN
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -258,7 +258,7 @@ export default function Home() {
 
       {/* Made For Beginners Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           This Book Is Made For BEGINNERS (Like Me!)
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -289,7 +289,7 @@ export default function Home() {
 
       {/* Pricing Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Now Here&apos;s Where It Gets Even Better...
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -315,13 +315,13 @@ export default function Home() {
 
       {/* Free Gifts Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           PLUS, You Get These 2 FREE GIFTS (Only for the Next 48 Hours):
         </h2>
 
         <div className="mt-20 space-y-20">
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               FREE GIFT #1: The 6 Products Nigerians Will ALWAYS Buy
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -338,7 +338,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className=" text-3xl font-black text-red-600 lg:text-4xl">
+            <h3 className=" text-3xl font-bold text-red-600 lg:text-4xl">
               FREE GIFT #2: The Advertisement Templates Toolkit
             </h3>
             <p className="mt-6 text-2xl leading-relaxed text-gray-800">
@@ -364,7 +364,7 @@ export default function Home() {
 
       {/* Guarantee Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Here&apos;s My Personal Guarantee to You...
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -411,7 +411,7 @@ export default function Home() {
 
       {/* CTA Steps Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           So Here&apos;s What You Need to Do Right Now:
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -441,7 +441,7 @@ export default function Home() {
         <div className="mt-20">
           <a 
             href="https://selar.com/small-biz"
-            className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-black text-white transition-colors hover:bg-red-700"
+            className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
             CLICK HERE TO GET INSTANT ACCESS
           </a>
@@ -459,7 +459,7 @@ export default function Home() {
 
       {/* Final CTA Section */}
       <section className="px-8 py-40 lg:px-32">
-        <h2 className=" text-4xl font-black lg:text-6xl">
+        <h2 className=" text-4xl font-bold lg:text-6xl text-center">
           Let Me Ask You Something...
         </h2>
         <p className="mt-12 text-2xl leading-relaxed text-gray-800">
@@ -494,7 +494,7 @@ export default function Home() {
         <div className="mt-20">
           <a 
             href="https://selar.com/small-biz"
-            className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-black text-white transition-colors hover:bg-red-700"
+            className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
             GET INSTANT ACCESS NOW
           </a>
@@ -521,7 +521,7 @@ export default function Home() {
         <div className="mt-20">
           <a 
             href="https://selar.com/small-biz"
-            className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-black text-white transition-colors hover:bg-red-700"
+            className="inline-block bg-red-600 px-16 py-6 text-center  text-2xl font-bold text-white transition-colors hover:bg-red-700"
           >
             STOP OVERTHINKING. START BUILDING
           </a>
