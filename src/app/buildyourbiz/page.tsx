@@ -112,9 +112,9 @@ export default function Home() {
         </p>
 
         {/* Sales Proof Image */}
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <div className="relative h-96 w-full bg-gray-100">
-            {/* Replace with your actual screenshot */}
+       
             <Image
               src="/tsbp/screenshot-proof.png" // Replace with your image path
               alt="Proof of 11 sales in 24 hours"
@@ -123,7 +123,37 @@ export default function Home() {
             />
           </div>
           <p className="mt-4 text-center text-lg text-gray-600">My actual sales proof - 11 sales in 24 hours!</p>
-        </div>
+        </div> */}
+
+        {/* Sales Proof Section */}
+<section className="mt-24 bg-gradient-to-b from-gray-50 to-white py-16 px-4">
+  <div className="max-w-5xl mx-auto flex flex-col items-center text-center">
+    <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+      Real Results. Real Sales. 💸
+    </h2>
+
+    <div className="relative w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white p-3">
+      <div className="absolute top-3 left-3 bg-green-500 text-white text-xs sm:text-sm font-semibold py-1 px-3 rounded-full shadow-md">
+        ✅ Verified Sales Screenshot
+      </div>
+
+      <Image
+        src="/tsbp/screenshot-proof.png" // replace with your image path
+        alt="Proof of 11 sales in 24 hours"
+        width={1200}
+        height={800}
+        className="w-full h-auto rounded-lg object-cover md:object-contain transition-transform duration-300 hover:scale-[1.02]"
+        priority
+      />
+    </div>
+
+    <p className="mt-6 text-base sm:text-lg text-gray-700 max-w-xl">
+      This is my actual <span className="font-semibold text-black">Selar sales dashboard</span> — 
+      <span className="text-red-600 font-bold"> 11 sales in just 24 hours!</span>
+    </p>
+  </div>
+</section>
+
       </section>
 
       {/* Why Am I Telling You This Section */}
