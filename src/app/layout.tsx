@@ -108,7 +108,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} ${roboto.variable} ${bitter.variable}
+    <html lang="en" className={`${roboto.variable} ${bitter.variable} ${inter.variable} ${anton.variable} ${patrick_hand.variable} ${poppins.variable} ${kalam.variable} 
    ${bowlby.variable} ${lato.variable} 
    ${merriweather.variable} ${montserrat.variable} 
    ${bebas_neue.variable} ${pt_serif.variable} 

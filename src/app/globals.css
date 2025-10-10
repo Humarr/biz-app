@@ -13,6 +13,8 @@
   --note: #fff6b0; /* Sticky note bg */
 
   /* Fonts */
+  --font-roboto: var(--font-roboto);
+  --font-bitter: var(--font-bitter);
   --font-body: var(--font-inter);
   --font-headline: var(--font-anton);
   --font-scribble: var(--font-patrick-hand);
@@ -24,8 +26,6 @@
   --font-montserrat: var(--font-montserrat);
   --font-bebas-neue: var(--font-bebas-neue);
   --font-pt_serif: var(--font-pt_serif);
-  --font-roboto: var(--font-roboto);
-  --font-bitter: var(--font-bitter);
 }
 
 /* ====== Theme Definition ====== */
@@ -37,6 +37,9 @@
   --color-background: var(--background);
   --color-note: var(--note);
   
+  --font-roboto: var(--font-roboto);
+  --font-bitter: var(--font-bitter);
+
   --font-body: var(--font-body);
   --font-headline: var(--font-headline);
   --font-scribble: var(--font-scribble);
@@ -48,9 +51,7 @@
   --font-montserrat: var(--font-montserrat);
   --font-bebas-neue: var(--font-bebas-neue);
   --font-pt_serif: var(--font-pt_serif);
-  --font-roboto: var(--font-roboto);
-  --font-bitter: var(--font-bitter);
-}
+  }
 
 /* ====== Dark Mode ====== */
 /* @media (prefers-color-scheme: dark) {
