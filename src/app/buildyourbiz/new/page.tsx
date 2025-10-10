@@ -185,9 +185,9 @@ function WakeUpCallSection() {
         //   const isBold = /\*\*(.*?)\*\*/.test(text);
 
           const html = text
-            .replace(/^## (.*)/, '<h2 className="text-2xl md:text-3xl font-extrabold mb-6 text-center">$1</h2>')
-            .replace(/^### (.*)/, '<h3 className="text-2xl md:text-3xl font-extrabold text-red-600 mt-10 mb-4 text-center">$1</h3>')
-            .replace(/\*\*(.*?)\*\*/g, '<strong className="font-bold text-red-600">$1</strong>');
+            .replace(/^## (.*)/, '<h2 class="text-2xl md:text-3xl font-extrabold mb-6 text-center">$1</h2>')
+            .replace(/^### (.*)/, '<h3 class="text-2xl md:text-3xl font-extrabold text-red-600 mt-10 mb-4 text-center">$1</h3>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-red-600">$1</strong>');
 
           return (
             <motion.div
@@ -249,13 +249,13 @@ function TruthSection() {
           const html = text
             .replace(
               /^## (.*)/,
-              '<h2 className="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
+              '<h2 class="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
             )
             .replace(
               /^### (.*)/,
-              '<h3 className="text-2xl md:text-3xl font-extrabold text-green-600 mt-10 mb-4 text-center">$1</h3>'
+              '<h3 class="text-2xl md:text-3xl font-extrabold text-green-600 mt-10 mb-4 text-center">$1</h3>'
             )
-            .replace(/\*\*(.*?)\*\*/g, '<strong className="font-bold text-green-600">$1</strong>');
+            .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-green-600">$1</strong>');
 
           return (
             <motion.div
@@ -320,13 +320,13 @@ function IntroSection() {
           const html = text
             .replace(
               /^## (.*)/,
-              '<h2 className="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
+              '<h2 class="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
             )
             .replace(
               /^### (.*)/,
-              '<h3 className="text-2xl md:text-3xl font-extrabold text-blue-600 mt-10 mb-4 text-center">$1</h3>'
+              '<h3 class="text-2xl md:text-3xl font-extrabold text-blue-600 mt-10 mb-4 text-center">$1</h3>'
             )
-            .replace(/\*\*(.*?)\*\*/g, '<strong className="font-bold text-blue-600">$1</strong>');
+            .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-blue-600">$1</strong>');
 
           return (
             <motion.div

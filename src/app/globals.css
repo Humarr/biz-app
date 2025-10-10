@@ -130,6 +130,27 @@ ul {
 } */
 
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.fade-in-up.delay-100 { animation-delay: 0.1s; }
+.fade-in-up.delay-200 { animation-delay: 0.2s; }
+.fade-in-up.delay-300 { animation-delay: 0.3s; }
+.fade-in-up.delay-400 { animation-delay: 0.4s; }
+
 
 
 
