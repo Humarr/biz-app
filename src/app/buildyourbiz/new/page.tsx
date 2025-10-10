@@ -17,6 +17,8 @@ export default function Page() {
       <LeadSection/>
       <WakeUpCallSection/>
       <TruthSection/>
+      <IntroSection/>
+      <WhoItIsFor/>
       {/* next section here */}
     </>
   );
@@ -183,9 +185,9 @@ function WakeUpCallSection() {
         //   const isBold = /\*\*(.*?)\*\*/.test(text);
 
           const html = text
-            .replace(/^## (.*)/, '<h2 class="text-2xl md:text-3xl font-extrabold mb-6 text-center">$1</h2>')
-            .replace(/^### (.*)/, '<h3 class="text-2xl md:text-3xl font-extrabold text-red-600 mt-10 mb-4 text-center">$1</h3>')
-            .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-red-600">$1</strong>');
+            .replace(/^## (.*)/, '<h2 className="text-2xl md:text-3xl font-extrabold mb-6 text-center">$1</h2>')
+            .replace(/^### (.*)/, '<h3 className="text-2xl md:text-3xl font-extrabold text-red-600 mt-10 mb-4 text-center">$1</h3>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong className="font-bold text-red-600">$1</strong>');
 
           return (
             <motion.div
@@ -247,13 +249,13 @@ function TruthSection() {
           const html = text
             .replace(
               /^## (.*)/,
-              '<h2 class="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
+              '<h2 className="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
             )
             .replace(
               /^### (.*)/,
-              '<h3 class="text-2xl md:text-3xl font-extrabold text-green-600 mt-10 mb-4 text-center">$1</h3>'
+              '<h3 className="text-2xl md:text-3xl font-extrabold text-green-600 mt-10 mb-4 text-center">$1</h3>'
             )
-            .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-green-600">$1</strong>');
+            .replace(/\*\*(.*?)\*\*/g, '<strong className="font-bold text-green-600">$1</strong>');
 
           return (
             <motion.div
@@ -279,3 +281,174 @@ function TruthSection() {
     </section>
   );
 }
+
+
+// app/components/IntroSection.tsx
+function IntroSection() {
+//   const fadeUp = {
+//     hidden: { opacity: 0, y: 20 },
+//     visible: (i: number) => ({
+//       opacity: 1,
+//       y: 0,
+//       transition: { delay: i * 0.12, duration: 0.6, ease: "easeOut" },
+//     }),
+//   };
+
+  const paragraphs = [
+    "## Let Me Introduce Myself (And Why You Should Listen to What I'm About to Tell You)",
+    "My name is Umar.",
+    'I\'m not some "business guru" who inherited wealth from a rich uncle.',
+    "I didn't go to Harvard or some fancy foreign school.",
+    "And I don't have some magical secret that will make you a millionaire overnight.",
+    "### Here's what I am:",
+    "I'm a trained engineer who got tired of watching smart, hardworking Nigerians get treated like idiots in their jobs while their bosses got richer.",
+    "I taught myself marketing. Copywriting. Business. Everything the schools refused to teach us.",
+    "And after years of watching people waste their time and money on businesses that were doomed to fail from day one...",
+    "I decided to do something about it.",
+    "### I wrote this book.",
+    'Not to "motivate" you. Not to "inspire" you. Not to sell you a dream.',
+    "But to give you the exact system – the same proven principles that built businesses like Indomie, Uber, and even the Mei Shayi on your street corner – so you can finally start making money on your own terms.",
+  ];
+
+  return (
+    <section className="bg-gray-50 text-gray-900 py-24 px-6">
+      <div className="max-w-3xl mx-auto leading-relaxed text-lg space-y-6">
+        {paragraphs.map((text, i) => {
+          const isSubhead = text.startsWith("## ");
+          const isBigBold = text.startsWith("### ");
+
+          const html = text
+            .replace(
+              /^## (.*)/,
+              '<h2 className="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
+            )
+            .replace(
+              /^### (.*)/,
+              '<h3 className="text-2xl md:text-3xl font-extrabold text-blue-600 mt-10 mb-4 text-center">$1</h3>'
+            )
+            .replace(/\*\*(.*?)\*\*/g, '<strong className="font-bold text-blue-600">$1</strong>');
+
+          return (
+            <motion.div
+              key={i}
+              variants={{
+                hidden: { opacity: 0, y: 20 },
+                visible: (i: number) => ({
+                  opacity: 1,
+                  y: 0,
+                  transition: { delay: i * 0.12, duration: 0.6, ease: "easeOut" },
+                }),
+              }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              custom={i}
+              className={`${isSubhead || isBigBold ? "" : "whitespace-pre-line"}`}
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          );
+        })}
+
+        {/* Optional: Author photo placeholder */}
+        {/* <div className="mt-12 flex justify-center">
+          <img
+            src="/images/umar.jpg"
+            alt="Umar"
+            className="w-32 h-32 rounded-full object-cover shadow-md"
+          />
+        </div> */}
+      </div>
+    </section>
+  );
+}
+
+function WhoItIsFor() {
+
+    return(
+
+<section className="px-6 py-16 max-w-3xl mx-auto">
+  <div className="space-y-8">
+    {/* <!-- Subhead --> */}
+    <h2 className="text-2xl sm:text-3xl font-bold text-center fade-in-up">
+      This Book Isn't for Everyone
+    </h2>
+
+    {/* <!-- Intro --> */}
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-100">
+      Before we go any further, let me be clear about who this is for and who it's <strong>NOT</strong> for:
+    </p>
+
+    {/* <!-- NOT For You --> */}
+    <div className="fade-in-up delay-200">
+      <h3 className="text-xl font-semibold text-red-600 mb-4">
+        🚫 This book is <span className="font-bold">NOT</span> for you if:
+      </h3>
+      <ul className="space-y-4 text-gray-700 leading-relaxed">
+        <li className="flex items-start">
+          <span className="mr-3 text-red-500 text-xl">✖</span>
+          You're looking for a "get rich quick" scheme with zero effort
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-red-500 text-xl">✖</span>
+          You want me to tell you that business is easy and anyone can do it
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-red-500 text-xl">✖</span>
+          You're the type who reads books and never takes action
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-red-500 text-xl">✖</span>
+          You're waiting for perfect conditions before you start 
+          <span className="italic">(spoiler: they'll never come)</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-red-500 text-xl">✖</span>
+          You think you're too good to start small
+        </li>
+      </ul>
+    </div>
+
+    {/* <!-- IS For You --> */}
+    <div className="fade-in-up delay-300">
+      <h3 className="text-xl font-semibold text-green-600 mb-4">
+        ✅ This book <span className="font-bold">IS</span> for you if:
+      </h3>
+      <ul className="space-y-4 text-gray-700 leading-relaxed">
+        <li className="flex items-start">
+          <span className="mr-3 text-green-500 text-xl">✔</span>
+          You're tired of your current job but don't know where to start
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-green-500 text-xl">✔</span>
+          You've tried starting a business before and it failed 
+          <span className="italic">(and you want to know why)</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-green-500 text-xl">✔</span>
+          You're scared of wasting money on another business idea that goes nowhere
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-green-500 text-xl">✔</span>
+          You want a proven system, not motivation
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-green-500 text-xl">✔</span>
+          You're ready to do the work, but you need someone to show you the right way
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-green-500 text-xl">✔</span>
+          You're tired of foreign business advice that doesn't work in Nigeria
+        </li>
+      </ul>
+    </div>
+
+    {/* <!-- Closing --> */}
+    <p className="text-lg font-medium text-center text-gray-800 mt-10 fade-in-up delay-400">
+      If you're still reading... good. That means you're <span className="font-bold text-green-600">serious.</span>
+    </p>
+  </div>
+</section>
+  );
+}
+
+
