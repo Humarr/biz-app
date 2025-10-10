@@ -19,6 +19,7 @@ export default function Page() {
       <TruthSection/>
       <IntroSection/>
       <WhoItIsFor/>
+      <Education/>
       {/* next section here */}
     </>
   );
@@ -452,3 +453,135 @@ function WhoItIsFor() {
 }
 
 
+function Education() {
+
+
+    return (
+
+        <div>
+
+        <section className="px-6 py-16 max-w-3xl mx-auto">
+  <div className="space-y-10">
+
+    {/* <!-- Subhead --> */}
+    <h2 className="text-2xl sm:text-3xl font-bold text-center fade-in-up">
+      Here's What You're About to Discover in <span className="text-blue-600 italic">"The Small Business Playbook"</span>
+    </h2>
+
+    {/* <!-- Paragraphs --> */}
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-100">
+      Inside this book, you're going to learn the exact system that separates businesses that <span className="font-semibold text-green-600">print money</span> from businesses that drain your bank account and leave you broke and embarrassed.
+    </p>
+
+    <p className="text-lg font-bold text-red-600 fade-in-up delay-200">
+      But let me warn you right now:
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-300">
+      Some of what you're about to learn will make you <span className="font-semibold text-red-600">angry</span>.
+      Because you'll realize how much time and money you've wasted on business ideas that were doomed from the start.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-400">
+      You'll understand why that "great idea" everyone told you to pursue was actually a terrible idea.
+      And you'll finally see why your first (or second, or third) business attempt failed... and how you could've avoided it completely.
+    </p>
+
+    <p className="text-lg font-bold text-green-700 fade-in-up delay-500">
+      But here's the good news:
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-600">
+      Once you understand the system I'm about to show you, <span className="font-semibold text-green-600">starting a profitable business becomes simple.</span>
+    </p>
+
+    <p className="text-lg text-gray-700 italic fade-in-up delay-700">
+      Not easy. But simple.<br/>
+      <span className="text-gray-900 font-semibold">There's a difference.</span>
+    </p>
+  </div>
+</section>
+
+ {/* <!-- STARVING CROWD SECRET --> */}
+<section className="px-6 py-20 bg-gray-50 mt-12 max-w-3xl mx-auto">
+  <div className="space-y-10">
+    <h2 className="text-2xl sm:text-3xl font-bold text-center fade-in-up">
+      THE STARVING CROWD SECRET: <br className="sm:hidden" />
+      <span className="text-blue-600">The One Thing That Separates Successful Businesses From Failed Ones</span>
+    </h2>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-100">
+      Let me tell you about the most important business lesson I ever learned.
+      It came from a legendary marketer named <span className="font-semibold">Gary Halbert</span>, and it goes like this:
+    </p>
+
+    <p className="text-xl sm:text-2xl font-bold text-center text-red-600 leading-snug fade-in-up delay-200">
+      “If you never want to be poor in your life, you don't need a product, you don't need money, what you need is a <span className="underline">STARVING CROWD!</span>”
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-300">
+      Think about that for a second.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-400">
+      Imagine you're in a place where there's been no water for days. Everyone is desperately thirsty. Their throats are dry. They're weak. They need water RIGHT NOW.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-500">
+      Then you show up with a truck full of cold, clean water.
+    </p>
+
+    <p className="text-lg font-semibold text-gray-900 fade-in-up delay-600">
+      Do you need to beg people to buy?<br/>
+      Do you need to offer discounts?<br/>
+      Do you need fancy packaging or a beautiful logo?
+    </p>
+
+    <p className="text-xl font-bold text-green-600 fade-in-up delay-700">
+      Of course not.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-800">
+      People will be <span className="font-semibold">fighting to give you their money.</span>
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-900">
+      Now imagine the opposite:
+      You show up at a party where everyone just finished eating a huge feast. Their bellies are full. They're satisfied.
+      You're trying to sell food.
+    </p>
+
+    <p className="text-xl font-bold text-red-600 fade-in-up delay-1000">
+      How hard will it be to make sales? Extremely hard.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-1100">
+      Even if your food is delicious. Even if it's cheap. Nobody wants it right now because they're not hungry.
+    </p>
+
+    <p className="text-xl font-bold text-red-700 fade-in-up delay-1200">
+      This is why 90% of businesses fail in their first year.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-1300">
+      They're trying to sell food to people who just finished eating, instead of finding starving people and giving them exactly what they're craving.
+    </p>
+
+    <p className="text-xl font-bold text-green-700 fade-in-up delay-1400">
+      And here's the thing that will blow your mind:
+    </p>
+
+    <p className="text-lg text-gray-700 leading-relaxed fade-in-up delay-1500">
+      Finding a starving crowd is actually <span className="font-semibold text-green-600">easier than you think.</span><br/>
+      You don't need to invent something new. You don't need a million naira. You don't even need to be "creative."
+    </p>
+
+    <p className="text-lg font-bold text-gray-900 fade-in-up delay-1600">
+      You just need to understand <span className="text-blue-600 underline">THE SYSTEM.</span><br/>
+      And that's exactly what I reveal in this book.
+    </p>
+  </div>
+</section>
+</div>
+    );
+}
