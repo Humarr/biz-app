@@ -16,6 +16,7 @@ export default function Page() {
       <HeroHeadline />
       <LeadSection/>
       <WakeUpCallSection/>
+      <TruthSection/>
       {/* next section here */}
     </>
   );
@@ -190,6 +191,74 @@ function WakeUpCallSection() {
             <motion.div
               key={i}
               variants={{
+                hidden: { opacity: 0, y: 20 },
+                visible: (i: number) => ({
+                  opacity: 1,
+                  y: 0,
+                  transition: { delay: i * 0.12, duration: 0.6, ease: "easeOut" },
+                }),
+              }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              custom={i}
+              className={`${isSubhead || isBigBold ? "" : "whitespace-pre-line"}`}
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+// app/components/TruthSection.tsx
+function TruthSection() {
+//   const fadeUp = {
+//     hidden: { opacity: 0, y: 20 },
+//     visible: (i: number) => ({
+//       opacity: 1,
+//       y: 0,
+//       transition: { delay: i * 0.12, duration: 0.6, ease: "easeOut" },
+//     }),
+//   };
+
+  const paragraphs = [
+    "## Here's the Truth That Changed Everything For Me (And Thousands of Other Nigerians Who Escaped the 9-5 Trap)",
+    "The problem isn't that you don't have a business idea.",
+    "The problem isn't even that you don't have capital.",
+    "### The real problem is that nobody ever taught you THE SYSTEM for starting a business that actually works.",
+    'They just told you to "be your own boss" without showing you how.',
+    'They told you to "follow your passion" without teaching you how to find customers who will actually pay you.',
+    'They showed you motivational videos of people who "made it" without revealing the exact steps they took to get there.',
+    "And worst of all?",
+    'They made you believe that business is some mysterious thing that only "business people" can understand.',
+    "### That's a lie.",
+    "And I'm about to prove it to you.",
+  ];
+
+  return (
+    <section className="bg-white text-gray-900 py-24 px-6">
+      <div className="max-w-3xl mx-auto leading-relaxed text-lg space-y-6">
+        {paragraphs.map((text, i) => {
+          const isSubhead = text.startsWith("## ");
+          const isBigBold = text.startsWith("### ");
+
+          const html = text
+            .replace(
+              /^## (.*)/,
+              '<h2 class="text-2xl md:text-3xl font-extrabold mb-8 text-center text-gray-900">$1</h2>'
+            )
+            .replace(
+              /^### (.*)/,
+              '<h3 class="text-2xl md:text-3xl font-extrabold text-green-600 mt-10 mb-4 text-center">$1</h3>'
+            )
+            .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-green-600">$1</strong>');
+
+          return (
+            <motion.div
+              key={i}
+              variants={ {
                 hidden: { opacity: 0, y: 20 },
                 visible: (i: number) => ({
                   opacity: 1,
