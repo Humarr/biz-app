@@ -19,13 +19,15 @@
   --font-headline: var(--font-anton);
   --font-scribble: var(--font-patrick-hand);
   --font-headline2: var(--font-poppins);
-  --font-kalam: var(--font-kalam);
-  --font-lato: var(--font-lato);
-  --font-bowlby: var(--font-bowlby);
-  --font-merriweather: var(--font-merriweather);
-  --font-montserrat: var(--font-montserrat);
-  --font-bebas-neue: var(--font-bebas-neue);
-  --font-pt_serif: var(--font-pt_serif);
+
+
+  --font-serif: var(--font-merriweather);
+  --font-sans: var(--font-montserrat);
+  --font-boldbebas: var(--font-bebas-neue);
+  --font-fun: var(--font-kalam);
+  --font-display: var(--font-bowlby);
+  --font-classic: var(--font-pt_serif);
+  --font-modern: var(--font-lato);
 }
 
 /* ====== Theme Definition ====== */
@@ -44,13 +46,15 @@
   --font-headline: var(--font-headline);
   --font-scribble: var(--font-scribble);
   --font-headline2: var(--font-headline2);
-  --font-kalam: var(--font-kalam);
-  --font-lato: var(--font-lato);
-  --font-bowlby: var(--font-bowlby);
-  --font-merriweather: var(--font-merriweather);
-  --font-montserrat: var(--font-montserrat);
-  --font-bebas-neue: var(--font-bebas-neue);
-  --font-pt_serif: var(--font-pt_serif);
+ 
+
+  --font-serif: var(--font-seirf);
+  --font-sans: var(--font-sans);
+  --font-boldbebas: var(--font-boldbebas);
+  --font-fun: var(--font-fun);
+  --font-display: var(--font-display);
+  --font-classic: var(--font-classic);
+  --font-modern: var(--font-modern);
   }
 
 /* ====== Dark Mode ====== */
