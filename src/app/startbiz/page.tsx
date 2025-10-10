@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function SalesPage() {
   return (
-    <div className="bg-white text-gray-900 font-sans">
+    <div className="bg-white text-gray-900">
       {/* Hero Section */}
       <section className="py-12 px-4 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
