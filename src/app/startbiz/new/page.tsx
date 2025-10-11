@@ -13,7 +13,8 @@ export default function SalesPage2() {
         </h1>
         
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-800">
-          Finally, a Complete System That Shows You How to Find "Starving Crowds" Who Are Desperate to Buy From You... So You Never Have to Beg Anyone to Patronize Your Business Again
+          Finally, a Complete System That Shows You How to Start, Grow, And Turn Your Small Business Into a Cash-Generating Machine!
+          {/* Finally, a Complete System That Shows You How to Find "Starving Crowds" Who Are Desperate to Buy From You... So You Never Have to Beg Anyone to Patronize Your Business Again */}
         </h2>
       </section>
 
