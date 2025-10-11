@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // app/page-2.js
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function SalesPage2() {
   return (
@@ -1420,6 +1421,19 @@ export default function SalesPage2() {
       <p className="text-xl font-bold mb-4">
         If you don't get at least ONE profitable business idea that makes complete sense for your situation within 7 days, I'll refund every single kobo.
       </p>
+
+      {/* Guarantee Seal Image */}
+              <div className="mt-20 flex justify-center">
+                <div className="relative h-64 w-64 bg-gray-100">
+                  {/* Replace with your actual guarantee seal */}
+                  <Image
+                    src="/guarantee-seal.png" // Replace with your image path
+                    alt="90-Day Money-Back Guarantee"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
       <p className="text-xl font-bold">
         Not only that...
       </p>
