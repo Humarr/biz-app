@@ -7,7 +7,7 @@ export default function SalesPage2() {
   return (
     <div className="bg-white text-gray-900 font-sans">
       {/* Hero Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           The Lazy Person's Way to Start a Profitable Business in Nigeria... Even If You Have No Capital, No Connections, and Still Work a 9-5 Job
         </h1>
@@ -173,7 +173,7 @@ export default function SalesPage2() {
       </section>
 
       {/* Breakthrough Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-blue-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-blue-50 rounded-lg">
         <div className="space-y-6 text-lg leading-relaxed">
           <p className="text-xl font-bold text-center">
             What Chidi didn't know that night was that THREE MONTHS LATER, he would quit his job.
@@ -202,7 +202,7 @@ export default function SalesPage2() {
       </section>
 
       {/* Twitter Discovery Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
             Two weeks after that terrible night with the landlord, Chidi was scrolling through Twitter during his lunch break at work.
@@ -315,7 +315,7 @@ export default function SalesPage2() {
       </section>
 
       {/* Success Story Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
             Chidi worked as an administrative assistant in a small logistics company in Ikeja.
@@ -439,7 +439,7 @@ export default function SalesPage2() {
       </section>
 
       {/* Quitting Job Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
             Chidi didn't quit his job immediately.
@@ -488,7 +488,7 @@ export default function SalesPage2() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-yellow-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-yellow-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
           Now, let me ask you something:
         </h2>
@@ -544,10 +544,10 @@ export default function SalesPage2() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Why I Wrote This Book Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           Why I Wrote This Book (And Why You Should Care)
         </h2>
@@ -611,10 +611,10 @@ export default function SalesPage2() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Who This Is For Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           This Book Is NOT For Everyone
         </h2>
@@ -690,10 +690,10 @@ export default function SalesPage2() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Chapter Breakdown */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           What You'll Discover Inside "The Small Business Playbook"
         </h2>
@@ -836,10 +836,10 @@ export default function SalesPage2() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Detailed Benefits Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           When You Open This Book, Here's What You'll Discover on Every Page:
         </h2>
@@ -1075,10 +1075,10 @@ export default function SalesPage2() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Bonuses Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           But That's Not All You're Getting Today...
         </h2>
@@ -1242,10 +1242,10 @@ export default function SalesPage2() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
 {/* Investment Section */}
-<section className="py-12 px-4 max-w-4xl mx-auto">
+<section className="py-6 px-4 max-w-4xl mx-auto">
   <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
     Let's Talk About Your Investment
   </h2>
@@ -1336,10 +1336,10 @@ export default function SalesPage2() {
   </div>
 </section>
 
-<hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+<hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
 {/* Urgency Section */}
-<section className="py-12 px-4 max-w-4xl mx-auto">
+<section className="py-6 px-4 max-w-4xl mx-auto">
   <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
     Why This Price Is Temporary (And What Happens If You Wait)
   </h2>
@@ -1387,7 +1387,7 @@ export default function SalesPage2() {
         </li>
         <li className="flex items-start">
           <span className="text-red-500 mr-2">❌</span>
-          <span>You'll come back and pay ₦15,000 (double the price)</span>
+          <span>You'll come back and pay ₦15,000 (3X of the price)</span>
         </li>
         <li className="flex items-start">
           <span className="text-red-500 mr-2">❌</span>
@@ -1407,10 +1407,10 @@ export default function SalesPage2() {
   </div>
 </section>
 
-<hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+<hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
 {/* Guarantee Section */}
-<section className="py-12 px-4 max-w-4xl mx-auto">
+<section className="py-6 px-4 max-w-4xl mx-auto">
   <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
     "But Wait... What If This Doesn't Work For Me?"
   </h2>
@@ -1488,10 +1488,10 @@ export default function SalesPage2() {
   </div>
 </section>
 
-<hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+<hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
 {/* CTA Section */}
-<section className="py-12 px-4 max-w-4xl mx-auto text-center">
+<section className="py-6 px-4 max-w-4xl mx-auto text-center">
   <h2 className="text-2xl md:text-3xl font-semibold mb-8">
     Here's Exactly What To Do Next
   </h2>
@@ -1538,10 +1538,10 @@ export default function SalesPage2() {
   </p>
 </section>
 
-<hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+<hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
 {/* Final Story Section */}
-<section className="py-12 px-4 max-w-4xl mx-auto">
+<section className="py-6 px-4 max-w-4xl mx-auto">
   <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
     One Last Thing Before You Decide...
   </h2>
@@ -1666,7 +1666,7 @@ export default function SalesPage2() {
 </section>
 
 {/* Footer */}
-<footer className="py-12 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
+<footer className="py-6 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
   <p className="text-lg mb-4">
     To your success,
   </p>
@@ -1774,7 +1774,7 @@ export default function SalesPage2() {
 
 
       {/* Final CTA Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-red-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-red-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
           FINAL REMINDER: What You're Getting Today
         </h2>
