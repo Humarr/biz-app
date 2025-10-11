@@ -18,9 +18,9 @@ export default function SalesPage2() {
         </h2>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
-      <section className="pt-12 px-4 max-w-4xl mx-auto">
+      <section className="pt-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
           <h4 className='font-bold text-xl'>
             Dear Friend,
