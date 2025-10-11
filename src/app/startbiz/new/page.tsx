@@ -22,9 +22,9 @@ export default function SalesPage2() {
 
       <section className="py-12 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
-          <p>
+          <h4>
             Dear Friend,
-          </p>
+          </h4>
 
           <p>
             I am writing to you today because I have something important to share with you.
