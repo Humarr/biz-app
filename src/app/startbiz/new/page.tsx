@@ -23,14 +23,15 @@ export default function SalesPage2() {
       <section className="pt-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
           <h4 className='font-bold text-xl'>
-            Dear Friend,
+            Dear Soon-To-Be Business Owner,
           </h4>
 
-          <p>
-            I am writing to you today because I have something important to share with you.
+          <p className="font-semibold">
+            Almost everything you know about business is wrong.
+            {/* I am writing to you today because I have something important to share with you. */}
           </p>
           <p>
-            But first, I will like to tell you a story about my colleague, Chidi, and how he started his own profitable business using the exact same information I'm about to share with you.<br/><br/> I promise to make it short
+            {/* But first, I will like to tell you a story about my colleague, Chidi, and how he started his own profitable business using the exact same information I'm about to share with you.<br/><br/> I promise to make it short */}
           </p>
           </div>
           </section>
