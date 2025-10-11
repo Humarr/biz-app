@@ -27,7 +27,8 @@ export default function SalesPage2() {
           </h4>
 
           <p className="font-semibold">
-            Almost everything you know about starting a business is wrong.
+            Almost everything most people say about starting a business is wrong.
+            {/* Almost everything you know about starting a business is wrong. */}
             {/* I am writing to you today because I have something important to share with you. */}
           </p>
           <p>
