@@ -22,7 +22,7 @@ export default function SalesPage2() {
 
       <section className="pt-12 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
-          <h4 className='font-bold'>
+          <h4 className='font-bold text-xl'>
             Dear Friend,
           </h4>
 
