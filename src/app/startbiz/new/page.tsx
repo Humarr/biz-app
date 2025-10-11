@@ -271,7 +271,7 @@ export default function SalesPage2() {
           </p>
 
           <p>
-            Chidi checked the price. ₦7,999.
+            Chidi checked the price. ₦5,000.
           </p>
 
           <p>
@@ -959,7 +959,7 @@ export default function SalesPage2() {
             </li>
             <li className="flex items-start">
               <span className="text-blue-500 mr-2">•</span>
-              <span><strong>How to make ₦7,999 feel easier to pay than ₦1,000</strong> – the delivery and packaging psychology that removes price resistance completely</span>
+              <span><strong>How to make ₦5,000 feel easier to pay than ₦1,000</strong> – the delivery and packaging psychology that removes price resistance completely</span>
             </li>
           </ul>
 
@@ -1305,11 +1305,11 @@ export default function SalesPage2() {
     </p>
 
     <p className="text-2xl font-bold text-center text-green-600">
-      When you order right now, your total investment is just ₦7,999.
+      When you order right now, your total investment is just ₦5,000.
     </p>
 
     <p>
-      Yes. ₦7,999 for everything.
+      Yes. ₦5,000 for everything.
     </p>
 
     <p>
@@ -1348,7 +1348,7 @@ export default function SalesPage2() {
     </p>
 
     <p className="text-xl font-bold">
-      This ₦7,999 price is temporary.
+      This ₦5,000 price is temporary.
     </p>
 
     <p>
@@ -1524,7 +1524,7 @@ export default function SalesPage2() {
       href="https://selar.com/small-biz" 
       className="bg-green-600 hover:bg-green-700 text-white text-xl font-bold py-4 px-8 rounded-lg inline-block transition duration-300 transform hover:scale-105"
     >
-      YES! I WANT THE SMALL BUSINESS PLAYBOOK + ALL BONUSES FOR ₦7,999
+      YES! I WANT THE SMALL BUSINESS PLAYBOOK + ALL BONUSES FOR ₦5,000
     </Link>
     <p className="text-sm text-gray-600 mt-2">
       (Instant access - even if it's 3am)
@@ -1634,7 +1634,7 @@ export default function SalesPage2() {
     </p>
 
     <p>
-      Don't tell yourself "I don't have ₦7,999" when you spent more than that on things you didn't need last week.
+      Don't tell yourself "I don't have ₦5,000" when you spent more than that on things you didn't need last week.
     </p>
 
     <p>
@@ -1655,7 +1655,7 @@ export default function SalesPage2() {
       href="https://selar.com/small-biz" 
       className="bg-green-600 hover:bg-green-700 text-white text-xl font-bold py-4 px-8 rounded-lg inline-block transition duration-300 transform hover:scale-105"
     >
-      GET THE SMALL BUSINESS PLAYBOOK + ALL BONUSES FOR ₦7,999
+      GET THE SMALL BUSINESS PLAYBOOK + ALL BONUSES FOR ₦5,000
     </Link>
     <p className="text-sm text-gray-600 mt-2">
       (Price increases to ₦15,000 soon. Bonuses disappear after 500 buyers. Don't miss out.)
@@ -1689,7 +1689,7 @@ export default function SalesPage2() {
     </ul>
 
     <p className="font-bold mb-2">Total value: ₦38,000</p>
-    <p className="font-bold mb-2">What you pay today: ₦7,999</p>
+    <p className="font-bold mb-2">What you pay today: ₦5,000</p>
     <p className="font-bold mb-2">The guarantee: Read everything. If you don't get at least ONE profitable business idea within 7 days, get full refund + ₦2,000 for your time.</p>
     <p className="font-bold mb-2">What happens if you wait: Price goes to ₦15,000. Bonuses disappear after 500 buyers.</p>
     <p className="font-bold mb-4">What to do right now: Click the button below.</p>
@@ -1699,7 +1699,7 @@ export default function SalesPage2() {
         href="https://selar.com/small-biz" 
         className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg inline-block transition duration-300"
       >
-        GET INSTANT ACCESS FOR ₦7,999
+        GET INSTANT ACCESS FOR ₦5,000
       </Link>
     </div>
 
@@ -1708,7 +1708,7 @@ export default function SalesPage2() {
     <p className="font-bold text-red-600">Option A: Still at that job. Still broke. Still stuck. Still wondering "what if."</p>
     <p className="font-bold text-green-600">Option B: Running your own business. Making real money. Living on your terms.</p>
     <p className="font-bold mt-4">The difference between Option A and Option B?</p>
-    <p className="font-bold text-xl">A ₦7,999 decision you make right now.</p>
+    <p className="font-bold text-xl">A ₦5,000 decision you make right now.</p>
     <p>That's it.</p>
     <p>Not your education. Not your connections. Not "luck."</p>
     <p>Just whether or not you clicked that button.</p>
@@ -1755,7 +1755,7 @@ export default function SalesPage2() {
     <p className="mt-6 font-bold">Look, I can answer objections all day.</p>
     <p>But at some point, you have to make a decision.</p>
     <p>Keep overthinking... or take action.</p>
-    <p className="font-bold mt-4">The book is ₦7,999. You're protected by a crazy guarantee. And you already know staying stuck isn't working.</p>
+    <p className="font-bold mt-4">The book is ₦5,000. You're protected by a crazy guarantee. And you already know staying stuck isn't working.</p>
     <p className="font-bold text-xl mt-4">So what are you waiting for?</p>
 
     <div className="text-center mt-6">
@@ -1802,7 +1802,7 @@ export default function SalesPage2() {
 
         <div className="space-y-4 mb-8">
           <p className="text-xl font-bold">TOTAL VALUE: ₦41,000</p>
-          <p className="text-2xl font-bold text-green-600">YOUR PRICE TODAY: ₦7,999</p>
+          <p className="text-2xl font-bold text-green-600">YOUR PRICE TODAY: ₦5,000</p>
           <p className="font-bold">GUARANTEE: Read everything. Get value or get refunded + ₦2,000.</p>
           <p className="font-bold">RISK: Zero. All on me.</p>
           <p className="font-bold">TIME TO DECIDE: Right now.</p>
@@ -1813,7 +1813,7 @@ export default function SalesPage2() {
             href="https://selar.com/small-biz" 
             className="bg-green-600 hover:bg-green-700 text-white text-xl font-bold py-4 px-8 rounded-lg inline-block transition duration-300 transform hover:scale-105"
           >
-            YES! GIVE ME EVERYTHING FOR ₦7,999 →
+            YES! GIVE ME EVERYTHING FOR ₦5,000 →
           </Link>
           <p className="text-sm text-gray-600 mt-2">
             (This button won't be here forever. The price WILL increase. The bonuses WILL disappear. Act now.)
