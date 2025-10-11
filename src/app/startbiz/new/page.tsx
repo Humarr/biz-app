@@ -30,13 +30,16 @@ export default function SalesPage2() {
             I am writing to you today because I have something important to share with you.
           </p>
           <p>
-            But first, I will like to tell you a story about my colleague, Chidi, and how he started his own profitable business using the exact same information I'm abut to share with you.<br/><br/> I promise to make it short
+            But first, I will like to tell you a story about my colleague, Chidi, and how he started his own profitable business using the exact same information I'm about to share with you.<br/><br/> I promise to make it short
           </p>
           </div>
           </section>
       {/* Story Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="pt-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
+          <p>
+            About 3 years ago...
+          </p>
           <p>
             Chidi sat in his small room in Surulere, staring at his phone.
           </p>
