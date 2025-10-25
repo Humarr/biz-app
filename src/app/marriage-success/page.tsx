@@ -7,25 +7,25 @@ export default function MarriageSalesPage() {
     <div className="bg-white text-gray-900 font-sans">
       {/* Hero Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           How to Transform 
           {/* How to Transform  */}
           <br/>
-         <span className='text-green-700 text-4xl md:5xl'>Your Marriage </span> 
+         <span className='text-green-700 text-5xl md:text-6xl'>Your Marriage </span> 
           <br/>
-          from Surviving to Thriving in Just 90 Days
+          from Surviving to Thriving With my "Influence Multiplication System™" <span className='italic'>...in Just 90 Days</span>
           {/* —Without Expensive Counseling, Without Your Partner Having to Change First, and Without Pretending Everything is Fine When It's Not */}
         </h1>
         
-        <h2 className="text-xl md:text-2xl font-semibold mb-8 text-gray-800">
+        {/* <h2 className="text-xl md:text-2xl font-semibold mb-8 text-gray-800">
           The counterintuitive "Influence Multiplication System™" that's saving Nigerian marriages...
           <br/>
           <br/>
            ...by using the same psychological principles that built empires, won elections, and created loyal followings... applied to the one relationship that matters most.
-        </h2>
+        </h2> */}
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Lead Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
@@ -144,7 +144,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Problem Identification Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
@@ -325,7 +325,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Solution Introduction */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
@@ -502,7 +502,7 @@ export default function MarriageSalesPage() {
 
 
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Credibility Establishment Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
@@ -643,7 +643,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Proof & Mechanism Demonstration */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-purple-50 rounded-lg">
@@ -929,7 +929,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Full Benefit Expansion */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
@@ -1069,7 +1069,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* The Complete Offer */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg">
@@ -1584,7 +1584,7 @@ export default function MarriageSalesPage() {
       {/* The remaining sections (Warning, Urgency, Benefit Restatement, Final CTA) continue in the same pattern */}
 
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Warning Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-red-50 rounded-lg">
@@ -1707,7 +1707,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Urgency Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-yellow-50 rounded-lg">
@@ -1828,7 +1828,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Benefit Restatement */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
@@ -1936,7 +1936,7 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-4 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Final Call to Action */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-gradient-to-br from-green-400 to-blue-500 text-white rounded-lg">
