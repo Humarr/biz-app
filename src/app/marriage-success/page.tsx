@@ -262,7 +262,7 @@ export default function MarriageSalesPage() {
               <p>It's not enough to pay your bills—you're expected to send money home, contribute to every family event, maintain a certain lifestyle so people don't think you're struggling, and somehow still save for the future.</p>
             </div>
             <div className="bg-red-50 p-4 rounded-lg">
-              <p className="font-bold text-red-700">The Lagos hustle culture.</p>
+              <p className="font-bold text-red-700">The hustle culture.</p>
               <p>You leave before sunrise. Come home after dark. Barely see each other during the week. And when weekend comes, you're too exhausted to do anything but scroll through your phone and catch up on sleep.</p>
             </div>
             <div className="bg-red-50 p-4 rounded-lg">
