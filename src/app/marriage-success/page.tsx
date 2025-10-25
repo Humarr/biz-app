@@ -1126,7 +1126,7 @@ export default function MarriageSalesPage() {
           </p>
 
           <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-            "How to Win Friends and Influence Your Spouse: 30 Principles for Building a Marriage You'll Both Love"
+            "How to Win Your Partner’s Heart and Influence Them: 30 Principles for Building a Marriage You'll Both Love"
           </h1>
 
           <p className="text-xl font-bold text-center">
