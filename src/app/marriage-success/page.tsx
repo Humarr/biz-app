@@ -382,7 +382,7 @@ export default function MarriageSalesPage() {
           <ul className="space-y-2 ml-6">
             <li className="flex items-start">
               <span className="text-red-500 mr-2">•</span>
-              <span>Expensive couples therapy (₦50,000+ per session in Lagos)</span>
+              <span>Expensive couples therapy (₦50,000+ per session)</span>
             </li>
             <li className="flex items-start">
               <span className="text-red-500 mr-2">•</span>
@@ -1148,7 +1148,7 @@ export default function MarriageSalesPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-blue-500 mr-2">•</span>
-                <span><strong>Real-world Nigerian examples</strong> (dealing with extended family, Lagos hustle culture, financial pressure, cultural expectations)</span>
+                <span><strong>Real-world Nigerian examples</strong> (dealing with extended family, hustle culture, financial pressure, cultural expectations)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-500 mr-2">•</span>
