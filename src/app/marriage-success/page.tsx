@@ -62,7 +62,7 @@ export default function MarriageSalesPage() {
             I will like to tell you a story about my client, Folake. I promise to make it short.
           </p>
           <p>
-           It was 11:47 PM in Lagos,.
+           It was 11:47 PM in Lagos.
           </p>
 
           <p>
