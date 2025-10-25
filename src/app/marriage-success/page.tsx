@@ -776,6 +776,9 @@ export default function MarriageSalesPage() {
             </ul>
           </div>
 
+            <h3 className="text-2xl font-bold mb-4">
+            Let me show you what this looks like in practice:
+            </h3>
           <div className="bg-white p-6 rounded-lg border-l-4 border-green-500">
             <h3 className="text-xl font-bold text-green-700 mb-4">
               Sarah and Michael's Story
