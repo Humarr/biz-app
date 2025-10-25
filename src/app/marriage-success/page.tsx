@@ -20,7 +20,7 @@ export default function MarriageSalesPage() {
           {/* —Without Expensive Counseling, Without Your Partner Having to Change First, and Without Pretending Everything is Fine When It's Not */}
         </h1>
 
-        <p className="text-lg">And now, you can use this to <span>transform</span> your marriage from surviving to thriving <span className='italic'>...in Just 90 Days</span></p>
+        <p className="text-lg mb-12">And now, you can use this to <span>transform</span> your marriage from surviving to thriving <span className='italic'>...in Just 90 Days</span></p>
 
         <p>
             It doesn't matter if:
