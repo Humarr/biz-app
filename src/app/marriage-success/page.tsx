@@ -1575,13 +1575,493 @@ export default function MarriageSalesPage() {
       {/* The remaining sections (Warning, Urgency, Benefit Restatement, Final CTA) continue in the same pattern */}
 
 
+      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
 
+      {/* Warning Section */}
+      <section className="py-12 px-4 max-w-4xl mx-auto bg-red-50 rounded-lg">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
+          WARNING (FUTURE PACING):
+        </h2>
+
+        <div className="space-y-6 text-lg leading-relaxed">
+          <p className="text-xl font-bold">
+            Now, before you decide, I need you to understand something important:
+          </p>
+
+          <p className="text-2xl font-bold text-red-600 text-center">
+            Every day you wait is a day your marriage continues down its current path.
+          </p>
+
+          <p>
+            Think about where your relationship was a year ago.
+          </p>
+
+          <p>
+            Now think about where it is today.
+          </p>
+
+          <p className="text-xl font-bold text-center">
+            If nothing changes... where will it be a year from now?
+          </p>
+
+          <p>
+            See, marriages don't stay static. They're either growing or dying. Getting closer or drifting further apart.
+          </p>
+
+          <p>
+            And every day that passes with the same patterns, the same behaviors, the same communication style you've been using...
+          </p>
+
+          <p className="text-xl font-bold">
+            Those patterns get more deeply entrenched.
+          </p>
+
+          <p>
+            The emotional distance gets wider.
+          </p>
+
+          <p>
+            The resentment builds higher.
+          </p>
+
+          <p>
+            The walls get thicker.
+          </p>
+
+          <p className="text-xl font-bold">
+            Your kids internalize this version of marriage a little more.
+          </p>
+
+          <p>
+            And here's what nobody tells you:
+          </p>
+
+          <p className="text-2xl font-bold text-red-600 text-center">
+            There's a point of no return.
+          </p>
+
+          <p className="text-center">
+            A point where one or both of you becomes so disconnected, so resentful, so checked out... that even these proven principles can't pull you back.
+          </p>
+
+          <p>
+            I'm not trying to scare you. I'm trying to wake you up.
+          </p>
+
+          <p className="text-xl font-bold">
+            Because right now, you have a choice:
+          </p>
+
+          <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
+            <p className="font-bold text-red-700 mb-4">You can close this page. Go back to scrolling Facebook or Instagram. Tell yourself "I'll deal with this later" or "It's not that bad" or "Maybe things will just get better on their own."</p>
+            <p>And maybe they will.</p>
+            <p className="font-bold">But probably they won't.</p>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg border-l-4 border-green-500">
+            <p className="font-bold text-green-700 mb-4">Or...</p>
+            <p className="font-bold">You can make a different choice.</p>
+            <p>You can say: "My marriage is worth ₦4,500. My family is worth 90 days of intentional effort. My spouse is worth learning how to love them better."</p>
+            <p>You can download this system in the next 5 minutes and start applying Principle #1 tonight.</p>
+          </div>
+
+          <p className="text-xl font-bold text-center">
+            Think about how different your marriage could be 90 days from now:
+          </p>
+
+          <ul className="space-y-3 text-left max-w-2xl mx-auto">
+            <li className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>Coming home feels peaceful instead of stressful.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>Your spouse lights up when they see you instead of barely looking up from their phone.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>You're planning date nights and actually looking forward to them.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>Your kids are relaxed because the tension in the house has dissolved.</span>
+            </li>
+          </ul>
+
+          <p className="text-xl font-bold text-center">
+            That version of your marriage is 90 days away.
+          </p>
+
+          <p className="text-2xl font-bold text-center text-green-600">
+            But only if you start today.
+          </p>
+        </div>
+      </section>
+
+      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+
+      {/* Urgency Section */}
+      <section className="py-12 px-4 max-w-4xl mx-auto bg-yellow-50 rounded-lg">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
+          URGENCY (SCARCITY + CONSEQUENCE):
+        </h2>
+
+        <div className="space-y-6 text-lg leading-relaxed">
+          <p className="text-xl font-bold">
+            Remember: This ₦4,500 offer is limited to the first 500 couples.
+          </p>
+
+          <p>
+            Not because I'm trying to create fake urgency.
+          </p>
+
+          <p>
+            But because I want to ensure I can provide meaningful support to early adopters as word spreads and demand grows.
+          </p>
+
+          <p className="text-xl font-bold">
+            After 500 couples enroll, the price returns to ₦8,500.
+          </p>
+
+          <p>
+            And you'll lose Bonus #4 (the In-Laws Guide worth ₦2,500) completely—it's only available for the next 48 hours.
+          </p>
+
+          <p className="text-xl font-bold">
+            So you have two deadlines:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white p-6 rounded-lg border-2 border-red-500 text-center">
+              <p className="text-xl font-bold text-red-700 mb-2">Deadline #1:</p>
+              <p className="font-bold">First 500 couples</p>
+              <p>(to lock in the ₦4,500 price)</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg border-2 border-red-500 text-center">
+              <p className="text-xl font-bold text-red-700 mb-2">Deadline #2:</p>
+              <p className="font-bold">Next 48 hours</p>
+              <p>(to get the 4th bonus)</p>
+            </div>
+          </div>
+
+          <p className="text-xl font-bold">
+            Now, here's what I can't control:
+          </p>
+
+          <p>
+            I don't know how many of those 500 spots are left as you're reading this.
+          </p>
+
+          <p>
+            Maybe there are 200 left. Maybe 50. Maybe 10.
+          </p>
+
+          <p className="text-xl font-bold">
+            What I do know is this:
+          </p>
+
+          <p>
+            If you come back tomorrow or next week and see that the price has gone back to ₦8,500...
+          </p>
+
+          <p>
+            Or if you come back in 49 hours and the In-Laws bonus is gone...
+          </p>
+
+          <p className="text-2xl font-bold text-red-600 text-center">
+            You'll wish you had acted today.
+          </p>
+
+          <div className="bg-white p-6 rounded-lg border-2 border-red-500">
+            <p className="text-center mb-4">₦4,000 is the difference between the discounted price and regular price.</p>
+            <p className="text-center font-bold text-lg">Is saving ₦4,000 worth:</p>
+            <ul className="space-y-2 mt-4">
+              <li className="flex items-start">
+                <span className="text-red-500 mr-2">•</span>
+                <span>Another week, another month, another year of living in a struggling marriage?</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-red-500 mr-2">•</span>
+                <span>Your kids witnessing one more week of tension?</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-red-500 mr-2">•</span>
+                <span>You carrying that heavy feeling in your chest for one more day?</span>
+              </li>
+            </ul>
+            <p className="text-center text-xl font-bold text-red-600 mt-4">I don't think so.</p>
+            <p className="text-center font-bold">And deep down, neither do you.</p>
+          </div>
+
+          <p className="text-xl font-bold text-center">
+            Plus, remember: You have 90 full days to decide if this works for you.
+          </p>
+
+          <p className="text-center">
+            That's zero risk.
+          </p>
+
+          <p className="text-center">
+            If you order now, use the system for three full months, and somehow don't see improvement in your marriage...
+          </p>
+
+          <p className="text-center">
+            Just email me. Get your full refund. Keep everything.
+          </p>
+
+          <p className="text-2xl font-bold text-green-600 text-center">
+            You literally cannot lose.
+          </p>
+
+          <p className="text-xl font-bold text-center text-red-600">
+            The only way you lose is by doing nothing.
+          </p>
+        </div>
+      </section>
+
+      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+
+      {/* Benefit Restatement */}
+      <section className="py-12 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
+          BENEFIT RESTATEMENT (MOTIVATION):
+        </h2>
+
+        <div className="space-y-8 text-lg leading-relaxed">
+          <p className="text-xl font-bold text-center">
+            So let me remind you one more time what's waiting for you on the other side of this decision:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ A marriage where you actually like each other again.</p>
+              <p className="text-sm">Not just love (though that too). But genuine liking. Enjoying each other's company. Laughing together. Looking forward to seeing each other at the end of the day.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ Emotional intimacy that makes physical intimacy natural and desired.</p>
+              <p className="text-sm">Not obligatory. Not forced. But the natural overflow of deep emotional connection.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ Kids who grow up seeing what a healthy marriage actually looks like.</p>
+              <p className="text-sm">Kids who don't flinch when you and your spouse are in the same room. Kids who see love in action, not just in words. Kids who have a model worth following when they build their own families.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ Extended family dynamics that no longer threaten your marriage.</p>
+              <p className="text-sm">Because you and your spouse are a united team. And when you're united, external pressures lose their power to divide you.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ Financial decisions made together, as partners.</p>
+              <p className="text-sm">No more financial infidelity. No more resentment over spending. Just two people working toward shared goals with shared values.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ A home that feels peaceful instead of tense.</p>
+              <p className="text-sm">Where you can breathe. Where you can relax. Where you don't have to walk on eggshells or brace yourself for the next fight.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ The pride of knowing you didn't give up.</p>
+              <p className="text-sm">Years from now, when you're holding hands on your couch, laughing about the "dark years," you'll be so grateful you made this decision today.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg">
+              <p className="font-bold text-green-700 mb-3">✅ The respect of being THAT couple.</p>
+              <p className="text-sm">The couple others look at and wonder, "How do they do it?" The couple that gives hope to other struggling marriages. The couple that proves transformation is possible.</p>
+            </div>
+          </div>
+
+          <p className="text-xl font-bold text-center">
+            And here's what makes this so beautiful:
+          </p>
+
+          <p className="text-center">
+            You don't have to figure this out on your own.
+          </p>
+
+          <p className="text-center">
+            You don't have to guess what to do next.
+          </p>
+
+          <p className="text-center">
+            You don't have to hope you're doing the right things.
+          </p>
+
+          <p className="text-xl font-bold text-center">
+            The system is already built for you.
+          </p>
+
+          <div className="bg-white p-6 rounded-lg border-l-4 border-blue-500 text-center">
+            <p className="font-bold text-blue-700">Day 1: This is what you focus on.</p>
+            <p className="font-bold text-blue-700">Day 2: This is what you apply.</p>
+            <p className="font-bold text-blue-700">Day 3: This is what you practice.</p>
+            <p className="mt-2">All the way through Day 90.</p>
+          </div>
+
+          <p className="text-xl font-bold text-center">
+            By the time you finish, these 30 principles will be habits.
+          </p>
+
+          <p className="text-center">
+            Not things you have to consciously remember to do.
+          </p>
+
+          <p className="text-center">
+            But automatic responses. Ways of being. Who you've become.
+          </p>
+
+          <p className="text-xl font-bold text-center">
+            And that's when the real magic happens.
+          </p>
+
+          <p className="text-center">
+            Because you won't just have a better marriage for 90 days.
+          </p>
+
+          <p className="text-center">
+            You'll have the tools to maintain and deepen that connection for the rest of your lives together.
+          </p>
+
+          <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-8 rounded-lg text-white text-center">
+            <p className="text-2xl font-bold mb-4">This is your legacy.</p>
+            <p>Not just for you. Not just for your spouse.</p>
+            <p>But for your children, your future grandchildren, and every life you touch by being a living example of what's possible when two people commit to loving each other well.</p>
+            <p className="text-2xl font-bold mt-4">That legacy starts today.</p>
+          </div>
+        </div>
+      </section>
+
+      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+
+      {/* Final Call to Action */}
+      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-gradient-to-br from-green-400 to-blue-500 text-white rounded-lg">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          FINAL CALL TO ACTION:
+        </h2>
+
+        <div className="space-y-6 text-lg leading-relaxed mb-8">
+          <p className="text-xl font-bold">
+            Click the button below right now.
+          </p>
+
+          <p>
+            Not tomorrow. Not next week. Not "when things get really bad."
+          </p>
+
+          <p className="text-2xl font-bold">
+            Right now.
+          </p>
+
+          <div className="my-8">
+            <Link 
+              href="#" 
+              className="bg-white hover:bg-gray-100 text-green-600 text-2xl font-bold py-6 px-12 rounded-lg inline-block transition duration-300 transform hover:scale-105 shadow-2xl"
+            >
+              YES! I WANT TO TRANSFORM MY MARRIAGE - GIVE ME INSTANT ACCESS →
+            </Link>
+            <p className="text-white text-sm mt-4">
+              Secure checkout • Instant digital delivery • All 4 bonuses included<br />
+              90-day money-back guarantee • Only ₦4,500 today
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Still Here Section */}
+      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-gray-50 rounded-lg">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-8">
+          Still here?
+        </h2>
+
+        <div className="space-y-6 text-lg leading-relaxed">
+          <p className="text-xl font-bold">
+            Let me ask you something:
+          </p>
+
+          <p className="text-xl font-bold text-center">
+            What would your marriage be worth if it was everything you dreamed it could be?
+          </p>
+
+          <p>
+            What would it be worth to wake up next to someone who makes you smile instead of sigh?
+          </p>
+
+          <p>
+            What would it be worth to have a partner who's truly your partner—in every sense of the word?
+          </p>
+
+          <p>
+            What would it be worth to know your kids are learning what real love looks like?
+          </p>
+
+          <div className="bg-white p-6 rounded-lg border-2 border-green-500">
+            <p className="text-2xl font-bold text-green-600 mb-4">₦4,500 is nothing compared to that.</p>
+            <p>It's less than one tank of fuel.</p>
+            <p>Less than a nice dinner out.</p>
+            <p>Less than one month of DSTV.</p>
+            <p className="text-xl font-bold text-red-600 mt-4">But it could save your marriage.</p>
+          </div>
+
+          <p className="text-xl font-bold text-red-600">
+            Don't let ₦4,500 be the reason your marriage stays stuck.
+          </p>
+
+          <div className="my-8">
+            <Link 
+              href="#" 
+              className="bg-red-600 hover:bg-red-700 text-white text-xl font-bold py-4 px-8 rounded-lg inline-block transition duration-300 transform hover:scale-105"
+            >
+              YES! I'M READY TO REBOOT MY MARRIAGE IN 90 DAYS →
+            </Link>
+            <p className="text-sm text-gray-600 mt-2">
+              I understand I'm getting instant access to the complete system, all bonuses, and a full 90-day money-back guarantee. My investment today is just ₦4,500.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Final P.S. Section */}
+      <footer className="py-12 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
+        <div className="space-y-8 text-lg">
+          <div className="bg-blue-50 p-6 rounded-lg">
+            <p className="font-bold text-blue-700 mb-2">P.S.</p>
+            <p>Remember: This ₦4,500 pricing is limited to the first 500 couples. After that, it goes back to ₦8,500. And you'll lose the In-Laws bonus (worth ₦2,500) if you wait more than 48 hours. <Link href="#" className="text-blue-600 font-bold underline">Lock in your discount now →</Link></p>
+          </div>
+
+          <div className="bg-green-50 p-6 rounded-lg">
+            <p className="font-bold text-green-700 mb-2">P.P.S.</p>
+            <p>You have ZERO risk with the 90-Day Love-It-Or-Leave-It Guarantee. Use the entire system for three full months. If your marriage hasn't improved, email me for a full refund. No questions asked. You keep everything. The only way you lose is by not trying. <Link href="#" className="text-green-600 font-bold underline">Get started risk-free →</Link></p>
+          </div>
+
+          <div className="bg-purple-50 p-6 rounded-lg">
+            <p className="font-bold text-purple-700 mb-2">P.P.P.S.</p>
+            <p>Your spouse doesn't have to "buy in" for this to work. These influence principles work unilaterally. When YOU change how you interact, your spouse HAS to respond differently. That's psychology, not wishful thinking. Hundreds of couples have proven it. <Link href="#" className="text-purple-600 font-bold underline">See for yourself →</Link></p>
+          </div>
+
+          <div className="bg-red-50 p-6 rounded-lg">
+            <p className="font-bold text-red-700 mb-2">P.P.P.P.S.</p>
+            <p>Still not sure? Ask yourself this: Where will your marriage be in 90 days if nothing changes? What will your kids be learning about love and commitment during those 90 days? Is ₦4,500 worth giving your family a different future? I think you know the answer. <Link href="#" className="text-red-600 font-bold underline">Transform your marriage now →</Link></p>
+          </div>
+
+          <div className="my-8">
+            <Link 
+              href="#" 
+              className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white text-xl font-bold py-4 px-8 rounded-lg inline-block transition duration-300 transform hover:scale-105 shadow-lg"
+            >
+              GET INSTANT ACCESS NOW – ONLY ₦4,500
+            </Link>
+          </div>
+
+          <p className="text-xs text-gray-500 mt-8">
+            © 2025 Commander Writes Limited. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  )
+}
 
 
 
 
       {/* Final CTA Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-blue-50 rounded-lg">
+      {/* <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-blue-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
           Click the button below right now.
         </h2>
@@ -1607,10 +2087,10 @@ export default function MarriageSalesPage() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* P.S. Section */}
-      <footer className="py-12 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
+      {/* <footer className="py-12 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
         <div className="space-y-6 text-lg">
           <div>
             <p className="font-bold">P.S.</p>
@@ -1635,4 +2115,4 @@ export default function MarriageSalesPage() {
       </footer>
     </div>
   )
-}
+} */}
