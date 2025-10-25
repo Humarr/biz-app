@@ -9,7 +9,7 @@ export default function MarriageSalesPage() {
       <section className="py-6 px-4 max-w-4xl mx-auto text-center">
         <p className="italic text-lg">If you knew the <span className="text-red-600 underline">TRUE REASON</span> why most couples stop loving each other... you'd <span className=" underline">NEVER</span> see marriage the same way again. NEW research shows:</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            THE "Influence Multiplication System™" THAT REVEALS 30 PROVEN SECRETS TO INFLUENCE AND WIN YOUR PARTNER'S HEART
+            THE "Influence Multiplication System™" THAT REVEALS 30 PROVEN SECRETS TO <span className="text-red-600 underline">INFLUENCE</span> AND <span className="text-red-600 underline">WIN YOUR PARTNER'S HEART</span>
         {/* <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           How to Transform 
          
@@ -20,27 +20,27 @@ export default function MarriageSalesPage() {
           {/* —Without Expensive Counseling, Without Your Partner Having to Change First, and Without Pretending Everything is Fine When It's Not */}
         </h1>
 
-        <p className="">And now, you can use this to <span>transform</span> your marriage from surviving to thriving <span className='italic'>...in Just 90 Days</span></p>
+        <p className="text-lg">And now, you can use this to <span>transform</span> your marriage from surviving to thriving <span className='italic'>...in Just 90 Days</span></p>
 
         <p>
-            It dowsn't matter if:
+            It doesn't matter if:
           </p>
 
           <div className="grid md:grid-cols-2 gap-4">
             <div className="flex items-start">
-              <span className="text-green-500 mr-2">•</span>
+              <span className="text-red-500 mr-2 text-lg">•</span>
               <span>If you've been married for 2 years or 20</span>
             </div>
             <div className="flex items-start">
-              <span className="text-green-500 mr-2">•</span>
+              <span className="text-red-500 mr-2 text-lg">•</span>
               <span>It doesn't matter how bad things have gotten (unless there's abuse—then please get professional help)</span>
             </div>
             <div className="flex items-start">
-              <span className="text-green-500 mr-2">•</span>
+              <span className="text-red-500 mr-2 text-lg">•</span>
               <span>Your spouse is "on board" or not (you can start alone)</span>
             </div>
             <div className="flex items-start">
-              <span className="text-green-500 mr-2">•</span>
+              <span className="text-red-500 mr-2 text-lg">•</span>
               <span>You'reintroverted, extroverted, analytical, emotional (doesn't matter)</span>
             </div>
           </div>
