@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function MarriageSalesPage() {
   return (
-    <div className="bg-white text-gray-900 font-sans">
+    <div className="bg-white text-gray-900 p-2">
       {/* Hero Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center">
         <p className="italic text-lg">If you knew the <span className="text-red-600 underline">TRUE REASON</span> why most couples stop loving each other... you'd <span className=" underline">NEVER</span> see marriage the same way again. NEW research shows:</p>
