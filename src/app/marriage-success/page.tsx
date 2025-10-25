@@ -7,15 +7,43 @@ export default function MarriageSalesPage() {
     <div className="bg-white text-gray-900 font-sans">
       {/* Hero Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center">
+        <p className="italic text-lg">If you knew the <span className="text-red-600 underline">TRUE REASON</span> why most couples stop loving each other... you'd <span className=" underline">NEVER</span> see marriage the same way again. NEW research shows:</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            THE "Influence Multiplication System™" THAT REVEALS 30 PROVEN SECRETS TO INFLUENCE AND WIN YOUR PARTNER'S HEART
+        {/* <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           How to Transform 
-          {/* How to Transform  */}
+         
           <br/>
          <span className='text-green-700 text-5xl md:text-6xl'>Your Marriage </span> 
           <br/>
-          from Surviving to Thriving With my "Influence Multiplication System™" <span className='italic'>...in Just 90 Days</span>
+          from Surviving to Thriving With my "Influence Multiplication System™" <span className='italic'>...in Just 90 Days</span> */}
           {/* —Without Expensive Counseling, Without Your Partner Having to Change First, and Without Pretending Everything is Fine When It's Not */}
         </h1>
+
+        <p className="">And now, you can use this to <span>transform</span> your marriage from surviving to thriving <span className='italic'>...in Just 90 Days</span></p>
+
+        <p>
+            It dowsn't matter if:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>If you've been married for 2 years or 20</span>
+            </div>
+            <div className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>It doesn't matter how bad things have gotten (unless there's abuse—then please get professional help)</span>
+            </div>
+            <div className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>Your spouse is "on board" or not (you can start alone)</span>
+            </div>
+            <div className="flex items-start">
+              <span className="text-green-500 mr-2">•</span>
+              <span>You'reintroverted, extroverted, analytical, emotional (doesn't matter)</span>
+            </div>
+          </div>
         
         {/* <h2 className="text-xl md:text-2xl font-semibold mb-8 text-gray-800">
           The counterintuitive "Influence Multiplication System™" that's saving Nigerian marriages...
@@ -149,13 +177,14 @@ export default function MarriageSalesPage() {
       {/* Problem Identification Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          PROBLEM IDENTIFICATION:
+          {/* PROBLEM IDENTIFICATION: */}
+            Your marriage isn't failing because you're incompatible.
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Your marriage isn't failing because you're incompatible.
-          </p>
+          </p> */}
 
           <p>
             And it's not failing because Nigerian marriages are just "harder" than others (though the pressures are real).
@@ -330,13 +359,14 @@ export default function MarriageSalesPage() {
       {/* Solution Introduction */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          SOLUTION INTRODUCTION:
+          {/* SOLUTION INTRODUCTION: */}
+            Because the good news is this:
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Because the good news is this:
-          </p>
+          </p> */}
 
           <p className="text-xl font-bold text-center">
             There's a proven system for rebuilding emotional connection, rekindling romance, and transforming your marriage from surviving to thriving.
@@ -507,13 +537,14 @@ export default function MarriageSalesPage() {
       {/* Credibility Establishment Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          CREDIBILITY ESTABLISHMENT:
+          {/* CREDIBILITY ESTABLISHMENT: */}
+            Now, before I go any further, let me be clear about something:
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-          <p>
+          {/* <p>
             Now, before I go any further, let me be clear about something:
-          </p>
+          </p> */}
 
           <p className="text-xl font-bold">
             I am not a marriage counselor.
@@ -648,13 +679,14 @@ export default function MarriageSalesPage() {
       {/* Proof & Mechanism Demonstration */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-purple-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          PROOF & MECHANISM DEMONSTRATION:
+          {/* PROOF & MECHANISM DEMONSTRATION: */}
+            Let me show you exactly how this works by walking through just ONE of the 30 principles.
         </h2>
 
         <div className="space-y-8 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Let me show you exactly how this works by walking through just ONE of the 30 principles.
-          </p>
+          </p> */}
 
           <div className="bg-white p-6 rounded-lg border-l-4 border-purple-500">
             <h3 className="text-xl font-bold text-purple-700 mb-4">
@@ -934,13 +966,13 @@ export default function MarriageSalesPage() {
       {/* Full Benefit Expansion */}
       <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          FULL BENEFIT EXPANSION:
+        So what does your life actually look like after 90 days of applying the Influence Multiplication System™?
         </h2>
 
         <div className="space-y-8 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             So what does your life actually look like after 90 days of applying the Influence Multiplication System™?
-          </p>
+          </p> */}
 
           <p className="text-xl font-bold text-center">
             Let me paint you a picture...
@@ -1074,13 +1106,14 @@ export default function MarriageSalesPage() {
       {/* The Complete Offer */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          THE COMPLETE OFFER:
+          
+            So here's what I've done:
         </h2>
 
         <div className="space-y-8 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             So here's what I've done:
-          </p>
+          </p> */}
 
           <p>
             I've taken all 30 of these influence principles, organized them into the 90-Day Marriage Reboot Protocol, and packaged them into a complete system that makes transformation virtually inevitable.
@@ -1500,13 +1533,14 @@ export default function MarriageSalesPage() {
       {/* Final CTA Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-gradient-to-r from-green-50 to-blue-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
-          PRIMARY CALL TO ACTION:
+          {/* PRIMARY CALL TO ACTION: */}
+            Here's what happens next:
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed mb-8">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Here's what happens next:
-          </p>
+          </p> */}
 
           <p>
             Click the button below right now.
@@ -1589,13 +1623,14 @@ export default function MarriageSalesPage() {
       {/* Warning Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-red-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          WARNING (FUTURE PACING):
+          {/* WARNING (FUTURE PACING): */}
+            Now, before you decide, I need you to understand something important:
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Now, before you decide, I need you to understand something important:
-          </p>
+          </p> */}
 
           <p className="text-2xl font-bold text-red-600 text-center">
             Every day you wait is a day your marriage continues down its current path.
@@ -1712,13 +1747,14 @@ export default function MarriageSalesPage() {
       {/* Urgency Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-yellow-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          URGENCY (SCARCITY + CONSEQUENCE):
+          {/* URGENCY (SCARCITY + CONSEQUENCE): */}
+            Remember: This ₦4,500 offer is limited to the first 500 couples.
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Remember: This ₦4,500 offer is limited to the first 500 couples.
-          </p>
+          </p> */}
 
           <p>
             Not because I'm trying to create fake urgency.
@@ -1833,13 +1869,14 @@ export default function MarriageSalesPage() {
       {/* Benefit Restatement */}
       <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
-          BENEFIT RESTATEMENT (MOTIVATION):
+          {/* BENEFIT RESTATEMENT (MOTIVATION): */}
+            So let me remind you one more time what's waiting for you on the other side of this decision:
         </h2>
 
         <div className="space-y-8 text-lg leading-relaxed">
-          <p className="text-xl font-bold text-center">
+          {/* <p className="text-xl font-bold text-center">
             So let me remind you one more time what's waiting for you on the other side of this decision:
-          </p>
+          </p> */}
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg">
@@ -1941,13 +1978,14 @@ export default function MarriageSalesPage() {
       {/* Final Call to Action */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-gradient-to-br from-green-400 to-blue-500 text-white rounded-lg">
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
-          FINAL CALL TO ACTION:
+          {/* FINAL CALL TO ACTION: */}
+            Click the button below right now.
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed mb-8">
-          <p className="text-xl font-bold">
+          {/* <p className="text-xl font-bold">
             Click the button below right now.
-          </p>
+          </p> */}
 
           <p>
             Not tomorrow. Not next week. Not "when things get really bad."
