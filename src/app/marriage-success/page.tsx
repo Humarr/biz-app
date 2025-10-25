@@ -7,12 +7,18 @@ export default function MarriageSalesPage() {
     <div className="bg-white text-gray-900 font-sans">
       {/* Hero Section */}
       <section className="py-12 px-4 max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-          How to Transform Your Marriage from Surviving to Thriving in Just 90 Days—Without Expensive Counseling, Without Your Partner Having to Change First, and Without Pretending Everything is Fine When It's Not
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+          How to Transform 
+         <span className='text-green-700 text-4xl md:5xl'>Your Marriage </span> 
+          from Surviving to Thriving in Just 90 Days
+          {/* —Without Expensive Counseling, Without Your Partner Having to Change First, and Without Pretending Everything is Fine When It's Not */}
         </h1>
         
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-800">
-          The counterintuitive "Influence Multiplication System™" that's saving Nigerian marriages by using the same psychological principles that built empires, won elections, and created loyal followings... applied to the one relationship that matters most.
+          The counterintuitive "Influence Multiplication System™" that's saving Nigerian marriages...
+          <br/>
+          <br/>
+           ...by using the same psychological principles that built empires, won elections, and created loyal followings... applied to the one relationship that matters most.
         </h2>
       </section>
 
