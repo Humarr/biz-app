@@ -6,7 +6,7 @@ export default function MarriageSalesPage() {
   return (
     <div className="bg-white text-gray-900 font-sans">
       {/* Hero Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
           How to Transform 
          <span className='text-green-700 text-4xl md:5xl'>Your Marriage </span> 
@@ -22,10 +22,10 @@ export default function MarriageSalesPage() {
         </h2>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Lead Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
             Lagos, 11:47 PM.
@@ -141,10 +141,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Problem Identification Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           PROBLEM IDENTIFICATION:
         </h2>
@@ -322,10 +322,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Solution Introduction */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           SOLUTION INTRODUCTION:
         </h2>
@@ -499,10 +499,10 @@ export default function MarriageSalesPage() {
 
 
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Credibility Establishment Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           CREDIBILITY ESTABLISHMENT:
         </h2>
@@ -640,10 +640,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Proof & Mechanism Demonstration */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-purple-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-purple-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           PROOF & MECHANISM DEMONSTRATION:
         </h2>
@@ -926,10 +926,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Full Benefit Expansion */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      <section className="py-6 px-4 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           FULL BENEFIT EXPANSION:
         </h2>
@@ -1066,10 +1066,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* The Complete Offer */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           THE COMPLETE OFFER:
         </h2>
@@ -1495,7 +1495,7 @@ export default function MarriageSalesPage() {
       {/* The pattern continues exactly as above with proper spacing and formatting */}
 
       {/* Final CTA Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-gradient-to-r from-green-50 to-blue-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-gradient-to-r from-green-50 to-blue-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
           PRIMARY CALL TO ACTION:
         </h2>
@@ -1581,10 +1581,10 @@ export default function MarriageSalesPage() {
       {/* The remaining sections (Warning, Urgency, Benefit Restatement, Final CTA) continue in the same pattern */}
 
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Warning Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-red-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-red-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           WARNING (FUTURE PACING):
         </h2>
@@ -1704,10 +1704,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Urgency Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-yellow-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-yellow-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           URGENCY (SCARCITY + CONSEQUENCE):
         </h2>
@@ -1825,10 +1825,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Benefit Restatement */}
-      <section className="py-12 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto bg-green-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center">
           BENEFIT RESTATEMENT (MOTIVATION):
         </h2>
@@ -1933,10 +1933,10 @@ export default function MarriageSalesPage() {
         </div>
       </section>
 
-      <hr className="my-12 border-gray-300 max-w-4xl mx-auto" />
+      <hr className="my-6 border-gray-300 max-w-4xl mx-auto" />
 
       {/* Final Call to Action */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-gradient-to-br from-green-400 to-blue-500 text-white rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-gradient-to-br from-green-400 to-blue-500 text-white rounded-lg">
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
           FINAL CALL TO ACTION:
         </h2>
@@ -1970,7 +1970,7 @@ export default function MarriageSalesPage() {
       </section>
 
       {/* Still Here Section */}
-      <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-gray-50 rounded-lg">
+      <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-gray-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
           Still here?
         </h2>
@@ -2023,7 +2023,7 @@ export default function MarriageSalesPage() {
       </section>
 
       {/* Final P.S. Section */}
-      <footer className="py-12 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
+      <footer className="py-6 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
         <div className="space-y-8 text-lg">
           <div className="bg-blue-50 p-6 rounded-lg">
             <p className="font-bold text-blue-700 mb-2">P.S.</p>
@@ -2067,7 +2067,7 @@ export default function MarriageSalesPage() {
 
 
       {/* Final CTA Section */}
-      {/* <section className="py-12 px-4 max-w-4xl mx-auto text-center bg-blue-50 rounded-lg">
+      {/* <section className="py-6 px-4 max-w-4xl mx-auto text-center bg-blue-50 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-8">
           Click the button below right now.
         </h2>
@@ -2096,7 +2096,7 @@ export default function MarriageSalesPage() {
       </section> */}
 
       {/* P.S. Section */}
-      {/* <footer className="py-12 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
+      {/* <footer className="py-6 px-4 max-w-4xl mx-auto text-center border-t border-gray-300">
         <div className="space-y-6 text-lg">
           <div>
             <p className="font-bold">P.S.</p>
