@@ -59,7 +59,10 @@ export default function MarriageSalesPage() {
       <section className="py-6 px-4 max-w-4xl mx-auto">
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
-            Lagos, 11:47 PM.
+            I will like to tell you a story about my client, Folake. I promise to make it short.
+          </p>
+          <p>
+           It was 11:47 PM in Lagos,.
           </p>
 
           <p>
