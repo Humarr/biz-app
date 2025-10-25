@@ -126,7 +126,7 @@ export default function MarriageSalesPage() {
           </p>
 
           <p className="text-xl font-bold">
-            She discovered the 30 micro-influence principles that make people WANT to move toward you instead of away from you.
+            She discovered the 30 micro-influence principles that make your partner WANT to move toward you instead of away from you.
           </p>
 
           <p>
