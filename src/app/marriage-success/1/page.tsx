@@ -281,6 +281,29 @@ export default function SalesPage() {
           
           <div className="space-y-12">
             <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-600">
+              <p className="text-lg italic mb-4">"I was skeptical. My husband and I have been married for 16 years and we'd tried everything—counseling, marriage retreats, those 'relationship workbooks' that just made us fight more. But something about this book was different. The principles actually made sense psychologically. Within two weeks of applying the appreciation technique from Chapter 2, my husband started being more affectionate. Within a month, we were talking like we used to. It's been six months now and I can honestly say we're happier than we've been in a decade. This book didn't just help our marriage—it saved it."</p>
+              <p className="font-bold">— Balqees M., Ilorin</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-600">
+              <p className="text-lg italic mb-4">"I thought I knew everything about my husband after 12 years together. This book showed me I'd stopped being curious about him—I'd stopped really seeing him. The 'genuine interest' principle in Chapter 4 gave me specific questions to ask and ways to show I care about his world. Now he comes home excited to talk to me instead of disappearing into his phone. It's like we're dating again, except better because we have all this history together."</p>
+              <p className="font-bold">— Haleemah D., Kano</p>
+            </div>
+
+                <p className="text-xl font-bold my-4 text-center">That's not all...</p>
+
+            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-600">
+              <p className="text-lg italic mb-4">"I'm a medical doctor, so I'm naturally skeptical of anything that sounds too good to be true. But these aren't feel-good platitudes—they're actual psychological principles with real mechanisms. The chapter on letting your partner do most of the talking changed how I approach every conversation with my wife. I learned more about her in three weeks than I had in three years. If you're analytical like me and you need to understand the 'why' behind advice, this book is for you."</p>
+              <p className="font-bold">— Bayo O., Lagos</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-600">
+              <p className="text-lg italic mb-4">"My wife bought this book and asked me to read it. I rolled my eyes—another relationship book, great. But I read the first chapter and I was hooked. It's not written like typical relationship advice. It's practical, it's smart, and most importantly, it WORKS. The principle about avoiding arguments (Chapter 9) has completely changed our home. We haven't had a real fight in two months. We still disagree, but now we actually solve problems instead of just hurting each other."</p>
+              <p className="font-bold">— Tunde B., Lagos</p>
+            </div>
+
+            <p className="text-xl font-bold my-4 text-center">There's still more...</p>
+
+
+            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-600">
               <p className="text-lg italic mb-4">"After 8 years of marriage, we'd become polite strangers. My husband worked late, I managed the house, and we barely talked beyond logistics. Three months after reading this book and practicing the principles, something shifted. He started coming home earlier. We started talking—really talking—again. Our friends have noticed the difference. We're not just managing anymore. We're actually enjoying each other."</p>
               <p className="font-bold">— Adunni A., Lagos</p>
             </div>
@@ -289,6 +312,8 @@ export default function SalesPage() {
               <p className="text-lg italic mb-4">"I was skeptical. I've read relationship books before—all that foreign psychology that doesn't account for Nigerian realities. But this was different. The principles are simple but powerful. The '90-day challenge' structure kept me accountable. And the crazy thing? My wife started changing her behavior toward me WITHOUT even reading the book. Just from me applying these principles first. That's when I realized this actually works."</p>
               <p className="font-bold">— Emeka O., Abuja</p>
             </div>
+
+            <p className="text-xl font-bold my-4 text-center">I'm not finished...</p>
 
             <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-600">
               <p className="text-lg italic mb-4">"We were fighting about money constantly. Every conversation about finances ended in accusations and resentment. Chapter 14 on 'How to Disagree Without Damaging Love' changed everything. We learned how to have difficult conversations without attacking each other. We still don't agree on everything, but now we can actually work through it together instead of just fighting and shutting down."</p>
