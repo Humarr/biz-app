@@ -356,7 +356,7 @@ export default function LoveMarriageSalesPage() {
           <div className="space-y-6 text-lg leading-relaxed">
             <p className="text-xl font-bold"><strong>Here's what it means:</strong></p>
             {/* <p>Here's what it means:</p> */}
-            <p>When you practice proven relationship principles the right way—one at a time, systematically, over 90 days—you start ingraining new patterns into your marriage.</p>
+            {/* <p>When you practice proven relationship principles the right way—one at a time, systematically, over 90 days—you start ingraining new patterns into your marriage.</p>
             <p>You begin to replace:</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-6">
@@ -401,7 +401,7 @@ export default function LoveMarriageSalesPage() {
             <p>Because...</p>
           </div>
         </div>
-      </section> */}
+      </section>  */}
 
       {/* Testimonials Section - COMPLETE */}
       <section className="py-6 px-4 bg-white">
