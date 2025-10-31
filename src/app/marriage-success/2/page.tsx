@@ -509,7 +509,7 @@ export default function LoveMarriageSalesPage() {
       {/* Main Offer Section */}
       <section className="py-6 px-4 bg-gradient-to-r from-red-600 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Get <em>30 Secrets to Win at Love & Marriage</em> — A Systematic, Skill-Based Framework for Transforming Your Relationship from Surviving to Thriving</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Get <em>30 Secrets to Win at Love & Marriage</em> — A Systematic Framework for Transforming Your Relationship from Surviving to Thriving</h2>
           
           <div className="space-y-6 text-lg leading-relaxed text-center">
             {/* <p className="text-2xl font-bold">Get <em>30 Principles to Win at Love & Marriage</em> — A Systematic, Skill-Based Framework for Transforming Your Relationship from Surviving to Thriving</p> */}
