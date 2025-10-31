@@ -274,8 +274,8 @@ export default function LoveMarriageSalesPage() {
             </ul>
 
             <p className="text-xl font-bold"><strong>This is where skill-based marriage principles come into play.</strong></p>
-            <p>And one person who has mastered this approach—applying timeless human relations principles specifically to Nigerian marriages—is…</p>
-            <p>My research partner and the inspiration behind structuring these 30 principles systematically.</p>
+            {/* <p>And one person who has mastered this approach—applying timeless human relations principles specifically to Nigerian marriages—is…</p>
+            <p>My research partner and the inspiration behind structuring these 30 principles systematically.</p> */}
           </div>
         </div>
       </section>
@@ -290,7 +290,7 @@ export default function LoveMarriageSalesPage() {
             <p>Couples whose marriages didn't just survive—they <em>thrived</em>.</p>
             <p>And I noticed a pattern:</p>
             <p className="text-xl font-bold"><strong>They all practiced the same core principles.</strong></p>
-            <p>Not because they read them in a book (many hadn't). But because they'd figured out through trial and error what actually works.</p>
+            {/* <p>Not because they read them in a book (many hadn't). But because they'd figured out through trial and error what actually works.</p> */}
             <p>Principles like:</p>
             
             <ul className="space-y-3 ml-6">
@@ -313,8 +313,8 @@ export default function LoveMarriageSalesPage() {
             </ul>
 
             <p>These aren't complicated psychological theories.</p>
-            <p className="text-xl font-bold"><strong>These are practical, proven, repeatable skills.</strong></p>
-            <p>The same principles Dale Carnegie taught about human relations—adapted specifically for the intimacy and complexity of marriage.</p>
+            <p className="text-xl font-bold"><strong>These are practical, proven, guaranteed skills.</strong></p>
+            {/* <p>The same principles Dale Carnegie taught about human relations—adapted specifically for the intimacy and complexity of marriage.</p> */}
             {/* <p>And the results speak for themselves...</p> */}
           </div>
         </div>
@@ -325,7 +325,7 @@ export default function LoveMarriageSalesPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">And the results speak for themselves...</h2>
           
-          <div className="space-y-6 text-lg leading-relaxed">
+          {/* <div className="space-y-6 text-lg leading-relaxed">
             <p>So…</p>
             <p>Yes, a lot of marriage counselors and relationship experts have sworn on…</p>
             <p>How "communication" and "understanding love languages" will save your marriage.</p>
@@ -344,12 +344,12 @@ export default function LoveMarriageSalesPage() {
             <p className="text-xl font-bold"><strong>But the couples who thrive use a different approach.</strong></p>
             <p>They don't just read about principles. They <em>practice</em> them systematically.</p>
             <p>And it was what relationship researchers have proven time and again:</p>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* The Mechanism Explained Deeper Section */}
-      <section className="py-6 px-4 bg-blue-50">
+      {/* <section className="py-6 px-4 bg-blue-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">The Skill-Building Approach</h2>
           
@@ -401,7 +401,7 @@ export default function LoveMarriageSalesPage() {
             <p>Because...</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section - COMPLETE */}
       <section className="py-6 px-4 bg-white">
