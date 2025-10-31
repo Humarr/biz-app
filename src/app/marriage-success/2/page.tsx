@@ -829,7 +829,8 @@ export default function LoveMarriageSalesPage() {
       </section>
 
       {/* Bonuses Section - COMPLETE */}
-      <section className="py-6 px-4 bg-gradient-to-br from-purple-600 to-blue-600 text-white">
+      <section className="py-6 px-4 bg-blue-950 text-white">
+      {/* <section className="py-6 px-4 bg-gradient-to-br from-purple-600 to-blue-600 text-white"> */}
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">And here's the best part...</h2>
           
@@ -1126,7 +1127,7 @@ export default function LoveMarriageSalesPage() {
           <p className="text-xl font-bold mb-8">Here's the button to get instant access:</p>
           
           <Link 
-            href="#" 
+            href="https://selar.com/marriage-success" 
             className="inline-block bg-green-600 hover:bg-green-700 text-white text-2xl font-bold py-6 px-12 rounded-lg transition-colors duration-300 shadow-2xl mb-6"
           >
             GET INSTANT ACCESS FOR ₦6500
@@ -1369,7 +1370,7 @@ export default function LoveMarriageSalesPage() {
 
           <div className="mt-12">
             <Link 
-              href="#" 
+              href="https://selar.com/marriage-success" 
               className="inline-block bg-green-600 hover:bg-green-700 text-white text-2xl font-bold py-6 px-12 rounded-lg transition-colors duration-300 shadow-2xl mb-4"
             >
               YES — TRANSFORM MY MARRIAGE NOW
