@@ -1228,7 +1228,7 @@ export default function LoveMarriageSalesPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-2">"Will This Book Really Help Me Revivie My Marriage?"</h3>
+              <h3 className="text-xl font-bold mb-2">"Will This Book Really Help Me Revive My Marriage?"</h3>
               {/* <p className="font-bold mb-2">No, and here's why that's actually better for you.</p> */}
               <p>This book focuses on timeless human relations principles that have worked for decades.</p>
               <p>These principles work because they tap into fundamental human needs:</p>
