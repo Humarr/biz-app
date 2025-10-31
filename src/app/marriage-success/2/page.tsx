@@ -804,7 +804,7 @@ export default function LoveMarriageSalesPage() {
               <p>You see, reading principles is great on its own, because of all the insights you'll gain.</p>
               <p className="text-xl font-bold"><strong>But reading isn't complete when you only consume and don't apply.</strong></p>
               <p>Because application is what transforms knowledge into results.</p>
-              <p>It will show you:</p>
+              <p>I will show you:</p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                 <p className="flex items-start">
@@ -1228,9 +1228,9 @@ export default function LoveMarriageSalesPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-2">"Does this include advice on using AI for marriage?"</h3>
-              <p className="font-bold mb-2">No, and here's why that's actually better for you.</p>
-              <p>This book focuses on timeless human relations principles that have worked for decades—long before AI, long before the internet, long before modern relationship psychology.</p>
+              <h3 className="text-xl font-bold mb-2">"Will This Book Really Help Me Revivie My Marriage?"</h3>
+              {/* <p className="font-bold mb-2">No, and here's why that's actually better for you.</p> */}
+              <p>This book focuses on timeless human relations principles that have worked for decades.</p>
               <p>These principles work because they tap into fundamental human needs:</p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 ml-6">
@@ -1252,8 +1252,8 @@ export default function LoveMarriageSalesPage() {
                 </p>
               </div>
 
-              <p className="mt-4">No AI can give you that. No app can create genuine connection.</p>
-              <p className="font-bold">Once you master these core principles, your marriage transforms—not through technology, but through skill.</p>
+              <p className="mt-4">You discover how to create genuine connection with your partner.</p>
+              <p className="font-bold">Once you master these core principles, your marriage transforms.</p>
             </div>
 
             <div>
