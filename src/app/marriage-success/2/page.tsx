@@ -13,7 +13,7 @@ export default function LoveMarriageSalesPage() {
             {/* <h2 className="text-2xl md:text-3xl font-bold mb-6">HEADLINE</h2> */}
             <div className="space-y-4">
               <p className="">
-                If You're NOT Satisfied With the Condition of Your Marriage...
+                If You're NOT Satisfied With How Your Marriage is Right Now...
               </p>
               <p className="">
                 Or Maybe You've Watched The "Spark" in Your Relationship Die a Slow Death Despite Trying Everything Your Pastor, Parents, and Relationship "Gurus" Told You, Then...
@@ -231,7 +231,7 @@ export default function LoveMarriageSalesPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">My communication with my spouse improved drastically.</h2>
           
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>My communication with my spouse improved drastically.</p>
+            {/* <p>My communication with my spouse improved drastically.</p> */}
             <p>And I was able to rebuild connection even during our most stressful times.</p>
             <p>In fact, a week after applying these principles, my spouse said something that made me tear up:</p>
             <p className="italic font-bold">"I don't know what's changed in you, but... I feel like I have my partner back. Like we're us again."</p>
