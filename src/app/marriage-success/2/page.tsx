@@ -514,14 +514,14 @@ export default function LoveMarriageSalesPage() {
 
 
             {/* Book mockupl Image */}
-                        <div className="mt-20 flex justify-center">
-                          <div className="relative h-64 w-64 bg-gray-100">
+                        <div className="mt-20 mb-10 flex justify-center">
+                          <div className="relative h-128 w-128 bg-gray-100">
                             {/* Replace with your actual guarantee seal */}
                             <Image
-                              src="/mockups/secrets to winnning in love and marriage- mockup cover.png" // Replace with your image path
+                              src="/mockups/marriage-cover.png" // Replace with your image path
                               alt="30 Secrets to Win at Love & Marriage mockup"
                               fill
-                              className="object-contain"
+                              className="object-cover"
                             />
                           </div>
                         </div>
