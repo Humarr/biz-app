@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
+import Image from "next/image"
 
 export default function LoveMarriageSalesPage() {
   return (
@@ -510,6 +511,20 @@ export default function LoveMarriageSalesPage() {
       <section className="py-6 px-4 bg-gradient-to-r from-red-600 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Get <em>30 Secrets to Win at Love & Marriage</em> — A Systematic Framework for Transforming Your Relationship from Surviving to Thriving</h2>
+
+
+            {/* Book mockupl Image */}
+                        <div className="mt-20 flex justify-center">
+                          <div className="relative h-64 w-64 bg-gray-100">
+                            {/* Replace with your actual guarantee seal */}
+                            <Image
+                              src="/mockups/secrets to winnning in love and marriage- mockup cover.png" // Replace with your image path
+                              alt="30 Secrets to Win at Love & Marriage mockup"
+                              fill
+                              className="object-contain"
+                            />
+                          </div>
+                        </div>
           
           <div className="space-y-6 text-lg leading-relaxed text-center">
             {/* <p className="text-2xl font-bold">Get <em>30 Principles to Win at Love & Marriage</em> — A Systematic, Skill-Based Framework for Transforming Your Relationship from Surviving to Thriving</p> */}
@@ -1066,6 +1081,19 @@ export default function LoveMarriageSalesPage() {
           <div className="bg-white/10 p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-6 text-yellow-400">The 90-Day "Transform or Refund" Guarantee</h3>
             
+  {/* Guarantee Seal Image */}
+              <div className="mt-20 flex justify-center">
+                <div className="relative h-64 w-64 bg-gray-100">
+                  {/* Replace with your actual guarantee seal */}
+                  <Image
+                    src="/guarantee-seal.png" // Replace with your image path
+                    alt="90-Day Money-Back Guarantee"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+
             <div className="space-y-6 text-lg">
               <p>Get the book. Read it thoroughly. Practice the principles consistently for 90 days.</p>
               <p>If after 90 days of genuine application you haven't seen measurable improvement—if your relationship hasn't shifted, if your partner isn't responding differently, if you haven't grown—then I don't want your money.</p>
