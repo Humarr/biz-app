@@ -509,7 +509,7 @@ export default function LoveMarriageSalesPage() {
       {/* Main Offer Section */}
       <section className="py-6 px-4 bg-gradient-to-r from-red-600 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Get <em>30 Principles to Win at Love & Marriage</em> — A Systematic, Skill-Based Framework for Transforming Your Relationship from Surviving to Thriving</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Get <em>30 Secrets to Win at Love & Marriage</em> — A Systematic, Skill-Based Framework for Transforming Your Relationship from Surviving to Thriving</h2>
           
           <div className="space-y-6 text-lg leading-relaxed text-center">
             {/* <p className="text-2xl font-bold">Get <em>30 Principles to Win at Love & Marriage</em> — A Systematic, Skill-Based Framework for Transforming Your Relationship from Surviving to Thriving</p> */}
@@ -548,7 +548,7 @@ export default function LoveMarriageSalesPage() {
       {/* What You Get Section - COMPLETE BULLETS */}
       <section className="py-6 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Here's Everything Included in <em>30 Principles to Win at Love & Marriage</em>:</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Here's Everything Included in <em>30 Secrets to Win at Love & Marriage</em>:</h2>
           
           <div className="space-y-8">
             <div className="text-center mb-8">
@@ -979,7 +979,7 @@ export default function LoveMarriageSalesPage() {
               
               <div className="space-y-3 text-left max-w-md mx-auto">
                 <div className="flex justify-between">
-                  <span>Main Book: 30 Principles + 90-Day Framework</span>
+                  <span>Main Book: 30 Secrets + 90-Day Framework</span>
                   <span className="font-bold">= ₦12,000</span>
                 </div>
                 <div className="flex justify-between">
@@ -1041,6 +1041,43 @@ export default function LoveMarriageSalesPage() {
         </div>
       </section>
 
+      {/* Urgency Section */}
+      <section className="py-6 px-4 bg-yellow-500 text-black text-center">
+        <div className="max-w-4xl mx-auto">
+          {/* <h2 className="text-2xl md:text-3xl font-bold mb-8">Once again…</h2> */}
+          {/* <p className="text-xl mb-8">Once again…</p> */}
+          <p className="text-xl font-bold mb-8">Here's the button to get instant access:</p>
+          
+          <Link 
+            href="https://selar.com/marriage-success" 
+            className="inline-block bg-green-600 hover:bg-green-700 text-white text-2xl font-bold py-6 px-12 rounded-lg transition-colors duration-300 shadow-2xl mb-6"
+          >
+            GET INSTANT ACCESS FOR ₦6500
+          </Link>
+          <p className="text-lg font-bold">(Instant PDF download + all 4 bonuses included)</p>
+        </div>
+      </section>
+
+      {/* Guarantee Section */}
+      <section className="py-6 px-4 bg-blue-600 text-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">And to keep your mind at rest, I announce to you...</h2>
+          
+          <div className="bg-white/10 p-8 rounded-lg text-center">
+            <h3 className="text-2xl font-bold mb-6 text-yellow-400">The 90-Day "Transform or Refund" Guarantee</h3>
+            
+            <div className="space-y-6 text-lg">
+              <p>Get the book. Read it thoroughly. Practice the principles consistently for 90 days.</p>
+              <p>If after 90 days of genuine application you haven't seen measurable improvement—if your relationship hasn't shifted, if your partner isn't responding differently, if you haven't grown—then I don't want your money.</p>
+              <p className="text-xl font-bold">Simply email me within 90 days and I'll refund every naira.</p>
+              <p className="font-bold">No questions. No hassle. No hard feelings.</p>
+              <p className="text-2xl font-bold text-yellow-400 mt-6">Either this system transforms your marriage, or you pay nothing.</p>
+              <p className="text-xl font-bold mt-6">Fair?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* The Choice Section */}
       <section className="py-6 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
@@ -1070,7 +1107,7 @@ export default function LoveMarriageSalesPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-6 mt-4">
                 <p className="flex items-start">
                   <span className="mr-3 text-green-600">✓</span>
-                  <span>30 proven principles organized into a clear system</span>
+                  <span>30 proven secrets organized into a clear system</span>
                 </p>
                 <p className="flex items-start">
                   <span className="mr-3 text-green-600">✓</span>
@@ -1137,7 +1174,7 @@ export default function LoveMarriageSalesPage() {
       </section>
 
       {/* Guarantee Section */}
-      <section className="py-6 px-4 bg-blue-600 text-white">
+      {/* <section className="py-6 px-4 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">And to keep your mind at rest, I announce...</h2>
           
@@ -1154,7 +1191,7 @@ export default function LoveMarriageSalesPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section - COMPLETE */}
       <section className="py-6 px-4 bg-gray-100 text-gray-900">
