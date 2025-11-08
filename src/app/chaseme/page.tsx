@@ -207,25 +207,25 @@ export default function SalesPage() {
         {/* Second Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • The dirty little secret about "good morning" texts - why the same message that makes your mom smile makes women with options lose interest instantly
+            ➳ The dirty little secret about "good morning" texts - why the same message that makes your mom smile makes women with options lose interest instantly
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • A secret psychological trigger that makes you as addictive as a slot machine to her brain - but only if you use it correctly
+            ➳ A secret psychological trigger that makes you as addictive as a slot machine to her brain - but only if you use it correctly
           </li>
           <li className="text-lg text-gray-800">
-            • The secret reason women chase men who do this ONE thing while ignoring other guys- it has nothing to do with playing games
+            ➳ The secret reason women chase men who do this ONE thing while ignoring other guys- it has nothing to do with playing games
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • Secrets of men who get women to obsess over them - while other guys sit around waiting for responses that never come
+            ➳ Secrets of men who get women to obsess over them - while other guys sit around waiting for responses that never come
           </li>
           <li className="text-lg text-gray-800">
-            • The secret frame that makes her eager to win YOUR approval - shift this once and everything changes
+            ➳ The secret frame that makes her eager to win YOUR approval - shift this once and everything changes
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • A secret method for ending conversations that leaves her staring at her phone wishing you hadn't stopped talking (most men do the opposite)
+            ➳ A secret method for ending conversations that leaves her staring at her phone wishing you hadn't stopped talking (most men do the opposite)
           </li>
           <li className="text-lg text-gray-800">
-            • The hidden reason your availability is killing her attraction - even though being always available seems like the "right" thing to do
+            ➳ The hidden reason your availability is killing her attraction - even though being always available seems like the "right" thing to do
           </li>
         </ul>
 
@@ -236,19 +236,19 @@ export default function SalesPage() {
         {/* Third Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • How a tiny "tweak" in how you respond to her texts can dramatically jack up her desire for you!
+            ✦ How a tiny "tweak" in how you respond to her texts can dramatically jack up her desire for you!
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • In less than 60 seconds, you can use the "Strategic Exit" to make her think about you for hours after a conversation ends - while other guys drag things out until she's bored
+            ✦ In less than 60 seconds, you can use the "Strategic Exit" to make her think about you for hours after a conversation ends - while other guys drag things out until she's bored
           </li>
           <li className="text-lg text-gray-800">
-            • One simple question format that makes her work to prove she's interesting enough for YOU - instead of you interviewing her like every other desperate guy
+            ✦ One simple question format that makes her work to prove she's interesting enough for YOU - instead of you interviewing her like every other desperate guy
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • A little-known psychological principle called "loss aversion" that makes her chase you harder than any compliment or romantic gesture ever could
+            ✦ A little-known psychological principle called "loss aversion" that makes her chase you harder than any compliment or romantic gesture ever could
           </li>
           <li className="text-lg text-gray-800">
-            • How one text pattern (that takes zero extra effort) creates uncertainty that keeps her checking her phone obsessively to see if you've responded
+            ✦ How one text pattern (that takes zero extra effort) creates uncertainty that keeps her checking her phone obsessively to see if you've responded
           </li>
         </ul>
 
@@ -259,13 +259,13 @@ export default function SalesPage() {
         {/* Fourth Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • A tiny little phrase you can use when she flakes that will either make her respect your time going forward - or expose she was never serious so you stop wasting energy
+            ➔ A tiny little phrase you can use when she flakes that will either make her respect your time going forward - or expose she was never serious so you stop wasting energy
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • A tiny adjustment to your response time that will make your attention feel valuable instead of desperate - most men do the opposite
+            ➔ A tiny adjustment to your response time that will make your attention feel valuable instead of desperate - most men do the opposite
           </li>
           <li className="text-lg text-gray-800">
-            • A tiny frame shift in the first conversation that will position you outside the competition entirely - so she's not even comparing you to other men
+            ➔ A tiny frame shift in the first conversation that will position you outside the competition entirely - so she's not even comparing you to other men
           </li>
         </ul>
 
@@ -290,19 +290,19 @@ export default function SalesPage() {
         {/* Sixth Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • A little-known texting rule that will prevent you from looking needy even if you ARE sitting around with nothing to do - it's not about waiting longer to respond
+            ✓ A little-known texting rule that will prevent you from looking needy even if you ARE sitting around with nothing to do - it's not about waiting longer to respond
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • A little-known fact about women with options - they're actually EASIER to attract once you understand the one psychological trigger they all share
+            ✓ A little-known fact about women with options - they're actually EASIER to attract once you understand the one psychological trigger they all share
           </li>
           <li className="text-lg text-gray-800">
-            • A little-known mistake men make when women complain to them that lands them directly in the friend zone - while smarter men use the same situation to build attraction
+            ✓ A little-known mistake men make when women complain to them that lands them directly in the friend zone - while smarter men use the same situation to build attraction
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • The only way to make a woman choose you over men who are richer, better-looking, or got to her first - without looking stupid
+            ✓ The only way to make a woman choose you over men who are richer, better-looking, or got to her first - without looking stupid
           </li>
           <li className="text-lg text-gray-800">
-            • Why men who have their lives together still lose women to guys who do the bare minimum - and the one thing those "lazy" guys understand that you don't
+            ✓ Why men who have their lives together still lose women to guys who do the bare minimum - and the one thing those "lazy" guys understand that you don't
           </li>
         </ul>
 
@@ -313,19 +313,19 @@ export default function SalesPage() {
         {/* Seventh Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • How to make her fear losing you- instead of you panicking when she doesn't respond to you
+            ★ How to make her fear losing you- instead of you panicking when she doesn't respond to you
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • How to "delete" yourself from her roster of "guys who are chasing me" and create your own special place in her mind where you're the only option
+            ★ How to "delete" yourself from her roster of "guys who are chasing me" and create your own special place in her mind where you're the only option
           </li>
           <li className="text-lg text-gray-800">
-            • How one sentence can flip her from taking hours to respond to texting you first every morning - without you changing anything about your looks or money
+            ★ How one sentence can flip her from taking hours to respond to texting you first every morning - without you changing anything about your looks or money
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • How to spot the exact moment she's putting you in the "just another guy" category - so you can up your game before it's too late (or dump her!)
+            ★ How to spot the exact moment she's putting you in the "just another guy" category - so you can up your game before it's too late (or dump her!)
           </li>
           <li className="text-lg text-gray-800">
-            • How to text in a way that gives her sleepless nights until she sees you in person…
+            ★ How to text in a way that gives her sleepless nights until she sees you in person…
           </li>
         </ul>
 
