@@ -58,7 +58,7 @@ export default function SalesPage() {
         <p className="text-lg font-semibold text-gray-800 mb-6">
           {/* Have you ever spent weeks texting a woman, taking her out, doing everything "right"... only for her to ditch you the moment some other guy shows up?
         </p> */}
-          Have you ever appropached a lady only for her to snub you like you're a mosquito?
+          Have you ever approached a lady you like... only for her to snub you like you're a mosquito?
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -70,14 +70,26 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You see a beautiful lady you like and when you approach her, she doesn't even pay you even a TINY bit of attention. And when you text her, she ignores your message and leaves you "on read"
-        </p>
+          {/* You see a beautiful lady you like and when you approach her, she doesn't even pay you even a TINY bit of attention. And when you text her, she ignores your message or.. leaves you "on read" */}
+
+          You gather the courage, walk up to her, and say something you have been rehearsing in your head for weeks... 
+          </p>
+
         <p className="text-lg text-gray-800 mb-6">
-          It's very very painful...
+          ...and she "eyes" at you with a cold dismissive look that you wished the ground could swallow you ASAP...
+        </p>
+
+<p className='text-lg text-gray-800 mb-6' >And when you text her, she ignores your message or.. leaves you "on read"</p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          It's very very painful meeehnnnn...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
           The problem is, when we were growing up, no one taught us the real "sneaky" truth behind how women think…
+        </p>
+        <p className="text-lg text-gray-800 mb-6">
+          ...and how we can use female psychology to make the women we like to return the vibe - even if there are "one million" guys in her DMs right now…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -354,7 +366,39 @@ export default function SalesPage() {
           </li>
         </ul>
 
-        <p className="text-xl font-bold text-center text-gray-800 mb-8">
+        <ul className="space-y-4 mb-8">
+          <li className="text-lg text-gray-800 font-bold">
+            • How to challenge a woman intellectually without being rude - the teasing technique that makes you the only guy NOT agreeing with everything she says
+          </li>
+          <li className="text-lg text-gray-800 font-bold">
+            • The Engagement Loop - the back-and-forth rhythm that keeps conversations flowing naturally while making HER invest effort to keep YOUR interest
+          </li>
+        </ul>
+
+        <p className="text-xl font-semibold text-center text-gray-800 mb-8">
+          It gets juicier...
+        </p>
+
+        <ul className="space-y-4 mb-8">
+          <li className="text-lg text-gray-800 font-bold">
+            • The three core questions she's asking herself about you that determine if you're just another guy or someone she'll actually chase
+          </li>
+          <li className="text-lg text-gray-800 font-bold">
+            • Scarcity value - how to make your time and attention scarce enough that she FIGHTS for access to you (instead of taking you for granted)
+          </li>
+          <li className="text-lg text-gray-800 font-bold">
+            • The curiosity spike - what to say after your opening that makes her want to ask YOU questions instead of waiting for you to interview her
+          </li>
+          <li className="text-lg text-gray-800 font-bold">
+            • How to transition from "talking stage" to something real without getting friend-zoned - the escalation window most men completely miss
+          </li>
+          <li className="text-lg text-gray-800 font-bold">
+            • Why being "understanding and patient" when she flakes actually guarantees she'll keep flaking (and what to do instead that makes her respect your time)
+          </li>
+        </ul>
+
+
+        <p className="text-2xl font-bold text-center text-gray-800 mb-8">
           And MANY more!
         </p>
 
