@@ -7,7 +7,7 @@ export default function SalesPage() {
       <div className="max-w-4xl mx-auto px-6 py-12">
         
         {/* Warning Header */}
-        <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
+        <p className="text-gray-900 mb-6 leading-tight text-center font-bold italic">
           Attention: If You Knew The <span className="underline text-red-600">TRUE REASON</span>  Why Ladies Choose Other Guys Over You, You'd <span className="underline text-red-600">NEVER</span> See Women The Same Way Again...
         </p>
         {/* <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
