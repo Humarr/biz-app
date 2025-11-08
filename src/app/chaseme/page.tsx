@@ -8,11 +8,11 @@ export default function SalesPage() {
         
         {/* Warning Header */}
         <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
-          Attention: If You Knew The <span className="underline text-red-600">TRUE</span> Reason Why Ladies Choose Other Guys Over You, You'd <span className="underline text-red-600">NEVER</span> See Women The Same Way Again
+          Attention: If You Knew The <span className="underline text-red-600">TRUE REASON</span>  Why Ladies Choose Other Guys Over You, You'd <span className="underline text-red-600">NEVER</span> See Women The Same Way Again...
         </p>
-        <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
+        {/* <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
           Female Psychology Expert says... 
-        </p>
+        </p> */}
 
         {/* Main Headline */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-red-600 mb-8 leading-tight">
