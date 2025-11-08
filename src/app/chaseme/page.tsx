@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export default function SalesPage() {
   return (
-    <div className="min-h-screen bg-white font-modern">
+    <div className="min-h-screen bg-white font-classic">
       <div className="max-w-4xl mx-auto px-6 py-12">
         
         {/* Warning Header */}
         <p className="text-gray-900 mb-6 leading-tight text-center font-bold italic">
-          Attention: If You Knew The <span className="underline text-red-600">TRUE REASON</span>  Why Ladies Choose Other Guys Over You, You'd <span className="underline text-red-600">NEVER</span> See Women The Same Way Again...
+          Attention: If You Knew The <span className="underline text-red-600">TRUE REASON</span>  Why Ladies Choose Other Guys Over Ohers, You'd <span className="underline text-red-600">NEVER</span> See Women The Same Way Again...
         </p>
         {/* <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
           Female Psychology Expert says... 
@@ -16,7 +16,7 @@ export default function SalesPage() {
 
         {/* Main Headline */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-red-600 mb-8 leading-tight">
-          Warning: Do Not Read This If You Have Moral, Ethical, or Personal Reasons Against Making Women Chase You Instead of Being Their "Backup Option"…
+          Warning: Do Not Read This...<br/> <br/> If You Have Moral, Ethical, or Personal Reasons Against...<br/> <br/> Making Her Choose You Instead of Being Her "Backup Option"…
         </h2>
 
        <p className="text-xl italic font-bold text-gray-800 mb-4">
@@ -51,12 +51,14 @@ export default function SalesPage() {
 <hr/>
 
         {/* Letter Opening */}
-        <p className="text-lg font-bold text-gray-800 mb-6 mt-16">
-          Dear Friend,
+        <p className="text-xl font-bold text-gray-800 mb-6 mt-16">
+          My Guy,
         </p>
 
         <p className="text-lg font-semibold text-gray-800 mb-6">
-          Have you ever spent weeks texting a woman, taking her out, doing everything "right"... only for her to ditch you the moment some other guy shows up?
+          {/* Have you ever spent weeks texting a woman, taking her out, doing everything "right"... only for her to ditch you the moment some other guy shows up?
+        </p> */}
+          Have you ever appropached a lady only for her to snub you like you're a mosquito?
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -68,11 +70,14 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You think you're building something real, then BOOM – she's "too busy" to text back, but somehow she's got time to post stories with some new dude she just met.
+          You see a beautiful lady you like and when you approach her, she doesn't even pay you even a TINY bit of attention. And when you text her, she ignores your message and leaves you "on read"
+        </p>
+        <p className="text-lg text-gray-800 mb-6">
+          It's very very painful...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          The problem is, when we were growing up, no one taught us the real "sneaky" truth behind female psychology…
+          The problem is, when we were growing up, no one taught us the real "sneaky" truth behind how women think…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -80,7 +85,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Here's what most guys don't understand about women:
+          Here's what most guys don't understand about how women think:
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
@@ -159,7 +164,7 @@ export default function SalesPage() {
           And once you flip this one switch in how you interact with her, you won't have to wonder if you're "good enough" anymore because…
         </p>
 
-        <p className="text-xl font-bold text-center text-gray-800 mb-8">
+        <p className="text-2xl font-bold text-center text-gray-800 mb-8">
           She'll be the one worried about losing YOU!
         </p>
 
