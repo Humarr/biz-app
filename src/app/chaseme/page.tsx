@@ -27,11 +27,11 @@ export default function SalesPage() {
           Other Guys in Her DMs */}
         </h2>
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8 leading-tight">
-         The <span className="text-red-600">SECRET CODE</span> That Makes Women CHOOSE YOU Over Every Other Guy - Even If She Has Options
+         The <span className="text-red-600">"SECRET CODE"</span> That Makes Women CHOOSE YOU Over Every Other Guy - Even If She Has Options
         </h2>
 
         <p className="text-xl italic font-bold text-gray-800 mb-4">
-          On this page, you'll discover……
+          You'll discover……
         </p>
 
         <ul className="space-y-3 mb-8">
