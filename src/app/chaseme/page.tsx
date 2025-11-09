@@ -76,20 +76,20 @@ export default function SalesPage() {
           </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          ...and she "eyes" at you with a cold dismissive look that you wished the ground could swallow you ASAP...
+          ...and she "eyes" at you with a cold dismissive look that makes you wish the ground could swallow you ASAP...
         </p>
 
 <p className='text-lg text-gray-800 mb-6' >And when you text her, she ignores your message or.. leaves you "on read"</p>
 
         <p className="text-lg text-gray-800 mb-6">
-          It's very very painful meeehnnnn...
+          Bro, it's very very painful meeehnnnn...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
           The problem is, when we were growing up, no one taught us the real "sneaky" truth behind how women think…
         </p>
         <p className="text-lg text-gray-800 mb-6">
-          ...and how we can use female psychology to make the women we like to return the vibe - even if there are "one million" guys in her DMs right now…
+          ...and how we can "turn on" the 'choose me' switch in her head - even if there are "one million" guys in her DMs right now…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -97,11 +97,11 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Here's what most guys don't understand about how women think:
+          Here's a truth about how women think:
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          They're constantly calculating…
+          See, they're constantly calculating…
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
@@ -129,7 +129,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          You become the "safe option" she keeps around while she chases the guy who makes her mind tingle with desire...
+          And if you're "lucky," you become the "backup option" she keeps around while she chases the guy who makes her mind tingle with desire...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -169,11 +169,11 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg font-bold text-gray-800 mb-8">
-          …once you understand the simple "sneaky" scientifically proven secret that makes them "fall" for you.
+          …once you understand the simple "sneaky" and scientifically proven way to make them "fall for you."
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          And once you flip this one switch in how you interact with her, you won't have to wonder if you're "good enough" anymore because…
+          And once you uncover this secret, you won't have to worry if you're "good enough" anymore because…
         </p>
 
         <p className="text-2xl font-bold text-center text-gray-800 mb-8">
