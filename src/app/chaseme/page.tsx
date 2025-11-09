@@ -1053,7 +1053,7 @@ export default function SalesPage() {
             Within a week of applying the Chase Reversal technique, this girl
             who'd been flaking on me for a month suddenly started initiating
             conversations and asking when we could meet up. I didn't have to
-            change who I am. I just stopped acting desperate. Game changer."
+            change who I am. Game changer."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
             — Faruk M., PortHarcourt
@@ -1087,9 +1087,7 @@ export default function SalesPage() {
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
             Started dating this gorgeous 28-year-old nurse who has guys hitting
-            on her constantly at work. She literally told me last week that she
-            loves that I 'have my own life' and don't revolve around her. She's
-            the one texting ME now asking what I'm up to. If it can work for a
+            on her constantly at work. If it can work for a
             divorced dad with a beer gut, it'll work for anyone."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
@@ -1127,10 +1125,9 @@ export default function SalesPage() {
           <p className="text-lg text-gray-800 mb-4 italic">
             But I tried it anyway because I had nothing to lose. Three weeks
             later, that same girl who friendzoned me texted out of nowhere
-            asking why I'd been so distant. Then she asked ME out. We've been
+            asking why asking about me. Then she stylishly asked ME out. We've been
             dating for two months now and she's more into me than I ever thought
-            possible. The crazy part? I'm doing LESS than I was before, not
-            more."
+            possible."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
             — Ibrahim L., Kaduna
@@ -1174,9 +1171,19 @@ export default function SalesPage() {
             (2) They started texting first and actually suggesting dates…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            I tracked it. My response rate went from maybe 20% to over 60%. My
-            'she suggests the date' rate went from literally 0% to about 40%. I
-            still don't fully understand WHY it works on a psychological level,
+            I tracked it. 
+            <br/>
+            <br/>
+            
+            My response rate went from maybe 20% to over 60%. 
+            <br/>
+            <br/>
+            
+            My 'she suggests the date' rate went from literally 0% to about 40%. 
+            <br/>
+            <br/>
+            
+            I still don't fully understand WHY it works on a psychological level,
             but the data doesn't lie. This works."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
