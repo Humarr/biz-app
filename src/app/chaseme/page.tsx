@@ -1030,7 +1030,7 @@ export default function SalesPage() {
         </p>
 
         {/* Testimonial 1 */}
-        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
+        <div className="bg-gray-50 shadow-2xl border border-red-600 rounded-xl p-6 mb-8 text-center">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #1:
           </p>
@@ -1067,7 +1067,7 @@ export default function SalesPage() {
         </div>
 
         {/* Testimonial 2 */}
-        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
+        <div className="bg-gray-50 shadow-2xl border border-purple-600 rounded-xl p-6 mb-8 text-center">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #2:
           </p>
@@ -1104,7 +1104,8 @@ export default function SalesPage() {
         </div>
 
         {/* Testimonial 3 */}
-        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
+        <div className="bg-gray-50 shadow-2xl border border-red-600 rounded-xl p-6 mb-8 text-center">
+          
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #3:
           </p>
@@ -1143,7 +1144,7 @@ export default function SalesPage() {
         </div>
 
         {/* Testimonial 4 */}
-        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
+        <div className="bg-gray-50 shadow-2xl border border-purple-600 rounded-xl p-6 mb-8 text-center">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #4:
           </p>
