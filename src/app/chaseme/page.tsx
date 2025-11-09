@@ -511,7 +511,7 @@ export default function SalesPage() {
         </ul>
 
         <ul className="space-y-4 mb-8">
-          <li className="text-lg text-gray-800 font-bold">
+          <li className="text-lg text-gray-800">
             • How to challenge a woman intellectually without being rude - the
             teasing technique that makes you the only guy NOT agreeing with
             everything she says
@@ -529,7 +529,7 @@ export default function SalesPage() {
         </p>
 
         <ul className="space-y-4 mb-8">
-          <li className="text-lg text-gray-800 font-bold">
+          <li className="text-lg text-gray-800">
             • The three core questions she's asking herself about you that
             determine if you're just another guy or someone she'll actually
             chase
@@ -539,7 +539,7 @@ export default function SalesPage() {
             that she FIGHTS for access to you (instead of taking you for
             granted)
           </li>
-          <li className="text-lg text-gray-800 font-bold">
+          <li className="text-lg text-gray-800">
             • The curiosity spike - what to say after your opening that makes
             her want to ask YOU questions instead of waiting for you to
             interview her
@@ -549,7 +549,7 @@ export default function SalesPage() {
             getting friend-zoned - the escalation window most men completely
             miss
           </li>
-          <li className="text-lg text-gray-800 font-bold">
+          <li className="text-lg text-gray-800">
             • Why being "understanding and patient" when she flakes actually
             guarantees she'll keep flaking (and what to do instead that makes
             her respect your time)
