@@ -189,7 +189,7 @@ export default function SalesPage() {
           He's not rude or anything - he just knows how to make women "fall for
           him" without stress...
         </p>
-        <p className="text-xl text-center font-bold text-gray-800 mb-8">
+        <p className="text-2xl text-center font-bold text-gray-800 mb-8">
           And babes? Ah! They chase Tunde like he's the last man on earth...
         </p>
 
@@ -253,15 +253,16 @@ export default function SalesPage() {
 
         <p className="text-lg text-gray-800 mb-8">
           And that's what you're going to discover in the "Chase Reversal
-          framework" laid out step-by-step in the eBook…
+          System" 
+          {/* laid out step-by-step in the eBook… */}
         </p>
 
-        <p className="text-2xl text-center font-bold text-gray-900 mb-8">
+        {/* <p className="text-2xl text-center font-bold text-gray-900 mb-8">
           "How to Make Her Chase You Even If She Has Other Options."
-        </p>
+        </p> */}
 
         <p className="text-lg text-gray-800 mb-6">
-          And here's a tiny little peek of what you'll discover inside:
+          Here's a tiny little peek of what you'll discover inside:
         </p>
         {/* <p className="text-lg text-gray-800 mb-8">
           Inside this eBook, you're going to discover...
