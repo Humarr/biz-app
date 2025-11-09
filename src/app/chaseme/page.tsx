@@ -576,7 +576,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         <div className="text-center my-12">
           <Link 
             href="#order" 
-            className="inline-block bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition-colors"
+            className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
             Yes! Give Me The System
           </Link>
@@ -625,6 +625,9 @@ He's not rude or anything—he just has his own life and he moves like someone w
         <p className="text-lg text-gray-800 mb-6">
           It's maddening because nothing you do seems to work…
         </p>
+        <p className="text-lg text-gray-800 mb-6">
+          You go just dey vex…
+        </p>
 
         <p className="text-lg text-gray-800 mb-8">
           The advice everyone gives you – "just be yourself," "be more confident," "show her you care" – only makes things worse.
@@ -647,7 +650,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Just women who actually want YOUR time and attention... and get scared when they don't get it.
+          Just women who actually want YOUR time and attention... and get worried when they don't get it.
         </p>
 
         <p className="text-lg text-center font-bold text-gray-800 mb-8">
@@ -658,11 +661,15 @@ He's not rude or anything—he just has his own life and he moves like someone w
         <div className="text-center my-12">
           <Link 
             href="#order" 
-            className="inline-block bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition-colors"
+            className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
             Give Me The Chase Reversal System
           </Link>
         </div>
+
+        <p className="text-xl text-center font-bold text-gray-900 mb-6">
+          That reminds me…
+        </p>
 
         <p className="text-2xl text-center font-bold text-gray-900 mb-6">
           BEFORE YOU BUY, READ THIS CAREFULLY:
@@ -681,7 +688,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          So…
+          Let me explain…
         </p>
 
         <p className="text-xl text-center font-bold text-gray-900 mb-4">
@@ -748,7 +755,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
           LMAO!
         </p>
 
-        <p className="text-xl font-extrabold text-center text-red-600 mb-8">
+        <p className="text-2xl font-extrabold text-center text-red-600 mb-8">
           Keep your ₦5000!
         </p>
 
@@ -789,7 +796,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          For just ₦5000, you'll discover the exact Chase Reversal framework that makes women with multiple options choose YOU over everyone else.
+          For just ₦5000, you'll discover the exact Chase Reversal framework that makes women obsessed over YOU even if they have multiple options.
         </p>
 
         {/* Fourth CTA */}
@@ -811,7 +818,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         {/* Testimonial 1 */}
-        <div className="bg-gray-50 border-l-4 border-blue-600 p-6 mb-8">
+        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #1:
           </p>
@@ -840,7 +847,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </div>
 
         {/* Testimonial 2 */}
-        <div className="bg-gray-50 border-l-4 border-blue-600 p-6 mb-8">
+        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #2:
           </p>
@@ -869,7 +876,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </div>
 
         {/* Testimonial 3 */}
-        <div className="bg-gray-50 border-l-4 border-blue-600 p-6 mb-8">
+        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #3:
           </p>
@@ -898,7 +905,7 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </div>
 
         {/* Testimonial 4 */}
-        <div className="bg-gray-50 border-l-4 border-blue-600 p-6 mb-8">
+        <div className="bg-gray-50 shadow-xl rounded-xl p-6 mb-8">
           <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #4:
           </p>
