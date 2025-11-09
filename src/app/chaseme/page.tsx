@@ -639,7 +639,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg font-bold  text-gray-800 mb-8">
-          You're creating your own specialspace in her heart where you're the{" "}
+          You're creating your own special space in her heart where you're the{" "}
           <span className="underline">ONLY</span> option!
         </p>
 
