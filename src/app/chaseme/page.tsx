@@ -82,7 +82,7 @@ export default function SalesPage() {
           like you're a mosquito?
         </p>
 
-        <p className="text-lg text-gray-800 mb-6">Don't feel bad.</p>
+        <p className="text-lg text-gray-800 mb-6">Don't feel bad. </p>
 
         <p className="text-lg text-gray-800 mb-6">
           It's happened to thousands of guys…
