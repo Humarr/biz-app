@@ -95,7 +95,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-xl text-center  text-gray-800 mb-6">
-          ...and she "eyes" at you with a cold dismissive look that makes you
+          ...only for her to "bad eye" you with a cold dismissive look that makes you
           wish the ground could swallow you ASAP...
         </p>
 
