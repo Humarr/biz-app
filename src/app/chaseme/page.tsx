@@ -25,22 +25,22 @@ export default function SalesPage() {
 
         <ul className="space-y-3 mb-8">
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★ A "reverse psychology" method that makes women attracted to YOU—</span> without you having to compete with a single other guy…
+            <span className="font-bold">★ The "reverse psychology" method that makes women attracted to YOU—</span> without you having to compete with a single other guy…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★</span> <span className="font-bold">Shocking Truth:</span> The One Thing You're Doing Right Now That's Scientifically Proven to Kill Her Attraction Faster Than a Bullet (And How Doing the OPPOSITE Makes You Irresistible)…
+            <span className="font-bold">★</span> <span className="font-bold">Shocking Truth:</span> The One Thing You're Doing Right Now That's Scientifically Proven to Kill Her Attraction For You Faster Than a Bullet…
           </li>
           <li className="text-lg text-gray-800">
             <span className="font-bold">★ What Never to Text a Woman</span>  (This Mistake Lands You in the "Backup Option" Category in Under 60 Seconds)…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★ The First Conversation Formula</span> – The Exact 5-Step System For Hooking Her Attention and Positioning Yourself as Different From Every Other Man…
+            <span className="font-bold">★ The First Conversation Formula</span> – The Exact 5-Step System For Hooking Her Attention and Positioning Yourself as The Guy She NEEDS in Her Life…
           </li>
           <li className="text-lg text-gray-800">
             <span className="font-bold">★</span> You'll discover the Strategic Exit, the Frame Setter, the Curiosity Spike, and the Engagement Loop that keeps her thinking about you long after the conversation ends…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★</span>BONUS- The Abundance Mindset: how to become the high-value man women chase..
+            <span className="font-bold">★</span>BONUS- The Abundance Mindset: how to upgrade your mind so you become the high-value man she's been praying for..
           </li>
         </ul>
 
