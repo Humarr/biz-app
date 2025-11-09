@@ -160,7 +160,7 @@ export default function SalesPage() {
 
         <p className="text-2xl text-center font-bold text-gray-800 mb-6">
           {/* Boy, oh boy! */}
-          She couldn't even give you two minutes of her time!
+          She couldn't even give you two minutes of her time!😢
           {/* While you? You're still waiting for her to reply the message you sent yesterday. */}
         </p>
 
