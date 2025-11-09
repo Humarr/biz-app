@@ -51,7 +51,7 @@ export default function SalesPage() {
 <hr/>
 
         {/* Letter Opening */}
-        <p className="text-xl font-bold text-gray-800 mb-6 mt-16">
+        <p className="text-2xl font-bold text-gray-800 mb-6 mt-16">
           My Guy,
         </p>
 
