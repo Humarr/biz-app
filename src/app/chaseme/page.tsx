@@ -19,7 +19,7 @@ export default function SalesPage() {
         </p> */}
 
         {/* Main Headline */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-red-600 mb-8 leading-tight">
+        <h2 className="text-xl md:text-2xl font-bold text-center text-red-600 mb-8 leading-tight">
           Warning: Do Not Read This...
           <br /> <br /> If You Have Moral, Ethical, or Personal Reasons
           Against Learning...
