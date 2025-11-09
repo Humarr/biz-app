@@ -565,7 +565,7 @@ export default function SalesPage() {
         {/* First CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-2xl transition-colors"
           >
             Get Instant Access!
@@ -749,7 +749,7 @@ export default function SalesPage() {
         {/* Second CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
             Yes! Give Me The System
@@ -850,7 +850,7 @@ export default function SalesPage() {
         {/* Third CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
             Give Me The Chase Reversal System
@@ -912,8 +912,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          I'm going to tell you uncomfortable truths about why she's choosing
-          other guys over you…
+          I'm going to tell you uncomfortable truths about why every lady rejects you…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">And some of it will sting!</p>
@@ -1015,7 +1014,7 @@ export default function SalesPage() {
         {/* Fourth CTA */}
         <div id="order" className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             Get The Framework Now!
@@ -1060,7 +1059,7 @@ export default function SalesPage() {
         {/* Fifth CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
@@ -1097,7 +1096,7 @@ export default function SalesPage() {
         {/* Sixth CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
@@ -1137,7 +1136,7 @@ export default function SalesPage() {
         {/* Seventh CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
@@ -1184,7 +1183,7 @@ export default function SalesPage() {
         {/* Final CTA */}
         <div className="text-center my-12">
           <Link
-            href="#order"
+            href="https://selar.com/chaseme"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
