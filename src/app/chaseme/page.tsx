@@ -1,14 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function SalesPage() {
   return (
     <div className="min-h-screen bg-white font-classic">
       <div className="max-w-4xl mx-auto px-6 py-12">
-        
         {/* Warning Header */}
         <p className="text-gray-900 mb-6 leading-tight text-center font-bold italic">
-          Attention: If You Knew The <span className="underline text-red-600">TRUE REASON</span>  Why every Lady rejects you, You'd <span className="underline text-red-600">NEVER</span> See Women The Same Way Again...
+          Attention: If You Knew The{" "}
+          <span className="underline text-red-600">TRUE REASON</span> Why every
+          Lady rejects you, You'd{" "}
+          <span className="underline text-red-600">NEVER</span> See Women The
+          Same Way Again...
         </p>
         {/* <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
           Female Psychology Expert says... 
@@ -16,31 +19,50 @@ export default function SalesPage() {
 
         {/* Main Headline */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-red-600 mb-8 leading-tight">
-          Warning: Do Not Read This...<br/> <br/> If You Have Moral, Ethical, or Personal Reasons Against...<br/> <br/> Discovering How to Make Her CHOOSE YOU…Even If She Has Other Guys in Her DMs
+          Warning: Do Not Read This...
+          <br /> <br /> If You Have Moral, Ethical, or Personal Reasons
+          Against...
+          <br /> <br /> Discovering How to Make Her CHOOSE YOU…Even If She Has
+          Other Guys in Her DMs
         </h2>
 
-       <p className="text-xl italic font-bold text-gray-800 mb-4">
+        <p className="text-xl italic font-bold text-gray-800 mb-4">
           On this page, you'll discover……
         </p>
 
         <ul className="space-y-3 mb-8">
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★ The "reverse psychology" method that makes women attracted to YOU—</span> without you having to compete with a single other guy…
+            <span className="font-bold">
+              ★ The "reverse psychology" method that makes women attracted to
+              YOU—
+            </span>{" "}
+            without you having to compete with a single other guy…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★</span> <span className="font-bold">Shocking Truth:</span> The One Thing You're Doing Right Now That's Scientifically Proven to Kill Her Attraction For You Faster Than a Bullet…
+            <span className="font-bold">★</span>{" "}
+            <span className="font-bold">Shocking Truth:</span> The One Thing
+            You're Doing Right Now That's Scientifically Proven to Kill Her
+            Attraction For You Faster Than a Bullet…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★ What Never to Text a Woman</span>  (This Mistake Lands You in the "Backup Option" Category in Under 60 Seconds)…
+            <span className="font-bold">★ What Never to Text a Woman</span>{" "}
+            (This Mistake Lands You in the "Backup Option" Category in Under 60
+            Seconds)…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★ The First Conversation Formula</span> – The Exact 5-Step System For Hooking Her Attention and Positioning Yourself as The Guy She NEEDS in Her Life…
+            <span className="font-bold">★ The First Conversation Formula</span>{" "}
+            – The Exact 5-Step System For Hooking Her Attention and Positioning
+            Yourself as The Guy She NEEDS in Her Life…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★</span> You'll discover the Strategic Exit, the Frame Setter, the Curiosity Spike, and the Engagement Loop that keeps her thinking about you long after the conversation ends…
+            <span className="font-bold">★</span> You'll discover the Strategic
+            Exit, the Frame Setter, the Curiosity Spike, and the Engagement Loop
+            that keeps her thinking about you long after the conversation ends…
           </li>
           <li className="text-lg text-gray-800">
-            <span className="font-bold">★</span>BONUS- The Abundance Mindset: how to upgrade your mind so you become the high-value man she's been praying for..
+            <span className="font-bold">★</span>BONUS- The Abundance Mindset:
+            how to upgrade your mind so you become the high-value man she's been
+            praying for..
           </li>
         </ul>
 
@@ -48,22 +70,19 @@ export default function SalesPage() {
           And How You Can Use All These to Make Her Actually Chase You, Text You First, and Cancel Her Plans With Other Guys Just to See You—Without Playing Games or Pretending to Be Someone You're Not
         </h3> */}
 
-<hr/>
+        <hr />
 
         {/* Letter Opening */}
-        <p className="text-2xl font-bold text-gray-800 mb-6 mt-16">
-          My Guy,
-        </p>
+        <p className="text-2xl font-bold text-gray-800 mb-6 mt-16">My Guy,</p>
 
         <p className="text-lg font-semibold text-gray-800 mb-6">
           {/* Have you ever spent weeks texting a woman, taking her out, doing everything "right"... only for her to ditch you the moment some other guy shows up?
         </p> */}
-          Have you ever approached a lady you like... only for her to snub you like you're a mosquito?
+          Have you ever approached a lady you like... only for her to snub you
+          like you're a mosquito?
         </p>
 
-        <p className="text-lg text-gray-800 mb-6">
-          Don't feel bad.
-        </p>
+        <p className="text-lg text-gray-800 mb-6">Don't feel bad.</p>
 
         <p className="text-lg text-gray-800 mb-6">
           It's happened to thousands of guys…
@@ -71,120 +90,138 @@ export default function SalesPage() {
 
         <p className="text-lg text-gray-800 mb-6">
           {/* You see a beautiful lady you like and when you approach her, she doesn't even pay you even a TINY bit of attention. And when you text her, she ignores your message or.. leaves you "on read" */}
-
-          You gather the courage, walk up to her, and say something you have been rehearsing in your head for weeks... 
-          </p>
-
-        <p className="text-lg text-gray-800 mb-6">
-          ...and she "eyes" at you with a cold dismissive look that makes you wish the ground could swallow you ASAP...
+          You gather the courage, walk up to her, and say something you have
+          been rehearsing in your head for weeks...
         </p>
 
-<p className='text-lg text-gray-800 mb-6' >And when you text her, she ignores your message or.. leaves you "on read"</p>
+        <p className="text-xl text-center  text-gray-800 mb-6">
+          ...and she "eyes" at you with a cold dismissive look that makes you
+          wish the ground could swallow you ASAP...
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          And when you text her, she ignores your message or.. leaves you "on
+          read"
+        </p>
 
         <p className="text-lg text-gray-800 mb-6">
           Bro, it's very very painful meeehnnnn...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          The problem is, when we were growing up, no one taught us the real "sneaky" truth behind how women think…
+          The problem is, when we were growing up, no one taught us the real
+          "sneaky" truth behind how women think…
         </p>
         <p className="text-lg text-gray-800 mb-6">
-          ...and how we can "turn on" the 'choose me' switch in her head - even if there are "one million" guys in her DMs right now…
+          ...and how we can "turn on" the 'choose me' switch in her head - even
+          if there are "one million" guys in her DMs right now…
         </p>
 
-        <p className="text-lg text-gray-800 mb-8">
-          Until now.
-        </p>
+        <p className="text-lg text-gray-800 mb-8">Until now.</p>
 
         <p className="text-lg text-gray-800 mb-6">
           You know what really pains me sef?
-You're asking about her day and listening like you actually care. Him? He just sends "sup" and nothing else.
-        </p>
-
-        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-Watching good guys—guys who will actually treat a woman right—get completely ignored by the same women who are running after guys that don't even try.
-          
-        </p>
-
-        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-You're the one texting her and checking on her every day. That other guy? He doesn't text her for three whole days.
-          {/* Every text you send, every "good morning" message, every time you ask "when can I see you again?"... */}
-        </p>
-
-        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          {/* …she's measuring how much you want her versus how much she wants you. */}
-          You're planning nice dates and showing up on time. That guy? He just tells her "come my house" at night and she will drop everything and go.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          {/* And the moment that scale tips too far in her favor? */}
-And the worst part? She's the one calling HIM. She's the one checking if HE has eaten. She's the one asking when she'll see HIM again.
+          It's not even just that one girl who snubbed you.
         </p>
 
+        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+          It's watching the SAME girl who looked at you like you're nothing...
+          turn around and give her full attention to another guy who didn't even
+          try as hard as you.
+        </p>
+
+        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+          You planned what to say days (if not weeks)...
+        </p>
+
+        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+          You were respectful and careful with your words...
+        </p>
+        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+          You were hoping she would like you...
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">And the crazy part?</p>
         <p className="text-lg text-gray-800 mb-6">
+          But she GAVE the guy her number without thinking twice...
+        </p>
+        <p className="text-lg text-gray-800 mb-6">
+          She's trying to keep the conversation going...
+        </p>
+        <p className="text-lg text-gray-800 mb-6">
+          She's laughing at everything he says...
+        </p>
+        <p className="text-lg text-gray-800 mb-6">While you?</p>
+
+        <p className="text-2xl text-center font-bold text-gray-800 mb-6">
           {/* Boy, oh boy! */}
-While you? You're still waiting for her to reply the message you sent yesterday.
+          She couldn't even give you two minutes of her time!
+          {/* While you? You're still waiting for her to reply the message you sent yesterday. */}
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-It doesn't make sense, abi?
+          It doesn't make sense, abi?
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
           {/* You become background noise… */}
-But there's this guy I know. Let's call him Tunde.
-And babes? Ah! They chase Tunde like he's the last man on earth.
+          But there's this guy I know. Let's call him Tunde.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-Tunde doesn't chase any babe... 
-          {/* And if you're "lucky," you become the "backup option" she keeps around while she chases the guy who makes her mind tingle with desire... */}
+          Tunde doesn't beg any babe for attention....
         </p>
         <p className="text-lg text-gray-800 mb-8">
-
-He doesn't send long messages explaining his feelings...
-
-
+          He doesn't practice his lines before approaching... He doesn't act
+          like he needs her approval.
         </p>
         <p className="text-lg text-gray-800 mb-8">
-
-He doesn't change his whole schedule because one babe said she's free...
-
-        
+          He doesn't act like he needs her approval...
         </p>
         <p className="text-lg text-gray-800 mb-8">
-
-He's not rude or anything—he just has his own life and he moves like someone who has options, even when he doesn't...
+          He doesn't pretend to be someone he's not because of one babe...
+        </p>
+        <p className="text-lg text-gray-800 mb-8">
+          He's not rude or anything - he just knows how to make women "fall for
+          him" without stress...
+        </p>
+        <p className="text-lg text-gray-800 mb-8">
+          And babes? Ah! They chase Tunde like he's the last man on earth...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          {/* Maybe you've even seen this yourself… */}
-          They text him first... 
-          
+          The same girls who will "bad eye" other guys and form "hard to get"...
+          will give Tunde their number without stress...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          {/* You've watched women snub perfectly good guys who would treat them right, only to obsess over some guy who barely texts back… */}
-          They ask when they can see him... 
+          They'll be the ones trying to impress HIM...
+          {/* They ask when they can see him...  */}
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
           {/* The guy who's "busy…" */}
-          They get worried when he doesn't reply fast... 
+          They'll be asking when they can see him again...
+          {/* They get worried when he doesn't reply fast...  */}
         </p>
 
-        <p className="text-lg text-gray-800 mb-6">
+        {/* <p className="text-lg text-gray-800 mb-6">
           They're doing all the work while Tunde is just chilling.
-          {/* The guy who has his own life… */}
-        </p>
-
+        
+        </p> */}
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          And I've put everything he knows (plus what I've learned from watching guys like him) into a complete system called "How to Make Her Chase You Even If She Has Other Options."
+          And I've put everything he knows (plus what I've learned from watching
+          guys like him) into a complete system called "How to Make Her Chase
+          You Even If She Has Other Options."
           {/* It seems backward, doesn't it? */}
         </p>
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          But before I show you what you'll get inside the system, Let me say this:
+          But before I show you what you'll get inside the system, Let me reveal
+          the SHOCKING truth:
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-8">
@@ -192,28 +229,31 @@ He's not rude or anything—he just has his own life and he moves like someone w
           Believe it or not…
         </p>
 
-        <p className="text-lg text-gray-800 mb-6">
+        {/* <p className="text-lg text-gray-800 mb-6">
           The SHOCKING truth is:
-        </p>
+        </p> */}
 
         <p className="text-lg font-bold text-gray-800 mb-6">
           Women are actually very easy to attract…
         </p>
 
         <p className="text-lg font-bold text-gray-800 mb-8">
-          …once you understand the simple "sneaky" and scientifically proven way to make them "fall for you."
+          …once you understand the simple "sneaky" and scientifically proven way
+          to make them "fall for you."
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          And once you uncover this secret, you won't have to worry if you're "good enough" anymore because…
+          And once you uncover this secret, you won't have to worry if you're
+          "good enough" anymore because…
         </p>
 
         <p className="text-2xl font-bold text-center text-gray-800 mb-8">
-          She'll be the one worried about losing YOU!
+          She'll be the one afraid of losing YOU!
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          And that's what I'm going to teach you in the "Chase Reversal framework" laid out step-by-step in the eBook…
+          And that's what you're going to discover in the "Chase Reversal
+          framework" laid out step-by-step in the eBook…
         </p>
 
         <p className="text-2xl text-center font-bold text-gray-900 mb-8">
@@ -230,25 +270,43 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* First Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            ➤ <span className="font-bold">Five subtle words you can drop in the first conversation that immediately position you as the guy SHE needs to impress - not the other way around</span>
+            ➤{" "}
+            <span className="font-bold">
+              Five subtle words you can drop in the first conversation that
+              immediately position you as the guy SHE needs to impress - not the
+              other way around
+            </span>
           </li>
           <li className="text-lg text-gray-800">
-            ➤ Three psychological switches that flip her from "I'm deciding if I like him" to "I need to make sure I don't lose him" - and why most men never flip even ONE
+            ➤ Three psychological switches that flip her from "I'm deciding if I
+            like him" to "I need to make sure I don't lose him" - and why most
+            men never flip even ONE
           </li>
           <li className="text-lg text-gray-800">
-            ➤ <span className="font-bold">The 7 deadly texting mistakes that land you in her "just another guy" category before you even realize you've been kicked into the friend zone…</span>
+            ➤{" "}
+            <span className="font-bold">
+              The 7 deadly texting mistakes that land you in her "just another
+              guy" category before you even realize you've been kicked into the
+              friend zone…
+            </span>
           </li>
           <li className="text-lg text-gray-800">
-            ➤ Eleven specific phrases women use that reveal she's keeping you as a backup option while chasing someone else (once you hear #4, you'll never waste time on her again)
+            ➤ Eleven specific phrases women use that reveal she's keeping you as
+            a backup option while chasing someone else (once you hear #4, you'll
+            never waste time on her again)
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ➤ The 60-second formula for hooking her attention in that crucial first conversation - miss any of these 5 elements and you're toast
+            ➤ The 60-second formula for hooking her attention in that crucial
+            first conversation - miss any of these 5 elements and you're toast
           </li>
           <li className="text-lg text-gray-800">
-            ➤ Four texting patterns that scream "I have am useless without you" louder than a bomb blast
+            ➤ Four texting patterns that scream "I have am useless without you"
+            louder than a bomb blast
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ➤ Nine things high-value men NEVER do in the first month - yet you've probably done at least six of them with the last woman who lost interest
+            ➤ Nine things high-value men NEVER do in the first month - yet
+            you've probably done at least six of them with the last woman who
+            lost interest
           </li>
         </ul>
 
@@ -259,25 +317,35 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Second Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            ➳ The dirty little secret about "good morning" texts - why the same message that makes your mom smile makes women with options lose interest instantly
+            ➳ The dirty little secret about "good morning" texts - why the same
+            message that makes your mom smile makes women with options lose
+            interest instantly
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ➳ A secret psychological trigger that makes you as addictive as a slot machine to her brain - but only if you use it correctly
+            ➳ A secret psychological trigger that makes you as addictive as a
+            slot machine to her brain - but only if you use it correctly
           </li>
           <li className="text-lg text-gray-800">
-            ➳ The secret reason women chase men who do this ONE thing while ignoring other guys- it has nothing to do with playing games
+            ➳ The secret reason women chase men who do this ONE thing while
+            ignoring other guys- it has nothing to do with playing games
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ➳ Secrets of men who get women to obsess over them - while other guys sit around waiting for responses that never come
+            ➳ Secrets of men who get women to obsess over them - while other
+            guys sit around waiting for responses that never come
           </li>
           <li className="text-lg text-gray-800">
-            ➳ The secret frame that makes her eager to win YOUR approval - shift this once and everything changes
+            ➳ The secret frame that makes her eager to win YOUR approval - shift
+            this once and everything changes
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ➳ A secret method for ending conversations that leaves her staring at her phone wishing you hadn't stopped talking (most men do the opposite)
+            ➳ A secret method for ending conversations that leaves her staring
+            at her phone wishing you hadn't stopped talking (most men do the
+            opposite)
           </li>
           <li className="text-lg text-gray-800">
-            ➳ The hidden reason your availability is killing her attraction - even though being always available seems like the "right" thing to do
+            ➳ The hidden reason your availability is killing her attraction -
+            even though being always available seems like the "right" thing to
+            do
           </li>
         </ul>
 
@@ -288,19 +356,28 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Third Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            ✦ How a tiny "tweak" in how you respond to her texts can dramatically jack up her desire for you!
+            ✦ How a tiny "tweak" in how you respond to her texts can
+            dramatically jack up her desire for you!
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ✦ In less than 60 seconds, you can use the "Strategic Exit" to make her think about you for hours after a conversation ends - while other guys drag things out until she's bored
+            ✦ In less than 60 seconds, you can use the "Strategic Exit" to make
+            her think about you for hours after a conversation ends - while
+            other guys drag things out until she's bored
           </li>
           <li className="text-lg text-gray-800">
-            ✦ One simple question format that makes her work to prove she's interesting enough for YOU - instead of you interviewing her like every other desperate guy
+            ✦ One simple question format that makes her work to prove she's
+            interesting enough for YOU - instead of you interviewing her like
+            every other desperate guy
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ✦ A little-known psychological principle called "loss aversion" that makes her chase you harder than any compliment or romantic gesture ever could
+            ✦ A little-known psychological principle called "loss aversion" that
+            makes her chase you harder than any compliment or romantic gesture
+            ever could
           </li>
           <li className="text-lg text-gray-800">
-            ✦ How one text pattern (that takes zero extra effort) creates uncertainty that keeps her checking her phone obsessively to see if you've responded
+            ✦ How one text pattern (that takes zero extra effort) creates
+            uncertainty that keeps her checking her phone obsessively to see if
+            you've responded
           </li>
         </ul>
 
@@ -311,13 +388,19 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Fourth Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            ➔ A tiny little phrase you can use when she flakes that will either make her respect your time going forward - or expose she was never serious so you stop wasting energy
+            ➔ A tiny little phrase you can use when she flakes that will either
+            make her respect your time going forward - or expose she was never
+            serious so you stop wasting energy
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ➔ A tiny adjustment to your response time that will make your attention feel valuable instead of desperate - most men do the opposite
+            ➔ A tiny adjustment to your response time that will make your
+            attention feel valuable instead of desperate - most men do the
+            opposite
           </li>
           <li className="text-lg text-gray-800">
-            ➔ A tiny frame shift in the first conversation that will position you outside the competition entirely - so she's not even comparing you to other men
+            ➔ A tiny frame shift in the first conversation that will position
+            you outside the competition entirely - so she's not even comparing
+            you to other men
           </li>
         </ul>
 
@@ -328,10 +411,13 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Fifth Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • In less than five minutes, you can flip a "sneaky" little switch in her brain that makes her hungry to prove she's worth your time and love
+            • In less than five minutes, you can flip a "sneaky" little switch
+            in her brain that makes her hungry to prove she's worth your time
+            and love
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • Exactly what to say in those crucial first 60 seconds that hooks her attention while every other guy blends into background noise
+            • Exactly what to say in those crucial first 60 seconds that hooks
+            her attention while every other guy blends into background noise
           </li>
         </ul>
 
@@ -342,19 +428,28 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Sixth Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            ✓ A little-known texting rule that will prevent you from looking needy even if you ARE sitting around with nothing to do - it's not about waiting longer to respond
+            ✓ A little-known texting rule that will prevent you from looking
+            needy even if you ARE sitting around with nothing to do - it's not
+            about waiting longer to respond
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ✓ A little-known fact about women with options - they're actually EASIER to attract once you understand the one psychological trigger they all share
+            ✓ A little-known fact about women with options - they're actually
+            EASIER to attract once you understand the one psychological trigger
+            they all share
           </li>
           <li className="text-lg text-gray-800">
-            ✓ A little-known mistake men make when women complain to them that lands them directly in the friend zone - while smarter men use the same situation to build attraction
+            ✓ A little-known mistake men make when women complain to them that
+            lands them directly in the friend zone - while smarter men use the
+            same situation to build attraction
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ✓ The only way to make a woman choose you over men who are richer, better-looking, or got to her first - without looking stupid
+            ✓ The only way to make a woman choose you over men who are richer,
+            better-looking, or got to her first - without looking stupid
           </li>
           <li className="text-lg text-gray-800">
-            ✓ Why men who have their lives together still lose women to guys who do the bare minimum - and the one thing those "lazy" guys understand that you don't
+            ✓ Why men who have their lives together still lose women to guys who
+            do the bare minimum - and the one thing those "lazy" guys understand
+            that you don't
           </li>
         </ul>
 
@@ -365,19 +460,27 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Seventh Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            ★ How to make her fear losing you- instead of you panicking when she doesn't respond to you
+            ★ How to make her fear losing you- instead of you panicking when she
+            doesn't respond to you
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ★ How to "delete" yourself from her roster of "guys who are chasing me" and create your own special place in her mind where you're the only option
+            ★ How to "delete" yourself from her roster of "guys who are chasing
+            me" and create your own special place in her mind where you're the
+            only option
           </li>
           <li className="text-lg text-gray-800">
-            ★ How one sentence can flip her from taking hours to respond to texting you first every morning - without you changing anything about your looks or money
+            ★ How one sentence can flip her from taking hours to respond to
+            texting you first every morning - without you changing anything
+            about your looks or money
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            ★ How to spot the exact moment she's putting you in the "just another guy" category - so you can up your game before it's too late (or dump her!)
+            ★ How to spot the exact moment she's putting you in the "just
+            another guy" category - so you can up your game before it's too late
+            (or dump her!)
           </li>
           <li className="text-lg text-gray-800">
-            ★ How to text in a way that gives her sleepless nights until she sees you in person…
+            ★ How to text in a way that gives her sleepless nights until she
+            sees you in person…
           </li>
         </ul>
 
@@ -388,25 +491,34 @@ He's not rude or anything—he just has his own life and he moves like someone w
         {/* Eighth Bullet List */}
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
-            • The #1 mistake many guys make that makes her INSTANTLY kick them out of her life
+            • The #1 mistake many guys make that makes her INSTANTLY kick them
+            out of her life
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • The frustrating truth about why "being yourself" hasn't worked - and why the guy who does the OPPOSITE of what you're doing gets her
+            • The frustrating truth about why "being yourself" hasn't worked -
+            and why the guy who does the OPPOSITE of what you're doing gets her
           </li>
           <li className="text-lg text-gray-800">
-            • What to do when she says she's always "too busy" to meet up - the response that either gets her to make time or proves she's wasting yours
+            • What to do when she says she's always "too busy" to meet up - the
+            response that either gets her to make time or proves she's wasting
+            yours
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • How to handle the "talking stage" without getting stuck there for months like most guys do - or worse, getting friend-zoned
+            • How to handle the "talking stage" without getting stuck there for
+            months like most guys do - or worse, getting friend-zoned
           </li>
         </ul>
 
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800 font-bold">
-            • How to challenge a woman intellectually without being rude - the teasing technique that makes you the only guy NOT agreeing with everything she says
+            • How to challenge a woman intellectually without being rude - the
+            teasing technique that makes you the only guy NOT agreeing with
+            everything she says
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • The Engagement Loop - the back-and-forth rhythm that keeps conversations flowing naturally while making HER invest effort to keep YOUR interest
+            • The Engagement Loop - the back-and-forth rhythm that keeps
+            conversations flowing naturally while making HER invest effort to
+            keep YOUR interest
           </li>
         </ul>
 
@@ -417,22 +529,31 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800 font-bold">
-            • The three core questions she's asking herself about you that determine if you're just another guy or someone she'll actually chase
+            • The three core questions she's asking herself about you that
+            determine if you're just another guy or someone she'll actually
+            chase
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • Scarcity value - how to make your time and attention scarce enough that she FIGHTS for access to you (instead of taking you for granted)
+            • Scarcity value - how to make your time and attention scarce enough
+            that she FIGHTS for access to you (instead of taking you for
+            granted)
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • The curiosity spike - what to say after your opening that makes her want to ask YOU questions instead of waiting for you to interview her
+            • The curiosity spike - what to say after your opening that makes
+            her want to ask YOU questions instead of waiting for you to
+            interview her
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • How to transition from "talking stage" to something real without getting friend-zoned - the escalation window most men completely miss
+            • How to transition from "talking stage" to something real without
+            getting friend-zoned - the escalation window most men completely
+            miss
           </li>
           <li className="text-lg text-gray-800 font-bold">
-            • Why being "understanding and patient" when she flakes actually guarantees she'll keep flaking (and what to do instead that makes her respect your time)
+            • Why being "understanding and patient" when she flakes actually
+            guarantees she'll keep flaking (and what to do instead that makes
+            her respect your time)
           </li>
         </ul>
-
 
         <p className="text-xl font-bold text-center text-gray-800 mb-8">
           You think that's all?
@@ -443,8 +564,8 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         {/* First CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-2xl transition-colors"
           >
             Get Instant Access!
@@ -452,20 +573,27 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </div>
 
         <p className="text-lg text-gray-800 mb-6">
-          Look, you're about to get instant access to <span className="font-bold">"How to Make Her Chase You Even If She Has Other Options"</span>...
+          Look, you're about to get instant access to{" "}
+          <span className="font-bold">
+            "How to Make Her Chase You Even If She Has Other Options"
+          </span>
+          ...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          … the complete 11-chapter system that flips the dating game in your favor…
-        </p>
-
-
-        <p className="text-lg text-gray-800 mb-6">
-          When you get this eBook, you're getting a complete transformation in how you show up with women…
+          … the complete 11-chapter system that flips the dating game in your
+          favor…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You'll read about Marcus, who went from being Sarah's backup option to having her rearrange her entire schedule just to see him - in less than two weeks…
+          When you get this eBook, you're getting a complete transformation in
+          how you show up with women…
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          You'll read about Marcus, who went from being Sarah's backup option to
+          having her rearrange her entire schedule just to see him - in less
+          than two weeks…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -473,19 +601,24 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You'll learn the First Conversation Formula that hooks her attention in 60 seconds flat - so you never blend into the background noise of all the other guys texting her "how was your day?"
+          You'll learn the First Conversation Formula that hooks her attention
+          in 60 seconds flat - so you never blend into the background noise of
+          all the other guys texting her "how was your day?"
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You'll master the Attention Diet - the texting patterns that make you psychologically addictive instead of predictably boring…
+          You'll master the Attention Diet - the texting patterns that make you
+          psychologically addictive instead of predictably boring…
         </p>
 
         <p className="text-xl font-bold text-center text-gray-800 mb-8">
-          Plus, you'll understand the three psychological switches that flip her from "He's not my type" mode to "I don't want to lose him" mode…
+          Plus, you'll understand the three psychological switches that flip her
+          from "He's not my type" mode to "I don't want to lose him" mode…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Once you know how to activate these, you'll watch her behavior change right before your eyes!
+          Once you know how to activate these, you'll watch her behavior change
+          right before your eyes!
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
@@ -493,7 +626,12 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          <span className='font-bold'> This eBook comes with the Positioning Reset blueprint</span> - a step-by-step breakdown that shows you exactly how to STANDOUT from the other guys disturbing her…
+          <span className="font-bold">
+            {" "}
+            This eBook comes with the Positioning Reset blueprint
+          </span>{" "}
+          - a step-by-step breakdown that shows you exactly how to STANDOUT from
+          the other guys disturbing her…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -501,59 +639,93 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg font-bold  text-gray-800 mb-8">
-          You're creating your own specialspace in her heart where you're the <span className='underline'>ONLY</span> option!
+          You're creating your own specialspace in her heart where you're the{" "}
+          <span className="underline">ONLY</span> option!
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-           <span className='font-bold'>You get the Strategic Exit scripts</span> - the exact words to use when ending conversations (in person, text, or calls) that leave her wanting more instead of feeling like you've run out of things to say.
+          <span className="font-bold">You get the Strategic Exit scripts</span>{" "}
+          - the exact words to use when ending conversations (in person, text,
+          or calls) that leave her wanting more instead of feeling like you've
+          run out of things to say.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          <span className='font-bold'>You get the Frame Setter questions</span> - specific question formats from Chapter 4 that make HER prove she's interesting enough for YOU, not the other way around. No more boring "how was your day?" interviews…
+          <span className="font-bold">You get the Frame Setter questions</span>{" "}
+          - specific question formats from Chapter 4 that make HER prove she's
+          interesting enough for YOU, not the other way around. No more boring
+          "how was your day?" interviews…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          <span className='font-bold'>You get the Response Ratio rules</span> - the precise texting guidelines that keep power balanced in your favor so she never senses you're more invested than she is…
+          <span className="font-bold">You get the Response Ratio rules</span> -
+          the precise texting guidelines that keep power balanced in your favor
+          so she never senses you're more invested than she is…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          <span className='font-bold'>You get real scenarios with real solutions</span> - Chapter 8 handles the money question so you're not looking cheap or like a "mugu" who pays for everything…
+          <span className="font-bold">
+            You get real scenarios with real solutions
+          </span>{" "}
+          - Chapter 8 handles the money question so you're not looking cheap or
+          like a "mugu" who pays for everything…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          <span className='font-bold'>Chapter 9 shows you how to escalate from talking stage to something real</span> without getting friend-zoned…
+          <span className="font-bold">
+            Chapter 9 shows you how to escalate from talking stage to something
+            real
+          </span>{" "}
+          without getting friend-zoned…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You get the maintenance system in Chapter 11 - because keeping her interested after you've got her is just as important as getting her in the first place…
+          You get the maintenance system in Chapter 11 - because keeping her
+          interested after you've got her is just as important as getting her in
+          the first place…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          <span className='font-bold'>BONUS: You get the Abundance Mindset chapter</span> - how to breathe new life into your mind so that you become the  <span className='underline'>high-value man</span> women chase - without forming "alpha male".
+          <span className="font-bold">
+            BONUS: You get the Abundance Mindset chapter
+          </span>{" "}
+          - how to breathe new life into your mind so that you become the{" "}
+          <span className="underline">high-value man</span> women chase -
+          without forming "alpha male".
         </p>
 
         <p className="text-2xl text-center font-bold text-gray-800 mb-6">
-          Now, you'd think information like this – that completely flips the dating game in your favor – would cost you an arm and a leg…
+          Now, you'd think information like this – that completely flips the
+          dating game in your favor – would cost you an arm and a leg…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Most "dating coaches" charge ₦25000 for a one-hour phone consultation where they basically tell you to "be confident" and "just be yourself."
+          Most "dating coaches" charge ₦25000 for a one-hour phone consultation
+          where they basically tell you to "be confident" and "just be
+          yourself."
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Some of these guys run ₦40,000 weekend bootcamps where they drag you to restaurants and clubs and force you to approach women like a trained monkey.
+          Some of these guys run ₦40,000 weekend bootcamps where they drag you
+          to restaurants and clubs and force you to approach women like a
+          trained monkey.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          And the "high-end" guys? They're charging ₦70,000+ for "personalized coaching programs" for the same bullshit advice you can find in any pickup artist forum from 2009.
+          And the "high-end" guys? They're charging ₦70,000+ for "personalized
+          coaching programs" for the same bullshit advice you can find in any
+          pickup artist forum from 2009.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          But here's the thing: I'm not a "dating coach" trying to squeeze every dollar out of desperate guys.
+          But here's the thing: I'm not a "dating coach" trying to squeeze every
+          dollar out of desperate guys.
         </p>
 
         <p className="text-xl font-bold text-center text-gray-800 mb-8">
-          I'm a guy who figured this out the hard way, spent years testing what actually works, and packaged it into a simple eBook you can read in one sitting.
+          I'm a guy who figured this out the hard way, spent years testing what
+          actually works, and packaged it into a simple eBook you can read in
+          one sitting.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -561,7 +733,9 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Just the exact Chase Reversal framework that makes women obsess over YOU – even if they're currently giving their attention to someone else.
+          Just the exact Chase Reversal framework that makes women obsess over
+          YOU – even if they're currently giving their attention to someone
+          else.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -574,8 +748,8 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         {/* Second CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
             Yes! Give Me The System
@@ -591,7 +765,9 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          You do everything you've been told to do – be attentive, show interest, make her feel special, prove you're different from "those other guys…"
+          You do everything you've been told to do – be attentive, show
+          interest, make her feel special, prove you're different from "those
+          other guys…"
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -599,11 +775,13 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-xl font-bold text-center text-gray-800 mb-8">
-          Then she starts pulling back. Her texts get shorter. She takes longer to respond. She's suddenly "really busy" all the time.
+          Then she starts pulling back. Her texts get shorter. She takes longer
+          to respond. She's suddenly "really busy" all the time.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Meanwhile, you're tossing around on your bed at night.. Unable to sleep, wondering what you did wrong…
+          Meanwhile, you're tossing around on your bed at night.. Unable to
+          sleep, wondering what you did wrong…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -611,11 +789,13 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Feeling that knot in your stomach every time you see she's active on social media but hasn't responded to you…
+          Feeling that knot in your stomach every time you see she's active on
+          social media but hasn't responded to you…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You try harder. More compliments. More check-ins. More "thinking of you" messages.
+          You try harder. More compliments. More check-ins. More "thinking of
+          you" messages.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -625,12 +805,11 @@ He's not rude or anything—he just has his own life and he moves like someone w
         <p className="text-lg text-gray-800 mb-6">
           It's maddening because nothing you do seems to work…
         </p>
-        <p className="text-lg text-gray-800 mb-6">
-          You go just dey vex…
-        </p>
+        <p className="text-lg text-gray-800 mb-6">You go just dey vex…</p>
 
         <p className="text-lg text-gray-800 mb-8">
-          The advice everyone gives you – "just be yourself," "be more confident," "show her you care" – only makes things worse.
+          The advice everyone gives you – "just be yourself," "be more
+          confident," "show her you care" – only makes things worse.
         </p>
 
         <p className="text-xl font-bold text-center text-gray-800 mb-6">
@@ -638,29 +817,40 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-xl font-bold text-center text-gray-800 mb-8">
-          Maybe women only want guys who look a certain way, make a certain amount of money, or have some  <span className='text-red-600'>"X-factor"</span> you just don't have.
+          Maybe women only want guys who look a certain way, make a certain
+          amount of money, or have some{" "}
+          <span className="text-red-600">"X-factor"</span> you just don't have.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          I thought the same thing, too. Until I discovered the ONE psychological trigger that changed everything.
+          I thought the same thing, too. Until I discovered the ONE
+          psychological trigger that changed everything.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          The day I stopped chasing and started using the "Chase Reversal" secrets in  <span className='font-bold'>"How to Make Her Chase You Even If She Has Other Options"</span> – that's the day she started "drooling" over me instead of the other way around.
+          The day I stopped chasing and started using the "Chase Reversal"
+          secrets in{" "}
+          <span className="font-bold">
+            "How to Make Her Chase You Even If She Has Other Options"
+          </span>{" "}
+          – that's the day she started "drooling" over me instead of the other
+          way around.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Just women who actually want YOUR time and attention... and get worried when they don't get it.
+          Just women who actually want YOUR time and attention... and get
+          worried when they don't get it.
         </p>
 
         <p className="text-lg text-center font-bold text-gray-800 mb-8">
-          For ₦5000, you can stop the cycle of desperation and finally become the guy women chase.
+          For ₦5000, you can stop the cycle of desperation and finally become
+          the guy women chase.
         </p>
 
         {/* Third CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
             Give Me The Chase Reversal System
@@ -680,107 +870,128 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          I'm  <span className='underline'>dead serious</span>.
+          I'm <span className="underline">dead serious</span>.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
           There are some guys who should NOT buy this.
         </p>
 
+        <p className="text-lg text-gray-800 mb-8">Let me explain…</p>
+
+        <p className="text-xl text-center font-bold text-gray-900 mb-4">
+          <span className="text-red-600 font-bold text-xl">✗</span> Do not buy
+          this book if you're looking for a magic pill…
+        </p>
+
         <p className="text-lg text-gray-800 mb-8">
-          Let me explain…
+          If you think there's some secret phrase or trick text message that
+          will make any woman fall for you regardless of how you show up, this
+          isn't for you. That's fantasy. This is reality.
         </p>
 
         <p className="text-xl text-center font-bold text-gray-900 mb-4">
-        <span className='text-red-600 font-bold text-xl' >✗</span>  Do not buy this book if you're looking for a magic pill…
+          <span className="text-red-600 font-bold text-xl">✗</span> Do not buy
+          this if you're not willing to have standards…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          If you think there's some secret phrase or trick text message that will make any woman fall for you regardless of how you show up, this isn't for you. That's fantasy. This is reality.
+          The entire system is built on you being willing to walk away from
+          women who don't return your energy.
+        </p>
+
+        <p className="text-lg text-gray-800 mb-8">
+          If you're the type who'll chase any woman who gives you a crumb of
+          attention, keep your money… You'll just read this, nod your head, then
+          go right back to begging for scraps.
         </p>
 
         <p className="text-xl text-center font-bold text-gray-900 mb-4">
-        <span className='text-red-600 font-bold text-xl' >✗</span>  Do not buy this if you're not willing to have standards…
-        </p>
-
-        <p className="text-lg text-gray-800 mb-8">
-          The entire system is built on you being willing to walk away from women who don't return your energy.
-        </p>
-
-        <p className="text-lg text-gray-800 mb-8">
-          If you're the type who'll chase any woman who gives you a crumb of attention, keep your money… You'll just read this, nod your head, then go right back to begging for scraps.
-        </p>
-
-        <p className="text-xl text-center font-bold text-gray-900 mb-4">
-        <span className='text-red-600 font-bold text-xl' >✗</span>  Do not buy this if you need everything sugar-coated…
+          <span className="text-red-600 font-bold text-xl">✗</span> Do not buy
+          this if you need everything sugar-coated…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          I'm going to tell you uncomfortable truths about why she's choosing other guys over you…
+          I'm going to tell you uncomfortable truths about why she's choosing
+          other guys over you…
         </p>
 
-        <p className="text-lg text-gray-800 mb-8">
-          And some of it will sting!
-        </p>
+        <p className="text-lg text-gray-800 mb-8">And some of it will sting!</p>
 
         <p className="text-lg text-gray-800 mb-8">
-          If you want someone to pat you on the head and tell you "she just wasn't ready for a good man like you," there are plenty of feel-good dating coaches who'll happily take your money and leave you stranded.
+          If you want someone to pat you on the head and tell you "she just
+          wasn't ready for a good man like you," there are plenty of feel-good
+          dating coaches who'll happily take your money and leave you stranded.
         </p>
 
         <p className="text-xl text-center font-bold text-gray-900 mb-4">
-        <span className='text-red-600 font-bold text-xl' >✗</span> Do not buy this if you're looking for manipulation tactics to "trick" women…
+          <span className="text-red-600 font-bold text-xl">✗</span> Do not buy
+          this if you're looking for manipulation tactics to "trick" women…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          This system works because it's based on genuine self-respect and actual standards…
+          This system works because it's based on genuine self-respect and
+          actual standards…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          If you want pickup artist gimmicks and bullshit, go buy one of those $2,000 courses. They'll be happy to teach you magic lines that work 2% of the time.
+          If you want pickup artist gimmicks and bullshit, go buy one of those
+          $2,000 courses. They'll be happy to teach you magic lines that work 2%
+          of the time.
         </p>
 
         <p className="text-xl text-center font-bold text-gray-900 mb-4">
-        <span className='text-red-600 font-bold text-xl' >✗</span>  And definitely do not buy this if you're not willing to actually have a life outside of chasing women…
+          <span className="text-red-600 font-bold text-xl">✗</span> And
+          definitely do not buy this if you're not willing to actually have a
+          life outside of chasing women…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          The Attention Diet only works if you're genuinely busy with things that matter to you…
+          The Attention Diet only works if you're genuinely busy with things
+          that matter to you…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          If you're going to sit on your ass pretending to be unavailable while staring at your phone waiting for her to text,
+          If you're going to sit on your ass pretending to be unavailable while
+          staring at your phone waiting for her to text,
         </p>
 
-        <p className="text-lg font-semibold text-gray-800 mb-8">
-          LMAO!
-        </p>
+        <p className="text-lg font-semibold text-gray-800 mb-8">LMAO!</p>
 
         <p className="text-2xl font-extrabold text-center text-red-600 mb-8">
           Keep your ₦5000!
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          This book is for men who are tired of finishing last despite doing everything "right."
+          This book is for men who are tired of finishing last despite doing
+          everything "right."
         </p>
         <p className="text-lg font-bold text-gray-800 mb-6">
-         ◉ It's for men who are ready to stop being the backup option.
+          ◉ It's for men who are ready to stop being the backup option.
         </p>
         <p className="text-lg text-gray-800 mb-6">
-         ◉ It's for men who want the truth about attraction, not comfortable lies.
+          ◉ It's for men who want the truth about attraction, not comfortable
+          lies.
         </p>
         <p className="text-lg font-bold text-gray-800 mb-6">
-         ◉ It's for men who are willing to have standards and enforce them, even if it means walking away from a beautiful woman who won't treat them right.
+          ◉ It's for men who are willing to have standards and enforce them,
+          even if it means walking away from a beautiful woman who won't treat
+          them right.
         </p>
         <p className="text-lg text-gray-800 mb-6">
-         ◉ It's for men who understand that becoming the guy women chase starts with respecting yourself enough to stop chasing women who return the energy.
+          ◉ It's for men who understand that becoming the guy women chase starts
+          with respecting yourself enough to stop chasing women who return the
+          energy.
         </p>
-        
+
         <p className="text-xl font-bold text-gray-800 mb-6">
           If that's you, then get the book.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          If it's not, then I respect that. There is plenty of other dating advice out there. I'm sure one of them will tell you what you want to hear.
+          If it's not, then I respect that. There is plenty of other dating
+          advice out there. I'm sure one of them will tell you what you want to
+          hear.
         </p>
 
         <p className="text-xl text-center font-bold text-gray-800 mb-6">
@@ -792,17 +1003,19 @@ He's not rude or anything—he just has his own life and he moves like someone w
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Click the button below to get your copy of "How to Make Her Chase You Even If She Has Other Options."
+          Click the button below to get your copy of "How to Make Her Chase You
+          Even If She Has Other Options."
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          For just ₦5000, you'll discover the exact Chase Reversal framework that makes women obsessed over YOU even if they have multiple options.
+          For just ₦5000, you'll discover the exact Chase Reversal framework
+          that makes women obsessed over YOU even if they have multiple options.
         </p>
 
         {/* Fourth CTA */}
         <div id="order" className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             Get The Framework Now!
@@ -823,13 +1036,21 @@ He's not rude or anything—he just has his own life and he moves like someone w
             Testimonial #1:
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            "I'll be honest – when I first saw the title 'How to Make Her Chase You,' I rolled my eyes. I thought it was going to be another one of those manipulative pickup artist books that teach you to play games and treat women like crap…
+            "I'll be honest – when I first saw the title 'How to Make Her Chase
+            You,' I rolled my eyes. I thought it was going to be another one of
+            those manipulative pickup artist books that teach you to play games
+            and treat women like crap…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            …I've tried that stuff before and it just made me feel like a fake. But this is completely different. It's not about being a jerk – it's about having actual self-respect and boundaries…
+            …I've tried that stuff before and it just made me feel like a fake.
+            But this is completely different. It's not about being a jerk – it's
+            about having actual self-respect and boundaries…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            Within a week of applying the Chase Reversal technique, this girl who'd been flaking on me for a month suddenly started initiating conversations and asking when we could meet up. I didn't have to change who I am. I just stopped acting desperate. Game changer."
+            Within a week of applying the Chase Reversal technique, this girl
+            who'd been flaking on me for a month suddenly started initiating
+            conversations and asking when we could meet up. I didn't have to
+            change who I am. I just stopped acting desperate. Game changer."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
             — Faruk M., PortHarcourt
@@ -838,8 +1059,8 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         {/* Fifth CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
@@ -852,13 +1073,21 @@ He's not rude or anything—he just has his own life and he moves like someone w
             Testimonial #2:
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            "Dude. I'm 38 years old. Divorced. Two kids. I figured my dating life was basically over and I'd be lucky to find anyone who'd give me the time of day. When I read the part about women with options actually PREFERRING guys who aren't always available...
+            "Dude. I'm 38 years old. Divorced. Two kids. I figured my dating
+            life was basically over and I'd be lucky to find anyone who'd give
+            me the time of day. When I read the part about women with options
+            actually PREFERRING guys who aren't always available...
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            I was like, yeah right, that might work for 25-year-old Chad with abs, but not for a regular guy like me. WRONG…
+            I was like, yeah right, that might work for 25-year-old Chad with
+            abs, but not for a regular guy like me. WRONG…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            Started dating this gorgeous 28-year-old nurse who has guys hitting on her constantly at work. She literally told me last week that she loves that I 'have my own life' and don't revolve around her. She's the one texting ME now asking what I'm up to. If it can work for a divorced dad with a beer gut, it'll work for anyone."
+            Started dating this gorgeous 28-year-old nurse who has guys hitting
+            on her constantly at work. She literally told me last week that she
+            loves that I 'have my own life' and don't revolve around her. She's
+            the one texting ME now asking what I'm up to. If it can work for a
+            divorced dad with a beer gut, it'll work for anyone."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
             — Emmanuel K., Lagos
@@ -867,8 +1096,8 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         {/* Sixth CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
@@ -881,13 +1110,23 @@ He's not rude or anything—he just has his own life and he moves like someone w
             Testimonial #3:
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            "I bought this after getting friendzoned for like the hundredth time by a girl I really liked. She kept telling me I was 'such a good guy' and 'any girl would be lucky to have me' while she dated losers who treated her like trash…
+            "I bought this after getting friendzoned for like the hundredth time
+            by a girl I really liked. She kept telling me I was 'such a good
+            guy' and 'any girl would be lucky to have me' while she dated losers
+            who treated her like trash…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            I wanted to know what these guys had that I didn't. When I started reading, I kept thinking 'there's no way this actually works in real life.' It seemed too simple…
+            I wanted to know what these guys had that I didn't. When I started
+            reading, I kept thinking 'there's no way this actually works in real
+            life.' It seemed too simple…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            But I tried it anyway because I had nothing to lose. Three weeks later, that same girl who friendzoned me texted out of nowhere asking why I'd been so distant. Then she asked ME out. We've been dating for two months now and she's more into me than I ever thought possible. The crazy part? I'm doing LESS than I was before, not more."
+            But I tried it anyway because I had nothing to lose. Three weeks
+            later, that same girl who friendzoned me texted out of nowhere
+            asking why I'd been so distant. Then she asked ME out. We've been
+            dating for two months now and she's more into me than I ever thought
+            possible. The crazy part? I'm doing LESS than I was before, not
+            more."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
             — Ibrahim L., Kaduna
@@ -896,8 +1135,8 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         {/* Seventh CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
@@ -910,13 +1149,19 @@ He's not rude or anything—he just has his own life and he moves like someone w
             Testimonial #4:
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            "Look, I'm a software engineer. I like data. Logic. Things that make sense. The whole 'make her chase you' concept sounded like pseudoscience bullshit to me at first…
+            "Look, I'm a software engineer. I like data. Logic. Things that make
+            sense. The whole 'make her chase you' concept sounded like
+            pseudoscience bullshit to me at first…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            Women chase attractive men with status and money, right? That's what the studies say. Except I'm 5'7", make decent money but nothing crazy, and I'm not winning any modeling contests…
+            Women chase attractive men with status and money, right? That's what
+            the studies say. Except I'm 5'7", make decent money but nothing
+            crazy, and I'm not winning any modeling contests…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            Started using the scarcity principle and the frame control techniques from chapter 3, fully expecting nothing to happen. ..Two things changed immediately:
+            Started using the scarcity principle and the frame control
+            techniques from chapter 3, fully expecting nothing to happen. ..Two
+            things changed immediately:
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
             (1) Women I was talking to stopped flaking, and
@@ -925,7 +1170,10 @@ He's not rude or anything—he just has his own life and he moves like someone w
             (2) They started texting first and actually suggesting dates…
           </p>
           <p className="text-lg text-gray-800 mb-4 italic">
-            I tracked it. My response rate went from maybe 20% to over 60%. My 'she suggests the date' rate went from literally 0% to about 40%. I still don't fully understand WHY it works on a psychological level, but the data doesn't lie. This works."
+            I tracked it. My response rate went from maybe 20% to over 60%. My
+            'she suggests the date' rate went from literally 0% to about 40%. I
+            still don't fully understand WHY it works on a psychological level,
+            but the data doesn't lie. This works."
           </p>
           <p className="text-lg text-gray-800 font-semibold">
             — Kelvin P., Abuja
@@ -934,14 +1182,13 @@ He's not rude or anything—he just has his own life and he moves like someone w
 
         {/* Final CTA */}
         <div className="text-center my-12">
-          <Link 
-            href="#order" 
+          <Link
+            href="#order"
             className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-16 py-5 rounded-lg transition-colors shadow-lg"
           >
             ORDER NOW
           </Link>
         </div>
-
       </div>
     </div>
   );
