@@ -136,7 +136,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          You planned what to say days (if not weeks)...
+          You planned what to say for days (if not weeks)...
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
