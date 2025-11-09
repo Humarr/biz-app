@@ -213,26 +213,25 @@ export default function SalesPage() {
         
         </p> */}
 
-        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+        <p className="text-lg text-gray-800 mb-6">
           And I've put everything he knows (plus what I've learned from watching
-          guys like him) into a complete system called "How to Make Her Chase
-          You Even If She Has Other Options."
-          {/* It seems backward, doesn't it? */}
+          guys like him) into a complete system called <span className="font-bold text-red-600"> "How to Make Her Chase
+          You Even If She Has Other Options."</span>
+      
         </p>
-        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          But before I show you what you'll get inside the system, Let me reveal
-          the SHOCKING truth:
+        <p className="text-lg text-gray-800 mb-6">
+          But before I show you what you'll get inside the system, 
+        </p>
+        <p className="text-2xl font-semibold text-center text-gray-800 mb-6">
+          Let me reveal the SHOCKING truth:
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-8">
-          {/* Like women say they want one thing but respond to the complete opposite. */}
+    
           Believe it or not…
         </p>
 
-        {/* <p className="text-lg text-gray-800 mb-6">
-          The SHOCKING truth is:
-        </p> */}
-
+       
         <p className="text-lg font-bold text-gray-800 mb-6">
           Women are actually very easy to attract…
         </p>
