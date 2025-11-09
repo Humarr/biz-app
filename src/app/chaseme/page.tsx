@@ -1035,9 +1035,9 @@ export default function SalesPage() {
 
         {/* Testimonial 1 */}
         <div className="bg-gray-50 shadow-2xl border border-red-600 rounded-xl p-6 mb-8 text-center">
-          <p className="text-lg font-bold text-gray-900 mb-4">
+          {/* <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #1:
-          </p>
+          </p> */}
           <p className="text-lg text-gray-800 mb-4 italic">
             "I'll be honest – when I first saw the title 'How to Make Her Chase
             You,' I rolled my eyes. I thought it was going to be another one of
@@ -1072,9 +1072,9 @@ export default function SalesPage() {
 
         {/* Testimonial 2 */}
         <div className="bg-gray-50 shadow-2xl border border-purple-600 rounded-xl p-6 mb-8 text-center">
-          <p className="text-lg font-bold text-gray-900 mb-4">
+          {/* <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #2:
-          </p>
+          </p> */}
           <p className="text-lg text-gray-800 mb-4 italic">
             "Dude. I'm 38 years old. Divorced. Two kids. I figured my dating
             life was basically over and I'd be lucky to find anyone who'd give
@@ -1108,9 +1108,9 @@ export default function SalesPage() {
         {/* Testimonial 3 */}
         <div className="bg-gray-50 shadow-2xl border border-red-600 rounded-xl p-6 mb-8 text-center">
           
-          <p className="text-lg font-bold text-gray-900 mb-4">
+          {/* <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #3:
-          </p>
+          </p> */}
           <p className="text-lg text-gray-800 mb-4 italic">
             "I bought this after getting friendzoned for like the hundredth time
             by a girl I really liked. She kept telling me I was 'such a good
@@ -1146,9 +1146,9 @@ export default function SalesPage() {
 
         {/* Testimonial 4 */}
         <div className="bg-gray-50 shadow-2xl border border-purple-600 rounded-xl p-6 mb-8 text-center">
-          <p className="text-lg font-bold text-gray-900 mb-4">
+          {/* <p className="text-lg font-bold text-gray-900 mb-4">
             Testimonial #4:
-          </p>
+          </p> */}
           <p className="text-lg text-gray-800 mb-4 italic">
             "Look, I'm a software engineer. I like data. Logic. Things that make
             sense. The whole 'make her chase you' concept sounded like
