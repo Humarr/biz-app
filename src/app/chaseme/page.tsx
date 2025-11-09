@@ -177,8 +177,7 @@ export default function SalesPage() {
           Tunde doesn't beg any babe for attention....
         </p>
         <p className="text-lg text-gray-800 mb-8">
-          He doesn't practice his lines before approaching... He doesn't act
-          like he needs her approval.
+          He doesn't practice his lines before approaching... 
         </p>
         <p className="text-lg text-gray-800 mb-8">
           He doesn't act like he needs her approval...
@@ -190,7 +189,7 @@ export default function SalesPage() {
           He's not rude or anything - he just knows how to make women "fall for
           him" without stress...
         </p>
-        <p className="text-lg text-gray-800 mb-8">
+        <p className="text-xl text-center font-bold text-gray-800 mb-8">
           And babes? Ah! They chase Tunde like he's the last man on earth...
         </p>
 
