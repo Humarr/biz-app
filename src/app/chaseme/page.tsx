@@ -513,8 +513,7 @@ export default function SalesPage() {
         <ul className="space-y-4 mb-8">
           <li className="text-lg text-gray-800">
             • How to challenge a woman intellectually without being rude - the
-            teasing technique that makes you the only guy NOT agreeing with
-            everything she says
+            teasing technique that makes you the only guy she's thinking about
           </li>
           <li className="text-lg text-gray-800 font-bold">
             • The Engagement Loop - the back-and-forth rhythm that keeps
@@ -532,7 +531,7 @@ export default function SalesPage() {
           <li className="text-lg text-gray-800">
             • The three core questions she's asking herself about you that
             determine if you're just another guy or someone she'll actually
-            chase
+            choose
           </li>
           <li className="text-lg text-gray-800 font-bold">
             • Scarcity value - how to make your time and attention scarce enough
