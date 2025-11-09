@@ -238,7 +238,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg font-bold text-gray-800 mb-8">
-          …once you understand the simple "sneaky" and scientifically proven way
+          …once you understand the simple "sneaky" and <span className="underline">scientifically proven</span> way
           to make them "fall for you."
         </p>
 
