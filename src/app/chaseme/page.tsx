@@ -100,8 +100,10 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          And when you text her, she ignores your message or.. leaves you "on
-          read"
+          And when you text her, she leaves you "on read"
+        </p>
+        <p className="text-lg text-gray-800 mb-6">
+        And if you're "unlucky," she just blocks you for good.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
