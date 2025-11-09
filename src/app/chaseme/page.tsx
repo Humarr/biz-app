@@ -16,7 +16,7 @@ export default function SalesPage() {
 
         {/* Main Headline */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-red-600 mb-8 leading-tight">
-          Warning: Do Not Read This...<br/> <br/> If You Have Moral, Ethical, or Personal Reasons Against...<br/> <br/> Discovering How to Make Her CHOOSE YOU…
+          Warning: Do Not Read This...<br/> <br/> If You Have Moral, Ethical, or Personal Reasons Against...<br/> <br/> Discovering How to Make Her CHOOSE YOU…Even If She Has Other Guys in Her DMs
         </h2>
 
        <p className="text-xl italic font-bold text-gray-800 mb-4">
