@@ -12,6 +12,7 @@ export default function SalesPage() {
           Lady rejects you, You'd{" "}
           <span className="underline text-red-600">NEVER</span> See Women The
           Same Way Again...
+          {/* NEW Research Shows: */}
         </p>
         {/* <p className="text-gray-900 mb-6 leading-tight text-center font-bold">
           Female Psychology Expert says... 
@@ -26,7 +27,7 @@ export default function SalesPage() {
           Other Guys in Her DMs */}
         </h2>
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8 leading-tight">
-         The "SECRET CODE" That Makes Women Actually Want To Be With YOU And Choose You Over Every Other Guy - Even If She Has Options
+         The <span className="text-red-600">SECRET CODE</span> That Makes Women CHOOSE YOU Over Every Other Guy - Even If She Has Options
         </h2>
 
         <p className="text-xl italic font-bold text-gray-800 mb-4">
