@@ -97,71 +97,103 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Here's a truth about how women think:
+          You know what really pains me sef?
+You're asking about her day and listening like you actually care. Him? He just sends "sup" and nothing else.
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          See, they're constantly calculating…
+Watching good guys—guys who will actually treat a woman right—get completely ignored by the same women who are running after guys that don't even try.
+          
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          Every text you send, every "good morning" message, every time you ask "when can I see you again?"...
+You're the one texting her and checking on her every day. That other guy? He doesn't text her for three whole days.
+          {/* Every text you send, every "good morning" message, every time you ask "when can I see you again?"... */}
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          …she's measuring how much you want her versus how much she wants you.
+          {/* …she's measuring how much you want her versus how much she wants you. */}
+          You're planning nice dates and showing up on time. That guy? He just tells her "come my house" at night and she will drop everything and go.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          And the moment that scale tips too far in her favor?
+          {/* And the moment that scale tips too far in her favor? */}
+And the worst part? She's the one calling HIM. She's the one checking if HE has eaten. She's the one asking when she'll see HIM again.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          Boy, oh boy!
+          {/* Boy, oh boy! */}
+While you? You're still waiting for her to reply the message you sent yesterday.
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You become just another guy on her roster…
+It doesn't make sense, abi?
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          You become background noise…
+          {/* You become background noise… */}
+But there's this guy I know. Let's call him Tunde.
+And babes? Ah! They chase Tunde like he's the last man on earth.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          And if you're "lucky," you become the "backup option" she keeps around while she chases the guy who makes her mind tingle with desire...
+Tunde doesn't chase any babe... 
+          {/* And if you're "lucky," you become the "backup option" she keeps around while she chases the guy who makes her mind tingle with desire... */}
         </p>
-
-        <p className="text-lg text-gray-800 mb-6">
-          Maybe you've even seen this yourself…
-        </p>
-
-        <p className="text-lg text-gray-800 mb-6">
-          You've watched women snub perfectly good guys who would treat them right, only to obsess over some guy who barely texts back…
-        </p>
-
-        <p className="text-lg text-gray-800 mb-6">
-          The guy who's "busy…"
-        </p>
-
-        <p className="text-lg text-gray-800 mb-6">
-          The guy who has his own life…
-        </p>
-
         <p className="text-lg text-gray-800 mb-8">
-          The guy who doesn't need her validation…
+
+He doesn't send long messages explaining his feelings...
+
+
         </p>
+        <p className="text-lg text-gray-800 mb-8">
+
+He doesn't change his whole schedule because one babe said she's free...
+
+        
+        </p>
+        <p className="text-lg text-gray-800 mb-8">
+
+He's not rude or anything—he just has his own life and he moves like someone who has options, even when he doesn't...
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          {/* Maybe you've even seen this yourself… */}
+          They text him first... 
+          
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          {/* You've watched women snub perfectly good guys who would treat them right, only to obsess over some guy who barely texts back… */}
+          They ask when they can see him... 
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          {/* The guy who's "busy…" */}
+          They get worried when he doesn't reply fast... 
+        </p>
+
+        <p className="text-lg text-gray-800 mb-6">
+          They're doing all the work while Tunde is just chilling.
+          {/* The guy who has his own life… */}
+        </p>
+
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-6">
-          It seems backward, doesn't it?
+          And I've put everything he knows (plus what I've learned from watching guys like him) into a complete system called "How to Make Her Chase You Even If She Has Other Options."
+          {/* It seems backward, doesn't it? */}
+        </p>
+        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+          But before I show you what you'll get inside the system, Let me say this:
         </p>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-8">
-          Like women say they want one thing but respond to the complete opposite.
+          {/* Like women say they want one thing but respond to the complete opposite. */}
+          Believe it or not…
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          But here's the SHOCKING truth:
+          The SHOCKING truth is:
         </p>
 
         <p className="text-lg font-bold text-gray-800 mb-6">
@@ -181,7 +213,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          And that's what you get once you understand the "Chase Reversal framework" laid out step-by-step in the eBook…
+          And that's what I'm going to teach you in the "Chase Reversal framework" laid out step-by-step in the eBook…
         </p>
 
         <p className="text-2xl text-center font-bold text-gray-900 mb-8">
@@ -189,8 +221,11 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
-          And here's a peak into what you'll discover inside:
+          And here's a tiny little peek of what you'll discover inside:
         </p>
+        {/* <p className="text-lg text-gray-800 mb-8">
+          Inside this eBook, you're going to discover...
+        </p> */}
 
         {/* First Bullet List */}
         <ul className="space-y-4 mb-8">
@@ -347,7 +382,7 @@ export default function SalesPage() {
         </ul>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-8">
-          You think that's all?
+          And in addition to that…
         </p>
 
         {/* Eighth Bullet List */}
@@ -376,7 +411,8 @@ export default function SalesPage() {
         </ul>
 
         <p className="text-xl font-semibold text-center text-gray-800 mb-8">
-          It gets juicier...
+          {/* It gets juicier... */}
+          And this is where it gets real...
         </p>
 
         <ul className="space-y-4 mb-8">
@@ -398,15 +434,18 @@ export default function SalesPage() {
         </ul>
 
 
+        <p className="text-xl font-bold text-center text-gray-800 mb-8">
+          You think that's all?
+        </p>
         <p className="text-2xl font-bold text-center text-gray-800 mb-8">
-          And MANY more!
+          There's still MANY more waiting for you in the eBook!
         </p>
 
         {/* First CTA */}
         <div className="text-center my-12">
           <Link 
             href="#order" 
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition-colors"
+            className="inline-block bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-2xl transition-colors"
           >
             Get Instant Access!
           </Link>
@@ -442,15 +481,15 @@ export default function SalesPage() {
         </p>
 
         <p className="text-xl font-bold text-center text-gray-800 mb-8">
-          Plus, you'll understand the three psychological switches that flip her from evaluation mode to chase mode…
+          Plus, you'll understand the three psychological switches that flip her from "He's not my type" mode to "I don't want to lose him" mode…
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
           Once you know how to activate these, you'll watch her behavior change right before your eyes!
         </p>
 
-        <p className="text-lg text-gray-800 mb-6">
-          And here's what makes this different from every other dating advice book collecting digital dust on your hard drive:
+        <p className="text-xl font-semibold text-center text-gray-800 mb-6">
+          But pay attention to this part...
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -462,7 +501,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg font-bold  text-gray-800 mb-8">
-          You're creating your own space in her heart where you're the <span className='underline'>ONLY</span> option!
+          You're creating your own specialspace in her heart where you're the <span className='underline'>ONLY</span> option!
         </p>
 
         <p className="text-lg text-gray-800 mb-6">
@@ -493,7 +532,7 @@ export default function SalesPage() {
           <span className='font-bold'>BONUS: You get the Abundance Mindset chapter</span> - how to breathe new life into your mind so that you become the  <span className='underline'>high-value man</span> women chase - without forming "alpha male".
         </p>
 
-        <p className="text-xl text-center font-bold text-gray-800 mb-6">
+        <p className="text-2xl text-center font-bold text-gray-800 mb-6">
           Now, you'd think information like this – that completely flips the dating game in your favor – would cost you an arm and a leg…
         </p>
 
@@ -522,7 +561,7 @@ export default function SalesPage() {
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
-          Just the exact Chase Reversal framework that makes women with options pursue YOU – even if they're currently giving their attention to someone else.
+          Just the exact Chase Reversal framework that makes women obsess over YOU – even if they're currently giving their attention to someone else.
         </p>
 
         <p className="text-lg text-gray-800 mb-8">
@@ -537,9 +576,9 @@ export default function SalesPage() {
         <div className="text-center my-12">
           <Link 
             href="#order" 
-            className="inline-block bg-green-600 hover:bg-green-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition-colors"
+            className="inline-block bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-12 py-4 rounded-lg transition-colors"
           >
-            Yes! Give Me The System!
+            Yes! Give Me The System
           </Link>
         </div>
 
