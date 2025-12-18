@@ -78,10 +78,16 @@ export default function SalesPage() {
 
 
             <p>They show you their lifestyle. The cars. The houses. The watches. They tell you they made it with [INSERT METHOD HERE]. They sell you a course for $997, $1997, $2997. The course tells you to start a business that requires: money you don't have, time you don't have, skills you don't have, and luck you DEFINITELY don't have.</p>
+
             <p>And when it doesn't work? They tell you it's your fault. You didn't work hard enough. You didn't believe enough. You didn't take enough action.</p>
+
             <p>Bullshit.</p>
-            <p>The real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</p>
+
+            <p className='font-bold text-2xl text-center'>Want to know the real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</p>
+
             <p>And here's the thing that made me want to break shit: I KNEW it was a scam. I knew it, and I still kept falling for it. Because when you're desperate, you'll try anything. When you're suffocating, you'll grab at any hand reaching down—even if you know it's probably going to let go.</p>
+
+
             <p>So let me be crystal clear about what I'm NOT selling you:</p>
           </div>
           
@@ -92,8 +98,15 @@ export default function SalesPage() {
             <p>You don't need to be rich.</p>
             <p>You don't need six figures.</p>
             <p>You don't need a Lamborghini.</p>
-            <p>You know what you need?</p>
-            <p>You need to not be broke by Tuesday. You need breathing room. You need to fix your car when it breaks without having a panic attack. You need to sleep without that constant knot in your stomach. You need to stop feeling like a failure every time you check your bank account.</p>
+
+            <p className='text-3xl font-bold text-center'>You know what you need?</p>
+
+            <p>You need to not be broke before your next paycheck.</p>
+            <p>You need breathing room.</p>
+            <p>You need to be able to fix your car (or anything) when it breaks without having a panic attack. </p>
+            <p> You need to sleep without that constant knot in your stomach.</p>
+            <p>You need to stop feeling like a failure every time you check your bank account.</p>
+
             <p>That's it.</p>
             <p>That's the whole game.</p>
           </div>
@@ -101,16 +114,25 @@ export default function SalesPage() {
 
         {/* What if you could breathe section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">WHAT IF YOU COULD JUST... BREATHE?</h2>
+          <h2 className="text-3xl font-bold text-center my-8">
+            {/* SO, WHAT IF YOU COULD JUST... BREATHE? */}
+            So, let me redefine something for you.
+            </h2>
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>Let me redefine something for you.</p>
-            <p>When people talk about "making money online," they're always talking about these insane numbers. "$10k months!" "$100k years!" "Financial freedom!"</p>
+            <p>You see... when people talk about "making money online," they're always talking about these insane numbers. "$10k months!" "$100k years!" "Financial freedom!"</p>
+
             <p>And when you hear those numbers, you know what happens? You stop listening. Because it's so far from your reality that it sounds like science fiction.</p>
+
             <p>But what if we made the goal something different?</p>
-            <p>What if the goal was just: $800 to $1,500 extra per month.</p>
+
+            <p className='text-2xl font-bold text-center'>What if the goal was just: $800 to $1,500 extra per month.</p>
+
             <p>That's it.</p>
-            <p>Not quit-your-job money. Not buy-a-house money. Not even take-a-vacation money.</p>
+
+
+            <p>I know it's not quit-your-job money. Not buy-a-house money. Not even take-a-vacation money.</p>
             <p>Just... breathing room money.</p>
+
             <p>Let me show you what that actually means in your life:</p>
             <p className="font-semibold">With an extra $800-1500 per month:</p>
             <p>You get paid Friday. It's now the following Friday. You still have money.</p>
@@ -142,10 +164,10 @@ export default function SalesPage() {
           </div>
           
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>You're not rich. You're just... not suffering anymore.</p>
+            <p className='font-bold text-2xl text-center'>You're not rich. You're just... not suffering anymore.</p>
             <p>And here's the thing nobody tells you: Getting from broke to breathing room is 1,000 times easier than getting from breathing room to rich.</p>
             <p>Because you don't need a miracle. You don't need to create the next Facebook. You don't need to go viral. You don't need luck.</p>
-            <p>You just need a method that actually works for people like us.</p>
+            <p className='text-3xl font-bold text-center'>You just need a method that actually works for people like us.</p>
             <p>People with jobs. People who are already exhausted. People with zero money to "invest in themselves." People who've been burned by every guru and every promise.</p>
             <p>People who are just so fucking tired of being broke.</p>
           </div>
@@ -153,14 +175,20 @@ export default function SalesPage() {
 
         {/* The actual method section */}
         <div className="my-12">
+            <p>And now, as you’re about to see…</p>
           <h2 className="text-3xl font-bold text-center my-8">HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>I'm going to tell you exactly what I do. No secrets. No "buy my course to find out." I'm going to lay it out right here.</p>
+
             <p>But first, you need to understand why this works when everything else failed.</p>
-            <p>The reason dropshipping doesn't work for you: It requires money upfront for inventory, ads, testing. You don't have that money. By the time you make your first sale, you're already in the hole.</p>
-            <p>The reason social media marketing doesn't work for you: It takes 6-12 months to build a client base. You need money NOW, not in a year. Plus, you're competing with thousands of other people who all took the same course.</p>
-            <p>The reason "passive income" doesn't work for you: There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
-            <p>Here's what I figured out:</p>
+
+            <p>&#10148; The reason dropshipping doesn't work for you: It requires money upfront for inventory, ads, testing. You don't have that money. By the time you make your first sale, you're already in the hole.</p>
+
+            <p>&#10148; The reason social media marketing doesn't work for you: It takes 6-12 months to build a client base. You need money NOW, not in a year. Plus, you're competing with thousands of other people who all took the same course.</p>
+
+            <p>&#10148; The reason "passive income" doesn't work for you: There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
+
+            <p className='text-3xl font-bold text-center'>So, here's what I figured out:</p>
             <p>You need something that:</p>
           </div>
           
@@ -202,10 +230,16 @@ export default function SalesPage() {
           
           <div className="space-y-6 text-lg leading-relaxed">
             <p>That's the filter. That's the requirement.</p>
-            <p>And there's exactly ONE thing I found that fits all of those criteria.</p>
-            <p className="font-semibold text-xl">Client cleanup work for small online businesses.</p>
+            <h2 className='text-3xl font-bold text-center'>And there's exactly ONE thing I found that fits all of those criteria.</h2>
+
+            <p className="">And that is...</p>
+            <p className="font-semibold text-center text-2xl">Client cleanup work for small online businesses.</p>
+
+
             <p>I know. It sounds boring as hell. It is.</p>
+
             <p>But let me show you why it works:</p>
+            
             <p className="font-semibold">What it actually is:</p>
             <p>Small online businesses (course creators, coaches, consultants, small e-commerce) have a constant problem. Their customer lists are a mess. Their email platforms are disorganized. Their spreadsheets are chaos. Their basic admin work is piling up.</p>
             <p>They need someone to:</p>
