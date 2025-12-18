@@ -18,7 +18,7 @@ export default function SalesPage() {
         </h1> */}
 
         {/* Main content - formatted like a letter */}
-        <div className="space-y-6 text-lg leading-relaxed">
+        <div className="space-y-6  leading-relaxed">
           <p>Look, I don't know you.</p>
           <p>But I'm going to guess some things about your life right now, and you tell me if I'm wrong.</p>
           <p>You get paid on Friday. By Tuesday, you're broke. Maybe not actually zero—but close enough that you're doing that math in your head. "Can I afford gas AND groceries? Or do I pick one?"</p>
