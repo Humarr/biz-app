@@ -22,7 +22,7 @@ export default function SalesPage() {
           <p>Look, I don't know you.</p>
           <p>But I'm going to guess some things about your life right now, and you tell me if I'm wrong.</p>
           <p>You get paid on Friday. By Tuesday, you're broke. Maybe not actually zero—but close enough that you're doing that math in your head. "Can I afford gas AND groceries? Or do I pick one?"</p>
-          <p className='text-2xl font-bold text-center'>Every single month, you tell yourself: <span className='italic'>"This is it. This is the worst it'll get. Next month will be different."</span></p>
+          <p className='text-2xl my-8 font-bold text-center'>Every single month, you tell yourself: <span className='italic'>"This is it. This is the worst it'll get. Next month will be different."</span></p>
 
           <p>And every single month, you're wrong.</p>
 
@@ -31,7 +31,7 @@ export default function SalesPage() {
           <p>Also, you've budgeted. You've cut expenses down to nothing. You don't go out. You don't buy anything. You've eliminated everything except rent, car, phone, and groceries.</p>
           <p>And yet... you're STILL broke.</p>
 
-<p className='font-bold text-3xl text-center'>And even worse…</p>
+<p className='font-bold text-3xl my-8 text-center'>And even worse…</p>
 
           <p>The constant worry is killing you. No, you're not worried about the work—you can handle the work. </p>
           <p>But you're burnt out from constantly thinking about money. From checking your bank account with that sick feeling in your stomach. From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
@@ -46,7 +46,7 @@ export default function SalesPage() {
           <p className='font-bold text-xl'>And it makes you feel like a failure.</p>
 
           <p>I know this because I used to be in your shoes.</p>
-          <p className='font-bold text-3xl text-center'>Let me explain…</p>
+          <p className='font-bold text-3xl my-8 text-center'>Let me explain…</p>
 
           <p>Eighteen months ago, I was negative $180 in my checking account. I was working 6 days a week at a job I hated. I had $4.73 in quarters in my car for gas. </p>
           <p>I was 29 years old, living with a roommate I couldn't stand, wearing clothes that made me look homeless, avoiding everyone I knew because I was too ashamed of where I was.</p>
@@ -56,12 +56,12 @@ export default function SalesPage() {
 
           <p>But I'm not broke anymore either.</p>
 
-          <p className='text-3xl font-bold text-center'>And that difference—that space between "broke by Tuesday" and "making it to next paycheck"—that's everything.</p>
+          <p className='text-3xl my-8 font-bold text-center'>And that difference—that space between "broke by Tuesday" and "making it to next paycheck"—that's everything.</p>
         </div>
 
         {/* Every 8th paragraph styled as subheading */}
         <div className="my-12">
-          {/* <h2 className="text-3xl font-bold text-center my-8">HERE'S WHAT THIS ISN'T</h2> */}
+          {/* <h2 className="text-3xl my-8 font-bold text-center my-8">HERE'S WHAT THIS ISN'T</h2> */}
           <div className="space-y-6 text-lg leading-relaxed">
             <p>But before I tell you what actually worked, let me tell you what this is NOT.</p>
             
@@ -74,7 +74,7 @@ export default function SalesPage() {
             
             <p>You know why?</p>
 
-            <p className='font-bold text-2xl text-center'>Because I tried all of it. And it's all the same scam in different packaging.</p>
+            <p className='font-bold text-2xl my-8 text-center'>Because I tried all of it. And it's all the same scam in different packaging.</p>
 
             <p>Grant Cardone? Snake oil salesman. Dude's been indicted for fraud multiple times. </p>
             <p> Alex Hormozi? He makes his money selling you courses on how to make money.</p>
@@ -92,7 +92,7 @@ export default function SalesPage() {
 
             <p>Bullshit.</p>
 
-            <p className='font-bold text-2xl text-center'>Want to know the real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</p>
+            <p className='font-bold text-2xl my-8 text-center'>Want to know the real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</p>
 
             <p>And here's the thing that made me want to break shit:</p>
             <p className='italic '> I KNEW it was a scam. I knew it, and I still kept falling for it. </p>
@@ -110,7 +110,7 @@ export default function SalesPage() {
             <p>You don't need six figures.</p>
             <p>You don't need a Lamborghini.</p>
 
-            <p className='text-3xl font-bold text-center'>You know what you need?</p>
+            <p className='text-3xl my-8 font-bold text-center'>You know what you need?</p>
 
             <p> &#9989; You need to not be broke before your next paycheck.</p>
             <p> &#9989; You need breathing room.</p>
@@ -125,7 +125,7 @@ export default function SalesPage() {
 
         {/* What if you could breathe section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">
+          <h2 className="text-3xl my-8 font-bold text-center my-8">
             {/* SO, WHAT IF YOU COULD JUST... BREATHE? */}
             So, let me redefine something for you.
             </h2>
@@ -136,7 +136,7 @@ export default function SalesPage() {
 
             <p>But what if we made the goal something different?</p>
 
-            <p className='text-2xl font-bold text-center'>What if the goal was just: $800 to $1,500 extra per month.</p>
+            <p className='text-2xl my-8 font-bold text-center'>What if the goal was just: $800 to $1,500 extra per month.</p>
 
             <p>That's it.</p>
 
@@ -175,10 +175,10 @@ export default function SalesPage() {
           </div>
           
           <div className="space-y-6 text-lg leading-relaxed">
-            <p className='font-bold text-2xl text-center'>You're not rich. You're just... not suffering anymore.</p>
+            <p className='font-bold text-2xl my-8 text-center'>You're not rich. You're just... not suffering anymore.</p>
             <p>And here's the thing nobody tells you: Getting from broke to breathing room is 1,000 times easier than getting from breathing room to rich.</p>
             <p>Because you don't need a miracle. You don't need to create the next Facebook. You don't need to go viral. You don't need luck.</p>
-            <p className='text-3xl font-bold text-center'>You just need a method that actually works for people like us.</p>
+            <p className='text-3xl my-8 font-bold text-center'>You just need a method that actually works for people like us.</p>
             <p>People with jobs. People who are already exhausted. People with zero money to "invest in themselves." People who've been burned by every guru and every promise.</p>
             <p>People who are just so fucking tired of being broke.</p>
           </div>
@@ -187,7 +187,7 @@ export default function SalesPage() {
         {/* The actual method section */}
         <div className="my-12">
             <p>And now, as you’re about to see…</p>
-          <h2 className="text-3xl font-bold text-center my-8">HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)</h2>
+          <h2 className="text-3xl my-8 font-bold text-center my-8">HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>I'm going to tell you exactly what I do. No secrets. No "buy my course to find out." I'm going to lay it out right here.</p>
 
@@ -203,7 +203,7 @@ export default function SalesPage() {
 
             <p>&#10148; <span className='font-bold'>The reason "passive income" doesn't work for you:</span> There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
 
-            <p className='text-3xl font-bold text-center'>So, here's what I figured out:</p>
+            <p className='text-3xl my-8 font-bold text-center'>So, here's what I figured out:</p>
             <p>You need something that:</p>
           </div>
           
@@ -245,10 +245,10 @@ export default function SalesPage() {
           
           <div className="space-y-6 text-lg leading-relaxed">
             <p>That's the filter. That's the requirement.</p>
-            <h2 className='text-3xl font-bold text-center'>And there's exactly ONE thing I found that fits all of those criteria.</h2>
+            <h2 className='text-3xl my-8 font-bold text-center'>And there's exactly ONE thing I found that fits all of those criteria.</h2>
 
             <p className="">And that is...</p>
-            <p className="font-semibold text-center text-2xl">Client cleanup work for small online businesses.</p>
+            <p className="font-semibold text-center text-2xl my-8">Client cleanup work for small online businesses.</p>
 
 
             <p>I know. It sounds boring as hell. It is.</p>
@@ -297,11 +297,11 @@ export default function SalesPage() {
 
           <div className="space-y-6 text-lg leading-relaxed">
             <p>And get this...</p>
-            <h3 className='text-3xl font-bold text-center'>This is NOT copywriting. It's NOT design. It's NOT marketing. It's NOT coding.</h3>
-            <p className='text-3xl font-bold text-center'>It's literally just... cleaning up their mess.</p>
+            <h3 className='text-3xl my-8 font-bold text-center'>This is NOT copywriting. It's NOT design. It's NOT marketing. It's NOT coding.</h3>
+            <p className='text-3xl my-8 font-bold text-center'>It's literally just... cleaning up their mess.</p>
 
             <p>And if you're thinking…</p>
-            <p className='text-3xl font-bold text-center'>"Who the heck will pay me for that?!"</p>
+            <p className='text-3xl my-8 font-bold text-center'>"Who the heck will pay me for that?!"</p>
             <p className="font-semibold">Let me show you why they'll pay you:</p>
 
             <p>These business owners make $10k-50k per month. But they're drowning in admin work. They don't need a $5,000/month virtual assistant. They need someone for 10-15 hours per month to just handle the boring shit.</p>
@@ -345,15 +345,15 @@ export default function SalesPage() {
 
           <div className="my-6 bg-gray-50 p-6 rounded-lg">
             <div className="flex space-x-2 mb-2">
-              <span className="text-2xl">🔢</span>
+              <span className="text-2xl my-8">🔢</span>
               <p className="text-xl font-semibold">2 clients paying you $600/month each = $1,200</p>
             </div>
             <div className="flex  space-x-2 mb-2">
-              <span className="text-2xl">⏰</span>
+              <span className="text-2xl my-8">⏰</span>
               <p className="text-xl font-semibold">10-15 hours total per month</p>
             </div>
             <div className="flex  space-x-2">
-              <span className="text-2xl">✅</span>
+              <span className="text-2xl my-8">✅</span>
               <p className="text-xl font-semibold">That's it.</p>
             </div>
           </div>
@@ -368,7 +368,7 @@ export default function SalesPage() {
 
         {/* Exactly how it works section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">SO HERE'S EXACTLY HOW IT WORKS</h2>
+          <h2 className="text-3xl my-8 font-bold text-center my-8">SO HERE'S EXACTLY HOW IT WORKS</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Let me walk you through the exact steps. No vague bullshit. The actual tactical process.</p>
             <p className="font-semibold text-xl">WEEK 1: Finding your first client</p>
@@ -400,7 +400,7 @@ export default function SalesPage() {
           <div className="space-y-6 text-lg leading-relaxed">
             <p>You send them this message (copy it word for word):</p>
             <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-200">
-              <p className="font-mono text-gray-700">"Hey [Name], I saw you're running [their business]. I'm working on building up client cleanup work experience, and I'd like to offer you 5 hours of work for free. I can clean up your email list, organize your customer data, handle basic customer service, or tackle whatever admin work is piling up. No strings attached. If you like the work, we can talk about ongoing paid work. If not, no worries—you got 5 free hours. Interested?"</p>
+              <p className="font-fun italic text-gray-700">"Hey [Name], I saw you're running [their business]. I'm working on building up client cleanup work experience, and I'd like to offer you 5 hours of work for free. I can clean up your email list, organize your customer data, handle basic customer service, or tackle whatever admin work is piling up. No strings attached. If you like the work, we can talk about ongoing paid work. If not, no worries—you got 5 free hours. Interested?"</p>
             </div>
             <p className="font-semibold">Here's why this works:</p>
           </div>
@@ -479,7 +479,7 @@ export default function SalesPage() {
             <p>Now you have a testimonial. You have proof you've done this before.</p>
             <p>You send the same message to 20 more people. But now you modify it:</p>
             <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-200">
-              <p className="font-mono text-gray-700">"Hey [Name], I saw you're running [their business]. I do client cleanup work for small online businesses—organizing customer data, cleaning email lists, handling basic admin work. I currently work with [first client's business name/industry]. I have room for one more client at $600/month for 10 hours of work. Would you be interested in a quick call to see if it's a fit?"</p>
+              <p className="font-fun italic text-gray-700">"Hey [Name], I saw you're running [their business]. I do client cleanup work for small online businesses—organizing customer data, cleaning email lists, handling basic admin work. I currently work with [first client's business name/industry]. I have room for one more client at $600/month for 10 hours of work. Would you be interested in a quick call to see if it's a fit?"</p>
             </div>
             <p>This converts at 10-15%. Out of 20 messages, 2-3 want to talk. 1 becomes a client.</p>
             <p className="font-semibold text-xl">MONTH 3+: Maintaining 2 clients</p>
@@ -621,7 +621,7 @@ export default function SalesPage() {
 
         {/* But wait section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">"BUT WAIT, I DON'T KNOW HOW TO DO ANY OF THIS"</h2>
+          <h2 className="text-3xl my-8 font-bold text-center my-8">"BUT WAIT, I DON'T KNOW HOW TO DO ANY OF THIS"</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Yes, you do.</p>
             <p>Can you use email? Then you can do customer service.</p>
@@ -629,7 +629,7 @@ export default function SalesPage() {
             <p>Can you use Facebook? Then you can clean up an email list (it's literally the same complexity).</p>
             <p>The work is NOT hard. It's just boring. That's why people will pay you to do it.</p>
 
-            <p className="text-3xl font-bold text-center">But let me address the real fear underneath that question.</p>
+            <p className="text-3xl my-8 font-bold text-center">But let me address the real fear underneath that question.</p>
 
             <p>You're not actually worried about whether you CAN do it. You're worried about looking stupid. About failing. About trying something else and having it not work AGAIN.</p>
             <p className='font-bold'>I get it.</p>
@@ -648,7 +648,7 @@ export default function SalesPage() {
 
             <p>And the truth is...</p>
 
-            <p className="text-3xl font-bold text-center">You're not avoiding failure by not trying this. You're just staying in the failure you already know.</p>
+            <p className="text-3xl my-8 font-bold text-center">You're not avoiding failure by not trying this. You're just staying in the failure you already know.</p>
 
             <p>This is a different kind of failure risk. If you try this and it doesn't work, you're out... what? 10 hours? And then you're back exactly where you are now.</p>
 
@@ -664,7 +664,7 @@ export default function SalesPage() {
 
         {/* 90 days section */}
         <div className="my-12">
-          {/* <h2 className="text-3xl font-bold text-center my-8">WHAT YOUR LIFE ACTUALLY LOOKS LIKE IN 90 DAYS</h2> */}
+          {/* <h2 className="text-3xl my-8 font-bold text-center my-8">WHAT YOUR LIFE ACTUALLY LOOKS LIKE IN 90 DAYS</h2> */}
           <h2 className="text-5xl font-bold text-center my-8">PICTURE THIS</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             {/* <p>Let me paint you a picture.</p> */}
@@ -674,11 +674,11 @@ export default function SalesPage() {
             <p>Your car made that noise again. You take it to the mechanic. He says it's $340 to fix.</p>
             <p>You don't panic. You don't calculate. You don't push it off. You just... fix it. Same day.</p>
             <p>That night, your friend texts: "Bar tonight?"</p>
-            <p className='text-3xl font-bold text-center'>You don't make an excuse. You don't check your bank account twelve times. You just go. You buy a round. It's $35. You don't think about it.</p>
+            <p className='text-3xl my-8 font-bold text-center'>You don't make an excuse. You don't check your bank account twelve times. You just go. You buy a round. It's $35. You don't think about it.</p>
             <p>Sunday morning, you work for 3 hours. Client B needs their email list cleaned up. You do it while watching Netflix. You're in your pajamas. You're drinking coffee. It's boring as hell.</p>
 
 
-            <p className="text-3xl font-bold text-center">But you're getting paid $75/hour to do it.</p>
+            <p className="text-3xl my-8 font-bold text-center">But you're getting paid $75/hour to do it.</p>
 
 
             <p>Monday comes. You go to your regular job. It still sucks. But now? It doesn't feel like a trap. It feels like... a job. Just a job. Because you know you have something else. Something that's yours.</p>
@@ -702,11 +702,11 @@ export default function SalesPage() {
         <div className="my-12">
 
             <p>Plus, in addition to that…</p>
-          <h2 className="text-3xl font-bold text-center my-8">
+          <h2 className="text-3xl my-8 font-bold text-center my-8">
             Here's what nobody tells you about getting out of being broke:
 
           </h2>
-          {/* <h2 className="text-3xl font-bold text-center my-8">THE MENTAL SHIFT NOBODY TALKS ABOUT</h2> */}
+          {/* <h2 className="text-3xl my-8 font-bold text-center my-8">THE MENTAL SHIFT NOBODY TALKS ABOUT</h2> */}
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Look, the best part isn't the money.</p>
             <p>I mean, the money is great. Obviously.</p>
@@ -718,7 +718,7 @@ export default function SalesPage() {
 
             <p>That feeling? It destroys you. More than the actual being broke part.</p>
 
-            <p className="text-3xl font-bold text-center">When I made my first $600 from a client, you know what changed?</p>
+            <p className="text-3xl my-8 font-bold text-center">When I made my first $600 from a client, you know what changed?</p>
             <p>It wasn't that I could pay rent easier (though I could).</p>
             <p className='font-bold italic'>It was that I stopped feeling like a failure.</p>
             <p>Because I PROVED to myself that I could do something. That I wasn't stupid. That I could figure something out. That I wasn't trapped forever.</p>
@@ -733,7 +733,7 @@ export default function SalesPage() {
 
         {/* What happens next section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">NOW, HERE'S WHAT HAPPENS NEXT</h2>
+          <h2 className="text-3xl my-8 font-bold text-center my-8">NOW, HERE'S WHAT HAPPENS NEXT</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Look, I'm going to be straight with you.</p>
             <p>I've laid out the entire method. You could take what I just told you and go do it right now. Send 20 messages. Get a client. Start getting paid.</p>
@@ -741,9 +741,14 @@ export default function SalesPage() {
             <p>You probably won't.</p>
             <p>Not because you can't. But because when you sit down to actually DO it, you'll freeze.</p>
 
-            <p>You'll think: "What exactly do I say in the message? What if they ask me a question I don't know how to answer? What tools do I need? How do I price it? What if I screw it up? What if they can tell I've never done this before?"</p>
+            <p className="text-xl font-bold">You'll think:</p>
+            <p>&#10132; "What exactly do I say in the message? "</p>
+            <p>&#10132; "What if they ask me a question I don't know how to answer?"</p>
+            <p> &#10132; "What tools do I need?" </p>
+            <p>&#10132; "How do I price it? What if I screw it up? "</p>
+            <p>&#10132; "What if I screw it up? What if they can tell I've never done this before?"</p>
 
-            <p className='text-3xl font-bold text-center'>And all those questions will feel like walls. And you'll close the laptop and tell yourself <span className='italic'>"I'll do it tomorrow."</span></p>
+            <p className='text-3xl my-8 font-bold text-center my-8'>And all those questions will feel like walls. And you'll close the laptop and tell yourself <span className='italic'>"I'll do it tomorrow."</span></p>
             <p>And tomorrow never comes.</p>
             <p>So I made something.</p>
             <p>It's called <span className="font-bold">The Cleanup Client Blueprint</span>.</p>
@@ -759,7 +764,7 @@ export default function SalesPage() {
             <p>The whole thing is ₦5,000.</p>
             <p>I know what you're thinking: "Great, another thing trying to sell me something."</p>
             <p>Fair. I get it.</p>
-            <p className='text-3xl font-bold text-center'>But let me put it this way:</p>
+            <p className='text-3xl my-8 font-bold text-center'>But let me put it this way:</p>
             <p>₦5,000 is what you spend on... what? Gas? Groceries for three days? That thing you bought on Amazon last week that you already forgot about?</p>
             <p>If you stay broke for another month, that costs you way more than ₦5,000.</p>
             <p>The overdraft fees alone cost more than ₦5,000.</p>
@@ -776,8 +781,8 @@ export default function SalesPage() {
             {/* <p>And here's my guarantee:</p> */}
             <div className="bg-gray-50 p-6 rounded-lg my-6 border border-gray-300">
               <div className="flex items-center justify-center mb-4">
-                <span className="text-3xl mr-3">🛡️</span>
-                <h3 className="text-2xl font-bold">And here's my guarantee:</h3>
+                <span className="text-3xl my-8 mr-3">🛡️</span>
+                <h3 className="text-2xl my-8 font-bold">And here's my guarantee:</h3>
               </div>
               <p className="text-center text-xl font-semibold">If you don't have at least one client paying you $600+ within 90 days, I'll refund your ₦5,000 AND buy you lunch.</p>
               <p className="text-center mt-4">Seriously. Send me proof you followed the system, messaged 40 people, and didn't get a client. I'll refund you and Venmo you $20 for lunch.</p>
@@ -802,8 +807,8 @@ export default function SalesPage() {
 
         {/* The Choice section */}
         <div className="my-12">
-          {/* <h2 className="text-3xl font-bold text-center my-8">NOW COMES THE TIME FOR YOU TO MAKE THE CHOICE</h2> */}
-          <h2 className="text-3xl font-bold text-center my-8">But pay attention to this part...</h2>
+          {/* <h2 className="text-3xl my-8 font-bold text-center my-8">NOW COMES THE TIME FOR YOU TO MAKE THE CHOICE</h2> */}
+          <h2 className="text-3xl my-8 font-bold text-center my-8">But pay attention to this part...</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Look, you're going to close this page soon.</p>
             <p>And you're going to make a decision.</p>
@@ -812,7 +817,7 @@ export default function SalesPage() {
 
             <p>Maybe something will magically change. Maybe your job will give you a raise. Maybe you'll win the lottery. Maybe a guru's promise will finally come true.</p>
 
-            <p className='text-3xl font-bold text-center'>Or maybe you'll just stay stuck. For another month. Another year. Another five years.</p>
+            <p className='text-3xl my-8 font-bold text-center'>Or maybe you'll just stay stuck. For another month. Another year. Another five years.</p>
 
             <p>The other path is trying something different.</p>
             <p>Not something crazy. Not something risky. Just... different.</p>
@@ -822,7 +827,7 @@ export default function SalesPage() {
             <p>It's not exciting. It's not sexy. It won't make you Instagram famous.</p>
             <p>But it works.</p>
             <p>And working is all that matters.</p>
-            <p className='font-bold text-3xl text-center'>So what's it going to be?</p>
+            <p className='font-bold text-3xl my-8 text-center'>So what's it going to be?</p>
           </div>
         </div>
 
