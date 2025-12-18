@@ -797,9 +797,12 @@ export default function SalesPage() {
           <div className="border-t border-gray-300 pt-8 mb-8">
             <p className="text-4xl font-bold mb-4">$47</p>
             <p className="text-gray-600 mb-8">One-time payment. No upsells. No monthly fees.</p>
+            <a>
+
             <button className="bg-gray-900 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-gray-800 transition-colors w-full sm:w-auto">
               GET THE CLEANUP CLIENT BLUEPRINT - $47
             </button>
+            </a>
           </div>
           
           <div className="space-y-6 text-lg leading-relaxed text-left">
@@ -813,9 +816,12 @@ export default function SalesPage() {
           </div>
           
           <div className="mt-12">
+            <a>
+
             <button className="bg-gray-900 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-gray-800 transition-colors w-full sm:w-auto">
               GET THE CLEANUP CLIENT BLUEPRINT - $47
             </button>
+            </a>
           </div>
         </div>
 
@@ -838,9 +844,12 @@ export default function SalesPage() {
         {/* Final CTA */}
         <div className="my-16 text-center">
           <div className="border-t border-gray-300 pt-8">
+           <a>
+
             <button className="bg-gray-900 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-gray-800 transition-colors w-full sm:w-auto">
               STOP SUFFERING - GET THE BLUEPRINT HERE
             </button>
+           </a>
           </div>
         </div>
       </div>
