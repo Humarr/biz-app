@@ -26,7 +26,8 @@ export default function BonusSection() {
       title: "The Work Breakdown",
       items: [
         "Step-by-step what to do for each type of work",
-        "Screenshots of exactly what 'cleaning an email list' actually looks like",
+        "Step-by-step breakdown of exactly what 'cleaning an email list' actually looks like",
+        // "Screenshots of exactly what 'cleaning an email list' actually looks like",
         "How to use ConvertKit, Mailchimp, and other platforms (even if you've never touched them)",
         "Templates for organizing their data",
         "Scripts for handling customer service"

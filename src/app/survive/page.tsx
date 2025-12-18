@@ -659,13 +659,21 @@ export default function SalesPage() {
             <p>Your car made that noise again. You take it to the mechanic. He says it's $340 to fix.</p>
             <p>You don't panic. You don't calculate. You don't push it off. You just... fix it. Same day.</p>
             <p>That night, your friend texts: "Bar tonight?"</p>
-            <p>You don't make an excuse. You don't check your bank account twelve times. You just go. You buy a round. It's $35. You don't think about it.</p>
+            <p className='text-3xl font-bold text-center'>You don't make an excuse. You don't check your bank account twelve times. You just go. You buy a round. It's $35. You don't think about it.</p>
             <p>Sunday morning, you work for 3 hours. Client B needs their email list cleaned up. You do it while watching Netflix. You're in your pajamas. You're drinking coffee. It's boring as hell.</p>
-            <p>But you're getting paid $75/hour to do it.</p>
+
+
+            <p className="text-3xl font-bold text-center">But you're getting paid $75/hour to do it.</p>
+
+
             <p>Monday comes. You go to your regular job. It still sucks. But now? It doesn't feel like a trap. It feels like... a job. Just a job. Because you know you have something else. Something that's yours.</p>
-            <p>Tuesday comes. You get your paycheck from your regular job.</p>
+
+            <p>Month end comes. You get your paycheck from your regular job.</p>
+
             <p>And you're NOT broke.</p>
-            <p>You have money from Friday. Plus the $600 that hit Monday. Plus you know another $600 is coming.</p>
+
+            <p>You still have money from last pay. Plus the $600 that hit Monday. Plus you know another $600 is coming.</p>
+
             <p>For the first time in years, you breathe.</p>
             <p>That knot in your stomach? The one that's been there so long you forgot what it felt like to not have it?</p>
             <p>It's gone.</p>
@@ -677,39 +685,50 @@ export default function SalesPage() {
 
         {/* Mental shift section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">THE MENTAL SHIFT NOBODY TALKS ABOUT</h2>
+
+            <p>Plus, in addition to that…</p>
+          <h2 className="text-3xl font-bold text-center my-8">
+            Here's what nobody tells you about getting out of poverty:
+
+          </h2>
+          {/* <h2 className="text-3xl font-bold text-center my-8">THE MENTAL SHIFT NOBODY TALKS ABOUT</h2> */}
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>Here's what nobody tells you about getting out of broke:</p>
-            <p>The best part isn't the money.</p>
+            <p>Look, the best part isn't the money.</p>
             <p>I mean, the money is great. Obviously.</p>
             <p>But the BEST part is that you stop feeling stupid.</p>
+
             <p>Right now, every time you see someone making it work, you feel like a failure. Every guru on Instagram. Every friend who's doing okay. Every person who isn't constantly stressed about money.</p>
+
             <p>It makes you feel like you're just not smart enough. Like everyone else figured out something you can't.</p>
+
             <p>That feeling? It destroys you. More than the actual being broke part.</p>
-            <p>When I made my first $600 from a client, you know what changed?</p>
+
+            <p className="text-3xl font-bold text-center">When I made my first $600 from a client, you know what changed?</p>
             <p>It wasn't that I could pay rent easier (though I could).</p>
-            <p>It was that I stopped feeling like a failure.</p>
+            <p className='font-bold italic'>It was that I stopped feeling like a failure.</p>
             <p>Because I PROVED to myself that I could do something. That I wasn't stupid. That I could figure something out. That I wasn't trapped forever.</p>
             <p>That mental shift is worth more than the money.</p>
-            <p>You stop avoiding your friends because you're ashamed.</p>
-            <p>You stop feeling like you're falling behind.</p>
-            <p>You stop feeling like life is just something that happens TO you.</p>
-            <p>You start feeling like maybe—MAYBE—you have some control.</p>
+            <p>&#9733; You stop avoiding your friends because you're ashamed.</p>
+            <p>&#9733; You stop feeling like you're falling behind.</p>
+            <p>&#9733; You stop feeling like life is just something that happens TO you.</p>
+            <p>&#9733; You start feeling like maybe—MAYBE—you have some control.</p>
             <p>And that feeling? That's what lets you sleep at night.</p>
           </div>
         </div>
 
         {/* What happens next section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">HERE'S WHAT HAPPENS NEXT</h2>
+          <h2 className="text-3xl font-bold text-center my-8">NOW, HERE'S WHAT HAPPENS NEXT</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Look, I'm going to be straight with you.</p>
             <p>I've laid out the entire method. You could take what I just told you and go do it right now. Send 20 messages. Get a client. Start getting paid.</p>
             <p>But here's the reality:</p>
             <p>You probably won't.</p>
             <p>Not because you can't. But because when you sit down to actually DO it, you'll freeze.</p>
+
             <p>You'll think: "What exactly do I say in the message? What if they ask me a question I don't know how to answer? What tools do I need? How do I price it? What if I screw it up? What if they can tell I've never done this before?"</p>
-            <p>And all those questions will feel like walls. And you'll close the laptop and tell yourself "I'll do it tomorrow."</p>
+
+            <p className='text-3xl font-bold text-center'>And all those questions will feel like walls. And you'll close the laptop and tell yourself <span className='italic'>"I'll do it tomorrow."</span></p>
             <p>And tomorrow never comes.</p>
             <p>So I made something.</p>
             <p>It's called <span className="font-bold">The Cleanup Client Blueprint</span>.</p>
