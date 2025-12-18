@@ -799,7 +799,7 @@ export default function SalesPage() {
             <p className="text-gray-600 mb-8">One-time payment. No upsells. No monthly fees.</p>
             <a>
 
-            <button className="bg-gray-900 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-gray-800 transition-colors w-full sm:w-auto">
+            <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
               GET THE CLEANUP CLIENT BLUEPRINT - $47
             </button>
             </a>
@@ -818,7 +818,7 @@ export default function SalesPage() {
           <div className="mt-12">
             <a>
 
-            <button className="bg-gray-900 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-gray-800 transition-colors w-full sm:w-auto">
+            <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
               GET THE CLEANUP CLIENT BLUEPRINT - $47
             </button>
             </a>
@@ -846,7 +846,7 @@ export default function SalesPage() {
           <div className="border-t border-gray-300 pt-8">
            <a>
 
-            <button className="bg-gray-900 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-gray-800 transition-colors w-full sm:w-auto">
+            <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
               STOP SUFFERING - GET THE BLUEPRINT HERE
             </button>
            </a>
