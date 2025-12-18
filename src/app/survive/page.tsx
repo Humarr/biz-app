@@ -5,12 +5,15 @@ import CheckmarkList from './components/CheckmarkList';
 
 export default function SalesPage() {
   return (
-    <main className="min-h-screen bg-white text-gray-900">
+    <main className="min-h-screen bg-white text-gray-900 font-sans">
       {/* Header */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-          I'M SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
+         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-red-600">
+          WARNING: DO NOT READ UNLESS YOU'RE SO TIRED OF BEING BROKE, NO MATTER WHAT YOU DO
         </h1>
+        {/* <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
+          I'M SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
+        </h1> */}
 
         {/* Main content - formatted like a letter */}
         <div className="space-y-6 text-lg leading-relaxed">
@@ -738,21 +741,21 @@ export default function SalesPage() {
           <BonusSection />
           
           <div className="space-y-6 text-lg leading-relaxed mt-8">
-            <p>The whole thing is $47.</p>
+            <p>The whole thing is ₦5,000.</p>
             <p>I know what you're thinking: "Great, another thing trying to sell me something."</p>
             <p>Fair. I get it.</p>
             <p className='text-3xl font-bold text-center'>But let me put it this way:</p>
-            <p>$47 is what you spend on... what? Gas? Groceries for three days? That thing you bought on Amazon last week that you already forgot about?</p>
-            <p>If you stay broke for another month, that costs you way more than $47.</p>
-            <p>The overdraft fees alone cost more than $47.</p>
-            <p>The stress of being broke costs you way more than $47 in therapy you can't afford.</p>
+            <p>₦5,000 is what you spend on... what? Gas? Groceries for three days? That thing you bought on Amazon last week that you already forgot about?</p>
+            <p>If you stay broke for another month, that costs you way more than ₦5,000.</p>
+            <p>The overdraft fees alone cost more than ₦5,000.</p>
+            <p>The stress of being broke costs you way more than ₦5,000 in therapy you can't afford.</p>
             {/* <p>And here's my guarantee:</p> */}
             <div className="bg-gray-50 p-6 rounded-lg my-6 border border-gray-300">
               <div className="flex items-center justify-center mb-4">
                 <span className="text-3xl mr-3">🛡️</span>
                 <h3 className="text-2xl font-bold">And here's my guarantee:</h3>
               </div>
-              <p className="text-center text-xl font-semibold">If you don't have at least one client paying you $600+ within 90 days, I'll refund your $47 AND buy you lunch.</p>
+              <p className="text-center text-xl font-semibold">If you don't have at least one client paying you $600+ within 90 days, I'll refund your ₦5,000 AND buy you lunch.</p>
               <p className="text-center mt-4">Seriously. Send me proof you followed the system, messaged 40 people, and didn't get a client. I'll refund you and Venmo you $20 for lunch.</p>
             </div>
             <p>Why? Because if you actually follow this and it doesn't work, then I'm wrong. And I should pay you for wasting your time.</p>
@@ -795,19 +798,19 @@ export default function SalesPage() {
         {/* Pricing and CTA Section */}
         <div className="my-16 text-center">
           <div className="border-t border-gray-300 pt-8 mb-8">
-            <p className="text-4xl font-bold mb-4">$47</p>
+            <p className="text-4xl font-bold mb-4">₦5,000</p>
             <p className="text-gray-600 mb-8">One-time payment. No upsells. No monthly fees.</p>
             <a>
 
             <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
-              GET THE CLEANUP CLIENT BLUEPRINT - $47
+              GET THE CLEANUP CLIENT BLUEPRINT - ₦5,000
             </button>
             </a>
           </div>
           
           <div className="space-y-6 text-lg leading-relaxed text-left">
             <h2 className="text-5xl text-center font-bold">One last thing:</h2>
-            <p>You know that voice in your head right now? The one saying "This probably won't work for me" or "I'll just do it myself without paying $47" or "Maybe I'll try this later"?</p>
+            <p>You know that voice in your head right now? The one saying "This probably won't work for me" or "I'll just do it myself without paying ₦5,000" or "Maybe I'll try this later"?</p>
             <p>That voice is the reason you're still broke.</p>
             <p>That voice has been "protecting" you from failure by keeping you from trying anything.</p>
             <p>That voice is not your friend.</p>
@@ -819,7 +822,7 @@ export default function SalesPage() {
             <a>
 
             <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
-              GET THE CLEANUP CLIENT BLUEPRINT - $47
+              GET THE CLEANUP CLIENT BLUEPRINT - ₦5,000
             </button>
             </a>
           </div>

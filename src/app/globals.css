@@ -118,7 +118,7 @@ h4 {
   } */
   
   p {
-  font-family: var(--font-modern);
+  font-family: Georgia, var(--font-modern);
   margin-bottom: 1.5rem;
 
 } 

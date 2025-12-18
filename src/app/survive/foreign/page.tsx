@@ -9,8 +9,11 @@ export default function SalesPage() {
       {/* Header */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-          I'M SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
+          WARNING: DO NOT READ UNLESS YOU'RE SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
         </h1>
+        {/* <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
+          I'M SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
+        </h1> */}
 
         {/* Main content - formatted like a letter */}
         <div className="space-y-6 text-lg leading-relaxed">
