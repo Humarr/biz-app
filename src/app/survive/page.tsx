@@ -17,10 +17,17 @@ export default function SalesPage() {
           <p>Look, I don't know you.</p>
           <p>But I'm going to guess some things about your life right now, and you tell me if I'm wrong.</p>
           <p>You get paid on Friday. By Tuesday, you're broke. Maybe not actually zero—but close enough that you're doing that math in your head. "Can I afford gas AND groceries? Or do I pick one?"</p>
-          <p>Every single month, you tell yourself: "This is it. This is the worst it'll get. Next month will be different."</p>
+          <p className='text-2xl font-bold text-center'>Every single month, you tell yourself: <span className='italic'>"This is it. This is the worst it'll get. Next month will be different."</span></p>
+
           <p>And every single month, you're wrong.</p>
-          <p>You've tried everything. Extra hours at work. Side hustles. Selling stuff you don't need. You've watched every Alex Hormozi video, every Grant Cardone clip, every Iman Gadzhi promise about "high income skills." You've budgeted. You've cut expenses down to nothing. You don't go out. You don't buy anything. You've eliminated everything except rent, car, phone, and groceries.</p>
-          <p>And you're STILL broke.</p>
+
+          <p>You've tried everything. Extra hours at work. Side hustles. Selling stuff you don't need.</p>
+          <p>Plus, you've watched every Alex Hormozi video, every Grant Cardone clip, every Iman Gadzhi promise about "high income skills."</p>
+          <p>Also, you've budgeted. You've cut expenses down to nothing. You don't go out. You don't buy anything. You've eliminated everything except rent, car, phone, and groceries.</p>
+          <p>And yet... you're STILL broke.</p>
+
+<p className='font-bold text-3xl text-center'>And even worse…</p>
+
           <p>The constant worry is killing you. Not the work—you can handle the work. You're burnt out from constantly thinking about money. From checking your bank account with that sick feeling in your stomach. From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
           <p>You're so fucking tired.</p>
           <p>And the worst part? You feel stupid. Like you're just not smart enough to figure this out. Everyone else seems to be making it work. Your friends who got help from their parents. The people on social media making "six figures with digital products." The gurus selling courses.</p>
