@@ -28,27 +28,55 @@ export default function SalesPage() {
 
 <p className='font-bold text-3xl text-center'>And even worse…</p>
 
-          <p>The constant worry is killing you. Not the work—you can handle the work. You're burnt out from constantly thinking about money. From checking your bank account with that sick feeling in your stomach. From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
+          <p>The constant worry is killing you. No, you're not worried about the work—you can handle the work. </p>
+          <p>But you're burnt out from constantly thinking about money. From checking your bank account with that sick feeling in your stomach. From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
+
           <p>You're so fucking tired.</p>
-          <p>And the worst part? You feel stupid. Like you're just not smart enough to figure this out. Everyone else seems to be making it work. Your friends who got help from their parents. The people on social media making "six figures with digital products." The gurus selling courses.</p>
-          <p>It makes you feel like a failure.</p>
-          <p>I know this because I was you.</p>
-          <p>Eighteen months ago, I was negative $180 in my checking account. I was working 6 days a week at a job I hated. I had $4.73 in quarters in my car for gas. I was 29 years old, living with a roommate I couldn't stand, wearing clothes that made me look homeless, avoiding everyone I knew because I was too ashamed of where I was.</p>
-          <p>I'm not going to tell you I'm rich now. I'm not.</p>
+
+          <p>And the worst part? You feel stupid. Like you're just not smart enough to figure this out. Everyone else seems to be making it work... </p>
+          <p> &#10132; Your friends who got help from their parents.</p>
+          <p>&#10132; The people on social media making "six figures with digital products."</p>
+          <p> &#10132; The gurus selling courses.</p>
+
+          <p className='font-bold text-xl'>And it makes you feel like a failure.</p>
+
+          <p>I know this because I used to be in your shoes.</p>
+          <p className='font-bold text-3xl text-center'>Let me explain…</p>
+
+          <p>Eighteen months ago, I was negative $180 in my checking account. I was working 6 days a week at a job I hated. I had $4.73 in quarters in my car for gas. </p>
+          <p>I was 29 years old, living with a roommate I couldn't stand, wearing clothes that made me look homeless, avoiding everyone I knew because I was too ashamed of where I was.</p>
+
+
+          <p>I'm not going to tell you I'm rich now. <span className='italic font-bold'>I'm not.</span></p>
+
           <p>But I'm not broke anymore either.</p>
-          <p>And that difference—that space between "broke by Tuesday" and "making it to next paycheck"—that's everything.</p>
+
+          <p className='text-3xl font-bold text-center'>And that difference—that space between "broke by Tuesday" and "making it to next paycheck"—that's everything.</p>
         </div>
 
         {/* Every 8th paragraph styled as subheading */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">HERE'S WHAT THIS ISN'T</h2>
+          {/* <h2 className="text-3xl font-bold text-center my-8">HERE'S WHAT THIS ISN'T</h2> */}
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>Before I tell you what actually worked, let me tell you what this is NOT.</p>
-            <p>This is not a course about dropshipping. Or Amazon FBA. Or social media marketing. Or crypto. Or day trading. Or any of that shit.</p>
+            <p>But before I tell you what actually worked, let me tell you what this is NOT.</p>
+            
+            <p>&#10060;This is not a course about dropshipping. </p>
+            <p> &#10060; Or Amazon FBA.</p>
+            <p> &#10060; Or social media marketing. </p>
+            <p> &#10060; Or crypto.</p>
+            <p> &#10060;  Or day trading.</p>
+            <p> &#10060; Or any of that shit.</p>
+            
             <p>You know why?</p>
-            <p>Because I tried all of it. And it's all the same scam in different packaging.</p>
+
+            <p className='font-bold text-2xl text-center'>Because I tried all of it. And it's all the same scam in different packaging.</p>
+
             <p>Grant Cardone? Snake oil salesman. Dude's been indicted for fraud multiple times. Alex Hormozi? He makes his money selling you courses on how to make money. Iman Gadzhi? Same thing. They're in the business of selling you a dream.</p>
-            <p>Here's how the scam works:</p>
+
+
+            <p className='font-bold '>Here's how the scam works:</p>
+
+
             <p>They show you their lifestyle. The cars. The houses. The watches. They tell you they made it with [INSERT METHOD HERE]. They sell you a course for $997, $1997, $2997. The course tells you to start a business that requires: money you don't have, time you don't have, skills you don't have, and luck you DEFINITELY don't have.</p>
             <p>And when it doesn't work? They tell you it's your fault. You didn't work hard enough. You didn't believe enough. You didn't take enough action.</p>
             <p>Bullshit.</p>
