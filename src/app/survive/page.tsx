@@ -110,11 +110,11 @@ export default function SalesPage() {
 
             <p className='text-3xl font-bold text-center'>You know what you need?</p>
 
-            <p>You need to not be broke before your next paycheck.</p>
-            <p>You need breathing room.</p>
-            <p>You need to be able to fix your car (or anything) when it breaks without having a panic attack. </p>
-            <p> You need to sleep without that constant knot in your stomach.</p>
-            <p>You need to stop feeling like a failure every time you check your bank account.</p>
+            <p> &#9989; You need to not be broke before your next paycheck.</p>
+            <p> &#9989; You need breathing room.</p>
+            <p> &#9989; You need to be able to fix your car (or anything) when it breaks without having a panic attack. </p>
+            <p>  &#9989; You need to sleep without that constant knot in your stomach.</p>
+            <p> &#9989; You need to stop feeling like a failure every time you check your bank account.</p>
 
             <p>That's it.</p>
             <p>That's the whole game.</p>
