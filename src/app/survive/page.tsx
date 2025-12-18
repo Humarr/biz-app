@@ -239,43 +239,61 @@ export default function SalesPage() {
             <p>I know. It sounds boring as hell. It is.</p>
 
             <p>But let me show you why it works:</p>
-            
-            <p className="font-semibold">What it actually is:</p>
-            <p>Small online businesses (course creators, coaches, consultants, small e-commerce) have a constant problem. Their customer lists are a mess. Their email platforms are disorganized. Their spreadsheets are chaos. Their basic admin work is piling up.</p>
-            <p>They need someone to:</p>
+
+            <p className="font-semibold">The fact is:</p>
+
+            <p>Small online businesses (course creators, coaches, consultants, small e-commerce) have a constant problem. </p>
+
+            <p> &#10007; Their customer lists are a mess. </p>
+            <p> &#10007; Their email platforms are disorganized. </p>
+            <p>&#10007; Their spreadsheets are chaos. </p>
+            <p> &#10007; Their basic admin work is piling up.</p>
+
+            <p>And that means they need someone to:</p>
           </div>
 
           {/* What they need list */}
           <div className="my-6 space-y-2">
             <div className="flex items-start">
-              <span className="mr-2">•</span>
+              <span className="mr-2">&#9989;</span>
               <p>Clean up their email lists (remove duplicates, fix formatting, segment properly)</p>
             </div>
             <div className="flex items-start">
-              <span className="mr-2">•</span>
+              <span className="mr-2">&#9989;
+</span>
               <p>Organize their customer data (consolidate spreadsheets, update records)</p>
             </div>
             <div className="flex items-start">
-              <span className="mr-2">•</span>
+              <span className="mr-2">&#9989;
+</span>
               <p>Do basic customer service (answer simple questions, process refunds)</p>
             </div>
             <div className="flex items-start">
-              <span className="mr-2">•</span>
+              <span className="mr-2">&#9989;
+</span>
               <p>Clean up their platforms (organize their course dashboards, their Shopify backend)</p>
             </div>
             <div className="flex items-start">
-              <span className="mr-2">•</span>
+              <span className="mr-2">&#9989;
+</span>
               <p>Handle their scheduling (calendar management, appointment booking)</p>
             </div>
           </div>
 
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>This is NOT copywriting. It's NOT design. It's NOT marketing. It's NOT coding.</p>
-            <p>It's literally just... cleaning up their mess.</p>
-            <p className="font-semibold">Why they'll pay you:</p>
+            <p>And get this...</p>
+            <h3 className='text-3xl font-bold text-center'>This is NOT copywriting. It's NOT design. It's NOT marketing. It's NOT coding.</h3>
+            <p className='text-3xl font-bold text-center'>It's literally just... cleaning up their mess.</p>
+
+            <p>And if you're thinking…</p>
+            <p className='text-3xl font-bold text-center'>"Who the heck will pay me for that?!"</p>
+            <p className="font-semibold">Let me show you why they'll pay you:</p>
+
             <p>These business owners make $10k-50k per month. But they're drowning in admin work. They don't need a $5,000/month virtual assistant. They need someone for 10-15 hours per month to just handle the boring shit.</p>
             <p>They'll pay $50-75 per hour for this. Why? Because it's cheaper than hiring someone full-time, and it's stuff they hate doing themselves.</p>
-            <p className="font-semibold">Why this works for YOU:</p>
+
+            <p className="font-semibold">And here's why YOU should care:</p>
+            {/* <p className="font-semibold">Why this works for YOU:</p> */}
           </div>
 
           {/* Why it works list */}
@@ -307,19 +325,19 @@ export default function SalesPage() {
           </div>
 
           <div className="space-y-6 text-lg leading-relaxed">
-            <p className="font-semibold">The actual math:</p>
+            <p className="font-semibold">Let's do the math together:</p>
           </div>
 
           <div className="my-6 bg-gray-50 p-6 rounded-lg">
-            <div className="flex items-center justify-center space-x-2 mb-2">
+            <div className="flex space-x-2 mb-2">
               <span className="text-2xl">🔢</span>
               <p className="text-xl font-semibold">2 clients paying you $600/month each = $1,200</p>
             </div>
-            <div className="flex items-center justify-center space-x-2 mb-2">
+            <div className="flex  space-x-2 mb-2">
               <span className="text-2xl">⏰</span>
               <p className="text-xl font-semibold">10-15 hours total per month</p>
             </div>
-            <div className="flex items-center justify-center space-x-2">
+            <div className="flex  space-x-2">
               <span className="text-2xl">✅</span>
               <p className="text-xl font-semibold">That's it.</p>
             </div>
@@ -335,7 +353,7 @@ export default function SalesPage() {
 
         {/* Exactly how it works section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">HERE'S EXACTLY HOW IT WORKS</h2>
+          <h2 className="text-3xl font-bold text-center my-8">SO HERE'S EXACTLY HOW IT WORKS</h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Let me walk you through the exact steps. No vague bullshit. The actual tactical process.</p>
             <p className="font-semibold text-xl">WEEK 1: Finding your first client</p>
@@ -366,10 +384,10 @@ export default function SalesPage() {
 
           <div className="space-y-6 text-lg leading-relaxed">
             <p>You send them this message (copy it word for word):</p>
-            <div className="bg-gray-50 p-6 rounded-lg my-4 border border-gray-200">
+            <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-200">
               <p className="font-mono text-gray-700">"Hey [Name], I saw you're running [their business]. I'm working on building up client cleanup work experience, and I'd like to offer you 5 hours of work for free. I can clean up your email list, organize your customer data, handle basic customer service, or tackle whatever admin work is piling up. No strings attached. If you like the work, we can talk about ongoing paid work. If not, no worries—you got 5 free hours. Interested?"</p>
             </div>
-            <p className="font-semibold">Why this works:</p>
+            <p className="font-semibold">Here's why this works:</p>
           </div>
 
           <div className="my-6 space-y-3">
@@ -393,6 +411,7 @@ export default function SalesPage() {
 
           <div className="space-y-6 text-lg leading-relaxed">
             <p>You send this to 20 people. 3-5 will respond. 1-2 will say yes.</p>
+
             <p className="font-semibold text-xl">WEEK 2-3: Doing the free work</p>
             <p>They'll give you access to their systems. Usually:</p>
           </div>
@@ -418,18 +437,33 @@ export default function SalesPage() {
 
           <div className="space-y-6 text-lg leading-relaxed">
             <p>Your job: Just clean shit up.</p>
-            <p>Remove duplicate emails. Fix formatting. Consolidate spreadsheets. Answer simple customer questions. Organize their mess.</p>
+            <p>&#10004; Remove duplicate emails.</p>
+            <p>&#10004; Fix formatting. </p>
+            <p>&#10004; Consolidate spreadsheets.</p>
+            <p>&#10004; Answer simple customer questions.</p>
+            <p>&#10004; Organize their mess.</p>
+
+
             <p>It's boring. It's tedious. But it's EASY.</p>
+
             <p>You do this for 5 hours. You document everything you did in a simple Google Doc. You send it to them: "Here's what I cleaned up. Here's what I found. Here's what I'd recommend doing next."</p>
+
+
             <p className="font-semibold text-xl">WEEK 4: Getting testimonial + first paid client</p>
+
             <p>After the free work, you ask: "If you're happy with the work, would you mind giving me a quick testimonial I can use?"</p>
+
             <p>They say yes. Now you have proof.</p>
+
             <p>You also ask: "Would you like me to continue on a paid basis? I do $600/month for 10 hours of work like this."</p>
+
             <p>50% of the time, they say yes. That's your first paid client.</p>
+
+
             <p className="font-semibold text-xl">WEEK 5-8: Getting client #2</p>
             <p>Now you have a testimonial. You have proof you've done this before.</p>
             <p>You send the same message to 20 more people. But now you modify it:</p>
-            <div className="bg-gray-50 p-6 rounded-lg my-4 border border-gray-200">
+            <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-200">
               <p className="font-mono text-gray-700">"Hey [Name], I saw you're running [their business]. I do client cleanup work for small online businesses—organizing customer data, cleaning email lists, handling basic admin work. I currently work with [first client's business name/industry]. I have room for one more client at $600/month for 10 hours of work. Would you be interested in a quick call to see if it's a fit?"</p>
             </div>
             <p>This converts at 10-15%. Out of 20 messages, 2-3 want to talk. 1 becomes a client.</p>
@@ -440,21 +474,21 @@ export default function SalesPage() {
 
           <div className="my-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-gray-50 p-4 rounded-lg">
-              <div className="flex items-center mb-2">
+              <div className="flex mb-2">
                 <span className="mr-2">🗓️</span>
                 <p className="font-semibold">Tuesday night:</p>
               </div>
               <p>2 hours</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <div className="flex items-center mb-2">
+              <div className="flex mb-2">
                 <span className="mr-2">🗓️</span>
                 <p className="font-semibold">Thursday night:</p>
               </div>
               <p>2 hours</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <div className="flex items-center mb-2">
+              <div className="flex mb-2">
                 <span className="mr-2">🗓️</span>
                 <p className="font-semibold">Saturday morning:</p>
               </div>
@@ -507,7 +541,7 @@ export default function SalesPage() {
 
           <div className="space-y-6 text-lg leading-relaxed">
             <p>That's it. That's the whole system.</p>
-            <p className="font-semibold">WHY THIS ACTUALLY WORKS:</p>
+            <p className="font-semibold">WHY DOES THIS ACTUALLY WORK?</p>
             <p>It works because:</p>
           </div>
 
@@ -579,25 +613,46 @@ export default function SalesPage() {
             <p>Can you use Excel or Google Sheets? Then you can organize data.</p>
             <p>Can you use Facebook? Then you can clean up an email list (it's literally the same complexity).</p>
             <p>The work is NOT hard. It's just boring. That's why people will pay you to do it.</p>
-            <p>But let me address the real fear underneath that question.</p>
+
+            <p className="text-3xl font-bold text-center">But let me address the real fear underneath that question.</p>
+
             <p>You're not actually worried about whether you CAN do it. You're worried about looking stupid. About failing. About trying something else and having it not work AGAIN.</p>
-            <p>I get it.</p>
+            <p className='font-bold'>I get it.</p>
             <p>Here's what I wish someone had told me:</p>
-            <p>You're already failing. Right now. Every month that you're broke by Tuesday is a failure. Every time you decline an invitation because you can't afford it is a failure. Every time you panic about your bank account is a failure.</p>
-            <p>You're not avoiding failure by not trying this. You're just staying in the failure you already know.</p>
-            <p>This is a different kind of failure risk. If you try this and it doesn't work, you're out... what? 10 hours? You're exactly where you are now.</p>
+
+            <p>You're already failing. Right now. </p>
+<p>How?</p>
+<p className='text-lg font-bold'>Let me explain:</p>
+
+            <p> &#10163; Every month that you're broke before your next paycheck is a failure.</p>
+
+            <p> &#10163; Every time you decline an invitation because you can't afford it is a failure. </p>
+
+            <p> &#10163; Every time you panic about your bank account is a failure.</p>
+
+
+            <p>And the truth is...</p>
+
+            <p className="text-3xl font-bold text-center">You're not avoiding failure by not trying this. You're just staying in the failure you already know.</p>
+
+            <p>This is a different kind of failure risk. If you try this and it doesn't work, you're out... what? 10 hours? And then you're back exactly where you are now.</p>
+
             <p>But if you DON'T try this, you KNOW where you'll be in 6 months.</p>
-            <p>Same place. Same broke by Tuesday. Same constant worry. Same feeling like a failure.</p>
+
+            <p>Same place. Same broke before next paycheck. Same constant worry. Same feeling like a failure.</p>
+
             <p>The question isn't "What if this doesn't work?"</p>
+
             <p>The question is: "Can you handle another year of what you're doing right now?"</p>
           </div>
         </div>
 
         {/* 90 days section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">WHAT YOUR LIFE ACTUALLY LOOKS LIKE IN 90 DAYS</h2>
+          {/* <h2 className="text-3xl font-bold text-center my-8">WHAT YOUR LIFE ACTUALLY LOOKS LIKE IN 90 DAYS</h2> */}
+          <h2 className="text-5xl font-bold text-center my-8">PICTURE THIS</h2>
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>Let me paint you a picture.</p>
+            {/* <p>Let me paint you a picture.</p> */}
             <p>It's 90 days from now. Three months.</p>
             <p>You wake up on a Saturday. You check your bank account. Not because you're scared, just... because.</p>
             <p>You have $847 sitting there. Plus you know another $600 hits on Monday from Client A. And $600 more the following week from Client B.</p>
