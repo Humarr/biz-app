@@ -766,7 +766,7 @@ export default function SalesPage() {
             <p>I know what you're thinking: "Great, another thing trying to sell me something."</p>
             <p>Fair. I get it.</p>
             <p className='text-3xl my-8 font-bold text-center'>But let me put it this way:</p>
-            <p>₦5,000 is what you spend on... what? Gas? Groceries for three days? That thing you bought on Amazon last week that you already forgot about?</p>
+            <p>₦5,000 is what you spend on... what? Gas? mobile data for three days? That thing you bought on Amazon last week that you already forgot about?</p>
             <p>If you stay broke for another month, that costs you way more than ₦5,000.</p>
             <p>The overdraft fees alone cost more than ₦5,000.</p>
             <p>The stress of being broke costs you way more than ₦5,000 in therapy you can't afford.</p>
