@@ -9,7 +9,7 @@ export default function SalesPage() {
       {/* Header */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
          <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-red-600">
-          WARNING: DO NOT READ UNLESS YOU'RE SO TIRED OF BEING BROKE, NO MATTER WHAT YOU DO
+          WARNING: DO NOT READ THIS UNLESS YOU'RE SO TIRED OF BEING BROKE, NO MATTER WHAT YOU DO
         </h1>
         {/* <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
           I'M SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
@@ -74,13 +74,17 @@ export default function SalesPage() {
 
             <p className='font-bold text-2xl text-center'>Because I tried all of it. And it's all the same scam in different packaging.</p>
 
-            <p>Grant Cardone? Snake oil salesman. Dude's been indicted for fraud multiple times. Alex Hormozi? He makes his money selling you courses on how to make money. Iman Gadzhi? Same thing. They're in the business of selling you a dream.</p>
+            <p>Grant Cardone? Snake oil salesman. Dude's been indicted for fraud multiple times. </p>
+            <p> Alex Hormozi? He makes his money selling you courses on how to make money.</p>
+            <p> Iman Gadzhi? Same thing. They're in the business of selling you a dream.</p>
 
 
             <p className='font-bold '>Here's how the scam works:</p>
 
 
-            <p>They show you their lifestyle. The cars. The houses. The watches. They tell you they made it with [INSERT METHOD HERE]. They sell you a course for $997, $1997, $2997. The course tells you to start a business that requires: money you don't have, time you don't have, skills you don't have, and luck you DEFINITELY don't have.</p>
+            <p>They show you their lifestyle. The cars. The houses. The watches. They tell you they made it with [INSERT METHOD HERE].</p>
+            <p>They sell you a course for $997, $1997, $2997.</p>
+            <p>The course tells you to start a business that requires: money you don't have, time you don't have, skills you don't have, and luck you DEFINITELY don't have.</p>
 
             <p>And when it doesn't work? They tell you it's your fault. You didn't work hard enough. You didn't believe enough. You didn't take enough action.</p>
 
@@ -88,7 +92,9 @@ export default function SalesPage() {
 
             <p className='font-bold text-2xl text-center'>Want to know the real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</p>
 
-            <p>And here's the thing that made me want to break shit: I KNEW it was a scam. I knew it, and I still kept falling for it. Because when you're desperate, you'll try anything. When you're suffocating, you'll grab at any hand reaching down—even if you know it's probably going to let go.</p>
+            <p>And here's the thing that made me want to break shit:</p>
+            <p className='italic '> I KNEW it was a scam. I knew it, and I still kept falling for it. </p>
+            <p>Because when you're desperate, you'll try anything. When you're suffocating, you'll grab at any hand reaching down—even if you know it's probably going to let go.</p>
 
 
             <p>So let me be crystal clear about what I'm NOT selling you:</p>
