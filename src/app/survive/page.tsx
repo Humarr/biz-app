@@ -191,11 +191,15 @@ export default function SalesPage() {
 
             <p>But first, you need to understand why this works when everything else failed.</p>
 
-            <p>&#10148; The reason dropshipping doesn't work for you: It requires money upfront for inventory, ads, testing. You don't have that money. By the time you make your first sale, you're already in the hole.</p>
+            <p>&#10148; <span className='font-bold'>The reason dropshipping doesn't work for you:</span> It requires money upfront for inventory, ads, testing. You don't have that money. By the time you make your first sale, you're already in the hole.</p>
 
-            <p>&#10148; The reason social media marketing doesn't work for you: It takes 6-12 months to build a client base. You need money NOW, not in a year. Plus, you're competing with thousands of other people who all took the same course.</p>
+<p>Here’s where most people get it wrong…</p>
 
-            <p>&#10148; The reason "passive income" doesn't work for you: There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
+            <p>&#10148; <span className='font-bold'>The reason social media marketing doesn't work for you:</span> It takes 6-12 months to build a client base. You need money NOW, not in a year. Plus, you're competing with thousands of other people who all took the same course.</p>
+
+<p>This is the part most people miss…</p>
+
+            <p>&#10148; <span className='font-bold'>The reason "passive income" doesn't work for you:</span> There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
 
             <p className='text-3xl font-bold text-center'>So, here's what I figured out:</p>
             <p>You need something that:</p>
