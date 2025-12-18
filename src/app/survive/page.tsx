@@ -740,23 +740,25 @@ export default function SalesPage() {
           <div className="space-y-6 text-lg leading-relaxed mt-8">
             <p>The whole thing is $47.</p>
             <p>I know what you're thinking: "Great, another thing trying to sell me something."</p>
-            <p>Fair.</p>
-            <p>But let me put it this way:</p>
+            <p>Fair. I get it.</p>
+            <p className='text-3xl font-bold text-center'>But let me put it this way:</p>
             <p>$47 is what you spend on... what? Gas? Groceries for three days? That thing you bought on Amazon last week that you already forgot about?</p>
             <p>If you stay broke for another month, that costs you way more than $47.</p>
             <p>The overdraft fees alone cost more than $47.</p>
             <p>The stress of being broke costs you way more than $47 in therapy you can't afford.</p>
-            <p>And here's my guarantee:</p>
+            {/* <p>And here's my guarantee:</p> */}
             <div className="bg-gray-50 p-6 rounded-lg my-6 border border-gray-300">
               <div className="flex items-center justify-center mb-4">
                 <span className="text-3xl mr-3">🛡️</span>
-                <h3 className="text-2xl font-bold">GUARANTEE</h3>
+                <h3 className="text-2xl font-bold">And here's my guarantee:</h3>
               </div>
               <p className="text-center text-xl font-semibold">If you don't have at least one client paying you $600+ within 90 days, I'll refund your $47 AND buy you lunch.</p>
               <p className="text-center mt-4">Seriously. Send me proof you followed the system, messaged 40 people, and didn't get a client. I'll refund you and Venmo you $20 for lunch.</p>
             </div>
             <p>Why? Because if you actually follow this and it doesn't work, then I'm wrong. And I should pay you for wasting your time.</p>
-            <p>But here's the thing: It will work.</p>
+
+            <p className="text-xl font-bold">But here's the thing: It will work.</p>
+
             <p>Because it worked for me. And I'm not special. I'm not smart. I don't have advantages you don't have.</p>
             <p>I was just tired of being broke. And I found something that actually works.</p>
             <p>So the question isn't whether this works.</p>
@@ -766,22 +768,27 @@ export default function SalesPage() {
 
         {/* The Choice section */}
         <div className="my-12">
-          <h2 className="text-3xl font-bold text-center my-8">THE CHOICE</h2>
+          {/* <h2 className="text-3xl font-bold text-center my-8">NOW COMES THE TIME FOR YOU TO MAKE THE CHOICE</h2> */}
+          <h2 className="text-3xl font-bold text-center my-8">But pay attention to this part...</h2>
           <div className="space-y-6 text-lg leading-relaxed">
-            <p>You're going to close this page soon.</p>
+            <p>Look, you're going to close this page soon.</p>
             <p>And you're going to make a decision.</p>
-            <p>One path is staying exactly where you are. Keep doing what you're doing. Keep working the job. Keep being broke by Tuesday. Keep pushing off the car repair. Keep declining invitations. Keep feeling like a failure.</p>
+
+            <p>One path is staying exactly where you are. Keep doing what you're doing. Keep working the job. Keep being broke before your next paycheck. Keep pushing off the car repair. Keep declining invitations. Keep feeling like a failure.</p>
+
             <p>Maybe something will magically change. Maybe your job will give you a raise. Maybe you'll win the lottery. Maybe a guru's promise will finally come true.</p>
-            <p>Or maybe you'll just stay stuck. For another month. Another year. Another five years.</p>
+
+            <p className='text-3xl font-bold text-center'>Or maybe you'll just stay stuck. For another month. Another year. Another five years.</p>
+
             <p>The other path is trying something different.</p>
             <p>Not something crazy. Not something risky. Just... different.</p>
-            <p>Send 20 messages. Do 5 hours of free work. Get a testimonial. Get a client. Get $600 this month. Then $1,200 next month.</p>
-            <p>Stop being broke by Tuesday. Stop the constant worry. Stop feeling stupid. Stop suffering.</p>
+            <p>&#9989;Send 20 messages. &#9989;Do 5 hours of free work. &#9989;Get a testimonial. &#9989;Get a client. &#9989;Get $600 this month. Then $1,200 next month.</p>
+            <p>Stop being broke before your next salary. Stop the constant worry. Stop feeling stupid. Stop suffering.</p>
             <p>That's the path.</p>
             <p>It's not exciting. It's not sexy. It won't make you Instagram famous.</p>
             <p>But it works.</p>
             <p>And working is all that matters.</p>
-            <p>So what's it going to be?</p>
+            <p className='font-bold text-3xl text-center'>So what's it going to be?</p>
           </div>
         </div>
 
@@ -796,10 +803,10 @@ export default function SalesPage() {
           </div>
           
           <div className="space-y-6 text-lg leading-relaxed text-left">
-            <p>One last thing:</p>
+            <h2 className="text-5xl text-center font-bold">One last thing:</h2>
             <p>You know that voice in your head right now? The one saying "This probably won't work for me" or "I'll just do it myself without paying $47" or "Maybe I'll try this later"?</p>
             <p>That voice is the reason you're still broke.</p>
-            <p>That voice has been protecting you from failure by keeping you from trying anything.</p>
+            <p>That voice has been "protecting" you from failure by keeping you from trying anything.</p>
             <p>That voice is not your friend.</p>
             <p>Try something different. Just once.</p>
             <p>See what happens.</p>
@@ -813,7 +820,7 @@ export default function SalesPage() {
         </div>
 
         {/* P.S. Section */}
-        <div className="my-12 space-y-4 text-gray-700">
+        <div className="my-12 space-y-4 text-gray-700 italic">
           <div className="flex items-start">
             <span className="font-bold mr-2">P.S. -</span>
             <p>Remember: If this doesn't work, I refund you AND buy you lunch. You literally cannot lose. The only way you lose is by not trying.</p>
