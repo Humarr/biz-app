@@ -2,6 +2,8 @@
 // app/page.tsx
 import BonusSection from './components/BonusSection';
 import CheckmarkList from './components/CheckmarkList';
+import CTAButton from './components/CTAButton';
+import EbookMockupWithBadge from './components/EbookMockupWithBadge';
 
 export default function SalesPage() {
   return (
@@ -701,7 +703,7 @@ export default function SalesPage() {
 
             <p>Plus, in addition to that…</p>
           <h2 className="text-3xl font-bold text-center my-8">
-            Here's what nobody tells you about getting out of poverty:
+            Here's what nobody tells you about getting out of being broke:
 
           </h2>
           {/* <h2 className="text-3xl font-bold text-center my-8">THE MENTAL SHIFT NOBODY TALKS ABOUT</h2> */}
@@ -748,6 +750,9 @@ export default function SalesPage() {
             <p>It's everything you need to actually DO this. Not just understand it. DO it.</p>
           </div>
 
+          {/* INSERT THE EBOOK MOCKUP COMPONENT HERE */}
+<EbookMockupWithBadge />
+
           <BonusSection />
           
           <div className="space-y-6 text-lg leading-relaxed mt-8">
@@ -759,6 +764,15 @@ export default function SalesPage() {
             <p>If you stay broke for another month, that costs you way more than ₦5,000.</p>
             <p>The overdraft fees alone cost more than ₦5,000.</p>
             <p>The stress of being broke costs you way more than ₦5,000 in therapy you can't afford.</p>
+
+<CTAButton
+  buttonText="YES! Grab My Copy At This Steal Price"
+  href="https://selar.com/cleanup"
+  subtext="One-time payment • 90-day guarantee"
+  variant="danger" // Red button like your original
+  size='large'
+/>
+
             {/* <p>And here's my guarantee:</p> */}
             <div className="bg-gray-50 p-6 rounded-lg my-6 border border-gray-300">
               <div className="flex items-center justify-center mb-4">
@@ -778,6 +792,13 @@ export default function SalesPage() {
             <p>The question is: Are you tired enough to try something different?</p>
           </div>
         </div>
+
+        <CTAButton
+  buttonText="YES! Let Me Try It Risk-Free"
+  href="https://selar.com/cleanup"
+  subtext="One-time payment • 90-day guarantee"
+  variant="danger" // Red button like your original
+/>
 
         {/* The Choice section */}
         <div className="my-12">
@@ -810,12 +831,20 @@ export default function SalesPage() {
           <div className="border-t border-gray-300 pt-8 mb-8">
             <p className="text-4xl font-bold mb-4">₦5,000</p>
             <p className="text-gray-600 mb-8">One-time payment. No upsells. No monthly fees.</p>
-            <a href="https://selar.com/cleanup">
+            {/* <a href="https://selar.com/cleanup">
 
             <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
               GET THE CLEANUP CLIENT BLUEPRINT - ₦5,000
             </button>
-            </a>
+            </a> */}
+
+            <CTAButton
+  buttonText="I'm Ready to Stop Being Broke"
+  href="https://selar.com/cleanup"
+  subtext="One-time payment • 90-day guarantee"
+  variant="danger" // Red button like your original
+  size="large"
+/>
           </div>
           
           <div className="space-y-6 text-lg leading-relaxed text-left">
@@ -828,14 +857,22 @@ export default function SalesPage() {
             <p>See what happens.</p>
           </div>
           
-          <div className="mt-12">
+          {/* <div className="mt-12">
             <a href="https://selar.com/cleanup">
 
             <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
               GET THE CLEANUP CLIENT BLUEPRINT - ₦5,000
             </button>
             </a>
-          </div>
+          </div> */}
+
+          <CTAButton
+  buttonText="YES! I Want to Try Something Different"
+  href="https://selar.com/cleanup"
+  subtext="One-time payment • 90-day guarantee"
+  variant="danger" // Red button like your original
+  size='large'
+/>
         </div>
 
         {/* P.S. Section */}
@@ -860,7 +897,8 @@ export default function SalesPage() {
            <a href="https://selar.com/cleanup">
 
             <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
-              STOP SUFFERING - GET THE BLUEPRINT HERE
+              I WANT TO STOP SUFFERING - GIVE ME THE BLUEPRINT HERE
+              {/* STOP SUFFERING - GET THE BLUEPRINT HERE */}
             </button>
            </a>
           </div>
