@@ -745,8 +745,9 @@ export default function SalesPage() {
             <p>&#10132; "What exactly do I say in the message? "</p>
             <p>&#10132; "What if they ask me a question I don't know how to answer?"</p>
             <p> &#10132; "What tools do I need?" </p>
-            <p>&#10132; "How do I price it? What if I screw it up? "</p>
-            <p>&#10132; "What if I screw it up? What if they can tell I've never done this before?"</p>
+            <p>&#10132; "How do I price it?"</p>
+            <p>&#10132; "What if I screw it up?"</p>
+            <p>&#10132; "What if they can tell I've never done this before?"</p>
 
             <p className='text-3xl my-8 font-bold text-center my-8'>And all those questions will feel like walls. And you'll close the laptop and tell yourself <span className='italic'>"I'll do it tomorrow."</span></p>
             <p>And tomorrow never comes.</p>
