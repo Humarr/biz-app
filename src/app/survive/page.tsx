@@ -196,25 +196,32 @@ export default function SalesPage() {
 
         {/* The actual method section */}
         <div className="my-12">
-            <p>And now, as you’re about to see…</p>
-          <h2 className="text-3xl my-16 font-bold text-center">HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)</h2>
-          <div className="space-y-6  leading-relaxed">
-            <p>I'm going to tell you exactly what I do. No secrets. No "buy my course to find out." I'm going to lay it out right here.</p>
+           <p>And now, as you’re about to see…</p>
 
-            <p>But first, you need to understand why this works when everything else failed.</p>
+    <h2 className="text-3xl md:text-4xl font-bold text-center my-16">
+      HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)
+    </h2>
 
-            <p>&#10148; <span className='font-bold'>The reason dropshipping doesn't work for you:</span> It requires money upfront for inventory, ads, testing. You don't have that money. By the time you make your first sale, you're already in the hole.</p>
+    <p>I'm going to tell you exactly what I do. No secrets. No "buy my course to find out." I'm going to lay it out right here.</p>
 
-<p>Here’s where most people get it wrong…</p>
+    <p>But first, you need to understand why this works when everything else failed.</p>
 
-            <p>&#10148; <span className='font-bold'>The reason social media marketing doesn't work for you:</span> It takes 6-12 months to build a client base. You need money NOW, not in a year. Plus, you're competing with thousands of other people who all took the same course.</p>
+    <p>➜ <span className="font-bold">The reason dropshipping doesn't work for you:</span> It requires money upfront for inventory, ads, testing. You don't have that money. By the time you make your first sale, you're already in the hole.</p>
 
-<p>This is the part most people miss…</p>
+    <p>Here’s where most people get it wrong…</p>
 
-            <p>&#10148; <span className='font-bold'>The reason "passive income" doesn't work for you:</span> There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
+    <p>➜ <span className="font-bold">The reason social media marketing doesn't work for you:</span> It takes 6-12 months to build a client base. You need money NOW, not in a year. Plus, you're competing with thousands of other people who all took the same course.</p>
 
-            <h3 className='text-3xl my-12 font-bold text-center'>So, here's what I figured out:</h3>
-            <p>You need something that:</p>
+    <p>This is the part most people miss…</p>
+
+    <p>➜ <span className="font-bold">The reason "passive income" doesn't work for you:</span> There's no such thing. Everything requires work upfront. And you're already working 6 days a week. You don't have time for another full-time project.</p>
+
+    <h3 className="text-3xl font-bold text-center my-20">
+      So, here's what I figured out:
+    </h3>
+
+    <p className="text-center">You need something that:</p>
+  </div>
           </div>
           
           {/* Requirements list with different unicode icons */}
