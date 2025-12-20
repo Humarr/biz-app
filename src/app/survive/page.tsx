@@ -351,16 +351,16 @@ export default function SalesPage() {
 
           <div className="my-6 bg-gray-50 p-6 rounded-lg">
             <div className="flex space-x-2 mb-2">
-              <span className="text-2xl my-8">🔢</span>
-              <p className="text-xl font-semibold">2 clients paying you $600/month each = $1,200</p>
+              {/* <span className="text-2xl my-8">🔢</span> */}
+              <p className="text-xl font-semibold">🔢 2 clients paying you $600/month each = $1,200</p>
             </div>
             <div className="flex  space-x-2 mb-2">
-              <span className="text-2xl my-8">⏰</span>
-              <p className="text-xl font-semibold">10-15 hours total per month</p>
+              {/* <span className="text-2xl my-8"></span> */}
+              <p className="text-xl font-semibold">⏰ 10-15 hours total per month</p>
             </div>
             <div className="flex  space-x-2">
-              <span className="text-2xl my-8">✅</span>
-              <p className="text-xl font-semibold">That's it.</p>
+              {/* <span className="text-2xl my-8"></span> */}
+              <p className="text-xl font-semibold">✅ That's it.</p>
             </div>
           </div>
 
