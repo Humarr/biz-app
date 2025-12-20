@@ -912,7 +912,7 @@ export default function SalesPage() {
           </div> */}
 
           <CTAButton
-  buttonText="YES! I Want to Try Something Different"
+  buttonText="YES! I Want to Try Something Different - Give Me the Cleanup Blueprint"
   href="https://selar.com/cleanup"
   subtext="One-time payment • 90-day guarantee"
   variant="danger" // Red button like your original
