@@ -200,7 +200,7 @@ export default function SalesPage() {
      <div className="max-w-3xl mx-auto space-y-8 leading-relaxed">
     <p>And now, as you’re about to see…</p>
 
-    <h2 className="text-3xl md:text-4xl font-bold text-center my-16">
+    <h2 className="text-2xl md:text-3xl font-bold text-center my-12">
       HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)
     </h2>
 
