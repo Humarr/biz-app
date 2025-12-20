@@ -5,6 +5,7 @@ import BulletsSection from './components/BulletsSection';
 import CheckmarkList from './components/CheckmarkList';
 import CTAButton from './components/CTAButton';
 import EbookMockupWithBadge from './components/EbookMockupWithBadge';
+import AboveFoldBullets from './components/AboveFoldBullets';
 
 export default function SalesPage() {
   return (
@@ -18,8 +19,11 @@ export default function SalesPage() {
           I'M SO TIRED OF BEING BROKE, NO MATTER WHAT I DO
         </h1> */}
 
+<AboveFoldBullets/>
+
+
         {/* Main content - formatted like a letter */}
-        <div className="space-y-6  leading-relaxed">
+        <div className="space-y-6  mt-8 leading-relaxed">
           <p>Look, I don't know you.</p>
           <p>But I'm going to guess some things about your life right now, and you tell me if I'm wrong.</p>
           <p>You get paid on Friday. By Tuesday, you're broke. Maybe not actually zero—but close enough that you're doing that math in your head. "Can I afford gas AND groceries? Or do I pick one?"</p>
