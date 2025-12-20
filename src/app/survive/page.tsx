@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // app/page.tsx
-import BonusSection from './components/BonusSection';
+// import BonusSection from './components/BonusSection';
+import BulletsSection from './components/BulletsSection';
 import CheckmarkList from './components/CheckmarkList';
 import CTAButton from './components/CTAButton';
 import EbookMockupWithBadge from './components/EbookMockupWithBadge';
@@ -791,7 +792,9 @@ export default function SalesPage() {
           {/* INSERT THE EBOOK MOCKUP COMPONENT HERE */}
 <EbookMockupWithBadge />
 
-          <BonusSection />
+          {/* <BonusSection /> */}
+
+          <BulletsSection />
           
           <div className="space-y-6  leading-relaxed mt-8">
             <p>The whole thing is ₦5,000.</p>
