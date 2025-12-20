@@ -581,7 +581,7 @@ export default function SalesPage() {
 
           <div className="space-y-6  leading-relaxed">
             <p>That's it. That's the whole system.</p>
-            <p className="font-semibold">WHY DOES THIS ACTUALLY WORK?</p>
+            <h3 className="font-semibold text-center text-lg">So, why does this actually work?</h3>
             <p>It works because:</p>
           </div>
 
