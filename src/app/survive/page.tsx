@@ -317,7 +317,7 @@ export default function SalesPage() {
           <div className="space-y-6  leading-relaxed">
             <p>And get this...</p>
             <h3 className='text-3xl my-16 font-bold text-center'>This is NOT copywriting. It's NOT design. It's NOT marketing. It's NOT coding.</h3>
-            <p className='text-3xl my-8 font-bold text-center'>It's literally just... cleaning up their mess.</p>
+            <p className='text-xl my-8 font-bold text-center'>It's literally just... cleaning up their mess.</p>
 
             <p>And if you're thinking…</p>
             <h2 className='text-3xl my-16 font-bold text-center'>"Who the heck will pay me for that?!"</h2>
@@ -325,10 +325,12 @@ export default function SalesPage() {
             <p className="font-semibold">Stick with me here.</p>
 
             <p>These business owners make $10k-50k per month. But they're drowning in admin work.</p>
-            <p>But they're drowning in admin work. They don't need a $5,000/month virtual assistant. </p>
+            <p>They don't need a $5,000/month virtual assistant. </p>
             <p>They need someone for 10-15 hours per month to just handle the boring shit.</p>
 
-            <p>They'll pay $50-75 per hour for this. Why? Because it's cheaper than hiring someone full-time, and it's stuff they hate doing themselves.</p>
+            <p>They'll pay $50-75 per hour for this. </p>
+            <p> Why?</p>
+            <p>Because it's cheaper than hiring someone full-time, and it's stuff they hate doing themselves.</p>
 
             <h3 className="font-semibold text-center text-xl">And here's why YOU should care:</h3>
             {/* <p className="font-semibold">Why this works for YOU:</p> */}
