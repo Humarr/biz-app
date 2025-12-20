@@ -34,7 +34,9 @@ export default function SalesPage() {
 <p className='font-bold text-3xl my-8 text-center'>And even worse…</p>
 
           <p>The constant worry is killing you. No, you're not worried about the work—you can handle the work. </p>
-          <p>But you're burnt out from constantly thinking about money. From checking your bank account with that sick feeling in your stomach. From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
+          <p>But you're burnt out from constantly thinking about money.</p>
+          <p>From checking your bank account with that sick feeling in your stomach. </p>
+          <p>From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
 
           <p>You're so fucking tired.</p>
 
@@ -675,14 +677,18 @@ export default function SalesPage() {
             <p>Your car made that noise again. You take it to the mechanic. He says it's $340 to fix.</p>
             <p>You don't panic. You don't calculate. You don't push it off. You just... fix it. Same day.</p>
             <p>That night, your friend texts: "Bar tonight?"</p>
-            <p className='text-3xl my-8 font-bold text-center'>You don't make an excuse. You don't check your bank account twelve times. You just go. You buy a round. It's $35. You don't think about it.</p>
+            <h2 className='text-2xl my-12 font-bold text-center'>You don't make an excuse. You don't check your bank account twelve times. You just go. You buy a round. It's $35. You don't think about it.</h2>
             <p>Sunday morning, you work for 3 hours. Client B needs their email list cleaned up. You do it while watching Netflix. You're in your pajamas. You're drinking coffee. It's boring as hell.</p>
 
 
-            <p className="text-3xl my-8 font-bold text-center">But you're getting paid $75/hour to do it.</p>
+            <h2 className="text-3xl my-8 font-bold text-center text-red-600">But you're getting paid $75/hour to do it.</h2>
 
 
-            <p>Monday comes. You go to your regular job. It still sucks. But now? It doesn't feel like a trap. It feels like... a job. Just a job. Because you know you have something else. Something that's yours.</p>
+            <p>Monday comes. You go to your regular job. It still sucks.</p>
+            <p> But now? It doesn't feel like a trap. </p>
+            <p> It feels like... a job. Just a job. </p>
+            <p> Because you know you have something else.</p>
+            <h4 className="font-bold"> Something that's yours.</h4>
 
             <p>Month end comes. You get your paycheck from your regular job.</p>
 
@@ -703,9 +709,8 @@ export default function SalesPage() {
         <div className="my-12">
 
             <p>Plus, in addition to that…</p>
-          <h2 className="text-3xl my-8 font-bold text-center my-8">
+          <h2 className="text-3xl my-8 font-bold text-center">
             Here's what nobody tells you about getting out of being broke:
-
           </h2>
           {/* <h2 className="text-3xl my-8 font-bold text-center my-8">THE MENTAL SHIFT NOBODY TALKS ABOUT</h2> */}
           <div className="space-y-6  leading-relaxed">
@@ -713,13 +718,17 @@ export default function SalesPage() {
             <p>I mean, the money is great. Obviously.</p>
             <p>But the BEST part is that you stop feeling stupid.</p>
 
-            <p>Right now, every time you see someone making it work, you feel like a failure. Every guru on Instagram. Every friend who's doing okay. Every person who isn't constantly stressed about money.</p>
+            <p>Right now, every time you see someone making it work, you feel like a failure. </p>
+            <p>Every guru on Instagram...</p>
+            <p> Every friend who's doing okay...</p>
+            <p> Every person who isn't constantly stressed about money...</p>
 
             <p>It makes you feel like you're just not smart enough. Like everyone else figured out something you can't.</p>
 
             <p>That feeling? It destroys you. More than the actual being broke part.</p>
+            <p>Look, let me ask you something...</p>
 
-            <p className="text-3xl my-8 font-bold text-center">When I made my first $600 from a client, you know what changed?</p>
+            <h3 className="text-3xl my-8 font-bold text-center">When I made my first $600 from a client, you know what changed?</h3>
             <p>It wasn't that I could pay rent easier (though I could).</p>
             <p className='font-bold italic'>It was that I stopped feeling like a failure.</p>
             <p>Because I PROVED to myself that I could do something. That I wasn't stupid. That I could figure something out. That I wasn't trapped forever.</p>
