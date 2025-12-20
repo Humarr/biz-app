@@ -12,7 +12,7 @@ const bulletsData = {
       emphasized: true
     },
     {
-      text: "Why the smartest move is to work for **FREE first**... and the exact 5-hour strategy that turns free work into **$600/month clients** within 30 days. (This sounds backwards, but it's the ONLY way this works.)",
+      text: "Why the smartest move is to work for **FREE first**... and the exact 5-hour strategy that turns free work into **$600/month clients** within 7 days or less. (This sounds backwards, but it's the ONLY way this works.)",
       emphasized: false
     },
     {
@@ -59,11 +59,11 @@ const bulletsData = {
       emphasized: false
     },
     {
-      text: "Why you're NOT a virtual assistant, NOT a copywriter, and NOT a marketer—and why this distinction is the key to avoiding scope creep and nightmare clients.",
+      text: "Why you're NOT a virtual assistant, NOT a copywriter, and NOT a marketer—and why this distinction is the key to avoiding scope creep and frustrating clients.",
       emphasized: true
     },
     {
-      text: "The \"free work agreement\" structure that protects you from exploitation: **5 hours maximum**, specific deliverables only, testimonial required, first shot at paid work.",
+      text: "The \"free work agreement\" structure that protects you from exploitation (Ignore this, and you'll be used and dumped.).",
       emphasized: false
     },
     {
@@ -83,7 +83,7 @@ const bulletsData = {
       emphasized: false
     },
     {
-      text: "Why sending messages on **MONDAY MORNINGS** gets you 2-3x more responses than any other time of the week. (Business owners are planning their week and feeling overwhelmed.)",
+      text: "The **EXACT DAY and TIME** to send your messages that gets you 2-3x more responses than any other time of the week.",
       emphasized: true
     },
     {
@@ -130,7 +130,7 @@ const bulletsData = {
       emphasized: true
     },
     {
-      text: "The professional documentation system that proves you did real work: Before/after metrics, time breakdowns, recommendations for next month, and deliverable links all in **one simple Google Doc**.",
+      text: "The professional documentation system that proves you did real work",
       emphasized: false
     },
     {
@@ -138,11 +138,11 @@ const bulletsData = {
       emphasized: true
     },
     {
-      text: "How to handle the inevitable \"can you also do this?\" requests: The polite decline script that keeps you focused on cleanup work (not marketing, design, or coding).",
+      text: "How to handle the inevitable \"can you also do this?\" requests: The polite decline script that keeps you focused on cleanup work.",
       emphasized: false
     },
     {
-      text: "A little-known ConvertKit organization system that takes **30 minutes to set up** but saves clients hours every single month. (The secret: hierarchical tag naming with prefixes like SOURCE_, INTEREST_, STATUS_.)",
+      text: "A little-known ConvertKit organization system that takes **30 minutes to set up** but saves clients hours every single month.",
       emphasized: true
     },
     {
@@ -165,23 +165,23 @@ const bulletsData = {
   
   theMoney: [
     {
-      text: "The payment terms that protect you from non-payers: Due on the **1st of each month**, work pauses after 7 days without payment, no exceptions.",
+      text: "The payment terms that protect you from non-payers.",
       emphasized: false
     },
     {
-      text: "Why you should use PayPal for business clients and Venmo for casual ones—and the exact invoice template (page 134) that gets you paid within **24 hours**.",
+      text: "Payment Systems to use—and the exact invoice template (page 134) that gets you paid within **24 hours**.",
       emphasized: true
     },
     {
-      text: "How to price yourself at $600/month without sounding expensive: \"That's **$60/hour for 10 hours** of work that saves you 10 hours at $125/hour. You're saving $650/month by hiring me.\"",
+      text: "How to price yourself at $600/month without sounding expensive",
       emphasized: false
     },
     {
-      text: "The biggest mistake new cleanup workers make: Doing the same amount of work for less money when clients ask for a discount. (**NEVER**. Either reduce scope or decline.)",
+      text: "The biggest mistake new cleanup workers make",
       emphasized: true
     },
     {
-      text: "When to raise your rates: After client #3, charge new clients **$750**. After 6 months, **$900**. After 1 year, **$1,000-1,200**. Never raise rates on existing clients (unless you want to lose them).",
+      text: "When to raise your rates",
       emphasized: false
     },
     {
@@ -193,7 +193,7 @@ const bulletsData = {
       emphasized: false
     },
     {
-      text: "The three ways to scale past $2,000/month: Add more clients (more work), raise rates (same work, more money), or shift to **higher-value services** (different work entirely).",
+      text: "The three ways to scale past $2,000/month.",
       emphasized: true
     },
     {
@@ -201,7 +201,7 @@ const bulletsData = {
       emphasized: false
     },
     {
-      text: "What to do when a client is late on payment: **Day 3 reminder, day 7 pause work, day 14 fire them**. No exceptions. Your time is worth more than chasing deadlines.",
+      text: "What to do when a client is late on payment",
       emphasized: true
     },
     {
@@ -228,31 +228,31 @@ const bulletsData = {
       emphasized: false
     },
     {
-      text: "What to do when you accidentally delete something important: Stop immediately, assess damage, tell the client within **1 hour**, take full responsibility, offer to make it right. (Most clients will forgive you if you're honest.)",
+      text: "What to do when you accidentally delete something important or make a mistake.",
       emphasized: true
     },
     {
-      text: "The one type of work you should REFUSE no matter how much they offer: Highly technical integrations, custom coding, or anything that takes **10+ hours to learn**. (Stay in your lane.)",
+      text: "The one type of work you should REFUSE no matter how much they offer.",
       emphasized: false
     },
     {
-      text: "Page 145 reveals the \"bad client warning signs\": Late payments, constant scope creep, rude communication, micromanaging, complaining weekly. **Fire them after 2-3 months** if nothing improves.",
+      text: "Page 145 reveals the \"bad client warning signs\" (**Fire them after 2-3 months** if nothing improves.)",
       emphasized: true
     },
     {
-      text: "A stupid mistake that costs you money: Not tracking your hours. You think you worked 8 hours. You actually worked 12. You just **gave away 4 hours free**. Use a timer.",
+      text: "A stupid mistake that costs you money",
       emphasized: false
     },
     {
-      text: "Why you should NEVER compete on price: If someone wants to pay you **$300/month for 10 hours** of work, they're not a client—they're looking for cheap labor. Walk away.",
+      text: "Why you should NEVER compete on price",
       emphasized: true
     },
     {
-      text: "The burnout warning signs that mean you took on too much: You're working **25+ hours per week**, you're stressed about client work, you're sacrificing sleep. Drop a client immediately.",
+      text: "The burnout warning signs that mean you took on too much",
       emphasized: false
     },
     {
-      text: "What to do when a client is unhappy with your work: Listen without defending, ask clarifying questions, fix it or explain it, prevent future issues. Most complaints are **miscommunication**, not bad work.",
+      text: "What to do when a client is unhappy with your work",
       emphasized: true
     },
     {
@@ -264,11 +264,11 @@ const bulletsData = {
   closingCompression: [
     "How to use Loom to create professional work demonstrations without fancy video editing software",
     "The exact Facebook groups where overwhelmed business owners are literally ASKING for help right now",
-    "Why \"course creators\" and \"coaches\" are your best target clients (they have money but hate admin work)",
+    "Who are your best target clients",
     "A simple Notion template for tracking multiple clients without losing your mind",
     "The \"oh shit I made a mistake\" recovery script that saves your reputation",
-    "How to spot a time-waster in the first email (they ask 15 questions before agreeing to anything)",
-    "Why your LAST bullet in any list should be as strong as your first (people read book ends)"
+    "How to spot a time-waster in the first email",
+    "The truth about \"passive income\": This isn't it, but $1,200/month for 10 hours/week is pretty damn close."
   ]
 };
 
@@ -281,10 +281,10 @@ type BulletIcon = 'check' | 'arrow' | 'star' | 'check-bold' | 'bullet';
 
 const ICON_MAP: Record<BulletIcon, string> = {
   check: '✅',
-  arrow: '&#10140;',
+  arrow: `➜`,
   star: '⭐',
-  'check-bold': '&#10004;',
-  'bullet': '&#9679;',
+  'check-bold': '✔',
+  'bullet': '●',
 };
 
 
@@ -363,23 +363,48 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
 
 
 
+// const CompressionBullets: React.FC<CompressionBulletsProps> = ({
+//   bullets,
+// }) => (
+//   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg py-8">
+//     <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+//       {bullets.map((bullet, index) => (
+//         <span key={index}>
+//           <strong className="font-semibold text-gray-900">
+//             {bullet}
+//           </strong>
+//           {index < bullets.length - 1 && '... '}
+//         </span>
+//       ))}
+//     </p>
+//   </div>
+// );
+
+
 const CompressionBullets: React.FC<CompressionBulletsProps> = ({
   bullets,
 }) => (
-  <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
+  <div className="bg-gray-50 border-2 border-gray-200 rounded-lg py-8 px-6">
     <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-      {bullets.map((bullet, index) => (
-        <span key={index}>
-          <strong className="font-semibold text-gray-900">
-            {bullet}
-          </strong>
-          {index < bullets.length - 1 && '... '}
-        </span>
-      ))}
+      {bullets.map((bullet, index) => {
+        const isEmphasized = index % 2 === 0;
+
+        return (
+          <span key={index}>
+            {isEmphasized ? (
+              <strong className="font-semibold text-gray-900">
+                {bullet}
+              </strong>
+            ) : (
+              <span>{bullet}</span>
+            )}
+            {index < bullets.length - 1 && '... '}
+          </span>
+        );
+      })}
     </p>
   </div>
 );
-
 
 
 
@@ -390,11 +415,15 @@ const CompressionBullets: React.FC<CompressionBulletsProps> = ({
 const BulletsSection = ({ className = "" }) => {
   return (
     <section className={`py-16 md:py-24 bg-white ${className}`}>
-      <div className="max-w-5xl mx-auto px-6 md:px-12">
+        <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold mb-4">Here's exactly what you get:</h2>
+      </div>
+      <div className="max-w-5xl mx-auto">
+      {/* <div className="max-w-5xl mx-auto px-6 md:px-12"> */}
         
         {/* Opening Salvo Section */}
         <div className="mb-20">
-          <SectionHeader icon="⚡">Opening Salvo</SectionHeader>
+          {/* <SectionHeader icon="⚡">Opening Salvo</SectionHeader> */}
           <ul className="space-y-2">
             {bulletsData.openingSalvo.map((bullet, index) => (
               <BulletItem 
@@ -409,7 +438,7 @@ const BulletsSection = ({ className = "" }) => {
 
         {/* The System Section */}
         <div className="mb-20">
-          <SectionHeader icon="✓">The System (How This Actually Works)</SectionHeader>
+          <SectionHeader icon="✓">And that’s just the beginning.</SectionHeader>
           <ul className="space-y-2">
             {bulletsData.theSystem.map((bullet, index) => (
               <BulletItem 
@@ -424,7 +453,7 @@ const BulletsSection = ({ className = "" }) => {
 
         {/* The Work Section */}
         <div className="mb-20">
-          <SectionHeader icon="▶">The Work (What You'll Actually Do)</SectionHeader>
+          <SectionHeader icon="▶">Keep reading… it’s about to get even better."</SectionHeader>
           <ul className="space-y-2">
             {bulletsData.theWork.map((bullet, index) => (
               <BulletItem 
@@ -439,7 +468,7 @@ const BulletsSection = ({ className = "" }) => {
 
         {/* The Money Section */}
         <div className="mb-20">
-          <SectionHeader icon="$">The Money (Getting Paid & Scaling)</SectionHeader>
+          <SectionHeader icon="$">Just when you thought it couldn’t get better…</SectionHeader>
           <ul className="space-y-2">
             {bulletsData.theMoney.map((bullet, index) => (
               <BulletItem 
@@ -454,7 +483,7 @@ const BulletsSection = ({ className = "" }) => {
 
         {/* The Truth Section */}
         <div className="mb-20">
-          <SectionHeader icon="⚠">The Truth (What NOT To Do & "Oh Shit" Moments)</SectionHeader>
+          <SectionHeader icon="⚠">Let’s go even further.</SectionHeader>
           <ul className="space-y-2">
             {bulletsData.theTruth.map((bullet, index) => (
               <BulletItem 
@@ -469,7 +498,7 @@ const BulletsSection = ({ className = "" }) => {
 
         {/* Closing Compression Section */}
         <div>
-          <SectionHeader icon="★">Closing Compression (Rapid-Fire Finale)</SectionHeader>
+          <SectionHeader icon="★">And this is where it gets real.</SectionHeader>
           <CompressionBullets bullets={bulletsData.closingCompression} />
         </div>
 
