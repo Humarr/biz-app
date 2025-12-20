@@ -139,13 +139,14 @@ export default function SalesPage() {
             So, let me redefine something for you.
             </h2>
           <div className="space-y-6  leading-relaxed">
-            <p>You see... when people talk about "making money online," they're always talking about these insane numbers. "$10k months!" "$100k years!" "Financial freedom!"</p>
+            <p>You see... when people talk about "making money online," they're always talking about these insane numbers. <span className="italic">"$10k months!" "$100k years!" "Financial freedom!"</span></p>
 
-            <p>And when you hear those numbers, you know what happens? You stop listening. Because it's so far from your reality that it sounds like science fiction.</p>
+            <p>And when you hear those numbers, you know what happens? </p>
+            <p>You stop listening. Because it's so far from your reality that it sounds like science fiction.</p>
 
             <p>But what if we made the goal something different?</p>
 
-            <p className='text-2xl my-8 font-bold text-center'>What if the goal was just: $800 to $1,500 extra per month.</p>
+            <h3 className='text-2xl my-12 font-bold text-center'>What if the goal was just: $800 to $1,500 extra per month.</h3>
 
             <p>That's it.</p>
 
