@@ -43,7 +43,8 @@ export default function SalesPage() {
 
           <h2 className="text-3xl text-red-600 text-center">You're so fucking tired.</h2>
 
-          <p>And the worst part? You feel stupid. Like you're just not smart enough to figure this out. Everyone else seems to be making it work... </p>
+          <p>And the worst part? </p>
+          <p>You feel stupid. Like you're just not smart enough to figure this out while everyone else seems to be making it work... </p>
           <p> &#10132; Your friends who got help from their parents.</p>
           <p>&#10132; The people on social media making "six figures with digital products."</p>
           <p> &#10132; The gurus selling courses.</p>
