@@ -196,7 +196,10 @@ export default function SalesPage() {
 
         {/* The actual method section */}
         <div className="my-12">
-           <p>And now, as you’re about to see…</p>
+            <p>And now, as you’re about to see…</p>
+          <h2 className="text-3xl my-16 font-bold text-center">HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)</h2>
+     <div className="max-w-3xl mx-auto space-y-8 leading-relaxed">
+    <p>And now, as you’re about to see…</p>
 
     <h2 className="text-3xl md:text-4xl font-bold text-center my-16">
       HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)
@@ -222,7 +225,6 @@ export default function SalesPage() {
 
     <p className="text-center">You need something that:</p>
   </div>
-          </div>
           
           {/* Requirements list with different unicode icons */}
           <div className="my-8 space-y-3">
