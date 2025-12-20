@@ -185,7 +185,7 @@ export default function SalesPage() {
           </div>
           
           <div className="space-y-6  leading-relaxed">
-            <p className='font-bold text-2xl my-8 text-center'>You're not rich. You're just... not suffering anymore.</p>
+            <h3 className='font-bold text-2xl my-16 text-center'>You're not rich. You're just... not suffering anymore.</h3>
             <p>And here's the thing nobody tells you: Getting from broke to breathing room is 1,000 times easier than getting from breathing room to rich.</p>
             <p>Because you don't need a miracle. You don't need to create the next Facebook. You don't need to go viral. You don't need luck.</p>
             <h2 className='text-3xl my-16 font-bold text-center'>You just need a method that actually works for people like us.</h2>
