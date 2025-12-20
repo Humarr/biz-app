@@ -507,7 +507,7 @@ export default function SalesPage() {
               <p className="font-fun italic text-gray-700">"Hey [Name], I saw you're running [their business]. I do client cleanup work for small online businesses—organizing customer data, cleaning email lists, handling basic admin work. I currently work with [first client's business name/industry]. I have room for one more client at $600/month for 10 hours of work. Would you be interested in a quick call to see if it's a fit?"</p>
             </div>
             <p>This converts at 10-15%. Out of 20 messages, 2-3 want to talk. 1 becomes a client.</p>
-            <h3 className="font-semibold text-center text-2xl">STEP 4: Maintaining 2 clients</h3>
+            <h3 className="font-semibold text-center text-2xl">STEP 5: Maintaining 2 clients</h3>
             <p>You now have 2 clients. $1,200/month.</p>
             <p>You work:</p>
           </div>
