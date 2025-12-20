@@ -79,7 +79,12 @@ body {
   color: var(--primary);
   /* font-family: var(--font-lato); */
   /* font-family: var(--font-roboto); */
-  line-height: 1.7;
+   line-height: 1.8;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  color: #2c2c2c;
 }
 
 h1,
