@@ -26,7 +26,10 @@ export default function SalesPage() {
 
           <p>And every single month, you're wrong.</p>
 
-          <p>You've tried everything. Extra hours at work. Side hustles. Selling stuff you don't need.</p>
+          <p>&#9675; You've tried everything.</p>
+          <p>&#9675; Extra hours at work.</p>
+          <p>&#9675; Side hustles.</p>
+          <p>&#9675; Selling stuff you don't need.</p>
           <p>Plus, you've watched every Alex Hormozi video, every Grant Cardone clip, every Iman Gadzhi promise about "high income skills."</p>
           <p>Also, you've budgeted. You've cut expenses down to nothing. You don't go out. You don't buy anything. You've eliminated everything except rent, car, phone, and groceries.</p>
           <p>And yet... you're STILL broke.</p>
@@ -35,10 +38,10 @@ export default function SalesPage() {
 
           <p>The constant worry is killing you. No, you're not worried about the work—you can handle the work. </p>
           <p>But you're burnt out from constantly thinking about money.</p>
-          <p>From checking your bank account with that sick feeling in your stomach. </p>
-          <p>From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
+          <p>&#10132; From checking your bank account with that sick feeling in your stomach. </p>
+          <p>&#10132; From that panic when someone invites you out and you have to make up an excuse because you literally cannot afford a $12 burger.</p>
 
-          <p>You're so fucking tired.</p>
+          <h2 className="text-3xl text-red-600 text-center">You're so fucking tired.</h2>
 
           <p>And the worst part? You feel stupid. Like you're just not smart enough to figure this out. Everyone else seems to be making it work... </p>
           <p> &#10132; Your friends who got help from their parents.</p>
@@ -374,7 +377,7 @@ export default function SalesPage() {
 
         {/* Exactly how it works section */}
         <div className="my-12">
-          <h2 className="text-3xl my-8 font-bold text-center my-8">SO HERE'S EXACTLY HOW IT WORKS</h2>
+          <h2 className="text-3xl my-12 font-bold text-center">SO HERE'S EXACTLY HOW IT WORKS</h2>
           <div className="space-y-6  leading-relaxed">
             <p>Let me walk you through the exact steps. No vague bullshit. The actual tactical process.</p>
             <h2 className="font-semibold text-center text-2xl">STEP 1: Finding your first client</h2>
