@@ -942,7 +942,7 @@ export default function SalesPage() {
            <a href="https://selar.com/cleanup">
 
             <button className="bg-red-600 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-red-800 transition-colors w-full sm:w-auto cursor-pointer">
-              I WANT TO STOP SUFFERING - GIVE ME THE BLUEPRINT HERE
+              I WANT TO STOP SUFFERING - GIVE ME THE BLUEPRINT NOW
               {/* STOP SUFFERING - GET THE BLUEPRINT HERE */}
             </button>
            </a>
