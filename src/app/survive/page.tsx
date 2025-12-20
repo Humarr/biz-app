@@ -196,8 +196,7 @@ export default function SalesPage() {
 
         {/* The actual method section */}
         <div className="my-12">
-            <p>And now, as you’re about to see…</p>
-          <h2 className="text-3xl my-16 font-bold text-center">HERE'S WHAT ACTUALLY WORKS (AND WHY YOU HAVEN'T HEARD OF IT)</h2>
+        
      <div className="max-w-3xl mx-auto space-y-8 leading-relaxed">
     <p>And now, as you’re about to see…</p>
 
