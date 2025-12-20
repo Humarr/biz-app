@@ -22,7 +22,7 @@ export default function SalesPage() {
           <p>Look, I don't know you.</p>
           <p>But I'm going to guess some things about your life right now, and you tell me if I'm wrong.</p>
           <p>You get paid on Friday. By Tuesday, you're broke. Maybe not actually zero—but close enough that you're doing that math in your head. "Can I afford gas AND groceries? Or do I pick one?"</p>
-          <p className='text-2xl my-8 font-bold text-center'>Every single month, you tell yourself: <span className='italic'>"This is it. This is the worst it'll get. Next month will be different."</span></p>
+          <h3 className='text-2xl my-8 font-bold text-center'>Every single month, you tell yourself: <span className='italic'>"This is it. This is the worst it'll get. Next month will be different."</span></h3>
 
           <p>And every single month, you're wrong.</p>
 
@@ -80,32 +80,35 @@ export default function SalesPage() {
             
             <p>You know why?</p>
 
-            <p className='font-bold text-2xl my-8 text-center'>Because I tried all of it. And it's all the same scam in different packaging.</p>
+            <h3 className='font-bold text-2xl my-12 text-center'>Because I tried all of it. And it's all the same scam in different packaging.</h3>
 
             <p>Grant Cardone? Snake oil salesman. Dude's been indicted for fraud multiple times. </p>
             <p> Alex Hormozi? He makes his money selling you courses on how to make money.</p>
             <p> Iman Gadzhi? Same thing. They're in the business of selling you a dream.</p>
 
 
-            <p className='font-bold '>Here's how the scam works:</p>
+            <h3 className='font-bold text-xl text-center '>Let me show you how the scam works:</h3>
 
 
             <p>They show you their lifestyle. The cars. The houses. The watches. They tell you they made it with [INSERT METHOD HERE].</p>
             <p>They sell you a course for $997, $1997, $2997.</p>
-            <p>The course tells you to start a business that requires: money you don't have, time you don't have, skills you don't have, and luck you DEFINITELY don't have.</p>
+            <p>The course tells you to start a business that requires: </p>
+            <p>money you don't have, time you don't have, skills you don't have, and luck you DEFINITELY don't have.</p>
 
-            <p>And when it doesn't work? They tell you it's your fault. You didn't work hard enough. You didn't believe enough. You didn't take enough action.</p>
+            <p>And when it doesn't work? </p>
+            <p>They tell you it's your fault. You didn't work hard enough. You didn't believe enough. You didn't take enough action.</p>
 
-            <p>Bullshit.</p>
+            <p className="font-bold">Bullshit.</p>
 
-            <p className='font-bold text-2xl my-8 text-center'>Want to know the real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</p>
+            <h3 className='font-bold text-2xl my-12 text-center'>Want to know the real truth? They make their money from the COURSE. Not from the method they're teaching. The course IS the business.</h3>
 
             <p>And here's the thing that made me want to break shit:</p>
             <p className='italic '> I KNEW it was a scam. I knew it, and I still kept falling for it. </p>
             <p>Because when you're desperate, you'll try anything. When you're suffocating, you'll grab at any hand reaching down—even if you know it's probably going to let go.</p>
 
 
-            <p>So let me be crystal clear about what I'm NOT selling you:</p>
+            <h3 className="text-2xl text-center font-bold">So let me be crystal clear about what I'm NOT saying:</h3>
+            {/* <h3>So let me be crystal clear about what I'm NOT selling you:</h3> */}
           </div>
           
           <CheckmarkList />
