@@ -352,7 +352,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
   children,
   icon,
 }) => (
-  <div className="mb-8 pb-4 border-b-2 border-gray-200">
+  <div className="mb-8 pb-4 border-b-2 border-gray-200 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 flex items-center gap-3">
       {icon && <span className="text-gray-400">{icon}</span>}
       {children}
@@ -453,7 +453,7 @@ const BulletsSection = ({ className = "" }) => {
 
         {/* The Work Section */}
         <div className="mb-20">
-          <SectionHeader icon="▶">Keep reading… it’s about to get even better."</SectionHeader>
+          <SectionHeader icon="▶">Keep reading… it’s about to get even better.</SectionHeader>
           <ul className="space-y-2">
             {bulletsData.theWork.map((bullet, index) => (
               <BulletItem 
