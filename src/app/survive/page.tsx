@@ -371,7 +371,7 @@ export default function SalesPage() {
           <h2 className="text-3xl my-8 font-bold text-center my-8">SO HERE'S EXACTLY HOW IT WORKS</h2>
           <div className="space-y-6  leading-relaxed">
             <p>Let me walk you through the exact steps. No vague bullshit. The actual tactical process.</p>
-            <p className="font-semibold text-xl">WEEK 1: Finding your first client</p>
+            <h2 className="font-semibold text-center text-2xl">STEP 1: Finding your first client</h2>
             <p>You're not going to like this, but: You're going to work for free for the first one.</p>
             <p>I know. I know. But here's why:</p>
             <p>You need a testimonial. You need to say "I've done this before" when client #2 asks. And you need to learn the actual work without pressure.</p>
@@ -399,10 +399,11 @@ export default function SalesPage() {
 
           <div className="space-y-6  leading-relaxed">
             <p>You send them this message (copy it word for word):</p>
-            <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-200">
+            <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-800">
               <p className="font-fun italic text-gray-700">"Hey [Name], I saw you're running [their business]. I'm working on building up client cleanup work experience, and I'd like to offer you 5 hours of work for free. I can clean up your email list, organize your customer data, handle basic customer service, or tackle whatever admin work is piling up. No strings attached. If you like the work, we can talk about ongoing paid work. If not, no worries—you got 5 free hours. Interested?"</p>
             </div>
-            <p className="font-semibold">Here's why this works:</p>
+            <p className="font-semibold">Look, this will surely work beacuse...</p>
+            {/* <p className="font-semibold">Here's why this works:</p> */}
           </div>
 
           <div className="my-6 space-y-3">
@@ -427,7 +428,7 @@ export default function SalesPage() {
           <div className="space-y-6  leading-relaxed">
             <p>You send this to 20 people. 3-5 will respond. 1-2 will say yes.</p>
 
-            <p className="font-semibold text-xl">WEEK 2-3: Doing the free work</p>
+            <h2 className="font-semibold text-center text-2xl">STEP 2: Doing the free work</h2>
             <p>They'll give you access to their systems. Usually:</p>
           </div>
 
@@ -464,18 +465,18 @@ export default function SalesPage() {
             <p>You do this for 5 hours. You document everything you did in a simple Google Doc. You send it to them: "Here's what I cleaned up. Here's what I found. Here's what I'd recommend doing next."</p>
 
 
-            <p className="font-semibold text-xl">WEEK 4: Getting testimonial + first paid client</p>
+            <h2 className="font-semibold text-center text-2xl">STEP 3: Getting testimonial + first paid client</h2>
 
-            <p>After the free work, you ask: "If you're happy with the work, would you mind giving me a quick testimonial I can use?"</p>
+            <p>After the free work, you ask: <span className="italic">"If you're happy with the work, would you mind giving me a quick testimonial I can use?"</span></p>
 
             <p>They say yes. Now you have proof.</p>
 
-            <p>You also ask: "Would you like me to continue on a paid basis? I do $600/month for 10 hours of work like this."</p>
+            <p>You also ask: <span className="italic">"Would you like me to continue on a paid basis? I do $600/month for 10 hours of work like this."</span></p>
 
             <p>50% of the time, they say yes. That's your first paid client.</p>
 
 
-            <p className="font-semibold text-xl">WEEK 5-8: Getting client #2</p>
+            <h2 className="font-semibold text-center text-2xl">STEP 4: Getting client #2</h2>
             <p>Now you have a testimonial. You have proof you've done this before.</p>
             <p>You send the same message to 20 more people. But now you modify it:</p>
             <div className="shadow-xl p-6 rounded-lg my-4 border border-gray-200">
@@ -621,7 +622,7 @@ export default function SalesPage() {
 
         {/* But wait section */}
         <div className="my-12">
-          <h2 className="text-3xl my-8 font-bold text-center my-8">"BUT WAIT, I DON'T KNOW HOW TO DO ANY OF THIS"</h2>
+          <h2 className="text-3xl my-8 font-bold text-center">"BUT WAIT, I DON'T KNOW HOW TO DO ANY OF THIS"</h2>
           <div className="space-y-6  leading-relaxed">
             <p>Yes, you do.</p>
             <p>Can you use email? Then you can do customer service.</p>
@@ -629,7 +630,7 @@ export default function SalesPage() {
             <p>Can you use Facebook? Then you can clean up an email list (it's literally the same complexity).</p>
             <p>The work is NOT hard. It's just boring. That's why people will pay you to do it.</p>
 
-            <p className="text-3xl my-8 font-bold text-center">But let me address the real fear underneath that question.</p>
+            <h2 className="text-3xl my-8 font-bold text-center">But let me address the real fear underneath that question.</h2>
 
             <p>You're not actually worried about whether you CAN do it. You're worried about looking stupid. About failing. About trying something else and having it not work AGAIN.</p>
             <p className='font-bold'>I get it.</p>
@@ -648,7 +649,7 @@ export default function SalesPage() {
 
             <p>And the truth is...</p>
 
-            <p className="text-3xl my-8 font-bold text-center">You're not avoiding failure by not trying this. You're just staying in the failure you already know.</p>
+            <h2 className="text-3xl my-8 font-bold text-center">You're not avoiding failure by not trying this. You're just staying in the failure you already know.</h2>
 
             <p>This is a different kind of failure risk. If you try this and it doesn't work, you're out... what? 10 hours? And then you're back exactly where you are now.</p>
 
