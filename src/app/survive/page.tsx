@@ -828,7 +828,7 @@ export default function SalesPage() {
             </div>
             <p>Why? Because if you actually follow this and it doesn't work, then I'm wrong. And I should pay you for wasting your time.</p>
 
-            <p className="text-xl font-bold">But here's the thing: It will work.</p>
+            <h4 className="text-xl font-bold">But here's the thing: It will work.</h4>
 
             <p>Because it worked for me. And I'm not special. I'm not smart. I don't have advantages you don't have.</p>
             <p>I was just tired of being broke. And I found something that actually works.</p>
@@ -842,6 +842,7 @@ export default function SalesPage() {
   href="https://selar.com/cleanup"
   subtext="One-time payment • 90-day guarantee"
   variant="danger" // Red button like your original
+  size='large'
 />
 
         {/* The Choice section */}
