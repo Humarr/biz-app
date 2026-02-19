@@ -31,6 +31,7 @@ For Nigerians who are done earning in a currency that works against them</div>
 {/* <!-- STORY --> */}
 <section className="lead">
   <div className="wrap">
+    <p>Dear Friend,</p>
     <p>If you'd like to know how ordinary Nigerians — with no special connections, no foreign degree, and no startup capital — are quietly building $300 to $500 monthly dollar income streams from their laptops and phones through freelance writing...
         </p>
         <p>

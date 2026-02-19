@@ -61,7 +61,7 @@
   .hero h1 em { font-style: italic; color: var(--gold-light); }
   .hero-sub {
     font-size: clamp(16px, 2.5vw, 21px);
-    color: #c8bfb0;
+    color: #f7f4ee;
     max-width: 640px;
     margin: 0 auto 48px;
     font-weight: 300;
