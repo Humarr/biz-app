@@ -52,7 +52,7 @@ export default function SalesPage() {
     <div className="scene-break">&#10022;</div>
 
     <p>I've been thinking about that gazelle a lot lately.</p>
-    <p>Because most Nigerians trying to build income in 2025 are playing the lion's game.</p>
+    <p>Because most Nigerians trying to build income in 2026 are playing the lion's game.</p>
     <p>Competing on the lion's terms — trying to out-capital people with more capital. Out-network people with stronger networks. Out-credential people with fancier degrees. Outrun a system that was never designed to let them win.</p>
     <p>And losing. The way gazelles are <em>supposed</em> to lose.</p>
     <p>But there is another way.</p>
@@ -104,7 +104,7 @@ export default function SalesPage() {
       <p>The gazelle didn't beat the lion by becoming stronger. It won by refusing to play its assigned role. Dollar freelancing is how you refuse yours.</p>
     </div>
 
-    <p>But here's the part that changes everything for 2025 specifically:</p>
+    <p>But here's the part that changes everything for 2026 specifically:</p>
     <p>You now have access to AI writing tools — Claude, ChatGPT — that can multiply your output by three, four, five times. A writer who used to produce three articles a week can now produce ten at the same quality. A beginner who worried about blank-page anxiety can generate a working draft in minutes and edit from there.</p>
     <p>The playing field has shifted. The tools are available. The clients exist. The payment infrastructure — Payoneer, Grey, Wise — works for Nigerians.</p>
     <p>Everything needed to build a $300–$500 monthly dollar income stream is available right now.</p>
@@ -393,7 +393,7 @@ export default function SalesPage() {
 </section>
 
 <footer>
-  <p>&#169; 2025 Dollar Hustle &nbsp;&#x00B7;&nbsp; All Rights Reserved &nbsp;&#x00B7;&nbsp; Questions? Contact us at humfadstudios@gmail.com</p>
+  <p className="text-gray-400">&#169; 2026 Dollar Hustle &nbsp;&#x00B7;&nbsp; All Rights Reserved &nbsp;&#x00B7;&nbsp; Questions? Contact us at humfadstudios@gmail.com</p>
 </footer>
 
 {/* </body>
