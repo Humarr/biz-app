@@ -393,7 +393,7 @@ export default function SalesPage() {
 </section>
 
 <footer>
-  <p>&#169; 2025 Dollar Hustle &nbsp;&#x00B7;&nbsp; All Rights Reserved &nbsp;&#x00B7;&nbsp; Questions? Contact us at [YOUR EMAIL]</p>
+  <p>&#169; 2025 Dollar Hustle &nbsp;&#x00B7;&nbsp; All Rights Reserved &nbsp;&#x00B7;&nbsp; Questions? Contact us at humfadstudios@gmail.com</p>
 </footer>
 
 {/* </body>
