@@ -18,13 +18,31 @@ export default function SalesPage() {
 
 {/* <!-- HERO --> */}
 <div className="hero">
-  <div className="hero-eyebrow">A message for Nigerians who are done waiting</div>
-  <h1>The Goat That Broke<br/>the <em>Lion's</em> Jaw</h1>
+  <div className="hero-eyebrow">A message 
+For Nigerians who are done earning in a currency that works against them</div>
+  {/* <h1>The Goat That Broke<br/>the <em>Lion's</em> Jaw</h1> */}
+  <h1>Are You Done Watching The Naira <em>Eat Your Income</em> While Other Nigerians Quietly Build Dollar Streams From Their Phones?</h1>
   <div className="hero-rule"></div>
-  <p className="hero-sub">And what a 130-kilogram apex predator in the Serengeti has to do with your dollar income</p>
+  <p className="hero-sub">The answer has nothing to do with Japa, a lucky connection, or a capital you don't have — and everything to do with a variable the system has no answer for</p>
+  {/* <p className="hero-sub">And what a 130-kilogram apex predator in the Serengeti has to do with your dollar income</p> */}
 </div>
 
 
+{/* <!-- STORY --> */}
+<section className="lead">
+  <div className="wrap">
+    <p>If you'd like to know how ordinary Nigerians — with no special connections, no foreign degree, and no startup capital — are quietly building $300 to $500 monthly dollar income streams from their laptops and phones through freelance writing...
+        </p>
+        <p>
+
+Then here is how a lioness in Tanzania's Serengeti accidentally taught me the most important lesson about income I've ever learned — and why I believe you can use the same principle to start earning in dollars within the next 30 to 60 days.
+        </p>
+<p>
+It starts with a gazelle that refused to die the way it was supposed to.</p>
+   
+    </div>
+    </section>
+    
 {/* <!-- STORY --> */}
 <section className="story">
   <div className="wrap">
@@ -92,7 +110,7 @@ export default function SalesPage() {
 {/* <!-- SOLUTION --> */}
 <section className="solution">
   <div className="wrap">
-    <div className="section-label">The Variable The Lion Has No Answer For</div>
+    <div className="section-label2">The Variable The Lion Has No Answer For</div>
     <h2>Dollar Income. From Your Laptop.<br/>Without Leaving Nigeria.</h2>
 
     <p>The variable is a skill. Specifically — writing. Content writing for international businesses that need words the same way they need oxygen.</p>
@@ -117,7 +135,7 @@ export default function SalesPage() {
 {/* <!-- WHAT'S INSIDE --> */}
 <section className="inside">
   <div className="wrap-wide">
-    <div className="section-label text-center" >What's Inside</div>
+    <div className="section-label2 text-center" >What's Inside</div>
     <h2 className="text-center max-w-[560px] mt-0 mx-auto mb-3">Everything You Need.<br/>Nothing You Don't.</h2>
     <p className="text-center text-[var(--muted)] max-w-[480px] mx-auto text-[17px]"
 >10 chapters. Zero fluff. Written entirely for the Nigerian context.</p>
@@ -171,7 +189,7 @@ export default function SalesPage() {
 {/* <!-- FOR WHO --> */}
 <section className="for-who">
   <div className="wrap">
-    <div className="section-label">Is This For You?</div>
+    <div className="section-label2">Is This For You?</div>
     <h2>Let's Be Honest<br/>With Each Other.</h2>
     <p>This book will change the financial trajectory of the right person. But it is not for everyone — and I'd rather tell you that directly than waste your time or mine.</p>
 
@@ -235,7 +253,7 @@ export default function SalesPage() {
 {/* <!-- OFFER STACK --> */}
 <section className="offer-stack">
   <div className="wrap">
-    <div className="section-label">What You Get</div>
+    <div className="section-label2">What You Get</div>
     <h2>Here's Everything<br/>Inside Your Order</h2>
 
     <div className="stack-item">
@@ -312,7 +330,7 @@ export default function SalesPage() {
 {/* <!-- OBJECTIONS --> */}
 <section className="objections">
   <div className="wrap">
-    <div className="section-label">Real Questions, Real Answers</div>
+    <div className="section-label2">Real Questions, Real Answers</div>
     <h2>What You're Probably<br/>Thinking Right Now</h2>
 
     <div className="objection">
@@ -355,7 +373,7 @@ export default function SalesPage() {
 {/* <!-- CLOSE --> */}
 <section className="close-section">
   <div className="wrap">
-    <div className="section-label">One Last Thing</div>
+    <div className="section-label2">One Last Thing</div>
     <h2>The Gazelle Made A Choice.</h2>
 
     <p>It didn't grow teeth. It didn't become something it wasn't. It simply refused to behave the way the lion expected — and that refusal changed everything.</p>

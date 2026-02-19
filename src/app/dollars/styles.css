@@ -3,7 +3,8 @@
     --paper: #f7f3ec;
     --cream: #ede8df;
     --gold: #b8860b;
-    --gold-light: #d4a017;
+    --gold-light: #f3c245;
+    /* --gold-light: #d4a017; */
     --red: #8b1a1a;
     --muted: #6b6358;
     --rule: #c8bfb0;
@@ -79,6 +80,15 @@
   .wrap-wide { max-width: 860px; margin: 0 auto; padding: 0 24px; }
   section { padding: 64px 0; }
 
+  .lead { background: var(--paper); }
+  .lead p { margin-bottom: 1.5em; font-size: 19px; line-height: 1.85; }
+  .lead p:first-child::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 5em; font-weight: 900;
+    float: left; line-height: 0.75;
+    margin: 0.1em 0.08em 0 0;
+    color: var(--gold);
+  }
   .story { background: var(--paper); }
   .story p { margin-bottom: 1.5em; font-size: 19px; line-height: 1.85; }
   .story p:first-child::first-letter {
@@ -109,7 +119,13 @@
 
   .section-label {
     font-family: 'DM Mono', monospace;
-    font-size: 10px; letter-spacing: 0.3em;
+    font-size: 12px; letter-spacing: 0.3em;
+    text-transform: uppercase; color: var(--gold-light);
+    margin-bottom: 16px;
+  }
+  .section-label2 {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px; letter-spacing: 0.3em;
     text-transform: uppercase; color: var(--gold);
     margin-bottom: 16px;
   }
