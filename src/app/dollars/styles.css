@@ -162,7 +162,7 @@
   .stat .lbl {
     font-family: 'DM Mono', monospace;
     font-size: 11px; letter-spacing: 0.2em;
-    color: #888; text-transform: uppercase;
+    color: #c2c0c0; text-transform: uppercase;
     margin-top: 8px; display: block;
   }
 
@@ -225,7 +225,7 @@
     font-weight: 900; color: var(--gold-light);
     display: block; line-height: 1;
   }
-  .proof-num .desc { font-size: 13px; color: #888; margin-top: 10px; line-height: 1.5; display: block; }
+  .proof-num .desc { font-size: 13px; color: #d8d5d5; margin-top: 10px; line-height: 1.5; display: block; }
 
   .offer-stack { background: var(--cream); padding: 80px 24px; }
   .stack-item { display: flex; gap: 28px; padding: 32px 0; border-bottom: 1px solid var(--rule); align-items: flex-start; }
@@ -255,7 +255,7 @@
   }
   .price-was {
     font-family: 'DM Mono', monospace; font-size: 13px;
-    color: #666; text-decoration: line-through;
+    color: #c2c0c0; text-decoration: line-through;
     letter-spacing: 0.1em; margin-bottom: 8px;
   }
   .price-now {
@@ -266,13 +266,13 @@
   .price-currency { font-size: 32px; vertical-align: super; }
   .price-note {
     font-family: 'DM Mono', monospace; font-size: 11px;
-    color: #666; letter-spacing: 0.2em;
+    color: #c2c0c0; letter-spacing: 0.2em;
     text-transform: uppercase; margin-top: 12px;
   }
   .price-reframe {
     margin-top: 32px; padding-top: 32px;
     border-top: 1px solid rgba(255,255,255,0.1);
-    font-size: 15px; color: #888; line-height: 1.7;
+    font-size: 15px; color: #c2c0c0; line-height: 1.7;
   }
   .price-reframe strong { color: var(--paper); }
 
@@ -290,7 +290,7 @@
   .cta-sub {
     display: block;
     font-family: 'DM Mono', monospace; font-size: 11px;
-    color: #666; letter-spacing: 0.2em; margin-top: 14px;
+    color: #c2c0c0; letter-spacing: 0.2em; margin-top: 14px;
   }
 
   .guarantee { background: var(--paper); padding: 80px 24px; }
