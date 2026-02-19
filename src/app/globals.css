@@ -83,6 +83,7 @@ body {
   /* max-width: 700px; */
   /* margin: 40px auto; */
   /* padding: 20px; */
+  font-family: var(--font-headline2), Georgia, var(--font-modern);
   background-color: #fafafa;
   color: #2c2c2c;
 }
@@ -123,7 +124,7 @@ h4 {
   } */
   
   p {
-  font-family: Georgia, var(--font-modern);
+  /* font-family: Georgia, var(--font-modern); */
   margin-bottom: 1.5rem;
 
 } 
