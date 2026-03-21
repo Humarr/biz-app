@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function SalesPage2() {
   return (
-    <div className="bg-white text-gray-900 font-sans">
+    <div className="bg-white text-gray-900 font">
       {/* Hero Section */}
       <section className="py-6 px-4 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
